@@ -1,0 +1,241 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.867; Version 2004; 64bit' Language: 'ko' Physical Memory: 8067 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/user/Desktop/ShootingRun
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54069
+Successfully changed project path to: C:/Users/user/Desktop/ShootingRun
+C:/Users/user/Desktop/ShootingRun
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/ShootingRun/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005292 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.784 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.150 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.2 MB.
+System memory in use after: 183.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1712.
+Total: 7.986500 ms (FindLiveObjects: 0.265300 ms CreateObjectMapping: 0.155200 ms MarkObjects: 1.761300 ms  DeleteObjects: 5.803400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/3.AnimatorController/Player.controller
+  artifactKey: Guid(2e2cb6c6aa50f2f40bb2cfae9b3ec9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.AnimatorController/Player.controller using Guid(2e2cb6c6aa50f2f40bb2cfae9b3ec9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ec76a7801133d893fa27cdce32649f') in 0.084641 seconds
+  Import took 0.087599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.257523 seconds.
+  path: Assets/Toon/Editor
+  artifactKey: Guid(093cb430087771d4b821016f6d720e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Editor using Guid(093cb430087771d4b821016f6d720e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdb023810210127556c07c155dde0e1') in 0.016067 seconds
+  Import took 0.018711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.472548 seconds.
+  path: Assets/Toon/Shader
+  artifactKey: Guid(ad417645f682ca346b6762e2619802be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Shader using Guid(ad417645f682ca346b6762e2619802be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc337b7998c0c4772a6c21367ed7c17') in 0.013461 seconds
+  Import took 0.016278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.705258 seconds.
+  path: Assets/Toon/Shader/Tess
+  artifactKey: Guid(10114594bf7cd5142aae80ce7267b41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Shader/Tess using Guid(10114594bf7cd5142aae80ce7267b41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a238ca5383483cf30f0543f453f504') in 0.017293 seconds
+  Import took 0.020078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.105559 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess.shader
+  artifactKey: Guid(f0b2fc9b8a189134da9c7d24f361caf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess.shader using Guid(f0b2fc9b8a189134da9c7d24f361caf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb33d9a7fec51b6eea53968d2b62fd27') in 0.025788 seconds
+  Import took 0.029576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.875995 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess.shader
+  artifactKey: Guid(f0b2fc9b8a189134da9c7d24f361caf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess.shader using Guid(f0b2fc9b8a189134da9c7d24f361caf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb33d9a7fec51b6eea53968d2b62fd27') in 0.010655 seconds
+  Import took 0.013170 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001567 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1153 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.5 MB.
+System memory in use after: 173.8 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1715.
+Total: 7.130600 ms (FindLiveObjects: 0.202400 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.604700 ms  DeleteObjects: 5.276300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.207130 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader
+  artifactKey: Guid(c4aed8662ca0f194284f3ab649e66d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader using Guid(c4aed8662ca0f194284f3ab649e66d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee67201f165ebf796be7778860547108') in 0.022258 seconds
+  Import took 0.024496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.861696 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader
+  artifactKey: Guid(8c94ee3046ef0574f87f6b658b4e4691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader using Guid(8c94ee3046ef0574f87f6b658b4e4691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f23abc28482144ef33f8f4f784ebc9b') in 0.010277 seconds
+  Import took 0.014713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader
+  artifactKey: Guid(8c94ee3046ef0574f87f6b658b4e4691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader using Guid(8c94ee3046ef0574f87f6b658b4e4691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f23abc28482144ef33f8f4f784ebc9b') in 0.006834 seconds
+  Import took 0.009498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.777431 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess.shader
+  artifactKey: Guid(1f248db3b28fc5f44aabd7aca618bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess.shader using Guid(1f248db3b28fc5f44aabd7aca618bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454da2949ffc48f496ac67efac5fd9f9') in 0.014594 seconds
+  Import took 0.018424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000883 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess.shader
+  artifactKey: Guid(1f248db3b28fc5f44aabd7aca618bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess.shader using Guid(1f248db3b28fc5f44aabd7aca618bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454da2949ffc48f496ac67efac5fd9f9') in 0.017864 seconds
+  Import took 0.020670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.563609 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader
+  artifactKey: Guid(f937ea4ce96dfbe448afc0fb671198e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader using Guid(f937ea4ce96dfbe448afc0fb671198e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e941c6faf4e9827e6e9f423c0035910') in 0.012184 seconds
+  Import took 0.014914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003065 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader
+  artifactKey: Guid(f937ea4ce96dfbe448afc0fb671198e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader using Guid(f937ea4ce96dfbe448afc0fb671198e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e941c6faf4e9827e6e9f423c0035910') in 0.007509 seconds
+  Import took 0.010002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.227043 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_StencilOut.shader
+  artifactKey: Guid(18c9172cdf36a344f9aca9bbc0e7002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_StencilOut.shader using Guid(18c9172cdf36a344f9aca9bbc0e7002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd641b548cdcfa193f0d5c4723a025d2a') in 0.011684 seconds
+  Import took 0.015895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003038 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_StencilOut.shader
+  artifactKey: Guid(18c9172cdf36a344f9aca9bbc0e7002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_StencilOut.shader using Guid(18c9172cdf36a344f9aca9bbc0e7002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd641b548cdcfa193f0d5c4723a025d2a') in 0.007091 seconds
+  Import took 0.009736 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001462 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.115 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1718.
+Total: 1.761100 ms (FindLiveObjects: 0.199100 ms CreateObjectMapping: 0.053000 ms MarkObjects: 1.491600 ms  DeleteObjects: 0.016200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
