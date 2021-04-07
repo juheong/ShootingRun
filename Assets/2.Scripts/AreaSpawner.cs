@@ -35,7 +35,7 @@ public class AreaSpawner : MonoBehaviour
         }
         else
         {
-            int index = Random.Range(0, areaPrefabs.Length);
+            int index = Random.Range(1, areaPrefabs.Length);
             clone = Instantiate(areaPrefabs[index]);
         }
         clone.transform.position = new Vector3(0, 0, areaIndex * zDistance);

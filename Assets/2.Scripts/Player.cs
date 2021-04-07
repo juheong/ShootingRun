@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     private bool isXMove = false;
     private float originY = 0.1f;
     private float gravity = -9.81f;
-    private float moveTimeY = 0.45f;
+    private float moveTimeY = 0.7f;
     private float moveTimeYdown = 1f;
     private bool isJump = false;
     private bool isSlide = false;

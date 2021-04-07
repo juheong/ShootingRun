@@ -49,9 +49,11 @@ public class Enemy : MonoBehaviour
                 case Type.Basic:
                     break;
                 case Type.Rush:
+                    anim.SetTrigger("onAttack");
                     rigid.AddForce(transform.forward * 30, ForceMode.Impulse);                    
                     break;
                 case Type.Range:
+                    anim.SetTrigger("onAttack");
                     Vector3 position = transform.position;
                     position += new Vector3(0, 1.7f, 0.2f);
                     GameObject instantBullet = Instantiate(bullet, position, transform.rotation);
@@ -80,13 +82,13 @@ public class Enemy : MonoBehaviour
             anim.SetTrigger("doDie");
             isDie = true;
             gameObject.layer = 11;
-            reactVec = reactVec.normalized;
-            reactVec += Vector3.up * 1.5f;
-            reactVec.z *= -1;
-            rigid.freezeRotation = false;
-
-            rigid.AddForce(reactVec * 10, ForceMode.Impulse);
-            Destroy(gameObject, 1.5f);
+            // 몬스터 죽을 시 날라가는 효과
+            //reactVec = reactVec.normalized;
+            //reactVec += Vector3.up * 1.5f;
+            //reactVec.z *= -1;
+            //rigid.freezeRotation = false;
+            //rigid.AddForce(reactVec * 10, ForceMode.Impulse);
+            Destroy(gameObject, 1f);
         }
     }
 }
