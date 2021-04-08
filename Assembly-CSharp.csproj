@@ -67,11 +67,23 @@
     <Compile Include="Assets\2.Scripts\PlayerAnimator.cs" />
     <Compile Include="Assets\2.Scripts\Weapon.cs" />
     <Compile Include="Assets\2.Scripts\Item.cs" />
+    <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECProjectile.cs" />
+    <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECCameraShake.cs" />
+    <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECCameraShakeProjectile.cs" />
+    <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECCameraShakeCaller.cs" />
+    <Compile Include="Assets\EffectCore\scripts\ECdestroyMe.cs" />
+    <Compile Include="Assets\EffectCore\scripts\ECparticleColorChangerMaster.cs" />
+    <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECExplodingProjectile.cs" />
+    <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECEffectActor.cs" />
+    <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECprojectileActor.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\EffectCore\shaders\Mobile-Particle-AlphaBlended-ZTestAlways.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\EffectCore\shaders\Mobile-Particle-Add-ZTestAlways.shader" />
+     <None Include="Assets\EffectCore\packs\StylizedProjectilePack2\Tips &amp; DocumentationsStylizedProjectilePack2.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
