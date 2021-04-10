@@ -326,7 +326,7 @@ MonoBehaviour:
   - {fileID: 2077329767}
   - {fileID: 1541355953}
   - {fileID: 94883107}
-  hasWeapons: 01
+  hasWeapons: 000001
   coin: 0
   helath: 100
   maxcoin: 9999
