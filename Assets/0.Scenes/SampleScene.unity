@@ -323,9 +323,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapons:
-  - {fileID: 2077329767}
-  - {fileID: 1541355953}
   - {fileID: 94883107}
+  - {fileID: 1541355953}
+  - {fileID: 2077329767}
   hasWeapons: 01
   coin: 0
   helath: 100

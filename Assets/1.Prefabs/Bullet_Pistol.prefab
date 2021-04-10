@@ -9679,7 +9679,6 @@ GameObject:
   - component: {fileID: 114577082886192436}
   - component: {fileID: 54514016292773024}
   - component: {fileID: 199755693091019154}
-  - component: {fileID: 114281670611432944}
   - component: {fileID: 198709153041281152}
   - component: {fileID: -4209495018278746016}
   - component: {fileID: -2268741168554765030}
@@ -9901,32 +9900,6 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &114281670611432944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234753078459988}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 538d28f745155f34fba977c5c1026e39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  impactPrefab: {fileID: 1107041067620042, guid: 987350d53ec090545b8610fad613384f,
-    type: 3}
-  explosionPrefab: {fileID: 0}
-  thrust: 0
-  thisRigidbody: {fileID: 54514016292773024}
-  particleKillGroup: {fileID: 0}
-  LookRotation: 1
-  Missile: 0
-  missileTarget: {fileID: 0}
-  projectileSpeed: 0
-  projectileSpeedMultiplier: 0
-  ignorePrevRotation: 0
-  explodeOnTimer: 0
-  explosionTimer: 0
 --- !u!198 &198709153041281152
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -14658,6 +14631,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 20
+  explosionPrefab: {fileID: 1107041067620042, guid: 987350d53ec090545b8610fad613384f,
+    type: 3}
 --- !u!135 &-2268741168554765030
 SphereCollider:
   m_ObjectHideFlags: 0

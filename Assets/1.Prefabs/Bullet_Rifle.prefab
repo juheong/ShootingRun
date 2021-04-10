@@ -4757,7 +4757,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 5761576d2d8b55549bb01953b3d2a60c, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9623,7 +9622,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 41115d4ab63c2f446b1a1a029f157030, type: 2}
-  - {fileID: 2100000, guid: 41115d4ab63c2f446b1a1a029f157030, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9681,7 +9679,6 @@ GameObject:
   - component: {fileID: 114677985051848598}
   - component: {fileID: 54625915932452936}
   - component: {fileID: 199603346467327328}
-  - component: {fileID: 114221931414188392}
   - component: {fileID: 198356421454905678}
   - component: {fileID: 1359419721948052168}
   - component: {fileID: -3092139606504944576}
@@ -9825,7 +9822,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9871,32 +9867,6 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &114221931414188392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1681046568612450}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 538d28f745155f34fba977c5c1026e39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  impactPrefab: {fileID: 1879272669879180, guid: ae58dc9c490807f49ad0bfff1550ec62,
-    type: 3}
-  explosionPrefab: {fileID: 0}
-  thrust: 0
-  thisRigidbody: {fileID: 54625915932452936}
-  particleKillGroup: {fileID: 0}
-  LookRotation: 1
-  Missile: 0
-  missileTarget: {fileID: 0}
-  projectileSpeed: 0
-  projectileSpeedMultiplier: 0
-  ignorePrevRotation: 0
-  explodeOnTimer: 0
-  explosionTimer: 0
 --- !u!198 &198356421454905678
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -14641,3 +14611,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
+  explosionPrefab: {fileID: 1879272669879180, guid: ae58dc9c490807f49ad0bfff1550ec62,
+    type: 3}
