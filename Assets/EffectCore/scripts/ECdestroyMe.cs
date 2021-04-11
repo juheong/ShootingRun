@@ -4,7 +4,7 @@ using System.Collections;
 public class ECdestroyMe : MonoBehaviour{
 
     float timer;
-    public float deathtimer = 10;
+    public float deathtimer = 1;
 
 
 	// Use this for initialization
