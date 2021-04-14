@@ -10,8 +10,8 @@ public class Player : MonoBehaviour
     private bool[] hasWeapons;
     //hasWeapons[i] = true;로 보유무기 추가
 
-    [SerializeField]
-    private int coin;
+    
+    public int coin;
     [SerializeField]
     private int helath;
     [SerializeField]
