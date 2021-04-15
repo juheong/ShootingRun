@@ -1,16 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Bullet : MonoBehaviour
 {
-    public int damage;
+    public int damage;      //총알 데미지
+    public GameObject explosionPrefab;      //폭발 애니메이션
+    static AudioSource audioSource;     //오디오 플레이어
+    public AudioClip impact;
+
+    void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
+
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Obstacle")
+        if (other.gameObject.tag == "Enemy")        //적에게 피격될 시
         {
-            Destroy(gameObject);
+            Instantiate(explosionPrefab, gameObject.transform.position, Quaternion.Euler(0, 0, 0));     // 폭발 애니메이션 재생
+            Destroy(gameObject);    //  총알 오브젝트 삭제
+            audioSource.PlayOneShot(impact);     // 피격 효과음 재생
         }
     }
 }

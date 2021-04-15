@@ -4,11 +4,25 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
+
 public class GameController : MonoBehaviour
 {
     [SerializeField]
     private TextMeshProUGUI textCoinCount;
     private int coinCount = 0;
+    DataManager dataManager;
+
+    private void Start()
+    {
+        dataManager = FindObjectOfType<DataManager>();
+
+    }
+
+    public void InitialCoin(int coin)
+    {
+        coinCount = coin;
+        textCoinCount.text = coinCount.ToString();
+    }
 
     public void IncreaseCoinCount()
     {
@@ -18,6 +32,7 @@ public class GameController : MonoBehaviour
 
     public void GameOver()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("SampleScene");
+        dataManager.Save();
     }
 }

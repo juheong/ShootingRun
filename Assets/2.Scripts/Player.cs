@@ -8,9 +8,10 @@ public class Player : MonoBehaviour
     private GameObject[] weapons;
     [SerializeField]
     private bool[] hasWeapons;
+    //hasWeapons[i] = true;로 보유무기 추가
 
-    [SerializeField]
-    private int coin;
+    
+    public int coin;
     [SerializeField]
     private int helath;
     [SerializeField]
@@ -49,7 +50,14 @@ public class Player : MonoBehaviour
     {
         rigibody = GetComponent<Rigidbody>();
         playerAnimator = GetComponentInChildren<PlayerAnimator>();
-        equipWeapon = weapons[0].GetComponent<Weapon>();
+        // hasWeapons 배열값들의 트루값을 검사해서 참이면 무기 활성화
+        for(int i = 0; i < hasWeapons.Length; i++)
+        {
+            if (hasWeapons[i] == true)
+            {
+                equipWeapon = weapons[i].GetComponent<Weapon>();
+            }
+        }             
         cameraController = GameObject.Find("Main Camera").GetComponent<CameraController>();
         equipWeapon.gameObject.SetActive(true);
     }
