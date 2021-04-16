@@ -326,7 +326,7 @@ MonoBehaviour:
   - {fileID: 94883107}
   - {fileID: 1541355953}
   - {fileID: 2077329767}
-  hasWeapons: 010000
+  hasWeapons: 000001
   coin: 0
   helath: 100
   maxcoin: 9999
@@ -695,6 +695,9 @@ MonoBehaviour:
   - {fileID: 5522022273651705580, guid: 92be4a82c3b50de4b82417a7203a7536, type: 3}
   - {fileID: 2026559186407029082, guid: 11a047c7a2f204b429765aa766ff4509, type: 3}
   - {fileID: 5033103405155391231, guid: 3d1d23fcead4d85498ce6cdbf1515048, type: 3}
+  - {fileID: 5399885397049862723, guid: 23ccb46d8754af24c92fd9f915d48c22, type: 3}
+  - {fileID: 5399885397049862723, guid: 23ccb46d8754af24c92fd9f915d48c22, type: 3}
+  - {fileID: 5399885397049862723, guid: 23ccb46d8754af24c92fd9f915d48c22, type: 3}
   - {fileID: 5399885397049862723, guid: 23ccb46d8754af24c92fd9f915d48c22, type: 3}
   spawnAreaCountAtStart: 3
   zDistance: 20

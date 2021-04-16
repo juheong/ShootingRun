@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public enum Type {Basic, Rush, Range};
+    public enum Type {Basic, Rush, Range,Burrow};
     public Type enemyType;
     [SerializeField]
     private int maxHelath;
@@ -60,6 +60,9 @@ public class Enemy : MonoBehaviour
                     Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
                     rigidBullet.velocity = transform.forward * 20;
                     Destroy(instantBullet, 2f);
+                    break;
+                case Type.Burrow:
+                    anim.SetTrigger("onAttack");
                     break;
             }
         }
