@@ -1,1888 +1,248 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.867; Version 2004; 64bit' Language: 'ko' Physical Memory: 16332 MB
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'ko' Physical Memory: 10222 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Util\unity\2020.3.2f1\Editor\Unity.exe
+D:\unity\2020.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Manduk/Documents/GitHub/RunningGun
+D:/unity/RunningGun
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-3392
-Successfully changed project path to: C:/Users/Manduk/Documents/GitHub/RunningGun
-C:/Users/Manduk/Documents/GitHub/RunningGun
+3263
+Successfully changed project path to: D:/unity/RunningGun
+D:/unity/RunningGun
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 51.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
-[Subsystems] Discovering subsystems at path D:/Util/unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Manduk/Documents/GitHub/RunningGun/Assets
+[Subsystems] Discovering subsystems at path D:/unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/RunningGun/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6450 (ID=0x6779)
     Vendor:   
-    VRAM:     8088 MB
-    Driver:   27.21.14.5751
+    VRAM:     1008 MB
+    Driver:   15.201.1151.1008
 Initialize mono
-Mono path[0] = 'D:/Util/unity/2020.3.2f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Util/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Util/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Mono path[0] = 'D:/unity/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Util/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001569 seconds.
+Register platform support module: D:/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001990 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.12 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 59.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.785 seconds
+- Completed reload, in  1.769 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003840 seconds.
+Registered in 0.002030 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.801 seconds
+- Completed reload, in  1.325 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 154.7 MB.
-System memory in use after: 154.8 MB.
+Unloading 1161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.5 MB.
+System memory in use after: 157.5 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1645.
-Total: 1.783300 ms (FindLiveObjects: 0.204900 ms CreateObjectMapping: 0.098000 ms MarkObjects: 1.460200 ms  DeleteObjects: 0.019200 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1647.
+Total: 3.085300 ms (FindLiveObjects: 0.323200 ms CreateObjectMapping: 0.070200 ms MarkObjects: 2.657800 ms  DeleteObjects: 0.031700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/1.Prefabs/AreaSet04.prefab
-  artifactKey: Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet04.prefab using Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+  path: Assets/Scenes
+  artifactKey: Guid(ff78fc32e049c3c4885f36f1e3369983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(ff78fc32e049c3c4885f36f1e3369983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f34f537b5f7c0eae21db7b13c4e453') in 0.015509 seconds
+  Import took 0.019785 seconds .
 
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: 'babb4b731573d8f32862a1ba03333ecc') in 0.640940 seconds
-  Import took 0.645163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.216910 seconds.
-  path: Assets/Bumble Cute Series/Materials/Bumble.mat
-  artifactKey: Guid(c1c831ac65aba644d9613dc0a0a0d1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/Materials/Bumble.mat using Guid(c1c831ac65aba644d9613dc0a0a0d1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cea1a83ab5c7a3dcb927650c6fa3536') in 0.453630 seconds
-  Import took 0.456202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022314 seconds.
-  path: Assets/Bumble Cute Series/Prefabs/Bumble.prefab
-  artifactKey: Guid(eb44c0459dbc5ac4a8df592ecacbead3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/Prefabs/Bumble.prefab using Guid(eb44c0459dbc5ac4a8df592ecacbead3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54287cc1c0b4ba4beadc53e07ae6c174') in 0.953131 seconds
-  Import took 0.956546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.894058 seconds.
-  path: Assets/Bumble Cute Series/FBX/Bumble.FBX
-  artifactKey: Guid(dfcc8081a6ce38b4ba51ac9a6c2600a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/FBX/Bumble.FBX using Guid(dfcc8081a6ce38b4ba51ac9a6c2600a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2c0011b59d21063c71e905ed69879e') in 0.315636 seconds
-  Import took 0.318725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Bumble Cute Series/FBX/Bumble@Sting Attack.FBX
-  artifactKey: Guid(f07378823b8176d47ae7aee7e44c0b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/FBX/Bumble@Sting Attack.FBX using Guid(f07378823b8176d47ae7aee7e44c0b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bda46198197bc1bf533f96547d679c') in 0.859364 seconds
-  Import took 0.861474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Bumble Cute Series/FBX/Bumble@Fly Forward W Root.FBX
-  artifactKey: Guid(3e08d141910a40b4981323ba467b04a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/FBX/Bumble@Fly Forward W Root.FBX using Guid(3e08d141910a40b4981323ba467b04a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2764734a69e7f9acdc835af3082e4cf2') in 0.468529 seconds
-  Import took 0.470782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Bumble Cute Series/FBX/Bumble@Turn Right.FBX
-  artifactKey: Guid(bea37fbeff3b9d84c8de00da5d68c9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/FBX/Bumble@Turn Right.FBX using Guid(bea37fbeff3b9d84c8de00da5d68c9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843b539a5bfa3b5c91480c3f1576e78c') in 1.093629 seconds
-  Import took 1.096643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Bumble Cute Series/FBX/Bumble@Fly Forward In Place.FBX
-  artifactKey: Guid(0c9eee6d95bf56348882c509be3f3ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/FBX/Bumble@Fly Forward In Place.FBX using Guid(0c9eee6d95bf56348882c509be3f3ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cc43d1cb8626f70f72e67fe3d045fa') in 0.563409 seconds
-  Import took 0.565562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Bumble Cute Series/FBX/Bumble@Turn Left.FBX
-  artifactKey: Guid(3675889600a5d1b488ffe1d4ae4fe3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/FBX/Bumble@Turn Left.FBX using Guid(3675889600a5d1b488ffe1d4ae4fe3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cdbe12f0aab9e86871a703119af068') in 0.329840 seconds
-  Import took 0.332186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Bumble Cute Series/FBX/Bumble@Take Damage.FBX
-  artifactKey: Guid(ea3b27bcac40bbc448664604b9f622ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/FBX/Bumble@Take Damage.FBX using Guid(ea3b27bcac40bbc448664604b9f622ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc69087763f365cc8c1d29722f3775e1') in 0.030170 seconds
-  Import took 0.032551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Bumble Cute Series/FBX/Bumble@Cast Spell.FBX
-  artifactKey: Guid(920896bcb1a838344938778ae6f878c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/FBX/Bumble@Cast Spell.FBX using Guid(920896bcb1a838344938778ae6f878c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97672de87175303fbb90af47ae0f9a33') in 0.029434 seconds
-  Import took 0.031952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Bumble Cute Series/FBX/Bumble@Die.FBX
-  artifactKey: Guid(2bc4ff3dc13548943a8faa9ff3f282ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/FBX/Bumble@Die.FBX using Guid(2bc4ff3dc13548943a8faa9ff3f282ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2465637a4e8411f538c6916f2191db85') in 0.029846 seconds
-  Import took 0.032419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Bumble Cute Series/FBX/Bumble@Idle.FBX
-  artifactKey: Guid(693daf1d52a9a934a861dfed132bbbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/FBX/Bumble@Idle.FBX using Guid(693daf1d52a9a934a861dfed132bbbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8499efd21733c38c210a6fd3bd23ed13') in 0.030941 seconds
-  Import took 0.033148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Bumble Cute Series/FBX/Bumble@Head Attack.FBX
-  artifactKey: Guid(0f21b4422d53ac841acf3d44064cb4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/FBX/Bumble@Head Attack.FBX using Guid(0f21b4422d53ac841acf3d44064cb4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f504f0a0696028654abcad46b7a126d2') in 0.029316 seconds
-  Import took 0.031835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Bumble Cute Series/Textures/Bumble.psd
-  artifactKey: Guid(78e3f1a75f6e8df4b95c23853b2f7461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bumble Cute Series/Textures/Bumble.psd using Guid(78e3f1a75f6e8df4b95c23853b2f7461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29091488167687c3e0ffabc71ff670fb') in 0.031647 seconds
-  Import took 0.033948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.841458 seconds.
-  path: Assets/Bee Cute Series/FBX/Bee.FBX
-  artifactKey: Guid(89cb33e715b9bc941b2fa1ccc233d8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/FBX/Bee.FBX using Guid(89cb33e715b9bc941b2fa1ccc233d8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9f4ac2ae84b4998e4a4f46652463b9') in 0.038639 seconds
-  Import took 0.041182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Bee Cute Series/FBX/Bee@Turn Left.FBX
-  artifactKey: Guid(6f7f8b39884f0f24ab075df952c6e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/FBX/Bee@Turn Left.FBX using Guid(6f7f8b39884f0f24ab075df952c6e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e636b3032027e5bcc0a0ef7294e22ce') in 0.033539 seconds
-  Import took 0.036187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Bee Cute Series/FBX/Bee@Fly Forward In Place.FBX
-  artifactKey: Guid(bbce3f151dee49c4facb4ebd346f3da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/FBX/Bee@Fly Forward In Place.FBX using Guid(bbce3f151dee49c4facb4ebd346f3da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15094b760da0b19cede8a23bc8dc8737') in 0.035555 seconds
-  Import took 0.037964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Bee Cute Series/FBX/Bee@Die.FBX
-  artifactKey: Guid(eb5a47e69bddb284b8f497cf9119d8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/FBX/Bee@Die.FBX using Guid(eb5a47e69bddb284b8f497cf9119d8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea267b912f993398410e4dd688f6695') in 0.034480 seconds
-  Import took 0.037001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Bee Cute Series/FBX/Bee@Idle.FBX
-  artifactKey: Guid(16fd6275dfb6fe94a831475abe62e36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/FBX/Bee@Idle.FBX using Guid(16fd6275dfb6fe94a831475abe62e36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8deb47ed9ff200fa85bd4419a78c246') in 0.036346 seconds
-  Import took 0.038878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Bee Cute Series/FBX/Bee@Fly Forward W Root.FBX
-  artifactKey: Guid(4b77bbedcdb493c4b87e37e9bec1ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/FBX/Bee@Fly Forward W Root.FBX using Guid(4b77bbedcdb493c4b87e37e9bec1ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99988cc669205830b2cb860d03252ab') in 0.033391 seconds
-  Import took 0.035609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Bee Cute Series/FBX/Bee@Sting Attack.FBX
-  artifactKey: Guid(15b8977f9c35191488eeed5535d63319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/FBX/Bee@Sting Attack.FBX using Guid(15b8977f9c35191488eeed5535d63319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ad370d314675e377f100f6ad232eab') in 0.033145 seconds
-  Import took 0.035416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Bee Cute Series/FBX/Bee@Bite Attack.FBX
-  artifactKey: Guid(8bb6731f504487c4999ea572903a2123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/FBX/Bee@Bite Attack.FBX using Guid(8bb6731f504487c4999ea572903a2123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8321ae24633a16d2cde29c55fba72c7') in 0.033873 seconds
-  Import took 0.035996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Bee Cute Series/FBX/Bee@Cast Spell.FBX
-  artifactKey: Guid(4a854f71f16d4ce4694cd15c86fd893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/FBX/Bee@Cast Spell.FBX using Guid(4a854f71f16d4ce4694cd15c86fd893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756058bdd01e7ae69121b060c00b119c') in 0.035154 seconds
-  Import took 0.037478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Bee Cute Series/FBX/Bee@Projectile Attack.FBX
-  artifactKey: Guid(934030f41e4326f449ae083807803cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/FBX/Bee@Projectile Attack.FBX using Guid(934030f41e4326f449ae083807803cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5846dda614798fa6bcd4f5f451ab011c') in 0.033728 seconds
-  Import took 0.036182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Bee Cute Series/FBX/Bee@Take Damage.FBX
-  artifactKey: Guid(72ec4f617b2b6c1429d60e035ba3b6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/FBX/Bee@Take Damage.FBX using Guid(72ec4f617b2b6c1429d60e035ba3b6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e1dc28092e4cc0644841f328b4d922') in 0.036563 seconds
-  Import took 0.038988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Bee Cute Series/FBX/Bee@Turn Right.FBX
-  artifactKey: Guid(d7b4d9c7e4c96a74582b1706ca01f7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/FBX/Bee@Turn Right.FBX using Guid(d7b4d9c7e4c96a74582b1706ca01f7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f100b56b439b84893ad06bf77d77d2') in 0.039375 seconds
-  Import took 0.042227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.734161 seconds.
-  path: Assets/Bee Cute Series/Prefabs/Bee.prefab
-  artifactKey: Guid(9992beb367802434fbe4638bb61476bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/Prefabs/Bee.prefab using Guid(9992beb367802434fbe4638bb61476bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fe17eea3dddcbf16347d6dff5730cf') in 0.049826 seconds
-  Import took 0.053192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.339277 seconds.
-  path: Assets/Bee Cute Series/Materials/Bee.mat
-  artifactKey: Guid(0643f6839b673064b84b6d272a2c1b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/Materials/Bee.mat using Guid(0643f6839b673064b84b6d272a2c1b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bc45e89af6c4e6632fe6c280dd4fa5') in 0.015851 seconds
-  Import took 0.018448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.498359 seconds.
-  path: Assets/Bee Cute Series/Textures/Bee.png
-  artifactKey: Guid(1653e9b3ae619fb47b0e7d8a40b601c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bee Cute Series/Textures/Bee.png using Guid(1653e9b3ae619fb47b0e7d8a40b601c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186ccbfb7581ccd550936b258c7af625') in 0.051181 seconds
-  Import took 0.053967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.906306 seconds.
-  path: Assets/5.UI/Fonts/Century Gothic 400 SDF.asset
-  artifactKey: Guid(0a9bde5391c6094478a3ce727ffef756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5.UI/Fonts/Century Gothic 400 SDF.asset using Guid(0a9bde5391c6094478a3ce727ffef756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23abb97c7bfa11dcc1a10895ef982bd') in 0.329968 seconds
-  Import took 0.333825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/5.UI/Fonts/SDSamliphopangcheTTFOutline.ttf
-  artifactKey: Guid(92fac3bc4aee17a43893fd9a5103c307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5.UI/Fonts/SDSamliphopangcheTTFOutline.ttf using Guid(92fac3bc4aee17a43893fd9a5103c307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e7a64cd6dd54aa29f375d2a3849cfa') in 0.065667 seconds
-  Import took 0.067918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/5.UI/Fonts/SDSamliphopangcheTTFBasic.ttf
-  artifactKey: Guid(57822774021ed514ba0a00114c7d32ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5.UI/Fonts/SDSamliphopangcheTTFBasic.ttf using Guid(57822774021ed514ba0a00114c7d32ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a314e88f8a542b435cb8ee3783d7dc4') in 0.016382 seconds
-  Import took 0.018642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/5.UI/Fonts/Galmuri11.asset
-  artifactKey: Guid(26cb47d13f3230e41bdd54396951a005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5.UI/Fonts/Galmuri11.asset using Guid(26cb47d13f3230e41bdd54396951a005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a249cf551a61ac5c72dd7ae568e2cae9') in 0.105411 seconds
-  Import took 0.107768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/5.UI/Fonts/Century Gothic 400.ttf
-  artifactKey: Guid(d91d26cae9c8d8c4cbe8dcfe1e76f739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5.UI/Fonts/Century Gothic 400.ttf using Guid(d91d26cae9c8d8c4cbe8dcfe1e76f739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01d107601c31155e5c95022a4fd89aa') in 0.016187 seconds
-  Import took 0.018378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/5.UI/Fonts/DoHyeon-Regular.ttf
-  artifactKey: Guid(2d040b1040b12644dbfd6de09f5b5408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5.UI/Fonts/DoHyeon-Regular.ttf using Guid(2d040b1040b12644dbfd6de09f5b5408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006b503490e65fe9217133ee87aa1adf') in 0.016791 seconds
-  Import took 0.018997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/5.UI/Fonts/SDSamliphopangcheTTFOutline SDF.asset
-  artifactKey: Guid(db7c91e754d24ce499c1b9fe16c35329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5.UI/Fonts/SDSamliphopangcheTTFOutline SDF.asset using Guid(db7c91e754d24ce499c1b9fe16c35329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e403938f3cc1ea1b3e1dd2c6bc9dfa9') in 0.117724 seconds
-  Import took 0.120849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/5.UI/Fonts/Galmuri11.ttf
-  artifactKey: Guid(f9c556882d2094446b96dad206a8a4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5.UI/Fonts/Galmuri11.ttf using Guid(f9c556882d2094446b96dad206a8a4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fd05830ac93d1c3d405da0b7603338') in 0.016092 seconds
-  Import took 0.019050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.901381 seconds.
-  path: Assets/Blossom Cute Series/Materials/Blossom.mat
-  artifactKey: Guid(a1a4902d0d63b6f4ca973d05ce027706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/Materials/Blossom.mat using Guid(a1a4902d0d63b6f4ca973d05ce027706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce557315d8cb8101cc7997d5be49021') in 0.022760 seconds
-  Import took 0.025490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Blossom Cute Series/Materials/Seed Projectile.mat
-  artifactKey: Guid(f44aae46772ee2e47a299cd20617957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/Materials/Seed Projectile.mat using Guid(f44aae46772ee2e47a299cd20617957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f97634b0cdf0f7d1f543935734bdf0a') in 0.022419 seconds
-  Import took 0.025488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.427704 seconds.
-  path: Assets/Blossom Cute Series/Prefabs/Blossom.prefab
-  artifactKey: Guid(f63c07a5cf11fc24ab3fbe7d2b76943e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/Prefabs/Blossom.prefab using Guid(f63c07a5cf11fc24ab3fbe7d2b76943e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafbf1879d0589573f80fa67a67fb02f') in 0.178283 seconds
-  Import took 0.182291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Blossom Cute Series/Prefabs/Seed.prefab
-  artifactKey: Guid(f655959c5e12e414ab1125ad67385999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/Prefabs/Seed.prefab using Guid(f655959c5e12e414ab1125ad67385999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3c9d98f6101de57db4f00385d7d98f') in 0.014404 seconds
-  Import took 0.016773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.059428 seconds.
-  path: Assets/Blossom Cute Series/Textures/Blossom.psd
-  artifactKey: Guid(6d4315ada81ce254ea90c4b6abb15d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/Textures/Blossom.psd using Guid(6d4315ada81ce254ea90c4b6abb15d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c94d26d17b64b9356e07ca64b5918e9') in 0.013403 seconds
-  Import took 0.016973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Blossom Cute Series/Textures/Seed Projectile.psd
-  artifactKey: Guid(231811efd9107a64dacebfbe5da99a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/Textures/Seed Projectile.psd using Guid(231811efd9107a64dacebfbe5da99a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fec063f4fc34ca77ee490e31bd22367') in 0.011173 seconds
-  Import took 0.013553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.826080 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow.FBX
-  artifactKey: Guid(8d3042b3a6f63ab4c8001b95637f269b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow.FBX using Guid(8d3042b3a6f63ab4c8001b95637f269b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51cafa6e37c7898a211dfa90c17dae7') in 0.047955 seconds
-  Import took 0.050729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Head Only Idle.FBX
-  artifactKey: Guid(e9cd901a02a5ac140b5188b7713938bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Head Only Idle.FBX using Guid(e9cd901a02a5ac140b5188b7713938bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ce75488d30ab71ee5b6cce876ad037') in 0.038813 seconds
-  Import took 0.041284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Take Damage.FBX
-  artifactKey: Guid(c7e8e98fa3a7c2e48a0bf6a4f3ec1c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Take Damage.FBX using Guid(c7e8e98fa3a7c2e48a0bf6a4f3ec1c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a39d5ca15fcb370f13515c3cd80206') in 0.036142 seconds
-  Import took 0.038571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Head Attack W Root.FBX
-  artifactKey: Guid(e2bbb85eef174864b900ec435b10784d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Head Attack W Root.FBX using Guid(e2bbb85eef174864b900ec435b10784d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3effcda074c0dffae4d99d10a61dab') in 0.043725 seconds
-  Import took 0.046166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Jump W Root.FBX
-  artifactKey: Guid(32a6283a02db773489c91ea7a376d9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Jump W Root.FBX using Guid(32a6283a02db773489c91ea7a376d9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9deee51b22dd671e1dc104f3acb45026') in 0.040028 seconds
-  Import took 0.042636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Head Only Move Forward In Place.FBX
-  artifactKey: Guid(1a69b6bf90a1ad140a3c87a5b145cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Head Only Move Forward In Place.FBX using Guid(1a69b6bf90a1ad140a3c87a5b145cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0212df11a08acc70af8cd77d7866f7d7') in 0.038880 seconds
-  Import took 0.041495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Head Only Idle to Idle.FBX
-  artifactKey: Guid(6254db1c815f59b47b0c16a329418294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Head Only Idle to Idle.FBX using Guid(6254db1c815f59b47b0c16a329418294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64903a56edc99fc598bc1ab68b50bcb') in 0.039163 seconds
-  Import took 0.041887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Projectile Attack.FBX
-  artifactKey: Guid(ac3b6c2f1a0739e489589c8470627ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Projectile Attack.FBX using Guid(ac3b6c2f1a0739e489589c8470627ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377a6894e3ff4d526453fe4c22c4c0e7') in 0.038291 seconds
-  Import took 0.040723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Idle to Head Only Idle.FBX
-  artifactKey: Guid(779be030588f4194cbc1e212d60ff24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Idle to Head Only Idle.FBX using Guid(779be030588f4194cbc1e212d60ff24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcf09627d3669140b56a890654f1e5c') in 0.039371 seconds
-  Import took 0.041912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Die.FBX
-  artifactKey: Guid(e03fd7e5573d98d458ba88484e5e5953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Die.FBX using Guid(e03fd7e5573d98d458ba88484e5e5953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f235b512af8fe076a28096db0cfa261') in 0.035548 seconds
-  Import took 0.038131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Idle to Underground.FBX
-  artifactKey: Guid(2de25f2f8f6c78e4fa2b9e804d3acc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Idle to Underground.FBX using Guid(2de25f2f8f6c78e4fa2b9e804d3acc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5e131f1801f868fbb48f0d37ae1b90') in 0.036388 seconds
-  Import took 0.038905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Turn Right.FBX
-  artifactKey: Guid(67296a21f6790cc4691ce7d2e8e57d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Turn Right.FBX using Guid(67296a21f6790cc4691ce7d2e8e57d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932a5bbc0cef8712f566ca703bde6fe1') in 0.037040 seconds
-  Import took 0.039573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Underground to Idle.FBX
-  artifactKey: Guid(542d627c53c820745b7c262b08899aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Underground to Idle.FBX using Guid(542d627c53c820745b7c262b08899aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bded1fb5b5d5253984dd243350d78c') in 0.037827 seconds
-  Import took 0.040243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Walk Forward W Root.FBX
-  artifactKey: Guid(d6db25e05b438c342a6d49e26fb2ca7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Walk Forward W Root.FBX using Guid(d6db25e05b438c342a6d49e26fb2ca7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c440dc2575b556cc68627455d9d670a6') in 0.038977 seconds
-  Import took 0.041712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Slash Attack.FBX
-  artifactKey: Guid(60d364a53ee17bf44b062fa6db1695c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Slash Attack.FBX using Guid(60d364a53ee17bf44b062fa6db1695c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200b429be09b3747ad037ff7f6184b21') in 0.040149 seconds
-  Import took 0.043234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Underground.FBX
-  artifactKey: Guid(b1a0bc325513a414aa170048184120f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Underground.FBX using Guid(b1a0bc325513a414aa170048184120f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fbf0d06c4d36ba03fc4fda80f47064') in 0.041883 seconds
-  Import took 0.044596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Head Attack In Place.FBX
-  artifactKey: Guid(5e41e54cb5f13e245b07b5d4a564920a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Head Attack In Place.FBX using Guid(5e41e54cb5f13e245b07b5d4a564920a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4aaf4e50a5d485552c2c9025d67da12') in 0.037710 seconds
-  Import took 0.040698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Turn Left.FBX
-  artifactKey: Guid(7b88ad04191de7f4ca5b3744bf372261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Turn Left.FBX using Guid(7b88ad04191de7f4ca5b3744bf372261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26de0ccad79d03fa6396ea016678367') in 0.034834 seconds
-  Import took 0.037517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Walk Forward In Place.FBX
-  artifactKey: Guid(8cba89daf8beb3e489d5fc1b1ff6469b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Walk Forward In Place.FBX using Guid(8cba89daf8beb3e489d5fc1b1ff6469b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8848411a8611d3b31c4987e9e600e904') in 0.035742 seconds
-  Import took 0.038469 seconds .
-
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Run Forward In Place.FBX
-  artifactKey: Guid(1ceaa5a3f682c1d4fb19c7a3e8da900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Run Forward In Place.FBX using Guid(1ceaa5a3f682c1d4fb19c7a3e8da900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55349cc12c31e95c1195d214811c7d5') in 0.037321 seconds
-  Import took 0.040136 seconds .
+  Time since last request: 2.985946 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2be7f2baeec6a0e468f4bd695169ba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2be7f2baeec6a0e468f4bd695169ba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e48471de57d580d127b26c46455553a') in 0.024241 seconds
+  Import took 0.028759 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Cast Spell.FBX
-  artifactKey: Guid(946520588163f934ea786ae4141c4313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Cast Spell.FBX using Guid(946520588163f934ea786ae4141c4313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a0cab60d24a805da88fd09d497a787') in 0.035588 seconds
-  Import took 0.038058 seconds .
+  Time since last request: 7.036352 seconds.
+  path: Assets/0.Scenes/MainMenu2.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0.Scenes/MainMenu2.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755f82a5bddb1faa5588bbb005085d99') in 0.015272 seconds
+  Import took 0.019758 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Jump In Place.FBX
-  artifactKey: Guid(6c23e97f61e3cfd40b7728a55cf07bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Jump In Place.FBX using Guid(6c23e97f61e3cfd40b7728a55cf07bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f340da9fee8b8e1028d8aaa49772d3') in 0.036724 seconds
-  Import took 0.039099 seconds .
+  Time since last request: 12.067153 seconds.
+  path: Assets/Scenes/MainMenu2.unity
+  artifactKey: Guid(0be651adff806d94f955455b08c3a3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu2.unity using Guid(0be651adff806d94f955455b08c3a3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6520aea2ef19bd4aedc9d4a4fe30e44') in 0.011621 seconds
+  Import took 0.015834 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Underground to Head Only.FBX
-  artifactKey: Guid(e8e5a384ef9d1e14baa6975074f2b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Underground to Head Only.FBX using Guid(e8e5a384ef9d1e14baa6975074f2b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b60504d8b6a8d36a9ef79430f9ee7f5') in 0.038261 seconds
-  Import took 0.041029 seconds .
+  Time since last request: 0.000964 seconds.
+  path: Assets/Scenes/MainMenu2.unity
+  artifactKey: Guid(0be651adff806d94f955455b08c3a3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu2.unity using Guid(0be651adff806d94f955455b08c3a3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6520aea2ef19bd4aedc9d4a4fe30e44') in 0.006140 seconds
+  Import took 0.011588 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Head Only Move Forward W Root.FBX
-  artifactKey: Guid(b67d042d1111c42438154f04219ce580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Head Only Move Forward W Root.FBX using Guid(b67d042d1111c42438154f04219ce580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4bb17f5de62aeed9ef24b132b25e89') in 0.036836 seconds
-  Import took 0.039545 seconds .
+  Time since last request: 22.583283 seconds.
+  path: Assets/2.Scripts/UI
+  artifactKey: Guid(e6a3042022a753445a9a4fa058550e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2.Scripts/UI using Guid(e6a3042022a753445a9a4fa058550e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0973d119d7ea1c2f88255fc43ecacb6') in 0.016020 seconds
+  Import took 0.020474 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Run Forward W Root.FBX
-  artifactKey: Guid(5e5a8a3fbab95c14e8c8c3e4b51b074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Run Forward W Root.FBX using Guid(5e5a8a3fbab95c14e8c8c3e4b51b074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882d476b55f6ce37291dfa1ceb2bcf09') in 0.037993 seconds
-  Import took 0.040307 seconds .
+  Time since last request: 8.346441 seconds.
+  path: Assets/Scripts/TabManager.cs
+  artifactKey: Guid(21fd53b83921e834f9af9bd1a562f89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TabManager.cs using Guid(21fd53b83921e834f9af9bd1a562f89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9c1d4dcbcceeb1b49dbe29da631209') in 0.077951 seconds
+  Import took 0.081557 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Burrow Cute Series/FBX/Burrow@Idle.FBX
-  artifactKey: Guid(8050627618c43e5478454f068e54a278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/FBX/Burrow@Idle.FBX using Guid(8050627618c43e5478454f068e54a278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243ec0bbb8eb3e7e7a7f93b108647547') in 0.036632 seconds
-  Import took 0.039177 seconds .
+  Time since last request: 0.392582 seconds.
+  path: Assets/Scripts/StageSelection.cs
+  artifactKey: Guid(10aa8fa68efec4244bc6fb328e4fbe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StageSelection.cs using Guid(10aa8fa68efec4244bc6fb328e4fbe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccbe524d2c88fb422bb32686b76d08e') in 0.011646 seconds
+  Import took 0.019474 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Burrow Cute Series/Cute series demo assets/Cute Perspective.asset
-  artifactKey: Guid(f8a1aa32b7c7d5949971e46db0f6f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/Cute series demo assets/Cute Perspective.asset using Guid(f8a1aa32b7c7d5949971e46db0f6f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e279865cf2fb2cd5df130f184b750ef') in 0.009497 seconds
-  Import took 0.011840 seconds .
+  Time since last request: 0.000607 seconds.
+  path: Assets/Scripts/StageSelection.cs
+  artifactKey: Guid(10aa8fa68efec4244bc6fb328e4fbe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StageSelection.cs using Guid(10aa8fa68efec4244bc6fb328e4fbe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccbe524d2c88fb422bb32686b76d08e') in 0.007696 seconds
+  Import took 0.013925 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Burrow Cute Series/Cute series demo assets/Cute Ortho.asset
-  artifactKey: Guid(7a27b9c07dc34574b8eceea1cf557288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/Cute series demo assets/Cute Ortho.asset using Guid(7a27b9c07dc34574b8eceea1cf557288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7e25d7a73fa04a77d88a16ea8cae2b') in 0.010094 seconds
-  Import took 0.012686 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001924 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.486 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1141 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.0 MB.
+System memory in use after: 156.1 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Burrow Cute Series/Cute series demo assets/Ground.mat
-  artifactKey: Guid(f37ea2bd19136a2469ed0e0758f4ce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/Cute series demo assets/Ground.mat using Guid(f37ea2bd19136a2469ed0e0758f4ce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848dae872ddf9ae921f5c5fc3553a08a') in 0.015061 seconds
-  Import took 0.017307 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1650.
+Total: 4.200700 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.071200 ms MarkObjects: 3.753900 ms  DeleteObjects: 0.027700 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Burrow Cute Series/Cute series demo assets/Ground.prefab
-  artifactKey: Guid(1cb657c18bf029e4793d275149462612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/Cute series demo assets/Ground.prefab using Guid(1cb657c18bf029e4793d275149462612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2d2e97a876654d4f27e3fafaf8c2df') in 0.013000 seconds
-  Import took 0.015295 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001963 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1141 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.0 MB.
+System memory in use after: 156.1 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 6.299306 seconds.
-  path: Assets/Burrow Cute Series/Materials/Burrow.mat
-  artifactKey: Guid(b37fee1910f634547a91137e5afef092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/Materials/Burrow.mat using Guid(b37fee1910f634547a91137e5afef092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a9e148983cb8f2f5b5a7a7827c1a5b') in 0.018279 seconds
-  Import took 0.021000 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1653.
+Total: 4.160200 ms (FindLiveObjects: 0.764500 ms CreateObjectMapping: 0.072000 ms MarkObjects: 3.269500 ms  DeleteObjects: 0.051000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.359449 seconds.
-  path: Assets/Burrow Cute Series/Prefabs/Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/Prefabs/Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656b4d65c5045a830a0faff236171b1c') in 0.058270 seconds
-  Import took 0.062716 seconds .
+  Time since last request: 23.631807 seconds.
+  path: Assets/2.Scripts/UI/UI
+  artifactKey: Guid(45006c59e04801a4488be82e8ae21088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2.Scripts/UI/UI using Guid(45006c59e04801a4488be82e8ae21088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bfc4ccd48445ca72db4e6fc23c5026') in 0.010086 seconds
+  Import took 0.014494 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.624013 seconds.
-  path: Assets/Burrow Cute Series/Textures/Burrow.psd
-  artifactKey: Guid(178e2bcd5a3fa1d47bc33914fc59cec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/Textures/Burrow.psd using Guid(178e2bcd5a3fa1d47bc33914fc59cec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ac87e569b6fa8cd0bc65d3fdc205ff') in 0.010268 seconds
-  Import took 0.013008 seconds .
+  Time since last request: 0.011643 seconds.
+  path: Assets/2.Scripts/UI/UI
+  artifactKey: Guid(45006c59e04801a4488be82e8ae21088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2.Scripts/UI/UI using Guid(45006c59e04801a4488be82e8ae21088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bfc4ccd48445ca72db4e6fc23c5026') in 0.005900 seconds
+  Import took 0.009972 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.136315 seconds.
-  path: Assets/Burrow Cute Series/Scenes/Demo.unity
-  artifactKey: Guid(441f562d29303584abeb65b68acdae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Burrow Cute Series/Scenes/Demo.unity using Guid(441f562d29303584abeb65b68acdae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c90f9f3efe4dbb19a570def70ba8855') in 0.009507 seconds
-  Import took 0.012435 seconds .
+  Time since last request: 44.426045 seconds.
+  path: Assets/0.Scenes/MainMenu.unity
+  artifactKey: Guid(5c11306e1546fd2438b9a095d19ce211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0.Scenes/MainMenu.unity using Guid(5c11306e1546fd2438b9a095d19ce211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c74fe2191994470c9b9ca53c9aaa17') in 0.021554 seconds
+  Import took 0.025473 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 63.655705 seconds.
+  Time since last request: 4.773053 seconds.
   path: Assets/0.Scenes/SampleScene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/0.Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09deeca44b58f54d21f718d7bc85b256') in 0.009656 seconds
-  Import took 0.012679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.588732 seconds.
-  path: Assets/0.Scenes/Scene_Char.unity
-  artifactKey: Guid(6a517be560bf21c45afb10ebb3b09a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/0.Scenes/Scene_Char.unity using Guid(6a517be560bf21c45afb10ebb3b09a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc527aa72ad44f4f86a389f803b6aa4c') in 0.011009 seconds
-  Import took 0.013522 seconds .
+Start importing Assets/0.Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61eb52454383de79b245a21993561a19') in 0.009765 seconds
+  Import took 0.015564 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004035 seconds.
+Registered in 0.002799 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.802 seconds
+- Completed reload, in  1.703 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1139 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.5 MB.
-System memory in use after: 171.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1699.
-Total: 1.884800 ms (FindLiveObjects: 0.222700 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.603200 ms  DeleteObjects: 0.016700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.812170 seconds.
-  path: Assets/1.Prefabs/AreaSet05.prefab
-  artifactKey: Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet05.prefab using Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: 'ef87d3236c8b6c8e3583cf5f8cbc5920') in 0.121951 seconds
-  Import took 0.127770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/1.Prefabs/Enemy_Mole.prefab
-  artifactKey: Guid(2be945a7604f7e74d9ea66fec26379cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Mole.prefab using Guid(2be945a7604f7e74d9ea66fec26379cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '22c86b30455c0fe07ca96714f45ef64d') in 0.022263 seconds
-  Import took 0.024995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/1.Prefabs/AreaSet02.prefab
-  artifactKey: Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet02.prefab using Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: 'd67b0aa2332029448407310550cce6ad') in 0.040877 seconds
-  Import took 0.048078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/1.Prefabs/AreaSet04.prefab
-  artifactKey: Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet04.prefab using Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: 'd2316a8c4a7b345eef7735aa8d3fc31a') in 0.052087 seconds
-  Import took 0.056034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.780230 seconds.
-  path: Assets/1.Prefabs/Enemy_Mole.prefab
-  artifactKey: Guid(2be945a7604f7e74d9ea66fec26379cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Mole.prefab using Guid(2be945a7604f7e74d9ea66fec26379cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: 'e9c59ae70a982af9e92aec5969ccd03e') in 0.025528 seconds
-  Import took 0.029002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 125.178698 seconds.
-  path: Assets/1.Prefabs/AreaSet02.prefab
-  artifactKey: Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet02.prefab using Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: 'd643ff236df50a18396bdb9544a011d8') in 0.046405 seconds
-  Import took 0.050225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/1.Prefabs/AreaSet05.prefab
-  artifactKey: Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet05.prefab using Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '9f2392ab73ca0fdae836966bdd50a179') in 0.049947 seconds
-  Import took 0.053689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/1.Prefabs/AreaSet04.prefab
-  artifactKey: Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet04.prefab using Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '3e3131046ae5ca9885a1285cc9358df2') in 0.052262 seconds
-  Import took 0.056092 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003724 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.839 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1139 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.8 MB.
-System memory in use after: 171.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1703.
-Total: 1.542100 ms (FindLiveObjects: 0.157500 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.336500 ms  DeleteObjects: 0.010900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 641.308407 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e183c13e5010e956bb86b48d2057f8f6') in 0.121724 seconds
-  Import took 0.126839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.818683 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf0fc8c77893c551637d965841b93cf') in 0.053578 seconds
-  Import took 0.057747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.655077 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30316b84ed17f24c4ee2f8790330b601') in 0.153796 seconds
-  Import took 0.158504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.507855 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b7c39a361ea2b0bfa94dc72e217c7c') in 0.050237 seconds
-  Import took 0.054315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.874352 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e4e7f16e7205b8c0b263baea62bc94') in 0.057211 seconds
-  Import took 0.062541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.957286 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce946aa015561c3e2dd50a55f43aaf7') in 0.049133 seconds
-  Import took 0.053821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.715287 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b668c2734f2f601f39a610585defc68c') in 0.060992 seconds
-  Import took 0.065383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.656447 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00cb7fb4e526837ca8e12fe27cd79fc') in 0.051012 seconds
-  Import took 0.055270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.545464 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95aaf79c646160380d8a7f2e1c2472e8') in 0.049641 seconds
-  Import took 0.053917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.719600 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3974258628d9848ff7bffff0cf5a938') in 0.056580 seconds
-  Import took 0.062069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.460400 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9750e8ae54f305059f3bb5e6d14469d3') in 0.056854 seconds
-  Import took 0.061584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.362252 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9511561f4611ecee292e13c6fbfee39') in 0.049789 seconds
-  Import took 0.054294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.274130 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efeb78caba72cb098d3468e6b9664e4e') in 0.052934 seconds
-  Import took 0.058461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.268127 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02fc44d550f6b39690468e50b2661b3') in 0.063186 seconds
-  Import took 0.069132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.085613 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4bc6f4e9dafa5ca8189dac8326743a') in 0.056534 seconds
-  Import took 0.061020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.363793 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac38cc96101424e0e8b2dd940c8b497d') in 0.050602 seconds
-  Import took 0.055407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.486307 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7f0a8ce7854b32cdd215d44f879e21') in 0.051953 seconds
-  Import took 0.056191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.665529 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e967c7055afb690111e4c32c6bf201b1') in 0.050552 seconds
-  Import took 0.054941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.142910 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc56e788d224c0c845d28b32c6607fa') in 0.051458 seconds
-  Import took 0.055926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.147366 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b71fd66edcceda93da3346ca117124f') in 0.049034 seconds
-  Import took 0.053422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.964203 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3206476d95aa967f444c0bac78cb1c') in 0.056820 seconds
-  Import took 0.062454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.313078 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom.FBX
-  artifactKey: Guid(c32a798d5b32a2a498011b3ad3a31c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom.FBX using Guid(c32a798d5b32a2a498011b3ad3a31c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbffaa5c24769ec99a73efdd0e18e2e') in 0.056635 seconds
-  Import took 0.059471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Blossom Cute Series/FBX/Seed.FBX
-  artifactKey: Guid(75264a46ca5ad654bb7c0dbc9eea22dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Seed.FBX using Guid(75264a46ca5ad654bb7c0dbc9eea22dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afde6a3d81fed60be078a2c819d4948') in 0.015090 seconds
-  Import took 0.017484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Die.FBX
-  artifactKey: Guid(ec38d706ca13f4f458082135e52d177f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Die.FBX using Guid(ec38d706ca13f4f458082135e52d177f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09afc5ed35c1a4ff4458ea48efb756af') in 0.048272 seconds
-  Import took 0.050989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Cast Spell.FBX
-  artifactKey: Guid(824cea4bdc197d549b931ed356212e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Cast Spell.FBX using Guid(824cea4bdc197d549b931ed356212e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed28e027230fa3fbf4214520b82c580') in 0.039820 seconds
-  Import took 0.042635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Idle.FBX
-  artifactKey: Guid(e4e2f4887605ec449b37f9ac3311343a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Idle.FBX using Guid(e4e2f4887605ec449b37f9ac3311343a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35da42dd9fd8720169b34a5796aac9bc') in 0.040862 seconds
-  Import took 0.043587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Turn Right.FBX
-  artifactKey: Guid(026ddfd62bc2eff4b8619c174f8342ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Turn Right.FBX using Guid(026ddfd62bc2eff4b8619c174f8342ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495a4e0055b69c2cfd60a3b37aa4d3d8') in 0.046261 seconds
-  Import took 0.049026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Turn Left.FBX
-  artifactKey: Guid(a360009a2c826114699536e28d1f3b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Turn Left.FBX using Guid(a360009a2c826114699536e28d1f3b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd916cd2085b4bddb47ef595a47e72a') in 0.039342 seconds
-  Import took 0.042284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Projectile Attack Upward.FBX
-  artifactKey: Guid(670ce850bd6a6424c82e79047cd7d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Projectile Attack Upward.FBX using Guid(670ce850bd6a6424c82e79047cd7d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41fdda6ec17b9520eb0d255460a4969') in 0.042191 seconds
-  Import took 0.045145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Spawn.FBX
-  artifactKey: Guid(389f60021968a014b8b7c06c42340a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Spawn.FBX using Guid(389f60021968a014b8b7c06c42340a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a416da7b6a389d594a04f2e15fb440') in 0.040201 seconds
-  Import took 0.042858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Run Forward In Place.FBX
-  artifactKey: Guid(3f893465c344e8446a7119436bca1736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Run Forward In Place.FBX using Guid(3f893465c344e8446a7119436bca1736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c38be9ca4369500150f161ea6840567') in 0.041870 seconds
-  Import took 0.044642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Projectile Attack Trajectory.FBX
-  artifactKey: Guid(e9d8208f623b07e459ced69416ca47cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Projectile Attack Trajectory.FBX using Guid(e9d8208f623b07e459ced69416ca47cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f0f6852cf53a5b42305b7bef079056') in 0.042820 seconds
-  Import took 0.045897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Walk Forward W Root.FBX
-  artifactKey: Guid(f134805aff080224d8bd4c91fc21d219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Walk Forward W Root.FBX using Guid(f134805aff080224d8bd4c91fc21d219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46caf2c0d0adb8638c12318512b6e87') in 0.040626 seconds
-  Import took 0.043393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Take Damage.FBX
-  artifactKey: Guid(9797c711545513a46a8b817680b25608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Take Damage.FBX using Guid(9797c711545513a46a8b817680b25608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7954ee3d453968ce16ec2b68df49f891') in 0.041812 seconds
-  Import took 0.044833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Underground.FBX
-  artifactKey: Guid(79700ec33fe6149499f35405e08a4fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Underground.FBX using Guid(79700ec33fe6149499f35405e08a4fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5e2986542b82c442c8dccb14552a86') in 0.052702 seconds
-  Import took 0.055697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Projectile Attack Forward.FBX
-  artifactKey: Guid(05158e991381ca84188b2c8cec72e35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Projectile Attack Forward.FBX using Guid(05158e991381ca84188b2c8cec72e35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298d439be7d307c79c7c50ec4f12af77') in 0.052278 seconds
-  Import took 0.055997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Run Forward W Root.FBX
-  artifactKey: Guid(5ee5a4de9691b6642a92ef8b24c564e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Run Forward W Root.FBX using Guid(5ee5a4de9691b6642a92ef8b24c564e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef96c835f29e2451b6f385c60142d1a') in 0.045225 seconds
-  Import took 0.047976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Walk Forward In Place.FBX
-  artifactKey: Guid(ea5b61e68f6793a46a2078da1eaaaaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Walk Forward In Place.FBX using Guid(ea5b61e68f6793a46a2078da1eaaaaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0479be3947b4cadba314d2c0e8cc4307') in 0.043291 seconds
-  Import took 0.046152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Run Forward W Root.FBX
-  artifactKey: Guid(5ee5a4de9691b6642a92ef8b24c564e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Run Forward W Root.FBX using Guid(5ee5a4de9691b6642a92ef8b24c564e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef96c835f29e2451b6f385c60142d1a') in 0.039194 seconds
-  Import took 0.042303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Blossom Cute Series/FBX/Blossom@Walk Forward In Place.FBX
-  artifactKey: Guid(ea5b61e68f6793a46a2078da1eaaaaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blossom Cute Series/FBX/Blossom@Walk Forward In Place.FBX using Guid(ea5b61e68f6793a46a2078da1eaaaaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0479be3947b4cadba314d2c0e8cc4307') in 0.044583 seconds
-  Import took 0.048066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.080433 seconds.
-  path: Assets/3.AnimatorController/Burrow.controller
-  artifactKey: Guid(dc44ae02229e0a542859a3d72b047ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.AnimatorController/Burrow.controller using Guid(dc44ae02229e0a542859a3d72b047ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db9431fbb313b7eff35790a9d92e31c') in 0.045092 seconds
-  Import took 0.049171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.135935 seconds.
-  path: Assets/3.AnimatorController/Mole Rat.controller
-  artifactKey: Guid(7ee714c1e648f144787da2e14ede51b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.AnimatorController/Mole Rat.controller using Guid(7ee714c1e648f144787da2e14ede51b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7704a006b0c9480c60f408ad528e4af') in 0.014945 seconds
-  Import took 0.017779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 131.696072 seconds.
-  path: Assets/3.AnimatorController/Burrow.controller
-  artifactKey: Guid(dc44ae02229e0a542859a3d72b047ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.AnimatorController/Burrow.controller using Guid(dc44ae02229e0a542859a3d72b047ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21017481b627ae0a9329760d3e4cc20b') in 0.012343 seconds
-  Import took 0.015473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.462045 seconds.
-  path: Assets/1.Prefabs/AreaSet02.prefab
-  artifactKey: Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet02.prefab using Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: 'aee90dc855e0e16549561e21e4e0fd2b') in 0.058044 seconds
-  Import took 0.062127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.982703 seconds.
-  path: Assets/1.Prefabs/AreaSet02.prefab
-  artifactKey: Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet02.prefab using Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '5dd57eb05b892d4f082e4a9b98c7e62c') in 0.347681 seconds
-  Import took 0.352973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.936121 seconds.
-  path: Assets/1.Prefabs/AreaSet02.prefab
-  artifactKey: Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet02.prefab using Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: 'ed655156dd1aeb08e4535793290216a1') in 0.637019 seconds
-  Import took 0.641563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.162335 seconds.
-  path: Assets/1.Prefabs/AreaSet02.prefab
-  artifactKey: Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet02.prefab using Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '86b0beae98db8d948c109bff23d8f17f') in 0.041474 seconds
-  Import took 0.045119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.901753 seconds.
-  path: Assets/1.Prefabs/AreaSet04.prefab
-  artifactKey: Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet04.prefab using Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '2303d868a4c43b769e4abc3c1c43328a') in 0.065106 seconds
-  Import took 0.069962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.594281 seconds.
-  path: Assets/1.Prefabs/AreaSet04.prefab
-  artifactKey: Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet04.prefab using Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '6ec6df817684e601695d85071051bc39') in 0.064681 seconds
-  Import took 0.069466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.785281 seconds.
-  path: Assets/1.Prefabs/AreaSet04.prefab
-  artifactKey: Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet04.prefab using Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Mole Rat': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '5242ebdceac0a09959f8c2cba0c9773c') in 0.061372 seconds
-  Import took 0.066037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.768525 seconds.
-  path: Assets/1.Prefabs/AreaSet04.prefab
-  artifactKey: Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet04.prefab using Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: 'c25aea6a5356cd1da7e3678a9bfc4f9b') in 0.058835 seconds
-  Import took 0.063837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.035946 seconds.
-  path: Assets/1.Prefabs/AreaSet05.prefab
-  artifactKey: Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet05.prefab using Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73b21961be0157c7c1d886a25cfa662') in 0.041039 seconds
-  Import took 0.044700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.798582 seconds.
-  path: Assets/1.Prefabs/AreaSet05.prefab
-  artifactKey: Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet05.prefab using Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '741d92ee5de4d080ceafe84306edc683') in 0.047990 seconds
-  Import took 0.051841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.467088 seconds.
-  path: Assets/1.Prefabs/AreaSet05.prefab
-  artifactKey: Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet05.prefab using Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '5d571f514f7f2121d175ab1a9c1dc0eb') in 0.049120 seconds
-  Import took 0.053132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.734648 seconds.
-  path: Assets/1.Prefabs/AreaSet02.prefab
-  artifactKey: Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet02.prefab using Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '76344c802c5275fe8c7be4529a67076b') in 0.044847 seconds
-  Import took 0.048899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/1.Prefabs/AreaSet05.prefab
-  artifactKey: Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet05.prefab using Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '7a23ab9a3002ef51d41197c7a2827dae') in 0.050847 seconds
-  Import took 0.054888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '9c9c107232c0a68444a0ee39985b3d98') in 0.024443 seconds
-  Import took 0.027513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/1.Prefabs/AreaSet04.prefab
-  artifactKey: Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet04.prefab using Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '192158455152633d32c6f7e12ba33c7e') in 0.052943 seconds
-  Import took 0.057086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.799136 seconds.
-  path: Assets/1.Prefabs/AreaSet02.prefab
-  artifactKey: Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet02.prefab using Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '311dde0ace8ec42f4018967cc0b78c12') in 0.043569 seconds
-  Import took 0.047559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/1.Prefabs/AreaSet05.prefab
-  artifactKey: Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet05.prefab using Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '6e4517a2b48584baa988cb99ff0cf151') in 0.052974 seconds
-  Import took 0.057026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '052776751de4e7e60bd45174003e9cf7') in 0.022822 seconds
-  Import took 0.025763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/1.Prefabs/AreaSet04.prefab
-  artifactKey: Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet04.prefab using Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '60ac5baa7bc3801a9199cf58fa68e4cc') in 0.052322 seconds
-  Import took 0.056569 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004315 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.805 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1139 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.7 MB.
-System memory in use after: 172.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1707.
-Total: 1.858900 ms (FindLiveObjects: 0.196100 ms CreateObjectMapping: 0.086700 ms MarkObjects: 1.548300 ms  DeleteObjects: 0.026600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.253563 seconds.
-  path: Assets/3.AnimatorController/Burrow.controller
-  artifactKey: Guid(dc44ae02229e0a542859a3d72b047ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.AnimatorController/Burrow.controller using Guid(dc44ae02229e0a542859a3d72b047ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836dff91d1a81faab8b7cf09b51f2a98') in 0.025667 seconds
-  Import took 0.028677 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004091 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.116 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1139 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.7 MB.
-System memory in use after: 172.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1710.
-Total: 2.542700 ms (FindLiveObjects: 0.213600 ms CreateObjectMapping: 0.038800 ms MarkObjects: 2.273600 ms  DeleteObjects: 0.014600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 180.579373 seconds.
-  path: Assets/1.Prefabs/AreaSet05.prefab
-  artifactKey: Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet05.prefab using Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: 'b92e47d403797c5aae3bc502c1f67533') in 0.123505 seconds
-  Import took 0.129334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/1.Prefabs/AreaSet02.prefab
-  artifactKey: Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet02.prefab using Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: 'fe067acc64e9fe312a76f891064de7ba') in 0.045758 seconds
-  Import took 0.050663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/1.Prefabs/Enemy_Burrow.prefab
-  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '5db7ddc115fc5e2d0f8defce8f0ba0f9') in 0.024127 seconds
-  Import took 0.027437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/1.Prefabs/AreaSet04.prefab
-  artifactKey: Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/AreaSet04.prefab using Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Burrow': Transition 'Head Only Idle to Idle -> Idle' in state 'Head Only Idle to Idle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: 'cfaf384f1491f8673ccaaafc6bf99499') in 0.066147 seconds
-  Import took 0.071987 seconds .
+Unloading 1141 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.0 MB.
+System memory in use after: 156.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1656.
+Total: 3.812000 ms (FindLiveObjects: 0.442700 ms CreateObjectMapping: 0.104900 ms MarkObjects: 3.236400 ms  DeleteObjects: 0.025800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
