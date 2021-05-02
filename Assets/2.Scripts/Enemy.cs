@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
     BoxCollider boxCollider;
     SkinnedMeshRenderer[] meshs;
     Animator anim;
+    private float attackTime = 2f;
 
     private void Awake()
     {
@@ -23,7 +24,15 @@ public class Enemy : MonoBehaviour
         boxCollider = GetComponent<BoxCollider>();
         meshs = GetComponentsInChildren<SkinnedMeshRenderer>();
         anim = GetComponent<Animator>();
-        InvokeRepeating("Attack", 1, 2f);            
+        switch (enemyType)      //타입에 따른 공격속도
+        {
+            default:
+                break;
+            case Type.Burrow:
+                attackTime = 0.5f;
+                break;
+        }
+        InvokeRepeating("Attack", 1, attackTime);
     }
  
     private void OnTriggerEnter(Collider other)
@@ -62,7 +71,9 @@ public class Enemy : MonoBehaviour
                     Destroy(instantBullet, 2f);
                     break;
                 case Type.Burrow:
-                    anim.SetTrigger("onAttack");
+                    GameObject Player = GameObject.Find("Player");
+                    if (Vector3.Distance(Player.transform.position, this.transform.position)<=20f)      //플레이어와 근접했을 때에만 공격
+                         anim.SetTrigger("onAttack");
                     break;
             }
         }
