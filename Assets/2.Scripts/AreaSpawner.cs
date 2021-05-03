@@ -9,6 +9,8 @@ public class AreaSpawner : MonoBehaviour
     [SerializeField]
     private float zDistance = 20;
     private int areaIndex = 0;
+    [SerializeField]
+    private bool isBoss = false;
 
     [SerializeField]
     private Transform playerTransform;
@@ -39,7 +41,7 @@ public class AreaSpawner : MonoBehaviour
             clone = Instantiate(areaPrefabs[index]);
         }
         clone.transform.position = new Vector3(0, 0, areaIndex * zDistance);
-        clone.GetComponent<Area>().Setup(this, playerTransform);
+        clone.GetComponent<Area>().Setup(this, playerTransform,isBoss);
         areaIndex++;
     }
 }

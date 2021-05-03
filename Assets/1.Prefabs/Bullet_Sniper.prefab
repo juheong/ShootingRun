@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4051019153782484}
   - component: {fileID: 198963123088421144}
   - component: {fileID: 199503990092743698}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4886,7 +4886,7 @@ GameObject:
   - component: {fileID: 4922670003012162}
   - component: {fileID: 198039901826658266}
   - component: {fileID: 199414583292174222}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9688,7 +9688,7 @@ GameObject:
   - component: {fileID: 4382174037961564}
   - component: {fileID: 198297839452806300}
   - component: {fileID: 199137496349654608}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14558,7 +14558,7 @@ GameObject:
   - component: {fileID: 2411230585462366827}
   - component: {fileID: 7741312382266257901}
   - component: {fileID: -3033948634100004931}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Bullet_Sniper
   m_TagString: Bullet
   m_Icon: {fileID: 0}

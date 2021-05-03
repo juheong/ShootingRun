@@ -7,9 +7,9 @@ public class Enemy : MonoBehaviour
     public enum Type {Basic, Rush, Range,Burrow};
     public Type enemyType;
     [SerializeField]
-    private int maxHelath;
+    private int maxHealth;
     [SerializeField]
-    private int curHelath;
+    private int curHealth;
     public GameObject bullet;
     private bool isDie = false;
     Rigidbody rigid;
@@ -40,7 +40,7 @@ public class Enemy : MonoBehaviour
         if(other.tag == "Bullet")
         {
             Bullet bullet = other.GetComponent<Bullet>();
-            curHelath -= bullet.damage;
+            curHealth -= bullet.damage;
             float x = transform.position.x;
             Vector3 reactVec = transform.position - other.transform.position;
             Destroy(other.gameObject);
@@ -74,9 +74,16 @@ public class Enemy : MonoBehaviour
                     GameObject Player = GameObject.Find("Player");
                     if (Vector3.Distance(Player.transform.position, this.transform.position)<=20f)      //플레이어와 근접했을 때에만 공격
                          anim.SetTrigger("onAttack");
+                    Invoke("Burrow", 1f);
+                    
                     break;
             }
         }
+    }
+
+    private void Burrow()
+    {
+        gameObject.layer = 10;
     }
 
     IEnumerator OnDamge(Vector3 reactVec)
@@ -84,7 +91,7 @@ public class Enemy : MonoBehaviour
         foreach (SkinnedMeshRenderer mesh in meshs)
             mesh.material.color = Color.red;    
         yield return new WaitForSeconds(0.1f);
-        if(curHelath > 0)
+        if (curHealth > 0)
         {
             foreach (SkinnedMeshRenderer mesh in meshs)
                 mesh.material.color = Color.white;

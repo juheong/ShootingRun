@@ -94,6 +94,7 @@ public class DataManager : MonoBehaviour
 
         player.coin = (int)data[0]["Coin"];
         gameController.InitialCoin(player.coin);
+        gameController.InitialHealth(100);
 
     }
 

@@ -8,19 +8,33 @@ public class Area : MonoBehaviour
     private float destroyDistance = 15;
     private AreaSpawner areaSpawner;
     private Transform playerTransform;
+    private bool isBoss;
 
-    public void Setup(AreaSpawner areaSpawner, Transform playerTransform)
+    public void Setup(AreaSpawner areaSpawner, Transform playerTransform, bool isBoss)
     {
         this.areaSpawner = areaSpawner;
         this.playerTransform = playerTransform;
+        this.isBoss = isBoss;
     }
 
     private void Update()
     {
-        if( playerTransform.position.z - transform.position.z >= destroyDistance)
+        if(isBoss == true)
         {
-            areaSpawner.SpawnArea();
-            Destroy(gameObject);
+            if (playerTransform.position.z - transform.position.z <= destroyDistance * (-1))
+            {
+                areaSpawner.SpawnArea();
+                Destroy(gameObject);
+            }
         }
+        else
+        {
+            if (playerTransform.position.z - transform.position.z >= destroyDistance)
+            {
+                areaSpawner.SpawnArea();
+                Destroy(gameObject);
+            }
+        }
+
     }
 }

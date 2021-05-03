@@ -15,6 +15,8 @@ TagManager:
   - EnemyBullet
   - Boss
   - Fire
+  - FX
+  - EnemyDead
   layers:
   - Default
   - TransparentFX
@@ -30,8 +32,8 @@ TagManager:
   - EnemyDead
   - Floor
   - EnemyBullet
-  - 
-  - 
+  - EnemyBurrow
+  - PlayerBullet
   - 
   - 
   - 

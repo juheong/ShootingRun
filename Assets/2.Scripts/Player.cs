@@ -13,11 +13,11 @@ public class Player : MonoBehaviour
     
     public int coin;
     [SerializeField]
-    private int helath;
+    private int health;
     [SerializeField]
     private int maxcoin;
     [SerializeField]
-    private int maxhelath;
+    private int maxhealth;
 
     private float moveXWidth = 1.5f;
     private float moveTimeX = 0.1f;
@@ -28,10 +28,11 @@ public class Player : MonoBehaviour
     private float moveTimeYdown = 1f;
     private bool isJump = false;
     private bool isSlide = false;
-    [SerializeField]
-    private float moveSpeed = 20.0f;
+    public float moveSpeed = 20.0f;
     private float limitY = -1.0f;
     private bool isDie = false;
+    [SerializeField]
+    private bool isBoss = false;
    
     private Rigidbody rigibody;
     private PlayerAnimator playerAnimator;
@@ -41,6 +42,7 @@ public class Player : MonoBehaviour
     GameObject nearObject;
     Weapon equipWeapon;
     CameraController cameraController;
+    SkinnedMeshRenderer[] meshs;
     private float fireDelay;
     private bool isFireReady;
 
@@ -50,8 +52,9 @@ public class Player : MonoBehaviour
     {
         rigibody = GetComponent<Rigidbody>();
         playerAnimator = GetComponentInChildren<PlayerAnimator>();
+        meshs = GetComponentsInChildren<SkinnedMeshRenderer>();
         // hasWeapons 배열값들의 트루값을 검사해서 참이면 무기 활성화
-        for(int i = 0; i < hasWeapons.Length; i++)
+        for (int i = 0; i < hasWeapons.Length; i++)
         {
             if (hasWeapons[i] == true)
             {
@@ -66,13 +69,20 @@ public class Player : MonoBehaviour
     {
         if (!isDie)
         {        
-            transform.position += Vector3.forward * moveSpeed * Time.deltaTime;
+            if(isBoss == true)
+            {
+                transform.position += Vector3.back * moveSpeed * Time.deltaTime;
+            }
+            else
+            {
+                transform.position += Vector3.forward * moveSpeed * Time.deltaTime;
+            }            
             playerAnimator.OnMovement(1);
             if (transform.position.y < limitY)
             {
                 Debug.Log("게임 오버");
             }
-            Attack();
+            if (!isBoss) Attack();
         }
     }
     
@@ -178,8 +188,7 @@ public class Player : MonoBehaviour
                     coin += item.value;
                     if (coin > maxcoin)
                         coin = maxcoin;
-                    gameController.IncreaseCoinCount();
-
+                    gameController.IncreaseCoinCount();                    
                     break;
             }
         }
@@ -189,17 +198,31 @@ public class Player : MonoBehaviour
         }
         else if(other.tag == "Enemy")
         {
-            StartCoroutine(OnDie());
+            StartCoroutine(OnDamage(20));
        
         }
         else if (other.tag == "EnemyBullet")
         {
             Bullet enemyBullet = other.GetComponent<Bullet>();
             Destroy(other.gameObject);
-            StartCoroutine(OnDie());
-
+            StartCoroutine(OnDamage(enemyBullet.damage));
         }
 
+    }
+
+    IEnumerator OnDamage(int damage)
+    {
+        health -= damage;
+        gameController.DecreaseHealthCount(damage);
+        foreach (SkinnedMeshRenderer mesh in meshs)
+            mesh.material.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        foreach (SkinnedMeshRenderer mesh in meshs)
+            mesh.material.color = Color.white;
+        if(health < 0)
+        {
+            StartCoroutine(OnDie());
+        }
     }
 
     IEnumerator OnDie()

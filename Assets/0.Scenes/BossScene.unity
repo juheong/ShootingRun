@@ -1281,7 +1281,8 @@ MonoBehaviour:
   - {fileID: 5326689026232395275, guid: f2b7a4044cec21d4d8f6d8f171bca1c9, type: 3}
   - {fileID: 5326689026232395275, guid: f2b7a4044cec21d4d8f6d8f171bca1c9, type: 3}
   spawnAreaCountAtStart: 3
-  zDistance: 20
+  zDistance: -20
+  isBoss: 1
   playerTransform: {fileID: 1944157157}
 --- !u!4 &884890811
 Transform:
@@ -2051,6 +2052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCoinCount: {fileID: 595493249}
+  textHealthCount: {fileID: 0}
 --- !u!4 &1777141634
 Transform:
   m_ObjectHideFlags: 0
@@ -2093,7 +2095,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944157156}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0.05, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2101,7 +2103,7 @@ Transform:
   - {fileID: 1011367155}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!136 &1944157158
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2168,10 +2170,11 @@ MonoBehaviour:
   - {fileID: 469118634}
   hasWeapons: 000001
   coin: 0
-  helath: 100
+  health: 0
   maxcoin: 9999
-  maxhelath: 100
+  maxhealth: 0
   moveSpeed: 15
+  isBoss: 1
   gameController: {fileID: 1777141633}
 --- !u!114 &1944157162
 MonoBehaviour:

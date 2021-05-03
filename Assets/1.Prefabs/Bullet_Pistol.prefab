@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4988181890345852}
   - component: {fileID: 198244684998842300}
   - component: {fileID: 199383663598286386}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4876,7 +4876,7 @@ GameObject:
   - component: {fileID: 4980085819578310}
   - component: {fileID: 198888598281110096}
   - component: {fileID: 199972697797455202}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9683,7 +9683,7 @@ GameObject:
   - component: {fileID: -4209495018278746016}
   - component: {fileID: -2268741168554765030}
   - component: {fileID: 8658492847815693702}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Bullet_Pistol
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -14755,7 +14755,7 @@ GameObject:
   - component: {fileID: 4184035022186122}
   - component: {fileID: 198192899082754790}
   - component: {fileID: 199922728098447880}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: bulletAround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
