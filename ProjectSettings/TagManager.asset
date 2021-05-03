@@ -13,11 +13,13 @@ TagManager:
   - Item
   - Bullet
   - EnemyBullet
+  - Boss
+  - Fire
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 

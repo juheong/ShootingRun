@@ -9,6 +9,8 @@ public class BossManager : MonoBehaviour
     [SerializeField]
     private int curHelath;
     private int halfHealth;
+    [SerializeField]
+    private GameObject[] SkillsIndicator;
     private bool isDie = false;
     Rigidbody rigid;
     BoxCollider boxCollider;
@@ -58,11 +60,10 @@ public class BossManager : MonoBehaviour
     {
         if (!isDie)
         {
-            int index = Random.Range(0, 1);
+            int index = Random.Range(0, halfHealth);
             switch (index)
             {
                 case 0:
-                    anim.SetTrigger("doSlash");
                     StartCoroutine(shotBullet());
                     break;
                 case 1:
@@ -83,9 +84,14 @@ public class BossManager : MonoBehaviour
 
     IEnumerator shotBullet()        //slash 패턴 돌던지기
     {
-        yield return new WaitForSeconds(0.1f);
+        Vector3 Indi_position = transform.position;
+        GameObject skill_indicator = Instantiate(SkillsIndicator[0], Indi_position, transform.rotation);
+        Destroy(skill_indicator, 1.5f);
+        yield return new WaitForSeconds(1.5f);
+
+        anim.SetTrigger("doSlash");
         Vector3 Bul_position = transform.position;
-        Bul_position += new Vector3(-1.5f, 1.7f, 0.18f);
+        Bul_position += new Vector3(-1.5f, 1.7f, 0.2f);
         GameObject instantBullet = Instantiate(bullet, Bul_position, transform.rotation);
         Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
         rigidBullet.velocity = transform.forward * 20;
