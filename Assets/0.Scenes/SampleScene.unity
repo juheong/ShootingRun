@@ -825,15 +825,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaPrefabs:
-  - {fileID: 5326689026232395275, guid: f2b7a4044cec21d4d8f6d8f171bca1c9, type: 3}
-  - {fileID: 5326689026232395275, guid: f320fe11e0078a74ba2c24df19491415, type: 3}
-  - {fileID: 5522022273651705580, guid: 92be4a82c3b50de4b82417a7203a7536, type: 3}
-  - {fileID: 2026559186407029082, guid: 11a047c7a2f204b429765aa766ff4509, type: 3}
-  - {fileID: 5033103405155391231, guid: 3d1d23fcead4d85498ce6cdbf1515048, type: 3}
-  - {fileID: 5399885397049862723, guid: 23ccb46d8754af24c92fd9f915d48c22, type: 3}
-  - {fileID: 5399885397049862723, guid: 23ccb46d8754af24c92fd9f915d48c22, type: 3}
-  - {fileID: 5399885397049862723, guid: 23ccb46d8754af24c92fd9f915d48c22, type: 3}
-  - {fileID: 5399885397049862723, guid: 23ccb46d8754af24c92fd9f915d48c22, type: 3}
+  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
+  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
+  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
+  - {fileID: 1539403277145183474, guid: 4b4ffe07dc891f742ab2ed1a479e8a5d, type: 3}
+  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
+  - {fileID: 1539403277145183474, guid: 4b4ffe07dc891f742ab2ed1a479e8a5d, type: 3}
+  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
+  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
+  - {fileID: 1539403277145183474, guid: 4b4ffe07dc891f742ab2ed1a479e8a5d, type: 3}
   spawnAreaCountAtStart: 3
   zDistance: 20
   isBoss: 0
