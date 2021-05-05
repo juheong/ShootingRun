@@ -44,7 +44,7 @@ public class Enemy : MonoBehaviour
             float x = transform.position.x;
             Vector3 reactVec = transform.position - other.transform.position;
             Destroy(other.gameObject);
-            StartCoroutine(OnDamge(reactVec));
+            StartCoroutine(OnDamage(reactVec));
         }
        
     }
@@ -86,7 +86,7 @@ public class Enemy : MonoBehaviour
         gameObject.layer = 10;
     }
 
-    IEnumerator OnDamge(Vector3 reactVec)
+    IEnumerator OnDamage(Vector3 reactVec)
     {
         foreach (SkinnedMeshRenderer mesh in meshs)
             mesh.material.color = Color.red;    

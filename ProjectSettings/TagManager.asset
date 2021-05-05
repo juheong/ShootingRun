@@ -17,6 +17,7 @@ TagManager:
   - Fire
   - FX
   - EnemyDead
+  - NestedScrollManager
   layers:
   - Default
   - TransparentFX
@@ -34,7 +35,7 @@ TagManager:
   - EnemyBullet
   - EnemyBurrow
   - PlayerBullet
-  - 
+  - Indicator
   - 
   - 
   - 

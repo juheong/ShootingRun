@@ -47,7 +47,6 @@ public class Player : MonoBehaviour
     private bool isFireReady;
 
 
-  
     private void Awake()
     {
         rigibody = GetComponent<Rigidbody>();
@@ -203,6 +202,7 @@ public class Player : MonoBehaviour
         }
         else if (other.tag == "EnemyBullet")
         {
+
             Bullet enemyBullet = other.GetComponent<Bullet>();
             Destroy(other.gameObject);
             StartCoroutine(OnDamage(enemyBullet.damage));
@@ -219,7 +219,7 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         foreach (SkinnedMeshRenderer mesh in meshs)
             mesh.material.color = Color.white;
-        if(health < 0)
+        if(health <= 0)
         {
             StartCoroutine(OnDie());
         }

@@ -16,8 +16,11 @@ public class BossManager : MonoBehaviour
     BoxCollider boxCollider;
     SkinnedMeshRenderer[] meshs;
     Animator anim;
-    public GameObject bullet;
+    public GameObject bullet1;
+    public GameObject bullet2;
     Player player;
+    Rigidbody indirigi;
+
 
     private void Awake()
     {
@@ -26,7 +29,7 @@ public class BossManager : MonoBehaviour
         meshs = GetComponentsInChildren<SkinnedMeshRenderer>();
         anim = GetComponent<Animator>();
         player = FindObjectOfType<Player>();
-        halfHealth = 4;     //패턴 갯수를 위함
+        halfHealth = 0;     //패턴 갯수를 위함
         InvokeRepeating("Attack", 1, 5f);
     }
 
@@ -40,7 +43,7 @@ public class BossManager : MonoBehaviour
             {
                 halfHealth = 5;
                 anim.SetBool("onRage", true);
-            }
+            }      
         }
     }
 
@@ -88,13 +91,16 @@ public class BossManager : MonoBehaviour
     {
         Vector3 Indi_position = transform.position;
         GameObject skill_indicator = Instantiate(SkillsIndicator[0], Indi_position, transform.rotation);
+        indirigi = skill_indicator.GetComponent<Rigidbody>();
+        indirigi.velocity = transform.forward * player.moveSpeed;
         Destroy(skill_indicator, 1.5f);
+
         yield return new WaitForSeconds(1.5f);
 
         anim.SetTrigger("doSlash");
         Vector3 Bul_position = transform.position;
         Bul_position += new Vector3(-1.5f, 1.7f, 0.2f);
-        GameObject instantBullet = Instantiate(bullet, Bul_position, transform.rotation);
+        GameObject instantBullet = Instantiate(bullet1, Bul_position, transform.rotation);        
         Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
         rigidBullet.velocity = transform.forward * 20;
         Destroy(instantBullet, 2f);
@@ -102,7 +108,7 @@ public class BossManager : MonoBehaviour
 
         Vector3 Bul_position2 = transform.position;
         Bul_position2 += new Vector3(1.5f, 1.7f, 0.2f);
-        GameObject instantBullet2 = Instantiate(bullet, Bul_position2, transform.rotation);
+        GameObject instantBullet2 = Instantiate(bullet2, Bul_position2, transform.rotation);
         Rigidbody rigidBullet2 = instantBullet2.GetComponent<Rigidbody>();
         rigidBullet2.velocity = transform.forward * 20;
         Destroy(instantBullet2, 2f);
