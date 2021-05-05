@@ -29,7 +29,7 @@ public class BossManager : MonoBehaviour
         meshs = GetComponentsInChildren<SkinnedMeshRenderer>();
         anim = GetComponent<Animator>();
         player = FindObjectOfType<Player>();
-        halfHealth = 0;     //패턴 갯수를 위함
+        halfHealth = 4;     //패턴 갯수를 위함
         InvokeRepeating("Attack", 1, 5f);
     }
 
@@ -38,7 +38,7 @@ public class BossManager : MonoBehaviour
     {
         if (!isDie)
         {
-            transform.position += Vector3.back * player.moveSpeed* Time.deltaTime;
+            transform.position += Vector3.back * player.moveSpeed * Time.deltaTime;
             if (curHelath <= maxHelath / 2)     //hp가 절반 이하일시 패턴 추가
             {
                 halfHealth = 5;

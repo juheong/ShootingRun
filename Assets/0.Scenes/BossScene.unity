@@ -1415,8 +1415,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaPrefabs:
-  - {fileID: 5326689026232395275, guid: f2b7a4044cec21d4d8f6d8f171bca1c9, type: 3}
-  - {fileID: 5326689026232395275, guid: f2b7a4044cec21d4d8f6d8f171bca1c9, type: 3}
+  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
+  - {fileID: 1539403277145183474, guid: 4b4ffe07dc891f742ab2ed1a479e8a5d, type: 3}
+  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
   spawnAreaCountAtStart: 3
   zDistance: -20
   isBoss: 1
@@ -1484,6 +1485,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8962593520722546671, guid: dd63cc4dcc97f6146bad7cea643e9918,
         type: 3}
+    - target: {fileID: 3472364904508501340, guid: d2013d254489a24479a3bbf157be2a42,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 5520583845748473769, guid: d2013d254489a24479a3bbf157be2a42,
         type: 3}
       propertyPath: m_RootOrder
@@ -2322,7 +2328,7 @@ MonoBehaviour:
   health: 100
   maxcoin: 9999
   maxhealth: 100
-  moveSpeed: 1
+  moveSpeed: 10
   isBoss: 1
   gameController: {fileID: 1777141633}
 --- !u!114 &1944157162

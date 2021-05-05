@@ -826,14 +826,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   areaPrefabs:
   - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
-  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
-  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
   - {fileID: 1539403277145183474, guid: 4b4ffe07dc891f742ab2ed1a479e8a5d, type: 3}
   - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
-  - {fileID: 1539403277145183474, guid: 4b4ffe07dc891f742ab2ed1a479e8a5d, type: 3}
-  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
-  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
-  - {fileID: 1539403277145183474, guid: 4b4ffe07dc891f742ab2ed1a479e8a5d, type: 3}
   spawnAreaCountAtStart: 3
   zDistance: 20
   isBoss: 0

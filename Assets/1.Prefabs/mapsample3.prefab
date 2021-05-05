@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1539403277145183487}
   - component: {fileID: 1539403277145183484}
   - component: {fileID: 1539403277145183485}
-  - component: {fileID: 1111398873622946075}
-  m_Layer: 0
+  - component: {fileID: 7659817736691273519}
+  m_Layer: 12
   m_Name: mapsample3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539403277145183474}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49.98, y: -0.24, z: -0.02}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 0.1, z: 20}
   m_Children:
   - {fileID: 1539403277290102284}
@@ -263,7 +263,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1111398873622946075
+--- !u!114 &7659817736691273519
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -272,14 +272,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1539403277145183474}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea9480fda3869d6439f861daaa936a69, type: 3}
+  m_Script: {fileID: 11500000, guid: d765360f138e3cb4a95c8fdd9a7f0f57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areaPrefabs: []
-  spawnAreaCountAtStart: 3
-  zDistance: 20
-  isBoss: 0
-  playerTransform: {fileID: 0}
+  destroyDistance: 20
 --- !u!1001 &199159944553613361
 PrefabInstance:
   m_ObjectHideFlags: 0
