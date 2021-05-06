@@ -7,9 +7,12 @@ public class PlayerController : MonoBehaviour
     private Vector3 touchStart;
     private Vector3 touchEnd;
     private Player movement;
+    private PlayerAnimator playerAnimator;
+
     private void Awake()
     {
         movement = GetComponent<Player>();
+        playerAnimator = GetComponentInChildren<PlayerAnimator>();
     }
 
     private void Update()
@@ -36,7 +39,7 @@ public class PlayerController : MonoBehaviour
         {
             touchEnd = touch.position;
             OnDragXY();
-        }
+        }  
     }
 
     private void OnPCPlatform()
@@ -49,7 +52,12 @@ public class PlayerController : MonoBehaviour
         {
             touchEnd = Input.mousePosition;
             OnDragXY();
-        } 
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            Debug.Log("A");
+            BossAttack();
+        }
     }
 
     private void OnDragXY()
@@ -70,5 +78,11 @@ public class PlayerController : MonoBehaviour
             movement.MoveToYdown();
             return;
         }
+    }
+
+    private void BossAttack()
+    {
+        playerAnimator.OnBossA();
+
     }
 }

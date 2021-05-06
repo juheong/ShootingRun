@@ -210,8 +210,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyType: 2
-  maxHelath: 20
-  curHelath: 20
+  maxHealth: 10
+  curHealth: 10
   bullet: {fileID: 8899929598363416490, guid: c02981bc89cbfc6428a302a89a303621, type: 3}
 --- !u!1 &3615200838821969060
 GameObject:

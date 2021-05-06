@@ -36,6 +36,11 @@ public class PlayerAnimator : MonoBehaviour
         animator.SetTrigger("onShoot");
     }
 
+    public void OnBossA()
+    {
+        animator.SetTrigger("onBossShoot");
+    }
+
     public void DoDie()
     {
         animator.ResetTrigger("onShoot");

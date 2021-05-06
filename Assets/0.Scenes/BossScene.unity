@@ -2328,7 +2328,7 @@ MonoBehaviour:
   health: 100
   maxcoin: 9999
   maxhealth: 100
-  moveSpeed: 10
+  moveSpeed: 1
   isBoss: 1
   gameController: {fileID: 1777141633}
 --- !u!114 &1944157162
