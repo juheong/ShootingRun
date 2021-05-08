@@ -16,8 +16,8 @@ public class BossManager : MonoBehaviour
     BoxCollider boxCollider;
     SkinnedMeshRenderer[] meshs;
     Animator anim;
-    public GameObject bullet1;
-    public GameObject bullet2;
+    public GameObject[] bullet;
+
     Player player;
     Rigidbody indirigi;
 
@@ -75,7 +75,7 @@ public class BossManager : MonoBehaviour
                     anim.SetTrigger("doSpell");
                     break;
                 case 2:
-                    anim.SetTrigger("doSmash");
+                    StartCoroutine(SharpRock());
                     break;
                 case 3:
                     anim.SetTrigger("doJump");
@@ -99,19 +99,39 @@ public class BossManager : MonoBehaviour
 
         anim.SetTrigger("doSlash");
         Vector3 Bul_position = transform.position;
-        Bul_position += new Vector3(-1.5f, 1.7f, 0.2f);
-        GameObject instantBullet = Instantiate(bullet1, Bul_position, transform.rotation);        
+        Bul_position += new Vector3(-1.5f, 1.7f, 0f);
+        GameObject instantBullet = Instantiate(bullet[0], Bul_position, transform.rotation);
         Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
         rigidBullet.velocity = transform.forward * 20;
         Destroy(instantBullet, 2f);
         yield return new WaitForSeconds(0.16f);
 
         Vector3 Bul_position2 = transform.position;
-        Bul_position2 += new Vector3(1.5f, 1.7f, 0.2f);
-        GameObject instantBullet2 = Instantiate(bullet2, Bul_position2, transform.rotation);
+        Bul_position2 += new Vector3(1.5f, 1.7f, 0f);
+        GameObject instantBullet2 = Instantiate(bullet[0], Bul_position2, transform.rotation);
         Rigidbody rigidBullet2 = instantBullet2.GetComponent<Rigidbody>();
         rigidBullet2.velocity = transform.forward * 20;
         Destroy(instantBullet2, 2f);
+    }
+
+    IEnumerator SharpRock()
+    {
+        Vector3 Indi_position = transform.position;
+        GameObject skill_indicator = Instantiate(SkillsIndicator[2], Indi_position, transform.rotation);
+        indirigi = skill_indicator.GetComponent<Rigidbody>();
+        indirigi.velocity = transform.forward * player.moveSpeed;
+        Destroy(skill_indicator, 1.5f);
+        yield return new WaitForSeconds(1.5f);
+
+        anim.SetTrigger("doSmash");
+        yield return new WaitForSeconds(0.5f);
+
+        Vector3 Bul_position = transform.position;
+        Bul_position += new Vector3(0f, 0f, -3f);
+        GameObject instantBullet = Instantiate(bullet[1], Bul_position, transform.rotation);
+        Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
+        rigidBullet.velocity = transform.forward * 12;
+        Destroy(instantBullet, 2f);
     }
 
     IEnumerator OnDamge(Vector3 reactVec)

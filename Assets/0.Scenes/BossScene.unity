@@ -1483,7 +1483,17 @@ PrefabInstance:
         type: 3}
       propertyPath: bullet2
       value: 
-      objectReference: {fileID: 8962593520722546671, guid: dd63cc4dcc97f6146bad7cea643e9918,
+      objectReference: {fileID: 0}
+    - target: {fileID: 1081925174838714213, guid: d2013d254489a24479a3bbf157be2a42,
+        type: 3}
+      propertyPath: bullet.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1081925174838714213, guid: d2013d254489a24479a3bbf157be2a42,
+        type: 3}
+      propertyPath: bullet.Array.data[1]
+      value: 
+      objectReference: {fileID: 669964527018282545, guid: f2cca1d0736033d4b829ab35d83a681c,
         type: 3}
     - target: {fileID: 3472364904508501340, guid: d2013d254489a24479a3bbf157be2a42,
         type: 3}

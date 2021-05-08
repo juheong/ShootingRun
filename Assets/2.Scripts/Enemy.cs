@@ -72,9 +72,9 @@ public class Enemy : MonoBehaviour
                     break;
                 case Type.Burrow:
                     GameObject Player = GameObject.Find("Player");
-                    if (Vector3.Distance(Player.transform.position, this.transform.position)<=20f)      //플레이어와 근접했을 때에만 공격
+                    if (Vector3.Distance(Player.transform.position, this.transform.position)<=15f)      //플레이어와 근접했을 때에만 공격
                          anim.SetTrigger("onAttack");
-                    Invoke("Burrow", 1f);
+                    Invoke("Burrow", 0f);
                     
                     break;
             }

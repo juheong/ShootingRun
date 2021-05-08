@@ -202,7 +202,6 @@ public class Player : MonoBehaviour
         }
         else if (other.tag == "EnemyBullet")
         {
-
             Bullet enemyBullet = other.GetComponent<Bullet>();
             Destroy(other.gameObject);
             StartCoroutine(OnDamage(enemyBullet.damage));
