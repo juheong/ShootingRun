@@ -100,9 +100,10 @@ public class Enemy : MonoBehaviour
         {
             foreach (SkinnedMeshRenderer mesh in meshs)
                 mesh.material.color = Color.gray;
+            gameObject.layer = 11;
             anim.SetTrigger("doDie");
             isDie = true;
-            gameObject.layer = 11;
+            
             // 몬스터 죽을 시 날라가는 효과
             //reactVec = reactVec.normalized;
             //reactVec += Vector3.up * 1.5f;
