@@ -197,7 +197,7 @@ public class Player : MonoBehaviour
         }
         else if(other.tag == "Enemy")
         {
-            StartCoroutine(OnDamage(20));
+            //StartCoroutine(OnDamage(20));
        
         }
         else if (other.tag == "EnemyBullet")

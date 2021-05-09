@@ -350,7 +350,7 @@ MonoBehaviour:
   - {fileID: 94883107}
   - {fileID: 1541355953}
   - {fileID: 2077329767}
-  hasWeapons: 000001
+  hasWeapons: 000100
   coin: 0
   health: 100
   maxcoin: 9999

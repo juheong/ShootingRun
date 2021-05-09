@@ -116,6 +116,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Bud
       objectReference: {fileID: 0}
+    - target: {fileID: 3615200838821969058, guid: 8257bf9b9d661684486fab49cb86d5db,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8257bf9b9d661684486fab49cb86d5db, type: 3}
 --- !u!4 &2349259965647468537 stripped
@@ -265,6 +270,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy_Wolf Pup
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379873672874271385, guid: 1d88f3f7ca1d94343b7bfef905937fa7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d88f3f7ca1d94343b7bfef905937fa7, type: 3}
