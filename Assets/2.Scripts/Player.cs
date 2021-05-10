@@ -29,8 +29,9 @@ public class Player : MonoBehaviour
     private bool isJump = false;
     private bool isSlide = false;
     public float moveSpeed = 20.0f;
-    private float limitY = -1.0f;
     private bool isDie = false;
+    private bool rot = false;
+    private bool rot2 = false;
     [SerializeField]
     private bool isBoss = false;
    
@@ -58,10 +59,10 @@ public class Player : MonoBehaviour
             if (hasWeapons[i] == true)
             {
                 equipWeapon = weapons[i].GetComponent<Weapon>();
+                equipWeapon.gameObject.SetActive(true);
             }
         }             
-        cameraController = GameObject.Find("Main Camera").GetComponent<CameraController>();
-        equipWeapon.gameObject.SetActive(true);
+        cameraController = GameObject.Find("Main Camera").GetComponent<CameraController>();        
     }
 
     private void Update()
@@ -75,16 +76,25 @@ public class Player : MonoBehaviour
             else
             {
                 transform.position += Vector3.forward * moveSpeed * Time.deltaTime;
-            }            
-            playerAnimator.OnMovement(1);
-            if (transform.position.y < limitY)
-            {
-                Debug.Log("게임 오버");
             }
+            //playerAnimator.OnMovement(1);
             if (!isBoss) Attack();
+            else playerAnimator.isBoss();
         }
     }
-    
+
+    private void FixedUpdate()
+    {
+        if (rot == true)
+        {
+            rotat();
+        }
+        else if (rot2 == true)
+        {
+            rotat2();
+        }
+    }
+
     public void MoveToX(int x)
     {
         if (isXMove == true) return;
@@ -241,10 +251,50 @@ public class Player : MonoBehaviour
         if (isFireReady && !isSlide && !isJump)
         {        
             equipWeapon.Use();
-            playerAnimator.OnShoot();
+            if(equipWeapon.type2 == Weapon.Type2.Pistol)
+            {
+                playerAnimator.PistolShoot();
+            }
+            else
+            {
+                playerAnimator.RifleShoot();
+            }
+            
             fireDelay = 0;
         }
     }
+
+    public void BossAttack()
+    {
+        if (equipWeapon == null) return;
+
+        if (!isSlide && !isJump)
+        {
+            playerAnimator.OnBossA();            
+            rot2 = false;
+            rot = true;
+            equipWeapon.Use(true);
+            Invoke("rotatback", 1f);
+        }
+    }
+
+    private void rotat()
+    {
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, 360, 0), 20f * Time.deltaTime);
+    }
+
+    private void rotat2()
+    {
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, 180, 0), 20f * Time.deltaTime);
+    }
+
+
+    private void rotatback()
+    {
+        rot = false;
+        rot2 = true;
+    }
 }
+
 
 

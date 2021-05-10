@@ -19,21 +19,43 @@ public class PlayerAnimator : MonoBehaviour
 
     public void OnJump()
     {
-        animator.ResetTrigger("onShoot");
+        animator.ResetTrigger("PistolShoot");
+        animator.ResetTrigger("RifleShoot");
         animator.SetTrigger("onJump");
 
     }
 
     public void OnSlide()
     {
-        animator.ResetTrigger("onShoot");
+        animator.ResetTrigger("PistolShoot");
+        animator.ResetTrigger("RifleShoot");
         animator.SetTrigger("onSlide");
               
     }
 
-    public void OnShoot()
+    public void PistolShoot()
     {
-        animator.SetTrigger("onShoot");
+        animator.SetTrigger("PistolShoot");
+    }
+
+    public void RifleShoot()
+    {
+        animator.SetTrigger("RifleShoot");
+    }
+
+    public void isPistol()
+    {
+        animator.SetTrigger("isPistol");
+    }
+
+    public void isRifle()
+    {
+        animator.SetTrigger("isRifle");
+    }
+
+    public void isBoss()
+    {
+        animator.SetTrigger("isBoss");
     }
 
     public void OnBossA()
@@ -43,7 +65,8 @@ public class PlayerAnimator : MonoBehaviour
 
     public void DoDie()
     {
-        animator.ResetTrigger("onShoot");
+        animator.ResetTrigger("PistolShoot");
+        animator.ResetTrigger("RifleShoot");
         animator.SetTrigger("doDie");
     }
 }

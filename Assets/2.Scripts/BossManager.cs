@@ -130,7 +130,7 @@ public class BossManager : MonoBehaviour
         Bul_position += new Vector3(0f, 0f, -3f);
         GameObject instantBullet = Instantiate(bullet[1], Bul_position, transform.rotation);
         Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
-        rigidBullet.velocity = transform.forward * 12;
+        rigidBullet.velocity = transform.forward * 20;
         Destroy(instantBullet, 2f);
     }
 

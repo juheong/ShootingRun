@@ -9,14 +9,16 @@ public class PlayerController : MonoBehaviour
     private Player movement;
     private PlayerAnimator playerAnimator;
 
+
     private void Awake()
     {
         movement = GetComponent<Player>();
         playerAnimator = GetComponentInChildren<PlayerAnimator>();
+
     }
 
     private void Update()
-    {        
+    {
         if (Application.isMobilePlatform)
         {
             OnMobilePlatform();
@@ -26,6 +28,7 @@ public class PlayerController : MonoBehaviour
             OnPCPlatform();
         }
     }
+
 
     private void OnMobilePlatform()
     {
@@ -39,7 +42,7 @@ public class PlayerController : MonoBehaviour
         {
             touchEnd = touch.position;
             OnDragXY();
-        }  
+        }
     }
 
     private void OnPCPlatform()
@@ -55,8 +58,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.A))
         {
-            Debug.Log("A");
-            BossAttack();
+            movement.BossAttack();
         }
     }
 
@@ -68,7 +70,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        if (touchEnd.y - touchStart.y >= dragDistance )
+        if (touchEnd.y - touchStart.y >= dragDistance)
         {
             movement.MoveToYup();
             return;
@@ -79,10 +81,6 @@ public class PlayerController : MonoBehaviour
             return;
         }
     }
-
-    private void BossAttack()
-    {
-        playerAnimator.OnBossA();
-
-    }
 }
+
+
