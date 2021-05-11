@@ -71,7 +71,7 @@ public class Player : MonoBehaviour
         {        
             if(isBoss == true)
             {
-                transform.position += Vector3.back * moveSpeed * Time.deltaTime;
+               // transform.position += Vector3.back * moveSpeed * Time.deltaTime;
             }
             else
             {
@@ -172,7 +172,7 @@ public class Player : MonoBehaviour
         this.gameObject.layer = 8;
         yield return new WaitForSeconds(moveTimeYdown);
         isSlide = false;
-        this.gameObject.layer = 0;
+        this.gameObject.layer = 3;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -217,6 +217,13 @@ public class Player : MonoBehaviour
             StartCoroutine(OnDamage(enemyBullet.damage));
         }
 
+    }
+
+    void OnParticleCollision(GameObject other)
+    {
+        Bullet enemyBullet = other.GetComponent<Bullet>();
+        StartCoroutine(OnDamage(enemyBullet.damage));
+        Destroy(other.gameObject);
     }
 
     IEnumerator OnDamage(int damage)

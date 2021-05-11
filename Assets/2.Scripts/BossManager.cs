@@ -5,9 +5,9 @@ using UnityEngine;
 public class BossManager : MonoBehaviour
 {
     [SerializeField]
-    private int maxHelath;
+    private int maxHealth;
     [SerializeField]
-    private int curHelath;
+    private int curHealth;
     private int halfHealth;
     [SerializeField]
     private GameObject[] SkillsIndicator;
@@ -38,8 +38,8 @@ public class BossManager : MonoBehaviour
     {
         if (!isDie)
         {
-            transform.position += Vector3.back * player.moveSpeed * Time.deltaTime;
-            if (curHelath <= maxHelath / 2)     //hp가 절반 이하일시 패턴 추가
+          //  transform.position += Vector3.back * player.moveSpeed * Time.deltaTime;
+            if (curHealth <= maxHealth / 2)     //hp가 절반 이하일시 패턴 추가
             {
                 halfHealth = 5;
                 anim.SetBool("onRage", true);
@@ -52,7 +52,7 @@ public class BossManager : MonoBehaviour
         if (other.tag == "Bullet")
         {
             Bullet bullet = other.GetComponent<Bullet>();
-            curHelath -= bullet.damage;
+            curHealth -= bullet.damage;
             float x = transform.position.x;
             Vector3 reactVec = transform.position - other.transform.position;
             Destroy(other.gameObject);
@@ -69,25 +69,25 @@ public class BossManager : MonoBehaviour
             switch (index)
             {
                 case 0:
-                    StartCoroutine(shotBullet());
+                    StartCoroutine(Slash());
                     break;
                 case 1:
-                    anim.SetTrigger("doSpell");
+                    StartCoroutine(Spell());
                     break;
                 case 2:
-                    StartCoroutine(SharpRock());
+                    StartCoroutine(Smash());
                     break;
                 case 3:
-                    anim.SetTrigger("doJump");
+                    StartCoroutine(Jump());
                     break;
                 case 4:
-                    anim.SetTrigger("doPounce");
+                    StartCoroutine(Pounce());
                     break;
             }
         }
     }
 
-    IEnumerator shotBullet()        //slash 패턴 돌던지기
+    IEnumerator Slash()        //1번 slash 패턴 돌던지기
     {
         Vector3 Indi_position = transform.position;
         GameObject skill_indicator = Instantiate(SkillsIndicator[0], Indi_position, transform.rotation);
@@ -113,8 +113,24 @@ public class BossManager : MonoBehaviour
         rigidBullet2.velocity = transform.forward * 20;
         Destroy(instantBullet2, 2f);
     }
+    IEnumerator Spell()       //2번 Spell 패턴
+    {
+        Vector3 Indi_position = transform.position;
+        GameObject skill_indicator = Instantiate(SkillsIndicator[1], Indi_position, transform.rotation);
+        indirigi = skill_indicator.GetComponent<Rigidbody>();
+        indirigi.velocity = transform.forward * player.moveSpeed;
+        Destroy(skill_indicator, 1.5f);
+        yield return new WaitForSeconds(1.5f);
 
-    IEnumerator SharpRock()
+        anim.SetTrigger("doSpell");
+        yield return new WaitForSeconds(0.5f);
+
+        Vector3 Bul_position = transform.position;
+        Bul_position += new Vector3(0f, 1.5f, 0f);
+        GameObject instantBullet = Instantiate(bullet[2], Bul_position, transform.rotation);
+        Destroy(instantBullet, 2f);
+    }
+    IEnumerator Smash()     //3번 Smash 패턴
     {
         Vector3 Indi_position = transform.position;
         GameObject skill_indicator = Instantiate(SkillsIndicator[2], Indi_position, transform.rotation);
@@ -133,13 +149,47 @@ public class BossManager : MonoBehaviour
         rigidBullet.velocity = transform.forward * 20;
         Destroy(instantBullet, 2f);
     }
+    IEnumerator Jump()       //4번 Jump 패턴
+    {
+        Vector3 Indi_position = transform.position;
+        GameObject skill_indicator = Instantiate(SkillsIndicator[1], Indi_position, transform.rotation);
+        indirigi = skill_indicator.GetComponent<Rigidbody>();
+        indirigi.velocity = transform.forward * player.moveSpeed;
+        Destroy(skill_indicator, 1.5f);
+        yield return new WaitForSeconds(1.5f);
+
+        anim.SetTrigger("doJump");
+        yield return new WaitForSeconds(0.5f);
+
+        Vector3 Bul_position = transform.position;
+        Bul_position += new Vector3(0f, 0f, 0f);
+        GameObject instantBullet = Instantiate(bullet[3], Bul_position, transform.rotation);
+        Destroy(instantBullet, 2f);
+    }
+    IEnumerator Pounce()
+    {
+        Vector3 Indi_position = transform.position;
+        GameObject skill_indicator = Instantiate(SkillsIndicator[1], Indi_position, transform.rotation);
+        indirigi = skill_indicator.GetComponent<Rigidbody>();
+        indirigi.velocity = transform.forward * player.moveSpeed;
+        Destroy(skill_indicator, 1.5f);
+        yield return new WaitForSeconds(1.5f);
+
+        anim.SetTrigger("doPounce");
+        yield return new WaitForSeconds(0.5f);
+
+        Vector3 Bul_position = transform.position;
+        Bul_position += new Vector3(0f, 0f, 0f);
+        GameObject instantBullet = Instantiate(bullet[4], Bul_position, transform.rotation);
+        Destroy(instantBullet, 2f);
+    }
 
     IEnumerator OnDamge(Vector3 reactVec)
     {
         foreach (SkinnedMeshRenderer mesh in meshs)
             mesh.material.color = Color.red;
         yield return new WaitForSeconds(0.1f);
-        if (curHelath > 0)
+        if (curHealth > 0)
         {
             foreach (SkinnedMeshRenderer mesh in meshs)
                 mesh.material.color = Color.white;

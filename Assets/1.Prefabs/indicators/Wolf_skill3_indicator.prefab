@@ -99,7 +99,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -139,7 +139,7 @@ Projector:
   m_GameObject: {fileID: 8461117199184839371}
   m_Enabled: 1
   serializedVersion: 2
-  m_NearClipPlane: 0
+  m_NearClipPlane: 0.01
   m_FarClipPlane: 100
   m_FieldOfView: 50
   m_AspectRatio: 1
