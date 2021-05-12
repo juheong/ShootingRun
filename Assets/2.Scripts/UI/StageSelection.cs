@@ -6,8 +6,17 @@ using UnityEngine.SceneManagement;
 public class StageSelection : MonoBehaviour
 {
 	public GameObject[] stage;
+	public StageSelection otherScript;
 	public int selectedStage = 0;
 
+	public void OpenPanel()
+    {
+		this.gameObject.SetActive(true);
+	}
+	public void ExitPanel()
+    {
+		this.gameObject.SetActive(false);
+    }
 	public void NextStage()
 	{
 		stage[selectedStage].SetActive(false);
@@ -30,6 +39,6 @@ public class StageSelection : MonoBehaviour
 	{
 		//PlayerPrefs.SetInt("selectedStage", selectedStage);
 		SceneManager.LoadScene(selectedStage+1, LoadSceneMode.Single);
-		Debug.Log((selectedStage+1) +"단계 실행");
+		Debug.Log((otherScript.selectedStage + 1) + "번째 캐릭터의 " + (selectedStage+1) +"단계 실행");
 	}
 }
