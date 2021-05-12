@@ -725,11 +725,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2486c43541ed11143b3561b8668c1920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHelath: 4000
-  curHelath: 4000
+  maxHealth: 4000
+  curHealth: 4000
   SkillsIndicator:
   - {fileID: 7861147820134554649, guid: 03aca8249a1b2bf4a85afc292c971d11, type: 3}
-  bullet: {fileID: 8962593520722546671, guid: e145c4fdcc633ae42be54f7952337711, type: 3}
+  - {fileID: 5863263527555736077, guid: 21cdbd7e97161d5439c84e12399c9ea6, type: 3}
+  - {fileID: 7108696636889866876, guid: 9e57d2b7abd41fc4d9b231aab908fd3f, type: 3}
+  bullet:
+  - {fileID: 8962593520722546671, guid: e145c4fdcc633ae42be54f7952337711, type: 3}
+  - {fileID: 669964527018282545, guid: f2cca1d0736033d4b829ab35d83a681c, type: 3}
+  - {fileID: 5870134966058320986, guid: 038d7f2de1a856e48b16672398874a8a, type: 3}
+  - {fileID: 6040635867953845960, guid: cce0b1d6d74a5064083cc487927be5ea, type: 3}
+  - {fileID: 6266363195109946900, guid: bed849ce7843aa84dae4b715cb49c7ca, type: 3}
 --- !u!1 &5520583845748892557
 GameObject:
   m_ObjectHideFlags: 0

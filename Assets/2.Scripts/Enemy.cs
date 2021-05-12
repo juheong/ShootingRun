@@ -39,14 +39,16 @@ public class Enemy : MonoBehaviour
     {
         if(other.tag == "Bullet")
         {
-            Bullet bullet = other.GetComponent<Bullet>();
-            curHealth -= bullet.damage;
-            float x = transform.position.x;
-            Vector3 reactVec = transform.position - other.transform.position;
-            Destroy(other.gameObject);
-            StartCoroutine(OnDamge(reactVec));
-        }
-       
+            if(gameObject.tag != "EnemyDead")
+            {
+                Bullet bullet = other.GetComponent<Bullet>();
+                curHealth -= bullet.damage;
+                float x = transform.position.x;
+                Vector3 reactVec = transform.position - other.transform.position;
+                Destroy(other.gameObject);
+                StartCoroutine(OnDamage(reactVec));
+            }          
+        }       
     }
 
     public void Attack()
@@ -72,9 +74,9 @@ public class Enemy : MonoBehaviour
                     break;
                 case Type.Burrow:
                     GameObject Player = GameObject.Find("Player");
-                    if (Vector3.Distance(Player.transform.position, this.transform.position)<=20f)      //플레이어와 근접했을 때에만 공격
-                         anim.SetTrigger("onAttack");
-                    Invoke("Burrow", 1f);
+                    if (Vector3.Distance(Player.transform.position, this.transform.position)<=15f)      //플레이어와 근접했을 때에만 공격
+                         anim.SetTrigger("onAttack");                    
+                    Invoke("Burrow", 0.5f);
                     
                     break;
             }
@@ -82,11 +84,11 @@ public class Enemy : MonoBehaviour
     }
 
     private void Burrow()
-    {
+    {        
         gameObject.layer = 10;
     }
 
-    IEnumerator OnDamge(Vector3 reactVec)
+    IEnumerator OnDamage(Vector3 reactVec)
     {
         foreach (SkinnedMeshRenderer mesh in meshs)
             mesh.material.color = Color.red;    
@@ -100,9 +102,11 @@ public class Enemy : MonoBehaviour
         {
             foreach (SkinnedMeshRenderer mesh in meshs)
                 mesh.material.color = Color.gray;
+            LayerUpdate(gameObject.transform, "EnemyDead");
+            gameObject.tag = "EnemyDead";
             anim.SetTrigger("doDie");
             isDie = true;
-            gameObject.layer = 11;
+            
             // 몬스터 죽을 시 날라가는 효과
             //reactVec = reactVec.normalized;
             //reactVec += Vector3.up * 1.5f;
@@ -110,6 +114,15 @@ public class Enemy : MonoBehaviour
             //rigid.freezeRotation = false;
             //rigid.AddForce(reactVec * 10, ForceMode.Impulse);
             Destroy(gameObject, 1f);
+        }
+    }
+
+    public void LayerUpdate(Transform trans, string name)
+    {
+        trans.gameObject.layer = LayerMask.NameToLayer(name);
+        foreach(Transform child in trans)
+        {
+            LayerUpdate(child, name);
         }
     }
 }

@@ -11,6 +11,7 @@ public class NestedScrollManager : MonoBehaviour, IBeginDragHandler, IDragHandle
 
     public Slider tabSlider;
     public RectTransform[] BtnRect, BtnImageRect;
+    public Sprite[] BtnImage;
 
     const int SIZE = 4;
     float[] pos = new float[SIZE]; // 슬라이드 각 페이지의 슬라이더 value 값을 저장하기 위한 공간
@@ -99,22 +100,25 @@ public class NestedScrollManager : MonoBehaviour, IBeginDragHandler, IDragHandle
         for (int i = 0; i < SIZE; i++)
         {
             // 버튼 아이콘이 부드럽게 버튼의 중앙으로 이동, 크기는 1, 텍스트 비활성화 -> 버튼 아이콘 버튼의 자식으로 상속하여 이동은 따로 안하는 방향
-            Vector3 BtnTargetPos = new Vector3(0, 0, 0);
-            Vector2 BtnTargetSize = new Vector2(30, 30);
-            
-            bool textActive = false;
+            Vector3 BtnTargetPos = new Vector3(0, 40, 0);
+            Vector3 BtnTargetSize = new Vector3(0.7f, 0.7f, 1f);
+            Sprite BtnTargetImage = BtnImage[0];
+            //bool textActive = false;
 
             // 선택한 버튼 아이콘은 약간 위로 올리고, 크기도 키우고, 텍스트도 활성화
             if (i == targetIndex)
             {
-                BtnTargetPos.y = 20f;
-                BtnTargetSize = new Vector2(45, 45);
-                textActive = true;
+                BtnTargetPos.y = 90f;
+                BtnTargetSize = new Vector3(1f, 1f, 1f);
+                BtnTargetImage = BtnImage[1];
+                //textActive = true;
             }
 
             BtnImageRect[i].anchoredPosition3D = Vector3.Lerp(BtnImageRect[i].anchoredPosition3D, BtnTargetPos, 0.25f);
-            BtnImageRect[i].sizeDelta = Vector2.Lerp(BtnImageRect[i].sizeDelta, BtnTargetSize, 0.25f);
-            BtnImageRect[i].transform.GetChild(0).gameObject.SetActive(textActive);
+            BtnImageRect[i].localScale = Vector3.Lerp(BtnImageRect[i].localScale, BtnTargetSize, 0.25f);
+            BtnRect[i].transform.GetChild(0).GetComponent<Image>().sprite = BtnTargetImage;
+            //BtnImageRect[i].sizeDelta = Vector2.Lerp(BtnImageRect[i].sizeDelta, BtnTargetSize, 0.25f);
+            //BtnImageRect[i].transform.GetChild(0).gameObject.SetActive(textActive);
         }
     }
 
