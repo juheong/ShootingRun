@@ -55,7 +55,7 @@ public class GameController : MonoBehaviour
 
     public void GameOver()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("MainMenu");
         dataManager.Save();
     }
 }

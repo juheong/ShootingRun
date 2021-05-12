@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1312,13 +1312,23 @@ PrefabInstance:
     - target: {fileID: 8310788317413638138, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: gameController
       value: 
       objectReference: {fileID: 1688787455}
+    - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: hasWeapons.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: hasWeapons.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8310867128036160284, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: m_RootOrder

@@ -71,15 +71,15 @@ public class Player : MonoBehaviour
         {        
             if(isBoss == true)
             {
-               // transform.position += Vector3.back * moveSpeed * Time.deltaTime;
+                // transform.position += Vector3.back * moveSpeed * Time.deltaTime;
+                playerAnimator.isBoss();
             }
             else
             {
                 transform.position += Vector3.forward * moveSpeed * Time.deltaTime;
+                Attack();
             }
             //playerAnimator.OnMovement(1);
-            if (!isBoss) Attack();
-            else playerAnimator.isBoss();
         }
     }
 
@@ -219,7 +219,7 @@ public class Player : MonoBehaviour
 
     }
 
-    void OnParticleCollision(GameObject other)
+    void OnParticleCollision(GameObject other)      //스킬 피격판정
     {
         Bullet enemyBullet = other.GetComponent<Bullet>();
         StartCoroutine(OnDamage(enemyBullet.damage));
@@ -275,7 +275,7 @@ public class Player : MonoBehaviour
     {
         if (equipWeapon == null) return;
 
-        if (!isSlide && !isJump)
+        if (!isSlide && !isJump && isBoss)
         {
             playerAnimator.OnBossA();            
             rot2 = false;
