@@ -570,9 +570,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
-  m_ExitTime: 0.75
+  m_ExitTime: 0
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -1014,16 +1014,16 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 6884514556680906544}
-    m_Position: {x: -440, y: -60, z: 0}
+    m_Position: {x: -460, y: -70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 190662384639597154}
-    m_Position: {x: -440, y: 310, z: 0}
+    m_Position: {x: -460, y: 300, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2776147040119799374}
     m_Position: {x: -430, y: -670, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2432091660640581429}
-    m_Position: {x: -440, y: 10, z: 0}
+    m_Position: {x: -460, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2121896803588244959}
     m_Position: {x: -270, y: 440, z: 0}
@@ -1047,7 +1047,7 @@ AnimatorStateMachine:
     m_Position: {x: -430, y: -370, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4728662926490057430}
-    m_Position: {x: -440, y: 160, z: 0}
+    m_Position: {x: -460, y: 150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7516169478349313076}
     m_Position: {x: -430, y: -510, z: 0}
@@ -1125,13 +1125,13 @@ AnimatorStateMachine:
     m_Position: {x: -690, y: 440, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5592028348573103882}
-    m_Position: {x: -440, y: 380, z: 0}
+    m_Position: {x: -460, y: 370, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4329096718002792958}
-    m_Position: {x: -440, y: 240, z: 0}
+    m_Position: {x: -460, y: 230, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8830710119925300636}
-    m_Position: {x: -440, y: 80, z: 0}
+    m_Position: {x: -460, y: 70, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -4068548389324277033}
@@ -1260,43 +1260,43 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: doSpell
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: doSmash
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: doJump
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: doDie
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: doPounce
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: onRage
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer

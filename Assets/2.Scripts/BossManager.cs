@@ -169,13 +169,18 @@ public class BossManager : MonoBehaviour
     IEnumerator Pounce()
     {
         Vector3 Indi_position = transform.position;
-        GameObject skill_indicator = Instantiate(SkillsIndicator[1], Indi_position, transform.rotation);
+        GameObject skill_indicator = Instantiate(SkillsIndicator[2], Indi_position, transform.rotation);
         indirigi = skill_indicator.GetComponent<Rigidbody>();
         indirigi.velocity = transform.forward * player.moveSpeed;
         Destroy(skill_indicator, 1.5f);
         yield return new WaitForSeconds(1.5f);
 
         anim.SetTrigger("doPounce");
+        Vector3 Indi_position2 = transform.position;
+        GameObject skill_indicator2 = Instantiate(SkillsIndicator[0], Indi_position2, transform.rotation);
+        indirigi = skill_indicator2.GetComponent<Rigidbody>();
+        indirigi.velocity = transform.forward * player.moveSpeed;
+        Destroy(skill_indicator2, 0.5f);
         yield return new WaitForSeconds(0.5f);
 
         Vector3 Bul_position = transform.position;

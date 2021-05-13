@@ -18,6 +18,7 @@ public class NestedScrollManager : MonoBehaviour, IBeginDragHandler, IDragHandle
     float distance, curPos;
     public float targetPos; // 초기화면 정하기 위함
     public int targetIndex; // 동일
+    public GameObject topPanel; //특정 페이지에서 판넬 활성화 유무 정하기 위함
     bool isDrag;
     
 
@@ -114,12 +115,16 @@ public class NestedScrollManager : MonoBehaviour, IBeginDragHandler, IDragHandle
                 //textActive = true;
             }
 
+
             BtnImageRect[i].anchoredPosition3D = Vector3.Lerp(BtnImageRect[i].anchoredPosition3D, BtnTargetPos, 0.25f);
             BtnImageRect[i].localScale = Vector3.Lerp(BtnImageRect[i].localScale, BtnTargetSize, 0.25f);
             BtnRect[i].transform.GetChild(0).GetComponent<Image>().sprite = BtnTargetImage;
             //BtnImageRect[i].sizeDelta = Vector2.Lerp(BtnImageRect[i].sizeDelta, BtnTargetSize, 0.25f);
             //BtnImageRect[i].transform.GetChild(0).gameObject.SetActive(textActive);
+            
         }
+
+        topPanel.SetActive(targetIndex != 3);
     }
 
 
