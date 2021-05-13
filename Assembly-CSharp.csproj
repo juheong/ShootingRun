@@ -93,6 +93,7 @@
     <Compile Include="Assets\2.Scripts\Weapon.cs" />
     <Compile Include="Assets\GUI_Kit_Casual_Game\Extensions\UIParticle\UIParticleSystem.cs" />
     <Compile Include="Assets\2.Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\ResizedResolution.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Hovl Studio\Epic toon VFX\Demo scene\Readme.txt" />
