@@ -12,9 +12,11 @@ public class Weapon : MonoBehaviour
     public float rate;
     public float range;
     public Transform bulletPos;
-    public GameObject bullet; 
-    
-    
+
+    public Bullet bulletPrefab;
+    Bullet newBullet;
+
+
     public void Use(bool boss = false)
     { 
         if(type == Type.Range)
@@ -32,21 +34,23 @@ public class Weapon : MonoBehaviour
     }
 
     IEnumerator Shoot()
-    {        
-        GameObject instantBullet = Instantiate(bullet, bulletPos.position, bulletPos.rotation);
-        Rigidbody bulletRigid = instantBullet.GetComponent<Rigidbody>();
+    {
+        newBullet = Instantiate(bulletPrefab, bulletPos.position, bulletPos.rotation) as Bullet;
+        Rigidbody bulletRigid = newBullet.GetComponent<Rigidbody>();
         bulletRigid.velocity = bulletPos.forward * 50;
-        if(instantBullet != null)        Destroy(instantBullet, range);
+        newBullet.damage += this.damage;
+        if (newBullet != null) Destroy(newBullet, range);
         yield return null;
     }
 
-    IEnumerator BossShoot()
+   IEnumerator BossShoot()
     {
         yield return new WaitForSeconds(0.5f);
-        GameObject instantBullet = Instantiate(bullet, bulletPos.position, bulletPos.rotation);
-        Rigidbody bulletRigid = instantBullet.GetComponent<Rigidbody>();
+        newBullet = Instantiate(bulletPrefab, bulletPos.position, bulletPos.rotation) as Bullet;
+        Rigidbody bulletRigid = newBullet.GetComponent<Rigidbody>();
         bulletRigid.velocity = bulletPos.forward * 50;
-        if (instantBullet != null) Destroy(instantBullet, range);
+        newBullet.damage += this.damage;
+        if (newBullet != null) Destroy(newBullet, range);
         yield return null;
     }
 }

@@ -12,10 +12,9 @@ public class Bullet : MonoBehaviour
 
     void Awake()
     {
-        audioSource = GetComponent<AudioSource>();
+        /*audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
-            audioSource = gameObject.AddComponent<AudioSource>();
-
+            audioSource = gameObject.AddComponent<AudioSource>();*/
     }
 
     private void OnTriggerEnter(Collider other)
