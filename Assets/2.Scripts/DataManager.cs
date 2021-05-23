@@ -1,105 +1,62 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using LitJson;
-using System.IO;
+using BackEnd;
 
-[System.Serializable]
-public class ItemData
-{
-    public int ID;
-    public string Name;
-    public string Dis;
-    public int Damage;
-    public double Rate;
-    public double Range;
-
-    public ItemData(int id, string name, string dis, int damage, double rate, double range)
-    {
-        ID = id;
-        Name = name;
-        Dis = dis;
-        Damage = damage;
-        Rate = rate;
-        Range = range;
-    }
-}
-
-[System.Serializable]
-public class PlayerData
-{
-    public string Name;
-    public int Coin;
-
-    public PlayerData(string name, int coin)
-    {
-        Name = name;
-        Coin = coin;
-    }
-}
 
 public class DataManager : MonoBehaviour
 {
-    public List<ItemData> ItemList = new List<ItemData>();
-    public List<PlayerData> PlayerData = new List<PlayerData>();
-
-    Player player;
-    GameController gameController;
-    string itemfilePath;
-    string playerfilePath;
-
-    void Start()
-    {
-        player = FindObjectOfType<Player>();
-        gameController = FindObjectOfType<GameController>();
-        ItemList.Add(new ItemData(0, "자동소총", "설명1", 10, 0.2, 1.5));
-        ItemList.Add(new ItemData(1, "권총", "설명2", 20, 0.4, 1.5));
-        ItemList.Add(new ItemData(2, "저격총", "설명3", 40, 0.7, 1.5));
-
-        itemfilePath = Application.persistentDataPath + "/ItemData.json";
-        playerfilePath = Application.persistentDataPath + "/PlayerData.json";
-        LoadItem();
-        LoadPlayer();
-    }
-
-    public void Save()
-    {  
-        JsonData ItemJson = JsonMapper.ToJson(ItemList);
-        File.WriteAllText(itemfilePath, ItemJson.ToString());
-
-        PlayerData.Add(new PlayerData("기본", player.coin));
-        JsonData PlayerJson = JsonMapper.ToJson(PlayerData);
-        File.WriteAllText(playerfilePath, PlayerJson.ToString());
-    }
-
-    public void LoadItem()
-    {
-        if (!File.Exists(itemfilePath)) { return; }
-
-        string ItemString = File.ReadAllText(itemfilePath);
-        JsonData itemData = JsonMapper.ToObject(ItemString);
-    }
-
-    public void LoadPlayer()
-    {
-        if (!File.Exists(playerfilePath)) { return; }
-        string PlayerString = File.ReadAllText(playerfilePath);
-        JsonData playerdata = JsonMapper.ToObject(PlayerString);
-        Parsing(playerdata);
-
-    }
-
-    private void Parsing(JsonData data)
+    public void OnClickInsertData()
     {
 
-        player.coin = (int)data[0]["Coin"];
-        gameController.InitialCoin(player.coin);
-        gameController.InitialHealth(100);
+        int charLevel = 1;
+        int charExp = 0;
+        int charScore = 0;
 
+        // Param은 뒤끝 서버와 통신을 할 떄 넘겨주는 파라미터 클래스 입니다. 
+        Param param = new Param();
+        param.Add("Lv", charLevel);
+        param.Add("Exp", charExp);
+        param.Add("Score", charScore);
+
+        // 값을 Dictionary 로 사용하기
+        Dictionary<string, bool> equipment = new Dictionary<string, bool>
+        {
+            { "weapon1", true },
+            { "weapon2", true },
+            { "weapon3", true },
+            { "weapon4", true }
+        };
+
+        param.Add("equipItem", equipment);
+
+        BackendReturnObject BRO = Backend.GameData.Insert("User", param);
+
+        if (BRO.IsSuccess())
+        {
+            Debug.Log("indate : " + BRO.GetInDate());
+        }
+        else
+        {
+            switch (BRO.GetStatusCode())
+            {
+                case "404":
+                    Debug.Log("존재하지 않는 tableName인 경우");
+                    break;
+
+                case "412":
+                    Debug.Log("비활성화 된 tableName인 경우");
+                    break;
+
+                case "413":
+                    Debug.Log("하나의 row( column들의 집합 )이 400KB를 넘는 경우");
+                    break;
+
+                default:
+                    Debug.Log("서버 공통 에러 발생: " + BRO.GetMessage());
+                    break;
+            }
+        }
     }
 
-    private void OnApplicationQuit()
-    {
-        Save();
-    }
 }

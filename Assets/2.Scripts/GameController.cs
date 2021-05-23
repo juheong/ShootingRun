@@ -13,11 +13,11 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI textHealthCount;
     private int healthCount = 100;
-    DataManager dataManager;
+
 
     private void Start()
     {
-        dataManager = FindObjectOfType<DataManager>();
+        
 
     }
 
@@ -56,6 +56,6 @@ public class GameController : MonoBehaviour
     public void GameOver()
     {
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
-        dataManager.Save();
+
     }
 }
