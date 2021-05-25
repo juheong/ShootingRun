@@ -9,11 +9,14 @@ public class LoadingSceneController : MonoBehaviour
 {
     public static string nextScene;
     public Slider progressBar;
-    public float progressValue;
 
-    private TextMeshProUGUI loadingTextUI;
+    public TextMeshProUGUI loadingTextUI;
 
-    public static void LoadSceneString(string sceneName)
+    public static void LoadString(string sceneName) //씬 내에서 파라미터 값 받기 위함
+    {
+        nextScene = sceneName;        
+    }
+    public static void LoadSceneString(string sceneName) //씬 외부에서 파라미터 값 전달받기 위함
     {
         nextScene = sceneName;
         SceneManager.LoadScene("Loading");
@@ -21,7 +24,6 @@ public class LoadingSceneController : MonoBehaviour
 
     private void Start()
     {
-        loadingTextUI = transform.GetChild(1).GetChild(1).GetComponent<TextMeshProUGUI>();
         StartCoroutine(LoadSceneProcess());
     }
 
@@ -37,7 +39,7 @@ public class LoadingSceneController : MonoBehaviour
             if(op.progress < 0.9f) //로드할 리소스 부담이 적어서인지 else 분기로 바로 넘어감.
             {
                 progressBar.value = op.progress;
-                progressValue = progressBar.value;
+                loadingTextUI.text = "Loading..." + (int)(progressBar.value * 100f) + "%";
             }
             else
             {

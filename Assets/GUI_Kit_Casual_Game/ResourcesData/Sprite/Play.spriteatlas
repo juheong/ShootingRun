@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 85f9a36fe16274493ab676692b113022, type: 3}
-    totalSpriteSurfaceArea: 8034435
+    totalSpriteSurfaceArea: 8038845
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -101,6 +101,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 60bc564731cee4c22840a60e8aa512ee, type: 3}
   - {fileID: 21300000, guid: 10150e67019cc4d999154996320df565, type: 3}
   - {fileID: 21300000, guid: 8155a68725ff84b949853519dabf2513, type: 3}
+  - {fileID: 21300000, guid: a2a491084e37e504ba803b350e16da35, type: 3}
   - {fileID: 21300000, guid: 48541148fa692441a85113e88999424c, type: 3}
   - {fileID: 21300000, guid: 6031e468608e341d094f1c97c7eef5f1, type: 3}
   - {fileID: 21300000, guid: b80a798802c7b42cb8e5c909c7ffabcd, type: 3}
@@ -198,6 +199,7 @@ SpriteAtlas:
   - minimap_enermy_glow
   - play_skill_cooltime_bg
   - minimap_me_icon_3
+  - user_player_prg_bg_left 1
   - play_wave_bg_back
   - play_bottom_character_ bgframe
   - play_character_target

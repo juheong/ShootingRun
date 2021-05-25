@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Audio;
 
 public class SoundManager : MonoBehaviour
@@ -11,15 +12,26 @@ public class SoundManager : MonoBehaviour
     public AudioClip audioButton;
     public AudioClip audioPauseIn;
     public AudioClip audioPauseOut;
-    void Awake()
-    {
-    }
 
-    // Update is called once per frame
-    void Update()
+    public Slider[] sli;
+    private void Awake()
     {
+        sli[0].value = PlayerPrefs.GetFloat("BgmVolume");
+        sli[1].value = PlayerPrefs.GetFloat("SfxVolume");
     }
-
+    public void ConfirmVolumeData(string str)
+    {
+        if (str == "Bgm")
+        {
+            obj2[0].volume = sli[0].value;
+            PlayerPrefs.SetFloat("BgmVolume", sli[0].value);
+        } else if (str == "Sfx")
+        {
+            obj2[1].volume = sli[1].value;
+            PlayerPrefs.SetFloat("SfxVolume", sli[1].value);
+        }
+    }
+    
     public void PlaySound(string text)
     {
         switch(text)

@@ -5,18 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class StageSelection : MonoBehaviour
 {
-	public GameObject[] stage;
-	public StageSelection otherScript;
-	public int selectedStage = 0;
+	public enum Layer {Chapter, Stage};
+	public Layer layer;
 
-	public void OpenPanel()
-	{
-		this.gameObject.SetActive(true);
-	}
-	public void ExitPanel()
-	{
-		this.gameObject.SetActive(false);
-	}
+	public GameObject[] stage;
+	public static int selectedStage = 0;
+
 	public void NextStage()
 	{
 		stage[selectedStage].SetActive(false);
@@ -35,11 +29,13 @@ public class StageSelection : MonoBehaviour
 		stage[selectedStage].SetActive(true);
 	}
 
-	public void StartGame(string sceneName)
+	public static void StartGame(string sceneName) // 스테이지 판넬에서 호출 가정
 	{
+		PlayerPrefs.SetInt("Stage", selectedStage + 1);
 		//PlayerPrefs.SetInt("selectedStage", selectedStage);
+
 		LoadingSceneController.LoadSceneString(sceneName);
 		//SceneManager.LoadScene(selectedStage+1, LoadSceneMode.Single);
-		Debug.Log((otherScript.selectedStage + 1) + "번째 캐릭터의 " + (selectedStage + 1) + "단계 실행");
+		//Debug.Log((otherScript.selectedStage + 1) + "번째 캐릭터의 " + (selectedStage + 1) + "단계 실행");
 	}
 }

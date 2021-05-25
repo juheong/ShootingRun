@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BossManager : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class BossManager : MonoBehaviour
     SkinnedMeshRenderer[] meshs;
     Animator anim;
     public GameObject[] bullet;
+    public Image sliderBossHealth;
 
     Player player;
     Rigidbody indirigi;
@@ -53,6 +55,7 @@ public class BossManager : MonoBehaviour
         {
             Bullet bullet = other.GetComponent<Bullet>();
             curHealth -= bullet.damage;
+            sliderBossHealth.fillAmount = curHealth/4000f;
             float x = transform.position.x;
             Vector3 reactVec = transform.position - other.transform.position;
             Destroy(other.gameObject);
@@ -207,6 +210,8 @@ public class BossManager : MonoBehaviour
             isDie = true;
             gameObject.layer = 11;
             Destroy(gameObject, 1f);
+            PanelController panelController = FindObjectOfType<PanelController>();
+            panelController.OpenPanel(2);
         }
     }
 }

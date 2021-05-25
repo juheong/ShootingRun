@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class GameController : MonoBehaviour
@@ -12,6 +13,7 @@ public class GameController : MonoBehaviour
     private int coinCount = 0;
     [SerializeField]
     private TextMeshProUGUI textHealthCount;
+    public Slider sliderHeathCount;
     private int healthCount = 100;
 
 
@@ -30,7 +32,8 @@ public class GameController : MonoBehaviour
     public void InitialHealth(int health)
     {
         healthCount = health;
-        textHealthCount.text = healthCount.ToString();
+        sliderHeathCount.value = (float)healthCount/100f;
+        //textHealthCount.text = healthCount.ToString();
     }
 
     public void IncreaseCoinCount()
@@ -50,7 +53,8 @@ public class GameController : MonoBehaviour
             healthCount -= damage;
         }
 
-        textHealthCount.text = healthCount.ToString();
+        sliderHeathCount.value = (float)healthCount/100f;
+        //textHealthCount.text = healthCount.ToString();
     }
 
     public void GameOver()
