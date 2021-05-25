@@ -9,12 +9,14 @@ public class Bullet : MonoBehaviour
     public GameObject explosionPrefab;      //폭발 애니메이션
     static AudioSource audioSource;     //오디오 플레이어
     public AudioClip impact;
+    public float brange = 1f;   //총알 사거리
 
     void Awake()
     {
         /*audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
             audioSource = gameObject.AddComponent<AudioSource>();*/
+        Destroy(this.gameObject, brange);
     }
 
     private void OnTriggerEnter(Collider other)

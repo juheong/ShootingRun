@@ -39,6 +39,7 @@ public class Weapon : MonoBehaviour
         Rigidbody bulletRigid = newBullet.GetComponent<Rigidbody>();
         bulletRigid.velocity = bulletPos.forward * 50;
         newBullet.damage += this.damage;
+        newBullet.brange += this.range;
         if (newBullet != null) Destroy(newBullet, range);
         yield return null;
     }
@@ -50,6 +51,7 @@ public class Weapon : MonoBehaviour
         Rigidbody bulletRigid = newBullet.GetComponent<Rigidbody>();
         bulletRigid.velocity = bulletPos.forward * 50;
         newBullet.damage += this.damage;
+        newBullet.brange += this.range;
         if (newBullet != null) Destroy(newBullet, range);
         yield return null;
     }

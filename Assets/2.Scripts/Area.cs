@@ -19,7 +19,7 @@ public class Area : MonoBehaviour
 
     private void Update()
     {
-        if(isBoss == true)
+        if (isBoss == true)
         {
             if (playerTransform.position.z - transform.position.z <= destroyDistance * (-1))
             {

@@ -35815,7 +35815,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -24.99997, y: -20}
+  m_AnchoredPosition: {x: -25, y: -20}
   m_SizeDelta: {x: -50, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &810118105
@@ -36965,10 +36965,13 @@ MonoBehaviour:
   - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
   - {fileID: 1539403277145183474, guid: 4b4ffe07dc891f742ab2ed1a479e8a5d, type: 3}
   - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
+  enemies: []
+  middleboss: {fileID: 0}
   spawnAreaCountAtStart: 3
   zDistance: -20
   isBoss: 1
   playerTransform: {fileID: 1780093046}
+  clear: 0
 --- !u!4 &884890811
 Transform:
   m_ObjectHideFlags: 0
@@ -47837,13 +47840,18 @@ PrefabInstance:
     - target: {fileID: 1081925174838714213, guid: d2013d254489a24479a3bbf157be2a42,
         type: 3}
       propertyPath: curHealth
-      value: 4000
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 1081925174838714213, guid: d2013d254489a24479a3bbf157be2a42,
         type: 3}
       propertyPath: maxHealth
-      value: 4000
+      value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 1081925174838714213, guid: d2013d254489a24479a3bbf157be2a42,
+        type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 1777141633}
     - target: {fileID: 1081925174838714213, guid: d2013d254489a24479a3bbf157be2a42,
         type: 3}
       propertyPath: sliderBossHealth

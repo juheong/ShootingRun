@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BossManager : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class BossManager : MonoBehaviour
     Animator anim;
     public GameObject[] bullet;
     public Image sliderBossHealth;
+
+    [SerializeField]
+    private GameController gameController;
 
     Player player;
     Rigidbody indirigi;
@@ -46,6 +50,10 @@ public class BossManager : MonoBehaviour
                 halfHealth = 5;
                 anim.SetBool("onRage", true);
             }      
+        }
+        else if (isDie == true)
+        {
+            StartCoroutine(GameClear());
         }
     }
 
@@ -209,10 +217,16 @@ public class BossManager : MonoBehaviour
             anim.SetTrigger("doDie");
             isDie = true;
             gameObject.layer = 11;
-            Destroy(gameObject, 1f);
+           // Destroy(gameObject, 1f);
             PanelController panelController = FindObjectOfType<PanelController>();
             panelController.OpenPanel(2);
         }
     }
-}
+    IEnumerator GameClear()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene("MainMenu");
+    }
 
+
+}

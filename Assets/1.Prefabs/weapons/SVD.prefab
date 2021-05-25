@@ -50,7 +50,7 @@ MonoBehaviour:
   type2: 2
   damage: 0
   rate: 0.55
-  range: 1.5
+  range: 2
   bulletPos: {fileID: 0}
   bulletPrefab: {fileID: 2411230585462366827, guid: 3ce53d8e70445004299196bae55a8309,
     type: 3}
