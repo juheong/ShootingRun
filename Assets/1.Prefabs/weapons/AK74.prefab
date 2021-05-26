@@ -342,8 +342,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 1
   type2: 1
-  damage: 50
-  rate: 0.35
+  damage: 32
+  rate: 0.32
   range: 1.5
   bulletPos: {fileID: 0}
   bulletPrefab: {fileID: -3092139606504944576, guid: df6bcb530b3db064591b1d51e4988465,

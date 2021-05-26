@@ -14631,10 +14631,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3e519cac8cdb9d47b854e4e12db1f84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 0
   explosionPrefab: {fileID: 1107041067620042, guid: 987350d53ec090545b8610fad613384f,
     type: 3}
   impact: {fileID: 8300000, guid: b2339d42d71ef8646b214a6c12e95d54, type: 3}
+  brange: 0
 --- !u!135 &-2268741168554765030
 SphereCollider:
   m_ObjectHideFlags: 0

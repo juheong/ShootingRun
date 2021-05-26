@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    public enum Type { Melee, Range}
-    public enum Type2 { Pistol, Rifle, Sniper}
+    public enum Type { Melee, Range }
+    public enum Type2 { Pistol, Rifle, Sniper }
     public Type type;
     public Type2 type2;
     public int damage;
@@ -18,8 +18,8 @@ public class Weapon : MonoBehaviour
 
 
     public void Use(bool boss = false)
-    { 
-        if(type == Type.Range)
+    {
+        if (type == Type.Range)
         {
             if (boss)
             {
@@ -29,22 +29,22 @@ public class Weapon : MonoBehaviour
             {
                 StartCoroutine("Shoot");
             }
-                
-        }        
+
+        }
     }
 
     IEnumerator Shoot()
     {
         newBullet = Instantiate(bulletPrefab, bulletPos.position, bulletPos.rotation) as Bullet;
+        newBullet.damage = damage;
+        newBullet.brange = range;
         Rigidbody bulletRigid = newBullet.GetComponent<Rigidbody>();
         bulletRigid.velocity = bulletPos.forward * 50;
-        newBullet.damage += this.damage;
-        newBullet.brange += this.range;
-        if (newBullet != null) Destroy(newBullet, range);
+        // if (newBullet != null) Destroy(newBullet, range);
         yield return null;
     }
 
-   IEnumerator BossShoot()
+    IEnumerator BossShoot()
     {
         yield return new WaitForSeconds(0.5f);
         newBullet = Instantiate(bulletPrefab, bulletPos.position, bulletPos.rotation) as Bullet;
@@ -52,7 +52,7 @@ public class Weapon : MonoBehaviour
         bulletRigid.velocity = bulletPos.forward * 50;
         newBullet.damage += this.damage;
         newBullet.brange += this.range;
-        if (newBullet != null) Destroy(newBullet, range);
+        //  if (newBullet != null) Destroy(newBullet, range);
         yield return null;
     }
 }

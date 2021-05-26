@@ -404,9 +404,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 1
   type2: 0
-  damage: 0
+  damage: 10
   rate: 0.12
-  range: 0.9
+  range: 0.8
   bulletPos: {fileID: 0}
   bulletPrefab: {fileID: -4209495018278746016, guid: 7d0b90a1012893d4da2e9e31dc94fa02,
     type: 3}

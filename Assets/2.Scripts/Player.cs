@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     private bool[] hasWeapons;
     //hasWeapons[i] = true;로 보유무기 추가
 
-    
+
     public int coin;
     [SerializeField]
     private int health;
@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
     private bool rot2 = false;
     [SerializeField]
     private bool isBoss = false;
-   
+
     private Rigidbody rigibody;
     private PlayerAnimator playerAnimator;
     [SerializeField]
@@ -61,15 +61,15 @@ public class Player : MonoBehaviour
                 equipWeapon = weapons[i].GetComponent<Weapon>();
                 equipWeapon.gameObject.SetActive(true);
             }
-        }             
-        cameraController = GameObject.Find("Main Camera").GetComponent<CameraController>();        
+        }
+        cameraController = GameObject.Find("Main Camera").GetComponent<CameraController>();
     }
 
     private void Update()
     {
         if (!isDie)
-        {        
-            if(isBoss == true)
+        {
+            if (isBoss == true)
             {
                 // transform.position += Vector3.back * moveSpeed * Time.deltaTime;
                 playerAnimator.isBoss();
@@ -117,9 +117,9 @@ public class Player : MonoBehaviour
 
     public void MoveToYdown()
     {
-        if (isSlide == true && !isJump ) return;
+        if (isSlide == true && !isJump) return;
         StartCoroutine(OnMoveToYdown());
-    } 
+    }
 
     private IEnumerator OnMoveToX(int direction)
     {
@@ -128,7 +128,7 @@ public class Player : MonoBehaviour
         float start = transform.position.x;
         float end = transform.position.x + direction * moveXWidth;
 
-     
+
         isXMove = true;
         while (percent < 1)
         {
@@ -138,7 +138,7 @@ public class Player : MonoBehaviour
             transform.position = new Vector3(x, transform.position.y, transform.position.z);
             yield return null;
         }
-        isXMove = false;        
+        isXMove = false;
 
     }
 
@@ -151,7 +151,7 @@ public class Player : MonoBehaviour
         isJump = true;
         rigibody.useGravity = false;
         playerAnimator.OnJump();
-        while ( percent < 1)
+        while (percent < 1)
         {
             current += Time.deltaTime;
             percent = current / moveTimeY;
@@ -192,12 +192,12 @@ public class Player : MonoBehaviour
             Item item = other.GetComponent<Item>();
             switch (item.type)
             {
-                
+
                 case Item.Type.Coin:
                     coin += item.value;
                     if (coin > maxcoin)
                         coin = maxcoin;
-                    gameController.IncreaseCoinCount();                    
+                    gameController.IncreaseCoinCount();
                     break;
             }
         }
@@ -205,10 +205,10 @@ public class Player : MonoBehaviour
         {
             StartCoroutine(OnDie());
         }
-        else if(other.tag == "Enemy")
+        else if (other.tag == "Enemy")
         {
-            //StartCoroutine(OnDamage(20));
-       
+            StartCoroutine(OnDamage(20));
+
         }
         else if (other.tag == "EnemyBullet")
         {
@@ -235,7 +235,7 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         foreach (SkinnedMeshRenderer mesh in meshs)
             mesh.material.color = Color.white;
-        if(health <= 0)
+        if (health <= 0)
         {
             StartCoroutine(OnDie());
         }
@@ -256,9 +256,9 @@ public class Player : MonoBehaviour
         fireDelay += Time.deltaTime;
         isFireReady = equipWeapon.rate < fireDelay;
         if (isFireReady && !isSlide && !isJump)
-        {        
+        {
             equipWeapon.Use();
-            if(equipWeapon.type2 == Weapon.Type2.Pistol)
+            if (equipWeapon.type2 == Weapon.Type2.Pistol)
             {
                 playerAnimator.PistolShoot();
             }
@@ -266,7 +266,7 @@ public class Player : MonoBehaviour
             {
                 playerAnimator.RifleShoot();
             }
-            
+
             fireDelay = 0;
         }
     }
@@ -277,7 +277,7 @@ public class Player : MonoBehaviour
 
         if (!isSlide && !isJump && isBoss)
         {
-            playerAnimator.OnBossA();            
+            playerAnimator.OnBossA();
             rot2 = false;
             rot = true;
             equipWeapon.Use(true);
