@@ -938,6 +938,7 @@ IL2CPP_EXTERN_C RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Singleton_1_t9829C87171B304EC0136CCE844E68FA5A26DD1E5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Singleton_1_tFA721D8E32B98370721AF7AFEBCA0FD850A9F5A6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StackTrace_t43C03122C6B2AAF0DCCF684B2D5FA6E673F02888_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StreamReader_tA857ACC7ABF9AA4638E1291E6D2539C14D2963D3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StreamWriter_t3E267B7F3C9522AF936C26ABF158398BB779FAF6_il2cpp_TypeInfo_var;
@@ -1211,6 +1212,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* U231eb_U23web_mFAB0972D898B077D830309DD346C
 IL2CPP_EXTERN_C const RuntimeMethod* U231eb_U23xeb_m3E1504C90F30BE1A14E0F2EAF33ED47E03500E4F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U231z_U23Xz_mA122CA90A9754B48C40E73788B50A7015F718A70_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U231z_U23Yz_mA83720E31C616B3EE01B232008186E56D015F463_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U232j_U23Tj_TisSortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165_mC71E6242BF2376B1588E4CD9282BDA594FE2CDA2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U233eb_U23cD_mC2EC32F57688EC92C11C848453FAECB7B31F8A78_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U233eb__ctor_mDFDBE86DE624C2DDE255F8F9FBAEDC6CF2F8674E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U234lb_U233lb_m45023159FB533AC1D224DFC32A21220201AB59A0_RuntimeMethod_var;
@@ -16553,6 +16555,8 @@ public:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U233eb__ctor_m4B5C66F7CF4ACEC3EAFCFDB797BBB8C3F832EC93_gshared (U233eb_t40720D003F07AD7ACA743328DE535798BD985C70 * __this, RuntimeObject* p0, const RuntimeMethod* method);
 // System.Void BackEnd.Util.Singleton`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Singleton_1__ctor_m57D084AA93570832553EC7C744EB94C251920C63_gshared (Singleton_1_t1DE3E072E5E32BAFFAC09B0EE6A8E6AC34530592 * __this, const RuntimeMethod* method);
+// System.String #Gj.#2j::#Tj<System.Object>(System.Byte[],System.String,System.String,#dc,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U232j_U23Tj_TisRuntimeObject_m448ED92A0A35C4724391604184759C37618384E9_gshared (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* p0, String_t* p1, String_t* p2, RuntimeObject * p3, String_t* p4, const RuntimeMethod* method);
 // System.Void #P4.#rdb<System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U23rdb__ctor_m22F6C34CC72DB9474827F632E8D7399C903E328F_gshared (U23rdb_tCACE14642D2C89B690DBBB16B16D812B9B17C8E6 * __this, RuntimeObject * p0, intptr_t p1, const RuntimeMethod* method);
 // System.Boolean System.Nullable`1<System.Boolean>::get_HasValue()
@@ -16828,6 +16832,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t * StringBuilder_Append_mD02AB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U232j_U23Xj_m50C542B7BE4CE90FC909F7FC177DA8979A8CFDDE (String_t* p0, String_t* p1, const RuntimeMethod* method);
 // System.String System.String::ToLower()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_ToLower_m7875A49FE166D0A68F3F6B6E70C0C056EBEFD31D (String_t* __this, const RuntimeMethod* method);
+// System.Void System.Collections.SortedList::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortedList__ctor_m1BF566C7726F1DD3A683A8F78B6DB740C7AADEC6 (SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * __this, const RuntimeMethod* method);
+// System.String #Gj.#2j::#Tj<System.Collections.SortedList>(System.Byte[],System.String,System.String,#dc,System.String)
+inline String_t* U232j_U23Tj_TisSortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165_mC71E6242BF2376B1588E4CD9282BDA594FE2CDA2 (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* p0, String_t* p1, String_t* p2, SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * p3, String_t* p4, const RuntimeMethod* method)
+{
+	return ((  String_t* (*) (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, String_t*, String_t*, SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 *, String_t*, const RuntimeMethod*))U232j_U23Tj_TisRuntimeObject_m448ED92A0A35C4724391604184759C37618384E9_gshared)(p0, p1, p2, p3, p4, method);
+}
 // System.String System.Byte::ToString(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Byte_ToString_mABEF6F24915951FF4A4D87B389D8418B2638178C (uint8_t* __this, String_t* ___format0, const RuntimeMethod* method);
 // System.String System.String::Concat(System.String,System.String)
@@ -21851,6 +21862,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U232j_U23Rj_m1220CBB6314459340A1F01
 		String_t* L_39;
 		L_39 = String_ToLower_m7875A49FE166D0A68F3F6B6E70C0C056EBEFD31D(L_38, /*hidden argument*/NULL);
 		return L_39;
+	}
+}
+// System.String #Gj.#2j::#Tj(System.Byte[],System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U232j_U23Tj_m883756037AE96D512F2CCFA70D80587888150108 (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* p0, String_t* p1, String_t* p2, String_t* p3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U232j_U23Tj_TisSortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165_mC71E6242BF2376B1588E4CD9282BDA594FE2CDA2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * V_0 = NULL;
+	{
+		SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * L_0 = (SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 *)il2cpp_codegen_object_new(SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165_il2cpp_TypeInfo_var);
+		SortedList__ctor_m1BF566C7726F1DD3A683A8F78B6DB740C7AADEC6(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_1 = p0;
+		String_t* L_2 = p1;
+		String_t* L_3 = p2;
+		SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * L_4 = V_0;
+		String_t* L_5 = p3;
+		String_t* L_6;
+		L_6 = U232j_U23Tj_TisSortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165_mC71E6242BF2376B1588E4CD9282BDA594FE2CDA2(L_1, L_2, L_3, L_4, L_5, /*hidden argument*/U232j_U23Tj_TisSortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165_mC71E6242BF2376B1588E4CD9282BDA594FE2CDA2_RuntimeMethod_var);
+		return L_6;
 	}
 }
 // System.String #Gj.#2j::#Wj(System.Byte[])

@@ -13,14 +13,17 @@ public class GameController : MonoBehaviour
     private int coinCount = 0;
     [SerializeField]
     private TextMeshProUGUI textHealthCount;
+    [SerializeField]
+    private TextMeshProUGUI textname;
     public Slider sliderHeathCount;
     private int healthCount = 100;
-
+    DataSet data;
 
     private void Start()
     {
-        
-
+        GameObject obj1 = GameObject.Find("DataManager");
+        data = obj1.GetComponent<DataSet>();
+        textname.text = data.nickname;
     }
 
     public void InitialCoin(int coin)

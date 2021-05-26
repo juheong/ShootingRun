@@ -5227,6 +5227,7 @@ MonoBehaviour:
   layer: 0
   stage:
   - {fileID: 1616611147}
+  dataobj: {fileID: 1770339105}
 --- !u!222 &63384587
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14107,7 +14108,7 @@ GameObject:
   - component: {fileID: 142076030}
   - component: {fileID: 142076031}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: PanelManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20048,7 +20049,7 @@ RectTransform:
   - {fileID: 2099655108}
   - {fileID: 1980782803}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -65040,7 +65041,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &933752200
 GameObject:
@@ -67109,7 +67110,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uBC15\uC815\uD6C8"
+  m_text: Guest
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ff35df01f23796f4998ec6c60dbc93d7, type: 2}
   m_sharedMaterial: {fileID: 6962294879427176647, guid: ff35df01f23796f4998ec6c60dbc93d7,
@@ -75137,8 +75138,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1198657050}
   m_HandleRect: {fileID: 1198657049}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.24999999
+  m_Value: -0.000000040690107
+  m_Size: 0.25000003
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -116756,7 +116757,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1696536886
 GameObject:
@@ -121024,6 +121025,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769505614}
   m_CullTransparentMesh: 0
+--- !u!1 &1770339105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1770339108}
+  - component: {fileID: 1770339107}
+  - component: {fileID: 1770339106}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1770339106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770339105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b27df846813e6644a2be780a74c5167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nickname: 
+--- !u!114 &1770339107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770339105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1551d28429f0a2145ade4a57403237f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textName: {fileID: 966754961}
+  textLevel: {fileID: 2027731263}
+  textCoin: {fileID: 1608981341}
+--- !u!4 &1770339108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770339105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1770571411
 GameObject:
   m_ObjectHideFlags: 0
@@ -129349,6 +129410,7 @@ MonoBehaviour:
   stage:
   - {fileID: 602501551}
   - {fileID: 1514279874}
+  dataobj: {fileID: 0}
 --- !u!1 &1931178351
 GameObject:
   m_ObjectHideFlags: 0
@@ -136942,6 +137004,7 @@ MonoBehaviour:
   stage:
   - {fileID: 1400098481}
   - {fileID: 1227075793}
+  dataobj: {fileID: 1770339105}
 --- !u!222 &1980782805
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -144645,6 +144708,7 @@ MonoBehaviour:
   stage:
   - {fileID: 1513762644}
   - {fileID: 220824038}
+  dataobj: {fileID: 1770339105}
 --- !u!222 &2099655111
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ public class StageSelection : MonoBehaviour
 	public Layer layer;
 
 	public GameObject[] stage;
-	public static int selectedStage = 0;
+	public static int selectedStage = 0; 
 
 	public void NextStage()
 	{
@@ -32,9 +32,9 @@ public class StageSelection : MonoBehaviour
 	public static void StartGame(string sceneName) // 스테이지 판넬에서 호출 가정
 	{
 		PlayerPrefs.SetInt("Stage", selectedStage + 1);
-		//PlayerPrefs.SetInt("selectedStage", selectedStage);
-
-		LoadingSceneController.LoadSceneString(sceneName);
+        //PlayerPrefs.SetInt("selectedStage", selectedStagse);
+		LoadingSceneController.LoadSceneString(sceneName);        
+        
 		//SceneManager.LoadScene(selectedStage+1, LoadSceneMode.Single);
 		//Debug.Log((otherScript.selectedStage + 1) + "번째 캐릭터의 " + (selectedStage + 1) + "단계 실행");
 	}

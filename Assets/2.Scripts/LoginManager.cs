@@ -9,17 +9,20 @@ using System.Text.RegularExpressions;
 public class LoginManager : MonoBehaviour
 {
     [SerializeField] InputField nickname = null;
+    DataManager data;
+
     private void Start()
-    {   
+    {
         var bro = Backend.Initialize(true);
         if (bro.IsSuccess())
         {
-            Debug.Log("Backend 초기화 성공");
+            Debug.Log("Backend 초기화 성공");            
         }
         else
         {
             Debug.Log("Backend 초기화 실패");
         }
+        data = GetComponent<DataManager>();
     }
 
     public void BtnLogin()
@@ -30,7 +33,8 @@ public class LoginManager : MonoBehaviour
             if (bro.IsSuccess())
             {
                 Debug.Log("게스트 로그인에 성공했습니다.");
-
+                LoadingSceneController.LoadString("MainMenu");
+                data.InsertData();
             }
             else
             {
