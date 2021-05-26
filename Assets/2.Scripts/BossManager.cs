@@ -63,7 +63,7 @@ public class BossManager : MonoBehaviour
         {
             Bullet bullet = other.GetComponent<Bullet>();
             curHealth -= bullet.damage;
-            sliderBossHealth.fillAmount = curHealth/4000f;
+            sliderBossHealth.fillAmount = (float)curHealth /(float)maxHealth;
             float x = transform.position.x;
             Vector3 reactVec = transform.position - other.transform.position;
             Destroy(other.gameObject);
@@ -218,14 +218,15 @@ public class BossManager : MonoBehaviour
             isDie = true;
             gameObject.layer = 11;
            // Destroy(gameObject, 1f);
-            PanelController panelController = FindObjectOfType<PanelController>();
-            panelController.OpenPanel(2);
+            
         }
     }
     IEnumerator GameClear()
     {
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene("MainMenu");
+        PanelController panelController = FindObjectOfType<PanelController>();
+        panelController.OpenPanel(2);
+        //SceneManager.LoadScene("MainMenu");
     }
 
 

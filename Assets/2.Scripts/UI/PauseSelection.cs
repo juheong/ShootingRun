@@ -10,7 +10,6 @@ public class PauseSelection : MonoBehaviour
     public PanelController otherPanelController;
     void Start()
     {
-        otherPanelController.GetComponent<PanelController>();
         text.text = PlayerPrefs.GetInt("Chapter") + "-" + PlayerPrefs.GetInt("Stage");
     }
     public void OpenPause()
