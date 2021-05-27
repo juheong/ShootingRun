@@ -11,6 +11,7 @@ public class LoginManager : MonoBehaviour
 {
     [SerializeField] TMP_InputField nickname = null;
     DataManager data;
+    PanelController panel;
 
     private void Start()
     {
@@ -24,18 +25,25 @@ public class LoginManager : MonoBehaviour
             Debug.Log("Backend 초기화 실패");
         }
         data = GetComponent<DataManager>();
+        
+        if (Backend.BMember.GetGuestID() != null)
+        {            
+            Backend.BMember.DeleteGuestInfo();
+            Debug.Log("게스트 계정 삭제(테스트용)");
+        }       
     }
 
     public void BtnLogin()
     {
-        if (Backend.BMember.GetGuestID() != null)
+        panel = GameObject.Find("GameManager").GetComponent<PanelController>();
+        if (Backend.BMember.GetGuestID() != "")
         {
             BackendReturnObject bro = Backend.BMember.GuestLogin("게스트로 로그인");
             if (bro.IsSuccess())
             {
                 Debug.Log("게스트 로그인에 성공했습니다.");
                 LoadingSceneController.LoadString("MainMenu");
-                data.InsertData();
+                panel.OpenSwapPanel(3);
             }
             else
             {
@@ -47,8 +55,20 @@ public class LoginManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("계정이 존재하지 않습니다.");
-            
+            Debug.Log("게스트로 회원가입");
+            BackendReturnObject bro = Backend.BMember.GuestLogin("게스트로 로그인");
+            if (bro.IsSuccess())
+            {
+                Debug.Log("게스트 회원가입에 성공했습니다.");
+                panel.OpenSwapPanel(2);
+            }
+            else
+            {
+                if (bro.GetStatusCode() == "401")
+                {
+                    Debug.Log("존재하지 않는 ID입니다.");
+                }
+            }
         }
   
     }
@@ -70,6 +90,8 @@ public class LoginManager : MonoBehaviour
         if (BRO.IsSuccess())
         {
             Debug.Log("닉네임 생성 완료");
+            LoadingSceneController.LoadString("MainMenu");
+            data.InsertData();
         }
         else
         {
