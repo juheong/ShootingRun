@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using BackEnd;
 using UnityEngine.UI;
+using TMPro;
 using System.Text.RegularExpressions;
 
 
 public class LoginManager : MonoBehaviour
 {
-    [SerializeField] InputField nickname = null;
+    [SerializeField] TMP_InputField nickname = null;
     DataManager data;
 
     private void Start()
