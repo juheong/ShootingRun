@@ -21,11 +21,12 @@ public class MiddleBoss : MonoBehaviour
     public GameObject[] bullet;
     public Image sliderBossHealth;
 
-    [SerializeField]
-    private GameController gameController;
-
+    
+    GameController gameController;
     Player player;
     Rigidbody indirigi;
+    GameObject obj1;
+    DataManager data;
 
 
     private void Awake()
@@ -34,7 +35,10 @@ public class MiddleBoss : MonoBehaviour
         boxCollider = GetComponent<BoxCollider>();
         meshs = GetComponentsInChildren<SkinnedMeshRenderer>();
         anim = GetComponent<Animator>();
+        gameController = FindObjectOfType<GameController>();
         player = FindObjectOfType<Player>();
+        obj1 = GameObject.Find("DataManager");
+        data = obj1.GetComponent<DataManager>();
         InvokeRepeating("Attack", 1, 5f);
     }
 
@@ -98,8 +102,13 @@ public class MiddleBoss : MonoBehaviour
     IEnumerator GameClear()
     {
         yield return new WaitForSeconds(2f);
+        Time.timeScale = 0;
         PanelController panelController = FindObjectOfType<PanelController>();
+        data.expUpdate(200);
+        GameObject.Destroy(obj1);
         panelController.OpenPanel(2);
+        gameController.InitialLevel();
+        gameController.InitialExp();
         //SceneManager.LoadScene("MainMenu");
 
     }

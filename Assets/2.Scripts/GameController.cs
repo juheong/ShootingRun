@@ -15,15 +15,32 @@ public class GameController : MonoBehaviour
     private TextMeshProUGUI textHealthCount;
     [SerializeField]
     private TextMeshProUGUI textname;
+    [SerializeField]
+    private TextMeshProUGUI textlevel;
+    [SerializeField]
+    private TextMeshProUGUI textexp;
     public Slider sliderHeathCount;
     private int healthCount = 100;
-    DataSet data;
+    private DataManager data;
+    GameObject obj1;
 
     private void Start()
     {
-        GameObject obj1 = GameObject.Find("DataManager");
-        data = obj1.GetComponent<DataSet>();
-        textname.text = data.nickname;
+        obj1 = GameObject.Find("DataManager");
+        data = obj1.GetComponent<DataManager>();
+        textname.text = data.getName();
+        textlevel.text = data.getLevel().ToString();
+        textexp.text = data.getExp().ToString();
+    }
+
+    public void InitialLevel()
+    {
+        textlevel.text = data.getLevel().ToString();
+    }
+
+    public void InitialExp()
+    {
+        textexp.text = data.getExp().ToString();
     }
 
     public void InitialCoin(int coin)
