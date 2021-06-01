@@ -58373,6 +58373,7 @@ MonoBehaviour:
   damage: 20
   explosionPrefab: {fileID: 0}
   impact: {fileID: 0}
+  brange: 50
 --- !u!1 &3963242946758711649
 GameObject:
   m_ObjectHideFlags: 0
@@ -87582,6 +87583,7 @@ MonoBehaviour:
   damage: 20
   explosionPrefab: {fileID: 0}
   impact: {fileID: 0}
+  brange: 50
 --- !u!1 &5338634058995921334
 GameObject:
   m_ObjectHideFlags: 0
@@ -102254,6 +102256,7 @@ MonoBehaviour:
   damage: 20
   explosionPrefab: {fileID: 0}
   impact: {fileID: 0}
+  brange: 50
 --- !u!1 &6955446260318710374
 GameObject:
   m_ObjectHideFlags: 0

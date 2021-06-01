@@ -226,7 +226,6 @@ public class BossManager : MonoBehaviour
         yield return new WaitForSeconds(2f);
         PanelController panelController = FindObjectOfType<PanelController>();
         panelController.OpenPanel(2);
-        //SceneManager.LoadScene("MainMenu");
     }
 
 

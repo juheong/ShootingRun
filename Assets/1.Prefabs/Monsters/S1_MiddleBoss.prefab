@@ -746,10 +746,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b51ca0176f281441b735b650b169952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  curHealth: 100
-  SkillsIndicator: []
-  bullet: []
+  maxHealth: 1000
+  curHealth: 1000
+  SkillsIndicator:
+  - {fileID: 5863263527555736077, guid: 21cdbd7e97161d5439c84e12399c9ea6, type: 3}
+  bullet:
+  - {fileID: 5870134966058320986, guid: 038d7f2de1a856e48b16672398874a8a, type: 3}
+  - {fileID: 6040635867953845960, guid: cce0b1d6d74a5064083cc487927be5ea, type: 3}
   sliderBossHealth: {fileID: 0}
 --- !u!1 &5456981696472269892
 GameObject:

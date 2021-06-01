@@ -43824,10 +43824,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1551d28429f0a2145ade4a57403237f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textName: {fileID: 0}
-  textLevel: {fileID: 0}
-  textCoin: {fileID: 0}
-  textExp: {fileID: 0}
+  textName: {fileID: 1098315079}
+  textLevel: {fileID: 491373593}
+  textCoin: {fileID: 77920309}
+  textExp: {fileID: 1184341655}
   player:
     nickname: 
     level: 0

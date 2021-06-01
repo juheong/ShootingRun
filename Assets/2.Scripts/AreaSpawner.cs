@@ -39,10 +39,12 @@ public class AreaSpawner : MonoBehaviour
         int index = Random.Range(1, areaPrefabs.Length);
 
         clone = Instantiate(areaPrefabs[0]);
-        clear++; // 스테이지 클리어 조건
         clone.transform.position = new Vector3(0, 0, areaIndex * zDistance);
         clone.GetComponent<Area>().Setup(this, playerTransform, isBoss);
         areaIndex++;
+
+        clear++; // 스테이지 클리어 조건
+
     }
 
     public void SpawnMonster()

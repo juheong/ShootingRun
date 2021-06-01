@@ -11036,11 +11036,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 903442679329007053, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2026403478555001968, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4007458415418136613, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: bulletPos
       value: 
       objectReference: {fileID: 262348675}
+    - target: {fileID: 7287407976909812086, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7386663105432721309, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112907790199505492, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: isBoss
@@ -11104,7 +11129,7 @@ PrefabInstance:
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: hasWeapons.Array.data[2]
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
@@ -11114,7 +11139,7 @@ PrefabInstance:
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: hasWeapons.Array.data[4]
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8310867128036160257, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
@@ -11180,6 +11205,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8783593062854855117, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8987377823265290638, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
@@ -48416,10 +48446,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1551d28429f0a2145ade4a57403237f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textName: {fileID: 0}
-  textLevel: {fileID: 0}
-  textCoin: {fileID: 0}
-  textExp: {fileID: 0}
+  textName: {fileID: 1297278697}
+  textLevel: {fileID: 1165828222}
+  textCoin: {fileID: 810118108}
+  textExp: {fileID: 1335126652}
   player:
     nickname: 
     level: 0
@@ -94114,9 +94144,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textCoinCount: {fileID: 810118108}
   textHealthCount: {fileID: 807009389}
-  textname: {fileID: 0}
-  textlevel: {fileID: 0}
-  textexp: {fileID: 0}
+  textname: {fileID: 1297278697}
+  textlevel: {fileID: 1165828222}
+  textexp: {fileID: 1335126652}
   sliderHeathCount: {fileID: 2128767625}
 --- !u!4 &1777141634
 Transform:
