@@ -37,8 +37,8 @@ public class MiddleBoss : MonoBehaviour
         anim = GetComponent<Animator>();
         gameController = FindObjectOfType<GameController>();
         player = FindObjectOfType<Player>();
-        obj1 = GameObject.Find("DataManager");
-        data = obj1.GetComponent<DataManager>();
+        //obj1 = GameObject.Find("DataManager");
+        //data = obj1.GetComponent<DataManager>();
         InvokeRepeating("Attack", 1, 5f);
     }
 
@@ -104,7 +104,7 @@ public class MiddleBoss : MonoBehaviour
         yield return new WaitForSeconds(2f);
         Time.timeScale = 0;
         PanelController panelController = FindObjectOfType<PanelController>();
-        data.expUpdate(200);
+        //data.expUpdate(200);
         GameObject.Destroy(obj1);
         panelController.OpenPanel(2);
         gameController.InitialLevel();
