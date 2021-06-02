@@ -10,8 +10,10 @@ using System.Text.RegularExpressions;
 public class LoginManager : MonoBehaviour
 {
     [SerializeField] TMP_InputField nickname = null;
+
     DataManager data;
     PanelController panel;
+    TextMeshProUGUI warningText;
 
     private void Start()
     {
@@ -36,6 +38,7 @@ public class LoginManager : MonoBehaviour
     public void BtnLogin()
     {
         panel = GameObject.Find("GameManager").GetComponent<PanelController>();
+
         if (Backend.BMember.GetGuestID() != "")
         {
             BackendReturnObject bro = Backend.BMember.GuestLogin("게스트로 로그인");
@@ -84,6 +87,11 @@ public class LoginManager : MonoBehaviour
         if (CheckNickname() == false)
         {
             Debug.Log("닉네임은 한글, 영어, 숫자로만 만들 수 있습니다.");
+
+            panel.OpenPanel(4);
+            warningText = GameObject.Find("Toast_Popup").GetComponentInChildren<TextMeshProUGUI>();
+
+            warningText.text = "닉네임은 한글, 영어, 숫자로만 만들 수 있습니다.";
             return;
         }
 
@@ -99,19 +107,24 @@ public class LoginManager : MonoBehaviour
         }
         else
         {
+            panel.OpenPanel(4);
+            warningText = GameObject.Find("Toast_Popup").GetComponentInChildren<TextMeshProUGUI>();
+
             switch (BRO.GetStatusCode())
             {
                 case "409":
                     Debug.Log("이미 중복된 닉네임이 있는 경우");
+                    warningText.text = "이미 중복된 닉네임이 존재합니다.";
                     break;
 
                 case "400":
-                    if (BRO.GetMessage().Contains("too long")) Debug.Log("20자 이상의 닉네임인 경우");
-                    else if (BRO.GetMessage().Contains("blank")) Debug.Log("닉네임에 앞/뒤 공백이 있는경우");
-                    break;
+                    if (BRO.GetMessage().Contains("too long")) { Debug.Log("20자 이상의 닉네임인 경우"); warningText.text = "20자 이하의 닉네임을 입력해주세요."; }
+                    else if (BRO.GetMessage().Contains("blank")) { Debug.Log("닉네임에 앞/뒤 공백이 있는경우"); warningText.text = "닉네임 앞뒤 공백이 없어야합니다."; }
+                        break;
 
                 default:
                     Debug.Log("서버 공통 에러 발생: " + BRO.GetErrorCode());
+                    warningText.text = "서버 공통 에러가 발생하였습니다.";
                     break;
             }
         }
