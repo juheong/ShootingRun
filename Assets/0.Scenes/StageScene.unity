@@ -18504,7 +18504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: -20}
+  m_AnchoredPosition: {x: -20.00003, y: -20}
   m_SizeDelta: {x: -59.99999, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &448530104 stripped
@@ -24456,11 +24456,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaPrefabs:
-  - {fileID: 2796754831856130907, guid: 3a9e4532630485145bf3d0b636c0a8e9, type: 3}
-  - {fileID: 2796754831856130907, guid: 3a9e4532630485145bf3d0b636c0a8e9, type: 3}
-  - {fileID: 2796754831856130907, guid: 3a9e4532630485145bf3d0b636c0a8e9, type: 3}
-  - {fileID: 2796754831856130907, guid: 3a9e4532630485145bf3d0b636c0a8e9, type: 3}
-  - {fileID: 2796754831856130907, guid: 3a9e4532630485145bf3d0b636c0a8e9, type: 3}
+  - {fileID: 0}
+  - {fileID: 5663434798114582271, guid: 71d52618d318177428147ac683a59dba, type: 3}
+  - {fileID: 445383305766557784, guid: c895323dd7b34fa409c1e31a041470c2, type: 3}
+  - {fileID: 6992694610384771492, guid: 6b64db322fadc7445b905274134b6460, type: 3}
+  - {fileID: 2796754831856130907, guid: 1fab658efea41324d8de663214b82401, type: 3}
   enemies:
   - {fileID: 5691688369305071277, guid: 8257bf9b9d661684486fab49cb86d5db, type: 3}
   - {fileID: 2534821283484074915, guid: 09d87b5b4a76a404f914269615d0ceda, type: 3}

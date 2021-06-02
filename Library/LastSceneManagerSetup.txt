@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Hovl Studio/Epic toon VFX/Demo scene/Demo Toon VFX.unity
+- path: Assets/0.Scenes/StageScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

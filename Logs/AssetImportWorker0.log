@@ -1,1715 +1,921 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.985; Version 2004; 64bit' Language: 'ko' Physical Memory: 16332 MB
+OS: 'Windows 10 Pro; OS build 19041.985; Version 2004; 64bit' Language: 'ko' Physical Memory: 16323 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Util\unity\2020.3.2f1\Editor\Unity.exe
+D:\2020.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Manduk/Documents/GitHub
+D:/RunningGun
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1324
-Successfully changed project path to: C:/Users/Manduk/Documents/GitHub
-C:/Users/Manduk/Documents/GitHub
+1543
+Successfully changed project path to: D:/RunningGun
+D:/RunningGun
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.95 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
-[Subsystems] Discovering subsystems at path D:/Util/unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Manduk/Documents/GitHub/Assets
+[Subsystems] Discovering subsystems at path D:/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/RunningGun/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
     Vendor:   
-    VRAM:     8088 MB
-    Driver:   27.21.14.5751
+    VRAM:     2988 MB
+    Driver:   26.21.14.4112
 Initialize mono
-Mono path[0] = 'D:/Util/unity/2020.3.2f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Util/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Util/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Mono path[0] = 'D:/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Util/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001518 seconds.
+Register platform support module: D:/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001516 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 67.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.908 seconds
+- Completed reload, in  2.635 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015230 seconds.
+Registered in 0.005803 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.857 seconds
+- Completed reload, in  0.744 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1315 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.2 MB.
-System memory in use after: 169.0 MB.
+System memory in use before: 169.5 MB.
+System memory in use after: 169.2 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1800.
-Total: 1.720400 ms (FindLiveObjects: 0.159500 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.219200 ms  DeleteObjects: 0.297700 ms)
+Total: 1.678900 ms (FindLiveObjects: 0.175300 ms CreateObjectMapping: 0.051800 ms MarkObjects: 1.171300 ms  DeleteObjects: 0.279800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/1.Prefabs/Bullets/Bullet1_Boss.prefab
-  artifactKey: Guid(e145c4fdcc633ae42be54f7952337711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Bullets/Bullet1_Boss.prefab using Guid(e145c4fdcc633ae42be54f7952337711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3b5fa22ed81d64ec6fa4f289300270') in 0.754143 seconds
-  Import took 0.757238 seconds .
+  path: Assets/1.Prefabs
+  artifactKey: Guid(97b8ed232cf509143811083e5542ba58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs using Guid(97b8ed232cf509143811083e5542ba58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf4a60dd4c27fa9664ecf14c3ca597d') in 0.006827 seconds
+  Import took 0.008946 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/1.Prefabs/Monsters/S1_MiddleBoss.prefab
-  artifactKey: Guid(97008c6ac2d5e8049889a433233753b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/S1_MiddleBoss.prefab using Guid(97008c6ac2d5e8049889a433233753b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b928a7583f074e6bab074b931520a9') in 1.069805 seconds
-  Import took 1.075214 seconds .
+  Time since last request: 0.000284 seconds.
+  path: Assets/1.Prefabs/maps/AreaSet05.prefab
+  artifactKey: Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/AreaSet05.prefab using Guid(23ccb46d8754af24c92fd9f915d48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f480caff5513f80bbe0aef94715dfc68') in 0.396947 seconds
+  Import took 0.400192 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.480740 seconds.
-  path: Assets/Low Poly Weapons VOL.1/Gun_MAT.mat
-  artifactKey: Guid(28f0b13c7e9707746b5e0b3336181560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Weapons VOL.1/Gun_MAT.mat using Guid(28f0b13c7e9707746b5e0b3336181560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f2eae8c411afbdd1f5f262589fff43') in 0.250686 seconds
-  Import took 0.253471 seconds .
+  Time since last request: 0.000316 seconds.
+  path: Assets/1.Prefabs/maps/mapsj4.prefab
+  artifactKey: Guid(6b64db322fadc7445b905274134b6460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj4.prefab using Guid(6b64db322fadc7445b905274134b6460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0a76f2d79ed62b68940085c010820e') in 0.076155 seconds
+  Import took 0.079285 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Low Poly Weapons VOL.1/Textures_Guns.png
-  artifactKey: Guid(6a376fb3e11ce334ca96f417cead6576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Weapons VOL.1/Textures_Guns.png using Guid(6a376fb3e11ce334ca96f417cead6576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4000fbb7365ed9872b81332ef30789d0') in 1.010457 seconds
-  Import took 1.013021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.914525 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/Cell.fbx
-  artifactKey: Guid(71ed97187ac84c94ab903c47a50d507b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/Cell.fbx using Guid(71ed97187ac84c94ab903c47a50d507b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042ffda7f3de5e509c6c8706ccbf4ced') in 0.358142 seconds
-  Import took 0.360940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/TrailWind.fbx
-  artifactKey: Guid(919aa805a9173ec43aba9eb76ca938a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/TrailWind.fbx using Guid(919aa805a9173ec43aba9eb76ca938a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ae4812a3f1a733abf121f0f75693f3') in 0.776805 seconds
-  Import took 0.779093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Circle17cg.mat
-  artifactKey: Guid(f75fa4eaa4fda8c4d91ab4fefcdb3d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Circle17cg.mat using Guid(f75fa4eaa4fda8c4d91ab4fefcdb3d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e073c8914c0bed8ca09890a3a849b18') in 0.822564 seconds
-  Import took 0.824982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides14.mat
-  artifactKey: Guid(9925c80f1269ec7458d9963472dd6b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides14.mat using Guid(9925c80f1269ec7458d9963472dd6b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3bcfde702ab63c300dc9e3fd792b88') in 0.727056 seconds
-  Import took 0.729271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Point11bcg.mat
-  artifactKey: Guid(34c25d62753eeb24da80689a47b67735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Point11bcg.mat using Guid(34c25d62753eeb24da80689a47b67735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5b101bb8cb4071b15889112f98212a') in 0.022319 seconds
-  Import took 0.024792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/WaterSplash2.fbx
-  artifactKey: Guid(98c5cf133c979c34fa5a18564b9d9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/WaterSplash2.fbx using Guid(98c5cf133c979c34fa5a18564b9d9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5e0fd78dcc192e59798b0464c0ea9b') in 0.016958 seconds
-  Import took 0.019267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Prefabs/Tornado.prefab
-  artifactKey: Guid(48586e0d16e02b1439149af234811ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Prefabs/Tornado.prefab using Guid(48586e0d16e02b1439149af234811ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea62fa09294c708bcf71d5077ed038a') in 0.030489 seconds
-  Import took 0.033968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/HalfSphere3.fbx
-  artifactKey: Guid(8daeb94efb71a1746a62d9f47a714f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/HalfSphere3.fbx using Guid(8daeb94efb71a1746a62d9f47a714f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8342ac09a03772788560f6031392e60') in 0.025281 seconds
-  Import took 0.027981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/WaterF2bts.mat
-  artifactKey: Guid(2c536f6213a310b459bc59aab3609a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/WaterF2bts.mat using Guid(2c536f6213a310b459bc59aab3609a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdf72711a7c80f8e2f406ab7b4cdc27') in 0.036558 seconds
-  Import took 0.039404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/HOVLCrystalPiese.fbx
-  artifactKey: Guid(3e7e92633d750d440b9551f9f4bf95aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/HOVLCrystalPiese.fbx using Guid(3e7e92633d750d440b9551f9f4bf95aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f5c0c967d0c41bcd48d52388ca0203') in 0.019270 seconds
-  Import took 0.021882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/FlashGroundCG.mat
-  artifactKey: Guid(d5dfb7b499f5de840871d37b9f54d073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/FlashGroundCG.mat using Guid(d5dfb7b499f5de840871d37b9f54d073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1d132678e1254b131181326037c856') in 0.026183 seconds
-  Import took 0.028774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/WaterF1bts.mat
-  artifactKey: Guid(e3756f7f010f00344bb431fa20de25dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/WaterF1bts.mat using Guid(e3756f7f010f00344bb431fa20de25dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681dde809040941173a6405247a0b6c8') in 0.036472 seconds
-  Import took 0.038982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/QuadToCircle.fbx
-  artifactKey: Guid(c9b3eaae0aa575c4db6feb3ae6fea5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/QuadToCircle.fbx using Guid(c9b3eaae0aa575c4db6feb3ae6fea5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7c5cd8db298ce6f53d9e4c5493d961') in 0.025646 seconds
-  Import took 0.028667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Prefabs/Air attack.prefab
-  artifactKey: Guid(50c8587e89abeab45a09c487433d2a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Prefabs/Air attack.prefab using Guid(50c8587e89abeab45a09c487433d2a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3928ef8beac7159d851d4182b75b7885') in 0.020926 seconds
-  Import took 0.024576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/HPL2cg.mat
-  artifactKey: Guid(1b5f613319e0f324c9637cfac64149e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/HPL2cg.mat using Guid(1b5f613319e0f324c9637cfac64149e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100221cb539bb5d01cd74d4655f012d0') in 0.041081 seconds
-  Import took 0.044654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/StoneBricks1.mat
-  artifactKey: Guid(b7a0caa7f61978c4a9bdf38d5a56ec8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/StoneBricks1.mat using Guid(b7a0caa7f61978c4a9bdf38d5a56ec8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1140416ea057ed78776dff3c73f45c5') in 0.472099 seconds
-  Import took 0.475004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Smoke20bss.mat
-  artifactKey: Guid(b2ee4363cb7b7244ca3cc67f3c3907ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Smoke20bss.mat using Guid(b2ee4363cb7b7244ca3cc67f3c3907ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128516d10fc3fafe846d8ff96d055420') in 0.024950 seconds
-  Import took 0.027131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TrailShader3.mat
-  artifactKey: Guid(867f4d679b3630e4bb5516b09bbe5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TrailShader3.mat using Guid(867f4d679b3630e4bb5516b09bbe5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7af45aaf69d0abc76f1adc33a48340') in 0.040362 seconds
-  Import took 0.042654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Trail55bcg.mat
-  artifactKey: Guid(2d797bf69a09aa84fa0eea32fbf3b7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Trail55bcg.mat using Guid(2d797bf69a09aa84fa0eea32fbf3b7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac5930b0604acd179ddba6418d9860c') in 0.022064 seconds
-  Import took 0.024512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Prefabs/Ice attack.prefab
-  artifactKey: Guid(766f2f2533d0f434aafb31ffe563b139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Prefabs/Ice attack.prefab using Guid(766f2f2533d0f434aafb31ffe563b139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9996525ef3bb8b1fa4739919907089c3') in 0.015039 seconds
-  Import took 0.018378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides17.mat
-  artifactKey: Guid(564373b9253c700459a93f5c71a69dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides17.mat using Guid(564373b9253c700459a93f5c71a69dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093e6aa813964f263189031178d3dc19') in 0.040938 seconds
-  Import took 0.043888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/СylindricalСone2.fbx
-  artifactKey: Guid(b2f8b571d854cfc42962427536e286b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/СylindricalСone2.fbx using Guid(b2f8b571d854cfc42962427536e286b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830911baaa6362d3d29693696be78bcc') in 0.018667 seconds
-  Import took 0.021662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Flash21bcg.mat
-  artifactKey: Guid(7dad299f9caed054ea10097fd11f0a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Flash21bcg.mat using Guid(7dad299f9caed054ea10097fd11f0a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06aa4e5a7895b5b218205e39f44ea6aa') in 0.025807 seconds
-  Import took 0.028612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Noise35tcg.mat
-  artifactKey: Guid(9b4decd1097506446b5d6e0bc0e4717c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Noise35tcg.mat using Guid(9b4decd1097506446b5d6e0bc0e4717c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b88ba4c4d161c2f64583ad0ed9a4ba5') in 0.041376 seconds
-  Import took 0.043991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Smoke3cg.mat
-  artifactKey: Guid(fe3fbcea8e93fec468be670c547e0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Smoke3cg.mat using Guid(fe3fbcea8e93fec468be670c547e0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca797bfa3896eeb19821f76b43f274be') in 0.024622 seconds
-  Import took 0.027097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Ice.mat
-  artifactKey: Guid(21da2bf5b4bbc8840bd07929ebecb512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Ice.mat using Guid(21da2bf5b4bbc8840bd07929ebecb512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431f58e09271971ba65f9c2ebc6e8a88') in 0.043768 seconds
-  Import took 0.046131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/HalfSphere2.fbx
-  artifactKey: Guid(7e6272ab2661b9041a233144ff1617eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/HalfSphere2.fbx using Guid(7e6272ab2661b9041a233144ff1617eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144e518dab9d7a9e106508af1f6f0bad') in 0.023606 seconds
-  Import took 0.026551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Point11cg.mat
-  artifactKey: Guid(c90a3c23b0fc60244a9f3588ff9e721f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Point11cg.mat using Guid(c90a3c23b0fc60244a9f3588ff9e721f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fd43de6649f22bb2ff0cd9146c0f29') in 0.017421 seconds
-  Import took 0.020220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/СylindricalСone.fbx
-  artifactKey: Guid(8a32b27e8f16c3143b5895f52bccd93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/СylindricalСone.fbx using Guid(8a32b27e8f16c3143b5895f52bccd93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13812036c490af4eadf2823a93db24b6') in 0.018669 seconds
-  Import took 0.021354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Crater15bcg.mat
-  artifactKey: Guid(c13f75a1159f41d4da97a1074dd90539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Crater15bcg.mat using Guid(c13f75a1159f41d4da97a1074dd90539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6164bd26db734853b61005255bb4e7d') in 0.027214 seconds
-  Import took 0.029605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Point19bcg2.mat
-  artifactKey: Guid(1827c6f1d27f4f843b3f093269f914d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Point19bcg2.mat using Guid(1827c6f1d27f4f843b3f093269f914d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196e04d33abb8e20c9ec86c6965eb4a4') in 0.025982 seconds
-  Import took 0.028647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Prefabs/Slash.prefab
-  artifactKey: Guid(419793424e9b8ba4baa478e3b254bcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Prefabs/Slash.prefab using Guid(419793424e9b8ba4baa478e3b254bcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35358a09cf3e6e9efb1efeef2e903b1') in 0.014160 seconds
-  Import took 0.018163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Snow4bcg.mat
-  artifactKey: Guid(35f5e6dc715494f44b17248eee5426bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Snow4bcg.mat using Guid(35f5e6dc715494f44b17248eee5426bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba59dc42ad9e9314ef48506170dbad9') in 0.023359 seconds
-  Import took 0.026785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Flash25bcg.mat
-  artifactKey: Guid(ebf32de651c95a442b90d04baa106800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Flash25bcg.mat using Guid(ebf32de651c95a442b90d04baa106800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a83b8233ef13294815ead3f68f8e59') in 0.026232 seconds
-  Import took 0.029142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/EGACrystal.mat
-  artifactKey: Guid(e5469e23398769844915bee4a78915d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/EGACrystal.mat using Guid(e5469e23398769844915bee4a78915d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a603128a8c0273b62d2c4448d643153d') in 0.024770 seconds
-  Import took 0.027434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/CylinderFromGround3.fbx
-  artifactKey: Guid(3b9ee43bbb254c14097301ddc03c6551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/CylinderFromGround3.fbx using Guid(3b9ee43bbb254c14097301ddc03c6551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5de30d1e8cef03fe4f89eedcb1fa961') in 0.025640 seconds
-  Import took 0.028058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/MaskPoint1.mat
-  artifactKey: Guid(0ae5b07cb509ca04ab936aa7e86e8ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/MaskPoint1.mat using Guid(0ae5b07cb509ca04ab936aa7e86e8ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35abd537fa500149f52077efe76179f4') in 0.019417 seconds
-  Import took 0.021915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides8.mat
-  artifactKey: Guid(c2ca7fa960173b64e8010229e224ddd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides8.mat using Guid(c2ca7fa960173b64e8010229e224ddd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0884a97c99188a16c1b80eb4de32a63') in 0.042415 seconds
-  Import took 0.045131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Noise43cg.mat
-  artifactKey: Guid(eef6f45e3dfeeb049a3da5e2e52af88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Noise43cg.mat using Guid(eef6f45e3dfeeb049a3da5e2e52af88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686b30f937e1c00bbd5947e5d258098e') in 0.035955 seconds
-  Import took 0.038668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/Sword.fbx
-  artifactKey: Guid(f5c0e942d3263e042a353258f72c0cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/Sword.fbx using Guid(f5c0e942d3263e042a353258f72c0cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c460432856c793c925c870f6942785') in 0.025032 seconds
-  Import took 0.027586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides19.mat
-  artifactKey: Guid(253697e4c104e18448b4e6aa05e6007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides19.mat using Guid(253697e4c104e18448b4e6aa05e6007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785225cc97026bdebdaa3cc74bfb9e23') in 0.025531 seconds
-  Import took 0.028772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides2.mat
-  artifactKey: Guid(5cb8838b4d2a7fe4d9badfee3e6915fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides2.mat using Guid(5cb8838b4d2a7fe4d9badfee3e6915fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba1037a1ab23c85e7748934da9e1f1b') in 0.037303 seconds
-  Import took 0.040187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides9.mat
-  artifactKey: Guid(2502ef35cb004fc42919b2fa6523106f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides9.mat using Guid(2502ef35cb004fc42919b2fa6523106f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fcf0825c130e7d4dfe8be4deea2f5f') in 0.036908 seconds
-  Import took 0.039407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides18.mat
-  artifactKey: Guid(892ed97ed1391f74094b6fd404aab7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides18.mat using Guid(892ed97ed1391f74094b6fd404aab7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663f5960f0b3f9b20c3116518222d24d') in 0.029679 seconds
-  Import took 0.032566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Snow2bcg.mat
-  artifactKey: Guid(f8bfdb30cff45894389fcc9ce14ba25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Snow2bcg.mat using Guid(f8bfdb30cff45894389fcc9ce14ba25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed56a91b2270f5fd44294aeaf3ac5d3') in 0.023642 seconds
-  Import took 0.026115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Plus.mat
-  artifactKey: Guid(6ba861fe503698f479e4ded4f996bd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Plus.mat using Guid(6ba861fe503698f479e4ded4f996bd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9f6f98550c42ab89b98a10714a5de4') in 0.023499 seconds
-  Import took 0.026130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Romb3cg.mat
-  artifactKey: Guid(c10ff1214bc1c924182ac2e22d4f5cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Romb3cg.mat using Guid(c10ff1214bc1c924182ac2e22d4f5cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99737fd8c90ec4a3ef2f67700814b0f0') in 0.023057 seconds
-  Import took 0.025695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Point19bcg.mat
-  artifactKey: Guid(0711ea139cbfdb04aa3f8bbbb67bca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Point19bcg.mat using Guid(0711ea139cbfdb04aa3f8bbbb67bca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3d7546f944e56dad7871e9c9fa1299') in 0.018673 seconds
-  Import took 0.021448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides20.mat
-  artifactKey: Guid(986c21818293d384b992649128f19873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides20.mat using Guid(986c21818293d384b992649128f19873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8346165b4010a60c4b0d49b5b02e1fae') in 0.030719 seconds
-  Import took 0.033874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Trail52bcg.mat
-  artifactKey: Guid(887467d7c5b6766489b8018992c8d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Trail52bcg.mat using Guid(887467d7c5b6766489b8018992c8d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6438f5ac84af58d3d87229d0d1662908') in 0.029683 seconds
-  Import took 0.032697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/CylinderFromGround.fbx
-  artifactKey: Guid(82dbd8e3418cba140afc86fa4b355d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/CylinderFromGround.fbx using Guid(82dbd8e3418cba140afc86fa4b355d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a89b798de01d382d76d67543dc07bb8') in 0.027866 seconds
-  Import took 0.030897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/Splash.fbx
-  artifactKey: Guid(67fb4dad8d21c6640916de52b5ed1d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/Splash.fbx using Guid(67fb4dad8d21c6640916de52b5ed1d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318f4af93903cd4d71f54070180502f5') in 0.025811 seconds
-  Import took 0.028303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Capsule.mat
-  artifactKey: Guid(6b48241d6829ff0418d8fcd13e7dcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Capsule.mat using Guid(6b48241d6829ff0418d8fcd13e7dcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7985a9a5f26e447cc31ee23526eb3e5') in 0.145645 seconds
-  Import took 0.148009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Additive.mat
-  artifactKey: Guid(8f7260ae490a6f64e97398d880b66e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Additive.mat using Guid(8f7260ae490a6f64e97398d880b66e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b607642322221f7938cb506eb0521b6') in 0.016592 seconds
-  Import took 0.018817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/BloodAnim1bcg.mat
-  artifactKey: Guid(778c66c1bec4ca548a1f0a70ab1f40d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/BloodAnim1bcg.mat using Guid(778c66c1bec4ca548a1f0a70ab1f40d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2f71b7d7b93489cf204ec30f871ea3') in 0.032526 seconds
-  Import took 0.035119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Semicircle6bcg.mat
-  artifactKey: Guid(e10acc4b68a4e7b4eaa75206eacf0d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Semicircle6bcg.mat using Guid(e10acc4b68a4e7b4eaa75206eacf0d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d41e54e129b3d035fd94efe16d988d1') in 0.026673 seconds
-  Import took 0.029633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Chain2bn.mat
-  artifactKey: Guid(8fedabc44aec37e499a02069135afb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Chain2bn.mat using Guid(8fedabc44aec37e499a02069135afb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cede452b67106a86e95ba1f3fc8415') in 0.150655 seconds
-  Import took 0.153677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/ToonTornado5.fbx
-  artifactKey: Guid(ee12295dbdc0c344bab9605440e28b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/ToonTornado5.fbx using Guid(ee12295dbdc0c344bab9605440e28b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0974e910d3fb711fc350630c3712fe') in 0.019306 seconds
-  Import took 0.021929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/Plus.fbx
-  artifactKey: Guid(98f5f6236d6ffb74ebe369834c3e10dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/Plus.fbx using Guid(98f5f6236d6ffb74ebe369834c3e10dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c635247085165563c9f3fce3484e9a3') in 0.022247 seconds
-  Import took 0.025393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides6.mat
-  artifactKey: Guid(c6c5e1e3cb3f85b46ac7fc547ba8ca0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides6.mat using Guid(c6c5e1e3cb3f85b46ac7fc547ba8ca0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab485c095cdb45aa0e8d2db24e121b08') in 0.029766 seconds
-  Import took 0.032519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides13.mat
-  artifactKey: Guid(2a9c0c17f2a4d2642802a4194cb9f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides13.mat using Guid(2a9c0c17f2a4d2642802a4194cb9f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4319c06d588d8ccf64eb5cfeea74142b') in 0.037810 seconds
-  Import took 0.041385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides11.mat
-  artifactKey: Guid(9d7aa987bb067e6439cf2be2b2250818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides11.mat using Guid(9d7aa987bb067e6439cf2be2b2250818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996dab122e1622d0d5c8fda059f2daad') in 0.034745 seconds
-  Import took 0.037671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Prefabs/BlackHole.prefab
-  artifactKey: Guid(da228e031cd49034b9ee6ab414027c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Prefabs/BlackHole.prefab using Guid(da228e031cd49034b9ee6ab414027c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9208e38aefb44742def1ac728cb036fd') in 0.015996 seconds
-  Import took 0.021276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Circle38cg.mat
-  artifactKey: Guid(4f7dde5d02427b947bd2d9aeff846594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Circle38cg.mat using Guid(4f7dde5d02427b947bd2d9aeff846594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bb15682e99b2abec45426bf2b6d5f7') in 0.025019 seconds
-  Import took 0.028113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/SharpStone5.fbx
-  artifactKey: Guid(356e8f995093b9948957538a7d4ed237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/SharpStone5.fbx using Guid(356e8f995093b9948957538a7d4ed237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f069f46f6337adcedd72d97a9754a6e') in 0.019946 seconds
-  Import took 0.023106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Prefabs/Sharks attack.prefab
-  artifactKey: Guid(61bca72f182a8b442a05c4a20cdc2792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Prefabs/Sharks attack.prefab using Guid(61bca72f182a8b442a05c4a20cdc2792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34e724f198f8c4c3126e5d9f1d6ead9') in 0.024958 seconds
-  Import took 0.029021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides21.mat
-  artifactKey: Guid(237ad81c3eb001c4ea282a6292645251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides21.mat using Guid(237ad81c3eb001c4ea282a6292645251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961ec62f5a67448f2926f0995ffd9a72') in 0.028696 seconds
-  Import took 0.031264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/Shark.fbx
-  artifactKey: Guid(96135fe0d361d6743bc9c98be59365b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/Shark.fbx using Guid(96135fe0d361d6743bc9c98be59365b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5018715124c6b8d45015827396529a') in 0.018059 seconds
-  Import took 0.020698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Trail54bcg.mat
-  artifactKey: Guid(d2018a8d174b19a459390c54366c209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Trail54bcg.mat using Guid(d2018a8d174b19a459390c54366c209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91f711db30a396bdc3e0561c974ca26') in 0.023905 seconds
-  Import took 0.026454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides12.mat
-  artifactKey: Guid(72363959d11d2ba4584265a16271148e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides12.mat using Guid(72363959d11d2ba4584265a16271148e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431b1d06f531e474d17e2759da802db5') in 0.032708 seconds
-  Import took 0.035215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides10.mat
-  artifactKey: Guid(bb68310753c7ddb4a926fae68e0dd343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides10.mat using Guid(bb68310753c7ddb4a926fae68e0dd343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fe41dfc92a23e637c56d2de70fd396') in 0.029593 seconds
-  Import took 0.032168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Prefabs/Magic aura.prefab
-  artifactKey: Guid(7711d65f2320be7419564401376439a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Prefabs/Magic aura.prefab using Guid(7711d65f2320be7419564401376439a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c85cb97cef5f6d8446f2b5133a9c3bc') in 0.016026 seconds
-  Import took 0.019992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Circle38cg2.mat
-  artifactKey: Guid(fdbf37ac877776848babebf041981271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Circle38cg2.mat using Guid(fdbf37ac877776848babebf041981271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe4798cb89488479f0af86651c017ec') in 0.019356 seconds
-  Import took 0.022078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Chain4bn.mat
-  artifactKey: Guid(bd4d5a19603a60d40816f73d009f4ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Chain4bn.mat using Guid(bd4d5a19603a60d40816f73d009f4ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d35d490c0b0e9d7183e05fd74f2cc69') in 0.022966 seconds
-  Import took 0.025777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides22.mat
-  artifactKey: Guid(47638d990f8e97c419463c6f0a11a9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides22.mat using Guid(47638d990f8e97c419463c6f0a11a9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7475675fc302479ff388c506a8fabf') in 0.032488 seconds
-  Import took 0.035001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Point12cg.mat
-  artifactKey: Guid(9aaa13d175bcf1c4b8acc4d930ee06ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Point12cg.mat using Guid(9aaa13d175bcf1c4b8acc4d930ee06ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33034f9301db1c46f976044bbf6490f9') in 0.026303 seconds
-  Import took 0.028828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides7.mat
-  artifactKey: Guid(394580c138fc5fd418aac34e779f774f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/TwoSides7.mat using Guid(394580c138fc5fd418aac34e779f774f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5404fce7692afa4fc01167fae7af9d08') in 0.021441 seconds
-  Import took 0.024386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Prefabs/Toon expoision.prefab
-  artifactKey: Guid(f17a559c3e5157c47877540a041487b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Prefabs/Toon expoision.prefab using Guid(f17a559c3e5157c47877540a041487b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eeca0327faf536c02973dd01fa71f11') in 0.018190 seconds
-  Import took 0.022476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Circle17cg2.mat
-  artifactKey: Guid(0c70ecf196bf6044a9d09dded78b9752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Circle17cg2.mat using Guid(0c70ecf196bf6044a9d09dded78b9752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba16cb86ef93cdaca6534ce35c4b8df') in 0.018627 seconds
-  Import took 0.021619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/CylinderFromCenter2.fbx
-  artifactKey: Guid(9f383b802545bff40a5639b09dee9d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/CylinderFromCenter2.fbx using Guid(9f383b802545bff40a5639b09dee9d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4567c896b4c8cb07be845f44d83f514a') in 0.023565 seconds
-  Import took 0.027176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Prefabs/Healing.prefab
-  artifactKey: Guid(5c4a7b97a64ea954d9090774571b44c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Prefabs/Healing.prefab using Guid(5c4a7b97a64ea954d9090774571b44c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15c833328db3123a6d364aacfac2cc6') in 0.016097 seconds
-  Import took 0.019825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Models/HalfTrail.fbx
-  artifactKey: Guid(9a6f1debbd28da64ebe97352a969d168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Models/HalfTrail.fbx using Guid(9a6f1debbd28da64ebe97352a969d168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7534f7b0e2c3027534080a1f6f343e1d') in 0.021945 seconds
-  Import took 0.025141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Flare17bcg.mat
-  artifactKey: Guid(c95a4f2f3beafef4a8cd1750c8a53e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Flare17bcg.mat using Guid(c95a4f2f3beafef4a8cd1750c8a53e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17d79d92ca2e227ec10b3bd1eb68265') in 0.023408 seconds
-  Import took 0.026131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Mask9bcg.mat
-  artifactKey: Guid(916e45ed79d82594e91da8cdcda1a2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Mask9bcg.mat using Guid(916e45ed79d82594e91da8cdcda1a2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78444ed9ade513c60d2b7237e20acbfa') in 0.025380 seconds
-  Import took 0.028938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Materials/Flare6cg.mat
-  artifactKey: Guid(82f16bfe1d124c54e877ead985da0dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Materials/Flare6cg.mat using Guid(82f16bfe1d124c54e877ead985da0dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19141266ec673098b2bf68f351820f6b') in 0.027110 seconds
-  Import took 0.030773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Prefabs/Hit cuts.prefab
-  artifactKey: Guid(1180736eeccd0bc43b2513f0852b4dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Prefabs/Hit cuts.prefab using Guid(1180736eeccd0bc43b2513f0852b4dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35591a56f833dfdecf14b738e379a34') in 0.014131 seconds
-  Import took 0.017772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.433225 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/LightingData.asset
-  artifactKey: Guid(a56b45fc175414845af4c9a0aadd0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/LightingData.asset using Guid(a56b45fc175414845af4c9a0aadd0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76832a5826de3eab0ea8f92d33a2d381') in 0.016212 seconds
-  Import took 0.019145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/PP low.asset
-  artifactKey: Guid(70629691e8eede744b1c85c9ddcc4bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/PP low.asset using Guid(70629691e8eede744b1c85c9ddcc4bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891e6003c00231581f5211e497e767dd') in 0.011029 seconds
-  Import took 0.013722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/Lightmap-0_comp_dir.png
-  artifactKey: Guid(6f300ef33196fdb409bb5832ad34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/Lightmap-0_comp_dir.png using Guid(6f300ef33196fdb409bb5832ad34eeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5068ca0f40360c6bf4e21dad3cf2cdb6') in 0.024030 seconds
-  Import took 0.027302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/ReflectionProbe-1.exr
-  artifactKey: Guid(6d1bdb0442c31bc4b9841fe573ad0e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/ReflectionProbe-1.exr using Guid(6d1bdb0442c31bc4b9841fe573ad0e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f0c682f849cbde0ccca6fd1d0424f6') in 0.043514 seconds
-  Import took 0.046379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/Lightmap-0_comp_light.exr
-  artifactKey: Guid(2128de04652751543b363d1ad58139d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/Lightmap-0_comp_light.exr using Guid(2128de04652751543b363d1ad58139d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e3a23688adba3f5cd41dd5a40c30de') in 0.029405 seconds
-  Import took 0.033040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/ReflectionProbe-0.exr
-  artifactKey: Guid(a5b19c2415b3780439b585c8f312b284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/ReflectionProbe-0.exr using Guid(a5b19c2415b3780439b585c8f312b284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4470baa7467529ffcbae97cd2d229aa3') in 0.024302 seconds
-  Import took 0.027175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.243673 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/Demo scene hero/Character.fbx
-  artifactKey: Guid(ba7f513a199d49745b8a2d939a3c399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/Demo scene hero/Character.fbx using Guid(ba7f513a199d49745b8a2d939a3c399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf1f8d44f164a1a853849407a5dfde4') in 0.045328 seconds
-  Import took 0.048329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/Demo scene hero/WhiteMat.mat
-  artifactKey: Guid(2a714df06e718d146bda41b2b3695d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/Demo scene hero/WhiteMat.mat using Guid(2a714df06e718d146bda41b2b3695d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d019d9ccc5f52864b69b7118ef0d73') in 0.014428 seconds
-  Import took 0.016782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/Demo scene hero/GrayMat.mat
-  artifactKey: Guid(bb058fbc18c6ae64e9427db3f8279f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/Demo scene hero/GrayMat.mat using Guid(bb058fbc18c6ae64e9427db3f8279f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6956844ca5b84053a2fca134866799') in 0.015446 seconds
-  Import took 0.018230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/Demo scene hero/Character.prefab
-  artifactKey: Guid(6ed7388f7c90d204b95640c863596e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/Demo scene hero/Character.prefab using Guid(6ed7388f7c90d204b95640c863596e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46613fcbe86d55605b0e46ba37968ddb') in 0.022908 seconds
-  Import took 0.026458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.999900 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/Demo Toon VFX.unity
-  artifactKey: Guid(a041584e8f2cd25409cf965f437ab224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/Demo Toon VFX.unity using Guid(a041584e8f2cd25409cf965f437ab224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefd96411d4e7db872564bd6e675beb6') in 0.009426 seconds
-  Import took 0.012561 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.184738 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.183 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.5 MB.
-System memory in use after: 180.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1855.
-Total: 2.206500 ms (FindLiveObjects: 0.251000 ms CreateObjectMapping: 0.044500 ms MarkObjects: 1.640500 ms  DeleteObjects: 0.269300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 51.476531 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/Demo scene hero/Character.controller
-  artifactKey: Guid(b9759a26d01f83e48b6a267353c53d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/Demo scene hero/Character.controller using Guid(b9759a26d01f83e48b6a267353c53d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d33b0367fb25c010cdf9e739f30ef9d') in 0.604230 seconds
-  Import took 0.607914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.672864 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/BloodAnim1.png
-  artifactKey: Guid(88ae00f78b3eaf74f9684f534fc4dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/BloodAnim1.png using Guid(88ae00f78b3eaf74f9684f534fc4dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444862514b97badc64b405b9666fe903') in 0.052395 seconds
-  Import took 0.055106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/StoneBricks1_AO.png
-  artifactKey: Guid(2f6b43c8057eb604987b29d9ab942433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/StoneBricks1_AO.png using Guid(2f6b43c8057eb604987b29d9ab942433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156c37d6b451575d479395c6f2902c65') in 0.060806 seconds
-  Import took 0.064046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Crater15.png
-  artifactKey: Guid(8e76370db6286674bb9819de8c8bd494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Crater15.png using Guid(8e76370db6286674bb9819de8c8bd494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b20453001e39ae85390333d0a45522') in 0.016137 seconds
-  Import took 0.018997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Gradient4.3.png
-  artifactKey: Guid(396f38a210576e54e859be3bfc253e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Gradient4.3.png using Guid(396f38a210576e54e859be3bfc253e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84732812d976d45256d49a3360a73fea') in 0.018686 seconds
-  Import took 0.021239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/HandPaintedLightning2.png
-  artifactKey: Guid(e1f5daa4611af4844a03ec5a45012456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/HandPaintedLightning2.png using Guid(e1f5daa4611af4844a03ec5a45012456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85345f5369c8d6a8aa21719471134217') in 0.031188 seconds
-  Import took 0.034215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Trail29.png
-  artifactKey: Guid(b1f8d78a5fe9ad94cb9f2eaa2f795e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Trail29.png using Guid(b1f8d78a5fe9ad94cb9f2eaa2f795e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb398a937969a364fae24ecf6fc4506d') in 0.024468 seconds
-  Import took 0.027480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/SharpStone.png
-  artifactKey: Guid(a316e1bac9d949842bbedcd2360fdd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/SharpStone.png using Guid(a316e1bac9d949842bbedcd2360fdd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab624a2946826b3ad8e0b9a5ff1f0aa8') in 0.023294 seconds
-  Import took 0.026180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Noise1.png
-  artifactKey: Guid(e199ee8112362864f831425463b09fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Noise1.png using Guid(e199ee8112362864f831425463b09fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c16bc9842af9c381337c35c50a5954') in 0.027003 seconds
-  Import took 0.029632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Noise50.png
-  artifactKey: Guid(4e3951c538fc8a647a4a10a99b480987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Noise50.png using Guid(4e3951c538fc8a647a4a10a99b480987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1dd015d413a15f62c2a56e03a290b5') in 0.032573 seconds
-  Import took 0.035336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/EGACrystal.png
-  artifactKey: Guid(d8b9c3ef0a12bf54b9d05343bbecbc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/EGACrystal.png using Guid(d8b9c3ef0a12bf54b9d05343bbecbc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3a842199f70e44e674719ed5a63822') in 0.013443 seconds
-  Import took 0.016368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/MaskForShader.png
-  artifactKey: Guid(60d224affeaecf84ead5a8b24c6c9995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/MaskForShader.png using Guid(60d224affeaecf84ead5a8b24c6c9995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f034d1749ea3084ea394a1ffd7b6a52') in 0.019082 seconds
-  Import took 0.022256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Point19.png
-  artifactKey: Guid(4b0225a5290cbe540bc56e26a8682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Point19.png using Guid(4b0225a5290cbe540bc56e26a8682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6083118f04b6b4742ead08bc0c6fac') in 0.021052 seconds
-  Import took 0.024253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/StoneBricks1_metallic.png
-  artifactKey: Guid(424e42b24116fdd4db07c6fec69de9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/StoneBricks1_metallic.png using Guid(424e42b24116fdd4db07c6fec69de9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75ef3cd45244053de3df0558700a334') in 0.057623 seconds
-  Import took 0.060559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Trail25.png
-  artifactKey: Guid(63e298374ab0c384ebe243e627781d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Trail25.png using Guid(63e298374ab0c384ebe243e627781d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8e63597a67ed407883049771d111d5') in 0.016620 seconds
-  Import took 0.019627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Gradient11.png
-  artifactKey: Guid(e535306ab7c05d54294264b1d2c16fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Gradient11.png using Guid(e535306ab7c05d54294264b1d2c16fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c7fabeb90ec544b8f48f3bbafe1885') in 0.014737 seconds
-  Import took 0.017500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Semicircle6.png
-  artifactKey: Guid(77c34709cf851d94d811f77a97e6ecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Semicircle6.png using Guid(77c34709cf851d94d811f77a97e6ecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4305cb3ce9e6b39df9dd0306603e4eb3') in 0.018443 seconds
-  Import took 0.021313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Flare6.png
-  artifactKey: Guid(fb60f4826d03c644c80d10aace44bfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Flare6.png using Guid(fb60f4826d03c644c80d10aace44bfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e2e3f3da1c380472c3ca44c84d9f15') in 0.015866 seconds
-  Import took 0.018781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Snow4.png
-  artifactKey: Guid(2dbe75cf06e0c6842b4eae60ddda63ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Snow4.png using Guid(2dbe75cf06e0c6842b4eae60ddda63ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c946e4fc01d55fde2115d4bc514814b') in 0.015974 seconds
-  Import took 0.019430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Chain1Normal.png
-  artifactKey: Guid(2afb8b57fb42ef748a57df359dbd01f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Chain1Normal.png using Guid(2afb8b57fb42ef748a57df359dbd01f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb7a32413ed458e290fc860ce8d0ee2') in 0.017075 seconds
-  Import took 0.019800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/StoneBricks1_Albedo.png
-  artifactKey: Guid(2e1dd8125f961f848a85dcc4dbffc4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/StoneBricks1_Albedo.png using Guid(2e1dd8125f961f848a85dcc4dbffc4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed02813eb80c9636201ff7a34d26bf9') in 0.059288 seconds
-  Import took 0.062430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Mask9.png
-  artifactKey: Guid(4f52c7f1d1950c048a218f314911f3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Mask9.png using Guid(4f52c7f1d1950c048a218f314911f3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bd650a27080294bdff7fd16ed898e0') in 0.016252 seconds
-  Import took 0.019068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Trail44.png
-  artifactKey: Guid(1f4a0a8d81984c94e92c9bb247a9015b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Trail44.png using Guid(1f4a0a8d81984c94e92c9bb247a9015b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e735bccebcdffc8753b8e5ad217e7391') in 0.015930 seconds
-  Import took 0.019015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Snow2.png
-  artifactKey: Guid(c1055f2d530a98b4ba60807272a2e0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Snow2.png using Guid(c1055f2d530a98b4ba60807272a2e0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c571805f668d904ab526f6861f46bc2d') in 0.017087 seconds
-  Import took 0.020594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Gradient12.png
-  artifactKey: Guid(32a2a0fff0c45634fb83d8d541ab67a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Gradient12.png using Guid(32a2a0fff0c45634fb83d8d541ab67a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d710ca2bcc9e6e3503a19417d69782c') in 0.018481 seconds
-  Import took 0.021157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Plus.png
-  artifactKey: Guid(9087cca9ed3da0e4c85584f14a76771e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Plus.png using Guid(9087cca9ed3da0e4c85584f14a76771e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0751f305512c2392c3ae57241e414116') in 0.013222 seconds
-  Import took 0.016071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Noise43.png
-  artifactKey: Guid(6701bfb8e762cd54e96d8dc1a763d942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Noise43.png using Guid(6701bfb8e762cd54e96d8dc1a763d942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ebc953f19dbdc7c21e85df61b9ebab') in 0.028152 seconds
-  Import took 0.031099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Circle38.png
-  artifactKey: Guid(4d41495f05e1e7a46b981c43293cb751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Circle38.png using Guid(4d41495f05e1e7a46b981c43293cb751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac06122360e818adb61d2308e4e27831') in 0.021901 seconds
-  Import took 0.025394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Noise51.png
-  artifactKey: Guid(e793730e1790ae2408948cf883bcac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Noise51.png using Guid(e793730e1790ae2408948cf883bcac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1472ceef259e6825b289b290d441f92') in 0.019300 seconds
-  Import took 0.022266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Trail53.png
-  artifactKey: Guid(3f8c4361dbbcf7d42b5486d87f13b51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Trail53.png using Guid(3f8c4361dbbcf7d42b5486d87f13b51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a3bcbeda2ceeac94f02466b20aad89') in 0.016182 seconds
-  Import took 0.019088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Noise35t.png
-  artifactKey: Guid(beea0694d337e23449c7d21e4dfef1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Noise35t.png using Guid(beea0694d337e23449c7d21e4dfef1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142d3238e360dd32028b70c1c500ba45') in 0.031382 seconds
-  Import took 0.034448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Circle17.png
-  artifactKey: Guid(6ab6673ffc36e0543bd310e5677e9031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Circle17.png using Guid(6ab6673ffc36e0543bd310e5677e9031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1c0c96fb9a089ecbe8098c7060888c') in 0.019074 seconds
-  Import took 0.022037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Smoke20.png
-  artifactKey: Guid(fc74f2230eb1a474ab9e5b47b939b9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Smoke20.png using Guid(fc74f2230eb1a474ab9e5b47b939b9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6738959d854cfbf2597525ff238d4931') in 0.019065 seconds
-  Import took 0.022461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Noise53.png
-  artifactKey: Guid(7d68a918c0765ff46bd6aa7513519399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Noise53.png using Guid(7d68a918c0765ff46bd6aa7513519399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6367aea5089131f917d93bbb929abf') in 0.030726 seconds
-  Import took 0.034225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Smoke3.png
-  artifactKey: Guid(52b767eecc2845a429e0e9e2155a8ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Smoke3.png using Guid(52b767eecc2845a429e0e9e2155a8ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2500edc69fdf71876a27eb27f9d728b4') in 0.016857 seconds
-  Import took 0.020256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Trail52.png
-  artifactKey: Guid(e3c6d3e494f6e2d41bb90b86b133deb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Trail52.png using Guid(e3c6d3e494f6e2d41bb90b86b133deb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad97c6edb79ec16c3f8b85368332430') in 0.019034 seconds
-  Import took 0.021675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Flash25.png
-  artifactKey: Guid(8932815f1d9abd740870fcd6b77cb0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Flash25.png using Guid(8932815f1d9abd740870fcd6b77cb0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46730dbfbba330b99ddea33789ef7c4e') in 0.022396 seconds
-  Import took 0.025236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Chain1.png
-  artifactKey: Guid(043d92615bd157d4c85b0064b9f76625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Chain1.png using Guid(043d92615bd157d4c85b0064b9f76625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f28d2b74fc81dfbd2ec6edf2ccdf9d') in 0.020314 seconds
-  Import took 0.024405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/HUE.png
-  artifactKey: Guid(d5f12de378a90064e8427946ec54d98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/HUE.png using Guid(d5f12de378a90064e8427946ec54d98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0764372fdaccc8b17b054d7ae30426e') in 0.018051 seconds
-  Import took 0.021095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Trail54.png
-  artifactKey: Guid(179c9072992055e46885aa095ecb47f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Trail54.png using Guid(179c9072992055e46885aa095ecb47f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90c1326e1e081d3575cfaa32b3d893b') in 0.020687 seconds
-  Import took 0.023868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Trail55.png
-  artifactKey: Guid(a772904a505c9c641a85e035de08397f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Trail55.png using Guid(a772904a505c9c641a85e035de08397f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2f458cef1f957e1986305702f35c17') in 0.018096 seconds
-  Import took 0.021467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Trail62.png
-  artifactKey: Guid(af1e6e52a00618a4e88aec68732ef946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Trail62.png using Guid(af1e6e52a00618a4e88aec68732ef946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e914f2767d394e488e787dd0f5fe5776') in 0.023822 seconds
-  Import took 0.027715 seconds .
+  Time since last request: 0.000325 seconds.
+  path: Assets/1.Prefabs/maps/mapsj2.prefab
+  artifactKey: Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj2.prefab using Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bbfb5416d6e2e432b957adc7b15c34') in 0.074261 seconds
+  Import took 0.077298 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000291 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Romb3.png
-  artifactKey: Guid(3727a5cb4c22e5c45b1c8a876894f10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Romb3.png using Guid(3727a5cb4c22e5c45b1c8a876894f10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e1a4e8a01cf1a70dd4c8f8f3d8dea3') in 0.020153 seconds
-  Import took 0.023846 seconds .
+  path: Assets/1.Prefabs/maps/map2.prefab
+  artifactKey: Guid(6bd220b9c31855b4c95ff4167977b9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/map2.prefab using Guid(6bd220b9c31855b4c95ff4167977b9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f7c31972dfb0e9fc1dc505679db6ae') in 0.185186 seconds
+  Import took 0.189798 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Flare17.png
-  artifactKey: Guid(a22f92ef9cb68074587b7fb6111a2856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Flare17.png using Guid(a22f92ef9cb68074587b7fb6111a2856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ff871013b57127841d8e96ce4ce2e4') in 0.023543 seconds
-  Import took 0.027361 seconds .
+  Time since last request: 0.000295 seconds.
+  path: Assets/1.Prefabs/maps/AreaSet03.prefab
+  artifactKey: Guid(11a047c7a2f204b429765aa766ff4509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/AreaSet03.prefab using Guid(11a047c7a2f204b429765aa766ff4509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0211be0c003f3d2fcfb3531762c60139') in 0.082053 seconds
+  Import took 0.085101 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Flash21.png
-  artifactKey: Guid(6c6076316faf3ec48b1600130510cc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Flash21.png using Guid(6c6076316faf3ec48b1600130510cc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba75f60cd21506fe71a94b8f92c371d') in 0.018782 seconds
-  Import took 0.021571 seconds .
+  Time since last request: 0.000310 seconds.
+  path: Assets/1.Prefabs/maps/mapsj3.prefab
+  artifactKey: Guid(c895323dd7b34fa409c1e31a041470c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj3.prefab using Guid(c895323dd7b34fa409c1e31a041470c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7aab79b86e22e70f1b850ab4f67c265') in 0.073675 seconds
+  Import took 0.076580 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Gradient8.png
-  artifactKey: Guid(5b66e25d75ad8bc47a270f48df3ae17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Gradient8.png using Guid(5b66e25d75ad8bc47a270f48df3ae17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f818ce73d4c412c410112fceac06150') in 0.018148 seconds
-  Import took 0.020766 seconds .
+  Time since last request: 0.000333 seconds.
+  path: Assets/1.Prefabs/maps/mapsj5.prefab
+  artifactKey: Guid(1fab658efea41324d8de663214b82401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj5.prefab using Guid(1fab658efea41324d8de663214b82401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86da05b641a0e7fa023cc11c5a528fba') in 0.071188 seconds
+  Import took 0.075129 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Gradient5.png
-  artifactKey: Guid(475148f624c505341850123b44186528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Gradient5.png using Guid(475148f624c505341850123b44186528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6032556da8a66b01001e24157cc8c2ff') in 0.018371 seconds
-  Import took 0.021033 seconds .
+  Time since last request: 0.000248 seconds.
+  path: Assets/1.Prefabs/maps/map3.prefab
+  artifactKey: Guid(f07ec4bb38e37084b9f94666b1b1f19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/map3.prefab using Guid(f07ec4bb38e37084b9f94666b1b1f19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5769f244e37541f2a4fce848e6d37d9f') in 0.146436 seconds
+  Import took 0.150562 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Mask45.png
-  artifactKey: Guid(49ac7b1a8d5f80b43a940ab835c429a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Mask45.png using Guid(49ac7b1a8d5f80b43a940ab835c429a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5355a323460f0c2d29226aaa95248f') in 0.014804 seconds
-  Import took 0.017401 seconds .
+  Time since last request: 0.000314 seconds.
+  path: Assets/1.Prefabs/maps/AreaSet01.prefab
+  artifactKey: Guid(f320fe11e0078a74ba2c24df19491415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/AreaSet01.prefab using Guid(f320fe11e0078a74ba2c24df19491415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e155b64b3104b9aa1300d5492a04a96') in 0.084779 seconds
+  Import took 0.087674 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Point12.png
-  artifactKey: Guid(c8ada4fdced7c07409542d983b96835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Point12.png using Guid(c8ada4fdced7c07409542d983b96835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d3c575ec003434c44fb289dd2c4224') in 0.017008 seconds
-  Import took 0.019768 seconds .
+  Time since last request: 0.000280 seconds.
+  path: Assets/1.Prefabs/maps/AreaSet02.prefab
+  artifactKey: Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/AreaSet02.prefab using Guid(92be4a82c3b50de4b82417a7203a7536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a274fee761b10e36b22f66124a01bffe') in 0.038325 seconds
+  Import took 0.041494 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/StoneBricks1_normal.png
-  artifactKey: Guid(ebbf504ab5ba27f4589ff99ac5dc4234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/StoneBricks1_normal.png using Guid(ebbf504ab5ba27f4589ff99ac5dc4234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cd57ded6754eefab9ab0e992577ce3') in 0.054457 seconds
-  Import took 0.057759 seconds .
+  Time since last request: 0.000286 seconds.
+  path: Assets/1.Prefabs/maps
+  artifactKey: Guid(343bf2b7d417dca42afe0b1b0b484f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps using Guid(343bf2b7d417dca42afe0b1b0b484f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971d1e00ce2ac63568c09cc0857de022') in 0.004979 seconds
+  Import took 0.007002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/1.Prefabs/Player.prefab
+  artifactKey: Guid(6a6124ad907676c44abec39b244ec924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Player.prefab using Guid(6a6124ad907676c44abec39b244ec924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50f23be63cfe2a4a8ba8ab34a296017') in 0.385840 seconds
+  Import took 0.390593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/1.Prefabs/maps/mapsj1.prefab
+  artifactKey: Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj1.prefab using Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b96f8d92e010376aff742a66ff16404') in 0.081373 seconds
+  Import took 0.084493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/1.Prefabs/maps/AreaSet04.prefab
+  artifactKey: Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/AreaSet04.prefab using Guid(3d1d23fcead4d85498ce6cdbf1515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3acbb5e9ca4a882dd6585ff9aa5592') in 0.098726 seconds
+  Import took 0.102587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.267042 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland
+  artifactKey: Guid(528743b8b734022418e71ec8392b5ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland using Guid(528743b8b734022418e71ec8392b5ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9182561587a023db2820a311989dce3') in 0.006774 seconds
+  Import took 0.009351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.242233 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/4_Scripts
+  artifactKey: Guid(f814fd20ee1f8454482e05797ca594c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/4_Scripts using Guid(f814fd20ee1f8454482e05797ca594c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd097c494bf72c112ea3ce85f4777e852') in 0.006452 seconds
+  Import took 0.008759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.014615 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders
+  artifactKey: Guid(e000158532a748d4087ab0514d845a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders using Guid(e000158532a748d4087ab0514d845a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3851a9eb39a54ea1a1aa6fd8412e7e') in 0.006008 seconds
+  Import took 0.008215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.112177 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/AgaveLow.prefab
+  artifactKey: Guid(9c9807f75889e994094efd930fe03ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/AgaveLow.prefab using Guid(9c9807f75889e994094efd930fe03ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99637a4555e3ed8ebef5f8b86af7a25') in 0.093318 seconds
+  Import took 0.098192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Mushroom.prefab
+  artifactKey: Guid(4650d2c8e344b4742ab0546e939b7217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Mushroom.prefab using Guid(4650d2c8e344b4742ab0546e939b7217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd481fefdfc1fef16a0fa333c8d0a5d07') in 0.056185 seconds
+  Import took 0.058448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/SharpRock2.prefab
+  artifactKey: Guid(04f3d3ea971fb874cb1fd0f19ba656f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/SharpRock2.prefab using Guid(04f3d3ea971fb874cb1fd0f19ba656f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c786eb717c81f831a5ceff08b820ea3') in 0.051894 seconds
+  Import took 0.054189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenHouse1.prefab
+  artifactKey: Guid(64c6e0e4b7aac8d4ea7a68eaf9d54b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenHouse1.prefab using Guid(64c6e0e4b7aac8d4ea7a68eaf9d54b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73ad024d0819f670d945c459e230c6e') in 0.054982 seconds
+  Import took 0.057125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Wagon.prefab
+  artifactKey: Guid(562808a9cf61c1f41a475378c1fd3f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Wagon.prefab using Guid(562808a9cf61c1f41a475378c1fd3f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e83b954c1460ff2f7a722fee6b5bb69') in 0.051174 seconds
+  Import took 0.053333 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000273 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Point11.png
-  artifactKey: Guid(16c09c008bc4ddc4695f67e0c74a6ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Point11.png using Guid(16c09c008bc4ddc4695f67e0c74a6ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec649048266ea3a7c223e6667dfea9b') in 0.016798 seconds
-  Import took 0.019495 seconds .
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/TreeTrunk2.prefab
+  artifactKey: Guid(b6b51ccde223c4e40ba2d2333749db1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/TreeTrunk2.prefab using Guid(b6b51ccde223c4e40ba2d2333749db1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004839275362cc07591d0b8363dbb132') in 0.052039 seconds
+  Import took 0.054184 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Rays3b.png
-  artifactKey: Guid(802ddd854a81b044d8ded8591dc2ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Rays3b.png using Guid(802ddd854a81b044d8ded8591dc2ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f99c061ce2c52e0050fb257d0574dd') in 0.019311 seconds
-  Import took 0.021870 seconds .
+  Time since last request: 0.000224 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/ReedBig.prefab
+  artifactKey: Guid(0dd9f3ed5db81cd42b5ed5842693f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/ReedBig.prefab using Guid(0dd9f3ed5db81cd42b5ed5842693f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd9c1b398aa3fe057fdfbb0591efc2c') in 0.047123 seconds
+  Import took 0.049657 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Mask45.png
-  artifactKey: Guid(49ac7b1a8d5f80b43a940ab835c429a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Mask45.png using Guid(49ac7b1a8d5f80b43a940ab835c429a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5355a323460f0c2d29226aaa95248f') in 0.010820 seconds
-  Import took 0.013759 seconds .
+  Time since last request: 0.000311 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/RockGrey2.prefab
+  artifactKey: Guid(0b507fc630af57748b49929a85bad1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/RockGrey2.prefab using Guid(0b507fc630af57748b49929a85bad1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8347b189bba58d132c4378ab5b87e6') in 0.053241 seconds
+  Import took 0.055421 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Trail62For.psd
-  artifactKey: Guid(ddae16d63fd8046459b7c40b5bc830b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Trail62For.psd using Guid(ddae16d63fd8046459b7c40b5bc830b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f057b675889fcc469b444431ddee796a') in 0.031627 seconds
-  Import took 0.035266 seconds .
+  Time since last request: 0.000299 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenWall1.prefab
+  artifactKey: Guid(7a659e5cb7951c542bc517b94f4bcea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenWall1.prefab using Guid(7a659e5cb7951c542bc517b94f4bcea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eaa7cc57d933ea7b64deea9fab4fdc2') in 0.060053 seconds
+  Import took 0.062174 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Textures/Noise34.png
-  artifactKey: Guid(3f1d4fadb37c37e4488860109d7dce4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Textures/Noise34.png using Guid(3f1d4fadb37c37e4488860109d7dce4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e15f396b52e04e0f06f7330ec1d4e9') in 0.026245 seconds
-  Import took 0.030093 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/TreeDead1.prefab
+  artifactKey: Guid(34086b58f75f6d34c8f631494c7e340c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/TreeDead1.prefab using Guid(34086b58f75f6d34c8f631494c7e340c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0746fd5ff302c968af09fc6b20519cef') in 0.058643 seconds
+  Import took 0.061022 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.155436 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Prefabs/Tornado.prefab
-  artifactKey: Guid(48586e0d16e02b1439149af234811ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Prefabs/Tornado.prefab using Guid(48586e0d16e02b1439149af234811ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fe0a24b89a8bbea698f38bac310d64') in 0.019012 seconds
-  Import took 0.022978 seconds .
+  Time since last request: 0.000281 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/OldWoodPlank2.prefab
+  artifactKey: Guid(3249dcccf5969bc42929181503b131f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/OldWoodPlank2.prefab using Guid(3249dcccf5969bc42929181503b131f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939171f1225ff223f68fdc385b49917d') in 0.055395 seconds
+  Import took 0.057437 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.379413 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Prefabs/Tornado.prefab
-  artifactKey: Guid(48586e0d16e02b1439149af234811ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Prefabs/Tornado.prefab using Guid(48586e0d16e02b1439149af234811ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffe638d772828a4038ac8a064d6bdcb') in 0.011998 seconds
-  Import took 0.015467 seconds .
+  Time since last request: 0.000312 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Signpost1.prefab
+  artifactKey: Guid(09cf0cab46fd4f84cab7fdafc2df9b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Signpost1.prefab using Guid(09cf0cab46fd4f84cab7fdafc2df9b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c171daa169aefde0d90a7e06480ee579') in 0.052067 seconds
+  Import took 0.054468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenHouse3.prefab
+  artifactKey: Guid(f93de0dfa6b2b8241aef425cac105efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenHouse3.prefab using Guid(f93de0dfa6b2b8241aef425cac105efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccff27f2471bf47105b469a9b9660ae') in 0.053336 seconds
+  Import took 0.055515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenWallDamaged1.prefab
+  artifactKey: Guid(c50cb335843e9a3459f4ab45782976f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenWallDamaged1.prefab using Guid(c50cb335843e9a3459f4ab45782976f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7e5a51aa0ba51bddc4133aebd7983f') in 0.059763 seconds
+  Import took 0.061880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/PierStart.prefab
+  artifactKey: Guid(52dbbceff73875e4181d4040686efbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/PierStart.prefab using Guid(52dbbceff73875e4181d4040686efbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99119529b4e08e2e77376bb01ec1cc3a') in 0.057139 seconds
+  Import took 0.059173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Tree1.prefab
+  artifactKey: Guid(43ac926c2709a4b4e9868e88f7f97a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Tree1.prefab using Guid(43ac926c2709a4b4e9868e88f7f97a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184c894756e4f8c067c659d1207c11bf') in 0.050280 seconds
+  Import took 0.052416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Mushrooms.prefab
+  artifactKey: Guid(6df69aa4c7dd16842b1448e84b884e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Mushrooms.prefab using Guid(6df69aa4c7dd16842b1448e84b884e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0acd1e16632000bf9a196d1c7494288') in 0.056146 seconds
+  Import took 0.058221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/PierTile.prefab
+  artifactKey: Guid(490356bc046a1244089e1b557f6b9ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/PierTile.prefab using Guid(490356bc046a1244089e1b557f6b9ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668f36a39f8bf69a1e3acb797e0e7a99') in 0.057626 seconds
+  Import took 0.059793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/GrassHillFlat.prefab
+  artifactKey: Guid(ce4310faa471efc478e0232d3ed58cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/GrassHillFlat.prefab using Guid(ce4310faa471efc478e0232d3ed58cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3b57d367e33a4e8309c9aab4132873') in 0.051891 seconds
+  Import took 0.053997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Tree2.prefab
+  artifactKey: Guid(bc17b1ed5476ec540a6ebe8135cd81e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Tree2.prefab using Guid(bc17b1ed5476ec540a6ebe8135cd81e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07a8cbd42f9aaa747c18448c1ba3b7e') in 0.050577 seconds
+  Import took 0.052583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/RockGrey1.prefab
+  artifactKey: Guid(618adb3f54e947e42971238bba66b81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/RockGrey1.prefab using Guid(618adb3f54e947e42971238bba66b81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d4906ef67b444810e0dcc3a484492d') in 0.052734 seconds
+  Import took 0.054720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Barrel.prefab
+  artifactKey: Guid(19ac1104ca7795142a0ed5606b7401c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Barrel.prefab using Guid(19ac1104ca7795142a0ed5606b7401c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db061bb2aeaa60f6738f0a33ad160dd') in 0.051738 seconds
+  Import took 0.053785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Ladder.prefab
+  artifactKey: Guid(4b7b24b478cfd90438180b7362de593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Ladder.prefab using Guid(4b7b24b478cfd90438180b7362de593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d71d6f69700703ed0eec6efc2dd272f') in 0.050333 seconds
+  Import took 0.052391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/SharpRock1.prefab
+  artifactKey: Guid(75ce0f8fda9941d4dbb0fce80b24ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/SharpRock1.prefab using Guid(75ce0f8fda9941d4dbb0fce80b24ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9111e8e514abad61aa8809dfd05cdeca') in 0.058581 seconds
+  Import took 0.060734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/CookingPot.prefab
+  artifactKey: Guid(6cecb8f8cf3206345b6b535cbc70d1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/CookingPot.prefab using Guid(6cecb8f8cf3206345b6b535cbc70d1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb4a6cb6966196eb9012e5ab9947bfb') in 0.055190 seconds
+  Import took 0.057378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Tent1.prefab
+  artifactKey: Guid(f60396d1bcb5c7540b2f66c3d39dd57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Tent1.prefab using Guid(f60396d1bcb5c7540b2f66c3d39dd57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645a6be72941bfef50748f04dad9d1f9') in 0.057081 seconds
+  Import took 0.059166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Bench1.prefab
+  artifactKey: Guid(48436bba6aeee4d43b9c9e648f23a592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Bench1.prefab using Guid(48436bba6aeee4d43b9c9e648f23a592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0809e094457fd293cc2e4d4a34c9d3') in 0.051721 seconds
+  Import took 0.053828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenTable.prefab
+  artifactKey: Guid(835fd60ab18ca4447bed95a8c7ce7711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenTable.prefab using Guid(835fd60ab18ca4447bed95a8c7ce7711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2629f8e0326fb7eca0ec3fb78ce9d4fb') in 0.051168 seconds
+  Import took 0.053137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/CubicRocksGrey.prefab
+  artifactKey: Guid(692c1d404d84db94e8992449125bf6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/CubicRocksGrey.prefab using Guid(692c1d404d84db94e8992449125bf6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fe00431b45e025db43eba35c9e7ea9') in 0.051622 seconds
+  Import took 0.053677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Reed.prefab
+  artifactKey: Guid(8e29574f61c003a45a3cc9a571582336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Reed.prefab using Guid(8e29574f61c003a45a3cc9a571582336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1bc060375b60ad070ff5581dad1c4c') in 0.050006 seconds
+  Import took 0.052131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Tree3_BirchYoung.prefab
+  artifactKey: Guid(18c819349404cfd4d89e0d63d943f408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Tree3_BirchYoung.prefab using Guid(18c819349404cfd4d89e0d63d943f408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c74d2086c29766379ad243001a9f3a8') in 0.052163 seconds
+  Import took 0.054198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/TreeTrunk1.prefab
+  artifactKey: Guid(b169bad991cd7ba408b7dac74f556a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/TreeTrunk1.prefab using Guid(b169bad991cd7ba408b7dac74f556a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fcdd1e20834f886c7264bc94a784ce') in 0.055210 seconds
+  Import took 0.057380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/PierPole.prefab
+  artifactKey: Guid(0f47396522875c24ea89158853c044fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/PierPole.prefab using Guid(0f47396522875c24ea89158853c044fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b185850237b8b195837d950f17a3fd1') in 0.058356 seconds
+  Import took 0.060475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenPole1.prefab
+  artifactKey: Guid(2af4f1154feab2a48bbd8a77e5466c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenPole1.prefab using Guid(2af4f1154feab2a48bbd8a77e5466c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b6fe27e980a9a1b6afa629845dacb9') in 0.051415 seconds
+  Import took 0.053445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/HangingBridge.prefab
+  artifactKey: Guid(2857b754a89e4194d879f7284bfd200d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/HangingBridge.prefab using Guid(2857b754a89e4194d879f7284bfd200d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa083d904b15bedeeb2a433b68332150') in 0.061501 seconds
+  Import took 0.063512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/RockGrey2_high.prefab
+  artifactKey: Guid(1c42f73409e4c864a86a0dd0895d24ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/RockGrey2_high.prefab using Guid(1c42f73409e4c864a86a0dd0895d24ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da7f7f1b6a7aae621c4ae3ab55219c5') in 0.066576 seconds
+  Import took 0.068807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/GrassCliff.prefab
+  artifactKey: Guid(f2d2be5b189188f4bb9d3d3227b40a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/GrassCliff.prefab using Guid(f2d2be5b189188f4bb9d3d3227b40a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1254a272982d1118c6f6843f6f1fa9ef') in 0.054857 seconds
+  Import took 0.057117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/OldStoneWall.prefab
+  artifactKey: Guid(b18f73484d83f8c4ea93a8a2fb0c8141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/OldStoneWall.prefab using Guid(b18f73484d83f8c4ea93a8a2fb0c8141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e69e22fa95979a45d67ecd7f82aac7') in 0.059176 seconds
+  Import took 0.061551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/QubicRocks1.prefab
+  artifactKey: Guid(040e7f7209998c646a090c885c9163aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/QubicRocks1.prefab using Guid(040e7f7209998c646a090c885c9163aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ed80c978af02eb572c5f027dcfc051') in 0.054765 seconds
+  Import took 0.056835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/RockGrey3.prefab
+  artifactKey: Guid(dc170f4a3ac072048b9e980741856d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/RockGrey3.prefab using Guid(dc170f4a3ac072048b9e980741856d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47d8cdefbd04ab01a1b73fd3e983bf9') in 0.054114 seconds
+  Import took 0.056219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Campfire.prefab
+  artifactKey: Guid(b86c6f6b9c3047546b5bd02193442d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Campfire.prefab using Guid(b86c6f6b9c3047546b5bd02193442d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b297b8e445da5504fb88fc4065e371') in 0.053773 seconds
+  Import took 0.055947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/CookingFireplace.prefab
+  artifactKey: Guid(a0df47329a427514e90f8a03566796f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/CookingFireplace.prefab using Guid(a0df47329a427514e90f8a03566796f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc3e388ee651df2f2262f9c6a19ef4c') in 0.053263 seconds
+  Import took 0.055544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/TreeDead2.prefab
+  artifactKey: Guid(678429f297747e8419af735ad3d79c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/TreeDead2.prefab using Guid(678429f297747e8419af735ad3d79c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c0b95b77128a9ddbb398f53aeb730f') in 0.056886 seconds
+  Import took 0.059165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WaterLilies.prefab
+  artifactKey: Guid(1744ddbece611874a9dfd51e8d8e5060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WaterLilies.prefab using Guid(1744ddbece611874a9dfd51e8d8e5060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c293e554186b9ed682a28242c314cd5e') in 0.059272 seconds
+  Import took 0.061378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Signpost2.prefab
+  artifactKey: Guid(b0552017f9b56b34a80886463367e4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Signpost2.prefab using Guid(b0552017f9b56b34a80886463367e4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f2c0f0f0ff39378de800d23c5c638e') in 0.051034 seconds
+  Import took 0.053068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/DoubleRockShape.prefab
+  artifactKey: Guid(3b0634ba81d1e5a4d8ba99b66d11a6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/DoubleRockShape.prefab using Guid(3b0634ba81d1e5a4d8ba99b66d11a6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55843111fd8bdca844ae8b22eef63622') in 0.051933 seconds
+  Import took 0.053984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenHouse2.prefab
+  artifactKey: Guid(953f6abbcb857174ebf6f2eb62b54a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/WoodenHouse2.prefab using Guid(953f6abbcb857174ebf6f2eb62b54a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940fc6c25520f97c95489fbda8f422bf') in 0.051268 seconds
+  Import took 0.053427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/StonePath.prefab
+  artifactKey: Guid(bd2da1b3ea398844f922bdf9133bfba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/StonePath.prefab using Guid(bd2da1b3ea398844f922bdf9133bfba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5276d8dadb612dd1a4f51a8306757a7') in 0.056752 seconds
+  Import took 0.058988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 285.843529 seconds.
+  path: Assets/1.Prefabs/maps/mapsj1.prefab
+  artifactKey: Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj1.prefab using Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76699f651b3801e0d254bcff47def5b0') in 0.067271 seconds
+  Import took 0.070406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.423784 seconds.
+  path: Assets/1.Prefabs/maps/mapsj2.prefab
+  artifactKey: Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj2.prefab using Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd245b298a933f52449c2a1756b9b90c9') in 0.064032 seconds
+  Import took 0.067183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.362076 seconds.
+  path: Assets/1.Prefabs/maps/mapsj2.prefab
+  artifactKey: Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj2.prefab using Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa1395199c8b48708c3f87fccaab071') in 0.073136 seconds
+  Import took 0.076141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.508530 seconds.
+  path: Assets/1.Prefabs/maps/mapsj2.prefab
+  artifactKey: Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj2.prefab using Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a420cba4b7085eb841c1dfb996400a') in 0.071657 seconds
+  Import took 0.074944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.620141 seconds.
+  path: Assets/1.Prefabs/maps/mapsj2.prefab
+  artifactKey: Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj2.prefab using Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4bd89c4a338eeb6030f64afde1d420') in 0.065270 seconds
+  Import took 0.068500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.868000 seconds.
+  path: Assets/1.Prefabs/maps/mapsj2.prefab
+  artifactKey: Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj2.prefab using Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7396771de5d63892319295dfac1462f') in 0.074004 seconds
+  Import took 0.078377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003817 seconds.
+  path: Assets/1.Prefabs/maps/mapsj2.prefab
+  artifactKey: Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj2.prefab using Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7396771de5d63892319295dfac1462f') in 0.079118 seconds
+  Import took 0.082914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.327833 seconds.
+  path: Assets/1.Prefabs/maps/mapsj2.prefab
+  artifactKey: Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj2.prefab using Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646db3e0dedb0cc82a5e326b4c656766') in 0.065940 seconds
+  Import took 0.069257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.577158 seconds.
+  path: Assets/1.Prefabs/maps/mapsj2.prefab
+  artifactKey: Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj2.prefab using Guid(71d52618d318177428147ac683a59dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9d00a7c86f8bfa40e4098fc3971af2') in 0.065835 seconds
+  Import took 0.069060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 427.475005 seconds.
+  path: Assets/1.Prefabs/maps/mapsj3.prefab
+  artifactKey: Guid(c895323dd7b34fa409c1e31a041470c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj3.prefab using Guid(c895323dd7b34fa409c1e31a041470c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d557dafee981bafed7c3100de3eeddc') in 0.063859 seconds
+  Import took 0.067180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.725168 seconds.
+  path: Assets/1.Prefabs/maps/mapsj4.prefab
+  artifactKey: Guid(6b64db322fadc7445b905274134b6460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj4.prefab using Guid(6b64db322fadc7445b905274134b6460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cb34d40792a9c85d5bab9aa0513381') in 0.074306 seconds
+  Import took 0.078326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 263.961983 seconds.
+  path: Assets/0.Scenes/StageScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0.Scenes/StageScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8a8714e3a094736c850b45089aecc6') in 0.006646 seconds
+  Import took 0.009292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002238 seconds.
+  path: Assets/0.Scenes/StageScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0.Scenes/StageScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8a8714e3a094736c850b45089aecc6') in 0.002586 seconds
+  Import took 0.004847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.055435 seconds.
+  path: Assets/1.Prefabs/maps/mapsj5.prefab
+  artifactKey: Guid(1fab658efea41324d8de663214b82401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj5.prefab using Guid(1fab658efea41324d8de663214b82401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accf97852ab8366df2bd3c9e45100321') in 0.064752 seconds
+  Import took 0.068341 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.017546 seconds.
+Registered in 0.005960 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.989 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.6 MB.
-System memory in use after: 180.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1862.
-Total: 2.401000 ms (FindLiveObjects: 0.274900 ms CreateObjectMapping: 0.105800 ms MarkObjects: 1.721500 ms  DeleteObjects: 0.297100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 369.453579 seconds.
-  path: Assets/1.Prefabs/Bullets/Bullet1_Boss.prefab
-  artifactKey: Guid(e145c4fdcc633ae42be54f7952337711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Bullets/Bullet1_Boss.prefab using Guid(e145c4fdcc633ae42be54f7952337711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb10662c495523b9b161a92fb70ec82') in 0.202252 seconds
-  Import took 0.206064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.753322 seconds.
-  path: Assets/1.Prefabs/Bullets/Bullet2_Boss.prefab
-  artifactKey: Guid(f2cca1d0736033d4b829ab35d83a681c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Bullets/Bullet2_Boss.prefab using Guid(f2cca1d0736033d4b829ab35d83a681c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b756f2b6a395ea8573b3f223363895ec') in 0.349887 seconds
-  Import took 0.353862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.976456 seconds.
-  path: Assets/1.Prefabs/Bullets/Bullet3_Boss.prefab
-  artifactKey: Guid(038d7f2de1a856e48b16672398874a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Bullets/Bullet3_Boss.prefab using Guid(038d7f2de1a856e48b16672398874a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b41210df126bc6d24fa8670156b824b') in 0.017856 seconds
-  Import took 0.022153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.948846 seconds.
-  path: Assets/1.Prefabs/Bullets/Bullet4_Boss.prefab
-  artifactKey: Guid(cce0b1d6d74a5064083cc487927be5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Bullets/Bullet4_Boss.prefab using Guid(cce0b1d6d74a5064083cc487927be5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab1fac1d64b0c181293a1b1944290e7') in 0.015238 seconds
-  Import took 0.019257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.161770 seconds.
-  path: Assets/1.Prefabs/Bullets/Bullet5_Boss.prefab
-  artifactKey: Guid(bed849ce7843aa84dae4b715cb49c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Bullets/Bullet5_Boss.prefab using Guid(bed849ce7843aa84dae4b715cb49c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a616a748b48e70245b944f061afbe130') in 0.017485 seconds
-  Import took 0.021910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.531997 seconds.
-  path: Assets/1.Prefabs/Bullets/Bullet5_Boss.prefab
-  artifactKey: Guid(bed849ce7843aa84dae4b715cb49c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Bullets/Bullet5_Boss.prefab using Guid(bed849ce7843aa84dae4b715cb49c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9ba7f1552b057af20e0c5e40bb839b') in 0.015654 seconds
-  Import took 0.020455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.691083 seconds.
-  path: Assets/1.Prefabs/Bullets/Bullet5_Boss.prefab
-  artifactKey: Guid(bed849ce7843aa84dae4b715cb49c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Bullets/Bullet5_Boss.prefab using Guid(bed849ce7843aa84dae4b715cb49c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32a1df1a1f1ddadc7a6e19615d2dabe') in 0.015893 seconds
-  Import took 0.020328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.583578 seconds.
-  path: Assets/0.Scenes/BossScene.unity
-  artifactKey: Guid(0004bdb103700684892e44d50eeff587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/0.Scenes/BossScene.unity using Guid(0004bdb103700684892e44d50eeff587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f2311da634fc2673c50e2352b1aa8c') in 0.008431 seconds
-  Import took 0.010905 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014702 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.856 seconds
+- Completed reload, in  0.895 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.6 MB.
-System memory in use after: 180.4 MB.
+System memory in use before: 181.8 MB.
+System memory in use after: 181.5 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1866.
-Total: 2.148600 ms (FindLiveObjects: 0.290500 ms CreateObjectMapping: 0.068100 ms MarkObjects: 1.453800 ms  DeleteObjects: 0.335100 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1813.
+Total: 1.790900 ms (FindLiveObjects: 0.215900 ms CreateObjectMapping: 0.068900 ms MarkObjects: 1.247900 ms  DeleteObjects: 0.257000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 29.799025 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/DemoToonVFX.cs
-  artifactKey: Guid(1d3b0450fb849af4fbf92ce356507aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/DemoToonVFX.cs using Guid(1d3b0450fb849af4fbf92ce356507aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a2ee105c44fc324037b151409760ba') in 0.031225 seconds
-  Import took 0.034047 seconds .
+  Time since last request: 97.481248 seconds.
+  path: Assets/1.Prefabs/maps/mapsj1.prefab
+  artifactKey: Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj1.prefab using Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a37ede24614de689e41a72bd09e3fa') in 0.120700 seconds
+  Import took 0.123878 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.020848 seconds.
-  path: Assets/Hovl Studio/Epic toon VFX/Demo scene/DemoToonVFX.cs
-  artifactKey: Guid(1d3b0450fb849af4fbf92ce356507aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Epic toon VFX/Demo scene/DemoToonVFX.cs using Guid(1d3b0450fb849af4fbf92ce356507aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a2ee105c44fc324037b151409760ba') in 0.005373 seconds
-  Import took 0.007894 seconds .
+  Time since last request: 1.690090 seconds.
+  path: Assets/1.Prefabs/maps/mapsj1.prefab
+  artifactKey: Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj1.prefab using Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2200d43c303318aa3146544d64b16c7') in 0.058033 seconds
+  Import took 0.061157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.736834 seconds.
+  path: Assets/1.Prefabs/maps/mapsj1.prefab
+  artifactKey: Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj1.prefab using Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb9a90d23374c998d9065518e367ed7') in 0.070308 seconds
+  Import took 0.075234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.544374 seconds.
+  path: Assets/1.Prefabs/maps/mapsj1.prefab
+  artifactKey: Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj1.prefab using Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307e59281b7256f75086c4f32a666bf2') in 0.054684 seconds
+  Import took 0.057825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.558185 seconds.
+  path: Assets/1.Prefabs/maps/mapsj1.prefab
+  artifactKey: Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj1.prefab using Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4a28d08796f6edc161e56006abe79a') in 0.053268 seconds
+  Import took 0.056595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012745 seconds.
+  path: Assets/1.Prefabs/maps/mapsj1.prefab
+  artifactKey: Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj1.prefab using Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4a28d08796f6edc161e56006abe79a') in 0.058593 seconds
+  Import took 0.062134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.762955 seconds.
+  path: Assets/1.Prefabs/maps/mapsj1.prefab
+  artifactKey: Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj1.prefab using Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5305d29c9e5a2e3091e0333b2bc956b5') in 0.056343 seconds
+  Import took 0.059835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.771329 seconds.
+  path: Assets/1.Prefabs/maps/mapsj1.prefab
+  artifactKey: Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj1.prefab using Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad83d3ce3752ae5f2a61f3f8b323e50') in 0.058151 seconds
+  Import took 0.063228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.435405 seconds.
+  path: Assets/1.Prefabs/maps/mapsj1.prefab
+  artifactKey: Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapsj1.prefab using Guid(658f9bbd933ad7f4d85f54e3715c2e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01f29cff9be4ffd66de3b525504db27') in 0.052858 seconds
+  Import took 0.055895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.584671 seconds.
+  path: Assets/1.Prefabs/Monsters/Enemy_Bud.prefab
+  artifactKey: Guid(8257bf9b9d661684486fab49cb86d5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Monsters/Enemy_Bud.prefab using Guid(8257bf9b9d661684486fab49cb86d5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f59a55cd551124aea8969e68ba84bc') in 0.028995 seconds
+  Import took 0.032026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
+  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca22563cf00a9c70a7fd5b35d80e39d') in 0.013036 seconds
+  Import took 0.016171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/1.Prefabs/Monsters/S1_MiddleBoss.prefab
+  artifactKey: Guid(97008c6ac2d5e8049889a433233753b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Monsters/S1_MiddleBoss.prefab using Guid(97008c6ac2d5e8049889a433233753b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de22d9a9609eef6ad1e5e5b4f625fde') in 0.053247 seconds
+  Import took 0.057784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/1.Prefabs/Monsters/Enemy_Wolf Pup.prefab
+  artifactKey: Guid(1d88f3f7ca1d94343b7bfef905937fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Monsters/Enemy_Wolf Pup.prefab using Guid(1d88f3f7ca1d94343b7bfef905937fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf23518623b5bc36a843912f4b22ee1a') in 0.059369 seconds
+  Import took 0.062043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/1.Prefabs/Monsters/Enemy_Mole.prefab
+  artifactKey: Guid(2be945a7604f7e74d9ea66fec26379cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Monsters/Enemy_Mole.prefab using Guid(2be945a7604f7e74d9ea66fec26379cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1117303c89d63edaea7497e1a8b1359') in 0.057124 seconds
+  Import took 0.060244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/1.Prefabs/Monsters/Enemy_Burrow.prefab
+  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Monsters/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592c117856b20025b39b05788803b526') in 0.019987 seconds
+  Import took 0.022922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003603 seconds.
+  path: Assets/1.Prefabs/Monsters/Enemy_Burrow.prefab
+  artifactKey: Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Monsters/Enemy_Burrow.prefab using Guid(09d87b5b4a76a404f914269615d0ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592c117856b20025b39b05788803b526') in 0.016695 seconds
+  Import took 0.019368 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.031294 seconds.
+Registered in 0.006717 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.107 seconds
+- Completed reload, in  0.791 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.7 MB.
-System memory in use after: 180.5 MB.
+System memory in use before: 182.3 MB.
+System memory in use after: 182.1 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1869.
-Total: 2.094000 ms (FindLiveObjects: 0.191000 ms CreateObjectMapping: 0.079800 ms MarkObjects: 1.487300 ms  DeleteObjects: 0.334600 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1820.
+Total: 2.117900 ms (FindLiveObjects: 0.222100 ms CreateObjectMapping: 0.048100 ms MarkObjects: 1.569600 ms  DeleteObjects: 0.276600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Import Request.
-  Time since last request: 52.026811 seconds.
-  path: Assets/1.Prefabs/Monsters
-  artifactKey: Guid(133f5fcba4e090c499efc2dc6df1a664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters using Guid(133f5fcba4e090c499efc2dc6df1a664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446c0ae13ba7281d1df18b4eab91189f') in 0.011754 seconds
-  Import took 0.014997 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006126 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.3 MB.
+System memory in use after: 182.1 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 7.927743 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe776136b23c917ab9aada8243d51516') in 0.026672 seconds
-  Import took 0.030043 seconds .
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1823.
+Total: 2.012000 ms (FindLiveObjects: 0.260900 ms CreateObjectMapping: 0.086100 ms MarkObjects: 1.368900 ms  DeleteObjects: 0.295200 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 5.733478 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e556949d99a74d21492b6601038a009b') in 0.014422 seconds
-  Import took 0.019140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.443795 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1398891ab580f1e18705e4bdc35119') in 0.012993 seconds
-  Import took 0.016983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.596877 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a26aaec1d15e62cb4fa259388b3212') in 0.015687 seconds
-  Import took 0.019396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.018975 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb72fd4deb29bc7d5349ad60859009e8') in 0.013942 seconds
-  Import took 0.018467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.437943 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30acfdef27f7a62d06133a0a08776ada') in 0.012196 seconds
-  Import took 0.015738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.869443 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115acfb6738325b70cc1f044253dddfa') in 0.012290 seconds
-  Import took 0.015852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.463873 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35e7c6fa82558b93a40b34802ce067d') in 0.012830 seconds
-  Import took 0.017862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.196247 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31179b8778b21d0ff97874ea426aa79d') in 0.012164 seconds
-  Import took 0.015873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.370562 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27708f42663c93cb6c1d22487618e812') in 0.012931 seconds
-  Import took 0.017293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.907311 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8a032ff00bfe73990386647f10cc60') in 0.011261 seconds
-  Import took 0.015673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.161444 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfa2bce2cb593c70c6efb42cbcb547e') in 0.011426 seconds
-  Import took 0.015395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.066713 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195c642a929d8102554f968770e953b2') in 0.011719 seconds
-  Import took 0.015303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.664109 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd18947557399dc6e664f910607901a') in 0.011963 seconds
-  Import took 0.015938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.867443 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9370125e7725ee3883baeed7ff4f62') in 0.015527 seconds
-  Import took 0.019897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 108.526433 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c362662c9cf883dfcf292a39daf09fd9') in 0.014120 seconds
-  Import took 0.019395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054235 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c362662c9cf883dfcf292a39daf09fd9') in 0.014926 seconds
-  Import took 0.019193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.864123 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77198a63eeaaa50065e9fff052b428a') in 0.012906 seconds
-  Import took 0.016993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.325688 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e730b3b467c29d467cff44bbc9494783') in 0.012154 seconds
-  Import took 0.016133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.182495 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8315bc69ddbb0b182acd47b47f94b5ec') in 0.012317 seconds
-  Import took 0.015793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.797099 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b12739603572fb6b80577123b9ad683') in 0.011270 seconds
-  Import took 0.014856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.934812 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969e415e371f05db9fbcebc46bb7566e') in 0.015208 seconds
-  Import took 0.019958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.917980 seconds.
-  path: Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab
-  artifactKey: Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.Prefabs/Monsters/Enemy_Tornado.prefab using Guid(21132ba80480172419064d6e84f46d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9305e06f5858bdbf36250e5de83cc29') in 0.011872 seconds
-  Import took 0.015409 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
