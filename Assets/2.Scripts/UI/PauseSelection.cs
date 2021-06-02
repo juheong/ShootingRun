@@ -9,10 +9,6 @@ public class PauseSelection : MonoBehaviour
     public TextMeshProUGUI text;
     public PanelController panelController;
 
-    private void Start()
-    {
-        panelController = FindObjectOfType<PanelController>();
-    }
     public void OpenPause()
     {
         Time.timeScale = 0;
