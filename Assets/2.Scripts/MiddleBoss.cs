@@ -21,7 +21,6 @@ public class MiddleBoss : MonoBehaviour
     public GameObject[] bullet;
     public Image sliderBossHealth;
 
-    
     GameController gameController;
     Player player;
     Rigidbody indirigi;
@@ -75,10 +74,52 @@ public class MiddleBoss : MonoBehaviour
     {
         if (!isDie)
         {
+            int index = Random.Range(0, bullet.Length);
+            switch (index)
+            {
+                case 0:
+                    StartCoroutine(Spell());
+                    break;
+                case 1:
+                    StartCoroutine(Jump());
+                    break;
+            }
         }
     }
+    IEnumerator Spell()       //2번 Spell 패턴
+    {
+        Vector3 Indi_position = transform.position;
+        GameObject skill_indicator = Instantiate(SkillsIndicator[0], Indi_position, transform.rotation);
+        indirigi = skill_indicator.GetComponent<Rigidbody>();
+        indirigi.velocity = transform.forward * player.moveSpeed;
+        Destroy(skill_indicator, 1.5f);
+        yield return new WaitForSeconds(1.5f);
 
+        anim.SetTrigger("doSpell");
+        yield return new WaitForSeconds(0.5f);
 
+        Vector3 Bul_position = transform.position;
+        Bul_position += new Vector3(0f, 1.5f, 0f);
+        GameObject instantBullet = Instantiate(bullet[0], Bul_position, transform.rotation);
+        Destroy(instantBullet, 2f);
+    }
+    IEnumerator Jump()       //4번 Jump 패턴
+    {
+        Vector3 Indi_position = transform.position;
+        GameObject skill_indicator = Instantiate(SkillsIndicator[0], Indi_position, transform.rotation);
+        indirigi = skill_indicator.GetComponent<Rigidbody>();
+        indirigi.velocity = transform.forward * player.moveSpeed;
+        Destroy(skill_indicator, 1.5f);
+        yield return new WaitForSeconds(1.5f);
+
+        anim.SetTrigger("doJump");
+        yield return new WaitForSeconds(0.5f);
+
+        Vector3 Bul_position = transform.position;
+        Bul_position += new Vector3(0f, 0f, 0f);
+        GameObject instantBullet = Instantiate(bullet[1], Bul_position, transform.rotation);
+        Destroy(instantBullet, 2f);
+    }
     IEnumerator OnDamge(Vector3 reactVec)
     {
         foreach (SkinnedMeshRenderer mesh in meshs)
@@ -104,7 +145,7 @@ public class MiddleBoss : MonoBehaviour
         yield return new WaitForSeconds(2f);
         Time.timeScale = 0;
         PanelController panelController = FindObjectOfType<PanelController>();
-        data.expUpdate(200);
+        //data.expUpdate(200);
         GameObject.Destroy(obj1);
         panelController.OpenPanel(2);
         gameController.InitialLevel();

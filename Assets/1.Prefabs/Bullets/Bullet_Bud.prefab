@@ -128,4 +128,4 @@ MonoBehaviour:
   damage: 20
   explosionPrefab: {fileID: 0}
   impact: {fileID: 0}
-  brange: 1.5
+  brange: 2

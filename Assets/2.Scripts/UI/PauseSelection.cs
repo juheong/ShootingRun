@@ -7,18 +7,21 @@ using TMPro;
 public class PauseSelection : MonoBehaviour
 {
     public TextMeshProUGUI text;
-    public PanelController panelController;
-
+    public PanelController otherPanelController;
+    void Start()
+    {
+        text.text = PlayerPrefs.GetInt("Chapter") + "-" + PlayerPrefs.GetInt("Stage");
+    }
     public void OpenPause()
     {
         Time.timeScale = 0;
-        panelController.OpenPanel(0);
+        otherPanelController.OpenPanel(0);
     }
 
     public void ExitPause()
     {
         Time.timeScale = 1;
-        panelController.ExitPanel();
+        otherPanelController.ExitPanel();
     }
 
     public void RestartGame()

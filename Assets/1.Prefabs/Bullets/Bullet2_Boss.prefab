@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: -563133966976001818}
   - component: {fileID: 3231626112700390345}
   m_Layer: 13
-  m_Name: Bullet_Boss2
+  m_Name: Bullet2_Boss
   m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -205,6 +205,7 @@ MonoBehaviour:
   damage: 20
   explosionPrefab: {fileID: 0}
   impact: {fileID: 0}
+  brange: 50
 --- !u!95 &3231626112700390345
 Animator:
   serializedVersion: 3

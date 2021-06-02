@@ -31,6 +31,8 @@ public class StageSelection : MonoBehaviour
 
 	public static void StartGame(string sceneName) // 스테이지 판넬에서 호출 가정
 	{
+		PlayerPrefs.SetInt("Stage", selectedStage + 1);
+        //PlayerPrefs.SetInt("selectedStage", selectedStagse);
 		LoadingSceneController.LoadSceneString(sceneName);        
         
 		//SceneManager.LoadScene(selectedStage+1, LoadSceneMode.Single);

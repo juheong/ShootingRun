@@ -115,6 +115,7 @@ MonoBehaviour:
   damage: 20
   explosionPrefab: {fileID: 0}
   impact: {fileID: 0}
+  brange: 50
 --- !u!135 &-590808845896949102
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -123,8 +124,8 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8962593520722546671}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2.392591
+  m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}

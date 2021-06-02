@@ -10,6 +10,11 @@ public class Area : MonoBehaviour
     private Transform playerTransform;
     private bool isBoss;
 
+    private void Awake()
+    {
+        InvokeRepeating("SpawnMonster", 1, 7f); //7초마다 몬스터 스폰
+    }
+
     public void Setup(AreaSpawner areaSpawner, Transform playerTransform, bool isBoss)
     {
         this.areaSpawner = areaSpawner;
@@ -34,7 +39,14 @@ public class Area : MonoBehaviour
                 areaSpawner.SpawnArea();
                 Destroy(gameObject);
             }
+
         }
 
     }
+
+    public void SpawnMonster() //몬스터 스폰
+    {
+        areaSpawner.SpawnMonster();
+    }
+
 }

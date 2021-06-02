@@ -34,7 +34,10 @@ public class Enemy : MonoBehaviour
         }
         InvokeRepeating("Attack", 1, attackTime);
     }
- 
+    void Start()
+    {
+        Destroy(this.gameObject, 5f);
+    }
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Bullet")
@@ -70,7 +73,6 @@ public class Enemy : MonoBehaviour
                     GameObject instantBullet = Instantiate(bullet, position, transform.rotation);
                     Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
                     rigidBullet.velocity = transform.forward * 20;
-                    Destroy(instantBullet, 2f);
                     break;
                 case Type.Burrow:
                     GameObject Player = GameObject.Find("Player");
