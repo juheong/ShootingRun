@@ -11073,6 +11073,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
       propertyPath: gameController
       value: 
       objectReference: {fileID: 1777141633}
@@ -35813,7 +35818,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -24.99997, y: -20}
+  m_AnchoredPosition: {x: -25, y: -20}
   m_SizeDelta: {x: -50, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &810118105
@@ -36966,9 +36971,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaPrefabs:
-  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
-  - {fileID: 1539403277145183474, guid: 4b4ffe07dc891f742ab2ed1a479e8a5d, type: 3}
-  - {fileID: 5453082798304020211, guid: 73eac225fa8a4454a99b1a9474b14c6b, type: 3}
+  - {fileID: 8025215347951476095, guid: 14d4ee11ae1c8124aa01e93d445a8601, type: 3}
+  - {fileID: 5663434798114582271, guid: 55b1bdfb6541a764c86c0983b3801f2e, type: 3}
+  - {fileID: 445383305766557784, guid: a9c38186d1f5f1949bba306177596495, type: 3}
+  - {fileID: 6992694610384771492, guid: dcde9ad793bebe04a8118c6123e9e53d, type: 3}
+  - {fileID: 2796754831856130907, guid: 3a9e4532630485145bf3d0b636c0a8e9, type: 3}
   enemies: []
   middleboss: {fileID: 0}
   spawnAreaCountAtStart: 3
@@ -47902,6 +47909,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6266363195109946900, guid: bed849ce7843aa84dae4b715cb49c7ca,
         type: 3}
+    - target: {fileID: 3472364904508501340, guid: d2013d254489a24479a3bbf157be2a42,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3472364904508501340, guid: d2013d254489a24479a3bbf157be2a42,
         type: 3}
       propertyPath: m_Constraints

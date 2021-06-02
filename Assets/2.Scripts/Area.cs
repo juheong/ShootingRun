@@ -46,6 +46,7 @@ public class Area : MonoBehaviour
 
     public void SpawnMonster() //몬스터 스폰
     {
+        if (isBoss == true) return;
         areaSpawner.SpawnMonster();
     }
 

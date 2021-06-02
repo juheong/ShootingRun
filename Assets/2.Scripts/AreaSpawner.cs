@@ -38,7 +38,7 @@ public class AreaSpawner : MonoBehaviour
         GameObject clone = null;
         int index = Random.Range(1, areaPrefabs.Length);
 
-        clone = Instantiate(areaPrefabs[0]);
+        clone = Instantiate(areaPrefabs[index]);
         clone.transform.position = new Vector3(0, 0, areaIndex * zDistance);
         clone.GetComponent<Area>().Setup(this, playerTransform, isBoss);
         areaIndex++;

@@ -35,7 +35,7 @@ public class DataManager : MonoBehaviour
 
     private void Update()
     {
-        Backend.AsyncPoll();
+        //Backend.AsyncPoll();
     }
 
     public void InsertData()
@@ -63,25 +63,10 @@ public class DataManager : MonoBehaviour
         }
         else
         {
-            switch (BRO.GetStatusCode())
-            {
-                case "404":
-                    Debug.Log("존재하지 않는 tableName인 경우");
-                    break;
-
-                case "412":
-                    Debug.Log("비활성화 된 tableName인 경우");
-                    break;
-
-                case "413":
-                    Debug.Log("하나의 row( column들의 집합 )이 400KB를 넘는 경우");
-                    break;
-
-                default:
-                    Debug.Log("서버 공통 에러 발생: " + BRO.GetMessage());
-                    break;
-            }
+            errorCode(BRO.GetStatusCode(), BRO.GetMessage());            
         }
+
+
     }
 
     public void ReadData()
@@ -237,5 +222,27 @@ public class DataManager : MonoBehaviour
     public int getExp()
     {
         return player.current_exp;
+    }
+
+    private void errorCode(string code, string msg)
+    {
+        switch (code)
+        {
+            case "404":
+                Debug.Log("존재하지 않는 tableName인 경우");
+                break;
+
+            case "412":
+                Debug.Log("비활성화 된 tableName인 경우");
+                break;
+
+            case "413":
+                Debug.Log("하나의 row( column들의 집합 )이 400KB를 넘는 경우");
+                break;
+
+            default:
+                Debug.Log("서버 공통 에러 발생: " + msg);
+                break;
+        }
     }
 }

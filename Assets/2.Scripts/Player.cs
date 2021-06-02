@@ -71,7 +71,7 @@ public class Player : MonoBehaviour
         {
             if (isBoss == true)
             {
-                // transform.position += Vector3.back * moveSpeed * Time.deltaTime;
+                transform.position += Vector3.back * moveSpeed * Time.deltaTime;
                 playerAnimator.isBoss();
             }
             else

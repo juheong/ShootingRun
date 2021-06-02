@@ -72,6 +72,15 @@ public class LoginManager : MonoBehaviour
                 {
                     Debug.Log("존재하지 않는 ID입니다.");
                 }
+                else if (bro.GetStatusCode() == "403")
+                {
+                    Debug.Log("AU 초과의 경우");
+                    Debug.Log(bro.GetMessage());
+                }
+                else
+                {
+                    Debug.Log(bro.GetStatusCode());
+                }
             }
                        
         }

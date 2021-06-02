@@ -78,8 +78,7 @@ public class Enemy : MonoBehaviour
                     GameObject Player = GameObject.Find("Player");
                     if (Vector3.Distance(Player.transform.position, this.transform.position)<=15f)      //플레이어와 근접했을 때에만 공격
                          anim.SetTrigger("onAttack");                    
-                    Invoke("Burrow", 0.5f);
-                    
+                    Invoke("Burrow", 0.5f);                    
                     break;
             }
         }
