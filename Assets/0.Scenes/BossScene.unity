@@ -35117,7 +35117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 1269417610}
-  otherPanelController: {fileID: 1777141635}
+  panelController: {fileID: 0}
 --- !u!224 &751822487
 RectTransform:
   m_ObjectHideFlags: 0
@@ -35783,7 +35783,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -25, y: -20}
+  m_AnchoredPosition: {x: -24.99997, y: -20}
   m_SizeDelta: {x: -50, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &810118105
@@ -50347,7 +50347,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chapter 1-1
+  m_text: Chapter 1-2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2f49fe8c22d94f9a9e6cd06ad490155, type: 2}
   m_sharedMaterial: {fileID: 3074828514974314926, guid: c2f49fe8c22d94f9a9e6cd06ad490155,
@@ -67837,7 +67837,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1503201244}
   m_Layer: 0
-  m_Name: --- MANAGER -------------------
+  m_Name: --- MANAGER -------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94044,6 +94044,8 @@ MonoBehaviour:
   textCoinCount: {fileID: 810118108}
   textHealthCount: {fileID: 807009389}
   textname: {fileID: 0}
+  textlevel: {fileID: 0}
+  textexp: {fileID: 0}
   sliderHeathCount: {fileID: 2128767625}
 --- !u!4 &1777141634
 Transform:

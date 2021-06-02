@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -18504,7 +18504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: -20}
+  m_AnchoredPosition: {x: -19.99997, y: -20}
   m_SizeDelta: {x: -59.99999, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &448530104 stripped
@@ -26111,7 +26111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 738606466}
   m_Layer: 0
-  m_Name: --- MANAGER -------------------
+  m_Name: --- MANAGER -------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77381,7 +77381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 256028026}
-  otherPanelController: {fileID: 1688787457}
+  panelController: {fileID: 0}
 --- !u!224 &1685989892
 RectTransform:
   m_ObjectHideFlags: 0
