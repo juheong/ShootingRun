@@ -40,7 +40,8 @@ public class AreaSpawner : MonoBehaviour
         GameObject clone = null;
         if (clear < 5)
         {
-            clone = Instantiate(areaPrefabs[0]);
+            int index = Random.Range(1, areaPrefabs.Length);
+            clone = Instantiate(areaPrefabs[index]);
             clear++; // 스테이지 클리어 조건
         }
         else if (clear < 10)
