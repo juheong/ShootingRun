@@ -5,6 +5,7 @@ public class AreaSpawner : MonoBehaviour
     [SerializeField]
     private GameObject[] areaPrefabs;
     public Enemy[] enemies;
+    public Enemy[] events;
     public MiddleBoss middleboss;
     [SerializeField]
     private int spawnAreaCountAtStart = 3;
@@ -49,10 +50,9 @@ public class AreaSpawner : MonoBehaviour
 
     public void SpawnMonster()
     {
-        Enemy enem_1, enem_2, enem_3;
         MiddleBoss middle;
 
-        int isSpawn,index,spawnwhich;
+        int isSpawn,index;
         index = 0;
         if (clear >=5 && clear < 20)
         {
@@ -62,16 +62,9 @@ public class AreaSpawner : MonoBehaviour
             isSpawn = Random.Range(0, 10);       //스폰 할 것 인지 말 것인지 (70%)
             if (isSpawn > 2)
             {
-                spawnwhich = Random.Range(0, 13);       //각 몬스터 스폰 확률 (토네이도 희박)
-                if (spawnwhich <= 3)
-                    index = 0;
-                else if (spawnwhich <= 7)
-                    index = 1;
-                else if (spawnwhich <= 11)
-                    index = 2;
-                else if (spawnwhich == 12)
-                    index = 3;
-                enem_1 = Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //1st몬스터 생성, 마지막은 몬스터 회전
+                index = Random.Range(0, 3);       //각 몬스터 스폰 확률 (0=range, 1=burrow, 2=rush)
+     
+                Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //1st몬스터 생성, 마지막은 몬스터 회전
                 X_coord += 1.5f;        //2번째 몬스터를 위한 X값 변경
                 enem_transform = new Vector3(X_coord, 0, playerTransform.position.z + 40);    //몬스터의 좌표값 변경
             }
@@ -79,18 +72,11 @@ public class AreaSpawner : MonoBehaviour
             isSpawn = Random.Range(0, 10);
             if (isSpawn > 2)
             {
-                spawnwhich = Random.Range(0, 10);
-                if (spawnwhich <= 3)
-                    index = 0;
-                else if (spawnwhich <= 7)
-                    index = 1;
-                else if (spawnwhich <= 11)
-                    index = 2;
-                else if (spawnwhich == 12)
-                    index = 3;
+                index = Random.Range(0, 3);     
+
                 index = 3;
                 index = Random.Range(0, enemies.Length);    //2nd 몬스터 랜덤 지정
-                enem_2 = Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //2nd몬스터 생성
+                Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //2nd몬스터 생성
                 X_coord += 1.5f;        //3번째 몬스터를 위한 X값 변경
                 enem_transform = new Vector3(X_coord, 0, playerTransform.position.z + 40);    //몬스터의 좌표값 변경
 
@@ -99,19 +85,33 @@ public class AreaSpawner : MonoBehaviour
             isSpawn = Random.Range(0, 10);
             if (isSpawn > 2)
             {
-                spawnwhich = Random.Range(0, 10);
-                if (spawnwhich <= 3)
-                    index = 0;
-                else if (spawnwhich <= 7)
-                    index = 1;
-                else if (spawnwhich <= 11)
-                    index = 2;
-                else if (spawnwhich == 12)
-                    index = 3;
+                index = Random.Range(0, 3);
+
                 index = Random.Range(0, enemies.Length);    //3rd 몬스터 랜덤 지정
-                enem_3 = Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //3rd몬스터 생성
+                Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //3rd몬스터 생성
             }
 
+        }
+        if (clear ==4)       // clear 조건에 따라 토네이도 이벤트 발생
+        {
+            int loc;
+
+            loc = Random.Range(0, 3);       //토네이도 위치를 위한 랜덤변수
+            if (loc == 0)       //좌측
+            {
+                Vector3 enem_transform = new Vector3(-1.5f, 0, playerTransform.position.z + 30);    //이벤트 좌표값
+                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 85, 0)));   //rotation
+            }
+            else if(loc ==1)        //중간
+            {
+                Vector3 enem_transform = new Vector3(0, 0, playerTransform.position.z + 30);  
+                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0)));
+            }
+            else           //우츨
+            {
+                Vector3 enem_transform = new Vector3(1.5f, 0, playerTransform.position.z + 30);
+                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 95, 0)));
+            }
         }
         else if (clear == 23)              //일정 타일 생성 후 중간보스 스폰
         {

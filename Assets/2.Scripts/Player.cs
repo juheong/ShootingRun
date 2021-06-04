@@ -221,9 +221,16 @@ public class Player : MonoBehaviour
 
     void OnParticleCollision(GameObject other)      //스킬 피격판정
     {
-        Bullet enemyBullet = other.GetComponent<Bullet>();
-        StartCoroutine(OnDamage(enemyBullet.damage));
-        Destroy(other.gameObject);
+        if (other.tag == "EnemyBullet")
+        {
+            Bullet enemyBullet = other.GetComponent<Bullet>();
+            StartCoroutine(OnDamage(enemyBullet.damage));
+            Destroy(other.gameObject);
+        }
+        else if (other.tag == "Enemy")
+        {
+            StartCoroutine(OnDamage(20));
+        }
     }
 
     IEnumerator OnDamage(int damage)

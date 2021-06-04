@@ -751,8 +751,8 @@ MonoBehaviour:
   SkillsIndicator:
   - {fileID: 5863263527555736077, guid: 21cdbd7e97161d5439c84e12399c9ea6, type: 3}
   bullet:
-  - {fileID: 5870134966058320986, guid: 038d7f2de1a856e48b16672398874a8a, type: 3}
-  - {fileID: 6040635867953845960, guid: cce0b1d6d74a5064083cc487927be5ea, type: 3}
+  - {fileID: 6734291695517335929, guid: 71af00879558a394db7ae05d4ec3aa61, type: 3}
+  - {fileID: 6418121562262434727, guid: 298307f72e4d3f143a8c16e24855f40c, type: 3}
   sliderBossHealth: {fileID: 0}
 --- !u!1 &5456981696472269892
 GameObject:

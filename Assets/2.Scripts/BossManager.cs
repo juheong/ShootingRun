@@ -113,7 +113,7 @@ public class BossManager : MonoBehaviour
         Bul_position += new Vector3(-1.5f, 1.7f, 0f);
         GameObject instantBullet = Instantiate(bullet[0], Bul_position, transform.rotation);
         Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
-        rigidBullet.velocity = transform.forward * 20;
+        rigidBullet.velocity = transform.forward * 30;
         Destroy(instantBullet, 2f);
         yield return new WaitForSeconds(0.16f);
 
@@ -121,7 +121,7 @@ public class BossManager : MonoBehaviour
         Bul_position2 += new Vector3(1.5f, 1.7f, 0f);
         GameObject instantBullet2 = Instantiate(bullet[0], Bul_position2, transform.rotation);
         Rigidbody rigidBullet2 = instantBullet2.GetComponent<Rigidbody>();
-        rigidBullet2.velocity = transform.forward * 20;
+        rigidBullet2.velocity = transform.forward * 30;
         Destroy(instantBullet2, 2f);
     }
     IEnumerator Spell()       //2번 Spell 패턴
@@ -157,7 +157,7 @@ public class BossManager : MonoBehaviour
         Bul_position += new Vector3(0f, 0f, -3f);
         GameObject instantBullet = Instantiate(bullet[1], Bul_position, transform.rotation);
         Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
-        rigidBullet.velocity = transform.forward * 20;
+        rigidBullet.velocity = transform.forward * 30;
         Destroy(instantBullet, 2f);
     }
     IEnumerator Jump()       //4번 Jump 패턴

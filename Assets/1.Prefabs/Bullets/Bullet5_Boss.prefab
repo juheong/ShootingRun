@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2549403933685440679}
   - component: {fileID: 3615219645314582141}
   - component: {fileID: 6800416066517890517}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: StartSnow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4894,7 +4894,7 @@ GameObject:
   - component: {fileID: 5018308578926764110}
   - component: {fileID: 7088291965743105527}
   - component: {fileID: 3166819650679350097}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Flares
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9835,7 +9835,7 @@ GameObject:
   - component: {fileID: 1266324712267188334}
   - component: {fileID: 3006632940725083066}
   - component: {fileID: 6296177491437115883}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PathSlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14651,7 +14651,7 @@ GameObject:
   - component: {fileID: 6725006472145632041}
   - component: {fileID: 6744769121777624953}
   - component: {fileID: 1626729409145521167}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Flares
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19592,7 +19592,7 @@ GameObject:
   - component: {fileID: 3533465495203068172}
   - component: {fileID: 2352857194769374893}
   - component: {fileID: 8007743642804062555}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Slash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24467,7 +24467,7 @@ GameObject:
   - component: {fileID: 2591294205872761919}
   - component: {fileID: 617895028948699061}
   - component: {fileID: 6778360104571666035}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: StartTrails
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29355,7 +29355,7 @@ GameObject:
   - component: {fileID: 835934285195170926}
   - component: {fileID: 7075163570200304823}
   - component: {fileID: 4963062403627088291}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PathSlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34171,7 +34171,7 @@ GameObject:
   - component: {fileID: 6577679807196522497}
   - component: {fileID: 7723401920774608783}
   - component: {fileID: 8567906626537474579}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38996,7 +38996,7 @@ GameObject:
   - component: {fileID: 6028486006005376089}
   - component: {fileID: 4714019401600683332}
   - component: {fileID: 6981951146939859002}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43821,7 +43821,7 @@ GameObject:
   - component: {fileID: 694511973546827115}
   - component: {fileID: 5359323737814271689}
   - component: {fileID: 9131982164481336092}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PathSlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48637,9 +48637,9 @@ GameObject:
   - component: {fileID: 2941984487679496331}
   - component: {fileID: 3867038405740971146}
   - component: {fileID: 152353790658859255}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ice attack (1)
-  m_TagString: Untagged
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48653,7 +48653,7 @@ Transform:
   m_GameObject: {fileID: 2431595746707772952}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 1.5, y: 0, z: 0}
-  m_LocalScale: {x: 1.07, y: 1, z: 0.3}
+  m_LocalScale: {x: 2.5, y: 1, z: 0.3}
   m_Children:
   - {fileID: 9125925535604493223}
   - {fileID: 7711884373146595172}
@@ -53535,9 +53535,9 @@ GameObject:
   - component: {fileID: 2129852346399692485}
   - component: {fileID: 5196267197757349751}
   - component: {fileID: 3114647818739859884}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ice
-  m_TagString: Untagged
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53551,7 +53551,7 @@ Transform:
   m_GameObject: {fileID: 3373926697590150099}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.5, y: 0.7, z: 0.5}
   m_Children: []
   m_Father: {fileID: 6242260057970115919}
   m_RootOrder: 0
@@ -58385,7 +58385,7 @@ GameObject:
   - component: {fileID: 5868541813670621677}
   - component: {fileID: 8992561749511113389}
   - component: {fileID: 7220614672473805307}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Slash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63259,9 +63259,9 @@ GameObject:
   - component: {fileID: 6732245458961982880}
   - component: {fileID: 3023367393758428231}
   - component: {fileID: 8811734394838445106}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ice attack
-  m_TagString: Untagged
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63275,7 +63275,7 @@ Transform:
   m_GameObject: {fileID: 4160295823991889846}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.07, y: 1, z: 0.3}
+  m_LocalScale: {x: 2.5, y: 1, z: 0.3}
   m_Children:
   - {fileID: 7402867930994977712}
   - {fileID: 4402747682966438918}
@@ -68156,7 +68156,7 @@ GameObject:
   - component: {fileID: 8713836819222773320}
   - component: {fileID: 9075980021094947004}
   - component: {fileID: 1094455483527183014}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Slash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73031,7 +73031,7 @@ GameObject:
   - component: {fileID: 6781050567771720272}
   - component: {fileID: 8232506205815384043}
   - component: {fileID: 5711559114615433074}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: StartTrails
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77919,7 +77919,7 @@ GameObject:
   - component: {fileID: 1728220155695869636}
   - component: {fileID: 1823176993728903033}
   - component: {fileID: 4047167136553565918}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82745,9 +82745,9 @@ GameObject:
   - component: {fileID: 4924822325456569661}
   - component: {fileID: 4202692041681834171}
   - component: {fileID: 2544272031831593431}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ice
-  m_TagString: Untagged
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82761,7 +82761,7 @@ Transform:
   m_GameObject: {fileID: 4790804677093955625}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.5, y: 0.7, z: 0.5}
   m_Children: []
   m_Father: {fileID: 2941984487679496331}
   m_RootOrder: 0
@@ -87595,7 +87595,7 @@ GameObject:
   - component: {fileID: 5801939229772147040}
   - component: {fileID: 3569786978988778654}
   - component: {fileID: 8324393626041613084}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: IceExpl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92520,9 +92520,9 @@ GameObject:
   - component: {fileID: 6242260057970115919}
   - component: {fileID: 2113479662728796154}
   - component: {fileID: 7580734622783999213}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ice attack (2)
-  m_TagString: Untagged
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92536,7 +92536,7 @@ Transform:
   m_GameObject: {fileID: 6403110484419779995}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -1.5, y: 0, z: 0}
-  m_LocalScale: {x: 1.07, y: 1, z: 0.3}
+  m_LocalScale: {x: 2.5, y: 1, z: 0.3}
   m_Children:
   - {fileID: 7783057215814233284}
   - {fileID: 5801939229772147040}
@@ -97418,9 +97418,9 @@ GameObject:
   - component: {fileID: 7104241436231029469}
   - component: {fileID: 4735748711559211632}
   - component: {fileID: 7701367600312273212}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ice
-  m_TagString: Untagged
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102268,7 +102268,7 @@ GameObject:
   - component: {fileID: 7711884373146595172}
   - component: {fileID: 4014488708385674815}
   - component: {fileID: 3537348036257174725}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: IceExpl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107160,7 +107160,7 @@ GameObject:
   - component: {fileID: 4402747682966438918}
   - component: {fileID: 6267181366322595037}
   - component: {fileID: 1940978928955874018}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: IceExpl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112052,7 +112052,7 @@ GameObject:
   - component: {fileID: 7057557721503741857}
   - component: {fileID: 6691269834035217515}
   - component: {fileID: 4266402688456085724}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: StartSnow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116936,7 +116936,7 @@ GameObject:
   - component: {fileID: 7298498991075357622}
   - component: {fileID: 7339337630776032899}
   - component: {fileID: 4591779058898966715}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: StartTrails
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121824,7 +121824,7 @@ GameObject:
   - component: {fileID: 6487507633641774476}
   - component: {fileID: 7548943658703780392}
   - component: {fileID: 7991413121091581321}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Flares
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126765,7 +126765,7 @@ GameObject:
   - component: {fileID: 7368535587680912800}
   - component: {fileID: 2728649369150428440}
   - component: {fileID: 1772446031830109808}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: StartSnow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
