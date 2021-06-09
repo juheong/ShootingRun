@@ -14,6 +14,7 @@ public class BossManager : MonoBehaviour
     [SerializeField]
     private GameObject[] SkillsIndicator;
     private bool isDie = false;
+    private bool isScene = true;
     Rigidbody rigid;
     BoxCollider boxCollider;
     SkinnedMeshRenderer[] meshs;
@@ -36,28 +37,41 @@ public class BossManager : MonoBehaviour
         anim = GetComponent<Animator>();
         player = FindObjectOfType<Player>();
         halfHealth = 4;     //패턴 갯수를 위함
-        InvokeRepeating("Attack", 1, 5f);
+        anim.SetBool("isScene", true);
+        StartCoroutine(BossStart());
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!isDie)
+        if (!isScene)
         {
-            transform.position += Vector3.back * player.moveSpeed * Time.deltaTime;
-            if (curHealth <= maxHealth / 2)     //hp가 절반 이하일시 패턴 추가
+            if (!isDie)
             {
-                halfHealth = 5;
-                anim.SetBool("onRage", true);
-            }      
+                transform.position += Vector3.back * player.moveSpeed * Time.deltaTime;
+                if (curHealth <= maxHealth / 2)     //hp가 절반 이하일시 패턴 추가
+                {
+                    halfHealth = 5;
+                    anim.SetBool("onRage", true);
+                }      
+            }
+            else if (isDie == true)
+            {
+                StartCoroutine(GameClear());
+            }
+
         }
-        else if (isDie == true)
-        {
-            StartCoroutine(GameClear());
-        }
+        
     }
 
-    private void OnTriggerEnter(Collider other)
+    IEnumerator BossStart()
+    {
+        yield return new WaitForSeconds(8f);
+        isScene = false;
+        anim.SetBool("isScene", false);
+        InvokeRepeating("Attack", 1, 5f);
+    }
+        private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Bullet")
         {
@@ -204,6 +218,7 @@ public class BossManager : MonoBehaviour
     {
         foreach (SkinnedMeshRenderer mesh in meshs)
             mesh.material.color = Color.red;
+        anim.SetTrigger("TakeDamage");
         yield return new WaitForSeconds(0.1f);
         if (curHealth > 0)
         {
@@ -217,7 +232,7 @@ public class BossManager : MonoBehaviour
             anim.SetTrigger("doDie");
             isDie = true;
             gameObject.layer = 11;
-           // Destroy(gameObject, 1f);
+            Destroy(gameObject, 1f);
             
         }
     }

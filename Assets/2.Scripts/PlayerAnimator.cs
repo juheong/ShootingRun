@@ -17,6 +17,11 @@ public class PlayerAnimator : MonoBehaviour
         animator.SetFloat("vertical", vertical);
     }
 
+    public void OnScene()
+    {
+        animator.SetTrigger("isScene");
+    }
+
     public void OnJump()
     {
         animator.ResetTrigger("PistolShoot");

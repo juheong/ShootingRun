@@ -39,17 +39,24 @@ public class Player : MonoBehaviour
     private PlayerAnimator playerAnimator;
     [SerializeField]
     private GameController gameController;
-
+    [SerializeField]
+    private GameObject sceneCamera;
+    [SerializeField]
+    private GameObject mainCamera;
+    [SerializeField]
+    private GameObject uiObject;
     GameObject nearObject;
     Weapon equipWeapon;
     CameraController cameraController;
     SkinnedMeshRenderer[] meshs;
     private float fireDelay;
     private bool isFireReady;
+    private bool isScene = true;
 
 
     private void Awake()
     {
+        uiObject.SetActive(false);
         rigibody = GetComponent<Rigidbody>();
         playerAnimator = GetComponentInChildren<PlayerAnimator>();
         meshs = GetComponentsInChildren<SkinnedMeshRenderer>();
@@ -62,24 +69,26 @@ public class Player : MonoBehaviour
                 equipWeapon.gameObject.SetActive(true);
             }
         }
-        cameraController = GameObject.Find("Main Camera").GetComponent<CameraController>();
+        StartCoroutine(CameraWalk());
     }
 
     private void Update()
     {
-        if (!isDie)
-        {
-            if (isBoss == true)
+        if (!isScene) { 
+            if (!isDie)
             {
-                transform.position += Vector3.back * moveSpeed * Time.deltaTime;
-                playerAnimator.isBoss();
+                if (isBoss == true)
+                {
+                    transform.position += Vector3.back * moveSpeed * Time.deltaTime;
+                    playerAnimator.isBoss();
+                }
+                else
+                {
+                    transform.position += Vector3.forward * moveSpeed * Time.deltaTime;
+                    Attack();
+
+                }
             }
-            else
-            {
-                transform.position += Vector3.forward * moveSpeed * Time.deltaTime;
-                Attack();
-            }
-            //playerAnimator.OnMovement(1);
         }
     }
 
@@ -92,6 +101,30 @@ public class Player : MonoBehaviour
         else if (rot2 == true)
         {
             rotat2();
+        }
+    }
+
+    IEnumerator CameraWalk()
+    {
+        if (isBoss == true)
+        {
+            yield return new WaitForSeconds(8f);
+            sceneCamera.SetActive(false);
+            mainCamera.SetActive(true);
+            uiObject.SetActive(true);
+            cameraController = GameObject.Find("Main Camera").GetComponent<CameraController>();
+            isScene = false;
+        }
+        else
+        {
+            yield return new WaitForSeconds(3.2f);
+            playerAnimator.OnScene();
+            yield return new WaitForSeconds(2.5f);
+            sceneCamera.SetActive(false);
+            mainCamera.SetActive(true);
+            uiObject.SetActive(true);
+            cameraController = GameObject.Find("Main Camera").GetComponent<CameraController>();
+            isScene = false;
         }
     }
 

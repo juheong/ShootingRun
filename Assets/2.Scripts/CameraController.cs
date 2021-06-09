@@ -27,13 +27,13 @@ public class CameraController : MonoBehaviour
         {
             position = transform.position;
             position.z = target.position.z - zDistance;
-
         }
     }
     // Update is called once per frame
     private void LateUpdate()
     {
         if (target == null) return;
+        if (position == new Vector3(0,0,0)) return;
             transform.position = position;
     }
 
