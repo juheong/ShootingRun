@@ -27,7 +27,8 @@ public class BossManager : MonoBehaviour
 
     Player player;
     Rigidbody indirigi;
-
+    DataManager data;
+    GameObject obj1;
 
     private void Awake()
     {
@@ -37,6 +38,8 @@ public class BossManager : MonoBehaviour
         anim = GetComponent<Animator>();
         player = FindObjectOfType<Player>();
         halfHealth = 4;     //패턴 갯수를 위함
+        obj1 = GameObject.Find("DataManager");
+        data = obj1.GetComponent<DataManager>();
         anim.SetBool("isScene", true);
         StartCoroutine(BossStart());
     }
@@ -232,15 +235,20 @@ public class BossManager : MonoBehaviour
             anim.SetTrigger("doDie");
             isDie = true;
             gameObject.layer = 11;
-            Destroy(gameObject, 1f);
+            Destroy(gameObject, 3f);
             
         }
     }
     IEnumerator GameClear()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(2f);        
+        Time.timeScale = 0;
         PanelController panelController = FindObjectOfType<PanelController>();
+        //data.expUpdate(200);
+        GameObject.Destroy(obj1);
         panelController.OpenPanel(2);
+        gameController.InitialLevel();
+        gameController.InitialExp();
     }
 
 
