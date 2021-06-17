@@ -38,6 +38,7 @@ public class MiddleBoss : MonoBehaviour
         player = FindObjectOfType<Player>();
         obj1 = GameObject.Find("DataManager");
         data = obj1.GetComponent<DataManager>();
+        player.moveSpeed = 0;
         InvokeRepeating("Attack", 1, 5f);
     }
 
