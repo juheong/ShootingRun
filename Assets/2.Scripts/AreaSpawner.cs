@@ -92,7 +92,7 @@ public class AreaSpawner : MonoBehaviour
             }
 
         }
-        if (clear ==4)       // clear 조건에 따라 토네이도 이벤트 발생
+        if (clear <23 && clear %5==0)       // clear 조건에 따라 토네이도 이벤트 발생
         {
             int loc;
 
@@ -117,6 +117,7 @@ public class AreaSpawner : MonoBehaviour
         {
             Vector3 enem_transform = new Vector3(0, 0, playerTransform.position.z + 15);
             middle = Instantiate(middleboss, enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));
+            clear++;
         }
     }
 
