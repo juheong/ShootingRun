@@ -36964,7 +36964,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -25.00003, y: -20}
+  m_AnchoredPosition: {x: -25, y: -20}
   m_SizeDelta: {x: -50, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &810118105
@@ -37609,7 +37609,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -39.99997, y: -117.99988}
+  m_AnchoredPosition: {x: -40, y: -118}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &862291342
@@ -49030,7 +49030,7 @@ PrefabInstance:
     - target: {fileID: 1081925174838714213, guid: d2013d254489a24479a3bbf157be2a42,
         type: 3}
       propertyPath: bullet.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1081925174838714213, guid: d2013d254489a24479a3bbf157be2a42,
         type: 3}
@@ -49055,6 +49055,12 @@ PrefabInstance:
       propertyPath: bullet.Array.data[4]
       value: 
       objectReference: {fileID: 6266363195109946900, guid: bed849ce7843aa84dae4b715cb49c7ca,
+        type: 3}
+    - target: {fileID: 1081925174838714213, guid: d2013d254489a24479a3bbf157be2a42,
+        type: 3}
+      propertyPath: bullet.Array.data[5]
+      value: 
+      objectReference: {fileID: 286476707168688069, guid: 0f279589155ccc9449e71e43279398a3,
         type: 3}
     - target: {fileID: 3472364904508501340, guid: d2013d254489a24479a3bbf157be2a42,
         type: 3}

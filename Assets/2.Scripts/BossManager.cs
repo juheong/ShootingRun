@@ -37,7 +37,7 @@ public class BossManager : MonoBehaviour
         meshs = GetComponentsInChildren<SkinnedMeshRenderer>();
         anim = GetComponent<Animator>();
         player = FindObjectOfType<Player>();
-        halfHealth = 4;     //패턴 갯수를 위함
+        halfHealth = 5;     //패턴 갯수를 위함
         obj1 = GameObject.Find("DataManager");
         data = obj1.GetComponent<DataManager>();
         anim.SetBool("isScene", true);
@@ -54,7 +54,7 @@ public class BossManager : MonoBehaviour
                 transform.position += Vector3.back * player.moveSpeed * Time.deltaTime;
                 if (curHealth <= maxHealth / 2)     //hp가 절반 이하일시 패턴 추가
                 {
-                    halfHealth = 5;
+                    halfHealth = 6;
                     anim.SetBool("onRage", true);
                 }      
             }
@@ -93,14 +93,15 @@ public class BossManager : MonoBehaviour
     {
         if (!isDie)
         {
-            int index = Random.Range(0, halfHealth);
+            int index = Random.Range(0, 1);
             switch (index)
             {
                 case 0:
-                    StartCoroutine(Slash());
+                    // StartCoroutine(Slash());
+                    StartCoroutine(Spell());
                     break;
                 case 1:
-                    StartCoroutine(Spell());
+                    StartCoroutine(Bite());
                     break;
                 case 2:
                     StartCoroutine(Smash());
@@ -109,6 +110,9 @@ public class BossManager : MonoBehaviour
                     StartCoroutine(Jump());
                     break;
                 case 4:
+                    StartCoroutine(Spell());
+                    break;
+                case 5:
                     StartCoroutine(Pounce());
                     break;
             }
@@ -141,7 +145,7 @@ public class BossManager : MonoBehaviour
         rigidBullet2.velocity = transform.forward * 30;
         Destroy(instantBullet2, 2f);
     }
-    IEnumerator Spell()       //2번 Spell 패턴
+    IEnumerator Bite()       //2번 Spell 패턴
     {
         Vector3 Indi_position = transform.position;
         GameObject skill_indicator = Instantiate(SkillsIndicator[1], Indi_position, transform.rotation);
@@ -150,7 +154,7 @@ public class BossManager : MonoBehaviour
         Destroy(skill_indicator, 1.5f);
         yield return new WaitForSeconds(1.5f);
 
-        anim.SetTrigger("doSpell");
+        anim.SetTrigger("doBite");
         yield return new WaitForSeconds(0.5f);
 
         Vector3 Bul_position = transform.position;
@@ -216,7 +220,58 @@ public class BossManager : MonoBehaviour
         GameObject instantBullet = Instantiate(bullet[4], Bul_position, transform.rotation);
         Destroy(instantBullet, 2f);
     }
+    IEnumerator Spell()
+    {
+        int loc;
+        loc = Random.Range(0, 3);
+        float tor1, tor2,rage;       //위치 좌표
+        Vector3 rot1, rot2;     //회전
+        Vector3 Indi_position = transform.position;
+        Vector3 Bul_position = transform.position;
+        Vector3 Bul_position2 = transform.position;
 
+        GameObject skill_indicator;
+        if (halfHealth == 6)    //분노상태일 시 측면의 토네이도가 반대방향으로 이동
+            rage = 7f;
+        else
+            rage = 0f;
+        if (loc == 0)       //좌+중
+        {
+            tor1 = -1.5f;
+            tor2 = 0f;
+            rot1 = new Vector3(0, 90-rage, 0);       //토네이도 회전값
+            rot2 = new Vector3(0, 90, 0);
+            skill_indicator = Instantiate(SkillsIndicator[3], Indi_position, transform.rotation);
+        }
+        else if (loc == 1)  //우+중
+        {
+            tor1 = 0f;
+            tor2 = 1.5f;
+            rot1 = new Vector3(0, 90, 0);
+            rot2 = new Vector3(0, 90+rage, 0);
+            skill_indicator = Instantiate(SkillsIndicator[4], Indi_position, transform.rotation);
+        }
+        else        //좌+우
+        {
+            tor1 = -1.5f;
+            tor2 = 1.5f;
+            rot1 = new Vector3(0, 90 - rage, 0);
+            rot2 = new Vector3(0, 90 + rage, 0);
+            skill_indicator = Instantiate(SkillsIndicator[0], Indi_position, transform.rotation);
+        }
+        Bul_position += new Vector3(tor1, 0, -15f);    //토네이도 좌표값
+        Bul_position2 += new Vector3(tor2, 0, -15f);    //두번째 토네이도 좌표값
+        indirigi = skill_indicator.GetComponent<Rigidbody>();
+        indirigi.velocity = transform.forward * player.moveSpeed;
+        Destroy(skill_indicator, 1.5f);
+        yield return new WaitForSeconds(1.5f);
+
+        anim.SetTrigger("doSpell");
+        yield return new WaitForSeconds(0.2f);
+        Instantiate(bullet[5], Bul_position,  Quaternion.Euler(rot1));   //토네이도1 생성
+        Instantiate(bullet[5], Bul_position2, Quaternion.Euler(rot2));   //토네이도2 생성
+
+    }
     IEnumerator OnDamge(Vector3 reactVec)
     {
         foreach (SkinnedMeshRenderer mesh in meshs)
