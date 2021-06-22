@@ -93,12 +93,11 @@ public class BossManager : MonoBehaviour
     {
         if (!isDie)
         {
-            int index = Random.Range(0, 1);
+            int index = Random.Range(0, halfHealth);
             switch (index)
             {
                 case 0:
-                    // StartCoroutine(Slash());
-                    StartCoroutine(Spell());
+                    StartCoroutine(Slash());
                     break;
                 case 1:
                     StartCoroutine(Bite());
