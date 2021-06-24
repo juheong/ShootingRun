@@ -27,6 +27,7 @@ public class CameraController : MonoBehaviour
         {
             position = transform.position;
             position.z = target.position.z - zDistance;
+            position.x = target.position.x;
         }
     }
     // Update is called once per frame
