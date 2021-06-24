@@ -1,108 +1,270 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'ko' Physical Memory: 10222 MB
+OS: 'Windows 10 Pro; OS build 19041.1052; Version 2004; 64bit' Language: 'ko' Physical Memory: 16323 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\unity\2020.3.2f1\Editor\Unity.exe
+D:\2020.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/unity/ShootingRun
+D:/RunningGun
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-14214
-Successfully changed project path to: D:/unity/ShootingRun
-D:/unity/ShootingRun
+4268
+Successfully changed project path to: D:/RunningGun
+D:/RunningGun
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 84.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 50.10 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
-[Subsystems] Discovering subsystems at path D:/unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/unity/ShootingRun/Assets
+[Subsystems] Discovering subsystems at path D:/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/RunningGun/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon HD 6450 (ID=0x6779)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
     Vendor:   
-    VRAM:     1008 MB
-    Driver:   15.201.1151.1008
+    VRAM:     2988 MB
+    Driver:   26.21.14.4112
 Initialize mono
-Mono path[0] = 'D:/unity/2020.3.2f1/Editor/Data/Managed'
-Mono path[1] = 'D:/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Mono path[0] = 'D:/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002554 seconds.
+Register platform support module: D:/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001670 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 56.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.928 seconds
+- Completed reload, in  2.701 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006440 seconds.
+Registered in 0.012420 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.324 seconds
+- Completed reload, in  0.779 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1350 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.5 MB.
-System memory in use after: 175.3 MB.
+System memory in use before: 172.7 MB.
+System memory in use after: 172.5 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1835.
-Total: 2.801100 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.058300 ms MarkObjects: 1.954900 ms  DeleteObjects: 0.599800 ms)
+Total: 1.810400 ms (FindLiveObjects: 0.211500 ms CreateObjectMapping: 0.088600 ms MarkObjects: 1.222600 ms  DeleteObjects: 0.286800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Prefaps
-  artifactKey: Guid(bf0addfbb85294349bb094c036acc4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Prefaps using Guid(bf0addfbb85294349bb094c036acc4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7394a5a98eee7e9c98785a5b0cda5d30') in 0.016544 seconds
-  Import took 0.022884 seconds .
+  path: Assets/1.Prefabs/maps/mapf4.prefab
+  artifactKey: Guid(dcde9ad793bebe04a8118c6123e9e53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/mapf4.prefab using Guid(dcde9ad793bebe04a8118c6123e9e53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b084a7495dc02cf9b4d66ac9c921816') in 0.216028 seconds
+  Import took 0.219859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.539209 seconds.
+  path: Assets/1.Prefabs/maps
+  artifactKey: Guid(343bf2b7d417dca42afe0b1b0b484f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps using Guid(343bf2b7d417dca42afe0b1b0b484f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971d1e00ce2ac63568c09cc0857de022') in 0.007890 seconds
+  Import took 0.011779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.957339 seconds.
+  path: Assets/1.Prefabs/maps/endingmap.prefab
+  artifactKey: Guid(2111e99149cd52248961de84192a4774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/endingmap.prefab using Guid(2111e99149cd52248961de84192a4774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f52270759bdbe1fa5535705c040e14') in 0.068015 seconds
+  Import took 0.071702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 245.959708 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/TreeDead1.prefab
+  artifactKey: Guid(34086b58f75f6d34c8f631494c7e340c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/TreeDead1.prefab using Guid(34086b58f75f6d34c8f631494c7e340c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0746fd5ff302c968af09fc6b20519cef') in 0.051606 seconds
+  Import took 0.054204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.517646 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Tree1.prefab
+  artifactKey: Guid(43ac926c2709a4b4e9868e88f7f97a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Tree1.prefab using Guid(43ac926c2709a4b4e9868e88f7f97a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184c894756e4f8c067c659d1207c11bf') in 0.045429 seconds
+  Import took 0.047939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.349324 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/SharpRock1.prefab
+  artifactKey: Guid(75ce0f8fda9941d4dbb0fce80b24ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/SharpRock1.prefab using Guid(75ce0f8fda9941d4dbb0fce80b24ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9111e8e514abad61aa8809dfd05cdeca') in 0.049402 seconds
+  Import took 0.051944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.285390 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Reed.prefab
+  artifactKey: Guid(8e29574f61c003a45a3cc9a571582336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Reed.prefab using Guid(8e29574f61c003a45a3cc9a571582336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1bc060375b60ad070ff5581dad1c4c') in 0.046762 seconds
+  Import took 0.049203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.352964 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/OldStoneWall.prefab
+  artifactKey: Guid(b18f73484d83f8c4ea93a8a2fb0c8141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/OldStoneWall.prefab using Guid(b18f73484d83f8c4ea93a8a2fb0c8141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e69e22fa95979a45d67ecd7f82aac7') in 0.047722 seconds
+  Import took 0.050166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274311 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Ladder.prefab
+  artifactKey: Guid(4b7b24b478cfd90438180b7362de593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Ladder.prefab using Guid(4b7b24b478cfd90438180b7362de593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d71d6f69700703ed0eec6efc2dd272f') in 0.045586 seconds
+  Import took 0.048045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.390275 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/DoubleRockShape.prefab
+  artifactKey: Guid(3b0634ba81d1e5a4d8ba99b66d11a6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/DoubleRockShape.prefab using Guid(3b0634ba81d1e5a4d8ba99b66d11a6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55843111fd8bdca844ae8b22eef63622') in 0.046271 seconds
+  Import took 0.048814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.648472 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/CookingFireplace.prefab
+  artifactKey: Guid(a0df47329a427514e90f8a03566796f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/CookingFireplace.prefab using Guid(a0df47329a427514e90f8a03566796f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc3e388ee651df2f2262f9c6a19ef4c') in 0.048260 seconds
+  Import took 0.051127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.891002 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/PierStart.prefab
+  artifactKey: Guid(52dbbceff73875e4181d4040686efbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/PierStart.prefab using Guid(52dbbceff73875e4181d4040686efbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99119529b4e08e2e77376bb01ec1cc3a') in 0.047136 seconds
+  Import took 0.049564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.426956 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/AgaveLow.prefab
+  artifactKey: Guid(9c9807f75889e994094efd930fe03ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/AgaveLow.prefab using Guid(9c9807f75889e994094efd930fe03ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99637a4555e3ed8ebef5f8b86af7a25') in 0.044210 seconds
+  Import took 0.046667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.902221 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Wagon.prefab
+  artifactKey: Guid(562808a9cf61c1f41a475378c1fd3f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Wagon.prefab using Guid(562808a9cf61c1f41a475378c1fd3f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e83b954c1460ff2f7a722fee6b5bb69') in 0.046993 seconds
+  Import took 0.049551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.931170 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Tree3_BirchYoung.prefab
+  artifactKey: Guid(18c819349404cfd4d89e0d63d943f408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/Tree3_BirchYoung.prefab using Guid(18c819349404cfd4d89e0d63d943f408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c74d2086c29766379ad243001a9f3a8') in 0.046818 seconds
+  Import took 0.049258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.593052 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/GrassHillFlat.prefab
+  artifactKey: Guid(ce4310faa471efc478e0232d3ed58cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/GrassHillFlat.prefab using Guid(ce4310faa471efc478e0232d3ed58cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3b57d367e33a4e8309c9aab4132873') in 0.046483 seconds
+  Import took 0.049121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.394703 seconds.
+  path: Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/GrassCliff.prefab
+  artifactKey: Guid(f2d2be5b189188f4bb9d3d3227b40a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyStyle/Alpine Woodland/3_PrefabsWithColliders/GrassCliff.prefab using Guid(f2d2be5b189188f4bb9d3d3227b40a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1254a272982d1118c6f6843f6f1fa9ef') in 0.045667 seconds
+  Import took 0.048052 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009678 seconds.
+Registered in 0.005619 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.323 seconds
+- Completed reload, in  0.799 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1302 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.1 MB.
-System memory in use after: 168.8 MB.
+System memory in use before: 169.8 MB.
+System memory in use after: 169.6 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1838.
-Total: 4.635500 ms (FindLiveObjects: 0.830100 ms CreateObjectMapping: 0.123700 ms MarkObjects: 3.038200 ms  DeleteObjects: 0.640700 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 1.870700 ms (FindLiveObjects: 0.203500 ms CreateObjectMapping: 0.056400 ms MarkObjects: 1.353400 ms  DeleteObjects: 0.256300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 208.957885 seconds.
+  path: Assets/1.Prefabs/maps/endingmap.prefab
+  artifactKey: Guid(2111e99149cd52248961de84192a4774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/maps/endingmap.prefab using Guid(2111e99149cd52248961de84192a4774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15a577fc5f1656539aac2e65b0c723b') in 0.115011 seconds
+  Import took 0.118692 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1302 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.9 MB.
+System memory in use after: 169.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 3.772000 ms (FindLiveObjects: 0.381800 ms CreateObjectMapping: 0.108800 ms MarkObjects: 2.650700 ms  DeleteObjects: 0.628700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000

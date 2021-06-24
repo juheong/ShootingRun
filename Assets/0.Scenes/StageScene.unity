@@ -24456,11 +24456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaPrefabs:
-  - {fileID: 6992694610384771492, guid: dcde9ad793bebe04a8118c6123e9e53d, type: 3}
   - {fileID: 5663434798114582271, guid: 55b1bdfb6541a764c86c0983b3801f2e, type: 3}
-  - {fileID: 445383305766557784, guid: a9c38186d1f5f1949bba306177596495, type: 3}
-  - {fileID: 6992694610384771492, guid: dcde9ad793bebe04a8118c6123e9e53d, type: 3}
-  - {fileID: 2796754831856130907, guid: 3a9e4532630485145bf3d0b636c0a8e9, type: 3}
   enemies:
   - {fileID: 5691688369305071277, guid: 8257bf9b9d661684486fab49cb86d5db, type: 3}
   - {fileID: 2534821283484074915, guid: 09d87b5b4a76a404f914269615d0ceda, type: 3}
