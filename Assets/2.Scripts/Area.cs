@@ -39,9 +39,7 @@ public class Area : MonoBehaviour
                 areaSpawner.SpawnArea();
                 Destroy(gameObject);
             }
-
         }
-
     }
 
     public void SpawnMonster() //몬스터 스폰

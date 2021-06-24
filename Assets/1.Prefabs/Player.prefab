@@ -129,7 +129,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8310867128036160285}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.05, z: -9}
+  m_LocalPosition: {x: 0, y: 0.2, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8310867128617661370}
@@ -177,6 +177,9 @@ MonoBehaviour:
   moveSpeed: 10
   isBoss: 0
   gameController: {fileID: 0}
+  sceneCamera: {fileID: 0}
+  mainCamera: {fileID: 0}
+  uiObject: {fileID: 0}
 --- !u!143 &8310867128036160259
 CharacterController:
   m_ObjectHideFlags: 0
@@ -271,6 +274,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AK74
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559816986950539038, guid: 46e30e0b739fc6b4a96e30d09fb3b9d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8565797585666535616, guid: 46e30e0b739fc6b4a96e30d09fb3b9d1,
         type: 3}
@@ -413,6 +421,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: M4_8
       objectReference: {fileID: 0}
+    - target: {fileID: 8007118501764939446, guid: bd372c45fc75ef04a8543c8f630a7283,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd372c45fc75ef04a8543c8f630a7283, type: 3}
 --- !u!1 &7386663105432721309 stripped
@@ -499,6 +512,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: M1911
       objectReference: {fileID: 0}
+    - target: {fileID: 2365543955821713657, guid: 56a9b57e6048a2e46baddf8efb8b3d2b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56a9b57e6048a2e46baddf8efb8b3d2b, type: 3}
 --- !u!1 &903442679329007053 stripped
@@ -524,6 +542,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PBR
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594664699828474968, guid: 86b872469acf50b4eba838486aae7195,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3599992061631540284, guid: 86b872469acf50b4eba838486aae7195,
         type: 3}
@@ -610,6 +633,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SVD
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168791845916669177, guid: c8e42a50aa60002498d3df6e7b8c268f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6168791845916669178, guid: c8e42a50aa60002498d3df6e7b8c268f,
         type: 3}
@@ -756,6 +784,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: M107
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840261133532132570, guid: d94ae0b987e538e448cc44f4cd019712,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d94ae0b987e538e448cc44f4cd019712, type: 3}
