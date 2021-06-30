@@ -22843,7 +22843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * KeyList_get_Item_mDD8D697BC3B
 		int32_t L_1 = ___index0;
 		NullCheck(L_0);
 		RuntimeObject * L_2;
-		L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(28 /* System.Object System.Collections.SortedList::GetKey(System.Int32) */, L_0, L_1);
+		L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(29 /* System.Object System.Collections.SortedList::GetKey(System.Int32) */, L_0, L_1);
 		return L_2;
 	}
 }
@@ -23413,7 +23413,7 @@ IL_0009:
 		RuntimeObject * L_3 = ___key0;
 		NullCheck(L_2);
 		RuntimeObject * L_4;
-		L_4 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(31 /* System.Object System.Collections.SortedList::get_Item(System.Object) */, L_2, L_3);
+		L_4 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(32 /* System.Object System.Collections.SortedList::get_Item(System.Object) */, L_2, L_3);
 		V_2 = L_4;
 		IL2CPP_LEAVE(0x2A, FINALLY_0020);
 	} // end try (depth: 1)
@@ -23478,7 +23478,7 @@ IL_0009:
 		RuntimeObject * L_3 = ___key0;
 		RuntimeObject * L_4 = ___value1;
 		NullCheck(L_2);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(32 /* System.Void System.Collections.SortedList::set_Item(System.Object,System.Object) */, L_2, L_3, L_4);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(33 /* System.Void System.Collections.SortedList::set_Item(System.Object,System.Object) */, L_2, L_3, L_4);
 		IL2CPP_LEAVE(0x2A, FINALLY_0020);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -23778,6 +23778,72 @@ IL_002a:
 		return L_7;
 	}
 }
+// System.Boolean System.Collections.SortedList/SyncSortedList::ContainsKey(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SyncSortedList_ContainsKey_m7CA5C7522F311E3ACA49AF061198092221189FF1 (SyncSortedList_t144C2A188AE608D832DBA393CC114DF3AF0696C3 * __this, RuntimeObject * ___key0, const RuntimeMethod* method)
+{
+	RuntimeObject * V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	Exception_t * __last_unhandled_exception = 0;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
+	{
+		RuntimeObject * L_0 = __this->get__root_10();
+		V_0 = L_0;
+		V_1 = (bool)0;
+	}
+
+IL_0009:
+	try
+	{ // begin try (depth: 1)
+		RuntimeObject * L_1 = V_0;
+		Monitor_Enter_mBEB6CC84184B46F26375EC3FC8921D16E48EA4C4(L_1, (bool*)(&V_1), /*hidden argument*/NULL);
+		SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * L_2 = __this->get__list_9();
+		RuntimeObject * L_3 = ___key0;
+		NullCheck(L_2);
+		bool L_4;
+		L_4 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(24 /* System.Boolean System.Collections.SortedList::ContainsKey(System.Object) */, L_2, L_3);
+		V_2 = L_4;
+		IL2CPP_LEAVE(0x2A, FINALLY_0020);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t *)e.ex;
+		goto FINALLY_0020;
+	}
+
+FINALLY_0020:
+	{ // begin finally (depth: 1)
+		{
+			bool L_5 = V_1;
+			if (!L_5)
+			{
+				goto IL_0029;
+			}
+		}
+
+IL_0023:
+		{
+			RuntimeObject * L_6 = V_0;
+			Monitor_Exit_mA776B403DA88AC77CDEEF67AB9F0D0E77ABD254A(L_6, /*hidden argument*/NULL);
+		}
+
+IL_0029:
+		{
+			IL2CPP_END_FINALLY(32)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(32)
+	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x2A, IL_002a)
+	}
+
+IL_002a:
+	{
+		bool L_7 = V_2;
+		return L_7;
+	}
+}
 // System.Boolean System.Collections.SortedList/SyncSortedList::ContainsValue(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SyncSortedList_ContainsValue_m686FD8B00E273F7D4119DD3193542922E61F5BE7 (SyncSortedList_t144C2A188AE608D832DBA393CC114DF3AF0696C3 * __this, RuntimeObject * ___key0, const RuntimeMethod* method)
 {
@@ -23801,7 +23867,7 @@ IL_0009:
 		RuntimeObject * L_3 = ___key0;
 		NullCheck(L_2);
 		bool L_4;
-		L_4 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(24 /* System.Boolean System.Collections.SortedList::ContainsValue(System.Object) */, L_2, L_3);
+		L_4 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(25 /* System.Boolean System.Collections.SortedList::ContainsValue(System.Object) */, L_2, L_3);
 		V_2 = L_4;
 		IL2CPP_LEAVE(0x2A, FINALLY_0020);
 	} // end try (depth: 1)
@@ -23866,7 +23932,7 @@ IL_0009:
 		RuntimeArray * L_3 = ___array0;
 		int32_t L_4 = ___index1;
 		NullCheck(L_2);
-		VirtActionInvoker2< RuntimeArray *, int32_t >::Invoke(25 /* System.Void System.Collections.SortedList::CopyTo(System.Array,System.Int32) */, L_2, L_3, L_4);
+		VirtActionInvoker2< RuntimeArray *, int32_t >::Invoke(26 /* System.Void System.Collections.SortedList::CopyTo(System.Array,System.Int32) */, L_2, L_3, L_4);
 		IL2CPP_LEAVE(0x2A, FINALLY_0020);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -23930,7 +23996,7 @@ IL_0009:
 		int32_t L_3 = ___index0;
 		NullCheck(L_2);
 		RuntimeObject * L_4;
-		L_4 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(26 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_2, L_3);
+		L_4 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_2, L_3);
 		V_2 = L_4;
 		IL2CPP_LEAVE(0x2A, FINALLY_0020);
 	} // end try (depth: 1)
@@ -23995,7 +24061,7 @@ IL_0009:
 		SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * L_2 = __this->get__list_9();
 		NullCheck(L_2);
 		RuntimeObject* L_3;
-		L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(27 /* System.Collections.IDictionaryEnumerator System.Collections.SortedList::GetEnumerator() */, L_2);
+		L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(28 /* System.Collections.IDictionaryEnumerator System.Collections.SortedList::GetEnumerator() */, L_2);
 		V_2 = L_3;
 		IL2CPP_LEAVE(0x29, FINALLY_001f);
 	} // end try (depth: 1)
@@ -24061,7 +24127,7 @@ IL_0009:
 		int32_t L_3 = ___index0;
 		NullCheck(L_2);
 		RuntimeObject * L_4;
-		L_4 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(28 /* System.Object System.Collections.SortedList::GetKey(System.Int32) */, L_2, L_3);
+		L_4 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(29 /* System.Object System.Collections.SortedList::GetKey(System.Int32) */, L_2, L_3);
 		V_2 = L_4;
 		IL2CPP_LEAVE(0x2A, FINALLY_0020);
 	} // end try (depth: 1)
@@ -24126,7 +24192,7 @@ IL_0009:
 		SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * L_2 = __this->get__list_9();
 		NullCheck(L_2);
 		RuntimeObject* L_3;
-		L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(29 /* System.Collections.IList System.Collections.SortedList::GetKeyList() */, L_2);
+		L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(30 /* System.Collections.IList System.Collections.SortedList::GetKeyList() */, L_2);
 		V_2 = L_3;
 		IL2CPP_LEAVE(0x29, FINALLY_001f);
 	} // end try (depth: 1)
@@ -24191,7 +24257,7 @@ IL_0009:
 		SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * L_2 = __this->get__list_9();
 		NullCheck(L_2);
 		RuntimeObject* L_3;
-		L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(30 /* System.Collections.IList System.Collections.SortedList::GetValueList() */, L_2);
+		L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(31 /* System.Collections.IList System.Collections.SortedList::GetValueList() */, L_2);
 		V_2 = L_3;
 		IL2CPP_LEAVE(0x29, FINALLY_001f);
 	} // end try (depth: 1)
@@ -24273,7 +24339,7 @@ IL_0021:
 		RuntimeObject * L_6 = ___key0;
 		NullCheck(L_5);
 		int32_t L_7;
-		L_7 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(33 /* System.Int32 System.Collections.SortedList::IndexOfKey(System.Object) */, L_5, L_6);
+		L_7 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(34 /* System.Int32 System.Collections.SortedList::IndexOfKey(System.Object) */, L_5, L_6);
 		V_2 = L_7;
 		IL2CPP_LEAVE(0x42, FINALLY_0038);
 	} // end try (depth: 1)
@@ -24339,7 +24405,7 @@ IL_0009:
 		RuntimeObject * L_3 = ___value0;
 		NullCheck(L_2);
 		int32_t L_4;
-		L_4 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(34 /* System.Int32 System.Collections.SortedList::IndexOfValue(System.Object) */, L_2, L_3);
+		L_4 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(35 /* System.Int32 System.Collections.SortedList::IndexOfValue(System.Object) */, L_2, L_3);
 		V_2 = L_4;
 		IL2CPP_LEAVE(0x2A, FINALLY_0020);
 	} // end try (depth: 1)
@@ -24403,7 +24469,7 @@ IL_0009:
 		SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * L_2 = __this->get__list_9();
 		int32_t L_3 = ___index0;
 		NullCheck(L_2);
-		VirtActionInvoker1< int32_t >::Invoke(35 /* System.Void System.Collections.SortedList::RemoveAt(System.Int32) */, L_2, L_3);
+		VirtActionInvoker1< int32_t >::Invoke(36 /* System.Void System.Collections.SortedList::RemoveAt(System.Int32) */, L_2, L_3);
 		IL2CPP_LEAVE(0x29, FINALLY_001f);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -24465,7 +24531,7 @@ IL_0009:
 		SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * L_2 = __this->get__list_9();
 		RuntimeObject * L_3 = ___key0;
 		NullCheck(L_2);
-		VirtActionInvoker1< RuntimeObject * >::Invoke(36 /* System.Void System.Collections.SortedList::Remove(System.Object) */, L_2, L_3);
+		VirtActionInvoker1< RuntimeObject * >::Invoke(37 /* System.Void System.Collections.SortedList::Remove(System.Object) */, L_2, L_3);
 		IL2CPP_LEAVE(0x29, FINALLY_001f);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -24589,7 +24655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueList_Contains_m4943CDD3F83493FC060A
 		RuntimeObject * L_1 = ___value0;
 		NullCheck(L_0);
 		bool L_2;
-		L_2 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(24 /* System.Boolean System.Collections.SortedList::ContainsValue(System.Object) */, L_0, L_1);
+		L_2 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(25 /* System.Boolean System.Collections.SortedList::ContainsValue(System.Object) */, L_0, L_1);
 		return L_2;
 	}
 }
@@ -24655,7 +24721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * ValueList_get_Item_mA399E598F
 		int32_t L_1 = ___index0;
 		NullCheck(L_0);
 		RuntimeObject * L_2;
-		L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(26 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_0, L_1);
+		L_2 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_0, L_1);
 		return L_2;
 	}
 }
@@ -33962,7 +34028,7 @@ IL_0033:
 			SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * L_11 = __this->get_list_1();
 			NullCheck(L_11);
 			RuntimeObject * L_12;
-			L_12 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(26 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_11, 0);
+			L_12 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_11, 0);
 			Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB * L_13 = ___timer0;
 			V_0 = (bool)((((RuntimeObject*)(RuntimeObject *)L_12) == ((RuntimeObject*)(Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB *)L_13))? 1 : 0);
 		}
@@ -34075,7 +34141,7 @@ IL_001d:
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
 		RuntimeObject * L_6;
-		L_6 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(26 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_4, L_5);
+		L_6 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_4, L_5);
 		V_2 = ((Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB *)CastclassSealed((RuntimeObject*)L_6, Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB_il2cpp_TypeInfo_var));
 		Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB * L_7 = V_2;
 		NullCheck(L_7);
@@ -34135,7 +34201,7 @@ IL_004f:
 		int32_t L_21 = V_3;
 		NullCheck(L_20);
 		RuntimeObject * L_22;
-		L_22 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(26 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_20, L_21);
+		L_22 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_20, L_21);
 		V_4 = ((Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB *)CastclassSealed((RuntimeObject*)L_22, Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB_il2cpp_TypeInfo_var));
 		int64_t L_23 = ___nr0;
 		Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB * L_24 = V_4;
@@ -34283,7 +34349,7 @@ IL_0055:
 		int32_t L_18 = V_0;
 		NullCheck(L_17);
 		RuntimeObject * L_19;
-		L_19 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(26 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_17, L_18);
+		L_19 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_17, L_18);
 		NullCheck(((Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB *)CastclassSealed((RuntimeObject*)L_19, Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB_il2cpp_TypeInfo_var)));
 		int64_t L_20 = ((Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB *)CastclassSealed((RuntimeObject*)L_19, Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB_il2cpp_TypeInfo_var))->get_next_run_6();
 		Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB * L_21 = ___timer0;
@@ -34314,7 +34380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Scheduler_InternalRemove_m3154F260BA7
 		Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB * L_1 = ___timer0;
 		NullCheck(L_0);
 		int32_t L_2;
-		L_2 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(33 /* System.Int32 System.Collections.SortedList::IndexOfKey(System.Object) */, L_0, L_1);
+		L_2 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(34 /* System.Int32 System.Collections.SortedList::IndexOfKey(System.Object) */, L_0, L_1);
 		V_0 = L_2;
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_3) < ((int32_t)0)))
@@ -34326,7 +34392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Scheduler_InternalRemove_m3154F260BA7
 		SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * L_4 = __this->get_list_1();
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
-		VirtActionInvoker1< int32_t >::Invoke(35 /* System.Void System.Collections.SortedList::RemoveAt(System.Int32) */, L_4, L_5);
+		VirtActionInvoker1< int32_t >::Invoke(36 /* System.Void System.Collections.SortedList::RemoveAt(System.Int32) */, L_4, L_5);
 	}
 
 IL_001d:
@@ -34440,7 +34506,7 @@ IL_0050:
 			int32_t L_9 = V_5;
 			NullCheck(L_8);
 			RuntimeObject * L_10;
-			L_10 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(26 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_8, L_9);
+			L_10 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_8, L_9);
 			V_9 = ((Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB *)CastclassSealed((RuntimeObject*)L_10, Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB_il2cpp_TypeInfo_var));
 			Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB * L_11 = V_9;
 			NullCheck(L_11);
@@ -34457,7 +34523,7 @@ IL_0071:
 			SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * L_14 = __this->get_list_1();
 			int32_t L_15 = V_5;
 			NullCheck(L_14);
-			VirtActionInvoker1< int32_t >::Invoke(35 /* System.Void System.Collections.SortedList::RemoveAt(System.Int32) */, L_14, L_15);
+			VirtActionInvoker1< int32_t >::Invoke(36 /* System.Void System.Collections.SortedList::RemoveAt(System.Int32) */, L_14, L_15);
 			int32_t L_16 = V_6;
 			V_6 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_16, (int32_t)1));
 			int32_t L_17 = V_5;
@@ -34671,7 +34737,7 @@ IL_01aa:
 			SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * L_62 = __this->get_list_1();
 			NullCheck(L_62);
 			RuntimeObject * L_63;
-			L_63 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(26 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_62, 0);
+			L_63 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_62, 0);
 			NullCheck(((Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB *)CastclassSealed((RuntimeObject*)L_63, Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB_il2cpp_TypeInfo_var)));
 			int64_t L_64 = ((Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB *)CastclassSealed((RuntimeObject*)L_63, Timer_t31BE4EDDA5C1CB5CFDF698231850B47B7F9DE9CB_il2cpp_TypeInfo_var))->get_next_run_6();
 			V_8 = L_64;

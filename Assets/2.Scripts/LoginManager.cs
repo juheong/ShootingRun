@@ -14,6 +14,7 @@ public class LoginManager : MonoBehaviour
     DataManager data;
     PanelController panel;
     TextMeshProUGUI warningText;
+    [SerializeField] TMP_InputField text = null;
 
     private void Start()
     {
@@ -52,6 +53,7 @@ public class LoginManager : MonoBehaviour
             {
                 if (bro.GetStatusCode() =="401")
                 {
+                    Debug.Log(bro.GetMessage());
                     Debug.Log("존재하지 않는 ID입니다.");
                 }
             }
@@ -137,5 +139,16 @@ public class LoginManager : MonoBehaviour
                     break;
             }
         }
+    }
+
+    public void getGooglehash()
+    {
+        Backend.Utils.GetGoogleHash();
+
+        //example
+        string googlehash = Backend.Utils.GetGoogleHash();
+
+        Debug.Log("구글 해시 키 : " + googlehash);
+        text.text = googlehash;
     }
 }
