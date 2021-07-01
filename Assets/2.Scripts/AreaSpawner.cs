@@ -62,7 +62,7 @@ public class AreaSpawner : MonoBehaviour
             isSpawn = Random.Range(0, 10);       //스폰 할 것 인지 말 것인지 (70%)
             if (isSpawn > 2)
             {
-                index = Random.Range(0, 3);       //각 몬스터 스폰 확률 (0=range, 1=burrow, 2=rush)
+                index = Random.Range(0, 4);       //각 몬스터 스폰 확률 (0=range, 1=burrow, 2=rush)
      
                 Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //1st몬스터 생성, 마지막은 몬스터 회전
                 X_coord += 1.5f;        //2번째 몬스터를 위한 X값 변경
@@ -72,7 +72,7 @@ public class AreaSpawner : MonoBehaviour
             isSpawn = Random.Range(0, 10);
             if (isSpawn > 2)
             {
-                index = Random.Range(0, 3);     
+                index = Random.Range(0, 4);     
 
                 index = 3;
                 index = Random.Range(0, enemies.Length);    //2nd 몬스터 랜덤 지정
@@ -85,7 +85,7 @@ public class AreaSpawner : MonoBehaviour
             isSpawn = Random.Range(0, 10);
             if (isSpawn > 2)
             {
-                index = Random.Range(0, 3);
+                index = Random.Range(0, 4);
 
                 index = Random.Range(0, enemies.Length);    //3rd 몬스터 랜덤 지정
                 Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //3rd몬스터 생성
@@ -100,7 +100,7 @@ public class AreaSpawner : MonoBehaviour
             if (loc == 0)       //좌측
             {
                 Vector3 enem_transform = new Vector3(-1.5f, 0, playerTransform.position.z + 30);    //이벤트 좌표값
-                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 85, 0)));   //rotation
+                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 84, 0)));   //rotation
             }
             else if(loc ==1)        //중간
             {
@@ -110,7 +110,7 @@ public class AreaSpawner : MonoBehaviour
             else           //우츨
             {
                 Vector3 enem_transform = new Vector3(1.5f, 0, playerTransform.position.z + 30);
-                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 95, 0)));
+                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 96, 0)));
             }
         }
         else if (clear == 23)              //일정 타일 생성 후 중간보스 스폰

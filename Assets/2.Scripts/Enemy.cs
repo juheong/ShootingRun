@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public enum Type {Basic, Rush, Range,Burrow};
+    public enum Type {Basic, Rush, Range ,Burrow, Sneak};
     public Type enemyType;
     [SerializeField]
     private int maxHealth;
@@ -17,6 +17,7 @@ public class Enemy : MonoBehaviour
     SkinnedMeshRenderer[] meshs;
     Animator anim;
     private float attackTime = 2f;
+    GameObject Player;
 
     private void Awake()
     {
@@ -29,14 +30,29 @@ public class Enemy : MonoBehaviour
             default:
                 break;
             case Type.Burrow:
+                attackTime = 0.3f;
+                break;
+            case Type.Sneak:
                 attackTime = 0.5f;
                 break;
         }
         InvokeRepeating("Attack", 1, attackTime);
+        Player = GameObject.FindWithTag("Player");
     }
     void Start()
     {
         Destroy(this.gameObject, 5f);
+    }
+    private void Update()
+    {
+        switch (enemyType)
+        {
+            default:
+                break;
+            case Type.Sneak:
+                this.transform.LookAt(Player.transform);
+                break;
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -75,10 +91,16 @@ public class Enemy : MonoBehaviour
                     rigidBullet.velocity = transform.forward * 20;
                     break;
                 case Type.Burrow:
-                    GameObject Player = GameObject.Find("Player");
                     if (Vector3.Distance(Player.transform.position, this.transform.position)<=15f)      //플레이어와 근접했을 때에만 공격
                          anim.SetTrigger("onAttack");                    
-                    Invoke("Burrow", 0.5f);                    
+                    Invoke("Burrow", 0.5f);
+                    break;
+                case Type.Sneak:
+                    if (Vector3.Distance(Player.transform.position, this.transform.position) <= 11f)     //플레이어와 근접했을 때에만 
+                    {
+                        anim.SetTrigger("onAttack");
+                        StartCoroutine(Bee_Sting());
+                    }
                     break;
             }
         }
@@ -88,7 +110,22 @@ public class Enemy : MonoBehaviour
     {        
         gameObject.layer = 10;
     }
+    IEnumerator Bee_Sting()     // 벌 공격
+    {
+        for(int i=0;i<3;i++)        //플레이어에게 이동
+        {
+            transform.position = Vector3.Slerp(transform.position, Player.transform.position, 0.09f);
+        }
+        isDie = true;
+        yield return new WaitForSeconds(0.5f);
 
+        foreach (SkinnedMeshRenderer mesh in meshs)
+            mesh.material.color = Color.gray;
+        LayerUpdate(gameObject.transform, "EnemyDead");     //공격 후 사망
+        gameObject.tag = "EnemyDead";
+        anim.SetTrigger("doDie");
+        Destroy(gameObject, 0.5f);
+    }
     IEnumerator OnDamage(Vector3 reactVec)
     {
         foreach (SkinnedMeshRenderer mesh in meshs)
