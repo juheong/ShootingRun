@@ -20,6 +20,58 @@ public class PlayerData
     public string uuid;
     public bool[] ch1_clear = new bool[100];
     public int[] ch1_score = new int[100];
+    public string equip;
+}
+
+[Serializable]
+public class WeaponData
+{
+    private int id;
+    private string name;
+    private string type;
+    private string discription;
+    private int damage;
+    private float rate;
+    private float range;
+    public WeaponData(int id, string name, string type, string discription, int damage, float rate, float range)
+    {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+        this.discription = discription;
+        this.damage = damage;
+        this.rate = rate;
+        this.range = range;
+    }
+    
+    public int getId()
+    {
+        return this.id;
+    }
+    public string getName()
+    {
+        return this.name;
+    }
+    public string getType()
+    {
+        return this.type;
+    }
+    public string getDis()
+    {
+        return this.discription;
+    }
+    public int getDamage()
+    {
+        return this.damage;
+    }
+    public float getRate()
+    {
+        return this.rate;
+    }
+    public float getRange()
+    {
+        return this.range;
+    }
 }
 
 public class DataManager : MonoBehaviour
@@ -32,7 +84,10 @@ public class DataManager : MonoBehaviour
     private TextMeshProUGUI textCoin;
     [SerializeField]
     private TextMeshProUGUI textExp;
+    [SerializeField]
+
     public PlayerData player;
+    public WeaponData[] weapon;
 
     private void Update()
     {
@@ -50,7 +105,7 @@ public class DataManager : MonoBehaviour
         param.Add("Exp", Exp);
         param.Add("Coin", Coin);
 
-        bool[] equipment = { true, true, true, true, true, true };
+        string equipment = "PBR";
 
         param.Add("Equip", equipment);
 
@@ -115,12 +170,7 @@ public class DataManager : MonoBehaviour
             var level = bro.Rows()[i]["Level"]["N"].ToString();
             var exp = bro.Rows()[i]["Exp"]["N"].ToString();
             var coin = bro.Rows()[i]["Coin"]["N"].ToString();
-            var weapon1 = bro.GetFlattenJSON()["rows"][0]["Equip"][0].ToString();
-            var weapon2 = bro.GetFlattenJSON()["rows"][0]["Equip"][1].ToString();
-            var weapon3 = bro.GetFlattenJSON()["rows"][0]["Equip"][2].ToString();
-            var weapon4 = bro.GetFlattenJSON()["rows"][0]["Equip"][3].ToString();
-            var weapon5 = bro.GetFlattenJSON()["rows"][0]["Equip"][4].ToString();
-            var weapon6 = bro.GetFlattenJSON()["rows"][0]["Equip"][5].ToString();
+            var equip = bro.Rows()[i]["Equip"]["S"].ToString();
             var indate = bro2.GetReturnValuetoJSON()["row"]["inDate"].ToString();         
          
             player.indate = indate;
@@ -128,17 +178,18 @@ public class DataManager : MonoBehaviour
             player.level = int.Parse(level);
             player.current_exp = int.Parse(exp);
             player.coin = int.Parse(coin);
+            player.equip = equip;
             BackendReturnObject bro3 = Backend.Chart.GetChartList();            
             if (bro3.IsSuccess())
             {
 
                 var uuid = bro3.GetReturnValuetoJSON()["rows"][1]["selectedChartFileId"]["N"].ToString();
-                BackendReturnObject bro4 = Backend.Chart.GetOneChartAndSave(uuid, "Level");                
+                BackendReturnObject bro4 = Backend.Chart.GetAllChartAndSave(true);                
                 if (bro4.IsSuccess())
                 {
-                    Debug.Log("레벨 차트 로드 성공");
-                    JsonData chartJson = JsonMapper.ToObject(Backend.Chart.GetLocalChartData("Level"));
-                    var rows = chartJson["rows"];                            
+                    Debug.Log("차트 로드 성공");
+                    JsonData levelChart = JsonMapper.ToObject(Backend.Chart.GetLocalChartData("Level"));
+                    var rows = levelChart["rows"];                            
                     for (int j = 0; j < rows.Count; j++)
                     {
                         var lev = rows[j]["Level"]["S"].ToString();
@@ -149,7 +200,23 @@ public class DataManager : MonoBehaviour
                         {
                             player.next_exp = player.expChart[j];
                         }
-                    }                     
+                    }
+                    JsonData weaponChart = JsonMapper.ToObject(Backend.Chart.GetLocalChartData("Weapon"));
+                    var rows2 = weaponChart["rows"];
+                    weapon = new WeaponData[rows2.Count];
+                    for (int j = 0; j < rows2.Count; j++)
+                    {
+                        var id = rows2[j]["itemID"]["S"].ToString();
+                        var weaponname = rows2[j]["name"]["S"].ToString();
+                        var type = rows2[j]["type"]["S"].ToString();
+                        var dis = rows2[j]["discription"]["S"].ToString();
+                        var damage = rows2[j]["damage"]["S"].ToString();
+                        var rate = rows2[j]["rate"]["S"].ToString();
+                        var range = rows2[j]["range"]["S"].ToString();
+                        weapon[j] = new WeaponData(int.Parse(id), weaponname, type, dis, int.Parse(damage), 
+                            float.Parse(rate), float.Parse(range));
+                    }
+
                 }                                                   
                 else
                 {
@@ -200,6 +267,7 @@ public class DataManager : MonoBehaviour
 
     public void SetText()
     {
+        //========== 유저 데이터 표시 =============
         textName.text = player.nickname;
         textLevel.text = player.level.ToString();
         textCoin.text = player.coin.ToString();
@@ -270,6 +338,20 @@ public class DataManager : MonoBehaviour
         }
     }
 
+    public void equipUpdate(string name)
+    {
+        Param param = new Param();
+        param.Add("Equip", name);
+
+        Where where = new Where();
+        where.Equal("owner_inDate", player.indate);
+        BackendReturnObject bro = Backend.GameData.Update("User", where, param);
+        if (bro.IsSuccess())
+        {
+            Debug.Log("장비장착 업데이트 성공");
+        }
+    }
+
     public string getName()
     {
         return player.nickname;
@@ -284,7 +366,7 @@ public class DataManager : MonoBehaviour
     {
         return player.current_exp;
     }
-
+   
     private void errorCode(string code, string msg)
     {
         switch (code)
