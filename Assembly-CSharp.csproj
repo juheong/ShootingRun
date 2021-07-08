@@ -88,6 +88,7 @@
      <Compile Include="Assets\2.Scripts\UI\ScrollScript.cs" />
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECEffectActor.cs" />
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECprojectileActor.cs" />
+     <Compile Include="Assets\2.Scripts\WeaponDataSet.cs" />
      <Compile Include="Assets\2.Scripts\BossManager.cs" />
      <Compile Include="Assets\2.Scripts\MiddleBoss.cs" />
      <Compile Include="Assets\2.Scripts\UI\WeaponSelection.cs" />
