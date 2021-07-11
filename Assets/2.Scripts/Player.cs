@@ -201,11 +201,11 @@ public class Player : MonoBehaviour
     private IEnumerator OnMoveToYdown()
     {
         isSlide = true;
+        GetComponent<CapsuleCollider>().center = new Vector3(0, 0, 0);
         playerAnimator.OnSlide();
-        this.gameObject.layer = 8;
         yield return new WaitForSeconds(moveTimeYdown);
         isSlide = false;
-        this.gameObject.layer = 3;
+        GetComponent<CapsuleCollider>().center = new Vector3(0, 1.1f, 0);
     }
 
     private void OnTriggerEnter(Collider other)

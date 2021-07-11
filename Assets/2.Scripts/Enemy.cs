@@ -112,9 +112,10 @@ public class Enemy : MonoBehaviour
     }
     IEnumerator Bee_Sting()     // 벌 공격
     {
-        for(int i=0;i<3;i++)        //플레이어에게 이동
+        gameObject.layer = 17;
+        for (int i=0;i<3;i++)        //플레이어에게 이동
         {
-            transform.position = Vector3.Slerp(transform.position, Player.transform.position, 0.09f);
+            transform.position = Vector3.Slerp(transform.position, Player.transform.position, 0.092f);
         }
         isDie = true;
         yield return new WaitForSeconds(0.5f);

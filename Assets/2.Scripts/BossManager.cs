@@ -97,7 +97,7 @@ public class BossManager : MonoBehaviour
             switch (index)
             {
                 case 0:
-                    StartCoroutine(Slash());
+                    StartCoroutine(Jump());
                     break;
                 case 1:
                     StartCoroutine(Bite());
