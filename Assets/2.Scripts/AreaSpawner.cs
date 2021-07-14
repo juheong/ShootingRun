@@ -1,4 +1,9 @@
 ﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class AreaSpawner : MonoBehaviour
 {
@@ -14,6 +19,9 @@ public class AreaSpawner : MonoBehaviour
     private int areaIndex = 0;
     [SerializeField]
     private bool isBoss = false;
+
+    //public TextMeshProUGUI text;
+    public PanelController panelController;
 
     [SerializeField]
     private Transform playerTransform;
@@ -54,7 +62,7 @@ public class AreaSpawner : MonoBehaviour
 
         int isSpawn,index;
         index = 0;
-        if (clear >=5 && clear < 20)
+        if (clear >=5&&clear<=42)
         {
             float X_coord = -1.5f;        //몬스터 X좌표
             Vector3 enem_transform = new Vector3(X_coord, 0, playerTransform.position.z+ 40);    //몬스터의 좌표값
@@ -113,12 +121,18 @@ public class AreaSpawner : MonoBehaviour
                 Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 96, 0)));
             }
         }
-        else if (clear == 23)              //일정 타일 생성 후 중간보스 스폰
+        if(clear==45)       //clear 변수가 일정수준 도달했을 경우 패널을 띄운 뒤 변수 초기화
+        {
+            Time.timeScale = 0;
+            panelController.OpenPanel(3);
+            clear = 0;
+        }
+       /* else if (clear == 23)              //일정 타일 생성 후 중간보스 스폰
         {
             Vector3 enem_transform = new Vector3(0, 0, playerTransform.position.z + 15);
             middle = Instantiate(middleboss, enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));
             clear++;
-        }
+        }*/
     }
 
 }

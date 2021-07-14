@@ -53,9 +53,11 @@ public class Player : MonoBehaviour
     private bool isFireReady;
     private bool isScene = true;
 
+    public int score;
 
     private void Awake()
     {
+        score = 0;
         uiObject.SetActive(false);
         rigibody = GetComponent<Rigidbody>();
         playerAnimator = GetComponentInChildren<PlayerAnimator>();
@@ -74,9 +76,11 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (!isScene) { 
+        if (!isScene)
+        { 
             if (!isDie)
             {
+                score++;
                 if (isBoss == true)
                 {
                     transform.position += Vector3.back * moveSpeed * Time.deltaTime;

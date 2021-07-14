@@ -153,6 +153,7 @@ public class Enemy : MonoBehaviour
             //rigid.freezeRotation = false;
             //rigid.AddForce(reactVec * 10, ForceMode.Impulse);
             Destroy(gameObject, 1f);
+            Player.GetComponent<Player>().score += 300;
         }
     }
 

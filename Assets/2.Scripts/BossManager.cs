@@ -157,7 +157,7 @@ public class BossManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         Vector3 Bul_position = transform.position;
-        Bul_position += new Vector3(0f, 1.5f, 0f);
+        Bul_position += new Vector3(0f, 2f, 0f);
         GameObject instantBullet = Instantiate(bullet[2], Bul_position, transform.rotation);
         Destroy(instantBullet, 2f);
     }
