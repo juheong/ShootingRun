@@ -105,7 +105,7 @@ public class DataManager : MonoBehaviour
         param.Add("Exp", Exp);
         param.Add("Coin", Coin);
 
-        string equipment = "PBR";
+        string equipment = "AK74";
 
         param.Add("Equip", equipment);
 

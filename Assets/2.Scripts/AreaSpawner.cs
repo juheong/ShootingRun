@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
@@ -11,7 +10,7 @@ public class AreaSpawner : MonoBehaviour
     private GameObject[] areaPrefabs;
     public Enemy[] enemies;
     public Enemy[] events;
-    public MiddleBoss middleboss;
+    //public MiddleBoss middleboss;
     [SerializeField]
     private int spawnAreaCountAtStart = 3;
     [SerializeField]
@@ -58,7 +57,7 @@ public class AreaSpawner : MonoBehaviour
 
     public void SpawnMonster()
     {
-        MiddleBoss middle;
+        //MiddleBoss middle;
 
         int isSpawn,index;
         index = 0;

@@ -12,17 +12,22 @@ public class WeaponSelection : MonoBehaviour
 	public Sprite basicSprite;
 	public Sprite equipSprite;
 	private DataManager data;
+	private MenuCharacter character;
 	GameObject obj1;
 	GameObject obj2;
+	GameObject obj3;
 
 	private void Start()
 	{
 		obj1 = GameObject.Find("DataManager");
 		data = obj1.GetComponent<DataManager>();
+		obj3 = GameObject.Find("Characters");
+		character = obj3.GetComponent<MenuCharacter>();
 	}
 
 	public void InitialWeapon(string name)
 	{
+		character.Change(name);
 		obj2 = GameObject.Find(name);
 		equipImage = obj2.GetComponent<Image>();
 		equipImage.sprite = equipSprite;
@@ -67,8 +72,12 @@ public class WeaponSelection : MonoBehaviour
 		equipImage = weapon[selectedWeapon].GetComponent<Image>();
 		equipImage.sprite = equipSprite;
 		weapon[selectedWeapon].transform.Find("Text_State").gameObject.SetActive(true);
+		character.Disabled(weapon[equipedWeapon].name);
 		equipedWeapon = selectedWeapon;
+		character.Change(weapon[equipedWeapon].name);
 		data.equipUpdate(weapon[equipedWeapon].name);
+		
+		
 		
 	}
 }
