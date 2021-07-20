@@ -19,7 +19,7 @@ public class GameController : MonoBehaviour
     private TextMeshProUGUI textlevel;
     [SerializeField]
     private TextMeshProUGUI textexp;
-    public Slider sliderHeathCount;
+    public Slider sliderHealthCount;
     private int healthCount = 100;
     private DataManager data;
     GameObject obj1;
@@ -52,7 +52,7 @@ public class GameController : MonoBehaviour
     public void InitialHealth(int health)
     {
         healthCount = health;
-        sliderHeathCount.value = (float)healthCount/100f;
+        sliderHealthCount.value = (float)healthCount/100f;
         //textHealthCount.text = healthCount.ToString();
     }
 
@@ -73,7 +73,7 @@ public class GameController : MonoBehaviour
             healthCount -= damage;
         }
 
-        sliderHeathCount.value = (float)healthCount/100f;
+        sliderHealthCount.value = (float)healthCount/100f;
         //textHealthCount.text = healthCount.ToString();
     }
 

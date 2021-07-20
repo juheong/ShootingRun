@@ -367,6 +367,10 @@ public class DataManager : MonoBehaviour
         return player.current_exp;
     }
    
+    public string getEquip()
+    {
+        return player.equip;
+    }
     private void errorCode(string code, string msg)
     {
         switch (code)

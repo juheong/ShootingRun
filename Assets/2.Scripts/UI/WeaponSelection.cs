@@ -7,50 +7,63 @@ public class WeaponSelection : MonoBehaviour
 {
 	public GameObject[] weapon;
 	public static int selectedWeapon = 0;
-	public static int equipedWeapon = 0;
+	public static int equipedWeapon = -1;
 	private Image equipImage;
 	public Sprite basicSprite;
 	public Sprite equipSprite;
 	private DataManager data;
 	private MenuCharacter character;
+	private TabManager tab;
 	GameObject obj1;
 	GameObject obj2;
 	GameObject obj3;
+	GameObject obj4;
+
 
 	private void Start()
 	{
 		obj1 = GameObject.Find("DataManager");
 		data = obj1.GetComponent<DataManager>();
-		obj3 = GameObject.Find("Characters");
+		obj3 = GameObject.Find("C_1");
 		character = obj3.GetComponent<MenuCharacter>();
+		obj4 = GameObject.Find("TopTab_Eq");
+		tab = obj4.GetComponent<TabManager>();
 	}
 
 	public void InitialWeapon(string name)
 	{
 		character.Change(name);
-		obj2 = GameObject.Find(name);
-		equipImage = obj2.GetComponent<Image>();
-		equipImage.sprite = equipSprite;
-		obj2.transform.Find("Text_State").gameObject.SetActive(true);
 		switch (name)
         {
 			case "M1911":
-				equipedWeapon = 0;
+				tab.TabClick(0);
+				SelectWeapon(0);
+				EquipWeapon();
 				break;
 			case "PBR":
-				equipedWeapon = 1;
+				tab.TabClick(0);
+				SelectWeapon(1);
+				EquipWeapon();
 				break;
 			case "AK74":
-				equipedWeapon = 2;
+				tab.TabClick(1);				
+				SelectWeapon(2);
+				EquipWeapon();
 				break;
 			case "M4_8":
-				equipedWeapon = 3;
+				tab.TabClick(1);
+				SelectWeapon(3);
+				EquipWeapon();
 				break;
 			case "M107":
-				equipedWeapon = 4;
+				tab.TabClick(2);
+				SelectWeapon(4);
+				EquipWeapon();
 				break;
 			case "SVD":
-				equipedWeapon = 5;
+				tab.TabClick(2);
+				SelectWeapon(5);
+				EquipWeapon();
 				break;
 		}
 	}
@@ -65,7 +78,10 @@ public class WeaponSelection : MonoBehaviour
 	public void EquipWeapon()
     {
 		if (equipedWeapon == selectedWeapon) return;
-
+		if (equipedWeapon == -1)
+        {
+			equipedWeapon = selectedWeapon;
+        }
 		equipImage = weapon[equipedWeapon].GetComponent<Image>();
 		equipImage.sprite = basicSprite;
 		weapon[equipedWeapon].transform.Find("Text_State").gameObject.SetActive(false);
@@ -75,9 +91,6 @@ public class WeaponSelection : MonoBehaviour
 		character.Disabled(weapon[equipedWeapon].name);
 		equipedWeapon = selectedWeapon;
 		character.Change(weapon[equipedWeapon].name);
-		data.equipUpdate(weapon[equipedWeapon].name);
-		
-		
-		
+		data.equipUpdate(weapon[equipedWeapon].name);		
 	}
 }

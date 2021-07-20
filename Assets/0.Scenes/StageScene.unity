@@ -100358,7 +100358,7 @@ MonoBehaviour:
   textname: {fileID: 1098315079}
   textlevel: {fileID: 491373593}
   textexp: {fileID: 1184341655}
-  sliderHeathCount: {fileID: 561008204}
+  sliderHealthCount: {fileID: 561008204}
 --- !u!4 &1688787456
 Transform:
   m_ObjectHideFlags: 0

@@ -45,10 +45,15 @@ public class Player : MonoBehaviour
     private GameObject mainCamera;
     [SerializeField]
     private GameObject uiObject;
+
+    private DataManager data;
+    GameObject obj1;
+
     GameObject nearObject;
     Weapon equipWeapon;
     CameraController cameraController;
     SkinnedMeshRenderer[] meshs;
+
     private float fireDelay;
     private bool isFireReady;
     private bool isScene = true;
@@ -62,15 +67,18 @@ public class Player : MonoBehaviour
         rigibody = GetComponent<Rigidbody>();
         playerAnimator = GetComponentInChildren<PlayerAnimator>();
         meshs = GetComponentsInChildren<SkinnedMeshRenderer>();
-        // hasWeapons 배열값들의 트루값을 검사해서 참이면 무기 활성화
-        for (int i = 0; i < hasWeapons.Length; i++)
-        {
-            if (hasWeapons[i] == true)
-            {
-                equipWeapon = weapons[i].GetComponent<Weapon>();
-                equipWeapon.gameObject.SetActive(true);
-            }
-        }
+        obj1 = GameObject.Find("DataManager");
+        data = obj1.GetComponent<DataManager>();
+        EquipWeapon(data.getEquip());
+        //// hasWeapons 배열값들의 트루값을 검사해서 참이면 무기 활성화
+        //for (int i = 0; i < hasWeapons.Length; i++)
+        //{
+        //    if (hasWeapons[i] == true)
+        //    {
+        //        equipWeapon = weapons[i].GetComponent<Weapon>();
+        //        equipWeapon.gameObject.SetActive(true);
+        //    }
+        //}
         StartCoroutine(CameraWalk());
     }
 
@@ -96,6 +104,32 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void EquipWeapon(string name)
+    {
+        switch (name)
+        {
+            case "M1911":
+                obj1 = GameObject.Find("Weapon Point").transform.Find("M1911").gameObject;
+                break;
+            case "PBR":
+                obj1 = GameObject.Find("Weapon Point").transform.Find("PBR").gameObject;
+                break;
+            case "AK74":
+                obj1 = GameObject.Find("Weapon Point").transform.Find("AK74").gameObject;
+                break;
+            case "M4_8":
+                obj1 = GameObject.Find("Weapon Point").transform.Find("M4_8").gameObject;              
+                break;
+            case "M107":
+                obj1 = GameObject.Find("Weapon Point").transform.Find("M107").gameObject;
+                break;
+            case "SVD":
+                obj1 = GameObject.Find("Weapon Point").transform.Find("SVD").gameObject;
+                break;
+        }
+        obj1.SetActive(true);
+        equipWeapon = obj1.GetComponent<Weapon>();
+    }
     private void FixedUpdate()
     {
         if (rot == true)
@@ -296,7 +330,7 @@ public class Player : MonoBehaviour
 
     public void Attack()
     {
-        if (equipWeapon == null) return;
+        if (equipWeapon == null) return;        
         fireDelay += Time.deltaTime;
         isFireReady = equipWeapon.rate < fireDelay;
         if (isFireReady && !isSlide && !isJump)

@@ -134,47 +134,47 @@ public class AreaSpawner : MonoBehaviour
         }*/
     }
 
-    /*public void SpawnTree()
-    {
+    //public void SpawnTree()
+    //{
 
-        private void CheckDirection(Vector3 _rotationDir)  // 어느 방향으로 나뭇 가지를 눕힐지.
-        {
-            Debug.Log(_rotationDir);
+    //    private void CheckDirection(Vector3 _rotationDir)  // 어느 방향으로 나뭇 가지를 눕힐지.
+    //    {
+    //        Debug.Log(_rotationDir);
 
-            wantedRot = new Vector3(50f, 0f, 50f);
-        }
+    //        wantedRot = new Vector3(50f, 0f, 50f);
+    //    }
 
-        IEnumerator HitSwayCoroutine(Transform _target)
-        {
-            Vector3 direction = (_target.position - transform.position).normalized; // 플레이어가 나뭇가지 로 향하는 방향 
+    //    IEnumerator HitSwayCoroutine(Transform _target)
+    //    {
+    //        Vector3 direction = (_target.position - transform.position).normalized; // 플레이어가 나뭇가지 로 향하는 방향 
 
-            Vector3 rotationDir = Quaternion.LookRotation(direction).eulerAngles;  // 플레이어가 나뭇가지 방향을 바라보는 방향의 각도 값.
+    //        Vector3 rotationDir = Quaternion.LookRotation(direction).eulerAngles;  // 플레이어가 나뭇가지 방향을 바라보는 방향의 각도 값.
 
-            CheckDirection(rotationDir);
+    //        CheckDirection(rotationDir);
 
-            while (!CheckThreadhold())
-            {
-                currentRot = Vector3.Lerp(currentRot, wantedRot, 0.25f);
-                transform.rotation = Quaternion.Euler(currentRot);
-                yield return null;
-            }
+    //        while (!CheckThreadhold())
+    //        {
+    //            currentRot = Vector3.Lerp(currentRot, wantedRot, 0.25f);
+    //            transform.rotation = Quaternion.Euler(currentRot);
+    //            yield return null;
+    //        }
 
-            wantedRot = originRot;
+    //        wantedRot = originRot;
 
-            while (!CheckThreadhold())
-            {
-                currentRot = Vector3.Lerp(currentRot, originRot, 0.15f);
-                transform.rotation = Quaternion.Euler(currentRot);
-                yield return null;
-            }
-        }
+    //        while (!CheckThreadhold())
+    //        {
+    //            currentRot = Vector3.Lerp(currentRot, originRot, 0.15f);
+    //            transform.rotation = Quaternion.Euler(currentRot);
+    //            yield return null;
+    //        }
+    //    }
 
-        private bool CheckThreadhold()
-        {
-            if (Mathf.Abs(wantedRot.x - currentRot.x) <= 0.5f && Mathf.Abs(wantedRot.z - currentRot.z) <= 0.5f)
-                return true;
-            return false;
-        }
-    }*/
+    //    private bool CheckThreadhold()
+    //    {
+    //        if (Mathf.Abs(wantedRot.x - currentRot.x) <= 0.5f && Mathf.Abs(wantedRot.z - currentRot.z) <= 0.5f)
+    //            return true;
+    //        return false;
+    //    }
+    //}
 
 }

@@ -29,11 +29,11 @@ public class LoginManager : MonoBehaviour
         }
         data = GetComponent<DataManager>();
 
-        if (Backend.BMember.GetGuestID() != "")
-        {
-            Backend.BMember.DeleteGuestInfo();
-            Debug.Log("게스트 계정 삭제(테스트용)");
-        }
+        //if (Backend.BMember.GetGuestID() != "")
+        //{
+        //    Backend.BMember.DeleteGuestInfo();
+        //    Debug.Log("게스트 계정 삭제(테스트용)");
+        //}
     }
 
     public void BtnLogin()
