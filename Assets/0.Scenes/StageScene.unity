@@ -28440,7 +28440,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20.00003, y: -20}
+  m_AnchoredPosition: {x: -20, y: -20}
   m_SizeDelta: {x: -59.99999, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &440804036
@@ -35618,7 +35618,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1685989891}
+      - m_Target: {fileID: 1641592605}
         m_TargetAssemblyTypeName: PauseSelection, Assembly-CSharp
         m_MethodName: ExitPause
         m_Mode: 1
@@ -35640,6 +35640,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Button
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1641592604}
+        m_TargetAssemblyTypeName: ButtonUpgrade, Assembly-CSharp
+        m_MethodName: RateUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &620259702
@@ -84201,7 +84213,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1685989891}
+      - m_Target: {fileID: 1641592605}
         m_TargetAssemblyTypeName: PauseSelection, Assembly-CSharp
         m_MethodName: ExitPause
         m_Mode: 1
@@ -84223,6 +84235,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Button
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1641592604}
+        m_TargetAssemblyTypeName: ButtonUpgrade, Assembly-CSharp
+        m_MethodName: AttackUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1555620427
@@ -89935,6 +89959,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1641592602}
   - component: {fileID: 1641592603}
+  - component: {fileID: 1641592604}
+  - component: {fileID: 1641592605}
   m_Layer: 5
   m_Name: Play_Enhance
   m_TagString: Untagged
@@ -89977,6 +90003,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherPanels: []
+--- !u!114 &1641592604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641592601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 553d5e228df0d134db4895bac14e59d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1641592605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641592601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3123c2a648fcf4d4e86a7fac1db53623, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 256028026}
+  panelController: {fileID: 1688787457}
 --- !u!1 &1646460839
 GameObject:
   m_ObjectHideFlags: 0
@@ -95391,7 +95443,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1685989891}
+      - m_Target: {fileID: 1641592605}
         m_TargetAssemblyTypeName: PauseSelection, Assembly-CSharp
         m_MethodName: ExitPause
         m_Mode: 1
@@ -95413,6 +95465,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Button
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1641592604}
+        m_TargetAssemblyTypeName: ButtonUpgrade, Assembly-CSharp
+        m_MethodName: RangeUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1685989890
@@ -123740,6 +123804,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 903442679329007053, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
     - target: {fileID: 1417164283487514028, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: m_Radius
@@ -123775,6 +123844,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2026403478555001968, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 2206151795341842970, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
@@ -123937,15 +124011,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7287407976909812086, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
     - target: {fileID: 7386663105432721309, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7386663105432721309, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112907790199505492, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8112907790199505492, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 8306812427534096690, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
@@ -124154,6 +124243,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8783593062854855117, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 8987377823265290636, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
