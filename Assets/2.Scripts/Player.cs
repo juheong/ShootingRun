@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -59,6 +60,7 @@ public class Player : MonoBehaviour
     private bool isScene = true;
 
     public int score;
+    public TextMeshProUGUI score_text;
 
     private void Awake()
     {
@@ -89,6 +91,8 @@ public class Player : MonoBehaviour
             if (!isDie)
             {
                 score++;
+                score_text.text = score.ToString();
+
                 if (isBoss == true)
                 {
                     transform.position += Vector3.back * moveSpeed * Time.deltaTime;
