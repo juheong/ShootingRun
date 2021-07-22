@@ -28544,7 +28544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -19.99997, y: -20}
+  m_AnchoredPosition: {x: -20, y: -20}
   m_SizeDelta: {x: -59.99999, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &433957621
@@ -34948,7 +34948,9 @@ MonoBehaviour:
   - {fileID: 4380719604489068836, guid: 1d88f3f7ca1d94343b7bfef905937fa7, type: 3}
   - {fileID: 2534821283484074915, guid: 09d87b5b4a76a404f914269615d0ceda, type: 3}
   - {fileID: -3170964242883013218, guid: 2cee46cfa6a54c34286bb4b4be6e780e, type: 3}
-  events: []
+  events:
+  - {fileID: 2951005754433748627, guid: 21132ba80480172419064d6e84f46d67, type: 3}
+  - {fileID: 2951005754433748627, guid: 21132ba80480172419064d6e84f46d67, type: 3}
   spawnAreaCountAtStart: 3
   zDistance: 20
   isBoss: 0

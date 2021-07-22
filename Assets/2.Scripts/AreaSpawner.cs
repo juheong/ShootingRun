@@ -107,7 +107,7 @@ public class AreaSpawner : MonoBehaviour
             }
 
         }
-        if (clear <23)// && clear %5==0)       // clear 조건에 따라 토네이도 이벤트 발생
+        if (clear <23 && clear %5==0)       // clear 조건에 따라 토네이도 이벤트 발생
         {
             int loc;
 
@@ -115,20 +115,20 @@ public class AreaSpawner : MonoBehaviour
             if (loc == 0)       //좌측
             {
                 Vector3 enem_transform = new Vector3(-1.5f, 0, playerTransform.position.z + 30);    //이벤트 좌표값
-                //Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 84, 0)));   //rotation
-                Instantiate(events[1], enem_transform + new Vector3(0, 1f, 0), transform.rotation);   //rotation
+                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 84, 0)));   //rotation
+                //Instantiate(events[1], enem_transform + new Vector3(0, 1f, 0), transform.rotation);   //rotation
             }
             else if(loc ==1)        //중간
             {
                 Vector3 enem_transform = new Vector3(0, 0, playerTransform.position.z + 30);  
-                //Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0)));
-                Instantiate(events[1], enem_transform + new Vector3(0, 1f, 0), transform.rotation);   //rotation
+                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0)));
+                //Instantiate(events[1], enem_transform + new Vector3(0, 1f, 0), transform.rotation);   //rotation
             }
             else           //우츨
             {
                 Vector3 enem_transform = new Vector3(1.5f, 0, playerTransform.position.z + 30);
-                //Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 96, 0)));
-                Instantiate(events[1], enem_transform + new Vector3(0, 1f, 0), transform.rotation);   //rotation
+                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 96, 0)));
+                //Instantiate(events[1], enem_transform + new Vector3(0, 1f, 0), transform.rotation);   //rotation
             }
         }
 
