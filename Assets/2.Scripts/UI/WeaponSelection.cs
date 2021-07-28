@@ -70,9 +70,9 @@ public class WeaponSelection : MonoBehaviour
 
 	public void SelectWeapon(int num)
     {
-		weapon[selectedWeapon].transform.Find("Frame_Focus").gameObject.SetActive(false);
+		weapon[selectedWeapon].transform.parent.Find("Frame_Focus").gameObject.SetActive(false);
 		selectedWeapon = num;
-		weapon[selectedWeapon].transform.Find("Frame_Focus").gameObject.SetActive(true);
+		weapon[selectedWeapon].transform.parent.Find("Frame_Focus").gameObject.SetActive(true);
 	}
 
 	public void EquipWeapon()
@@ -84,10 +84,10 @@ public class WeaponSelection : MonoBehaviour
         }
 		equipImage = weapon[equipedWeapon].GetComponent<Image>();
 		equipImage.sprite = basicSprite;
-		weapon[equipedWeapon].transform.Find("Text_State").gameObject.SetActive(false);
+		weapon[equipedWeapon].transform.parent.Find("Text_State").gameObject.SetActive(false);
 		equipImage = weapon[selectedWeapon].GetComponent<Image>();
 		equipImage.sprite = equipSprite;
-		weapon[selectedWeapon].transform.Find("Text_State").gameObject.SetActive(true);
+		weapon[selectedWeapon].transform.parent.Find("Text_State").gameObject.SetActive(true);
 		character.Disabled(weapon[equipedWeapon].name);
 		equipedWeapon = selectedWeapon;
 		character.Change(weapon[equipedWeapon].name);
