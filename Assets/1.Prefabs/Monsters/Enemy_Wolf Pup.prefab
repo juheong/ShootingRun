@@ -498,6 +498,8 @@ MonoBehaviour:
   enemyType: 1
   maxHealth: 50
   curHealth: 50
+  hudDamageText: {fileID: 7133056171419683482, guid: 29b4b66f16535d343866829af050c5d6,
+    type: 3}
   bullet: {fileID: 0}
 --- !u!1 &5379873672874271425
 GameObject:

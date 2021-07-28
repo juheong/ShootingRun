@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     private int maxHealth;
     [SerializeField]
     private int curHealth;
+    public GameObject hudDamageText;
     public GameObject bullet;
     private bool isDie = false;
     Rigidbody rigid;
@@ -18,7 +19,7 @@ public class Enemy : MonoBehaviour
     Animator anim;
     private float attackTime = 2f;
     GameObject Player;
-
+    
     private void Awake()
     {
         rigid = GetComponent<Rigidbody>();
@@ -58,9 +59,13 @@ public class Enemy : MonoBehaviour
     {
         if(other.tag == "Bullet")
         {
-            if(gameObject.tag != "EnemyDead")
+            Bullet bullet = other.GetComponent<Bullet>();
+
+            GameObject hudText = Instantiate(hudDamageText);
+            hudText.transform.position = transform.position;
+            hudText.GetComponent<TextDamage>().damage = bullet.damage;
+            if (gameObject.tag != "EnemyDead")
             {
-                Bullet bullet = other.GetComponent<Bullet>();
                 curHealth -= bullet.damage;
                 float x = transform.position.x;
                 Vector3 reactVec = transform.position - other.transform.position;
