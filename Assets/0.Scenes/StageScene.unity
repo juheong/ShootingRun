@@ -35212,9 +35212,9 @@ MonoBehaviour:
   - {fileID: 2796754831856130907, guid: 3a9e4532630485145bf3d0b636c0a8e9, type: 3}
   enemies:
   - {fileID: 5691688369305071277, guid: 8257bf9b9d661684486fab49cb86d5db, type: 3}
-  - {fileID: 4380719604489068836, guid: 1d88f3f7ca1d94343b7bfef905937fa7, type: 3}
-  - {fileID: 2534821283484074915, guid: 09d87b5b4a76a404f914269615d0ceda, type: 3}
-  - {fileID: -3170964242883013218, guid: 2cee46cfa6a54c34286bb4b4be6e780e, type: 3}
+  - {fileID: 5691688369305071277, guid: 8257bf9b9d661684486fab49cb86d5db, type: 3}
+  - {fileID: 5691688369305071277, guid: 8257bf9b9d661684486fab49cb86d5db, type: 3}
+  - {fileID: 5691688369305071277, guid: 8257bf9b9d661684486fab49cb86d5db, type: 3}
   events:
   - {fileID: 7024194193267148437, guid: 6ec5cf8c475715042bc15ff5208128e8, type: 3}
   - {fileID: 2951005754433748627, guid: 21132ba80480172419064d6e84f46d67, type: 3}
@@ -130934,6 +130934,12 @@ PrefabInstance:
       propertyPath: sceneCamera
       value: 
       objectReference: {fileID: 1468105799}
+    - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: hudEvadeText
+      value: 
+      objectReference: {fileID: 6526697297244312679, guid: 8286d4a6d42c7d446b775b8e55e7761d,
+        type: 3}
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: gameController

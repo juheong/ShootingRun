@@ -93,6 +93,7 @@
      <Compile Include="Assets\2.Scripts\GameController.cs" />
      <Compile Include="Assets\2.Scripts\UI\FixedResolution.cs" />
      <Compile Include="Assets\EffectCore\scripts\ECparticleColorChangerMaster.cs" />
+     <Compile Include="Assets\2.Scripts\FloatText.cs" />
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECEffectActor.cs" />
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECprojectileActor.cs" />
      <Compile Include="Assets\2.Scripts\WeaponDataSet.cs" />

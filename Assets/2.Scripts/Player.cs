@@ -61,6 +61,8 @@ public class Player : MonoBehaviour
 
     public int score;
     public TextMeshProUGUI score_text;
+    public GameObject hudEvadeText;
+    int evade;      //회피 여부 확인을 위한 변수
 
     private void Awake()
     {
@@ -87,7 +89,7 @@ public class Player : MonoBehaviour
     private void Update()
     {
         if (!isScene)
-        { 
+        {
             if (!isDie)
             {
                 score++;
@@ -122,7 +124,7 @@ public class Player : MonoBehaviour
                 obj1 = GameObject.Find("Weapon Point").transform.Find("AK74").gameObject;
                 break;
             case "M4_8":
-                obj1 = GameObject.Find("Weapon Point").transform.Find("M4_8").gameObject;              
+                obj1 = GameObject.Find("Weapon Point").transform.Find("M4_8").gameObject;
                 break;
             case "M107":
                 obj1 = GameObject.Find("Weapon Point").transform.Find("M107").gameObject;
@@ -211,6 +213,7 @@ public class Player : MonoBehaviour
             percent = current / moveTimeX;
             float x = Mathf.Lerp(start, end, percent);
             transform.position = new Vector3(x, transform.position.y, transform.position.z);
+
             yield return null;
         }
         isXMove = false;
@@ -223,9 +226,12 @@ public class Player : MonoBehaviour
         float percent = 0;
         float v0 = -gravity;
 
+        evade = 0;
+
         isJump = true;
         rigibody.useGravity = false;
         playerAnimator.OnJump();
+        CheckEvade();        //동작과 함께 회피 체크
         while (percent < 1)
         {
             current += Time.deltaTime;
@@ -236,18 +242,32 @@ public class Player : MonoBehaviour
 
             yield return null;
         }
+        if (evade == 1)     //판정 범위 내에 총알이 있다면 문구 출력
+        {
+            GameObject hudText = Instantiate(hudEvadeText);
+            hudText.transform.position = transform.position;
+            hudText.GetComponent<FloatText>().write = "Evade!";
+        }
         isJump = false;
         rigibody.useGravity = true;
     }
 
     private IEnumerator OnMoveToYdown()
     {
+        evade = 0;
         isSlide = true;
         GetComponent<CapsuleCollider>().center = new Vector3(0, 0, 0);
         playerAnimator.OnSlide();
+        CheckEvade();       //동작과 함께 회피 체크
         yield return new WaitForSeconds(moveTimeYdown);
         isSlide = false;
         GetComponent<CapsuleCollider>().center = new Vector3(0, 1.1f, 0);
+        if (evade == 1)     //판정 범위 내에 총알이 있다면 문구 출력
+        {
+            GameObject hudText = Instantiate(hudEvadeText);
+            hudText.transform.position = transform.position;
+            hudText.GetComponent<FloatText>().write = "Evade!";
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -334,7 +354,7 @@ public class Player : MonoBehaviour
 
     public void Attack()
     {
-        if (equipWeapon == null) return;        
+        if (equipWeapon == null) return;
         fireDelay += Time.deltaTime;
         isFireReady = equipWeapon.rate < fireDelay;
         if (isFireReady && !isSlide && !isJump)
@@ -382,6 +402,27 @@ public class Player : MonoBehaviour
     {
         rot = false;
         rot2 = true;
+    }
+
+    public void CheckEvade()        //회피 판정 함수
+    {
+        List<GameObject> FoundObjects;
+        string TagName = "EnemyBullet";
+
+        FoundObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag(TagName));        //모든 적의 총알 오브젝트를 저장
+        if (FoundObjects.Count == 0)
+            return;
+
+
+        foreach (GameObject found in FoundObjects)
+        {
+
+             if ((found.transform.position.x == transform.position.x) && ((found.transform.position.z - transform.position.z) >= 0f) && ((found.transform.position.z - transform.position.z) <= 15f))       //동작 중 회피가 가능한 범위에 있는 총알이 있다면 회피로 인정
+             {
+                evade = 1;
+             }
+        }
+
     }
 }
 

@@ -63,7 +63,7 @@ public class Enemy : MonoBehaviour
 
             GameObject hudText = Instantiate(hudDamageText);
             hudText.transform.position = transform.position;
-            hudText.GetComponent<TextDamage>().damage = bullet.damage;
+            hudText.GetComponent<FloatText>().write = bullet.damage.ToString();
             if (gameObject.tag != "EnemyDead")
             {
                 curHealth -= bullet.damage;
@@ -90,7 +90,7 @@ public class Enemy : MonoBehaviour
                 case Type.Range:
                     anim.SetTrigger("onAttack");
                     Vector3 position = transform.position;
-                    position += new Vector3(0, 1.7f, 0.2f);
+                    position += new Vector3(0f, 1.7f, 0.1f);
                     GameObject instantBullet = Instantiate(bullet, position, transform.rotation);
                     Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
                     rigidBullet.velocity = transform.forward * 20;
