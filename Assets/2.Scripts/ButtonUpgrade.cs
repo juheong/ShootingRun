@@ -1,12 +1,19 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 
 public class ButtonUpgrade : MonoBehaviour
 {
+    public TextMeshProUGUI Attacktext;
+    public TextMeshProUGUI Rangetext;
+    public TextMeshProUGUI Ratetext;
     GameObject Player;
     GameObject Weapon;
     public GameObject[] Buttons;
+    private int AttackCount = 0;
+    private int RangeCount = 0;
+    private int RateCount = 0;
 
     // Start is called before the first frame update
     private void Awake()
@@ -44,14 +51,20 @@ public class ButtonUpgrade : MonoBehaviour
 
     public void AttackUp()
     {
+        AttackCount += 1;
         Weapon.GetComponent<Weapon>().damage = (int)(Weapon.GetComponent<Weapon>().damage*1.2f);
+        Attacktext.text = "0" + AttackCount.ToString();
     }
     public void RateUp()
     {
+        RateCount += 1;
         Weapon.GetComponent<Weapon>().rate = (Weapon.GetComponent<Weapon>().rate*0.8f);
+        Ratetext.text = "0" + RateCount.ToString();
     }
     public void RangeUp()
     {
+        RangeCount += 1;
         Weapon.GetComponent<Weapon>().range = (Weapon.GetComponent<Weapon>().range * 1.2f);
+        Rangetext.text = "0" + RangeCount.ToString();
     }
 }
