@@ -23392,11 +23392,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 31
-    m_Right: 0
+    m_Left: 0
+    m_Right: 35
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 3
+  m_ChildAlignment: 5
   m_Spacing: 16.8
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
@@ -23456,11 +23456,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 31
-    m_Right: 0
+    m_Left: 0
+    m_Right: 35
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 3
+  m_ChildAlignment: 5
   m_Spacing: 21
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
@@ -28811,7 +28811,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: -20}
+  m_AnchoredPosition: {x: -19.99997, y: -20}
   m_SizeDelta: {x: -59.99999, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &433957621
@@ -130405,11 +130405,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 31
-    m_Right: 0
+    m_Left: 0
+    m_Right: 35
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 3
+  m_ChildAlignment: 5
   m_Spacing: 20.65
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
