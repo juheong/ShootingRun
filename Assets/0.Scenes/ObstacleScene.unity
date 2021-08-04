@@ -28811,7 +28811,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: -20}
+  m_AnchoredPosition: {x: -19.99997, y: -20}
   m_SizeDelta: {x: -59.99999, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &433957621
@@ -91630,6 +91630,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 553d5e228df0d134db4895bac14e59d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Attacktext: {fileID: 0}
+  Rangetext: {fileID: 0}
+  Ratetext: {fileID: 0}
   Buttons:
   - {fileID: 1555272221}
   - {fileID: 619115962}
@@ -91740,7 +91743,7 @@ GameObject:
   - component: {fileID: 1651239952}
   - component: {fileID: 1651239951}
   m_Layer: 5
-  m_Name: Stats_Gold (1)
+  m_Name: Stats_Upgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
