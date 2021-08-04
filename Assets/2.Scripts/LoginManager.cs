@@ -46,8 +46,8 @@ public class LoginManager : MonoBehaviour
             if (bro.IsSuccess())
             {
                 Debug.Log("게스트 로그인에 성공했습니다.");
-                panel.OpenSwapPanel(2);
-                data.InsertData();
+                LoadingSceneController.LoadString("MainMenu");
+                panel.OpenSwapPanel(3);
             }
             else
             {
