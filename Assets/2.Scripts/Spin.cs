@@ -16,7 +16,7 @@ public class Spin : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        RotateGameObject(new Vector3((Mathf.Cos(timer) * 0.5f + 0.5f) * 360f, 0f, 0f));
+        RotateGameObject(new Vector3((Mathf.Cos(timer) * 0.5f + 0.5f) * 360f * 2, 0f, 0f));
     }
     
     public void RotateGameObject(Vector3 rotation)

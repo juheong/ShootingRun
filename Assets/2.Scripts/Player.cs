@@ -298,7 +298,7 @@ public class Player : MonoBehaviour
         }
         else if (other.tag == "Obstacle")
         {
-            StartCoroutine(OnDie());
+            StartCoroutine(OnDamage(20));
         }
         else if (other.tag == "Enemy")
         {

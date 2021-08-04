@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public enum Type {Basic, Rush, Range ,Burrow, Sneak};
+    public enum Type {Basic, Rush, Range ,Burrow, Sneak, Stone};
     public Type enemyType;
     [SerializeField]
     private int maxHealth;
@@ -42,6 +42,14 @@ public class Enemy : MonoBehaviour
     }
     void Start()
     {
+        switch (enemyType)
+        {
+            default:
+                break;
+            case Type.Stone:
+                rigid.AddForce(transform.forward * 20, ForceMode.Impulse);
+                break;
+        }
         Destroy(this.gameObject, 5f);
     }
     private void Update()
@@ -60,7 +68,6 @@ public class Enemy : MonoBehaviour
         if(other.tag == "Bullet")
         {
             Bullet bullet = other.GetComponent<Bullet>();
-
             GameObject hudText = Instantiate(hudDamageText);
             hudText.transform.position = transform.position;
             hudText.GetComponent<FloatText>().write = bullet.damage.ToString();
@@ -106,6 +113,9 @@ public class Enemy : MonoBehaviour
                         anim.SetTrigger("onAttack");
                         StartCoroutine(Bee_Sting());
                     }
+                    break;
+                case Type.Stone:
+                    //rigid.AddForce(transform.forward * 30, ForceMode.Impulse);
                     break;
             }
         }
