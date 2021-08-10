@@ -45,7 +45,15 @@ public class Area : MonoBehaviour
     public void SpawnMonster() //몬스터 스폰
     {
         if (isBoss == true) return;
-        areaSpawner.SpawnMonster();
+
+        if (areaSpawner.stage == 0)
+        {
+            areaSpawner.SpawnMonster();
+        }
+        else if (areaSpawner.stage == 1)
+        {
+            areaSpawner.SpawnObstacle();
+        }
     }
 
 }

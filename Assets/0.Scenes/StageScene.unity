@@ -35211,19 +35211,22 @@ MonoBehaviour:
   - {fileID: 6992694610384771492, guid: dcde9ad793bebe04a8118c6123e9e53d, type: 3}
   - {fileID: 2796754831856130907, guid: 3a9e4532630485145bf3d0b636c0a8e9, type: 3}
   enemies:
-  - {fileID: 4380719604489068836, guid: 1d88f3f7ca1d94343b7bfef905937fa7, type: 3}
   - {fileID: 5691688369305071277, guid: 8257bf9b9d661684486fab49cb86d5db, type: 3}
-  - {fileID: 2534821283484074915, guid: 09d87b5b4a76a404f914269615d0ceda, type: 3}
   - {fileID: -3170964242883013218, guid: 2cee46cfa6a54c34286bb4b4be6e780e, type: 3}
+  - {fileID: 4380719604489068836, guid: 1d88f3f7ca1d94343b7bfef905937fa7, type: 3}
+  - {fileID: 2534821283484074915, guid: 09d87b5b4a76a404f914269615d0ceda, type: 3}
+  obstacles:
+  - {fileID: 6778150582446297458, guid: cfeee1e9399f6194992d59452f9f9866, type: 3}
   events:
   - {fileID: 2951005754433748627, guid: 21132ba80480172419064d6e84f46d67, type: 3}
-  - {fileID: 2951005754433748627, guid: 21132ba80480172419064d6e84f46d67, type: 3}
+  - {fileID: -8950386227126152616, guid: 7ebae8e9dc91cf7438f2246a8c333ae8, type: 3}
   spawnAreaCountAtStart: 3
   zDistance: 20
   isBoss: 0
   panelController: {fileID: 1688787457}
   playerTransform: {fileID: 115934671}
   clear: 0
+  stage: 0
 --- !u!4 &581034805
 Transform:
   m_ObjectHideFlags: 0

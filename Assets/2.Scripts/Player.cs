@@ -231,7 +231,7 @@ public class Player : MonoBehaviour
         isJump = true;
         rigibody.useGravity = false;
         playerAnimator.OnJump();
-        CheckEvade();        //동작과 함께 회피 체크
+        CheckEvade(15f);        //동작과 함께 회피 체크
         while (percent < 1)
         {
             current += Time.deltaTime;
@@ -245,7 +245,7 @@ public class Player : MonoBehaviour
         if (evade == 1)     //판정 범위 내에 총알이 있다면 문구 출력
         {
             GameObject hudText = Instantiate(hudEvadeText);
-            hudText.transform.position = transform.position;
+            hudText.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z+1.0f);
             hudText.GetComponent<FloatText>().write = "Evade!";
         }
         isJump = false;
@@ -258,14 +258,14 @@ public class Player : MonoBehaviour
         isSlide = true;
         GetComponent<CapsuleCollider>().center = new Vector3(0, 0, 0);
         playerAnimator.OnSlide();
-        CheckEvade();       //동작과 함께 회피 체크
+        CheckEvade(17f);       //동작과 함께 회피 체크
         yield return new WaitForSeconds(moveTimeYdown);
         isSlide = false;
         GetComponent<CapsuleCollider>().center = new Vector3(0, 1.1f, 0);
         if (evade == 1)     //판정 범위 내에 총알이 있다면 문구 출력
         {
             GameObject hudText = Instantiate(hudEvadeText);
-            hudText.transform.position = transform.position;
+            hudText.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + 1.0f);
             hudText.GetComponent<FloatText>().write = "Evade!";
         }
     }
@@ -404,7 +404,7 @@ public class Player : MonoBehaviour
         rot2 = true;
     }
 
-    public void CheckEvade()        //회피 판정 함수
+    public void CheckEvade(float distance)        //회피 판정 함수
     {
         List<GameObject> FoundObjects;
         string TagName = "EnemyBullet";
@@ -417,7 +417,7 @@ public class Player : MonoBehaviour
         foreach (GameObject found in FoundObjects)
         {
 
-             if ((found.transform.position.x == transform.position.x) && ((found.transform.position.z - transform.position.z) >= 0f) && ((found.transform.position.z - transform.position.z) <= 15f))       //동작 중 회피가 가능한 범위에 있는 총알이 있다면 회피로 인정
+             if ((found.transform.position.x == transform.position.x) && ((found.transform.position.z - transform.position.z) >= 0f) && ((found.transform.position.z - transform.position.z) <= distance))       //동작 중 회피가 가능한 범위에 있는 총알이 있다면 회피로 인정
              {
                 evade = 1;
              }
