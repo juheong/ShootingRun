@@ -1,0 +1,2451 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1165; Version 2009; 64bit' Language: 'ko' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Util\unity\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Manduk/Documents/shootingrun
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+13317
+Successfully changed project path to: C:/Users/Manduk/Documents/shootingrun
+C:/Users/Manduk/Documents/shootingrun
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 70.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path D:/Util/unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Manduk/Documents/shootingrun/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   27.21.14.6677
+Initialize mono
+Mono path[0] = 'D:/Util/unity/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Util/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Util/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Util/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001611 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 93.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.103 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.030244 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.154 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.9 MB.
+System memory in use after: 182.7 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2166.
+Total: 2.735600 ms (FindLiveObjects: 0.208500 ms CreateObjectMapping: 0.079300 ms MarkObjects: 2.095900 ms  DeleteObjects: 0.350700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat_Poison_Explosion.wav
+  artifactKey: Guid(9b3b033ba4d15c24db0f1a07bb4bf90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat_Poison_Explosion.wav using Guid(9b3b033ba4d15c24db0f1a07bb4bf90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e523a5230d61e1996095e060bc3c36') in 0.199650 seconds
+  Import took 0.203437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall_Poison_Shoot.wav
+  artifactKey: Guid(6a328571afa56dd4382845292c701965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall_Poison_Shoot.wav using Guid(6a328571afa56dd4382845292c701965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd84129ba092a6e1fc5f3d1010c4373c') in 0.026984 seconds
+  Import took 0.030860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat2_Explosion.wav
+  artifactKey: Guid(d36895338061ee94b8aa2e710db64248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat2_Explosion.wav using Guid(d36895338061ee94b8aa2e710db64248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1058e5a551b6d912b2e475ac5c7d8af') in 0.030699 seconds
+  Import took 0.036485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall_Cartoony_Explosion.wav
+  artifactKey: Guid(25ad5d070a8a39d4f90dbd7aee38427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall_Cartoony_Explosion.wav using Guid(25ad5d070a8a39d4f90dbd7aee38427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243b2634092385e5a39eb2b290b21f8c') in 0.035708 seconds
+  Import took 0.040414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat_Poison_Shoot.wav
+  artifactKey: Guid(44e38bc21abdd1442a6fe29c195cab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat_Poison_Shoot.wav using Guid(44e38bc21abdd1442a6fe29c195cab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a30c40c4789321a763ced6200a00db7') in 0.041750 seconds
+  Import took 0.050180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat1_Explosion.wav
+  artifactKey: Guid(d6fcdb314c6fd244a8be8a3ecd9eef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat1_Explosion.wav using Guid(d6fcdb314c6fd244a8be8a3ecd9eef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df3fc63e5f8861ba7c224dd25feeac0') in 0.032586 seconds
+  Import took 0.038517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall_Poison_Explosion.wav
+  artifactKey: Guid(f7d76320a465fb441b22ce3abde6a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall_Poison_Explosion.wav using Guid(f7d76320a465fb441b22ce3abde6a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61200cf4b7a6bf4d87638efcb68cce2d') in 0.049122 seconds
+  Import took 0.057210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat1_Explosion.wav
+  artifactKey: Guid(d6fcdb314c6fd244a8be8a3ecd9eef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat1_Explosion.wav using Guid(d6fcdb314c6fd244a8be8a3ecd9eef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df3fc63e5f8861ba7c224dd25feeac0') in 0.025304 seconds
+  Import took 0.030751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio
+  artifactKey: Guid(bac70453f5cd1604c91add6b1d4c6bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio using Guid(bac70453f5cd1604c91add6b1d4c6bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3fc532bf84220de810d423ce02ea57') in 0.015540 seconds
+  Import took 0.021546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall1_Explosion.wav
+  artifactKey: Guid(2136938f685655f4287ccb4a5e210bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall1_Explosion.wav using Guid(2136938f685655f4287ccb4a5e210bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65a4e7ce97eda8a995507c9c0906ac7') in 0.026795 seconds
+  Import took 0.032570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall2_Explosion.wav
+  artifactKey: Guid(79fa485797afd4b44b10535f456499da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall2_Explosion.wav using Guid(79fa485797afd4b44b10535f456499da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b4cca6a97820d61b3f72dc53298003') in 0.018031 seconds
+  Import took 0.021215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall2_Shoot.wav
+  artifactKey: Guid(e43159786ba8ff34b878912d4c44b48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall2_Shoot.wav using Guid(e43159786ba8ff34b878912d4c44b48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f5b211ece9de2ba42cfe436c615592') in 0.020725 seconds
+  Import took 0.024244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet
+  artifactKey: Guid(28becf39e30a85841b0dcd640df8db37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet using Guid(28becf39e30a85841b0dcd640df8db37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21b89335de9203f7266caa325c1963a') in 0.006649 seconds
+  Import took 0.009879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall_Cartoony_Shoot.wav
+  artifactKey: Guid(d2179256f00160f40981456d8d005a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall_Cartoony_Shoot.wav using Guid(d2179256f00160f40981456d8d005a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ad48bd150cce4db008fae039de5ab4') in 0.021572 seconds
+  Import took 0.025932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat1_Shoot.wav
+  artifactKey: Guid(424b9d6ffda603e4fb83b922a3b30ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat1_Shoot.wav using Guid(424b9d6ffda603e4fb83b922a3b30ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995fc82ad736aa80981db29a664ba41e') in 0.039161 seconds
+  Import took 0.044357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000826 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat2_Shoot.wav
+  artifactKey: Guid(1434aabe42b533d409a606d1d9bfcf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat2_Shoot.wav using Guid(1434aabe42b533d409a606d1d9bfcf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c49eaa00d9d85399f3c3560007c021') in 0.030869 seconds
+  Import took 0.035879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall1_Shoot.wav
+  artifactKey: Guid(20001e7396ae247458de33f9566f8f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletSmall1_Shoot.wav using Guid(20001e7396ae247458de33f9566f8f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61edc7642ff481612c03aec034585365') in 0.030472 seconds
+  Import took 0.034544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat_Cartoony_Explosion.wav
+  artifactKey: Guid(9a5c53071c916514ba76ee13517ea342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat_Cartoony_Explosion.wav using Guid(9a5c53071c916514ba76ee13517ea342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9086ce2c799b44ee4d36b464a487e316') in 0.020277 seconds
+  Import took 0.024676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio
+  artifactKey: Guid(9bcf73fa79cf4ec4db6cf3640aa04f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio using Guid(9bcf73fa79cf4ec4db6cf3640aa04f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6550a78020d0c30726457608845dd5e2') in 0.008298 seconds
+  Import took 0.011388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat_Cartoony_Shoot.wav
+  artifactKey: Guid(359d102d632aa224d89e9875b4888195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Bullet/BulletFat_Cartoony_Shoot.wav using Guid(359d102d632aa224d89e9875b4888195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e840480953edea3fe0ef8bc6e26fd9b6') in 0.018558 seconds
+  Import took 0.022012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.660841 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Ball
+  artifactKey: Guid(acae9da05ba7ecb46ac60c2eadc6bf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Ball using Guid(acae9da05ba7ecb46ac60c2eadc6bf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4ea16a5abaaf26685c689199de2452') in 0.008068 seconds
+  Import took 0.011747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033616 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Ball/Cartoonyball_MissleExplosion.wav
+  artifactKey: Guid(c43c941115f60b142a69ed0d981449a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Ball/Cartoonyball_MissleExplosion.wav using Guid(c43c941115f60b142a69ed0d981449a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac92871ab748b432867d61fb07712325') in 0.017318 seconds
+  Import took 0.020794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Ball/Poisonball_MissleShoot.wav
+  artifactKey: Guid(0db59a368fa20264b8582b3d58301e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Ball/Poisonball_MissleShoot.wav using Guid(0db59a368fa20264b8582b3d58301e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9ca9821fdbf14e4295b3717688f330') in 0.019316 seconds
+  Import took 0.023271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Ball/Fireball_MissleShoot.wav
+  artifactKey: Guid(b5b8e62281d3cf94aad6dec9ec014711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Ball/Fireball_MissleShoot.wav using Guid(b5b8e62281d3cf94aad6dec9ec014711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c7fd8a80105aa053f68a74996aa31a') in 0.019847 seconds
+  Import took 0.023751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Ball/Iceball_MissleShoot.wav
+  artifactKey: Guid(296db306cb7c7c24d868b980da567528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Ball/Iceball_MissleShoot.wav using Guid(296db306cb7c7c24d868b980da567528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b25bb090f69083c0b6c9a35fbb7fba3') in 0.019642 seconds
+  Import took 0.022921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Ball/Poisonball_MissleExplosion.wav
+  artifactKey: Guid(07249b761dd0d924989080c41e564579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Ball/Poisonball_MissleExplosion.wav using Guid(07249b761dd0d924989080c41e564579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0362c586e375a5e70b54a9f2d383b6') in 0.025532 seconds
+  Import took 0.030155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000707 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Ball/Cartoonyball_MissleShoot.wav
+  artifactKey: Guid(b2a0d25fe0a9a794ea07ba5c62ae6c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Ball/Cartoonyball_MissleShoot.wav using Guid(b2a0d25fe0a9a794ea07ba5c62ae6c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17dcb6b5a7a6174d065a6affa1c266a2') in 0.026088 seconds
+  Import took 0.030107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Ball/Fireball_MissleExplosion.wav
+  artifactKey: Guid(4c2289c8fa748c647920788ed34ae9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Ball/Fireball_MissleExplosion.wav using Guid(4c2289c8fa748c647920788ed34ae9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7a1ac3b31198ffc72ca32da237d98a') in 0.030588 seconds
+  Import took 0.034495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Ball/Cartoonyball_MissleShoot.wav
+  artifactKey: Guid(b2a0d25fe0a9a794ea07ba5c62ae6c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Ball/Cartoonyball_MissleShoot.wav using Guid(b2a0d25fe0a9a794ea07ba5c62ae6c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17dcb6b5a7a6174d065a6affa1c266a2') in 0.015966 seconds
+  Import took 0.020826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Ball/Fireball_MissleExplosion.wav
+  artifactKey: Guid(4c2289c8fa748c647920788ed34ae9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Ball/Fireball_MissleExplosion.wav using Guid(4c2289c8fa748c647920788ed34ae9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7a1ac3b31198ffc72ca32da237d98a') in 0.013086 seconds
+  Import took 0.018434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Ball/Iceball_MissleExplosion.wav
+  artifactKey: Guid(ff34d751c43ef6b458f9409ccc29fa7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Ball/Iceball_MissleExplosion.wav using Guid(ff34d751c43ef6b458f9409ccc29fa7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa37aba8b981217a0bbe05c82a89054a') in 0.019727 seconds
+  Import took 0.023248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.007475 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio
+  artifactKey: Guid(21dc128f51fcab243abe68003e28c2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio using Guid(21dc128f51fcab243abe68003e28c2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587b7424c4cb01882c1932273a6b18e3') in 0.009369 seconds
+  Import took 0.012809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.285453 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch
+  artifactKey: Guid(b82bc6367f3cff74fa01b129e4d640b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch using Guid(b82bc6367f3cff74fa01b129e4d640b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52dd0088c8307513f6b5f62f1315fb6f') in 0.008126 seconds
+  Import took 0.011617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.937898 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic
+  artifactKey: Guid(5520e8b65a5b6854ea5a4d8e8e48bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic using Guid(5520e8b65a5b6854ea5a4d8e8e48bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77039bb8ec47d8cb09b810850ad64eaa') in 0.007933 seconds
+  Import took 0.011919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.689547 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower
+  artifactKey: Guid(7a6d1afc9a04bd94eb8e6eac36e4fd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower using Guid(7a6d1afc9a04bd94eb8e6eac36e4fd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b122b6a109ddac80e009404325d55c') in 0.008006 seconds
+  Import took 0.011765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.861725 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicAura_Cartoony.wav
+  artifactKey: Guid(406ad2abae1b5924f8188e114a683f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicAura_Cartoony.wav using Guid(406ad2abae1b5924f8188e114a683f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3782ed09a61284d600193f0494fadd8') in 0.022118 seconds
+  Import took 0.025604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicEnchant_Healing.wav
+  artifactKey: Guid(a10b8db5189059f45be22a3a47e05ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicEnchant_Healing.wav using Guid(a10b8db5189059f45be22a3a47e05ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fed9bae02453877519dfe1f57c8b660') in 0.021980 seconds
+  Import took 0.025920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField1_NormalLong.wav
+  artifactKey: Guid(cf7fad1cb9ee5f1418db4fa6571d064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField1_NormalLong.wav using Guid(cf7fad1cb9ee5f1418db4fa6571d064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e342d79a1ca93626dc8f76885e13a8') in 0.021619 seconds
+  Import took 0.025145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicSphere_HealingLoop.wav
+  artifactKey: Guid(db3bbdd2f4356374ca6ed307b2e006e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicSphere_HealingLoop.wav using Guid(db3bbdd2f4356374ca6ed307b2e006e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c114277a195e092274a411b169bc6945') in 0.019892 seconds
+  Import took 0.023226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField_Cartoonyloop.wav
+  artifactKey: Guid(55b27969f55fe3d4c878b830ed76e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField_Cartoonyloop.wav using Guid(55b27969f55fe3d4c878b830ed76e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8726abed0f9ecf6496e5c80a615c970c') in 0.019251 seconds
+  Import took 0.022396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicNova_Normal.wav
+  artifactKey: Guid(ae7f18bb90c871e41a2e0812fe54ab8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicNova_Normal.wav using Guid(ae7f18bb90c871e41a2e0812fe54ab8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565809251ed80fba9fb71d2d0c8f6d5f') in 0.020048 seconds
+  Import took 0.023648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield_Healingloops.wav
+  artifactKey: Guid(5f50a5201e5893149960880e76160be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield_Healingloops.wav using Guid(5f50a5201e5893149960880e76160be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cffb5cd633599ac83c35b6c0ac10912') in 0.018764 seconds
+  Import took 0.022417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField_HealingLong.wav
+  artifactKey: Guid(81f16ff55c21cce40828276fe9397aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField_HealingLong.wav using Guid(81f16ff55c21cce40828276fe9397aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adfd5cb2c19a7582141083035176f3b') in 0.021763 seconds
+  Import took 0.024973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCircle_Cartoony.wav
+  artifactKey: Guid(407587e7a2d67c340a35b303e2d567eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCircle_Cartoony.wav using Guid(407587e7a2d67c340a35b303e2d567eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f93cfa0364eded9df72a030dc606e6a') in 0.019588 seconds
+  Import took 0.022982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicSphere_Normal.wav
+  artifactKey: Guid(bceae34c5ed7a3a47ac090e9d7f61e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicSphere_Normal.wav using Guid(bceae34c5ed7a3a47ac090e9d7f61e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42d842ed459b412d5e964beab00199d') in 0.019615 seconds
+  Import took 0.023070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCircle_Normal.wav
+  artifactKey: Guid(01ab2414defed95429c27bb867b1510c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCircle_Normal.wav using Guid(01ab2414defed95429c27bb867b1510c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83deba74cb09c3346c68442d50d13325') in 0.020184 seconds
+  Import took 0.023159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicEnchant_Normal.wav
+  artifactKey: Guid(4f49ebf4299ab4c4c8f3d0f18f994e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicEnchant_Normal.wav using Guid(4f49ebf4299ab4c4c8f3d0f18f994e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9572a9c9ab165c2610dcb38be244d387') in 0.019835 seconds
+  Import took 0.023497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField_Healingloops.wav
+  artifactKey: Guid(84b5da9485eeb504c962f8830ec7b014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField_Healingloops.wav using Guid(84b5da9485eeb504c962f8830ec7b014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315fe4decd4976db64fbad873971d690') in 0.020511 seconds
+  Import took 0.024225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicSphere_Cartoony.wav
+  artifactKey: Guid(96fc262be4a906044a6a53be2879e74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicSphere_Cartoony.wav using Guid(96fc262be4a906044a6a53be2879e74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9792411fe0e1eb00f56567dbf5b65ab') in 0.023886 seconds
+  Import took 0.028114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield1_Normalloops.wav
+  artifactKey: Guid(cd37085969c244e4bb7ab8d70a063f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield1_Normalloops.wav using Guid(cd37085969c244e4bb7ab8d70a063f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7aa76fc858d1c1e0549f490f4675019') in 0.021912 seconds
+  Import took 0.025784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield2_NormalShort.wav
+  artifactKey: Guid(eff5e01ef69c62546a364519f36a6b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield2_NormalShort.wav using Guid(eff5e01ef69c62546a364519f36a6b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46391d366e7aa5c7b2884297ae3731e') in 0.020307 seconds
+  Import took 0.024103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicPillarBlast_Normal.wav
+  artifactKey: Guid(db765bef1474109459c260a89f148611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicPillarBlast_Normal.wav using Guid(db765bef1474109459c260a89f148611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e6e473e0d37b0f7e79a499257016ef') in 0.023194 seconds
+  Import took 0.026734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicAura_Normal.wav
+  artifactKey: Guid(d018eeed56137e343882a54730152c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicAura_Normal.wav using Guid(d018eeed56137e343882a54730152c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5ca91a66b5b516d747cba1a32b6ea2') in 0.020425 seconds
+  Import took 0.023845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField1_Normalloops.wav
+  artifactKey: Guid(33a220089a9d7d249acfbd3b8e1a1548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField1_Normalloops.wav using Guid(33a220089a9d7d249acfbd3b8e1a1548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486d7ac97c023c9fa21f74e1643c4969') in 0.019869 seconds
+  Import took 0.023240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicAura_Healing.wav
+  artifactKey: Guid(dba0e2dd102e4ed4bae5a818f79db1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicAura_Healing.wav using Guid(dba0e2dd102e4ed4bae5a818f79db1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802c0f73af1c9c0ac1234b988518ed7e') in 0.019740 seconds
+  Import took 0.023334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_HealingLong.wav
+  artifactKey: Guid(362d9a1a5ea47474aae08696aace0095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_HealingLong.wav using Guid(362d9a1a5ea47474aae08696aace0095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf8bbacecccfc16ac75de395f6c89cb') in 0.019747 seconds
+  Import took 0.023252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicPillarBlast_Healing.wav
+  artifactKey: Guid(0e9e3142824896b46a5df49a3c13efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicPillarBlast_Healing.wav using Guid(0e9e3142824896b46a5df49a3c13efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78c4822ccd6bdd9611354acd284185f') in 0.019162 seconds
+  Import took 0.022660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField2_NormalLong.wav
+  artifactKey: Guid(908b733b3933c784ab01b05f84985559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField2_NormalLong.wav using Guid(908b733b3933c784ab01b05f84985559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9145fb49805393ca1f2e50674b4e4d8') in 0.018878 seconds
+  Import took 0.022353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_NormalShort.wav
+  artifactKey: Guid(c6cda7e0629b24942ab96042732d62ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_NormalShort.wav using Guid(c6cda7e0629b24942ab96042732d62ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57db7e5b5b9af41ff91e4781671974f8') in 0.018616 seconds
+  Import took 0.021755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicNova_Cartoony.wav
+  artifactKey: Guid(6f7990606d8702e44aa8ea78ebff621c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicNova_Cartoony.wav using Guid(6f7990606d8702e44aa8ea78ebff621c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e914ee5cc40d86dfdd4c8ac5f8dd485') in 0.023689 seconds
+  Import took 0.027450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicSphere_NormalLoop.wav
+  artifactKey: Guid(b9444f93014f5cd448f86984faf94cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicSphere_NormalLoop.wav using Guid(b9444f93014f5cd448f86984faf94cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef45709cee9919d70ba45293c78fa66a') in 0.021643 seconds
+  Import took 0.025170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_NormalLong.wav
+  artifactKey: Guid(4b653b33982450140828e4aa40e3198e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_NormalLong.wav using Guid(4b653b33982450140828e4aa40e3198e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668ec41eeda78082db0bec21d55257b1') in 0.023292 seconds
+  Import took 0.026858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField_CartoonyShort.wav
+  artifactKey: Guid(6871431b80a365e44b61bc1b9ebb18f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField_CartoonyShort.wav using Guid(6871431b80a365e44b61bc1b9ebb18f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca188ee669cfe604a35d61e4c809d05c') in 0.022836 seconds
+  Import took 0.027526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicPillarBlast_Cartoony.wav
+  artifactKey: Guid(0ba257b2494bce342bc83d41781907fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicPillarBlast_Cartoony.wav using Guid(0ba257b2494bce342bc83d41781907fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2682aae88353634ddeb802b2b7658f52') in 0.023360 seconds
+  Import took 0.027419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield1_NormalShort.wav
+  artifactKey: Guid(9fdd22e3e6d39c04d90be5c6f59bbee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield1_NormalShort.wav using Guid(9fdd22e3e6d39c04d90be5c6f59bbee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1eff1860efe6f9848815f377c0a9f36') in 0.023656 seconds
+  Import took 0.027669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield_HealingLong.wav
+  artifactKey: Guid(882cac83dac7cd14b97a86eb76c2f694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield_HealingLong.wav using Guid(882cac83dac7cd14b97a86eb76c2f694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab8ab43b05743541cc210a8d52e1b08') in 0.020168 seconds
+  Import took 0.023828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField2_NormalShort.wav
+  artifactKey: Guid(b824de1fe54706947ab5f0ec0754e88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField2_NormalShort.wav using Guid(b824de1fe54706947ab5f0ec0754e88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0db14fe657bbe26b220154d76fb13fe') in 0.021919 seconds
+  Import took 0.025727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField2_Normalloops.wav
+  artifactKey: Guid(9050975aadd387d4f8e76719a766f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField2_Normalloops.wav using Guid(9050975aadd387d4f8e76719a766f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e95f44b98f62bf1a9b2ba5e0e3ec18c') in 0.021635 seconds
+  Import took 0.025272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield_CartoonyLong.wav
+  artifactKey: Guid(f0dd6077c4540bd47a7892fa86517f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield_CartoonyLong.wav using Guid(f0dd6077c4540bd47a7892fa86517f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c2b21c8fbcf69fc953c3137ed35aa7') in 0.022363 seconds
+  Import took 0.026152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCircle_Healing.wav
+  artifactKey: Guid(4ffa13917b8598c45a89ae26a29dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCircle_Healing.wav using Guid(4ffa13917b8598c45a89ae26a29dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77245ff2e0ee9c1fd79a4bbaf70573b') in 0.024037 seconds
+  Import took 0.027710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_HealingShort.wav
+  artifactKey: Guid(8aeada12b4b0eda43aa6d8f93ff35a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_HealingShort.wav using Guid(8aeada12b4b0eda43aa6d8f93ff35a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab545107c90d2bbabd7872f36e90fa41') in 0.022518 seconds
+  Import took 0.026770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField_HealingShort.wav
+  artifactKey: Guid(b32878ac7fc25bf44a104bf8b8f42138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField_HealingShort.wav using Guid(b32878ac7fc25bf44a104bf8b8f42138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764f9278c0d9471ef99195c23c7901e5') in 0.019280 seconds
+  Import took 0.022692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield2_NormalLong.wav
+  artifactKey: Guid(e6d09352bf47fa649b0c7854d925f368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield2_NormalLong.wav using Guid(e6d09352bf47fa649b0c7854d925f368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0546bd274bea278593e108362e29d49c') in 0.019612 seconds
+  Import took 0.023083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicSphere_Healing.wav
+  artifactKey: Guid(212e42d9772237043b550ae8f7a6e359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicSphere_Healing.wav using Guid(212e42d9772237043b550ae8f7a6e359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce01067072b64fe31b4b4a0d17ed7715') in 0.020971 seconds
+  Import took 0.024604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicBuff_Healing.wav
+  artifactKey: Guid(d4148c84a7f6f974fb155203993e8d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicBuff_Healing.wav using Guid(d4148c84a7f6f974fb155203993e8d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636fd2c245a768b5defa97c972541ce0') in 0.021001 seconds
+  Import took 0.024740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield1_NormalLong.wav
+  artifactKey: Guid(8c7261f03f87e3446ab4ae91d169639f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield1_NormalLong.wav using Guid(8c7261f03f87e3446ab4ae91d169639f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e728037876af6a388d6e71971d37fc1') in 0.020115 seconds
+  Import took 0.023704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicEnchant_Cartoony.wav
+  artifactKey: Guid(d3ce4c20ded79c54e88e36658a3821a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicEnchant_Cartoony.wav using Guid(d3ce4c20ded79c54e88e36658a3821a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca009a1c4cc901384c80a9419a21e878') in 0.020872 seconds
+  Import took 0.025236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField_CartoonyLong.wav
+  artifactKey: Guid(e8e1f730aefeea54482e4d742439df86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField_CartoonyLong.wav using Guid(e8e1f730aefeea54482e4d742439df86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d478bc6a532f369d86e93c04241a54') in 0.020192 seconds
+  Import took 0.023805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicNova_Healing.wav
+  artifactKey: Guid(e7d967291f2be9947a39d2185920253b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicNova_Healing.wav using Guid(e7d967291f2be9947a39d2185920253b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19f98210298c3b58101a60f9a198964') in 0.020814 seconds
+  Import took 0.024347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicSphere_CartoonyLoop.wav
+  artifactKey: Guid(f50308101d7c9cf4e8f7a70a7a49c8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicSphere_CartoonyLoop.wav using Guid(f50308101d7c9cf4e8f7a70a7a49c8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b28f63762155cfc7fead98c7ee7bf3c') in 0.021745 seconds
+  Import took 0.025328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield_HealingShort.wav
+  artifactKey: Guid(ea70405e8f5976d438f305839c170c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield_HealingShort.wav using Guid(ea70405e8f5976d438f305839c170c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12170174d454c82c344b9e2fda7641f9') in 0.021546 seconds
+  Import took 0.025460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield_CartoonyShort.wav
+  artifactKey: Guid(1db6a6ba42415ee488df75a3534ac229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield_CartoonyShort.wav using Guid(1db6a6ba42415ee488df75a3534ac229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d211b0823739c794060eb084405278') in 0.020495 seconds
+  Import took 0.024453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicBuff_Cartoony.wav
+  artifactKey: Guid(aa0577bd38f6c884293ea71c745b9c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicBuff_Cartoony.wav using Guid(aa0577bd38f6c884293ea71c745b9c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3330dd1ee113c30e3c712c934d98efe6') in 0.021102 seconds
+  Import took 0.025317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField1_NormalShort.wav
+  artifactKey: Guid(b2571bb84e9faee4b8c159c86aaaf520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicField1_NormalShort.wav using Guid(b2571bb84e9faee4b8c159c86aaaf520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f705d860fd2f851b488999e895b844c6') in 0.019897 seconds
+  Import took 0.023819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicBuff_Normal.wav
+  artifactKey: Guid(ab40c1bb49ce30142a4957dadf89255e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicBuff_Normal.wav using Guid(ab40c1bb49ce30142a4957dadf89255e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6599b3c7a05878448fd6970a5914bd5') in 0.021233 seconds
+  Import took 0.024874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_CartoonyShort.wav
+  artifactKey: Guid(0f9bfe73039e4b64cbdd35f36814f550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_CartoonyShort.wav using Guid(0f9bfe73039e4b64cbdd35f36814f550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7f6e792368df114434257876b9db8f') in 0.020198 seconds
+  Import took 0.023754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_CartoonyLong.wav
+  artifactKey: Guid(51ab120f60397a44a9b581aa6f4afdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_CartoonyLong.wav using Guid(51ab120f60397a44a9b581aa6f4afdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395d54cca5688f1b027c28f317135156') in 0.021601 seconds
+  Import took 0.025244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_NormalMid.wav
+  artifactKey: Guid(1d22196366331cd4387d85214334d959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_NormalMid.wav using Guid(1d22196366331cd4387d85214334d959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b8ba38343dcca5e5f4093680b21359') in 0.019792 seconds
+  Import took 0.023046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield2_Normalloops.wav
+  artifactKey: Guid(89dc1492d45b43d4bae84735ec1dee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield2_Normalloops.wav using Guid(89dc1492d45b43d4bae84735ec1dee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6dd744c538a24ad45cee84fe80e5d7') in 0.021135 seconds
+  Import took 0.024783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_HealingMid.wav
+  artifactKey: Guid(d7b0409dbd4226f4eb7e0b29305d9727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_HealingMid.wav using Guid(d7b0409dbd4226f4eb7e0b29305d9727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b364fc8f33ac9928ae0d53fac020fa9') in 0.023365 seconds
+  Import took 0.027284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield2_Normalloops.wav
+  artifactKey: Guid(89dc1492d45b43d4bae84735ec1dee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield2_Normalloops.wav using Guid(89dc1492d45b43d4bae84735ec1dee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6dd744c538a24ad45cee84fe80e5d7') in 0.014459 seconds
+  Import took 0.018072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield_Cartoonyloops.wav
+  artifactKey: Guid(56ca758ef49785449bb5d80ec943534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicShield_Cartoonyloops.wav using Guid(56ca758ef49785449bb5d80ec943534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6a1b686f6faac428abb907e8968c4b') in 0.023580 seconds
+  Import took 0.027642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_CartoonyMid.wav
+  artifactKey: Guid(4134489cd656e2a41ab09e38e40ec04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Magic/MagicCharge_CartoonyMid.wav using Guid(4134489cd656e2a41ab09e38e40ec04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf9ea8c6980c7ea9bc36e381ed1ffaf') in 0.022010 seconds
+  Import took 0.025750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.515795 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/CartoonyChargeLong.wav
+  artifactKey: Guid(5df4a4cb5a97db04e8cfbd9696f93da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/CartoonyChargeLong.wav using Guid(5df4a4cb5a97db04e8cfbd9696f93da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea8a8d29a1eb7f36e0fffc243b82b59') in 0.017648 seconds
+  Import took 0.021244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/NormalChargeLong.wav
+  artifactKey: Guid(a7c60ef53fdc1fe49b01ad60b5a6858a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/NormalChargeLong.wav using Guid(a7c60ef53fdc1fe49b01ad60b5a6858a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172cddb27dc805ad326d2f85e612f125') in 0.021678 seconds
+  Import took 0.025217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/WaterChargeMid.wav
+  artifactKey: Guid(2a296b05ae7a8464a85b286fb3025381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/WaterChargeMid.wav using Guid(2a296b05ae7a8464a85b286fb3025381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53cd7176e38fc68ffda2b67303fba2d') in 0.021515 seconds
+  Import took 0.024942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/FireChargeLong.wav
+  artifactKey: Guid(7cc82cb486459684aa2250beebffefa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/FireChargeLong.wav using Guid(7cc82cb486459684aa2250beebffefa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c972976556c4f4aef85406ed80f6ecaa') in 0.020502 seconds
+  Import took 0.023550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/SoulChargeMid.wav
+  artifactKey: Guid(000f72ef2fb5c434ba7c2fc20cb5ee99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/SoulChargeMid.wav using Guid(000f72ef2fb5c434ba7c2fc20cb5ee99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b69912e4f7400baeb636953fd644d9') in 0.022207 seconds
+  Import took 0.025808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/PoisonChargeLong.wav
+  artifactKey: Guid(27eb2c6928c6d4f42b098e9c552a847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/PoisonChargeLong.wav using Guid(27eb2c6928c6d4f42b098e9c552a847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f66b7e70a3aacac1eb72e11fbe60bd') in 0.020604 seconds
+  Import took 0.023553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/IceChargeShort.wav
+  artifactKey: Guid(3d38c957dc6bff8418a208a3516f8706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/IceChargeShort.wav using Guid(3d38c957dc6bff8418a208a3516f8706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ecb762c34c300fcffe69586d645375') in 0.020978 seconds
+  Import took 0.024520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/NormalChargeShort.wav
+  artifactKey: Guid(d8bf9e30e5998d14db8af47de23e22f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/NormalChargeShort.wav using Guid(d8bf9e30e5998d14db8af47de23e22f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6863f9546c3868d652d3c51f32e6f618') in 0.021558 seconds
+  Import took 0.025103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/EnergyChargeLong.wav
+  artifactKey: Guid(912ef92fad8ae9b42a76816c7381df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/EnergyChargeLong.wav using Guid(912ef92fad8ae9b42a76816c7381df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232a0c7869c3da6230241927e42d85fc') in 0.025074 seconds
+  Import took 0.028611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/PoisonChargeShort.wav
+  artifactKey: Guid(799859d68ebc3cd47935239064dbccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/PoisonChargeShort.wav using Guid(799859d68ebc3cd47935239064dbccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65191a45a5925b8b72eb89125840d2bc') in 0.021985 seconds
+  Import took 0.025370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/EnergyChargeMid.wav
+  artifactKey: Guid(673109efa5acae843a4c00d657688ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/EnergyChargeMid.wav using Guid(673109efa5acae843a4c00d657688ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd185912142877fc5f6f4ca0ba135b6d6') in 0.019826 seconds
+  Import took 0.023003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/NormalChargeMid.wav
+  artifactKey: Guid(6d6c0ec15efab554fb92b8b535f478b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/NormalChargeMid.wav using Guid(6d6c0ec15efab554fb92b8b535f478b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacd2dc36a055e1229b3a7bf9b50df63') in 0.020618 seconds
+  Import took 0.024917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/WaterChargeLong.wav
+  artifactKey: Guid(07c414c68286fd9469435327d4180dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/WaterChargeLong.wav using Guid(07c414c68286fd9469435327d4180dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdb5c481d466c9c7f1d92cd1e89ded5') in 0.020047 seconds
+  Import took 0.023627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/EnergyChargeShort.wav
+  artifactKey: Guid(eb6f0b8f25fa1414c90b6de7112cb4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/EnergyChargeShort.wav using Guid(eb6f0b8f25fa1414c90b6de7112cb4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e34342823aeb9efacae8b78a7695880') in 0.019638 seconds
+  Import took 0.023610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/SoulChargeLong.wav
+  artifactKey: Guid(adf2bcac362072b4e9f800d417cb48df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/SoulChargeLong.wav using Guid(adf2bcac362072b4e9f800d417cb48df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c37ada4b9ab1f4ca353dae3b2abf490') in 0.025770 seconds
+  Import took 0.029543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/IceChargeLong.wav
+  artifactKey: Guid(2d89b25733979c147bc12fb57aefe15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/IceChargeLong.wav using Guid(2d89b25733979c147bc12fb57aefe15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1d1e95ace04bbd6e614e6dd4ceb91a') in 0.020778 seconds
+  Import took 0.024256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/FireChargeMid.wav
+  artifactKey: Guid(cb1f841b201367444bc997d52977e672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/FireChargeMid.wav using Guid(cb1f841b201367444bc997d52977e672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7992ebed66cef2ee44f33055e4d0cd5e') in 0.020651 seconds
+  Import took 0.024618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/SoulChargeShort.wav
+  artifactKey: Guid(1879a24832f81bc4eb7a0600598fc59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/SoulChargeShort.wav using Guid(1879a24832f81bc4eb7a0600598fc59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b040f2c55779df3474db462e2609e75') in 0.020967 seconds
+  Import took 0.024814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/PoisonChargeMid.wav
+  artifactKey: Guid(54e7899e8664871428d788b0dd9f59a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/PoisonChargeMid.wav using Guid(54e7899e8664871428d788b0dd9f59a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4554557d14104a044447a8b17f6c4ef0') in 0.022831 seconds
+  Import took 0.026409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/WaterChargeShort.wav
+  artifactKey: Guid(11d75f812adddf647b0ccdc49c70e0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/WaterChargeShort.wav using Guid(11d75f812adddf647b0ccdc49c70e0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefa935318e68d9a56b55878eb493587') in 0.021979 seconds
+  Import took 0.025077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/FireChargeShort.wav
+  artifactKey: Guid(1faccac643e0daf41a1c744b30daa548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/FireChargeShort.wav using Guid(1faccac643e0daf41a1c744b30daa548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90dcdca1e4e5919b6368b77ccee12f98') in 0.020368 seconds
+  Import took 0.024159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/IceChargeMid.wav
+  artifactKey: Guid(9ba6e377a5327e841a58f1f163b3d26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/IceChargeMid.wav using Guid(9ba6e377a5327e841a58f1f163b3d26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c53031fbc8e2081bc5b1ff0366e8cf') in 0.020835 seconds
+  Import took 0.024548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/FireChargeShort.wav
+  artifactKey: Guid(1faccac643e0daf41a1c744b30daa548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/FireChargeShort.wav using Guid(1faccac643e0daf41a1c744b30daa548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90dcdca1e4e5919b6368b77ccee12f98') in 0.013095 seconds
+  Import took 0.017393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/CartoonyChargeMid.wav
+  artifactKey: Guid(c1f14d760479ec64faf19197d869bf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/CartoonyChargeMid.wav using Guid(c1f14d760479ec64faf19197d869bf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c039ea6ad22eac4ca98528dedcbd73') in 0.021391 seconds
+  Import took 0.024896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/EpicToonSFX/BonusChargeWhooshAudio/CartoonyChargeShort.wav
+  artifactKey: Guid(e6669f8c4e5aee449866e06158e0d089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/BonusChargeWhooshAudio/CartoonyChargeShort.wav using Guid(e6669f8c4e5aee449866e06158e0d089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2be257d42b71d82b9723f5b903571f') in 0.021590 seconds
+  Import took 0.024953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.413944 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/ETC/FrostMisslie_Explosion.wav
+  artifactKey: Guid(32498fdb38787714ba586db88a72baad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/ETC/FrostMisslie_Explosion.wav using Guid(32498fdb38787714ba586db88a72baad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8d7938986addc1eefbdda504d5d61e') in 0.022793 seconds
+  Import took 0.026657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/ETC/StormMissile_Explosion.wav
+  artifactKey: Guid(7bd7e7e7d861fd445bf3d1acae9c5407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/ETC/StormMissile_Explosion.wav using Guid(7bd7e7e7d861fd445bf3d1acae9c5407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd429b09d3cd82026362094138095b88b') in 0.019880 seconds
+  Import took 0.023299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/ETC/StormMissile_Shoot.wav
+  artifactKey: Guid(389f7977425efa44fb8903d23a6afdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/ETC/StormMissile_Shoot.wav using Guid(389f7977425efa44fb8903d23a6afdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39bc5614a2f8943899b5986b0358121') in 0.021176 seconds
+  Import took 0.024552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/ETC/ShadowMissle_Explosion.wav
+  artifactKey: Guid(3bb81408b26daa94f95196ea409bcb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/ETC/ShadowMissle_Explosion.wav using Guid(3bb81408b26daa94f95196ea409bcb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c18411ee6007378548961248b0bb81') in 0.020485 seconds
+  Import took 0.023938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/ETC/ShadowMissle_Shoot.wav
+  artifactKey: Guid(41ae4673579187c4986554cac919801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/ETC/ShadowMissle_Shoot.wav using Guid(41ae4673579187c4986554cac919801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5417bdac25b1b5200570044f44706d9') in 0.019510 seconds
+  Import took 0.022979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/ETC/FrostMisslie_Shoot.wav
+  artifactKey: Guid(3cdb4e8ab7e30e24584f112412d6262d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/ETC/FrostMisslie_Shoot.wav using Guid(3cdb4e8ab7e30e24584f112412d6262d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e44397bcb961513f34fd6a4e6ffdb61') in 0.021149 seconds
+  Import took 0.024364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.123655 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle1_Explosion.wav
+  artifactKey: Guid(71a5fa551c1fb0b40a8cf2a121dba8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle1_Explosion.wav using Guid(71a5fa551c1fb0b40a8cf2a121dba8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f7939938ae05b230b715aff5522587') in 0.021059 seconds
+  Import took 0.024688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle3_Explosion.wav
+  artifactKey: Guid(4b376ebec48a17e4c9d040ce9b26bb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle3_Explosion.wav using Guid(4b376ebec48a17e4c9d040ce9b26bb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b551c6ac198422fa1e0c8c534786405a') in 0.019134 seconds
+  Import took 0.022517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle4_Explosion.wav
+  artifactKey: Guid(b47c25761e29f7f46a30e443a74dbf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle4_Explosion.wav using Guid(b47c25761e29f7f46a30e443a74dbf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d16af3888f7530c762e8dfee7b5e4c') in 0.021935 seconds
+  Import took 0.025360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle1_Shoot.wav
+  artifactKey: Guid(5c988e338b149e04e8a7ba14098a1f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle1_Shoot.wav using Guid(5c988e338b149e04e8a7ba14098a1f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac2161792d9ddae737aa609f901761d') in 0.020370 seconds
+  Import took 0.024464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle2_Shoot.wav
+  artifactKey: Guid(a347d1defbac9c14a9ec258811ae2139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle2_Shoot.wav using Guid(a347d1defbac9c14a9ec258811ae2139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bbcb489178a121ed881f3344bd06a5') in 0.019257 seconds
+  Import took 0.022754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle4_Shoot.wav
+  artifactKey: Guid(131a4bfee98d10140b2faea0bfc26a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle4_Shoot.wav using Guid(131a4bfee98d10140b2faea0bfc26a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29eb053ddaf23da391a0bfc3dee58043') in 0.019594 seconds
+  Import took 0.023337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle2_Explosion.wav
+  artifactKey: Guid(729b3587bcf93b248a2370ac97265709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle2_Explosion.wav using Guid(729b3587bcf93b248a2370ac97265709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70608ac70329b71eea6fa9f7fb369f50') in 0.019568 seconds
+  Import took 0.023183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle3_Shoot.wav
+  artifactKey: Guid(3a96f68594da6c3478675c6e064f8866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Lightning/LightningMissle3_Shoot.wav using Guid(3a96f68594da6c3478675c6e064f8866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7ffc32e71aa696a9cfe0b629ea277f') in 0.020260 seconds
+  Import took 0.023557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.396528 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle1_Explosion.wav
+  artifactKey: Guid(3c94f1a1d53d2f04192430d5dcd36767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle1_Explosion.wav using Guid(3c94f1a1d53d2f04192430d5dcd36767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1033b33ace9a2f440ca5900d7a546c5e') in 0.021023 seconds
+  Import took 0.024813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle_Cartoony_EXplosion.wav
+  artifactKey: Guid(687c3c0ceea611f488f4656af0ccbf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle_Cartoony_EXplosion.wav using Guid(687c3c0ceea611f488f4656af0ccbf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33cfd10bb3f70384bdf77f70017a282') in 0.020663 seconds
+  Import took 0.024060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle_Cartoony_Shoot.wav
+  artifactKey: Guid(58019c5bdd4a1364a86714ac8852d2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle_Cartoony_Shoot.wav using Guid(58019c5bdd4a1364a86714ac8852d2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789bcac7a56a45395635d2c2b60facfb') in 0.021229 seconds
+  Import took 0.024833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle4_Explosion.wav
+  artifactKey: Guid(867d32eab745d614b9b51d5592be5bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle4_Explosion.wav using Guid(867d32eab745d614b9b51d5592be5bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7c8776ee0a93b4ef3ebdf0da8ff64e') in 0.019239 seconds
+  Import took 0.022690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle4_Shoot.wav
+  artifactKey: Guid(6f229544131a24140a7a3a74fd59cf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle4_Shoot.wav using Guid(6f229544131a24140a7a3a74fd59cf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a407167e4c50a660b5447b163724ddf') in 0.018648 seconds
+  Import took 0.022602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle3_Explosion.wav
+  artifactKey: Guid(3a60ffc34f2cc554bad86fc5b2c16c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle3_Explosion.wav using Guid(3a60ffc34f2cc554bad86fc5b2c16c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ca0ed195c569be257b38997ae30601') in 0.019690 seconds
+  Import took 0.022859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle1_Shoot.wav
+  artifactKey: Guid(533ff052acbf918498707fa53906f6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle1_Shoot.wav using Guid(533ff052acbf918498707fa53906f6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338f6f6f270fc260b7d3973421b7c41c') in 0.018734 seconds
+  Import took 0.022566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle2_Explosion.wav
+  artifactKey: Guid(f53ddf0bd11419c4e913625aae3a8c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle2_Explosion.wav using Guid(f53ddf0bd11419c4e913625aae3a8c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1784b783759397958c914af435f7bd98') in 0.018502 seconds
+  Import took 0.022381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle3_Shoot.wav
+  artifactKey: Guid(b737afdc082712b4f84df5e7fe338f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle3_Shoot.wav using Guid(b737afdc082712b4f84df5e7fe338f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cb34709d3d45e88311d4c4f57799ab') in 0.021386 seconds
+  Import took 0.026418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle2_Shoot.wav
+  artifactKey: Guid(0cffa16b5e876c340a58b42d9a63dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Laser/LaserMissle2_Shoot.wav using Guid(0cffa16b5e876c340a58b42d9a63dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5648a9628ea627ea63002c917f2703fb') in 0.021406 seconds
+  Import took 0.028603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032101 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_AcidExplosion.wav
+  artifactKey: Guid(5e6c2fd71ab8c6f409b749911b303a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_AcidExplosion.wav using Guid(5e6c2fd71ab8c6f409b749911b303a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4969f20cf6221bf02779ff8f6cde71fa') in 0.018899 seconds
+  Import took 0.022686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_WaterShoot.wav
+  artifactKey: Guid(0690053deeda23b46a2e3fcdb57c4043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_WaterShoot.wav using Guid(0690053deeda23b46a2e3fcdb57c4043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf3a870e45a9cbec965b48c3e888a69') in 0.025606 seconds
+  Import took 0.028969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_LavaShoot.wav
+  artifactKey: Guid(46c26871e839e7e4e9ed324c5caa5e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_LavaShoot.wav using Guid(46c26871e839e7e4e9ed324c5caa5e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d463e4629dd0ca66e3264b5179bf17b') in 0.021773 seconds
+  Import took 0.025243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_LavaExplosion.wav
+  artifactKey: Guid(be39a273eb09eb940a3f82efee6a50b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_LavaExplosion.wav using Guid(be39a273eb09eb940a3f82efee6a50b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd464926b4289dcc84d59f9e01ec80345') in 0.021808 seconds
+  Import took 0.025181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_WaterExplosion.wav
+  artifactKey: Guid(af0e030c49cdd594088c0ded05d2c99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_WaterExplosion.wav using Guid(af0e030c49cdd594088c0ded05d2c99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d8300a50d05b6518c8a5314b12dbef') in 0.021709 seconds
+  Import took 0.025319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_AcidShoot.wav
+  artifactKey: Guid(40eee4b3a18c1e84f99de720d89dcd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_AcidShoot.wav using Guid(40eee4b3a18c1e84f99de720d89dcd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d552e2fda5d29caf04bd32163f2619') in 0.024157 seconds
+  Import took 0.028948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_OilExplosion.wav
+  artifactKey: Guid(36e3800c8622fae43b48bcb0f511367a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_OilExplosion.wav using Guid(36e3800c8622fae43b48bcb0f511367a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c7681f874f832897cf73eb990c85b5') in 0.025694 seconds
+  Import took 0.029935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_OilShoot.wav
+  artifactKey: Guid(66e3d3c2e0d73ad49918594528657d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Liquid/LiquidMissile_OilShoot.wav using Guid(66e3d3c2e0d73ad49918594528657d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f314fcaf07cf772ea0ac638a357830aa') in 0.022708 seconds
+  Import took 0.027071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.188860 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_CartoonyEnergyExplosion.wav
+  artifactKey: Guid(f0c683b506caa6a4486f92be67e4effd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_CartoonyEnergyExplosion.wav using Guid(f0c683b506caa6a4486f92be67e4effd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03652e4c486e27fd3616d16b3b244588') in 0.017806 seconds
+  Import took 0.021345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_CartoonyEnergyShoot.wav
+  artifactKey: Guid(e4ba6eb5bbbe175409e0aa9fa6dd21d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_CartoonyEnergyShoot.wav using Guid(e4ba6eb5bbbe175409e0aa9fa6dd21d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb0e01773f1fdc74a539e09dd73795d') in 0.021799 seconds
+  Import took 0.025633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_EnergyShoot.wav
+  artifactKey: Guid(b5dcaf6be7d3e7a4bab60bdfb3ec0370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_EnergyShoot.wav using Guid(b5dcaf6be7d3e7a4bab60bdfb3ec0370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d143d17745525bc7554bc27101492b') in 0.020169 seconds
+  Import took 0.024170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_PoisonEnergyExplosion.wav
+  artifactKey: Guid(9a9f75d515239fa4894f30fd237f93b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_PoisonEnergyExplosion.wav using Guid(9a9f75d515239fa4894f30fd237f93b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40d3d43f18ee545743da0066a1be405') in 0.021285 seconds
+  Import took 0.025988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_CartoonyEnergyShoot.wav
+  artifactKey: Guid(c81b44aaa115586448dd810bc4231580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_CartoonyEnergyShoot.wav using Guid(c81b44aaa115586448dd810bc4231580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fd948ab533be6f042b9cd64bb60d48') in 0.021234 seconds
+  Import took 0.025127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_FireExplosion.wav
+  artifactKey: Guid(61bbf7bda024a6245906678aeff580cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_FireExplosion.wav using Guid(61bbf7bda024a6245906678aeff580cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c224d3c21f0607a167856ebc84b371a8') in 0.019789 seconds
+  Import took 0.023366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_CartoonyEnergyExplosion.wav
+  artifactKey: Guid(6b6f639ecfcd20f4a98d5155cb505dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_CartoonyEnergyExplosion.wav using Guid(6b6f639ecfcd20f4a98d5155cb505dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2efda1169793616ca2f2bf56fc6a9f') in 0.019582 seconds
+  Import took 0.023110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_PoisonEnergyShoot.wav
+  artifactKey: Guid(49f09fb101792dc40aaaf9ab4aaae38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_PoisonEnergyShoot.wav using Guid(49f09fb101792dc40aaaf9ab4aaae38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044cb0875c9b3818279436dc6a705c9e') in 0.021928 seconds
+  Import took 0.025903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_FireEnergyExplosion.wav
+  artifactKey: Guid(5e5cde2fa6aa60d4183f7e683f98f995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_FireEnergyExplosion.wav using Guid(5e5cde2fa6aa60d4183f7e683f98f995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c340990bd39b43914ccbdc4cab79d99f') in 0.020284 seconds
+  Import took 0.023824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_EnergyExplosion.wav
+  artifactKey: Guid(b5fc308b763b4784ebb17c94ffaa7254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_EnergyExplosion.wav using Guid(b5fc308b763b4784ebb17c94ffaa7254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0441eaa2c6583c691d56c79af0fed468') in 0.019803 seconds
+  Import took 0.023031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_FireEnergyShoot.wav
+  artifactKey: Guid(9fe6df454bf37b045985ac81440e4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_FireEnergyShoot.wav using Guid(9fe6df454bf37b045985ac81440e4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3836a21416098932ebaf8d1854dbafb1') in 0.022546 seconds
+  Import took 0.026278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_FireShoot.wav
+  artifactKey: Guid(a02fe59e1ad95be4fb8e510533029611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_FireShoot.wav using Guid(a02fe59e1ad95be4fb8e510533029611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ecb090aa92d7cca8c912e2782809ec') in 0.020437 seconds
+  Import took 0.023457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_PoisonEnergyShoot.wav
+  artifactKey: Guid(a03ee8777e733404a8b2edc393c965cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_PoisonEnergyShoot.wav using Guid(a03ee8777e733404a8b2edc393c965cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e713c2e4dea0f0c716a420ff657419f0') in 0.019675 seconds
+  Import took 0.023037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_PoisonEnergyExplosion.wav
+  artifactKey: Guid(04284f769334eae45b0d5cca2fd98917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_PoisonEnergyExplosion.wav using Guid(04284f769334eae45b0d5cca2fd98917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea794e47521558847443e92c17ba62f') in 0.020178 seconds
+  Import took 0.023333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_EnergyShoot.wav
+  artifactKey: Guid(2779e8b6659ba574693a86fd1e254d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissleSoft_EnergyShoot.wav using Guid(2779e8b6659ba574693a86fd1e254d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56525123f4073aa133a35c51bc690fa4') in 0.020351 seconds
+  Import took 0.023708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_EnergyExplosion.wav
+  artifactKey: Guid(bd37195b15ef4584ab251036a0cf7f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Magic/MagicMissle_EnergyExplosion.wav using Guid(bd37195b15ef4584ab251036a0cf7f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700cd79513fbfda8f3d17675c73ee09c') in 0.020216 seconds
+  Import took 0.023751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_PoisonExplosion.wav
+  artifactKey: Guid(0c002e035fbd0874c885761f9d91a108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_PoisonExplosion.wav using Guid(0c002e035fbd0874c885761f9d91a108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0311224286575aae9d7934fedc64ac2') in 0.019577 seconds
+  Import took 0.023356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_FireShoot.wav
+  artifactKey: Guid(a7935d3b5716caf4e985d7aab49b242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_FireShoot.wav using Guid(a7935d3b5716caf4e985d7aab49b242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9fdcba4c969d679c96b7a6482025e0') in 0.018184 seconds
+  Import took 0.022606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_NormalShoot.wav
+  artifactKey: Guid(d813ed099732dc54fa304956b8a40131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_NormalShoot.wav using Guid(d813ed099732dc54fa304956b8a40131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f97bce6995ff0cc82506f6320e2679') in 0.019870 seconds
+  Import took 0.023479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_CartoonyShoot.wav
+  artifactKey: Guid(57bce8473a540e844882da151001f107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_CartoonyShoot.wav using Guid(57bce8473a540e844882da151001f107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782843b75122990d5e20bcfd851d0f53') in 0.020566 seconds
+  Import took 0.024204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_NormalExplosion.wav
+  artifactKey: Guid(7d56c6f43d7c23f45b94e5a034c7256a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_NormalExplosion.wav using Guid(7d56c6f43d7c23f45b94e5a034c7256a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17883c95c89e59e26e74773c6513d1ec') in 0.021012 seconds
+  Import took 0.025215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_PoisonShoot.wav
+  artifactKey: Guid(8fc931385c5bd0a4aafe2ca42e016251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_PoisonShoot.wav using Guid(8fc931385c5bd0a4aafe2ca42e016251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0d7028b7365c2c3fb4582558aba737') in 0.021272 seconds
+  Import took 0.024583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_CartoonyExplosion.wav
+  artifactKey: Guid(296dd07916abde24cacab4a0a0920425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_CartoonyExplosion.wav using Guid(296dd07916abde24cacab4a0a0920425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cbf7e32cd41aace9de2aee73d4057f') in 0.019928 seconds
+  Import took 0.023273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_FireExplosion.wav
+  artifactKey: Guid(fe1d9305a35db4942bb18ec8e9492c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_FireExplosion.wav using Guid(fe1d9305a35db4942bb18ec8e9492c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a176fb63873d0c53ef3bc5e9c3c60c') in 0.019947 seconds
+  Import took 0.023392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001831 seconds.
+  path: Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_FireExplosion.wav
+  artifactKey: Guid(fe1d9305a35db4942bb18ec8e9492c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MissleSetAudio/Mystic/MysticMissle_FireExplosion.wav using Guid(fe1d9305a35db4942bb18ec8e9492c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a176fb63873d0c53ef3bc5e9c3c60c') in 0.013733 seconds
+  Import took 0.017458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.537821 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyBodySlam.wav
+  artifactKey: Guid(f19aca8980c6826458d8a8db128928af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyBodySlam.wav using Guid(f19aca8980c6826458d8a8db128928af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954678c2792be329d2e5841759605a06') in 0.021780 seconds
+  Import took 0.025719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchExtream_1.wav
+  artifactKey: Guid(5d014764d89a39b4394d7c13ca621b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchExtream_1.wav using Guid(5d014764d89a39b4394d7c13ca621b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdcc31689f77860f42cb6ddcd3347fd') in 0.020689 seconds
+  Import took 0.024219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchMiddle_2.wav
+  artifactKey: Guid(e2e4a6233edda00428c8b4b3f16f68cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchMiddle_2.wav using Guid(e2e4a6233edda00428c8b4b3f16f68cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3647d93809dbaad6c85564aeae1d0bb9') in 0.021834 seconds
+  Import took 0.025587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchHeavy_1.wav
+  artifactKey: Guid(3c48d91dbaaac1b43b69b1c89e4dc4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchHeavy_1.wav using Guid(3c48d91dbaaac1b43b69b1c89e4dc4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2446e6bc73de05ec4e3d0106e1ce4acb') in 0.021969 seconds
+  Import took 0.026390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchHeavy_2.wav
+  artifactKey: Guid(2ca0e024ca1810e4ca86d56ed474da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchHeavy_2.wav using Guid(2ca0e024ca1810e4ca86d56ed474da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa0268db2cc2881c4b093f44f528a1e') in 0.020531 seconds
+  Import took 0.024409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyPunchHeavy.wav
+  artifactKey: Guid(3c9e3e7860bf71b4abe840a5df68bd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyPunchHeavy.wav using Guid(3c9e3e7860bf71b4abe840a5df68bd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc433ae9e5b426c3f519e6f1a738eec') in 0.019086 seconds
+  Import took 0.022438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyPuncLight.wav
+  artifactKey: Guid(ed9ecd947350684488fe45345d7c008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyPuncLight.wav using Guid(ed9ecd947350684488fe45345d7c008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec40d574ca33122a8c41f8f301bd7b07') in 0.018999 seconds
+  Import took 0.022312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchLight_2.wav
+  artifactKey: Guid(0bc79252f788f834d81267e2eaf5f774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchLight_2.wav using Guid(0bc79252f788f834d81267e2eaf5f774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8249de7423f00b74a1095e4a6c4037') in 0.020568 seconds
+  Import took 0.024109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftFightAction2.wav
+  artifactKey: Guid(a30378e3d08fd4d44a9e1d8040f348b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftFightAction2.wav using Guid(a30378e3d08fd4d44a9e1d8040f348b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3be7015fad42b977a95cf603da39165') in 0.021955 seconds
+  Import took 0.025430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyFightAction1.wav
+  artifactKey: Guid(e80ca7f16dc31204eb5263bb246a48b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyFightAction1.wav using Guid(e80ca7f16dc31204eb5263bb246a48b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053b6bdaad7be6d952358e28d2b6e729') in 0.020971 seconds
+  Import took 0.024186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchExtream_2.wav
+  artifactKey: Guid(2a0276ccb9e454a4fa00550ef57d02bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchExtream_2.wav using Guid(2a0276ccb9e454a4fa00550ef57d02bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4edc96d36be196579849778a3ef851') in 0.020009 seconds
+  Import took 0.023375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyPunchMiddle.wav
+  artifactKey: Guid(abf0d74878e1d214b89a4f2ce006d582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyPunchMiddle.wav using Guid(abf0d74878e1d214b89a4f2ce006d582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b61373a3931fda3810f36d254bca9a') in 0.018991 seconds
+  Import took 0.022452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchLight_1.wav
+  artifactKey: Guid(ef338c0bbc68c694388efd501108b1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchLight_1.wav using Guid(ef338c0bbc68c694388efd501108b1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b6d87f3ad683b07026323c3e953d53') in 0.018738 seconds
+  Import took 0.022138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchMiddle_1.wav
+  artifactKey: Guid(ff4e4fc80e0bd6248aaa5644ffdff6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftPunchMiddle_1.wav using Guid(ff4e4fc80e0bd6248aaa5644ffdff6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aab356ee681e1b32eef28b781085b4') in 0.022280 seconds
+  Import took 0.026025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyPunchExtream.wav
+  artifactKey: Guid(9b13ea3b052a68245832588f52924999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyPunchExtream.wav using Guid(9b13ea3b052a68245832588f52924999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64c57db16618781c71e36f9dc0adc7c') in 0.020319 seconds
+  Import took 0.023794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftBodySlam.wav
+  artifactKey: Guid(a34c138e3dcde884b80bf2e535a089c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftBodySlam.wav using Guid(a34c138e3dcde884b80bf2e535a089c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5dbf0923fbe94bbb6abce489804d397') in 0.020645 seconds
+  Import took 0.024607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyFightAction2.wav
+  artifactKey: Guid(e65bac55122a357469f95e185b88f4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/CartoonyFightAction2.wav using Guid(e65bac55122a357469f95e185b88f4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580622d93f4ace12638a1031e7b61980') in 0.020530 seconds
+  Import took 0.023783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftFightAction1.wav
+  artifactKey: Guid(570b699526039b244aea3fe5c6eb9cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/BodyPunch/SoftFightAction1.wav using Guid(570b699526039b244aea3fe5c6eb9cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57018dcca5249baee13eee59164944a9') in 0.019826 seconds
+  Import took 0.023408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.112673 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/Nova_Cartoony.wav
+  artifactKey: Guid(0ee21ee82b2ec644a845efea00f6ff18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/Nova_Cartoony.wav using Guid(0ee21ee82b2ec644a845efea00f6ff18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09f34e27fc96481c0902ff790797f58') in 0.019691 seconds
+  Import took 0.023325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaFire_Fire.wav
+  artifactKey: Guid(2c87cb14e8df0be41bda167084e0b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaFire_Fire.wav using Guid(2c87cb14e8df0be41bda167084e0b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcaebc82590a13862f0482d16c6dba5') in 0.020164 seconds
+  Import took 0.023713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaFire_Normal.wav
+  artifactKey: Guid(5312a904081a0b14c9eab79cedc4b5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaFire_Normal.wav using Guid(5312a904081a0b14c9eab79cedc4b5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f5b09b1cbe067a4fa325ed16559d74') in 0.022647 seconds
+  Import took 0.026809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/Nova_Poison.wav
+  artifactKey: Guid(bb68047e8175943439e553756c9757ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/Nova_Poison.wav using Guid(bb68047e8175943439e553756c9757ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0938aba074f1cfdd19243157d59849eb') in 0.020030 seconds
+  Import took 0.023858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaLightning3.wav
+  artifactKey: Guid(6d3cd1d446e76114ba30b6f0a05248e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaLightning3.wav using Guid(6d3cd1d446e76114ba30b6f0a05248e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4040b04c49a6b0f524a98a76fe8b6b77') in 0.019656 seconds
+  Import took 0.023233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/Nova_Fire.wav
+  artifactKey: Guid(706f1011abbedc04ea22c227511d98bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/Nova_Fire.wav using Guid(706f1011abbedc04ea22c227511d98bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c66a76c086b2203600f181944ba589') in 0.020236 seconds
+  Import took 0.023506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaLightning4.wav
+  artifactKey: Guid(5ac8f811d2eaf1e43bf94e67a31af88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaLightning4.wav using Guid(5ac8f811d2eaf1e43bf94e67a31af88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b782a9f7fb3947aa4a46842a1f317f') in 0.021100 seconds
+  Import took 0.024624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaLightning1.wav
+  artifactKey: Guid(18e90e173a97a1049acd86d46e936b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaLightning1.wav using Guid(18e90e173a97a1049acd86d46e936b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26603dbdf1cdcce73a6b684f0410c819') in 0.018937 seconds
+  Import took 0.022734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaFire_Cartoony.wav
+  artifactKey: Guid(a8d5425583a31b749853db5f758a303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaFire_Cartoony.wav using Guid(a8d5425583a31b749853db5f758a303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379056c81460ad351d4de1e0573f178f') in 0.019647 seconds
+  Import took 0.023194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaFire_Poison.wav
+  artifactKey: Guid(4c1da66a1b600184e91f169f355f30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaFire_Poison.wav using Guid(4c1da66a1b600184e91f169f355f30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f21745c973dee7e7d6d5a592dab12a') in 0.020492 seconds
+  Import took 0.024029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/Nova_Normal.wav
+  artifactKey: Guid(f747471bf5dc7a847846ee540bed9ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/Nova_Normal.wav using Guid(f747471bf5dc7a847846ee540bed9ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fab3937503ab2a18a8e1d908f1fec4') in 0.018714 seconds
+  Import took 0.022012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaLightning2.wav
+  artifactKey: Guid(49f3060abe5741146a70f7413b56bba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/NovaLightning2.wav using Guid(49f3060abe5741146a70f7413b56bba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea31fe19b374786c9e6aa35619589c5c') in 0.019683 seconds
+  Import took 0.023654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/Nova_Frost.wav
+  artifactKey: Guid(7eee3ba1de00c084b8ebde5a26f8febc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/NovaExplosion/Nova_Frost.wav using Guid(7eee3ba1de00c084b8ebde5a26f8febc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c62348c01d81bec18ad335c9c8b59aa') in 0.020303 seconds
+  Import took 0.023804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192697 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Cartoony_1.wav
+  artifactKey: Guid(92e519f88ccacc342887b3288ab36fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Cartoony_1.wav using Guid(92e519f88ccacc342887b3288ab36fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14acfe2493253f680480acedc7ae5059') in 0.021439 seconds
+  Import took 0.024983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Fire_1.wav
+  artifactKey: Guid(0c623f58e9e87df4c9123bdd6736c8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Fire_1.wav using Guid(0c623f58e9e87df4c9123bdd6736c8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0e54702b905721c6c2571d2277f8f0') in 0.019688 seconds
+  Import took 0.023232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Ice_1.wav
+  artifactKey: Guid(1e5d1d2acb60eda4d9a17333e2f5f641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Ice_1.wav using Guid(1e5d1d2acb60eda4d9a17333e2f5f641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65dbab21dd91dfa2ab90ce6508a38d3') in 0.019387 seconds
+  Import took 0.023124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Cartoony_2.wav
+  artifactKey: Guid(c4da3da18da819d4dad51fb826e1e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Cartoony_2.wav using Guid(c4da3da18da819d4dad51fb826e1e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47c5ab5bd8016a4819d7e383ba2c3ec') in 0.020741 seconds
+  Import took 0.024244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHitCritical_4.wav
+  artifactKey: Guid(a31830af6575b2c41a9460ddc9993db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHitCritical_4.wav using Guid(a31830af6575b2c41a9460ddc9993db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea81a35d9d138b709c78d6f035b6f71e') in 0.019194 seconds
+  Import took 0.022567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_3.wav
+  artifactKey: Guid(011f219bd28298549b57f9d63f5c4bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_3.wav using Guid(011f219bd28298549b57f9d63f5c4bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9278629ff7fd6d9913d567b7850e4fbe') in 0.019007 seconds
+  Import took 0.022272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_8.wav
+  artifactKey: Guid(2102703c8dbb3a749a02c65f53e750ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_8.wav using Guid(2102703c8dbb3a749a02c65f53e750ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90243f6e11c4471095209d698b010512') in 0.018771 seconds
+  Import took 0.021699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Poison_1.wav
+  artifactKey: Guid(833dd6be0a59aaa4696242f41d2bac0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Poison_1.wav using Guid(833dd6be0a59aaa4696242f41d2bac0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acf4bdc45978e94421f8aa6f579e625') in 0.018617 seconds
+  Import took 0.021754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashHeavy_2.wav
+  artifactKey: Guid(1390ab39b0311274dad54f6cc2c299c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashHeavy_2.wav using Guid(1390ab39b0311274dad54f6cc2c299c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e7a7c71304544c84ae5e71a7e0c4de') in 0.018821 seconds
+  Import took 0.021831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashLight_1.wav
+  artifactKey: Guid(26efba332e8d8054b9db1a64ec947398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashLight_1.wav using Guid(26efba332e8d8054b9db1a64ec947398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be85558eb366b6031bcf9993457b82a8') in 0.018734 seconds
+  Import took 0.021637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_4.wav
+  artifactKey: Guid(d0a6554905b2c9549a66a7a6e43f73a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_4.wav using Guid(d0a6554905b2c9549a66a7a6e43f73a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e3fd2cf5e00e5d50f26f7fa67a8f75') in 0.019972 seconds
+  Import took 0.023262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashLight_2.wav
+  artifactKey: Guid(349c9cd6e3ae43f468341cfb74dec5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashLight_2.wav using Guid(349c9cd6e3ae43f468341cfb74dec5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b47b739edf296a2f19b3184e71d3b9') in 0.022036 seconds
+  Import took 0.025793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Fire_2.wav
+  artifactKey: Guid(9e8ac53735038f846a9681ee7d799370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Fire_2.wav using Guid(9e8ac53735038f846a9681ee7d799370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d1a54f7eadb892c7a85aebe851c57b') in 0.020455 seconds
+  Import took 0.024561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashCartoony_1.wav
+  artifactKey: Guid(e077ce76b7b214e43b213b061535cc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashCartoony_1.wav using Guid(e077ce76b7b214e43b213b061535cc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e1e146f871e56f42a09156e987bf65') in 0.018765 seconds
+  Import took 0.022372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_6.wav
+  artifactKey: Guid(3c6162830d25f7642ad3c14276c5a7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_6.wav using Guid(3c6162830d25f7642ad3c14276c5a7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df109e68911efe2dad8a749c6c8b39f') in 0.019192 seconds
+  Import took 0.022386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashCartoony_2.wav
+  artifactKey: Guid(93725ebdd31d5a74cae7c6d3812c6d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashCartoony_2.wav using Guid(93725ebdd31d5a74cae7c6d3812c6d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b7e9a4152e79a615122676a422cf53') in 0.020349 seconds
+  Import took 0.023728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Ice_2.wav
+  artifactKey: Guid(7f7676041bc0e6445bd9f6b672d54762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Ice_2.wav using Guid(7f7676041bc0e6445bd9f6b672d54762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59eeed2a568113d52cbed2112fde09e6') in 0.021997 seconds
+  Import took 0.025713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Poison_2.wav
+  artifactKey: Guid(433f41b5fb5404843be84ffed2d50127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/MagicSwordHit_Poison_2.wav using Guid(433f41b5fb5404843be84ffed2d50127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964355a914595219bb755dbed0c908ec') in 0.019546 seconds
+  Import took 0.023087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_2.wav
+  artifactKey: Guid(2842dc820956dc348a4ad4e4abced4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_2.wav using Guid(2842dc820956dc348a4ad4e4abced4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3619dc9e113d0ab129491ef3bf2ca8a5') in 0.019295 seconds
+  Import took 0.022926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashHeavy_1.wav
+  artifactKey: Guid(35eb159b5f3a7d240ada575ceee33757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashHeavy_1.wav using Guid(35eb159b5f3a7d240ada575ceee33757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e3470a802053df8cbd2800fe0c3ec1') in 0.018949 seconds
+  Import took 0.022759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_7.wav
+  artifactKey: Guid(2e5e244b7c267d3498800b8be6e21f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_7.wav using Guid(2e5e244b7c267d3498800b8be6e21f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a35a742b55bedb3123187725ae05c1') in 0.021236 seconds
+  Import took 0.024756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHitCritical_3.wav
+  artifactKey: Guid(3836e279cb5812b489182e4729258e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHitCritical_3.wav using Guid(3836e279cb5812b489182e4729258e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c709b186ed9caf6b05ddb8f6fedfbd') in 0.024526 seconds
+  Import took 0.027749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_5.wav
+  artifactKey: Guid(2feb740c7c4e9834c8f743363db3b4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_5.wav using Guid(2feb740c7c4e9834c8f743363db3b4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befd1fdbaf0510977d3823e17dd34726') in 0.023061 seconds
+  Import took 0.027231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHitCritical_2.wav
+  artifactKey: Guid(9abcbeaee54c29244abdca6842ef55b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHitCritical_2.wav using Guid(9abcbeaee54c29244abdca6842ef55b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf39d0bf9a0287959e9d5974d776276') in 0.021730 seconds
+  Import took 0.025499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHitCritical_1.wav
+  artifactKey: Guid(d8403158766379f478f11a1da58e2a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHitCritical_1.wav using Guid(d8403158766379f478f11a1da58e2a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b8ee1b5073b143ea0a4e4ea95a9500') in 0.022394 seconds
+  Import took 0.026332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_1.wav
+  artifactKey: Guid(4241f3c9c7e48594d9304006f99b5c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordHit_1.wav using Guid(4241f3c9c7e48594d9304006f99b5c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11f6b846c341f8bb665865dcc1cdcc7') in 0.019904 seconds
+  Import took 0.023384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.490891 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashMiddle_1.wav
+  artifactKey: Guid(d6616bb7bd9e8234b89ddf1b93a014e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashMiddle_1.wav using Guid(d6616bb7bd9e8234b89ddf1b93a014e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2eafc87e66b5acbe61098d9b61782b4') in 0.019560 seconds
+  Import took 0.023111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSpinCartoony.wav
+  artifactKey: Guid(72edc0cbb5019c94391c607c98c4f834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSpinCartoony.wav using Guid(72edc0cbb5019c94391c607c98c4f834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8cf290a73d0249902d014806cca91e') in 0.018335 seconds
+  Import took 0.022525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashMiddle_2.wav
+  artifactKey: Guid(f81a7a61c31057247ada6402798e1ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSlashMiddle_2.wav using Guid(f81a7a61c31057247ada6402798e1ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba02c1e87d1cc6104d72b9b8395958a7') in 0.019380 seconds
+  Import took 0.023004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSpinLight.wav
+  artifactKey: Guid(c01faf8ff4cdf9548be38bbecb8b17da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSpinLight.wav using Guid(c01faf8ff4cdf9548be38bbecb8b17da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa385b4381d1fa5d6bc06a07262730e') in 0.026853 seconds
+  Import took 0.030668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSpinHeavy.wav
+  artifactKey: Guid(54103fbbf329bdd42aec46c771e7120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSpinHeavy.wav using Guid(54103fbbf329bdd42aec46c771e7120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f75e78db3dff1e06b00b437c8754662') in 0.019250 seconds
+  Import took 0.022605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.585085 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSpinMiddle.wav
+  artifactKey: Guid(80ccb0aa7aa36e448bb469abf4397698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Sword/SwordSpinMiddle.wav using Guid(80ccb0aa7aa36e448bb469abf4397698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539fe6ba08d77d6bfa61a362006610e4') in 0.021355 seconds
+  Import took 0.025002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.205819 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_CartoonyLong.wav
+  artifactKey: Guid(771b4a3c28f569249a503a0ef7b2783e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_CartoonyLong.wav using Guid(771b4a3c28f569249a503a0ef7b2783e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68b86ba9267d201cd987e21f9bbea76') in 0.021169 seconds
+  Import took 0.024747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_FireLong.wav
+  artifactKey: Guid(b3580d45e0cd72648801a10effe1fcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_FireLong.wav using Guid(b3580d45e0cd72648801a10effe1fcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b03e15fa6c299fcc4d67230458e0a42') in 0.019309 seconds
+  Import took 0.022634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_IceMiddle.wav
+  artifactKey: Guid(678952be7f0a2f74e949eabb160043e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_IceMiddle.wav using Guid(678952be7f0a2f74e949eabb160043e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5d634ca001f828b9c1e605952cca4f') in 0.020329 seconds
+  Import took 0.024184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_IceShort.wav
+  artifactKey: Guid(aa2beb685f7531244a5e01e71aa90fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_IceShort.wav using Guid(aa2beb685f7531244a5e01e71aa90fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d911564cb6ed502c9b11de2d9482de6') in 0.020453 seconds
+  Import took 0.023910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_PoisonShort.wav
+  artifactKey: Guid(9b35754fbc5d90b45b5cd20db9b2403a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_PoisonShort.wav using Guid(9b35754fbc5d90b45b5cd20db9b2403a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61612b405ef75087ff286393855ca379') in 0.019637 seconds
+  Import took 0.023104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_CartoonyLoop.wav
+  artifactKey: Guid(e5d5f9c61b984f74cbed0dcdec410b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_CartoonyLoop.wav using Guid(e5d5f9c61b984f74cbed0dcdec410b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3031844def1f6a69b504c6b1ed47247a') in 0.019957 seconds
+  Import took 0.023087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_CartoonyShort.wav
+  artifactKey: Guid(1a415f4c990052f4c862b730bfe7472b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_CartoonyShort.wav using Guid(1a415f4c990052f4c862b730bfe7472b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91efcd92f90726874a605502371f1621') in 0.021486 seconds
+  Import took 0.025334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_CartoonyMiddle.wav
+  artifactKey: Guid(c6e953824ac29f74e82dcc0d6e3c79ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_CartoonyMiddle.wav using Guid(c6e953824ac29f74e82dcc0d6e3c79ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b71df03e92ea4f19bdd5abd703efd5') in 0.021934 seconds
+  Import took 0.025622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_FireLoop.wav
+  artifactKey: Guid(520e9ceba6dc5d74292b43a4fe4f27a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_FireLoop.wav using Guid(520e9ceba6dc5d74292b43a4fe4f27a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fe87ad48f8131492375553281fcd1d') in 0.020395 seconds
+  Import took 0.024281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_PoisonLoop.wav
+  artifactKey: Guid(d9779eb84cffb2942aa47204ff1cc776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_PoisonLoop.wav using Guid(d9779eb84cffb2942aa47204ff1cc776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46bf79f8b7f09d1028f10a99a325aeb7') in 0.018679 seconds
+  Import took 0.022249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_Iceloop.wav
+  artifactKey: Guid(748dc965da215ba469716b447e1f22e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_Iceloop.wav using Guid(748dc965da215ba469716b447e1f22e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c460f7b3555d2932a1b40b7c9866274') in 0.019366 seconds
+  Import took 0.022796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_FireMiddle.wav
+  artifactKey: Guid(1d1dde304ae28f74aa8ccaaa0afcc887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_FireMiddle.wav using Guid(1d1dde304ae28f74aa8ccaaa0afcc887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7866e0da0c3df70dae43f9734efe010d') in 0.019692 seconds
+  Import took 0.023076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_FireShort.wav
+  artifactKey: Guid(70f311f8beca00e4cb6a3de283799f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_FireShort.wav using Guid(70f311f8beca00e4cb6a3de283799f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f4c7a7822ec4fe95b6fa2c19b75239') in 0.019378 seconds
+  Import took 0.023203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_FireMiddle.wav
+  artifactKey: Guid(1d1dde304ae28f74aa8ccaaa0afcc887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_FireMiddle.wav using Guid(1d1dde304ae28f74aa8ccaaa0afcc887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7866e0da0c3df70dae43f9734efe010d') in 0.012498 seconds
+  Import took 0.016589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_FireShort.wav
+  artifactKey: Guid(70f311f8beca00e4cb6a3de283799f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_FireShort.wav using Guid(70f311f8beca00e4cb6a3de283799f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f4c7a7822ec4fe95b6fa2c19b75239') in 0.011031 seconds
+  Import took 0.014271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_PoisonLong.wav
+  artifactKey: Guid(e10bb2c8cf0824d4d9d7a192dbcae5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_PoisonLong.wav using Guid(e10bb2c8cf0824d4d9d7a192dbcae5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bf4d8543f8be3d2cb61f92895c67c5') in 0.020394 seconds
+  Import took 0.023797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/ETC/BloodSplatWide.wav
+  artifactKey: Guid(6df6a7e0b7fc6e94a9cb2a5a64b52493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/ETC/BloodSplatWide.wav using Guid(6df6a7e0b7fc6e94a9cb2a5a64b52493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3779a3f632f2ef6562719b081c3d62') in 0.018904 seconds
+  Import took 0.022653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/ETC/RoundHitFire.wav
+  artifactKey: Guid(dc3e228c655ca384e8a3dc3898717b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/ETC/RoundHitFire.wav using Guid(dc3e228c655ca384e8a3dc3898717b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e2220b358fe4127272126b5e251c86') in 0.018199 seconds
+  Import took 0.021701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/ETC/BloodFlowing.wav
+  artifactKey: Guid(88583a8d1b0c555498e82c73bf641854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/ETC/BloodFlowing.wav using Guid(88583a8d1b0c555498e82c73bf641854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebad392957996d443187d02d76c461b') in 0.018698 seconds
+  Import took 0.021984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/ETC/StunnedCirclingStarsLoop.wav
+  artifactKey: Guid(5a08bee887513c744a665e66243eceb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/ETC/StunnedCirclingStarsLoop.wav using Guid(5a08bee887513c744a665e66243eceb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec2c28cf9a7702a825c62eb97d63ed3') in 0.018958 seconds
+  Import took 0.022329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/ETC/StunnedCirclingStartsUpdown.wav
+  artifactKey: Guid(fd4cc5ce32eba514a908008db7ae1617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/ETC/StunnedCirclingStartsUpdown.wav using Guid(fd4cc5ce32eba514a908008db7ae1617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b156c104ae1c0dee684bf61bea9327') in 0.018925 seconds
+  Import took 0.023136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/ETC/BloodSplatDirectional.wav
+  artifactKey: Guid(8b2559f209b26f64db11b2ed1ae1d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/ETC/BloodSplatDirectional.wav using Guid(8b2559f209b26f64db11b2ed1ae1d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a4bb4f90529ee24bad100be07e8ab4') in 0.019110 seconds
+  Import took 0.022584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/ETC/BloodExplosion.wav
+  artifactKey: Guid(ca29b0e81a3a2f1438b88ce14d688239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/ETC/BloodExplosion.wav using Guid(ca29b0e81a3a2f1438b88ce14d688239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920ab3f5b62bfbf2c85d2f10a32d9fe4') in 0.023468 seconds
+  Import took 0.027269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/ETC/RoundHitIce.wav
+  artifactKey: Guid(a4313afac8ed7fc499fa0af1a9830ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/ETC/RoundHitIce.wav using Guid(a4313afac8ed7fc499fa0af1a9830ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f544b09066c07fc094f2731324b9a5') in 0.021688 seconds
+  Import took 0.025557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/ETC/RoundHitPoison.wav
+  artifactKey: Guid(4e1e0655d482ac547879d5d977307ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/ETC/RoundHitPoison.wav using Guid(4e1e0655d482ac547879d5d977307ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c53cd07a0c76d72683f4034555fcc3') in 0.019962 seconds
+  Import took 0.023888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_PoisonMiddle.wav
+  artifactKey: Guid(3b3372129c363314996921cc3f789f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_PoisonMiddle.wav using Guid(3b3372129c363314996921cc3f789f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b266e619e2076f05c0a04d4e41a9322') in 0.022652 seconds
+  Import took 0.026432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/ETC/BloodSplatCritical.wav
+  artifactKey: Guid(51b6af56438490f46a121887dc144a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/ETC/BloodSplatCritical.wav using Guid(51b6af56438490f46a121887dc144a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e027eb2e7a2a5d9779dffabcef5898aa') in 0.023746 seconds
+  Import took 0.027517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/ETC/RoundHitCartoony.wav
+  artifactKey: Guid(7418d753e1258fb48aa505cb3b0a8002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/ETC/RoundHitCartoony.wav using Guid(7418d753e1258fb48aa505cb3b0a8002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156d152bb329dae96acdbe718c531c94') in 0.023525 seconds
+  Import took 0.028222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_IceLong.wav
+  artifactKey: Guid(b2c78075d378e8e4a8ee9456d7dddd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Flamethrower/Flamethrower_IceLong.wav using Guid(b2c78075d378e8e4a8ee9456d7dddd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c92c252328fbb47135f398c3983e931') in 0.021778 seconds
+  Import took 0.025757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.236650 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/CuteDeath.wav
+  artifactKey: Guid(d2cf911276f6df942a2ad9a8dcf18e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/CuteDeath.wav using Guid(d2cf911276f6df942a2ad9a8dcf18e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d0c1026f26a53777ec85d30520c443') in 0.021848 seconds
+  Import took 0.025294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/FrostDeath.wav
+  artifactKey: Guid(2aa41b1d65d8afb44aef199ae3ba33ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/FrostDeath.wav using Guid(2aa41b1d65d8afb44aef199ae3ba33ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa64762ec524636c045999aa24713ce7') in 0.021911 seconds
+  Import took 0.025584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/CuteDeathExplosionOnly.wav
+  artifactKey: Guid(8271fd6c9c4273f40a7ed1a59cee91db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/CuteDeathExplosionOnly.wav using Guid(8271fd6c9c4273f40a7ed1a59cee91db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a40795da84fdb6f7337db80bdde9899') in 0.021912 seconds
+  Import took 0.025670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/ElectricDeath1.wav
+  artifactKey: Guid(6117fa82e1c348f48827666372eaf526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/ElectricDeath1.wav using Guid(6117fa82e1c348f48827666372eaf526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b905d0c4a0f8ff2d3be9cb05a1574e7') in 0.019507 seconds
+  Import took 0.023157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/EvilDeathExplosionOnly.wav
+  artifactKey: Guid(86fe705b3586b574d9e4e1ad145c3c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/EvilDeathExplosionOnly.wav using Guid(86fe705b3586b574d9e4e1ad145c3c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76010b36b2163cc25d6c873b3f2f3d2') in 0.019178 seconds
+  Import took 0.022996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/GenericDeathExplosionOnly.wav
+  artifactKey: Guid(a3be90dae857d2140be9bcf1a4e2cf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/GenericDeathExplosionOnly.wav using Guid(a3be90dae857d2140be9bcf1a4e2cf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a37d8c7b58785564d8ca8305313d243') in 0.020872 seconds
+  Import took 0.024162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/FireDeathExplosionOnly.wav
+  artifactKey: Guid(ef2d93fb4586f6844a9032002ea7baf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/FireDeathExplosionOnly.wav using Guid(ef2d93fb4586f6844a9032002ea7baf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd520b22c811d7927bf8fa8239b59dd6b') in 0.019308 seconds
+  Import took 0.022431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/PoisonDeath.wav
+  artifactKey: Guid(7cdb82f3be024954aa21b9cdd562e75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/PoisonDeath.wav using Guid(7cdb82f3be024954aa21b9cdd562e75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b762a943a4ad0bd2db53d7d2803aebb') in 0.019798 seconds
+  Import took 0.022835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/FireDeath.wav
+  artifactKey: Guid(c53d38de0d6936e4b936eff90339fb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/FireDeath.wav using Guid(c53d38de0d6936e4b936eff90339fb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3522e211c85f5a489dacb374d23860') in 0.021137 seconds
+  Import took 0.024367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/MysticDeathEffectOnly.wav
+  artifactKey: Guid(766a363e11b75984ea1b081e2f96d2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/MysticDeathEffectOnly.wav using Guid(766a363e11b75984ea1b081e2f96d2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f173f5d064f1e0f3d0e71d2b733bd58e') in 0.021702 seconds
+  Import took 0.025964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/ElectricDeath2.wav
+  artifactKey: Guid(1f3c67db5d637b04582439e0bb70c809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/ElectricDeath2.wav using Guid(1f3c67db5d637b04582439e0bb70c809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71c55b78d3a90ed91f4b1f02d73adec') in 0.021663 seconds
+  Import took 0.025580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/ElectricDeath1_EffectOnly.wav
+  artifactKey: Guid(5f5b9df40a7e11e4690073cfecfc1ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/ElectricDeath1_EffectOnly.wav using Guid(5f5b9df40a7e11e4690073cfecfc1ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd78c02dd8973cb45f370e8b8ab692b9') in 0.022457 seconds
+  Import took 0.026814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/ElectricDeath1_ExplosionOnly.wav
+  artifactKey: Guid(afc70c92beddcc24d81108db26478da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/ElectricDeath1_ExplosionOnly.wav using Guid(afc70c92beddcc24d81108db26478da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984372e3c32d8824a3e109f1e5d4f38f') in 0.021375 seconds
+  Import took 0.025156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/ElectricDeath2_ExplosionOnly.wav
+  artifactKey: Guid(5874810be4fd6f4448400eb933ff8c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/ElectricDeath2_ExplosionOnly.wav using Guid(5874810be4fd6f4448400eb933ff8c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435daab45dfdedbd8fccffcdfca206e1') in 0.019847 seconds
+  Import took 0.023300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/EvilDeathEffectOnly.wav
+  artifactKey: Guid(040df93cfe692154585b340ffc099e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/EvilDeathEffectOnly.wav using Guid(040df93cfe692154585b340ffc099e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2d558b3639d6cf681f9de39dbb87ff') in 0.020071 seconds
+  Import took 0.023711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/MysticDeathExplosionOnly.wav
+  artifactKey: Guid(c2c2e6e16a5696a4e99cfb557e54c0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/MysticDeathExplosionOnly.wav using Guid(c2c2e6e16a5696a4e99cfb557e54c0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b5aece6fbddbd55f7b3aea83904ef8') in 0.019627 seconds
+  Import took 0.023042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/FireDeathEffectOnly.wav
+  artifactKey: Guid(92f4cf123c862ee4288d84a78ad6f1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/FireDeathEffectOnly.wav using Guid(92f4cf123c862ee4288d84a78ad6f1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08072235ee1dd853e1294f9164518f7') in 0.019180 seconds
+  Import took 0.022582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/MysticDeath.wav
+  artifactKey: Guid(37545231e9f551a4e9cd110ae9e67468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/MysticDeath.wav using Guid(37545231e9f551a4e9cd110ae9e67468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd14f6c856806d273fe0df00f43814d') in 0.019540 seconds
+  Import took 0.023177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/GenericDeath.wav
+  artifactKey: Guid(5707e8de4d7ffde408468b9d6c9ab25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/GenericDeath.wav using Guid(5707e8de4d7ffde408468b9d6c9ab25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af28a4a2f31174055eaafa222f6e51e8') in 0.018619 seconds
+  Import took 0.022201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/FrostDeathExplosionOnly.wav
+  artifactKey: Guid(a99ab56a274070047a38abdf04b6a2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/FrostDeathExplosionOnly.wav using Guid(a99ab56a274070047a38abdf04b6a2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8f5b40cb73567bbe5c597955c39fc1') in 0.021649 seconds
+  Import took 0.025400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/ElectricDeath2_EffectOnly.wav
+  artifactKey: Guid(3d968f81b04791f4c844061d583a8e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/ElectricDeath2_EffectOnly.wav using Guid(3d968f81b04791f4c844061d583a8e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a067ab538dfbb6f039729fd99fc176df') in 0.018979 seconds
+  Import took 0.022548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/CuteDeathEffectOnly.wav
+  artifactKey: Guid(af838acbf0b89c04e8e1d0f953c8e6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/CuteDeathEffectOnly.wav using Guid(af838acbf0b89c04e8e1d0f953c8e6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f301016f15ad6bdb967062fd449313') in 0.019401 seconds
+  Import took 0.022620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/GenericDeathEffectOnly.wav
+  artifactKey: Guid(fd51c1c13e2e03b4ca133aa5493d3496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/GenericDeathEffectOnly.wav using Guid(fd51c1c13e2e03b4ca133aa5493d3496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9098947c11bc8c5c8360c8db7942295b') in 0.020034 seconds
+  Import took 0.023356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/FrostDeathEffectOnly.wav
+  artifactKey: Guid(4d61475b8a3efba47b7a54556ff451c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/FrostDeathEffectOnly.wav using Guid(4d61475b8a3efba47b7a54556ff451c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381bb12dd050eae5025c7c3f06dca442') in 0.020784 seconds
+  Import took 0.023839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/PosionDeathEffectOnly.wav
+  artifactKey: Guid(c4ba4b7020955e64890a382c2f4c1c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/PosionDeathEffectOnly.wav using Guid(c4ba4b7020955e64890a382c2f4c1c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabf6432d645349102a34bec83e875f7') in 0.021244 seconds
+  Import took 0.025052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/EvilDeath.wav
+  artifactKey: Guid(9dc0997e13307344497b78acad5e465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/EvilDeath.wav using Guid(9dc0997e13307344497b78acad5e465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcd216ab90191ff34b33c317d94d219') in 0.020386 seconds
+  Import took 0.024202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.492015 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/PosionDeathExplosionOnly.wav
+  artifactKey: Guid(f48506414a031b94d850edc2eb2daeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/PosionDeathExplosionOnly.wav using Guid(f48506414a031b94d850edc2eb2daeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034136b0be7a81ce1da12da2a15d2df1') in 0.022433 seconds
+  Import took 0.025922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/SuperEvilDeathEffectOnly.wav
+  artifactKey: Guid(2d2d7cfa26b73eb48b9a246dcb039cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/SuperEvilDeathEffectOnly.wav using Guid(2d2d7cfa26b73eb48b9a246dcb039cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666dfd9266e2555545d38c6e2ff88b25') in 0.021222 seconds
+  Import took 0.024815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/SuperEvilDeathExplosionOnly.wav
+  artifactKey: Guid(24a0dfe02a595a04cb81c3826e5e9b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/SuperEvilDeathExplosionOnly.wav using Guid(24a0dfe02a595a04cb81c3826e5e9b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50f5f5d744c71db18634130c612e9f6') in 0.019578 seconds
+  Import took 0.023683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/EpicToonSFX/MagicCombatAudio/Death/SuperEvilDeath.wav
+  artifactKey: Guid(4526b77f5a2b0904c8d37e795d190717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EpicToonSFX/MagicCombatAudio/Death/SuperEvilDeath.wav using Guid(4526b77f5a2b0904c8d37e795d190717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087ed8695918760abf5b7f58e3633133') in 0.018920 seconds
+  Import took 0.022047 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

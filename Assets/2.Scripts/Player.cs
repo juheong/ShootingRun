@@ -54,6 +54,7 @@ public class Player : MonoBehaviour
     Weapon equipWeapon;
     CameraController cameraController;
     SkinnedMeshRenderer[] meshs;
+    private AudioSource audioSource;     //오디오 플레이어
 
     private float fireDelay;
     private bool isFireReady;
@@ -74,6 +75,8 @@ public class Player : MonoBehaviour
         obj1 = GameObject.Find("DataManager");
         data = obj1.GetComponent<DataManager>();
         EquipWeapon(data.getEquip());
+        audioSource = this.gameObject.GetComponent<AudioSource>();
+
         //// hasWeapons 배열값들의 트루값을 검사해서 참이면 무기 활성화
         //for (int i = 0; i < hasWeapons.Length; i++)
         //{
@@ -299,10 +302,14 @@ public class Player : MonoBehaviour
         else if (other.tag == "Obstacle")
         {
             StartCoroutine(OnDamage(20));
+            this.audioSource.Play();
+
         }
         else if (other.tag == "Enemy")
         {
             StartCoroutine(OnDamage(20));
+            this.audioSource.Play();
+
 
         }
         else if (other.tag == "EnemyBullet")
@@ -310,12 +317,16 @@ public class Player : MonoBehaviour
             Bullet enemyBullet = other.GetComponent<Bullet>();
             Destroy(other.gameObject);
             StartCoroutine(OnDamage(enemyBullet.damage));
+            this.audioSource.Play();
+
         }
 
     }
 
     void OnParticleCollision(GameObject other)      //스킬 피격판정
     {
+        this.audioSource.Play();
+
         if (other.tag == "EnemyBullet")
         {
             Bullet enemyBullet = other.GetComponent<Bullet>();

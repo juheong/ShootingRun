@@ -14,8 +14,14 @@ public class Weapon : MonoBehaviour
     public Transform bulletPos;
 
     public Bullet bulletPrefab;
+    private AudioSource audioSource;     //오디오 플레이어
+
     Bullet newBullet;
 
+    void Start()
+    {
+        audioSource = this.gameObject.GetComponent<AudioSource>();
+    }
 
     public void Use(bool boss = false)
     {
@@ -40,6 +46,7 @@ public class Weapon : MonoBehaviour
         newBullet.brange = range;
         Rigidbody bulletRigid = newBullet.GetComponent<Rigidbody>();
         bulletRigid.velocity = bulletPos.forward * 50;
+        this.audioSource.Play();
         // if (newBullet != null) Destroy(newBullet, range);
         yield return null;
     }

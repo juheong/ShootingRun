@@ -6,6 +6,9 @@ public class Enemy : MonoBehaviour
 {
     public enum Type {Basic, Rush, Range ,Burrow, Sneak, Stone};
     public Type enemyType;
+    private AudioSource audioSource;        //피격 효과음
+    private AudioSource AttackSource;       //공격 효과음
+
     [SerializeField]
     private int maxHealth;
     [SerializeField]
@@ -19,13 +22,17 @@ public class Enemy : MonoBehaviour
     Animator anim;
     private float attackTime = 2f;
     GameObject Player;
-    
+
+    int attacked = 1;
     private void Awake()
     {
         rigid = GetComponent<Rigidbody>();
         boxCollider = GetComponent<BoxCollider>();
         meshs = GetComponentsInChildren<SkinnedMeshRenderer>();
         anim = GetComponent<Animator>();
+        audioSource = this.gameObject.GetComponent<AudioSource>();
+        AttackSource = this.transform.FindChild("AttackClip").gameObject.GetComponent<AudioSource>();
+
         switch (enemyType)      //타입에 따른 공격속도
         {
             default:
@@ -50,7 +57,7 @@ public class Enemy : MonoBehaviour
                 rigid.AddForce(transform.forward * 20, ForceMode.Impulse);
                 break;
         }
-        Destroy(this.gameObject, 5f);
+        Destroy(this.gameObject, 4f);
     }
     private void Update()
     {
@@ -67,6 +74,8 @@ public class Enemy : MonoBehaviour
     {
         if(other.tag == "Bullet")
         {
+            this.audioSource.Play();
+
             Bullet bullet = other.GetComponent<Bullet>();
             GameObject hudText = Instantiate(hudDamageText);
             hudText.transform.position = transform.position;
@@ -91,26 +100,41 @@ public class Enemy : MonoBehaviour
                 case Type.Basic:
                     break;
                 case Type.Rush:
-                    anim.SetTrigger("onAttack");
-                    rigid.AddForce(transform.forward * 30, ForceMode.Impulse);                    
+                    if (attacked == 1)
+                    {
+                        anim.SetTrigger("onAttack");
+                        this.AttackSource.Play();
+                        rigid.AddForce(transform.forward * 30, ForceMode.Impulse);
+                        attacked = 0;
+                    }
                     break;
                 case Type.Range:
-                    anim.SetTrigger("onAttack");
-                    Vector3 position = transform.position;
-                    position += new Vector3(0f, 1.7f, 0.1f);
-                    GameObject instantBullet = Instantiate(bullet, position, transform.rotation);
-                    Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
-                    rigidBullet.velocity = transform.forward * 20;
-                    break;
+                    if (attacked == 1)
+                    {
+                        anim.SetTrigger("onAttack");
+                        this.AttackSource.Play();
+                        Vector3 position = transform.position;
+                        position += new Vector3(0f, 1.7f, 0.1f);
+                        GameObject instantBullet = Instantiate(bullet, position, transform.rotation);
+                        Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
+                        rigidBullet.velocity = transform.forward * 20;
+                        attacked = 0;
+                    }
+                        break;
                 case Type.Burrow:
-                    if (Vector3.Distance(Player.transform.position, this.transform.position)<=15f)      //플레이어와 근접했을 때에만 공격
-                         anim.SetTrigger("onAttack");                    
-                    Invoke("Burrow", 0.5f);
+                    if (Vector3.Distance(Player.transform.position, this.transform.position) <= 15f && attacked==1)      //플레이어와 근접했을 때에만 공격
+                    {
+                        anim.SetTrigger("onAttack");
+                        this.AttackSource.Play();
+                        Invoke("Burrow", 0f);
+                        attacked = 0;
+                    }
                     break;
                 case Type.Sneak:
                     if (Vector3.Distance(Player.transform.position, this.transform.position) <= 11f)     //플레이어와 근접했을 때에만 
                     {
                         anim.SetTrigger("onAttack");
+                        this.AttackSource.Play();
                         StartCoroutine(Bee_Sting());
                     }
                     break;
