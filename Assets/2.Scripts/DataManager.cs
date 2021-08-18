@@ -142,7 +142,7 @@ public class DataManager : MonoBehaviour
 
         if (BRO2.IsSuccess())
         {
-            Debug.Log("indate : " + BRO2.GetInDate());
+            
         }
         else
         {
@@ -348,6 +348,7 @@ public class DataManager : MonoBehaviour
         BackendReturnObject bro = Backend.GameData.Update("User", where, param);
         if (bro.IsSuccess())
         {
+            player.equip = name;
             Debug.Log("장비장착 업데이트 성공");
         }
     }
@@ -369,7 +370,15 @@ public class DataManager : MonoBehaviour
    
     public string getEquip()
     {
-        return player.equip;
+        if (player.equip != "")
+        {
+            return player.equip;
+        }
+        else
+        {
+            return "M1911";
+        }
+        
     }
     private void errorCode(string code, string msg)
     {

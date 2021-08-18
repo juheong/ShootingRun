@@ -29,11 +29,11 @@ public class LoginManager : MonoBehaviour
         }
         data = GetComponent<DataManager>();
 
-        if (Backend.BMember.GetGuestID() != "")
-        {
-            Backend.BMember.DeleteGuestInfo();
-            Debug.Log("게스트 계정 삭제(테스트용)");
-        }
+        //if (Backend.BMember.GetGuestID() != "")
+        //{
+        //    Backend.BMember.DeleteGuestInfo();
+        //    Debug.Log("게스트 계정 삭제(테스트용)");
+        //}
     }
 
     public void BtnLogin()
@@ -46,8 +46,8 @@ public class LoginManager : MonoBehaviour
             if (bro.IsSuccess())
             {
                 Debug.Log("게스트 로그인에 성공했습니다.");
-                panel.OpenSwapPanel(2);
-                data.InsertData();
+                LoadingSceneController.LoadString("MainMenu");
+                panel.OpenSwapPanel(3);
             }
             else
             {
