@@ -5,6 +5,7 @@ using BackEnd;
 using UnityEngine.UI;
 using TMPro;
 using System.Text.RegularExpressions;
+using System;
 
 
 public class LoginManager : MonoBehaviour
@@ -15,6 +16,7 @@ public class LoginManager : MonoBehaviour
     PanelController panel;
     TextMeshProUGUI warningText;
     [SerializeField] TMP_InputField text = null;
+    private string nickname2;
 
     private void Start()
     {
@@ -43,11 +45,29 @@ public class LoginManager : MonoBehaviour
         if (Backend.BMember.GetGuestID() != "")
         {
             BackendReturnObject bro = Backend.BMember.GuestLogin("게스트로 로그인");
+            BackendReturnObject bro2 = Backend.BMember.GetUserInfo();
+
             if (bro.IsSuccess())
             {
                 Debug.Log("게스트 로그인에 성공했습니다.");
-                LoadingSceneController.LoadString("MainMenu");
-                panel.OpenSwapPanel(3);
+                try
+                {
+                    nickname2 = bro2.GetReturnValuetoJSON()["row"]["nickname"].ToString();
+                }
+                catch (Exception ex)
+                {
+                    Debug.Log(ex + "현재 계정에 닉네임이 존재하지 않습니다.");
+                    panel.OpenSwapPanel(2);
+                }
+                finally
+                {
+                    Debug.Log(nickname2);
+                    if (nickname2 != null)
+                    {
+                        LoadingSceneController.LoadString("MainMenu");
+                        panel.OpenSwapPanel(3);
+                    }
+                }
             }
             else
             {

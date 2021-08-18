@@ -8,10 +8,11 @@ public class SoundManager : MonoBehaviour
 {
     [SerializeField]
     public AudioSource[] obj2;
-    public AudioClip audioTouch;
     public AudioClip audioButton;
-    public AudioClip audioPauseIn;
-    public AudioClip audioPauseOut;
+    public AudioClip audioPopUp;
+    public AudioClip audioError;
+    public AudioClip audioEquip;
+    public AudioClip audioBuy;
 
     public Slider[] sli;
     private void Awake()
@@ -36,17 +37,20 @@ public class SoundManager : MonoBehaviour
     {
         switch(text)
         {
-            case "Touch":
-                obj2[1].clip = audioTouch;
-                break;
             case "Button":
                 obj2[1].clip = audioButton;
                 break;
-            case "PauseIn":
-                obj2[1].clip = audioPauseIn;
+            case "PopUp":
+                obj2[1].clip = audioPopUp;
                 break;
-            case "PauseOut":
-                obj2[1].clip = audioPauseOut;
+            case "Error":
+                obj2[1].clip = audioError;
+                break;
+            case "Equip":
+                obj2[1].clip = audioEquip;
+                break;
+            case "Buy":
+                obj2[1].clip = audioBuy;
                 break;
 
         }

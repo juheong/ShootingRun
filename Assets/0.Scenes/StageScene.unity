@@ -39526,10 +39526,11 @@ MonoBehaviour:
   obj2:
   - {fileID: 1744239013}
   - {fileID: 695102914}
-  audioTouch: {fileID: 8300000, guid: b2339d42d71ef8646b214a6c12e95d54, type: 3}
   audioButton: {fileID: 8300000, guid: 768876ef01ca30043a665d0f8f9a5a29, type: 3}
-  audioPauseIn: {fileID: 8300000, guid: d46fc59147b0a984db39e2091afb865b, type: 3}
-  audioPauseOut: {fileID: 8300000, guid: 2fc58d986242aa845b0c76cfcba21fcc, type: 3}
+  audioPopUp: {fileID: 0}
+  audioError: {fileID: 0}
+  audioEquip: {fileID: 0}
+  audioBuy: {fileID: 0}
   sli:
   - {fileID: 525739325}
   - {fileID: 1206798607}
