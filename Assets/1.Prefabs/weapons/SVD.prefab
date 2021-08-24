@@ -25,16 +25,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6168791845916669177}
-  m_LocalRotation: {x: 0, y: -0.7826082, z: 0, w: 0.6225146}
-  m_LocalPosition: {x: 0.15, y: -0.4, z: -0.43}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalRotation: {x: 0.05122894, y: -0.8059385, z: 0.07051059, w: 0.5855486}
+  m_LocalPosition: {x: 0, y: -0.4, z: 0}
+  m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_Children:
   - {fileID: 6168791847489917806}
   - {fileID: 6168791846193815946}
   - {fileID: 6168791846966795167}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 77, z: 180}
+  m_LocalEulerAnglesHint: {x: 170, y: 72, z: 180}
 --- !u!114 &6168791845916669179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,7 +55,6 @@ MonoBehaviour:
   bulletPos: {fileID: 0}
   bulletPrefab: {fileID: 2411230585462366827, guid: 3ce53d8e70445004299196bae55a8309,
     type: 3}
-  audioSource: {fileID: 0}
 --- !u!82 &7649442605043352185
 AudioSource:
   m_ObjectHideFlags: 0
