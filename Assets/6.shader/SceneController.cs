@@ -22,6 +22,6 @@ public class SceneController : MonoBehaviour
             m.SetFloat(Shader.PropertyToID("X_Axis"), BendX);
             m.SetFloat(Shader.PropertyToID("Y_Axis"), BendY);
         }
-        transform.Translate(Vector3.back * Speed * Time.deltaTime);
+        //transform.Translate(Vector3.back * Speed * Time.deltaTime);
     }
 }

@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d765360f138e3cb4a95c8fdd9a7f0f57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyDistance: 20
+  destroyDistance: 30
 --- !u!114 &8628858102483768516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 1
-  BendX: -0.148
+  BendX: 0
   BendY: 0
   materials:
   - {fileID: 2100000, guid: 89ccc2d18c944fa489a22fc2a7a7e40f, type: 2}
@@ -12747,21 +12747,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrassHillFlat
       objectReference: {fileID: 0}
+    - target: {fileID: 136190, guid: ce4310faa471efc478e0232d3ed58cd0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 425312, guid: ce4310faa471efc478e0232d3ed58cd0, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 425312, guid: ce4310faa471efc478e0232d3ed58cd0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.07
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 425312, guid: ce4310faa471efc478e0232d3ed58cd0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 425312, guid: ce4310faa471efc478e0232d3ed58cd0, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.013
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 425312, guid: ce4310faa471efc478e0232d3ed58cd0, type: 3}
       propertyPath: m_LocalPosition.x

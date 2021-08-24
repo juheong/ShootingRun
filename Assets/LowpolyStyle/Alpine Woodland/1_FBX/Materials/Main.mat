@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 1580830ccc43b52428cf8dfb17a4a202,
     type: 3}
   m_ShaderKeywords: _EMISSION
-  m_LightmapFlags: 1
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -73,7 +73,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - X_Axis: -0.148
+    - Vector1_7946CFC4: 0
+    - X_Axis: 0
     - Y_Axis: 0
     - _BumpScale: 1
     - _Cutoff: 0.5

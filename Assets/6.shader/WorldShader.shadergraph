@@ -395,8 +395,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 1567.0,
-            "y": 77.0
+            "x": 1567.0001220703125,
+            "y": 91.99998474121094
         },
         "m_Blocks": [
             {
@@ -685,7 +685,7 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     },
-    "m_Space": 4
+    "m_Space": 2
 }
 
 {
@@ -1768,9 +1768,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 193.0,
-            "y": -220.99998474121095,
-            "width": 123.0,
+            "x": 199.99998474121095,
+            "y": -218.0,
+            "width": 115.99999237060547,
             "height": 34.0
         }
     },

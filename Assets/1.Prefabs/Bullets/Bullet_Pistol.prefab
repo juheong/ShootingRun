@@ -9697,7 +9697,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234753078459988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2, y: 1.23, z: 0}
+  m_LocalPosition: {x: -2.2, y: 1.23, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4988181890345852}
@@ -14633,7 +14633,6 @@ MonoBehaviour:
   damage: 0
   explosionPrefab: {fileID: 1107041067620042, guid: 987350d53ec090545b8610fad613384f,
     type: 3}
-  impact: {fileID: 8300000, guid: b2339d42d71ef8646b214a6c12e95d54, type: 3}
   brange: 0
 --- !u!135 &-2268741168554765030
 SphereCollider:
