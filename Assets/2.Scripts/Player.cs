@@ -351,6 +351,7 @@ public class Player : MonoBehaviour
         if (health <= 0)
         {
             StartCoroutine(OnDie());
+            StartCoroutine(GameClear());
         }
     }
 
@@ -360,7 +361,17 @@ public class Player : MonoBehaviour
         cameraController.DieCamera();
         playerAnimator.DoDie();
         yield return new WaitForSeconds(2f);
-        gameController.GameOver();
+    }
+    IEnumerator GameClear()
+    {
+        yield return new WaitForSeconds(2f);
+        Time.timeScale = 0;
+        PanelController panelController = FindObjectOfType<PanelController>();
+        //data.expUpdate(200);
+        GameObject.Destroy(obj1);
+        panelController.OpenPanel(2);
+        gameController.InitialLevel();
+        gameController.InitialExp();
     }
 
     public void Attack()
