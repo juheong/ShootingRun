@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5315781565916579357}
   - component: {fileID: 9125646251716904638}
   - component: {fileID: 2451545350383327725}
+  - component: {fileID: 373253332473222630}
   m_Layer: 0
   m_Name: TextDamage
   m_TagString: Untagged
@@ -184,4 +185,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80f0cefa6b2f0f54981a5d995dc96b44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  write: 
+--- !u!114 &373253332473222630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7133056171419683482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3544f25202d00a048a2e200bc84860ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bendingAmount: 0.005

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7568819021807439352}
   - component: {fileID: 4275851387894728564}
-  - component: {fileID: 502597211357262477}
   m_Layer: 0
   m_Name: mapf2
   m_TagString: Untagged
@@ -246,23 +245,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyDistance: 30
---- !u!114 &502597211357262477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5663434798114582271}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19c12b9029b1f7a48a284aff8c8d442b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 1
-  BendX: 0.519
-  BendY: 0.289
-  materials:
-  - {fileID: 2100000, guid: 89ccc2d18c944fa489a22fc2a7a7e40f, type: 2}
 --- !u!1001 &32705695074449900
 PrefabInstance:
   m_ObjectHideFlags: 0

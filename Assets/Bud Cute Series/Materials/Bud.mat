@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6128342119214219933
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -8,9 +21,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Bud
-  m_Shader: {fileID: -6465566751694194690, guid: 1580830ccc43b52428cf8dfb17a4a202,
+  m_Shader: {fileID: -6465566751694194690, guid: 092cac204ee05654dbf3b80b8049f20b,
     type: 3}
-  m_ShaderKeywords: _EMISSION _SPECULARHIGHLIGHTS_OFF
+  m_ShaderKeywords: _EMISSION _SPECULARHIGHLIGHTS_OFF _SPECULAR_SETUP
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -21,6 +34,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_8FA3A0D6:
+        m_Texture: {fileID: 2800000, guid: 73b065f459942194290dccf7fa497213, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 73b065f459942194290dccf7fa497213, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -60,6 +77,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 2800000, guid: 73b065f459942194290dccf7fa497213, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -73,12 +98,20 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - X_Axis: 0
+    - X_Axis: -0.024
     - Y_Axis: 0
+    - _AlphaClip: 0
+    - _Amount: 0.005
+    - _Blend: 0
     - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
     - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _EnvironmentReflections: 1
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
@@ -86,12 +119,19 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 0
     - _SrcBlend: 1
+    - _Surface: 0
     - _UVSec: 0
+    - _WorkflowMode: 0
     - _ZWrite: 1
     m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0.13768554, g: 1, b: 0, a: 1}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []

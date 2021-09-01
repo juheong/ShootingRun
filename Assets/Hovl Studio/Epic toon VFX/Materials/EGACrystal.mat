@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: EGACrystal
   m_Shader: {fileID: 4800000, guid: 13a43378542625f489f7c1c85ba6a4c4, type: 3}
   m_ShaderKeywords: 
@@ -116,3 +117,4 @@ Material:
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpeedMainTexUVNoiseZW: {r: 0, g: 0, b: 0, a: 0}
     - _TintColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+  m_BuildTextureStacks: []
