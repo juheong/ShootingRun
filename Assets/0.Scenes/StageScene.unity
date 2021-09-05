@@ -35283,6 +35283,8 @@ MonoBehaviour:
   spawnAreaCountAtStart: 5
   zDistance: 20
   isBoss: 0
+  SkillsIndicator: {fileID: 5861751673602862354, guid: 65e13103bb6c7ee4ebd445dc738c33d7,
+    type: 3}
   panelController: {fileID: 1688787457}
   playerTransform: {fileID: 115934671}
   clear: 0

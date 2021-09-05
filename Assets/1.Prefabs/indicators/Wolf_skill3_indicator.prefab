@@ -59,7 +59,6 @@ GameObject:
   - component: {fileID: 3538049285621919171}
   - component: {fileID: 6483590407427333361}
   - component: {fileID: 4889632740659094815}
-  - component: {fileID: 2384145261486015579}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -130,22 +129,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!119 &2384145261486015579
-Projector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8461117199184839371}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_NearClipPlane: 0.01
-  m_FarClipPlane: 100
-  m_FieldOfView: 50
-  m_AspectRatio: 1
-  m_Orthographic: 1
-  m_OrthographicSize: 0.8
-  m_Material: {fileID: 2100000, guid: c8c80c5b03f5c7e40b07eb2170e667e5, type: 2}
-  m_IgnoreLayers:
-    serializedVersion: 2
-    m_Bits: 1024

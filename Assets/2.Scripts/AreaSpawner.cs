@@ -19,18 +19,22 @@ public class AreaSpawner : MonoBehaviour
     private int areaIndex = 0;
     [SerializeField]
     private bool isBoss = false;
+    public GameObject SkillsIndicator;
 
     //public TextMeshProUGUI text;
     public PanelController panelController;
 
     [SerializeField]
     private Transform playerTransform;
-    public int clear = 0;
+    public int clear;
     public int stage;
- 
+    Rigidbody indirigi;
+    GameObject Player;
+
 
     private void Awake()
     {
+        clear = 0;
         stage = Random.Range(0, 2);     //몬스터 or 장애물 스테이지 랜덤으로 선택
         for (int i = 0; i < spawnAreaCountAtStart; ++i)
         {
@@ -43,6 +47,7 @@ public class AreaSpawner : MonoBehaviour
                 SpawnArea();
             }
         }
+        Player = GameObject.FindWithTag("Player");
     }
 
     public void SpawnArea()
@@ -74,7 +79,7 @@ public class AreaSpawner : MonoBehaviour
             clear = 0;
             stage = Random.Range(0, 2); //다음 스테이지 몬스터 or 장애물 스테이지 랜덤으로 선택
         }
-        if (clear >=5&&clear<=43)
+        if (clear >=10&&clear<=43)
         {
             float X_coord = -1.5f;        //몬스터 X좌표
             Vector3 enem_transform = new Vector3(X_coord, enemies[index].transform.position.y, playerTransform.position.z+ 40);    //몬스터의 좌표값
@@ -107,26 +112,23 @@ public class AreaSpawner : MonoBehaviour
             }
 
         }
-        if (clear <23 && clear %5==0)       // clear 조건에 따라 토네이도 이벤트 발생
+        if (clear <23 && clear %10==0)       // clear 조건에 따라 토네이도 이벤트 발생
         {
             int loc;
 
             loc = Random.Range(0, 3);       //토네이도 위치를 위한 랜덤변수
             if (loc == 0)       //좌측
             {
-                Vector3 enem_transform = new Vector3(-1.5f, 0, playerTransform.position.z + 30);    //이벤트 좌표값
-                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 84, 0)));   //rotation
+                StartCoroutine(Tornado(-1.5f, 0, playerTransform.position.z, 84f));
             }
-            else if(loc ==1)        //중간
+            else if (loc == 1)        //중간
             {
-                Vector3 enem_transform = new Vector3(0, 0, playerTransform.position.z + 30);  
-                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0)));
+                StartCoroutine(Tornado(0f, 0, playerTransform.position.z, 90f));
             }
             else           //우측
             {
-                Vector3 enem_transform = new Vector3(1.5f, 0, playerTransform.position.z + 30);
-                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 96, 0)));
-            }
+                StartCoroutine(Tornado(1.5f, 0, playerTransform.position.z, 96f));
+            } 
         }
         //if (clear < 23 && clear % 5 == 0)       
         //{
@@ -164,7 +166,7 @@ public class AreaSpawner : MonoBehaviour
             stage = Random.Range(0, 2); //다음 스테이지 몬스터 or 장애물 스테이지 랜덤으로 선택
 
         }
-        if (clear >= 5 && clear <= 43)
+        if (clear >= 10 && clear <= 43)
         {
             float X_coord = -1.5f;        //장애물 X좌표
             Vector3 obs_transform = new Vector3(X_coord, obstacles[index].transform.position.y, playerTransform.position.z + 40);    //장애물의 좌표값
@@ -197,31 +199,45 @@ public class AreaSpawner : MonoBehaviour
             }
 
         }
-        if (clear < 23 && clear % 5 == 0)       // clear 조건에 따라 토네이도 이벤트 발생
+        if (clear < 23 && clear % 10 == 0)       // clear 조건에 따라 토네이도 이벤트 발생
         {
             int loc;
 
             loc = Random.Range(0, 3);       //토네이도 위치를 위한 랜덤변수
             if (loc == 0)       //좌측
             {
-                Vector3 enem_transform = new Vector3(-1.5f, 0, playerTransform.position.z + 30);    //이벤트 좌표값
-                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 84, 0)));   //rotation
+                StartCoroutine(Tornado(-1.5f,0, playerTransform.position.z,84f));
             }
             else if (loc == 1)        //중간
             {
-                Vector3 enem_transform = new Vector3(0, 0, playerTransform.position.z + 30);
-                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0)));
+                StartCoroutine(Tornado(0f, 0, playerTransform.position.z, 90f));
             }
             else           //우측
             {
-                Vector3 enem_transform = new Vector3(1.5f, 0, playerTransform.position.z + 30);
-                Instantiate(events[0], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 96, 0)));
+                StartCoroutine(Tornado(1.5f, 0, playerTransform.position.z, 96f));
             }
         }
-        else if (clear < 45 && clear % 5 == 0)  // clear 조건에 따라 나무 이벤트 발생
+        else if (clear < 45 && clear % 7 == 0)  // clear 조건에 따라 나무 이벤트 발생
         {
             Vector3 enem_transform = new Vector3(-2f, 0, playerTransform.position.z + 30);    //이벤트 좌표값
             Instantiate(events[1], enem_transform + new Vector3(0, 1f, 0), transform.rotation);
         }
+    }
+
+    IEnumerator Tornado(float x, float y, float z, float rot)
+    {
+        z += 15f;
+        Vector3 Indi_position = new Vector3(x, y, z);
+        GameObject skill_indicator = Instantiate(SkillsIndicator, Indi_position, transform.rotation);
+        skill_indicator.transform.LookAt(Player.transform);
+        indirigi = skill_indicator.GetComponent<Rigidbody>();
+        indirigi.velocity = transform.forward * 20;
+        Quaternion indirot = skill_indicator.transform.rotation * Quaternion.Euler(new Vector3(0,90,0));
+        Destroy(skill_indicator, 1.5f);
+
+        yield return new WaitForSeconds(1.5f);
+
+        Vector3 enem_transform = new Vector3(x, y, z + 30);    //이벤트 좌표값
+        Instantiate(events[0], enem_transform, indirot);   //rotation
     }
 }
