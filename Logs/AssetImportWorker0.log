@@ -1,0 +1,259 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'ko' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/routi/Documents/GitHub/ShootingRun
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62764
+Successfully changed project path to: C:/Users/routi/Documents/GitHub/ShootingRun
+C:/Users/routi/Documents/GitHub/ShootingRun
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 110.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/routi/Documents/GitHub/ShootingRun/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   
+    VRAM:     8011 MB
+    Driver:   30.0.14.7111
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'CurvedShader': fallback shader 'Mobile/Unlit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002612 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.704 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 114.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'CurvedShader': fallback shader 'Mobile/Unlit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 303.8 MB.
+System memory in use after: 303.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 4774.
+Total: 2.942000 ms (FindLiveObjects: 0.526900 ms CreateObjectMapping: 0.100600 ms MarkObjects: 2.028500 ms  DeleteObjects: 0.284800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/1.Prefabs/Bullets/Bullet_Rifle.prefab
+  artifactKey: Guid(df6bcb530b3db064591b1d51e4988465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Bullets/Bullet_Rifle.prefab using Guid(df6bcb530b3db064591b1d51e4988465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab83c3a2eec9e5dc7ac814247051d21c') in 0.052063 seconds
+  Import took 0.058719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/6.shader/CurvedWorld.mat
+  artifactKey: Guid(56f3fcd7b21b9a243b6b4d2b96208924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6.shader/CurvedWorld.mat using Guid(56f3fcd7b21b9a243b6b4d2b96208924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fcf8ab9b7df1bfd596005f90a2265c2') in 0.239105 seconds
+  Import took 0.245582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GrassColorLowPolyNormal3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(40b64d07b59086344874702d30fd94a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GrassColorLowPolyNormal3d3aba195e4d26ee.terrainlayer using Guid(40b64d07b59086344874702d30fd94a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6a0cd493759580b0b43ec14769f3f7') in 0.013888 seconds
+  Import took 0.019484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/1.Prefabs/Bullets/Bullet_Pistol.prefab
+  artifactKey: Guid(7d0b90a1012893d4da2e9e31dc94fa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Bullets/Bullet_Pistol.prefab using Guid(7d0b90a1012893d4da2e9e31dc94fa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bd583686d7c87751c26a901e913e2b') in 0.009722 seconds
+  Import took 0.015818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/1.Prefabs/Bullets/C1_MBullet2.prefab
+  artifactKey: Guid(298307f72e4d3f143a8c16e24855f40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Bullets/C1_MBullet2.prefab using Guid(298307f72e4d3f143a8c16e24855f40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7d57af91b8e7e4c05015513caa915c') in 0.045131 seconds
+  Import took 0.051732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/1.Prefabs/Bullets/Bullet_Sniper.prefab
+  artifactKey: Guid(3ce53d8e70445004299196bae55a8309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Bullets/Bullet_Sniper.prefab using Guid(3ce53d8e70445004299196bae55a8309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4c8c4cbd440cbf67d29e6af378935c') in 0.010328 seconds
+  Import took 0.016692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/1.Prefabs/Bullets/Bullet4_Boss.prefab
+  artifactKey: Guid(cce0b1d6d74a5064083cc487927be5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Bullets/Bullet4_Boss.prefab using Guid(cce0b1d6d74a5064083cc487927be5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eefe591eb6b01bf9fd8ba95ed1dd4e9') in 0.009884 seconds
+  Import took 0.016171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/1.Prefabs/Bullets/Bullet_Enemy.prefab
+  artifactKey: Guid(a36a35cec9cee954bb3ced7582ef49a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Bullets/Bullet_Enemy.prefab using Guid(a36a35cec9cee954bb3ced7582ef49a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da804fc080a5c2fd5dca1f4c2d299929') in 0.006859 seconds
+  Import took 0.012615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/1.Prefabs/Bullets/Bullet_Bud.prefab
+  artifactKey: Guid(c02981bc89cbfc6428a302a89a303621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Bullets/Bullet_Bud.prefab using Guid(c02981bc89cbfc6428a302a89a303621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a729cf0e2a7711577fb95a1fb19534') in 0.039338 seconds
+  Import took 0.045558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.892572 seconds.
+  path: Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Textures/MagicShooter_M_Philipe.tga
+  artifactKey: Guid(4c9a4567ce0098c49a6f9cc06cc2e7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Textures/MagicShooter_M_Philipe.tga using Guid(4c9a4567ce0098c49a6f9cc06cc2e7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c2e46db7b48938cb3ffde9a3d1ea9d') in 0.038514 seconds
+  Import took 0.045077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Textures/Rifle_21.tga
+  artifactKey: Guid(9e72231d0256fbb44b3777aabc9a9d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Textures/Rifle_21.tga using Guid(9e72231d0256fbb44b3777aabc9a9d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c833a12703aee1eedfe6aa3a6bfa2112') in 0.013888 seconds
+  Import took 0.019461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Textures/MagicShooter_M_Philipe.tga
+  artifactKey: Guid(4c9a4567ce0098c49a6f9cc06cc2e7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Textures/MagicShooter_M_Philipe.tga using Guid(4c9a4567ce0098c49a6f9cc06cc2e7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c2e46db7b48938cb3ffde9a3d1ea9d') in 0.020906 seconds
+  Import took 0.026641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Textures/Rifle_21.tga
+  artifactKey: Guid(9e72231d0256fbb44b3777aabc9a9d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Textures/Rifle_21.tga using Guid(9e72231d0256fbb44b3777aabc9a9d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c833a12703aee1eedfe6aa3a6bfa2112') in 0.008910 seconds
+  Import took 0.014952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.955216 seconds.
+  path: Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Materials/Gun_02.mat
+  artifactKey: Guid(0f4468ed45306c74aa7e5da526444d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Materials/Gun_02.mat using Guid(0f4468ed45306c74aa7e5da526444d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f164761ed9da1cfff7a92e7b8bc3c4f') in 0.023026 seconds
+  Import took 0.029610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Materials/Zeniel.mat
+  artifactKey: Guid(9f43f4112af6f3b4b8227b9b7c3ca8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Materials/Zeniel.mat using Guid(9f43f4112af6f3b4b8227b9b7c3ca8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d10d8dd06a949f4ca56006fd9bee280') in 0.026655 seconds
+  Import took 0.032734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Materials/Rifle_21.mat
+  artifactKey: Guid(456e02623a6d0ce40b393cb00214245e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Materials/Rifle_21.mat using Guid(456e02623a6d0ce40b393cb00214245e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b5f350dd25536fbc194302433474e4') in 0.013753 seconds
+  Import took 0.019631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Materials/Philipe.mat
+  artifactKey: Guid(90de026b38d0ec74593573118925d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Materials/Philipe.mat using Guid(90de026b38d0ec74593573118925d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ccb8e24d14288b163af71bbf3123bd') in 0.028123 seconds
+  Import took 0.034298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.506622 seconds.
+  path: Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Materials
+  artifactKey: Guid(172eb1434b1413d499bb669d9c22c852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Materials using Guid(172eb1434b1413d499bb669d9c22c852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d830aee9866242ca283e9fd711f4efb') in 0.006398 seconds
+  Import took 0.013027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.063066 seconds.
+  path: Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Materials/Rifle_21.mat
+  artifactKey: Guid(456e02623a6d0ce40b393cb00214245e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_Casual RPG Character - 31 Zeniel v1.1/Models/Materials/Rifle_21.mat using Guid(456e02623a6d0ce40b393cb00214245e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b89f13fee54201156f19efa129a4aa4') in 0.018773 seconds
+  Import took 0.025112 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.193 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'CurvedShader': fallback shader 'Mobile/Unlit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4022 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 287.0 MB.
+System memory in use after: 286.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4975.
+Total: 2.940600 ms (FindLiveObjects: 0.442100 ms CreateObjectMapping: 0.110500 ms MarkObjects: 2.123800 ms  DeleteObjects: 0.263500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
