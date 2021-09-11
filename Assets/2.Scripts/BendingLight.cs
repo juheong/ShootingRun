@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BendingLight : MonoBehaviour
 {
-    [Range(0.005f, 0.1f)]
+    [Range(0f, 0.1f)]
     [SerializeField] private float bendingAmount = 0.005f;
 
     private Camera _camera;

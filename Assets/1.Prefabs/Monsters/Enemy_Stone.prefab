@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7397359415469518034}
   - component: {fileID: 2046017594830816842}
   - component: {fileID: 6778150582446297458}
+  - component: {fileID: 5285896666312106135}
   m_Layer: 10
   m_Name: Enemy_Stone
   m_TagString: Enemy
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2046017594830816841}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 0.8, y: 1, z: 1}
   m_Children:
   - {fileID: 2046017596056919638}
@@ -96,6 +97,19 @@ MonoBehaviour:
   curHealth: 999999
   hudDamageText: {fileID: 0}
   bullet: {fileID: 0}
+--- !u!114 &5285896666312106135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046017594830816841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3544f25202d00a048a2e200bc84860ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bendingAmount: 0.005
 --- !u!1 &4889104750717812221
 GameObject:
   m_ObjectHideFlags: 0
