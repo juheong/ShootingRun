@@ -12,7 +12,7 @@ public class Area : MonoBehaviour
 
     private void Awake()
     {
-        InvokeRepeating("SpawnMonster", 1, 7f); //7초마다 몬스터 스폰
+        InvokeRepeating("SpawnMonster", 2, 21); //21초마다 몬스터 스폰
     }
 
     public void Setup(AreaSpawner areaSpawner, Transform playerTransform, bool isBoss)
@@ -48,7 +48,7 @@ public class Area : MonoBehaviour
 
         if (areaSpawner.stage == 0)
         {
-            areaSpawner.SpawnMonster();
+            areaSpawner.Spawn();
         }
         else if (areaSpawner.stage == 1)
         {

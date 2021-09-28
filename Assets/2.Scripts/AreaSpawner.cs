@@ -35,7 +35,9 @@ public class AreaSpawner : MonoBehaviour
     private void Awake()
     {
         clear = 0;
-        stage = Random.Range(0, 2);     //몬스터 or 장애물 스테이지 랜덤으로 선택
+        //stage = Random.Range(0, 2);     //몬스터 or 장애물 스테이지 랜덤으로 선택
+        stage = 0;     //몬스터 생성 알고리즘 테스트용도
+
         for (int i = 0; i < spawnAreaCountAtStart; ++i)
         {
             if (i == 0)
@@ -63,13 +65,11 @@ public class AreaSpawner : MonoBehaviour
         clear++; // 스테이지 클리어 조건
 
     }
-
-    public void SpawnMonster()
+    public void Spawn()
     {
         //MiddleBoss middle;
 
-        int isSpawn, index, len;
-        index = 0;
+        int isSpawn, len;
         len = enemies.Length;
 
         if (clear == 45)       //clear 변수가 일정수준 도달했을 경우 패널을 띄운 뒤 변수 초기화
@@ -82,33 +82,13 @@ public class AreaSpawner : MonoBehaviour
         if (clear >=10&&clear<=43)
         {
             float X_coord = -1.5f;        //몬스터 X좌표
-            Vector3 enem_transform = new Vector3(X_coord, enemies[index].transform.position.y, playerTransform.position.z+ 40);    //몬스터의 좌표값
 
-            isSpawn = Random.Range(0, 10);       //스폰 할 것 인지 말 것인지 (70%)
-            if (isSpawn > 2)
+            for (int i=0;i<3;i++)
             {
-                index = Random.Range(0, len);       //각 몬스터 스폰 확률 (0=range, 1=burrow, 2=rush , 3=sneak)
-     
-                Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //1st몬스터 생성, 마지막은 몬스터 회전
-                X_coord += 1.5f;        //2번째 몬스터를 위한 X값 변경
-                enem_transform = new Vector3(X_coord, enemies[index].transform.position.y, playerTransform.position.z + 40);    //몬스터의 좌표값 변경
-            }
-
-            isSpawn = Random.Range(0, 10);
-            if (isSpawn > 2)
-            {
-                index = Random.Range(0, len);    //2nd 몬스터 랜덤 지정
-                Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //2nd몬스터 생성
-                X_coord += 1.5f;        //3번째 몬스터를 위한 X값 변경
-                enem_transform = new Vector3(X_coord, enemies[index].transform.position.y, playerTransform.position.z + 40);    //몬스터의 좌표값 변경
-
-            }
-
-            isSpawn = Random.Range(0, 10);
-            if (isSpawn > 2)
-            {
-                index = Random.Range(0, len);    //3rd 몬스터 랜덤 지정
-                Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //3rd몬스터 생성
+                isSpawn = Random.Range(0, 10);       //스폰 할 것 인지 말 것인지 (70%)
+                if (isSpawn > 2)
+                    SpawnMonster(len, X_coord);
+                X_coord += 1.5f;
             }
 
         }
@@ -151,6 +131,17 @@ public class AreaSpawner : MonoBehaviour
              middle = Instantiate(middleboss, enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));
              clear++;
          }*/
+    }
+
+    public void SpawnMonster(int len, float X_coord)
+    {
+        int index;
+        index = 0;
+
+        Vector3 enem_transform = new Vector3(X_coord, enemies[index].transform.position.y, playerTransform.position.z + 40 + Random.Range(-5.0f, 20.0f));    //몬스터의 좌표값
+
+        index = Random.Range(0, len);       //각 몬스터 스폰 확률 (0=range, 1=burrow, 2=rush , 3=sneak)
+        Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //1st몬스터 생성, 마지막은 몬스터 회전
     }
 
     public void SpawnObstacle()
