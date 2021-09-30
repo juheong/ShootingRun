@@ -5,6 +5,8 @@ Shader "Hovl/Particles/SmoothSmoke"
 		_MainTex("MainTex", 2D) = "white" {}
 		_Color("Color", Color) = (1,1,1,1)
 		_Emission("Emission", Float) = 2
+		_QOffset ("Offset", Vector) = (0,0,0,0)
+		_Dist ("Distance", Float) = 100.0
 		[Toggle]_Useblack("Use black", Float) = 0
 		[MaterialToggle] _Usedepth ("Use depth?", Float ) = 0
 		_Depthpower("Depth power", Float) = 1
@@ -71,6 +73,8 @@ Shader "Hovl/Particles/SmoothSmoke"
 				uniform float _Emission;
 				uniform float _Depthpower;
 				uniform fixed _Usedepth;
+				float4 _QOffset;
+				float _Dist;
 
 				v2f vert ( appdata_t v  )
 				{
@@ -86,6 +90,10 @@ Shader "Hovl/Particles/SmoothSmoke"
 						o.projPos = ComputeScreenPos (o.vertex);
 						COMPUTE_EYEDEPTH(o.projPos.z);
 					#endif
+					float4 vPos = mul (UNITY_MATRIX_MV, v.vertex);
+			   	 	float zOff = vPos.z/_Dist;
+			    	vPos += _QOffset*zOff*zOff;
+			    	o.vertex = mul (UNITY_MATRIX_P, vPos);	
 					o.color = v.color;
 					o.texcoord = v.texcoord;
 					UNITY_TRANSFER_FOG(o,o.vertex);

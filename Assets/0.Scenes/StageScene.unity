@@ -28928,7 +28928,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20.00003, y: -20}
+  m_AnchoredPosition: {x: -20, y: -20}
   m_SizeDelta: {x: -59.99999, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &433957621
@@ -35657,6 +35657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 590944023}
   - component: {fileID: 590944022}
+  - component: {fileID: 590944024}
   m_Layer: 0
   m_Name: CurvedController
   m_TagString: Untagged
@@ -35699,6 +35700,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &590944024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590944021}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 592e237780dd9af47a298a9043b9c56d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mats: []
+  cam: {fileID: 963194228}
 --- !u!1 &597763000
 GameObject:
   m_ObjectHideFlags: 0
@@ -132533,7 +132548,7 @@ PrefabInstance:
     - target: {fileID: 905128156361642891, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: range
-      value: 0.6
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1417164283487514028, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
@@ -132915,9 +132930,19 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
+      propertyPath: health
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
       propertyPath: uiObject
       value: 
       objectReference: {fileID: 793015396}
+    - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: maxhealth
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: moveSpeed

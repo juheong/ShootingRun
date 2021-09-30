@@ -29,6 +29,7 @@ public class AreaSpawner : MonoBehaviour
     public int clear;
     public int stage;
     Rigidbody indirigi;
+    Rigidbody torigi;
     GameObject Player;
 
 
@@ -100,7 +101,7 @@ public class AreaSpawner : MonoBehaviour
             loc = Random.Range(0, 3);       //토네이도 위치를 위한 랜덤변수
             if (loc == 0)       //좌측
             {
-                StartCoroutine(Tornado(-1.5f, 0, playerTransform.position.z, 84f));
+                StartCoroutine(Tornado(-1f, 0, playerTransform.position.z, 84f));
             }
             else if (loc == 1)        //중간
             {
@@ -108,7 +109,7 @@ public class AreaSpawner : MonoBehaviour
             }
             else           //우측
             {
-                StartCoroutine(Tornado(1.5f, 0, playerTransform.position.z, 96f));
+                StartCoroutine(Tornado(1f, 0, playerTransform.position.z, 96f));
             } 
         }
         //if (clear < 23 && clear % 5 == 0)       
@@ -229,7 +230,8 @@ public class AreaSpawner : MonoBehaviour
 
         yield return new WaitForSeconds(1.5f);
 
-        Vector3 enem_transform = new Vector3(x, y, z + 30);    //이벤트 좌표값
+        Vector3 enem_transform = new Vector3(x, y, z + 50);    //이벤트 좌표값
         Instantiate(events[0], enem_transform, indirot);   //rotation
+        
     }
 }

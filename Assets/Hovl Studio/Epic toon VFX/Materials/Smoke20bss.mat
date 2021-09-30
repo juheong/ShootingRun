@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Smoke20bss
   m_Shader: {fileID: 4800000, guid: 734ad3a5e0f9f384683a822995bcecd3, type: 3}
   m_ShaderKeywords: 
@@ -40,9 +41,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Depthpower: 1
+    - _Dist: 100
     - _Emission: 2
     - _Useblack: 0
     - _Usedepth: 1
     - __dirty: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _QOffset: {r: 0, g: -50, b: 0, a: 0}
+  m_BuildTextureStacks: []

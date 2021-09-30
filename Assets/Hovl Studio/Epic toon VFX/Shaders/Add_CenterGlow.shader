@@ -8,6 +8,8 @@ Shader "Hovl/Particles/Add_CenterGlow"
 		_Mask("Mask", 2D) = "white" {}
 		_SpeedMainTexUVNoiseZW("Speed MainTex U/V + Noise Z/W", Vector) = (0,0,0,0)
 		_DistortionSpeedXYPowerZ("Distortion Speed XY Power Z", Vector) = (0,0,0,0)
+		_QOffset ("Offset", Vector) = (0,0,0,0)
+		_Dist ("Distance", Float) = 100.0
 		_Emission("Emission", Float) = 2
 		_Color("Color", Color) = (0.5,0.5,0.5,1)
 		[Toggle]_Usecenterglow("Use center glow?", Float) = 0
@@ -86,6 +88,8 @@ Shader "Hovl/Particles/Add_CenterGlow"
 				uniform float _Emission;
 				uniform fixed _Usedepth;
 				uniform float _Depthpower;
+				float4 _QOffset;
+				float _Dist;
 
 				v2f vert ( appdata_t v  )
 				{
@@ -100,6 +104,10 @@ Shader "Hovl/Particles/Add_CenterGlow"
 						o.projPos = ComputeScreenPos (o.vertex);
 						COMPUTE_EYEDEPTH(o.projPos.z);
 					#endif
+					float4 vPos = mul (UNITY_MATRIX_MV, v.vertex);
+			   	 	float zOff = vPos.z/_Dist;
+			    	vPos += _QOffset*zOff*zOff;
+			    	o.vertex = mul (UNITY_MATRIX_P, vPos);			    			    	
 					o.color = v.color;
 					o.texcoord = v.texcoord;
 					UNITY_TRANSFER_FOG(o,o.vertex);
