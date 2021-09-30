@@ -50,6 +50,7 @@ public class AreaSpawner : MonoBehaviour
             }
         }
         Player = GameObject.FindWithTag("Player");
+        InvokeRepeating("Spawn", 0, 2);
     }
 
     public void SpawnArea()
