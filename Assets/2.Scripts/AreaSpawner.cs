@@ -74,14 +74,15 @@ public class AreaSpawner : MonoBehaviour
         int isSpawn, len;
         len = enemies.Length;
 
-        if (clear == 45)       //clear 변수가 일정수준 도달했을 경우 패널을 띄운 뒤 변수 초기화
+        if (clear >= 50)       //clear 변수가 일정수준 도달했을 경우 패널을 띄운 뒤 변수 초기화
         {
+            Debug.Log("clear!");
             Time.timeScale = 0;
             panelController.OpenPanel(3);
             clear = 0;
             stage = Random.Range(0, 2); //다음 스테이지 몬스터 or 장애물 스테이지 랜덤으로 선택
         }
-        if (clear >=10&&clear<=43)
+        if (clear >=10&&clear<=45)
         {
             float X_coord = -1.5f;        //몬스터 X좌표
 
@@ -94,22 +95,22 @@ public class AreaSpawner : MonoBehaviour
             }
 
         }
-        if (clear <23 && clear %10==0)       // clear 조건에 따라 토네이도 이벤트 발생
+        if (clear <45 && clear %10==0)       // clear 조건에 따라 토네이도 이벤트 발생
         {
             int loc;
 
             loc = Random.Range(0, 3);       //토네이도 위치를 위한 랜덤변수
             if (loc == 0)       //좌측
             {
-                StartCoroutine(Tornado(-1f, 0, playerTransform.position.z, 84f));
+                StartCoroutine(Tornado(-1f, 0f, playerTransform.position.z, 84f));
             }
             else if (loc == 1)        //중간
             {
-                StartCoroutine(Tornado(0f, 0, playerTransform.position.z, 90f));
+                StartCoroutine(Tornado(0f, 0f, playerTransform.position.z, 90f));
             }
             else           //우측
             {
-                StartCoroutine(Tornado(1f, 0, playerTransform.position.z, 96f));
+                StartCoroutine(Tornado(1f, 0f, playerTransform.position.z, 96f));
             } 
         }
         //if (clear < 23 && clear % 5 == 0)       
@@ -137,12 +138,14 @@ public class AreaSpawner : MonoBehaviour
 
     public void SpawnMonster(int len, float X_coord)
     {
-        int index;
+        int index,y;
         index = 0;
-
-        Vector3 enem_transform = new Vector3(X_coord, enemies[index].transform.position.y, playerTransform.position.z + 40 + Random.Range(-5.0f, 20.0f));    //몬스터의 좌표값
+        y = 0;
 
         index = Random.Range(0, len);       //각 몬스터 스폰 확률 (0=range, 1=burrow, 2=rush , 3=sneak)
+ 
+        Vector3 enem_transform = new Vector3(X_coord, enemies[index].transform.position.y, playerTransform.position.z + 40 + Random.Range(-5.0f, 20.0f));    //몬스터의 좌표값
+
         Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //1st몬스터 생성, 마지막은 몬스터 회전
     }
 
@@ -220,18 +223,19 @@ public class AreaSpawner : MonoBehaviour
     IEnumerator Tornado(float x, float y, float z, float rot)
     {
         z += 15f;
-        Vector3 Indi_position = new Vector3(x, y, z);
+        Vector3 Indi_position = new Vector3(x, y+2f, z);
         GameObject skill_indicator = Instantiate(SkillsIndicator, Indi_position, transform.rotation);
         skill_indicator.transform.LookAt(Player.transform);
         indirigi = skill_indicator.GetComponent<Rigidbody>();
-        indirigi.velocity = transform.forward * 20;
+        //indirigi.velocity = transform.forward * 20;
         Quaternion indirot = skill_indicator.transform.rotation * Quaternion.Euler(new Vector3(0,90,0));
         Destroy(skill_indicator, 1.5f);
 
         yield return new WaitForSeconds(1.5f);
 
         Vector3 enem_transform = new Vector3(x, y, z + 50);    //이벤트 좌표값
-        Instantiate(events[0], enem_transform, indirot);   //rotation
-        
+        Enemy tornado = Instantiate(events[0], enem_transform, indirot);   //rotation
+        Destroy(tornado, 4f);
+
     }
 }

@@ -42,7 +42,6 @@ public class ButtonUpgrade : MonoBehaviour
                     break;
                 }
             }
-            Debug.Log(rand);
             Buttons[rand].transform.position = new Vector3(xPos, -94f, 0f);
             Buttons[rand].SetActive(true);
             xPos += 309f;
