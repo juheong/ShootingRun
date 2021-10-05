@@ -7,9 +7,7 @@ public class DataSet : MonoBehaviour
 {
     DataManager data;
     private WeaponSelection weaponSelect;
-    private ShopSelection shopSelection;
     GameObject obj1;
-    GameObject obj2;
 
     void Start()
     {        
@@ -21,12 +19,7 @@ public class DataSet : MonoBehaviour
         {
             weaponSelect = obj1.GetComponent<WeaponSelection>();
             weaponSelect.InitialWeapon(data.player.equip);
-        }
-        obj2 = GameObject.Find("ShopPanel");
-        if (obj2 != null)
-        {
-            shopSelection = obj2.GetComponent<ShopSelection>();
-        }
+        }        
         DontDestroyOnLoad(this.gameObject);
 
     }
