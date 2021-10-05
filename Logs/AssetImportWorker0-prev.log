@@ -15,11 +15,11 @@ C:/Users/Manduk/Documents/shootingrun
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-11003
+3963
 Successfully changed project path to: C:/Users/Manduk/Documents/shootingrun
 C:/Users/Manduk/Documents/shootingrun
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 233.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 141.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path D:/Util/unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -37,23 +37,723 @@ Initialize mono
 Mono path[0] = 'D:/Util/unity/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Util/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Util/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Util/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002337 seconds.
+Registered in 0.002791 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 268.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 152.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.892 seconds
+- Completed reload, in  4.686 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.060644 seconds.
+Registered in 0.040526 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1243.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 243.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.538 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'CurvedShader': fallback shader 'Mobile/Unlit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.87 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 313.0 MB.
+System memory in use after: 312.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 4784.
+Total: 4.858000 ms (FindLiveObjects: 0.922000 ms CreateObjectMapping: 0.460600 ms MarkObjects: 3.101900 ms  DeleteObjects: 0.371800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/2.Scripts/AreaSpawner.cs
+  artifactKey: Guid(ea9480fda3869d6439f861daaa936a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2.Scripts/AreaSpawner.cs using Guid(ea9480fda3869d6439f861daaa936a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44ef5d211fe03d81fe3750907421678') in 0.110237 seconds
+  Import took 0.119406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/1.Prefabs/Player.prefab
+  artifactKey: Guid(6a6124ad907676c44abec39b244ec924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/Player.prefab using Guid(6a6124ad907676c44abec39b244ec924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b484c4bb1855ba212fdc5621ddc1bdcd') in 0.544589 seconds
+  Import took 0.557855 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.905 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'CurvedShader': fallback shader 'Mobile/Unlit' not found
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4025 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 308.5 MB.
+System memory in use after: 308.4 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4951.
+Total: 6.578800 ms (FindLiveObjects: 1.691800 ms CreateObjectMapping: 0.776700 ms MarkObjects: 3.700700 ms  DeleteObjects: 0.406000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.035919 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.586 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'CurvedShader': fallback shader 'Mobile/Unlit' not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4025 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 308.6 MB.
+System memory in use after: 308.6 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4986.
+Total: 4.756000 ms (FindLiveObjects: 0.759000 ms CreateObjectMapping: 0.438300 ms MarkObjects: 3.121000 ms  DeleteObjects: 0.436700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032233 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.724 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'CurvedShader': fallback shader 'Mobile/Unlit' not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4025 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 308.7 MB.
+System memory in use after: 308.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5021.
+Total: 9.634800 ms (FindLiveObjects: 0.895700 ms CreateObjectMapping: 0.476900 ms MarkObjects: 7.322300 ms  DeleteObjects: 0.936500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.664 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'CurvedShader': fallback shader 'Mobile/Unlit' not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4025 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 308.8 MB.
+System memory in use after: 308.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5056.
+Total: 5.683300 ms (FindLiveObjects: 1.123700 ms CreateObjectMapping: 0.611900 ms MarkObjects: 3.420000 ms  DeleteObjects: 0.525200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 488.636707 seconds.
+  path: Assets/1.Prefabs/indicators/Wolf_skill3_indicator.prefab
+  artifactKey: Guid(9e57d2b7abd41fc4d9b231aab908fd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/indicators/Wolf_skill3_indicator.prefab using Guid(9e57d2b7abd41fc4d9b231aab908fd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83387740b1b865b133ca7c0de0d510fc') in 0.035935 seconds
+  Import took 0.046649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.186741 seconds.
+  path: Assets/1.Prefabs/indicators/Wolf_skill3_indicator.prefab
+  artifactKey: Guid(9e57d2b7abd41fc4d9b231aab908fd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1.Prefabs/indicators/Wolf_skill3_indicator.prefab using Guid(9e57d2b7abd41fc4d9b231aab908fd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea4338ae71ded4da021d506f42a8e9e') in 0.165337 seconds
+  Import took 0.174883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.155879 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd
+  artifactKey: Guid(1167c0a28d11119930004d8a4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd using Guid(1167c0a28d11119930004d8a4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457f5301724f601f8bd8f89196837285') in 0.041793 seconds
+  Import took 0.051309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif
+  artifactKey: Guid(8caa437b19957a045866b84c6218a0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif using Guid(8caa437b19957a045866b84c6218a0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5580a52c8770785e3d011cdbc2f49bf7') in 0.051356 seconds
+  Import took 0.060908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd
+  artifactKey: Guid(1167c0a28d11119930004d8a4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd using Guid(1167c0a28d11119930004d8a4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457f5301724f601f8bd8f89196837285') in 0.012773 seconds
+  Import took 0.021217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif
+  artifactKey: Guid(8caa437b19957a045866b84c6218a0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif using Guid(8caa437b19957a045866b84c6218a0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5580a52c8770785e3d011cdbc2f49bf7') in 0.013036 seconds
+  Import took 0.022015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/LightSquareCookie.psd
+  artifactKey: Guid(69680b688d11eb9d30009b3b4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/LightSquareCookie.psd using Guid(69680b688d11eb9d30009b3b4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71897ff8c7995ca047ab840d8c551ce1') in 0.023930 seconds
+  Import took 0.032744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.202225 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_bg_glow 1.png
+  artifactKey: Guid(4ee91d319886c4e4b8a4155b88bc8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_bg_glow 1.png using Guid(4ee91d319886c4e4b8a4155b88bc8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3792d682f9d35f957a3142caadcfc111') in 0.413525 seconds
+  Import took 0.425146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Fonts/LilitaOne-Regular Outline 50 SDF Atlas.png
+  artifactKey: Guid(51bda5a7ed19c4c39bbb02ae0c80c2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Fonts/LilitaOne-Regular Outline 50 SDF Atlas.png using Guid(51bda5a7ed19c4c39bbb02ae0c80c2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993d4cdf3ba3a59c9bcb53bf2add5304') in 0.031084 seconds
+  Import took 0.041395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_effect_rotate_white.png
+  artifactKey: Guid(7394c696afd894eedab49dffbe39fe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_effect_rotate_white.png using Guid(7394c696afd894eedab49dffbe39fe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabeaf5e2f04f62832b22dd1c316fff7') in 0.054724 seconds
+  Import took 0.065374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Fonts/LilitaOne-Regular Outline 32 SDF Atlas.png
+  artifactKey: Guid(24afcf316a3a944c3bf86bc27a2f93fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Fonts/LilitaOne-Regular Outline 32 SDF Atlas.png using Guid(24afcf316a3a944c3bf86bc27a2f93fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d342b8b178dca08169573daddbbaba3') in 0.023364 seconds
+  Import took 0.033227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/_backup/levelup_paticle_circle.png
+  artifactKey: Guid(374b27a2910264ed687913a0b183b671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/_backup/levelup_paticle_circle.png using Guid(374b27a2910264ed687913a0b183b671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49778943b23a1553b2a9868c7772d5b') in 0.053085 seconds
+  Import took 0.064731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/ParticleEffectForUGUI-main/Samples/Demo/Light_Frame.png
+  artifactKey: Guid(077b84be6d052c34d933c79ef500be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleEffectForUGUI-main/Samples/Demo/Light_Frame.png using Guid(077b84be6d052c34d933c79ef500be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9920a521ff43c1a356756401137a2e26') in 0.030747 seconds
+  Import took 0.040279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_effect_glow_white.png
+  artifactKey: Guid(0f9d428d19cdf489f9edfdddfafadad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_effect_glow_white.png using Guid(0f9d428d19cdf489f9edfdddfafadad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731d9c00704933fc14bca2a6e44e277e') in 0.043298 seconds
+  Import took 0.051667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_effect_circle_white.png
+  artifactKey: Guid(7e1795fbe483c4a6993e5922fc965f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_effect_circle_white.png using Guid(7e1795fbe483c4a6993e5922fc965f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b059cb489243bbbbbe808d49e7c674') in 0.037777 seconds
+  Import took 0.045535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_paticle_white.png
+  artifactKey: Guid(3b61c59f3f8364412a0e3edef89316ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_paticle_white.png using Guid(3b61c59f3f8364412a0e3edef89316ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f659da77186f57a45e5d49b936284c') in 0.026281 seconds
+  Import took 0.034172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_icon_highlight.png
+  artifactKey: Guid(c7df0077472b54098a5029ded3824e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_icon_highlight.png using Guid(c7df0077472b54098a5029ded3824e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887a35103776b60188ba2f61211d4ec5') in 0.027360 seconds
+  Import took 0.037642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/LevelUp/levelup_icon_highlight.png
+  artifactKey: Guid(89caffa740fc3490a8701183368f5cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/LevelUp/levelup_icon_highlight.png using Guid(89caffa740fc3490a8701183368f5cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9fa9381b4bbbc7316b7cda8fa616d5') in 0.022384 seconds
+  Import took 0.032014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Fonts/LilitaOne-Regular Outline 40 SDF Atlas.png
+  artifactKey: Guid(aa9fdc7ac23d342798922793111065d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Fonts/LilitaOne-Regular Outline 40 SDF Atlas.png using Guid(aa9fdc7ac23d342798922793111065d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d2279a963e6da02fe5634ef766295f') in 0.023692 seconds
+  Import took 0.032820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_paticle_circle.png
+  artifactKey: Guid(adcdedea2bfc24fe687e09dd817fe6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_paticle_circle.png using Guid(adcdedea2bfc24fe687e09dd817fe6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1c79e3c0c3c8488944b78b5d8aa764') in 0.022356 seconds
+  Import took 0.031376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_effect_white.png
+  artifactKey: Guid(a4e6a5e9f9a174db48193573b4caf796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_effect_white.png using Guid(a4e6a5e9f9a174db48193573b4caf796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8be4389843d9a10405494abadfd721') in 0.048091 seconds
+  Import took 0.057015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Standard Assets/Effects/Projectors/Textures/Light.psd
+  artifactKey: Guid(b1d7fee26e54cc3498f6267f072a45b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/Projectors/Textures/Light.psd using Guid(b1d7fee26e54cc3498f6267f072a45b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07353bb0c63ba6a0033c9f37baaed90') in 0.022265 seconds
+  Import took 0.031883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/_backup/levelup_paticle_white.png
+  artifactKey: Guid(463642ab7f1eb46c386b8b2d51c40742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/_backup/levelup_paticle_white.png using Guid(463642ab7f1eb46c386b8b2d51c40742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af86ca69b3ed3a8fec72b0fdd088fb51') in 0.022480 seconds
+  Import took 0.030619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.275562 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Fonts/LilitaOne-Regular Outline 54 SDF Atlas.png
+  artifactKey: Guid(35891abd43bca4b8dbaff570b5c0c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Fonts/LilitaOne-Regular Outline 54 SDF Atlas.png using Guid(35891abd43bca4b8dbaff570b5c0c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e0ed5375a05b7e065f757375158fa2') in 0.033730 seconds
+  Import took 0.042558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Fonts/LilitaOne-Regular Outline 64 SDF Atlas.png
+  artifactKey: Guid(542168a59ebb940cc91d3c3ec1325445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Fonts/LilitaOne-Regular Outline 64 SDF Atlas.png using Guid(542168a59ebb940cc91d3c3ec1325445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61999c78d223fbd917b8e7d08cba3aca') in 0.033395 seconds
+  Import took 0.043455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Fonts/LilitaOne-Regular Outline 72 SDF Atlas.png
+  artifactKey: Guid(3b98b1d4d020f485d839d46f3d718b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Fonts/LilitaOne-Regular Outline 72 SDF Atlas.png using Guid(3b98b1d4d020f485d839d46f3d718b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c8cc3a2cd73fbb148b7f223287b589') in 0.029543 seconds
+  Import took 0.038909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.173361 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_ukr.png
+  artifactKey: Guid(2f4c97380d0be4f9aa3af475000b9054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_ukr.png using Guid(2f4c97380d0be4f9aa3af475000b9054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63fe6e39722f55279c8d5ba4466f6ea') in 0.025267 seconds
+  Import took 0.033717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_bg_glow.png
+  artifactKey: Guid(56a2ee4992e5e4554b190dd0dd9bd344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/levelup_bg_glow.png using Guid(56a2ee4992e5e4554b190dd0dd9bd344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b2c9228cf6fea7546dee101ebfeac8') in 0.032288 seconds
+  Import took 0.041399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/level_icon.png
+  artifactKey: Guid(1c5268bbae239446b99b311ac8f84ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Levleup/level_icon.png using Guid(1c5268bbae239446b99b311ac8f84ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6931abe2b39761b8f2c13c01267648') in 0.031238 seconds
+  Import took 0.040331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Preview/LevelUp.png
+  artifactKey: Guid(ad170f8ceb2ea43ff89001109f2d436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Preview/LevelUp.png using Guid(ad170f8ceb2ea43ff89001109f2d436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbeb45a2ac5caac24556a5d32e1613a') in 0.071506 seconds
+  Import took 0.079717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/LevelUp/levelup_bg_glow.png
+  artifactKey: Guid(89423128fc4a947e5a3cf068a4d1746f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/LevelUp/levelup_bg_glow.png using Guid(89423128fc4a947e5a3cf068a4d1746f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd0a41665aa4baab9f734e2fd953c7a') in 0.028958 seconds
+  Import took 0.038381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/LevelUp/level_icon.png
+  artifactKey: Guid(b4a4b8f5c2d49459891adf4008f22aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/LevelUp/level_icon.png using Guid(b4a4b8f5c2d49459891adf4008f22aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1dd3b5185de9711eb8112d9c9e3dcc8') in 0.025936 seconds
+  Import took 0.035516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.355436 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_rou.png
+  artifactKey: Guid(86ef8e58b4c784337aeff7d793f87526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_rou.png using Guid(86ef8e58b4c784337aeff7d793f87526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a973b1ecc1b098e154999b69ba2d6e85') in 0.030276 seconds
+  Import took 0.040637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_rus.png
+  artifactKey: Guid(093252f25f1904b7a816373f44bc7301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_rus.png using Guid(093252f25f1904b7a816373f44bc7301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a37948e40faf7ed245bd8a02c443586') in 0.025843 seconds
+  Import took 0.034585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_swe.png
+  artifactKey: Guid(e1da5e090506649098ba1870e5d1b668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_swe.png using Guid(e1da5e090506649098ba1870e5d1b668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3a9667feb00eedeecf9f7789713ef3') in 0.026201 seconds
+  Import took 0.035416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_tur.png
+  artifactKey: Guid(a3722465a62c44b77bef5f41147ebd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_tur.png using Guid(a3722465a62c44b77bef5f41147ebd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb09e76fa7c089046c2b563fbceaee2a') in 0.023414 seconds
+  Import took 0.033729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_twn.png
+  artifactKey: Guid(97a5d3e4798ee40fd88365eb180d2b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_twn.png using Guid(97a5d3e4798ee40fd88365eb180d2b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043256248c8def9deae96ed15c3ef8e8') in 0.026566 seconds
+  Import took 0.035455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_tha.png
+  artifactKey: Guid(02509a1b2f59d471ba36b57e913f87e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_tha.png using Guid(02509a1b2f59d471ba36b57e913f87e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae380f7d7367dd9a1b4d2c6a427101a') in 0.022896 seconds
+  Import took 0.033746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_twn.png
+  artifactKey: Guid(97a5d3e4798ee40fd88365eb180d2b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_twn.png using Guid(97a5d3e4798ee40fd88365eb180d2b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043256248c8def9deae96ed15c3ef8e8') in 0.013130 seconds
+  Import took 0.022375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.269228 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_ita.png
+  artifactKey: Guid(ff744dd0a72d241b3946fcce5733a216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_ita.png using Guid(ff744dd0a72d241b3946fcce5733a216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b43f2194a4d476891d82c7b5c119c68') in 0.028366 seconds
+  Import took 0.038737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_kor.png
+  artifactKey: Guid(4daa02b47ce2e4ad89de1dcdacc0e2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_kor.png using Guid(4daa02b47ce2e4ad89de1dcdacc0e2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052ea9d973c5432466b2e455f59dd830') in 0.027495 seconds
+  Import took 0.037271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_pra.png
+  artifactKey: Guid(7293304e60d7a481d828cddf56e3fb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_pra.png using Guid(7293304e60d7a481d828cddf56e3fb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c814ca37eaed019ba63e6212512edc0') in 0.027492 seconds
+  Import took 0.036833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_pol.png
+  artifactKey: Guid(d96e6aec9636649398064ea3d75dca44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_pol.png using Guid(d96e6aec9636649398064ea3d75dca44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e32e6a547ad3149a20f9dd0c135e15') in 0.022496 seconds
+  Import took 0.031942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_jpn.png
+  artifactKey: Guid(67f6a783fcaae4fe6b192bb9c0b305bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_jpn.png using Guid(67f6a783fcaae4fe6b192bb9c0b305bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77acc2da69f3fce6ac17854579c524c2') in 0.022671 seconds
+  Import took 0.031748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_prt.png
+  artifactKey: Guid(db0a0ff46d4864e7485eb0d56dc06a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_prt.png using Guid(db0a0ff46d4864e7485eb0d56dc06a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2e4908f2746745b7322b655f800c5c') in 0.025473 seconds
+  Import took 0.034272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_pol.png
+  artifactKey: Guid(d96e6aec9636649398064ea3d75dca44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_pol.png using Guid(d96e6aec9636649398064ea3d75dca44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e32e6a547ad3149a20f9dd0c135e15') in 0.014084 seconds
+  Import took 0.023044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_prt.png
+  artifactKey: Guid(db0a0ff46d4864e7485eb0d56dc06a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_prt.png using Guid(db0a0ff46d4864e7485eb0d56dc06a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2e4908f2746745b7322b655f800c5c') in 0.014857 seconds
+  Import took 0.025256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.569820 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_deu.png
+  artifactKey: Guid(fb0c9837a19b04074b2d971e891952fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_deu.png using Guid(fb0c9837a19b04074b2d971e891952fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ea25bc740e6aad922c35f093b74646') in 0.024087 seconds
+  Import took 0.032918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_fra.png
+  artifactKey: Guid(14c31f568382d4900b7eb501f698fc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_fra.png using Guid(14c31f568382d4900b7eb501f698fc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188f126197a97cb11730976070c5a1f1') in 0.025156 seconds
+  Import took 0.034414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_esp.png
+  artifactKey: Guid(18482cef099ba4c6fbf3d0d9b169dec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_esp.png using Guid(18482cef099ba4c6fbf3d0d9b169dec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d931932a10434219cc20692e467e9f') in 0.024980 seconds
+  Import took 0.034566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_gre.png
+  artifactKey: Guid(f24e59f30a0df4d18962362f67f92032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_gre.png using Guid(f24e59f30a0df4d18962362f67f92032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b432cdf636d7b27b80dad4a5fa6b69b9') in 0.027949 seconds
+  Import took 0.036978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_eng.png
+  artifactKey: Guid(09a17b3899e8141edb6e0745ab518a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_eng.png using Guid(09a17b3899e8141edb6e0745ab518a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05877087da31044eeb2b6f7b2ad19fc5') in 0.024462 seconds
+  Import took 0.033181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_ina.png
+  artifactKey: Guid(b6ef400907c7348ee9f08454bbd6816c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_ina.png using Guid(b6ef400907c7348ee9f08454bbd6816c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d86acb5236560d53a52c0e2501102e') in 0.023291 seconds
+  Import took 0.032456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_gre.png
+  artifactKey: Guid(f24e59f30a0df4d18962362f67f92032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_gre.png using Guid(f24e59f30a0df4d18962362f67f92032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b432cdf636d7b27b80dad4a5fa6b69b9') in 0.018082 seconds
+  Import took 0.027983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.901344 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/SettingLanguage/language_flag_tha.png
+  artifactKey: Guid(104912f320f7049fd8b3341edfd9093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/SettingLanguage/language_flag_tha.png using Guid(104912f320f7049fd8b3341edfd9093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639a627c600004c9c38072cdf0f08ab3') in 0.028525 seconds
+  Import took 0.038233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/SettingLanguage/language_flag_vnm.png
+  artifactKey: Guid(9d86ba8c92d0649ec8bfc58e0a19fee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/SettingLanguage/language_flag_vnm.png using Guid(9d86ba8c92d0649ec8bfc58e0a19fee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f49c2f6263b68b3318d9e7d5637e5e') in 0.026567 seconds
+  Import took 0.035762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/SettingLanguage/language_flag_tha.png
+  artifactKey: Guid(104912f320f7049fd8b3341edfd9093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/SettingLanguage/language_flag_tha.png using Guid(104912f320f7049fd8b3341edfd9093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639a627c600004c9c38072cdf0f08ab3') in 0.015380 seconds
+  Import took 0.024769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/SettingLanguage/language_flag_tur.png
+  artifactKey: Guid(f96ed64c1140a44688663b65a678910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/SettingLanguage/language_flag_tur.png using Guid(f96ed64c1140a44688663b65a678910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2941d27703e6e5ff41919d979b2f23dc') in 0.026226 seconds
+  Import took 0.035221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/SettingLanguage/language_flag_ukr.png
+  artifactKey: Guid(ca50a09402afe4058a4d3267095049d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/SettingLanguage/language_flag_ukr.png using Guid(ca50a09402afe4058a4d3267095049d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bb3a1dd09624b36488be88a68a5acd') in 0.026544 seconds
+  Import took 0.035098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_chn.png
+  artifactKey: Guid(511e65d70fe6d4c10971352fc864a099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Setting/language_small_chn.png using Guid(511e65d70fe6d4c10971352fc864a099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40784d56b76dde7d3c5ccfc9c36c4ee') in 0.023952 seconds
+  Import took 0.033280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/SettingLanguage/language_flag_twn.png
+  artifactKey: Guid(424836d0eb94944cdb96b2802be6fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/SettingLanguage/language_flag_twn.png using Guid(424836d0eb94944cdb96b2802be6fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3358fae6e2797e34e53a9a958e9a9a71') in 0.025673 seconds
+  Import took 0.034767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.040740 seconds.
+  path: Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Character_Passive/ability_icon_range.png
+  artifactKey: Guid(9ae53506a63a5cb40a4e95350f80d142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Kit_Casual_Game/ResourcesData/Sprite/Character_Passive/ability_icon_range.png using Guid(9ae53506a63a5cb40a4e95350f80d142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140e731363c31d540fb6f6977c46a84a') in 0.025829 seconds
+  Import took 0.038696 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030210 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.824 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'CurvedShader': fallback shader 'Mobile/Unlit' not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4025 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 309.2 MB.
+System memory in use after: 309.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 5242.
+Total: 6.296600 ms (FindLiveObjects: 0.645800 ms CreateObjectMapping: 0.399100 ms MarkObjects: 4.784000 ms  DeleteObjects: 0.465300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.512 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'CurvedShader': fallback shader 'Mobile/Unlit' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4025 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 309.2 MB.
+System memory in use after: 309.2 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5277.
+Total: 4.953900 ms (FindLiveObjects: 0.962200 ms CreateObjectMapping: 0.448200 ms MarkObjects: 3.130200 ms  DeleteObjects: 0.411400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
