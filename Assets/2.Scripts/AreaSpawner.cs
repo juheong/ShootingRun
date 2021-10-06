@@ -26,7 +26,8 @@ public class AreaSpawner : MonoBehaviour
 
     [SerializeField]
     private Transform playerTransform;
-    public int clear;
+    private int clear;
+    private int whichSpawn;
     public int stage;
     Rigidbody indirigi;
     Rigidbody torigi;
@@ -35,9 +36,10 @@ public class AreaSpawner : MonoBehaviour
 
     private void Awake()
     {
+        stage = 1;
         clear = 0;
-        //stage = Random.Range(0, 2);     //몬스터 or 장애물 스테이지 랜덤으로 선택
-        stage = 0;     //몬스터 생성 알고리즘 테스트용도
+        //whichSpawn = Random.Range(0, 2);     //몬스터 or 장애물 스테이지 랜덤으로 선택
+        whichSpawn = 0;     //몬스터 생성 알고리즘 테스트용도
 
         for (int i = 0; i < spawnAreaCountAtStart; ++i)
         {
@@ -80,7 +82,8 @@ public class AreaSpawner : MonoBehaviour
             Time.timeScale = 0;
             panelController.OpenPanel(3);
             clear = 0;
-            stage = Random.Range(0, 2); //다음 스테이지 몬스터 or 장애물 스테이지 랜덤으로 선택
+            whichSpawn = Random.Range(0, 2); //다음 스테이지 몬스터 or 장애물 스테이지 랜덤으로 선택
+            stage++;
         }
         if (clear >=10&&clear<=45)
         {
@@ -159,7 +162,7 @@ public class AreaSpawner : MonoBehaviour
             Time.timeScale = 0;
             panelController.OpenPanel(3);
             clear = 0;
-            stage = Random.Range(0, 2); //다음 스테이지 몬스터 or 장애물 스테이지 랜덤으로 선택
+            whichSpawn = Random.Range(0, 2); //다음 스테이지 몬스터 or 장애물 스테이지 랜덤으로 선택
 
         }
         if (clear >= 10 && clear <= 43)

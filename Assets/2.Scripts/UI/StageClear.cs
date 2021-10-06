@@ -8,19 +8,27 @@ public class StageClear : MonoBehaviour
 {
     public Image img;
     public TextMeshProUGUI text1, text2;
+    private TextMeshProUGUI StageInfo;
+    private AreaSpawner areaSpawner;
 
     Color init_color;
     bool fade;
     // Start is called before the first frame update
     void OnEnable()
     {
+        areaSpawner = GameObject.Find("AreaSpawner").GetComponent<AreaSpawner>();       //스테이지 값 출력을 위한 AreaSpawner 스크립트
+
+        StageInfo = GameObject.Find("Text_Number").GetComponent<TextMeshProUGUI>();     //우측 상단 스테이지 값 변경을 위한 텍스트
+
         init_color = new Color(1, 1, 1, 0);
         fade = false;
 
         img.color = init_color;
+        text2.text = (areaSpawner.stage).ToString();
         text1.color = init_color;
         text2.color = init_color;
-
+        text2.text = areaSpawner.stage.ToString();       //AreaSpawner의 클리어 값 반영
+        StageInfo.text = areaSpawner.stage.ToString();
         StartCoroutine(FadeIn());
     }
 

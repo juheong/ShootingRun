@@ -35340,7 +35340,6 @@ MonoBehaviour:
     type: 3}
   panelController: {fileID: 1688787457}
   playerTransform: {fileID: 115934671}
-  clear: 0
   stage: 0
 --- !u!4 &581034805
 Transform:
@@ -80458,7 +80457,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
+  m_text: 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2f49fe8c22d94f9a9e6cd06ad490155, type: 2}
   m_sharedMaterial: {fileID: 3074828514974314926, guid: c2f49fe8c22d94f9a9e6cd06ad490155,
