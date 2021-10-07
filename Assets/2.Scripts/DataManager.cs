@@ -21,6 +21,7 @@ public class PlayerData
     public bool[] ch1_clear = new bool[100];
     public int[] ch1_score = new int[100];
     public string equip;
+    public bool[] hasItem = new bool[6];
 }
 
 [Serializable]
@@ -105,7 +106,7 @@ public class DataManager : MonoBehaviour
         param.Add("Exp", Exp);
         param.Add("Coin", Coin);
 
-        string equipment = "AK74";
+        string equipment = "M1911";
 
         param.Add("Equip", equipment);
 
@@ -119,6 +120,20 @@ public class DataManager : MonoBehaviour
         {
             errorCode(BRO.GetStatusCode(), BRO.GetMessage());            
         }
+        //=============== 아이템 데이터 추가 =================      // 처음엔 M1917만 지닌 채로 시작
+        Dictionary<string, bool> Weapon = new Dictionary<string, bool>
+        {
+            { "101", true},
+            { "102", false},
+            { "103", false},
+            { "104", false},
+            { "105", false},
+            { "106", false}
+
+        };
+        Param param3 = new Param();
+        param3.Add("Weapon", Weapon);
+        BackendReturnObject BRO3 = Backend.GameData.Insert("Item", param3);
 
         //=============== 스테이지 데이터 추가 =================
         Dictionary<string, bool> clear = new Dictionary<string, bool>
@@ -228,6 +243,7 @@ public class DataManager : MonoBehaviour
                 Debug.Log("실패");
             }
             ReadChapter();
+            ReadItem();
         }
     }
 
@@ -264,7 +280,35 @@ public class DataManager : MonoBehaviour
             player.ch1_score[3] = int.Parse(s4);
         }
     }
+    public void ReadItem()      //아이템 구매여부 확인
+    {
+        var bro = Backend.GameData.GetMyData("Item", new Where(), 10);
+        if (bro.IsSuccess() == false)
+        {
+            Debug.Log(bro);
+            return;
+        }
+        if (bro.GetReturnValuetoJSON()["rows"].Count <= 0)
+        {
+            Debug.Log(bro);
+            return;
+        }
+        for (int i = 0; i < bro.Rows().Count; ++i)
+        {
+            String[] c1 = new String[10];
+            c1[0] = bro.Rows()[i]["Weapon"][0]["101"]["BOOL"].ToString();
+            c1[1] = bro.Rows()[i]["Weapon"][0]["102"]["BOOL"].ToString();
+            c1[2] = bro.Rows()[i]["Weapon"][0]["103"]["BOOL"].ToString();
+            c1[3] = bro.Rows()[i]["Weapon"][0]["104"]["BOOL"].ToString();
+            c1[4] = bro.Rows()[i]["Weapon"][0]["105"]["BOOL"].ToString();
+            c1[5] = bro.Rows()[i]["Weapon"][0]["106"]["BOOL"].ToString();
 
+            for (int j = 0; j < 6; j++)
+            {
+                player.hasItem[j] = Convert.ToBoolean(c1[j]);
+            }
+        }
+    }
     public void SetText()
     {
         //========== 유저 데이터 표시 =============
