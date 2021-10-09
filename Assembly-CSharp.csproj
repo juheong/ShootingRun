@@ -50,6 +50,7 @@
      <Compile Include="Assets\2.Scripts\BendingLight.cs" />
      <Compile Include="Assets\2.Scripts\Area.cs" />
      <Compile Include="Assets\2.Scripts\UI\PauseSelection.cs" />
+     <Compile Include="Assets\2.Scripts\UI\ActiveEquip.cs" />
      <Compile Include="Assets\2.Scripts\UI\SoundManager.cs" />
      <Compile Include="Assets\2.Scripts\Scene_Mng.cs" />
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECCameraShake.cs" />
@@ -71,6 +72,7 @@
      <Compile Include="Assets\2.Scripts\GameController.cs" />
      <Compile Include="Assets\2.Scripts\UI\FixedResolution.cs" />
      <Compile Include="Assets\2.Scripts\FloatText.cs" />
+     <Compile Include="Assets\2.Scripts\UI\ActiveShop.cs" />
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECprojectileActor.cs" />
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECEffectActor.cs" />
      <Compile Include="Assets\2.Scripts\BossManager.cs" />

@@ -20,8 +20,9 @@ public class NestedScrollManager : MonoBehaviour, IBeginDragHandler, IDragHandle
     public int targetIndex; // 동일
     public GameObject topPanel; //특정 페이지에서 판넬 활성화 유무 정하기 위함
     bool isDrag;
-    
 
+    public ActiveEquip activeEquip;
+    public ActiveShop activeShop;
 
     void Start()
     {
@@ -68,6 +69,8 @@ public class NestedScrollManager : MonoBehaviour, IBeginDragHandler, IDragHandle
                 ++targetIndex;
                 targetPos = curPos + distance;
             }
+
+
         }
 
         VerticalScrollUp();
@@ -109,10 +112,16 @@ public class NestedScrollManager : MonoBehaviour, IBeginDragHandler, IDragHandle
             // 선택한 버튼 아이콘은 약간 위로 올리고, 크기도 키우고, 텍스트도 활성화
             if (i == targetIndex)
             {
+                if (targetIndex == 1)       //특정 탭 선택 시 데이터 확인 후 품목 제거
+                    activeShop.activeShop();
+                else if (targetIndex == 2)
+                    activeEquip.activeEquip();
+
                 BtnTargetPos.y = 90f;
                 BtnTargetSize = new Vector3(1f, 1f, 1f);
                 BtnTargetImage = BtnImage[1];
                 //textActive = true;
+
             }
 
 

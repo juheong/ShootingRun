@@ -44,7 +44,7 @@ public class WeaponData
         this.rate = rate;
         this.range = range;
     }
-    
+
     public int getId()
     {
         return this.id;
@@ -74,7 +74,37 @@ public class WeaponData
         return this.range;
     }
 }
+public class ItemData           //상점 아이템 데이터
+{
+    private int id;
+    private string name;
+    private string type;
+    private int price;
 
+    public ItemData(int id, string name, string type, int price)
+    {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+        this.price = price;
+    }
+    public int getId()
+    {
+        return this.id;
+    }
+    public int getPrice()
+    {
+        return this.price;
+    }
+    public string getName()
+    {
+        return this.name;
+    }
+    public string getType()
+    {
+        return this.type;
+    }
+}
 public class DataManager : MonoBehaviour
 {
     [SerializeField]
@@ -89,6 +119,7 @@ public class DataManager : MonoBehaviour
 
     public PlayerData player;
     public WeaponData[] weapon;
+    public ItemData[] item;
 
     private void Update()
     {
@@ -120,7 +151,7 @@ public class DataManager : MonoBehaviour
         {
             errorCode(BRO.GetStatusCode(), BRO.GetMessage());            
         }
-        //=============== 아이템 데이터 추가 =================      // 처음엔 M1917만 지닌 채로 시작
+        //=============== 아이템 데이터 추가 =================      // 처음엔 M1911만 지닌 채로 시작
         Dictionary<string, bool> Weapon = new Dictionary<string, bool>
         {
             { "101", true},
@@ -232,6 +263,17 @@ public class DataManager : MonoBehaviour
                             float.Parse(rate), float.Parse(range));
                     }
 
+                    JsonData itemChart = JsonMapper.ToObject(Backend.Chart.GetLocalChartData("Store"));     //상점 차트 읽기
+                    var rows3 = itemChart["rows"];
+                    item = new ItemData[rows3.Count];
+                    for (int j = 0; j < rows3.Count; j++)
+                    {
+                        var id = rows3[j]["ItemID"]["S"].ToString();
+                        var itemName = rows3[j]["Name"]["S"].ToString();
+                        var type = rows3[j]["Type"]["S"].ToString();
+                        var price = rows3[j]["Price"]["S"].ToString();
+                        item[j] = new ItemData(int.Parse(id), itemName, type, int.Parse(price));
+                    }
                 }                                                   
                 else
                 {
@@ -309,6 +351,7 @@ public class DataManager : MonoBehaviour
             }
         }
     }
+
     public void SetText()
     {
         //========== 유저 데이터 표시 =============

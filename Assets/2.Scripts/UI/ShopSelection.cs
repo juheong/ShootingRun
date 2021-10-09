@@ -12,16 +12,14 @@ public class ShopSelection : MonoBehaviour
 
     GameObject obj1;
     GameObject obj2;
-    GameObject obj3;
-    GameObject obj4;
 
     void Start()
     {
-        obj1 = GameObject.Find("DataManager");
-        data = obj1.GetComponent<DataManager>();
-        obj3 = GameObject.Find("C_1");
-        obj4 = GameObject.Find("TopTab_St");
-        tab = obj4.GetComponent<TabManager>();
+        obj1 = GameObject.Find("C_1");
+        obj2 = GameObject.Find("TopTab_St");
+
+        data = GameObject.Find("DataManager").GetComponent<DataManager>();
+        tab = obj1.GetComponent<TabManager>();
     }
 
     public void SelectThing(int num)
