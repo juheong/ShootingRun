@@ -104,6 +104,7 @@
      <Compile Include="Assets\2.Scripts\UI\PanelController.cs" />
      <Compile Include="Assets\2.Scripts\UI\SliderDataCommunicate.cs" />
      <Compile Include="Assets\EffectCore\scripts\ECparticleColorChangerMaster.cs" />
+     <Compile Include="Assets\2.Scripts\ItemDataSet.cs" />
      <Compile Include="Assets\2.Scripts\WeaponDataSet.cs" />
      <Compile Include="Assets\2.Scripts\CurvedControls.cs" />
      <Compile Include="Assets\2.Scripts\UI\WeaponSelection.cs" />

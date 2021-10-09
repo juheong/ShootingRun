@@ -12,11 +12,16 @@ public class ActiveEquip : MonoBehaviour
     {
         data = GameObject.Find("DataManager").GetComponent<DataManager>();
         weapon = GameObject.Find("EquipmentPanel").GetComponent<WeaponSelection>();
-        for (int i=0;i<data.player.hasItem.Length;i++)
+
+        for (int i=0;i<data.player.hasItem.Length;i++)      //품목이 true면 활성 그렇지 않으면 비활성
         {
             if(data.player.hasItem[i]==false)
             {
                 weapon.weapon[i].SetActive(false);
+            }
+            else
+            {
+                weapon.weapon[i].SetActive(true);
             }
         }
 

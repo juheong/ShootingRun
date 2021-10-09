@@ -6,13 +6,13 @@ using TMPro;
 public class ItemDataSet : MonoBehaviour
 {
     [SerializeField]
-    private string itemId;
+    public string itemId;
     [SerializeField]
-    private string name;
+    public string name;
     [SerializeField]
-    private string type;
+    public string type;
     [SerializeField]
-    private string price;
+    public string price;
 
     private DataManager data;
     GameObject obj1;

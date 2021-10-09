@@ -325,6 +325,8 @@ public class DataManager : MonoBehaviour
     public void ReadItem()      //아이템 구매여부 확인
     {
         var bro = Backend.GameData.GetMyData("Item", new Where(), 10);
+
+
         if (bro.IsSuccess() == false)
         {
             Debug.Log(bro);
@@ -335,8 +337,11 @@ public class DataManager : MonoBehaviour
             Debug.Log(bro);
             return;
         }
+        Debug.Log("구매품목 확인");
+
         for (int i = 0; i < bro.Rows().Count; ++i)
-        {
+        {  
+            //수가 많아지면 int형 변수를 통해서 반복문으로 입력
             String[] c1 = new String[10];
             c1[0] = bro.Rows()[i]["Weapon"][0]["101"]["BOOL"].ToString();
             c1[1] = bro.Rows()[i]["Weapon"][0]["102"]["BOOL"].ToString();
@@ -439,7 +444,37 @@ public class DataManager : MonoBehaviour
             Debug.Log("장비장착 업데이트 성공");
         }
     }
+    public void ItemUpdate(string itemId)
+    {
+        Param param = new Param();
 
+        Where where = new Where();
+        where.Equal("owner_inDate", player.indate);
+        var bro = Backend.GameData.GetMyData("Item", new Where());      //서버 게임정보/Item 테이블을 가져옴
+        Dictionary<string, bool> items = new Dictionary<string, bool>();        //업데이트를 위한 딕셔너리
+
+        for (int i=1;i<=6;i++)      //현재 테이블에 존재하는 딕셔너리 복사
+        {
+            String findId = (100 + i).ToString();
+            if (findId == itemId)       //구매한 품목과 동일하면 true
+            {
+                items.Add(findId, true);
+            }
+            else
+            {
+                items.Add(findId, Convert.ToBoolean(bro.Rows()[0]["Weapon"][0][findId]["BOOL"].ToString()));        //동일하지 않은 품목은 그대로 복사
+            }
+        }
+        param.Add("Weapon", items);
+
+        BackendReturnObject bro2 = Backend.GameData.Update("Item", where, param);       //서버의 플레이어 정보 업데이트
+
+        if (bro2.IsSuccess())
+        {
+            ReadItem();
+            Debug.Log("상점 구매 업데이트 성공");
+        }
+    }
     public string getName()
     {
         return player.nickname;
