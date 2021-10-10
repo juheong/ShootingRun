@@ -95,7 +95,6 @@ public class Player : MonoBehaviour
         {
             if (!isDie)
             {
-                score++;
                 score_text.text = score.ToString();
 
                 if (isBoss == true)

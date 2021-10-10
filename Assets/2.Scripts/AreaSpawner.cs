@@ -26,7 +26,7 @@ public class AreaSpawner : MonoBehaviour
 
     [SerializeField]
     private Transform playerTransform;
-    private int clear;
+    public int clear;
     private int whichSpawn;
     public int stage;
     Rigidbody indirigi;

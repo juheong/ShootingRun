@@ -22,6 +22,8 @@ public class Enemy : MonoBehaviour
     Animator anim;
     private float attackTime = 2f;
     GameObject Player;
+    Player playerData;
+
 
     int attacked = 1;
     private void Awake()
@@ -32,6 +34,7 @@ public class Enemy : MonoBehaviour
         anim = GetComponent<Animator>();
         audioSource = this.gameObject.GetComponent<AudioSource>();
         AttackSource = this.transform.Find("AttackClip").gameObject.GetComponent<AudioSource>();
+
 
         switch (enemyType)      //타입에 따른 공격속도
         {
@@ -46,6 +49,8 @@ public class Enemy : MonoBehaviour
         }
         InvokeRepeating("Attack", 1, attackTime);
         Player = GameObject.FindWithTag("Player");
+        playerData = Player.gameObject.GetComponent<Player>();
+
     }
     void Start()
     {
@@ -192,7 +197,7 @@ public class Enemy : MonoBehaviour
             //rigid.freezeRotation = false;
             //rigid.AddForce(reactVec * 10, ForceMode.Impulse);
             Destroy(gameObject, 1f);
-            Player.GetComponent<Player>().score += 300;
+            playerData.score += 150;
         }
     }
 

@@ -9,6 +9,14 @@ public class Area : MonoBehaviour
     private AreaSpawner areaSpawner;
     private Transform playerTransform;
     private bool isBoss;
+    GameObject Player;
+    Player playerData;
+
+    private void Start()
+    {
+        Player = GameObject.FindWithTag("Player");
+        playerData=Player.gameObject.GetComponent<Player>();
+    }
 
     public void Setup(AreaSpawner areaSpawner, Transform playerTransform, bool isBoss)
     {
@@ -32,6 +40,8 @@ public class Area : MonoBehaviour
             if (playerTransform.position.z - transform.position.z >= destroyDistance)
             {
                 areaSpawner.SpawnArea();
+                if(areaSpawner.gameObject.GetComponent<AreaSpawner>().clear>=10)
+                    playerData.score+=300;
                 Destroy(gameObject);
             }
         }
