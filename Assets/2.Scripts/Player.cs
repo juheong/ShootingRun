@@ -14,11 +14,11 @@ public class Player : MonoBehaviour
 
     public int coin;
     [SerializeField]
-    private int health;
+    public int health;
     [SerializeField]
     private int maxcoin;
     [SerializeField]
-    private int maxhealth;
+    public int maxhealth;
 
     private float moveXWidth = 1.5f;
     private float moveTimeX = 0.1f;

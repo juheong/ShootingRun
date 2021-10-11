@@ -83,7 +83,6 @@ public class AreaSpawner : MonoBehaviour
             panelController.OpenPanel(3);
             clear = 0;
             whichSpawn = Random.Range(0, 2); //다음 스테이지 몬스터 or 장애물 스테이지 랜덤으로 선택
-            stage++;
         }
         if (clear >=10&&clear<=45)
         {

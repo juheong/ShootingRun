@@ -19129,7 +19129,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: -20}
+  m_AnchoredPosition: {x: -19.99997, y: -20}
   m_SizeDelta: {x: -59.99999, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &433957621
@@ -26973,7 +26973,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &667622310
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26991,7 +26991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 397.5, y: -94}
+  m_AnchoredPosition: {x: 88.5, y: -94}
   m_SizeDelta: {x: 177, y: 188}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &667622311
@@ -27064,7 +27064,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1641592604}
         m_TargetAssemblyTypeName: ButtonUpgrade, Assembly-CSharp
-        m_MethodName: AttackUp
+        m_MethodName: HealHp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -47331,7 +47331,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1131847293
 RectTransform:
   m_ObjectHideFlags: 0
@@ -47422,7 +47422,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1641592604}
         m_TargetAssemblyTypeName: ButtonUpgrade, Assembly-CSharp
-        m_MethodName: AttackUp
+        m_MethodName: MaxHPUp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -84027,9 +84027,12 @@ MonoBehaviour:
   Rangetext: {fileID: 961964181}
   Ratetext: {fileID: 731323614}
   Buttons:
-  - {fileID: 1555272221}
-  - {fileID: 619115962}
   - {fileID: 1677891659}
+  - {fileID: 619115962}
+  - {fileID: 1555272221}
+  - {fileID: 1131847292}
+  - {fileID: 667622309}
+  - {fileID: 1657389912}
 --- !u!114 &1641592605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84458,7 +84461,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1657389913
 RectTransform:
   m_ObjectHideFlags: 0
@@ -84476,7 +84479,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 706.5, y: -94}
+  m_AnchoredPosition: {x: 88.5, y: -94}
   m_SizeDelta: {x: 177, y: 188}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1657389914
@@ -84549,7 +84552,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1641592604}
         m_TargetAssemblyTypeName: ButtonUpgrade, Assembly-CSharp
-        m_MethodName: AttackUp
+        m_MethodName: CoinUp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

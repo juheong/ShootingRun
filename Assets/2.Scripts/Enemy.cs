@@ -33,7 +33,10 @@ public class Enemy : MonoBehaviour
         meshs = GetComponentsInChildren<SkinnedMeshRenderer>();
         anim = GetComponent<Animator>();
         audioSource = this.gameObject.GetComponent<AudioSource>();
-        AttackSource = this.transform.Find("AttackClip").gameObject.GetComponent<AudioSource>();
+        if (this.enemyType != 0)
+        {
+            AttackSource = this.transform.Find("AttackClip").gameObject.GetComponent<AudioSource>();
+        }
 
 
         switch (enemyType)      //타입에 따른 공격속도
