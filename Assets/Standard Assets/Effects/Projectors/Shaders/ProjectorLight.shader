@@ -6,6 +6,8 @@ Shader "Projector/Light" {
 		_Color ("Main Color", Color) = (1,1,1,1)
 		_ShadowTex ("Cookie", 2D) = "" {}
 		_FalloffTex ("FallOff", 2D) = "" {}
+		_QOffset ("Offset", Vector) = (0,0,0,0)
+		_Dist ("Distance", Float) = 100.0
 	}
 	
 	Subshader {
@@ -31,13 +33,19 @@ Shader "Projector/Light" {
 			
 			float4x4 unity_Projector;
 			float4x4 unity_ProjectorClip;
-			
+			float4 _QOffset;
+			float _Dist;
+
 			v2f vert (float4 vertex : POSITION)
 			{
-				v2f o;
+				v2f o;				
 				o.pos = UnityObjectToClipPos(vertex);
 				o.uvShadow = mul (unity_Projector, vertex);
 				o.uvFalloff = mul (unity_ProjectorClip, vertex);
+				float4 vPos = mul (UNITY_MATRIX_MV, vertex);
+			   	float zOff = vPos.z/_Dist;
+			    vPos += _QOffset*zOff*zOff;
+			    o.pos = mul (UNITY_MATRIX_P, vPos);									
 				UNITY_TRANSFER_FOG(o,o.pos);
 				return o;
 			}

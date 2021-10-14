@@ -43,7 +43,8 @@ Material:
         m_Texture: {fileID: 2800000, guid: 1167c0a28d11119930004d8a4241aa39, type: 3}
         m_Scale: {x: 1, y: 0}
         m_Offset: {x: 1, y: 0}
-    m_Floats: []
+    m_Floats:
+    - _Dist: 100
     m_Colors:
     - BumpMapScale: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 0, b: 0, a: 1}
@@ -59,6 +60,7 @@ Material:
     - _Projector_1: {r: -0.0014375485, g: 1.4636691, b: 0.77239656, a: 1.2343576}
     - _Projector_2: {r: -0.107604526, g: -0.18029094, b: 1.0079052, a: 1.9464619}
     - _Projector_3: {r: -0.10451689, g: -0.17511761, b: 0.9789842, a: 2.0877385}
+    - _QOffset: {r: 0, g: -45, b: 0, a: 0}
     - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
   m_BuildTextureStacks: []
 --- !u!1002 &2100001

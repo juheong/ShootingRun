@@ -48,5 +48,5 @@ Material:
     - __dirty: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _QOffset: {r: 0, g: -50, b: 0, a: 0}
+    - _QOffset: {r: 0, g: -45, b: 0, a: 0}
   m_BuildTextureStacks: []

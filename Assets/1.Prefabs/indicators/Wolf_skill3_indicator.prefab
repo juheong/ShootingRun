@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5764561749292757469}
   - component: {fileID: 3457301446352017844}
   - component: {fileID: 4485008141882017255}
-  - component: {fileID: 1041842552371341835}
+  - component: {fileID: 3792498295900079015}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: abe687dc7c33cdc44a498cb0c7a860dd, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,25 +82,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!119 &1041842552371341835
-Projector:
+--- !u!114 &3792498295900079015
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471250893728717384}
   m_Enabled: 1
-  serializedVersion: 2
-  m_NearClipPlane: 0.01
-  m_FarClipPlane: 100
-  m_FieldOfView: 50
-  m_AspectRatio: 1
-  m_Orthographic: 1
-  m_OrthographicSize: 0.85
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 2
   m_Material: {fileID: 2100000, guid: c8c80c5b03f5c7e40b07eb2170e667e5, type: 2}
-  m_IgnoreLayers:
-    serializedVersion: 2
-    m_Bits: 1032
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_AffectsTransparency: 0
+  m_DecalLayerMask: 1
+  m_Offset: {x: 0, y: 0, z: 0.5}
+  m_Size: {x: 10, y: 1, z: 1}
+  m_FadeFactor: 1
 --- !u!1 &7108696636889866876
 GameObject:
   m_ObjectHideFlags: 0
