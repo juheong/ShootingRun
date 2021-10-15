@@ -25471,8 +25471,8 @@ MonoBehaviour:
   - {fileID: 4380719604489068836, guid: 1d88f3f7ca1d94343b7bfef905937fa7, type: 3}
   obstacles:
   - {fileID: 6778150582446297458, guid: cfeee1e9399f6194992d59452f9f9866, type: 3}
+  - {fileID: -8950386227126152616, guid: 7ebae8e9dc91cf7438f2246a8c333ae8, type: 3}
   events:
-  - {fileID: 2951005754433748627, guid: 21132ba80480172419064d6e84f46d67, type: 3}
   - {fileID: 2951005754433748627, guid: 21132ba80480172419064d6e84f46d67, type: 3}
   spawnAreaCountAtStart: 5
   zDistance: 20
