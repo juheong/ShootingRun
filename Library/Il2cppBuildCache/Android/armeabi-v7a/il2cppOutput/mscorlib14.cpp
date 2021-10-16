@@ -548,6 +548,8 @@ struct SecurityException_t3BE23C00ECC638A4EDCAA33572C4DCC21F2FA769;
 struct SecurityParser_tC9E18353931E28EE00489103D73FF6CD562F2118;
 // System.Security.Permissions.SecurityPermission
 struct SecurityPermission_tD6FAEE1AC655D213023011C51B465B0AA1D8D315;
+// System.Security.Permissions.SecurityPermissionAttribute
+struct SecurityPermissionAttribute_t4840FF6F04B8182B7BE9A2DC315C9FBB67877B86;
 // System.Threading.SemaphoreFullException
 struct SemaphoreFullException_tEC3066DE47D27E7FFEDFB57703A17E44A6F4A741;
 // System.Threading.SemaphoreSlim
@@ -5099,6 +5101,15 @@ public:
 };
 
 
+// System.Security.Permissions.SecurityAttribute
+struct  SecurityAttribute_tB471CCD1C8F5D885AC2FD10483CB9C1BA3C9C922  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+{
+public:
+
+public:
+};
+
+
 // Mono.Xml.SecurityParser
 struct  SecurityParser_tC9E18353931E28EE00489103D73FF6CD562F2118  : public SmallXmlParser_t67E5C1C6417A9CB0679E68D8A4E0095E9D2B54D7
 {
@@ -8315,6 +8326,15 @@ struct CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A_m
 	CancellationCallbackInfo_t7FC8CF6DB4845FCB0138771E86AE058710B1117B * ___m_callbackInfo_0;
 	SparselyPopulatedArrayAddInfo_1_t6EE25E0D720E03DE7A660791DB554CADCD247FC0  ___m_registrationInfo_1;
 };
+
+// System.Security.Permissions.CodeAccessSecurityAttribute
+struct  CodeAccessSecurityAttribute_tDFD5754F85D0138CA98EAA383EA7D50B5503C319  : public SecurityAttribute_tB471CCD1C8F5D885AC2FD10483CB9C1BA3C9C922
+{
+public:
+
+public:
+};
+
 
 // System.Globalization.CompareOptions
 struct  CompareOptions_tD3D7F165240DC4D784A11B1E2F21DC0D6D18E725 
@@ -11551,6 +11571,24 @@ public:
 	inline void set_flags_0(int32_t value)
 	{
 		___flags_0 = value;
+	}
+};
+
+
+// System.Security.Permissions.SecurityPermissionAttribute
+struct  SecurityPermissionAttribute_t4840FF6F04B8182B7BE9A2DC315C9FBB67877B86  : public CodeAccessSecurityAttribute_tDFD5754F85D0138CA98EAA383EA7D50B5503C319
+{
+public:
+	// System.Security.Permissions.SecurityPermissionFlag System.Security.Permissions.SecurityPermissionAttribute::m_Flags
+	int32_t ___m_Flags_0;
+
+public:
+	inline static int32_t get_offset_of_m_Flags_0() { return static_cast<int32_t>(offsetof(SecurityPermissionAttribute_t4840FF6F04B8182B7BE9A2DC315C9FBB67877B86, ___m_Flags_0)); }
+	inline int32_t get_m_Flags_0() const { return ___m_Flags_0; }
+	inline int32_t* get_address_of_m_Flags_0() { return &___m_Flags_0; }
+	inline void set_m_Flags_0(int32_t value)
+	{
+		___m_Flags_0 = value;
 	}
 };
 
@@ -15302,7 +15340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeTypeHandle_IsContextful_m68DA0174
 		RuntimeType_t4F49C0B3B2871AECF65AF5FA3E42BAB5B0C1FD07 * L_2 = ___type0;
 		NullCheck(L_1);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
 		return L_3;
 	}
 }
@@ -24184,6 +24222,14 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void System.Security.SecurityDocument::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SecurityDocument__ctor_mCF80C410DE4DE2F4A6C0EE6724EED1E1236697C1 (SecurityDocument_tC36E578CDEC6DADD3A27BE1293BC53FBE640F977 * __this, int32_t ___numData0, const RuntimeMethod* method)
 {
@@ -27111,6 +27157,37 @@ IL_0005:
 IL_001e:
 	{
 		return G_B4_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Security.Permissions.SecurityPermissionAttribute::set_SkipVerification(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SecurityPermissionAttribute_set_SkipVerification_mDEF40ABDDED86DFFADCF91BCDA3ECE6AF436F1E6 (SecurityPermissionAttribute_t4840FF6F04B8182B7BE9A2DC315C9FBB67877B86 * __this, bool ___value0, const RuntimeMethod* method)
+{
+	{
+		bool L_0 = ___value0;
+		if (!L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		int32_t L_1 = __this->get_m_Flags_0();
+		__this->set_m_Flags_0(((int32_t)((int32_t)L_1|(int32_t)4)));
+		return;
+	}
+
+IL_0012:
+	{
+		int32_t L_2 = __this->get_m_Flags_0();
+		__this->set_m_Flags_0(((int32_t)((int32_t)L_2&(int32_t)((int32_t)-5))));
+		return;
 	}
 }
 #ifdef __clang__
@@ -32040,7 +32117,7 @@ IL_002c:
 		Type_t * L_11 = V_0;
 		NullCheck(L_10);
 		bool L_12;
-		L_12 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_10, L_11);
+		L_12 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_10, L_11);
 		if (L_12)
 		{
 			goto IL_0046;
@@ -32111,7 +32188,7 @@ IL_000f:
 		Type_t * L_6 = V_0;
 		NullCheck(L_5);
 		bool L_7;
-		L_7 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_5, L_6);
+		L_7 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_5, L_6);
 		if (L_7)
 		{
 			goto IL_001f;

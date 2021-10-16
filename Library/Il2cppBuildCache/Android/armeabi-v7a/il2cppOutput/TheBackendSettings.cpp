@@ -17,11 +17,11 @@ struct PropertyAttribute_t4A352471DF625C56C811E27AC86B7E1CE6444052;
 // UnityEngine.ScriptableObject
 struct ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A;
 // ShowOnlyAttribute
-struct ShowOnlyAttribute_t940138F8C38DCD947D65B633A5E0963C560B3F68;
+struct ShowOnlyAttribute_tB09E4B9BF7EA943EDB88EB16878EAAE80BFDD91A;
 // System.String
 struct String_t;
 // TheBackendSettings
-struct TheBackendSettings_t5D5476A25ABF408A38B042ABC1D360BBC946F14D;
+struct TheBackendSettings_t3BF97DAD66AA7D2F0B70DB959A5690DD82B61952;
 // System.Void
 struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
 
@@ -37,7 +37,7 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t41B89BCCB088BB4FFFE163DBCCBB52B8CF893956 
+struct  U3CModuleU3E_tC78A7C6A1528BC4D8C07AAB6C972298D401E4293 
 {
 public:
 
@@ -246,7 +246,7 @@ struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_marshaled_com
 };
 
 // ShowOnlyAttribute
-struct  ShowOnlyAttribute_t940138F8C38DCD947D65B633A5E0963C560B3F68  : public PropertyAttribute_t4A352471DF625C56C811E27AC86B7E1CE6444052
+struct  ShowOnlyAttribute_tB09E4B9BF7EA943EDB88EB16878EAAE80BFDD91A  : public PropertyAttribute_t4A352471DF625C56C811E27AC86B7E1CE6444052
 {
 public:
 
@@ -272,7 +272,7 @@ struct ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A_marshaled_com 
 };
 
 // TheBackendSettings
-struct  TheBackendSettings_t5D5476A25ABF408A38B042ABC1D360BBC946F14D  : public ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A
+struct  TheBackendSettings_t3BF97DAD66AA7D2F0B70DB959A5690DD82B61952  : public ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A
 {
 public:
 	// System.String TheBackendSettings::clientAppID
@@ -293,7 +293,7 @@ public:
 	String_t* ___Version_11;
 
 public:
-	inline static int32_t get_offset_of_clientAppID_4() { return static_cast<int32_t>(offsetof(TheBackendSettings_t5D5476A25ABF408A38B042ABC1D360BBC946F14D, ___clientAppID_4)); }
+	inline static int32_t get_offset_of_clientAppID_4() { return static_cast<int32_t>(offsetof(TheBackendSettings_t3BF97DAD66AA7D2F0B70DB959A5690DD82B61952, ___clientAppID_4)); }
 	inline String_t* get_clientAppID_4() const { return ___clientAppID_4; }
 	inline String_t** get_address_of_clientAppID_4() { return &___clientAppID_4; }
 	inline void set_clientAppID_4(String_t* value)
@@ -302,7 +302,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___clientAppID_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_signatureKey_5() { return static_cast<int32_t>(offsetof(TheBackendSettings_t5D5476A25ABF408A38B042ABC1D360BBC946F14D, ___signatureKey_5)); }
+	inline static int32_t get_offset_of_signatureKey_5() { return static_cast<int32_t>(offsetof(TheBackendSettings_t3BF97DAD66AA7D2F0B70DB959A5690DD82B61952, ___signatureKey_5)); }
 	inline String_t* get_signatureKey_5() const { return ___signatureKey_5; }
 	inline String_t** get_address_of_signatureKey_5() { return &___signatureKey_5; }
 	inline void set_signatureKey_5(String_t* value)
@@ -311,7 +311,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___signatureKey_5), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_functionAuthKey_6() { return static_cast<int32_t>(offsetof(TheBackendSettings_t5D5476A25ABF408A38B042ABC1D360BBC946F14D, ___functionAuthKey_6)); }
+	inline static int32_t get_offset_of_functionAuthKey_6() { return static_cast<int32_t>(offsetof(TheBackendSettings_t3BF97DAD66AA7D2F0B70DB959A5690DD82B61952, ___functionAuthKey_6)); }
 	inline String_t* get_functionAuthKey_6() const { return ___functionAuthKey_6; }
 	inline String_t** get_address_of_functionAuthKey_6() { return &___functionAuthKey_6; }
 	inline void set_functionAuthKey_6(String_t* value)
@@ -320,7 +320,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___functionAuthKey_6), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_packageName_7() { return static_cast<int32_t>(offsetof(TheBackendSettings_t5D5476A25ABF408A38B042ABC1D360BBC946F14D, ___packageName_7)); }
+	inline static int32_t get_offset_of_packageName_7() { return static_cast<int32_t>(offsetof(TheBackendSettings_t3BF97DAD66AA7D2F0B70DB959A5690DD82B61952, ___packageName_7)); }
 	inline String_t* get_packageName_7() const { return ___packageName_7; }
 	inline String_t** get_address_of_packageName_7() { return &___packageName_7; }
 	inline void set_packageName_7(String_t* value)
@@ -329,7 +329,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___packageName_7), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_isAllPlatform_8() { return static_cast<int32_t>(offsetof(TheBackendSettings_t5D5476A25ABF408A38B042ABC1D360BBC946F14D, ___isAllPlatform_8)); }
+	inline static int32_t get_offset_of_isAllPlatform_8() { return static_cast<int32_t>(offsetof(TheBackendSettings_t3BF97DAD66AA7D2F0B70DB959A5690DD82B61952, ___isAllPlatform_8)); }
 	inline bool get_isAllPlatform_8() const { return ___isAllPlatform_8; }
 	inline bool* get_address_of_isAllPlatform_8() { return &___isAllPlatform_8; }
 	inline void set_isAllPlatform_8(bool value)
@@ -337,7 +337,7 @@ public:
 		___isAllPlatform_8 = value;
 	}
 
-	inline static int32_t get_offset_of_sendLogReport_9() { return static_cast<int32_t>(offsetof(TheBackendSettings_t5D5476A25ABF408A38B042ABC1D360BBC946F14D, ___sendLogReport_9)); }
+	inline static int32_t get_offset_of_sendLogReport_9() { return static_cast<int32_t>(offsetof(TheBackendSettings_t3BF97DAD66AA7D2F0B70DB959A5690DD82B61952, ___sendLogReport_9)); }
 	inline bool get_sendLogReport_9() const { return ___sendLogReport_9; }
 	inline bool* get_address_of_sendLogReport_9() { return &___sendLogReport_9; }
 	inline void set_sendLogReport_9(bool value)
@@ -345,7 +345,7 @@ public:
 		___sendLogReport_9 = value;
 	}
 
-	inline static int32_t get_offset_of_timeOutSec_10() { return static_cast<int32_t>(offsetof(TheBackendSettings_t5D5476A25ABF408A38B042ABC1D360BBC946F14D, ___timeOutSec_10)); }
+	inline static int32_t get_offset_of_timeOutSec_10() { return static_cast<int32_t>(offsetof(TheBackendSettings_t3BF97DAD66AA7D2F0B70DB959A5690DD82B61952, ___timeOutSec_10)); }
 	inline uint32_t get_timeOutSec_10() const { return ___timeOutSec_10; }
 	inline uint32_t* get_address_of_timeOutSec_10() { return &___timeOutSec_10; }
 	inline void set_timeOutSec_10(uint32_t value)
@@ -353,7 +353,7 @@ public:
 		___timeOutSec_10 = value;
 	}
 
-	inline static int32_t get_offset_of_Version_11() { return static_cast<int32_t>(offsetof(TheBackendSettings_t5D5476A25ABF408A38B042ABC1D360BBC946F14D, ___Version_11)); }
+	inline static int32_t get_offset_of_Version_11() { return static_cast<int32_t>(offsetof(TheBackendSettings_t3BF97DAD66AA7D2F0B70DB959A5690DD82B61952, ___Version_11)); }
 	inline String_t* get_Version_11() const { return ___Version_11; }
 	inline String_t** get_address_of_Version_11() { return &___Version_11; }
 	inline void set_Version_11(String_t* value)
@@ -387,7 +387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_m8DAE6CDCFA34E16F
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void ShowOnlyAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowOnlyAttribute__ctor_m6B83F2A9A582FA9581F6930F40DC14990649E84D (ShowOnlyAttribute_t940138F8C38DCD947D65B633A5E0963C560B3F68 * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowOnlyAttribute__ctor_mC543134EE2A9F1EC7E136B3DCECCF6A012EDC20F (ShowOnlyAttribute_tB09E4B9BF7EA943EDB88EB16878EAAE80BFDD91A * __this, const RuntimeMethod* method)
 {
 	{
 		PropertyAttribute__ctor_mA13181D93341AEAE429F0615989CB4647F2EB8A7(__this, /*hidden argument*/NULL);
@@ -403,7 +403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowOnlyAttribute__ctor_m6B83F2A9A582FA9
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void TheBackendSettings::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TheBackendSettings__ctor_m51A93028F5CF4DEA1396F6D8CE3B598B202FE2FD (TheBackendSettings_t5D5476A25ABF408A38B042ABC1D360BBC946F14D * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TheBackendSettings__ctor_m1100C8570419B685857A98A96D2AD4C38A0B3C4B (TheBackendSettings_t3BF97DAD66AA7D2F0B70DB959A5690DD82B61952 * __this, const RuntimeMethod* method)
 {
 	{
 		__this->set_isAllPlatform_8((bool)1);

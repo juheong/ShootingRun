@@ -1247,6 +1247,8 @@ public:
 	Func_2_t12237805D7B3E966E36DB4327BA1F80B724C4B9A * ___U3CU3E9__14_0_1;
 	// System.Func`2<System.Char,System.Boolean> UnityEngine.Timeline.TimeUtility/<>c::<>9__14_1
 	Func_2_t12237805D7B3E966E36DB4327BA1F80B724C4B9A * ___U3CU3E9__14_1_2;
+	// System.Func`2<System.Char,System.Boolean> UnityEngine.Timeline.TimeUtility/<>c::<>9__15_0
+	Func_2_t12237805D7B3E966E36DB4327BA1F80B724C4B9A * ___U3CU3E9__15_0_3;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E9_0() { return static_cast<int32_t>(offsetof(U3CU3Ec_tA003B02D0D92E31C8781D1F1BD942A4030D6C57A_StaticFields, ___U3CU3E9_0)); }
@@ -1274,6 +1276,15 @@ public:
 	{
 		___U3CU3E9__14_1_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E9__14_1_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3E9__15_0_3() { return static_cast<int32_t>(offsetof(U3CU3Ec_tA003B02D0D92E31C8781D1F1BD942A4030D6C57A_StaticFields, ___U3CU3E9__15_0_3)); }
+	inline Func_2_t12237805D7B3E966E36DB4327BA1F80B724C4B9A * get_U3CU3E9__15_0_3() const { return ___U3CU3E9__15_0_3; }
+	inline Func_2_t12237805D7B3E966E36DB4327BA1F80B724C4B9A ** get_address_of_U3CU3E9__15_0_3() { return &___U3CU3E9__15_0_3; }
+	inline void set_U3CU3E9__15_0_3(Func_2_t12237805D7B3E966E36DB4327BA1F80B724C4B9A * value)
+	{
+		___U3CU3E9__15_0_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E9__15_0_3), (void*)value);
 	}
 };
 
@@ -7305,6 +7316,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CParseTimeCodeU3Eb__14_1_mD686
 IL_000b:
 	{
 		return (bool)1;
+	}
+}
+// System.Boolean UnityEngine.Timeline.TimeUtility/<>c::<ParseTimeSeconds>b__15_0(System.Char)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CParseTimeSecondsU3Eb__15_0_m24883371C7A2C36CB86B60A9B48697C63DDDF3DF (U3CU3Ec_tA003B02D0D92E31C8781D1F1BD942A4030D6C57A * __this, Il2CppChar ___c0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// timeCode = RemoveChar(timeCode, c => char.IsWhiteSpace(c));
+		Il2CppChar L_0 = ___c0;
+		IL2CPP_RUNTIME_CLASS_INIT(Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Char_IsWhiteSpace_m99A5E1BE1EB9F17EA530A67A607DA8C260BCBF99(L_0, /*hidden argument*/NULL);
+		return L_1;
 	}
 }
 #ifdef __clang__

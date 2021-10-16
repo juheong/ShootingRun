@@ -18,8 +18,7 @@ public class PlayerData
     public int coin;
     public string indate;
     public string uuid;
-    public bool[] ch1_clear = new bool[100];
-    public int[] ch1_score = new int[100];
+    public int highScore;
     public string equip;
     public bool[] hasItem = new bool[6];
 }
@@ -132,10 +131,12 @@ public class DataManager : MonoBehaviour
         int Level = 1;
         int Exp = 0;
         int Coin = 0;
+        int Score = 0;
         Param param = new Param();
         param.Add("Level", Level);
         param.Add("Exp", Exp);
         param.Add("Coin", Coin);
+        param.Add("HighScore", Score);
 
         string equipment = "M1911";
 
@@ -162,38 +163,10 @@ public class DataManager : MonoBehaviour
             { "106", false}
 
         };
-        Param param3 = new Param();
-        param3.Add("Weapon", Weapon);
-        BackendReturnObject BRO3 = Backend.GameData.Insert("Item", param3);
-
-        //=============== 스테이지 데이터 추가 =================
-        Dictionary<string, bool> clear = new Dictionary<string, bool>
-        {
-            { "stage1", true},
-            { "stage2", false},
-            { "stage3", false},
-            { "stage4", false}
-        };
-        Dictionary<string, int> score = new Dictionary<string, int>
-        {
-            { "stage1", 0},
-            { "stage2", 0},
-            { "stage3", 0},
-            { "stage4", 0}
-        };
         Param param2 = new Param();
-        param2.Add("ch1_clear", clear);
-        param2.Add("ch1_score", score);
-        BackendReturnObject BRO2 = Backend.GameData.Insert("Stage", param2);
-
-        if (BRO2.IsSuccess())
-        {
-            
-        }
-        else
-        {
-            errorCode(BRO2.GetStatusCode(), BRO2.GetMessage());
-        }
+        param2.Add("Weapon", Weapon);
+        BackendReturnObject BRO2 = Backend.GameData.Insert("Item", param2);
+        
 
     }
 
@@ -216,6 +189,7 @@ public class DataManager : MonoBehaviour
             var level = bro.Rows()[i]["Level"]["N"].ToString();
             var exp = bro.Rows()[i]["Exp"]["N"].ToString();
             var coin = bro.Rows()[i]["Coin"]["N"].ToString();
+            var score = bro.Rows()[i]["HighScore"]["N"].ToString();
             var equip = bro.Rows()[i]["Equip"]["S"].ToString();
             var indate = bro2.GetReturnValuetoJSON()["row"]["inDate"].ToString();         
          
@@ -224,6 +198,7 @@ public class DataManager : MonoBehaviour
             player.level = int.Parse(level);
             player.current_exp = int.Parse(exp);
             player.coin = int.Parse(coin);
+            player.highScore = int.Parse(score);
             player.equip = equip;
             BackendReturnObject bro3 = Backend.Chart.GetChartList();            
             if (bro3.IsSuccess())
@@ -283,45 +258,11 @@ public class DataManager : MonoBehaviour
             else
             {
                 Debug.Log("실패");
-            }
-            ReadChapter();
+            }            
             ReadItem();
         }
     }
 
-    public void ReadChapter()
-    {
-        var bro = Backend.GameData.GetMyData("Stage", new Where(), 10);
-        if (bro.IsSuccess() == false)
-        {
-            Debug.Log(bro);
-            return;
-        }
-        if (bro.GetReturnValuetoJSON()["rows"].Count <= 0)
-        {
-            Debug.Log(bro);
-            return;
-        }
-        for (int i = 0; i < bro.Rows().Count; ++i)
-        {
-            var c1 = bro.Rows()[i]["ch1_clear"][0]["stage1"]["BOOL"].ToString();
-            var c2 = bro.Rows()[i]["ch1_clear"][0]["stage2"]["BOOL"].ToString();
-            var c3 = bro.Rows()[i]["ch1_clear"][0]["stage3"]["BOOL"].ToString();
-            var c4 = bro.Rows()[i]["ch1_clear"][0]["stage4"]["BOOL"].ToString();
-            player.ch1_clear[0] = Convert.ToBoolean(c1);
-            player.ch1_clear[1] = Convert.ToBoolean(c2);
-            player.ch1_clear[2] = Convert.ToBoolean(c3);
-            player.ch1_clear[3] = Convert.ToBoolean(c4);
-            var s1 = bro.Rows()[i]["ch1_score"][0]["stage1"]["N"].ToString();
-            var s2 = bro.Rows()[i]["ch1_score"][0]["stage2"]["N"].ToString();
-            var s3 = bro.Rows()[i]["ch1_score"][0]["stage3"]["N"].ToString();
-            var s4 = bro.Rows()[i]["ch1_score"][0]["stage4"]["N"].ToString();
-            player.ch1_score[0] = int.Parse(s1);
-            player.ch1_score[1] = int.Parse(s2);
-            player.ch1_score[2] = int.Parse(s3);
-            player.ch1_score[3] = int.Parse(s4);
-        }
-    }
     public void ReadItem()      //아이템 구매여부 확인
     {
         var bro = Backend.GameData.GetMyData("Item", new Where(), 10);

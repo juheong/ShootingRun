@@ -97,327 +97,367 @@ extern void XNamespace_EnsureNamespace_m0F4936CB583036C26C69C3DBBE0A37D4D3635F18
 // 0x00000030 System.Int32 System.Xml.Linq.XHashtable`1/XHashtableState::ComputeHashCode(System.String,System.Int32,System.Int32)
 // 0x00000031 System.Void System.Xml.Linq.XObject::.ctor()
 extern void XObject__ctor_mEBF29FD8B8171A6AE6D42BA886E7BFAE31BE563D (void);
-// 0x00000032 System.Xml.XmlNodeType System.Xml.Linq.XObject::get_NodeType()
-// 0x00000033 System.Xml.Linq.XElement System.Xml.Linq.XObject::get_Parent()
+// 0x00000032 System.String System.Xml.Linq.XObject::get_BaseUri()
+extern void XObject_get_BaseUri_m130E3178739EEEB478D7826AF5341937EBCA4E97 (void);
+// 0x00000033 System.Xml.XmlNodeType System.Xml.Linq.XObject::get_NodeType()
+// 0x00000034 System.Xml.Linq.XElement System.Xml.Linq.XObject::get_Parent()
 extern void XObject_get_Parent_m1DF667C225BCBFB0C4A2496E3005B5ECC20FFDA1 (void);
-// 0x00000034 System.Object System.Xml.Linq.XObject::Annotation(System.Type)
+// 0x00000035 System.Void System.Xml.Linq.XObject::AddAnnotation(System.Object)
+extern void XObject_AddAnnotation_mCD582B99945D6A963D6C2FB0CFB3CBBEAFE37589 (void);
+// 0x00000036 System.Object System.Xml.Linq.XObject::Annotation(System.Type)
 extern void XObject_Annotation_m95490F1AA8945BB8554BC5564CC9A8D9C174AA67 (void);
-// 0x00000035 T System.Xml.Linq.XObject::Annotation()
-// 0x00000036 System.Collections.Generic.IEnumerable`1<T> System.Xml.Linq.XObject::Annotations()
-// 0x00000037 System.Boolean System.Xml.Linq.XObject::NotifyChanged(System.Object,System.Xml.Linq.XObjectChangeEventArgs)
+// 0x00000037 T System.Xml.Linq.XObject::Annotation()
+// 0x00000038 System.Collections.Generic.IEnumerable`1<T> System.Xml.Linq.XObject::Annotations()
+// 0x00000039 System.Boolean System.Xml.Linq.XObject::System.Xml.IXmlLineInfo.HasLineInfo()
+extern void XObject_System_Xml_IXmlLineInfo_HasLineInfo_m5A8D102E176F2C0D75E8E8F647960A159F343F07 (void);
+// 0x0000003A System.Int32 System.Xml.Linq.XObject::System.Xml.IXmlLineInfo.get_LineNumber()
+extern void XObject_System_Xml_IXmlLineInfo_get_LineNumber_m24AD33EE2AB7E73E8E8A734B384AF246647CE4A4 (void);
+// 0x0000003B System.Int32 System.Xml.Linq.XObject::System.Xml.IXmlLineInfo.get_LinePosition()
+extern void XObject_System_Xml_IXmlLineInfo_get_LinePosition_m2B081F9CCF96364A83B0B34E4AEAAFCC20CDD184 (void);
+// 0x0000003C System.Boolean System.Xml.Linq.XObject::get_HasBaseUri()
+extern void XObject_get_HasBaseUri_m495D449FCEEAB86FEFD3119310D1D1C7F7271C5A (void);
+// 0x0000003D System.Boolean System.Xml.Linq.XObject::NotifyChanged(System.Object,System.Xml.Linq.XObjectChangeEventArgs)
 extern void XObject_NotifyChanged_mA374611B24D811C04441A75CD5A1AA04900588D6 (void);
-// 0x00000038 System.Boolean System.Xml.Linq.XObject::NotifyChanging(System.Object,System.Xml.Linq.XObjectChangeEventArgs)
+// 0x0000003E System.Boolean System.Xml.Linq.XObject::NotifyChanging(System.Object,System.Xml.Linq.XObjectChangeEventArgs)
 extern void XObject_NotifyChanging_m85CA4DCC4BFBB06870828BEC18AAF9EBAC603515 (void);
-// 0x00000039 System.Boolean System.Xml.Linq.XObject::SkipNotify()
+// 0x0000003F System.Void System.Xml.Linq.XObject::SetBaseUri(System.String)
+extern void XObject_SetBaseUri_m166BE057D57AACC044AB91ADE70D36408FD4ED27 (void);
+// 0x00000040 System.Void System.Xml.Linq.XObject::SetLineInfo(System.Int32,System.Int32)
+extern void XObject_SetLineInfo_m5A5F3FB9CE20DA7EC016C2263178A0CBBFD9AB95 (void);
+// 0x00000041 System.Boolean System.Xml.Linq.XObject::SkipNotify()
 extern void XObject_SkipNotify_m28058EBFF963451EFC0AAF9B7DD709B16D8F9895 (void);
-// 0x0000003A System.Xml.Linq.SaveOptions System.Xml.Linq.XObject::GetSaveOptionsFromAnnotations()
+// 0x00000042 System.Xml.Linq.SaveOptions System.Xml.Linq.XObject::GetSaveOptionsFromAnnotations()
 extern void XObject_GetSaveOptionsFromAnnotations_m3DBE274F86C30B72962F8D9D76ABEA8E2E773D32 (void);
-// 0x0000003B System.Void System.Xml.Linq.XObject/<Annotations>d__16`1::.ctor(System.Int32)
-// 0x0000003C System.Void System.Xml.Linq.XObject/<Annotations>d__16`1::System.IDisposable.Dispose()
-// 0x0000003D System.Boolean System.Xml.Linq.XObject/<Annotations>d__16`1::MoveNext()
-// 0x0000003E T System.Xml.Linq.XObject/<Annotations>d__16`1::System.Collections.Generic.IEnumerator<T>.get_Current()
-// 0x0000003F System.Void System.Xml.Linq.XObject/<Annotations>d__16`1::System.Collections.IEnumerator.Reset()
-// 0x00000040 System.Object System.Xml.Linq.XObject/<Annotations>d__16`1::System.Collections.IEnumerator.get_Current()
-// 0x00000041 System.Collections.Generic.IEnumerator`1<T> System.Xml.Linq.XObject/<Annotations>d__16`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-// 0x00000042 System.Collections.IEnumerator System.Xml.Linq.XObject/<Annotations>d__16`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000043 System.Void System.Xml.Linq.XObjectChangeEventArgs::.ctor(System.Xml.Linq.XObjectChange)
+// 0x00000043 System.Void System.Xml.Linq.XObject/<Annotations>d__16`1::.ctor(System.Int32)
+// 0x00000044 System.Void System.Xml.Linq.XObject/<Annotations>d__16`1::System.IDisposable.Dispose()
+// 0x00000045 System.Boolean System.Xml.Linq.XObject/<Annotations>d__16`1::MoveNext()
+// 0x00000046 T System.Xml.Linq.XObject/<Annotations>d__16`1::System.Collections.Generic.IEnumerator<T>.get_Current()
+// 0x00000047 System.Void System.Xml.Linq.XObject/<Annotations>d__16`1::System.Collections.IEnumerator.Reset()
+// 0x00000048 System.Object System.Xml.Linq.XObject/<Annotations>d__16`1::System.Collections.IEnumerator.get_Current()
+// 0x00000049 System.Collections.Generic.IEnumerator`1<T> System.Xml.Linq.XObject/<Annotations>d__16`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x0000004A System.Collections.IEnumerator System.Xml.Linq.XObject/<Annotations>d__16`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000004B System.Void System.Xml.Linq.BaseUriAnnotation::.ctor(System.String)
+extern void BaseUriAnnotation__ctor_m73734683B4E9AABD14F9F4FC06456033579CA178 (void);
+// 0x0000004C System.Void System.Xml.Linq.LineInfoAnnotation::.ctor(System.Int32,System.Int32)
+extern void LineInfoAnnotation__ctor_m8E8D7A480E7C181E9B65DC98003BC166AEF5AB38 (void);
+// 0x0000004D System.Void System.Xml.Linq.LineInfoEndElementAnnotation::.ctor(System.Int32,System.Int32)
+extern void LineInfoEndElementAnnotation__ctor_mC681F34922255C61324B88EF7174034FB58C3887 (void);
+// 0x0000004E System.Void System.Xml.Linq.XObjectChangeEventArgs::.ctor(System.Xml.Linq.XObjectChange)
 extern void XObjectChangeEventArgs__ctor_m4E78C62E79DA6E09176D8CC56E597F362B237A90 (void);
-// 0x00000044 System.Void System.Xml.Linq.XObjectChangeEventArgs::.cctor()
+// 0x0000004F System.Void System.Xml.Linq.XObjectChangeEventArgs::.cctor()
 extern void XObjectChangeEventArgs__cctor_mE9282A4AB2773E3B9175CE1F3735F48E4C733B4D (void);
-// 0x00000045 System.Void System.Xml.Linq.XNode::.ctor()
+// 0x00000050 System.Void System.Xml.Linq.XNode::.ctor()
 extern void XNode__ctor_mE21FF9BECBD8850494DDA2C81F01BA8FAF799D8A (void);
-// 0x00000046 System.Void System.Xml.Linq.XNode::Remove()
+// 0x00000051 System.Void System.Xml.Linq.XNode::Remove()
 extern void XNode_Remove_m6CB2143CFECACE50E2378F5D0FB7CCA08F35EBD9 (void);
-// 0x00000047 System.String System.Xml.Linq.XNode::ToString()
+// 0x00000052 System.String System.Xml.Linq.XNode::ToString()
 extern void XNode_ToString_m1BEC71637268EF8CCE9EA74B6F30859A4A3597CB (void);
-// 0x00000048 System.Void System.Xml.Linq.XNode::WriteTo(System.Xml.XmlWriter)
-// 0x00000049 System.Void System.Xml.Linq.XNode::AppendText(System.Text.StringBuilder)
+// 0x00000053 System.Void System.Xml.Linq.XNode::WriteTo(System.Xml.XmlWriter)
+// 0x00000054 System.Void System.Xml.Linq.XNode::AppendText(System.Text.StringBuilder)
 extern void XNode_AppendText_mE2146B20CA977C9A065DF58A4FD15138D5B9BE8C (void);
-// 0x0000004A System.Xml.Linq.XNode System.Xml.Linq.XNode::CloneNode()
-// 0x0000004B System.String System.Xml.Linq.XNode::GetXmlString(System.Xml.Linq.SaveOptions)
+// 0x00000055 System.Xml.Linq.XNode System.Xml.Linq.XNode::CloneNode()
+// 0x00000056 System.String System.Xml.Linq.XNode::GetXmlString(System.Xml.Linq.SaveOptions)
 extern void XNode_GetXmlString_m430A1536E96B6502637DC174F04A9D8F330176E0 (void);
-// 0x0000004C System.Void System.Xml.Linq.XText::.ctor(System.String)
+// 0x00000057 System.Void System.Xml.Linq.XText::.ctor(System.String)
 extern void XText__ctor_m68D7A7EBA4977B7FC8570D10E60B34EDC4D8CA5B (void);
-// 0x0000004D System.Void System.Xml.Linq.XText::.ctor(System.Xml.Linq.XText)
+// 0x00000058 System.Void System.Xml.Linq.XText::.ctor(System.Xml.Linq.XText)
 extern void XText__ctor_mC0BAC0C89D83D1AC431C1E0CC146752EAFDA29AF (void);
-// 0x0000004E System.Xml.XmlNodeType System.Xml.Linq.XText::get_NodeType()
+// 0x00000059 System.Xml.XmlNodeType System.Xml.Linq.XText::get_NodeType()
 extern void XText_get_NodeType_mF1B647A9AF434D45DA76307855DCAE7E1E140557 (void);
-// 0x0000004F System.String System.Xml.Linq.XText::get_Value()
+// 0x0000005A System.String System.Xml.Linq.XText::get_Value()
 extern void XText_get_Value_m9597869DABAA9D2BF8275CEDB4A6A85D46FF6BE5 (void);
-// 0x00000050 System.Void System.Xml.Linq.XText::set_Value(System.String)
+// 0x0000005B System.Void System.Xml.Linq.XText::set_Value(System.String)
 extern void XText_set_Value_m9CF8B47091F98CD190A82324BA437C1F29F4C8CE (void);
-// 0x00000051 System.Void System.Xml.Linq.XText::WriteTo(System.Xml.XmlWriter)
+// 0x0000005C System.Void System.Xml.Linq.XText::WriteTo(System.Xml.XmlWriter)
 extern void XText_WriteTo_m45EE125458AB37E57B311DFDD80CCF755505BE7D (void);
-// 0x00000052 System.Void System.Xml.Linq.XText::AppendText(System.Text.StringBuilder)
+// 0x0000005D System.Void System.Xml.Linq.XText::AppendText(System.Text.StringBuilder)
 extern void XText_AppendText_m9CB12B0D10400CFBB5C612E05E3468697646183C (void);
-// 0x00000053 System.Xml.Linq.XNode System.Xml.Linq.XText::CloneNode()
+// 0x0000005E System.Xml.Linq.XNode System.Xml.Linq.XText::CloneNode()
 extern void XText_CloneNode_mEA4C49F38831E5EF3DF3D002EE22EF71EBF28029 (void);
-// 0x00000054 System.Void System.Xml.Linq.XCData::.ctor(System.String)
+// 0x0000005F System.Void System.Xml.Linq.XCData::.ctor(System.String)
 extern void XCData__ctor_m9FA9F20CF152A7C7EEC9320F2FCD3F2F036C8F2E (void);
-// 0x00000055 System.Void System.Xml.Linq.XCData::.ctor(System.Xml.Linq.XCData)
+// 0x00000060 System.Void System.Xml.Linq.XCData::.ctor(System.Xml.Linq.XCData)
 extern void XCData__ctor_m7FC6A1CFB551D65D4411EBFE077A4936037E3FFF (void);
-// 0x00000056 System.Xml.XmlNodeType System.Xml.Linq.XCData::get_NodeType()
+// 0x00000061 System.Xml.XmlNodeType System.Xml.Linq.XCData::get_NodeType()
 extern void XCData_get_NodeType_mF9CD12D94265A3B87F19209B6D32F4BE84DF8B48 (void);
-// 0x00000057 System.Void System.Xml.Linq.XCData::WriteTo(System.Xml.XmlWriter)
+// 0x00000062 System.Void System.Xml.Linq.XCData::WriteTo(System.Xml.XmlWriter)
 extern void XCData_WriteTo_mE9BC80649A08BC72B78DF18F9C1FF7619BDFF5D2 (void);
-// 0x00000058 System.Xml.Linq.XNode System.Xml.Linq.XCData::CloneNode()
+// 0x00000063 System.Xml.Linq.XNode System.Xml.Linq.XCData::CloneNode()
 extern void XCData_CloneNode_mD8FC76E124B8D62AF72D1086D57E17CC99C6C0C8 (void);
-// 0x00000059 System.Void System.Xml.Linq.XContainer::.ctor()
+// 0x00000064 System.Void System.Xml.Linq.XContainer::.ctor()
 extern void XContainer__ctor_m3C7E61824CB53C8FA18BC4226C6C0BA4BAE3B646 (void);
-// 0x0000005A System.Void System.Xml.Linq.XContainer::.ctor(System.Xml.Linq.XContainer)
+// 0x00000065 System.Void System.Xml.Linq.XContainer::.ctor(System.Xml.Linq.XContainer)
 extern void XContainer__ctor_mA6A69DAB1077038C297FBE6B4697DD40AB426ED2 (void);
-// 0x0000005B System.Xml.Linq.XNode System.Xml.Linq.XContainer::get_LastNode()
+// 0x00000066 System.Xml.Linq.XNode System.Xml.Linq.XContainer::get_LastNode()
 extern void XContainer_get_LastNode_m84D21983C67B305C490A685BC4021A767421D5CA (void);
-// 0x0000005C System.Void System.Xml.Linq.XContainer::Add(System.Object)
+// 0x00000067 System.Void System.Xml.Linq.XContainer::Add(System.Object)
 extern void XContainer_Add_m5FBA597F4E81D576BA717343AFC8DCB2C1404680 (void);
-// 0x0000005D System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XNode> System.Xml.Linq.XContainer::Nodes()
+// 0x00000068 System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XNode> System.Xml.Linq.XContainer::Nodes()
 extern void XContainer_Nodes_m632C45E4BEDC295DD4F44DE68CB9B9F5385F4E54 (void);
-// 0x0000005E System.Void System.Xml.Linq.XContainer::AddAttribute(System.Xml.Linq.XAttribute)
+// 0x00000069 System.Void System.Xml.Linq.XContainer::AddAttribute(System.Xml.Linq.XAttribute)
 extern void XContainer_AddAttribute_m9032A5EA6E359E379520614059608A9110C41AB5 (void);
-// 0x0000005F System.Void System.Xml.Linq.XContainer::AddAttributeSkipNotify(System.Xml.Linq.XAttribute)
+// 0x0000006A System.Void System.Xml.Linq.XContainer::AddAttributeSkipNotify(System.Xml.Linq.XAttribute)
 extern void XContainer_AddAttributeSkipNotify_m98411425AC3DD84B5B13CF906CE66D0A052EC662 (void);
-// 0x00000060 System.Void System.Xml.Linq.XContainer::AddContentSkipNotify(System.Object)
+// 0x0000006B System.Void System.Xml.Linq.XContainer::AddContentSkipNotify(System.Object)
 extern void XContainer_AddContentSkipNotify_m85827FD1365976E30A8EE5498B0E20C46A9D266B (void);
-// 0x00000061 System.Void System.Xml.Linq.XContainer::AddNode(System.Xml.Linq.XNode)
+// 0x0000006C System.Void System.Xml.Linq.XContainer::AddNode(System.Xml.Linq.XNode)
 extern void XContainer_AddNode_m3B49E506A447F39245C198F05C0D7E07B2AFAAF0 (void);
-// 0x00000062 System.Void System.Xml.Linq.XContainer::AddNodeSkipNotify(System.Xml.Linq.XNode)
+// 0x0000006D System.Void System.Xml.Linq.XContainer::AddNodeSkipNotify(System.Xml.Linq.XNode)
 extern void XContainer_AddNodeSkipNotify_m3F02B171C8968D655B0DD2B7C544CB4BB66A16B5 (void);
-// 0x00000063 System.Void System.Xml.Linq.XContainer::AddString(System.String)
+// 0x0000006E System.Void System.Xml.Linq.XContainer::AddString(System.String)
 extern void XContainer_AddString_m838F5C7418839B65CFAAEE10428961699F67C704 (void);
-// 0x00000064 System.Void System.Xml.Linq.XContainer::AddStringSkipNotify(System.String)
+// 0x0000006F System.Void System.Xml.Linq.XContainer::AddStringSkipNotify(System.String)
 extern void XContainer_AddStringSkipNotify_m549907826B0971C84089F41A99115AB8791A3D2E (void);
-// 0x00000065 System.Void System.Xml.Linq.XContainer::AppendNode(System.Xml.Linq.XNode)
+// 0x00000070 System.Void System.Xml.Linq.XContainer::AppendNode(System.Xml.Linq.XNode)
 extern void XContainer_AppendNode_m947EFFDD8614B7B6063252DBBC0F85901D35BF95 (void);
-// 0x00000066 System.Void System.Xml.Linq.XContainer::AppendNodeSkipNotify(System.Xml.Linq.XNode)
+// 0x00000071 System.Void System.Xml.Linq.XContainer::AppendNodeSkipNotify(System.Xml.Linq.XNode)
 extern void XContainer_AppendNodeSkipNotify_m7E11E884F1504058BAB299925A1BD9092A7E0CF3 (void);
-// 0x00000067 System.Void System.Xml.Linq.XContainer::AppendText(System.Text.StringBuilder)
+// 0x00000072 System.Void System.Xml.Linq.XContainer::AppendText(System.Text.StringBuilder)
 extern void XContainer_AppendText_m551C5A592CE1FCD30897888F8E794F40459E8922 (void);
-// 0x00000068 System.Void System.Xml.Linq.XContainer::ConvertTextToNode()
+// 0x00000073 System.Void System.Xml.Linq.XContainer::ConvertTextToNode()
 extern void XContainer_ConvertTextToNode_m814277C7AD70A979F8FC62CF38682F02409A7160 (void);
-// 0x00000069 System.String System.Xml.Linq.XContainer::GetDateTimeString(System.DateTime)
+// 0x00000074 System.String System.Xml.Linq.XContainer::GetDateTimeString(System.DateTime)
 extern void XContainer_GetDateTimeString_mD58B479E6A678F25B000540B0683BDEBBAC2CFEC (void);
-// 0x0000006A System.String System.Xml.Linq.XContainer::GetStringValue(System.Object)
+// 0x00000075 System.String System.Xml.Linq.XContainer::GetStringValue(System.Object)
 extern void XContainer_GetStringValue_m0446331D32F7BDCAE899B332243E52D6B16180EE (void);
-// 0x0000006B System.Void System.Xml.Linq.XContainer::RemoveNode(System.Xml.Linq.XNode)
+// 0x00000076 System.Void System.Xml.Linq.XContainer::ReadContentFrom(System.Xml.XmlReader)
+extern void XContainer_ReadContentFrom_mF11967A08DEE66ACFB5179D0C8F6B0190644A2AC (void);
+// 0x00000077 System.Void System.Xml.Linq.XContainer::ReadContentFrom(System.Xml.XmlReader,System.Xml.Linq.LoadOptions)
+extern void XContainer_ReadContentFrom_m10603F00B56DF27E71DCE896EF28269906D3F629 (void);
+// 0x00000078 System.Void System.Xml.Linq.XContainer::RemoveNode(System.Xml.Linq.XNode)
 extern void XContainer_RemoveNode_m072810FCA68B5F31097CFF678F1CD8AB5B7940E5 (void);
-// 0x0000006C System.Void System.Xml.Linq.XContainer::ValidateNode(System.Xml.Linq.XNode,System.Xml.Linq.XNode)
+// 0x00000079 System.Void System.Xml.Linq.XContainer::ValidateNode(System.Xml.Linq.XNode,System.Xml.Linq.XNode)
 extern void XContainer_ValidateNode_mCB3953BC2CCE733B956DF952FB8EA39089D15B96 (void);
-// 0x0000006D System.Void System.Xml.Linq.XContainer::ValidateString(System.String)
+// 0x0000007A System.Void System.Xml.Linq.XContainer::ValidateString(System.String)
 extern void XContainer_ValidateString_m0E5A8B53A0F59FF13B97310D30FFF8C70DAF011F (void);
-// 0x0000006E System.Void System.Xml.Linq.XContainer::WriteContentTo(System.Xml.XmlWriter)
+// 0x0000007B System.Void System.Xml.Linq.XContainer::WriteContentTo(System.Xml.XmlWriter)
 extern void XContainer_WriteContentTo_mFA062B17E987BA975BF8CC8022E15A5B9E903C96 (void);
-// 0x0000006F System.Void System.Xml.Linq.XContainer/<Nodes>d__18::.ctor(System.Int32)
+// 0x0000007C System.Void System.Xml.Linq.XContainer/<Nodes>d__18::.ctor(System.Int32)
 extern void U3CNodesU3Ed__18__ctor_mB2DCCB80E37BA4A30B6F955C4F3F0CF4B81896DE (void);
-// 0x00000070 System.Void System.Xml.Linq.XContainer/<Nodes>d__18::System.IDisposable.Dispose()
+// 0x0000007D System.Void System.Xml.Linq.XContainer/<Nodes>d__18::System.IDisposable.Dispose()
 extern void U3CNodesU3Ed__18_System_IDisposable_Dispose_m45C9F2B76DABD04ED672BD4CAF63A731E9D03D54 (void);
-// 0x00000071 System.Boolean System.Xml.Linq.XContainer/<Nodes>d__18::MoveNext()
+// 0x0000007E System.Boolean System.Xml.Linq.XContainer/<Nodes>d__18::MoveNext()
 extern void U3CNodesU3Ed__18_MoveNext_m53F33ACC04E8183FEB0BFF3529E8902CDB0C4700 (void);
-// 0x00000072 System.Xml.Linq.XNode System.Xml.Linq.XContainer/<Nodes>d__18::System.Collections.Generic.IEnumerator<System.Xml.Linq.XNode>.get_Current()
+// 0x0000007F System.Xml.Linq.XNode System.Xml.Linq.XContainer/<Nodes>d__18::System.Collections.Generic.IEnumerator<System.Xml.Linq.XNode>.get_Current()
 extern void U3CNodesU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_Xml_Linq_XNodeU3E_get_Current_m9B01B89987D2AA07601C6FBCD3453A6381327F26 (void);
-// 0x00000073 System.Void System.Xml.Linq.XContainer/<Nodes>d__18::System.Collections.IEnumerator.Reset()
+// 0x00000080 System.Void System.Xml.Linq.XContainer/<Nodes>d__18::System.Collections.IEnumerator.Reset()
 extern void U3CNodesU3Ed__18_System_Collections_IEnumerator_Reset_m11293904E74587CEBADD8BEE0AD2B78C80C7C9BD (void);
-// 0x00000074 System.Object System.Xml.Linq.XContainer/<Nodes>d__18::System.Collections.IEnumerator.get_Current()
+// 0x00000081 System.Object System.Xml.Linq.XContainer/<Nodes>d__18::System.Collections.IEnumerator.get_Current()
 extern void U3CNodesU3Ed__18_System_Collections_IEnumerator_get_Current_m85F965CFAA2559C3B9C1BD3E13686000060BB30C (void);
-// 0x00000075 System.Collections.Generic.IEnumerator`1<System.Xml.Linq.XNode> System.Xml.Linq.XContainer/<Nodes>d__18::System.Collections.Generic.IEnumerable<System.Xml.Linq.XNode>.GetEnumerator()
+// 0x00000082 System.Collections.Generic.IEnumerator`1<System.Xml.Linq.XNode> System.Xml.Linq.XContainer/<Nodes>d__18::System.Collections.Generic.IEnumerable<System.Xml.Linq.XNode>.GetEnumerator()
 extern void U3CNodesU3Ed__18_System_Collections_Generic_IEnumerableU3CSystem_Xml_Linq_XNodeU3E_GetEnumerator_mA259982391A5A540537762C364DD61AED843ECF2 (void);
-// 0x00000076 System.Collections.IEnumerator System.Xml.Linq.XContainer/<Nodes>d__18::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000083 System.Collections.IEnumerator System.Xml.Linq.XContainer/<Nodes>d__18::System.Collections.IEnumerable.GetEnumerator()
 extern void U3CNodesU3Ed__18_System_Collections_IEnumerable_GetEnumerator_mB7FA8D945773FFC3E3AB9C2738908A57F5AD7D72 (void);
-// 0x00000077 System.Void System.Xml.Linq.XElement::.ctor(System.Xml.Linq.XName)
+// 0x00000084 System.Xml.Linq.XNamespace System.Xml.Linq.NamespaceCache::Get(System.String)
+extern void NamespaceCache_Get_mDA87B6F824AD4AAA424A68A15CCDB48205326995 (void);
+// 0x00000085 System.Void System.Xml.Linq.XElement::.ctor(System.Xml.Linq.XName)
 extern void XElement__ctor_m7C010BE83763396D50EB4E51C1B21A1DDDE258B2 (void);
-// 0x00000078 System.Void System.Xml.Linq.XElement::.ctor(System.Xml.Linq.XElement)
+// 0x00000086 System.Void System.Xml.Linq.XElement::.ctor(System.Xml.Linq.XElement)
 extern void XElement__ctor_m13B7B350DE7B5DDB8B55F222AA15066B66B149A6 (void);
-// 0x00000079 System.Void System.Xml.Linq.XElement::.ctor(System.Xml.Linq.XStreamingElement)
+// 0x00000087 System.Void System.Xml.Linq.XElement::.ctor(System.Xml.Linq.XStreamingElement)
 extern void XElement__ctor_m3AE89E314A40AEB1D13944480CD5B30CB60C9D78 (void);
-// 0x0000007A System.Boolean System.Xml.Linq.XElement::get_IsEmpty()
+// 0x00000088 System.Boolean System.Xml.Linq.XElement::get_IsEmpty()
 extern void XElement_get_IsEmpty_m31AB831470DCE26259DFB025072DA39737FAFDFE (void);
-// 0x0000007B System.Xml.Linq.XName System.Xml.Linq.XElement::get_Name()
+// 0x00000089 System.Xml.Linq.XName System.Xml.Linq.XElement::get_Name()
 extern void XElement_get_Name_m1154DCAA063C86BB056B2A49FF9C4FA65CEEAD3D (void);
-// 0x0000007C System.Xml.XmlNodeType System.Xml.Linq.XElement::get_NodeType()
+// 0x0000008A System.Xml.XmlNodeType System.Xml.Linq.XElement::get_NodeType()
 extern void XElement_get_NodeType_m4C526FE6C4115275BADBDEE3F51292C0C272F2D4 (void);
-// 0x0000007D System.String System.Xml.Linq.XElement::get_Value()
+// 0x0000008B System.String System.Xml.Linq.XElement::get_Value()
 extern void XElement_get_Value_mBD9F8869BF4F3865FEDED418854020E9AFF031FA (void);
-// 0x0000007E System.Xml.Linq.XAttribute System.Xml.Linq.XElement::Attribute(System.Xml.Linq.XName)
+// 0x0000008C System.Xml.Linq.XAttribute System.Xml.Linq.XElement::Attribute(System.Xml.Linq.XName)
 extern void XElement_Attribute_mE6D1589D13FFB71DA11EA7B41685C149D1E03AFD (void);
-// 0x0000007F System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XAttribute> System.Xml.Linq.XElement::Attributes()
+// 0x0000008D System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XAttribute> System.Xml.Linq.XElement::Attributes()
 extern void XElement_Attributes_m6EEF7C26CF58974068C62663F5A3AD6192327AEB (void);
-// 0x00000080 System.String System.Xml.Linq.XElement::GetPrefixOfNamespace(System.Xml.Linq.XNamespace)
+// 0x0000008E System.String System.Xml.Linq.XElement::GetPrefixOfNamespace(System.Xml.Linq.XNamespace)
 extern void XElement_GetPrefixOfNamespace_mF9843F62F43762B9E43BBAF8DA634CFBBA393C8E (void);
-// 0x00000081 System.Void System.Xml.Linq.XElement::WriteTo(System.Xml.XmlWriter)
+// 0x0000008F System.Void System.Xml.Linq.XElement::WriteTo(System.Xml.XmlWriter)
 extern void XElement_WriteTo_mD0544B1B917B698378053735D34076540D872154 (void);
-// 0x00000082 System.Void System.Xml.Linq.XElement::AddAttribute(System.Xml.Linq.XAttribute)
+// 0x00000090 System.Xml.Schema.XmlSchema System.Xml.Linq.XElement::System.Xml.Serialization.IXmlSerializable.GetSchema()
+extern void XElement_System_Xml_Serialization_IXmlSerializable_GetSchema_m830CC29C17E10FF1E9CB79C7D6D0CE4BF61C721E (void);
+// 0x00000091 System.Void System.Xml.Linq.XElement::System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+extern void XElement_System_Xml_Serialization_IXmlSerializable_ReadXml_mF23D51DDE64786E21605493504750F067142698C (void);
+// 0x00000092 System.Void System.Xml.Linq.XElement::System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+extern void XElement_System_Xml_Serialization_IXmlSerializable_WriteXml_m652EAD7215E35A4DAC3F452095B76DED1C7AF58D (void);
+// 0x00000093 System.Void System.Xml.Linq.XElement::AddAttribute(System.Xml.Linq.XAttribute)
 extern void XElement_AddAttribute_mD916A2A7588673C240606429B8DD72E9B8D9D02C (void);
-// 0x00000083 System.Void System.Xml.Linq.XElement::AddAttributeSkipNotify(System.Xml.Linq.XAttribute)
+// 0x00000094 System.Void System.Xml.Linq.XElement::AddAttributeSkipNotify(System.Xml.Linq.XAttribute)
 extern void XElement_AddAttributeSkipNotify_m8D13DB88A3C9CDAB2187BD93B39071A969DE2E5A (void);
-// 0x00000084 System.Void System.Xml.Linq.XElement::AppendAttribute(System.Xml.Linq.XAttribute)
+// 0x00000095 System.Void System.Xml.Linq.XElement::AppendAttribute(System.Xml.Linq.XAttribute)
 extern void XElement_AppendAttribute_m0DE1BE78518A9B191036D9142ACC5AC3D95DE169 (void);
-// 0x00000085 System.Void System.Xml.Linq.XElement::AppendAttributeSkipNotify(System.Xml.Linq.XAttribute)
+// 0x00000096 System.Void System.Xml.Linq.XElement::AppendAttributeSkipNotify(System.Xml.Linq.XAttribute)
 extern void XElement_AppendAttributeSkipNotify_m161154367C52FF183725DCE878094059B0042843 (void);
-// 0x00000086 System.Xml.Linq.XNode System.Xml.Linq.XElement::CloneNode()
+// 0x00000097 System.Xml.Linq.XNode System.Xml.Linq.XElement::CloneNode()
 extern void XElement_CloneNode_m0D89413E6EE83A35FD5F726A6E5131F0AF6A3712 (void);
-// 0x00000087 System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XAttribute> System.Xml.Linq.XElement::GetAttributes(System.Xml.Linq.XName)
+// 0x00000098 System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XAttribute> System.Xml.Linq.XElement::GetAttributes(System.Xml.Linq.XName)
 extern void XElement_GetAttributes_m6E782BD24ECA27DDCDAA230F7C9F2A0EECC004ED (void);
-// 0x00000088 System.String System.Xml.Linq.XElement::GetNamespaceOfPrefixInScope(System.String,System.Xml.Linq.XElement)
+// 0x00000099 System.String System.Xml.Linq.XElement::GetNamespaceOfPrefixInScope(System.String,System.Xml.Linq.XElement)
 extern void XElement_GetNamespaceOfPrefixInScope_m976485B69E3219453A8A4412721F8C3C90D03A96 (void);
-// 0x00000089 System.Void System.Xml.Linq.XElement::ValidateNode(System.Xml.Linq.XNode,System.Xml.Linq.XNode)
+// 0x0000009A System.Void System.Xml.Linq.XElement::ReadElementFrom(System.Xml.XmlReader,System.Xml.Linq.LoadOptions)
+extern void XElement_ReadElementFrom_mF82AFFF2679EAA2E7BD55E9C5D625A56FEBF06C3 (void);
+// 0x0000009B System.Void System.Xml.Linq.XElement::SetEndElementLineInfo(System.Int32,System.Int32)
+extern void XElement_SetEndElementLineInfo_m4AF7794890F6E0D65E87B8F967E9A3F6B13B41D5 (void);
+// 0x0000009C System.Void System.Xml.Linq.XElement::ValidateNode(System.Xml.Linq.XNode,System.Xml.Linq.XNode)
 extern void XElement_ValidateNode_mAFE6C941B26F52216906391DC84D40D587F58C3F (void);
-// 0x0000008A System.Void System.Xml.Linq.XElement/<GetAttributes>d__105::.ctor(System.Int32)
+// 0x0000009D System.Void System.Xml.Linq.XElement/<GetAttributes>d__105::.ctor(System.Int32)
 extern void U3CGetAttributesU3Ed__105__ctor_mB7C85FC764518096A1A8FB18A9C0453E6F540D6F (void);
-// 0x0000008B System.Void System.Xml.Linq.XElement/<GetAttributes>d__105::System.IDisposable.Dispose()
+// 0x0000009E System.Void System.Xml.Linq.XElement/<GetAttributes>d__105::System.IDisposable.Dispose()
 extern void U3CGetAttributesU3Ed__105_System_IDisposable_Dispose_m99C42C5CF42B3A8F77A3E4E09395ADB8498EE9C4 (void);
-// 0x0000008C System.Boolean System.Xml.Linq.XElement/<GetAttributes>d__105::MoveNext()
+// 0x0000009F System.Boolean System.Xml.Linq.XElement/<GetAttributes>d__105::MoveNext()
 extern void U3CGetAttributesU3Ed__105_MoveNext_mE7896E30F0F72437599165A49989DA69414B0AD9 (void);
-// 0x0000008D System.Xml.Linq.XAttribute System.Xml.Linq.XElement/<GetAttributes>d__105::System.Collections.Generic.IEnumerator<System.Xml.Linq.XAttribute>.get_Current()
+// 0x000000A0 System.Xml.Linq.XAttribute System.Xml.Linq.XElement/<GetAttributes>d__105::System.Collections.Generic.IEnumerator<System.Xml.Linq.XAttribute>.get_Current()
 extern void U3CGetAttributesU3Ed__105_System_Collections_Generic_IEnumeratorU3CSystem_Xml_Linq_XAttributeU3E_get_Current_m8B67884023CF6AA817C304265A5EA3B8526F3985 (void);
-// 0x0000008E System.Void System.Xml.Linq.XElement/<GetAttributes>d__105::System.Collections.IEnumerator.Reset()
+// 0x000000A1 System.Void System.Xml.Linq.XElement/<GetAttributes>d__105::System.Collections.IEnumerator.Reset()
 extern void U3CGetAttributesU3Ed__105_System_Collections_IEnumerator_Reset_mC2E83918E49FE016AE529F9B9D2A828981B85C7C (void);
-// 0x0000008F System.Object System.Xml.Linq.XElement/<GetAttributes>d__105::System.Collections.IEnumerator.get_Current()
+// 0x000000A2 System.Object System.Xml.Linq.XElement/<GetAttributes>d__105::System.Collections.IEnumerator.get_Current()
 extern void U3CGetAttributesU3Ed__105_System_Collections_IEnumerator_get_Current_m0B7E07D662BEF9472BD06329AD2B3940A68ED8DB (void);
-// 0x00000090 System.Collections.Generic.IEnumerator`1<System.Xml.Linq.XAttribute> System.Xml.Linq.XElement/<GetAttributes>d__105::System.Collections.Generic.IEnumerable<System.Xml.Linq.XAttribute>.GetEnumerator()
+// 0x000000A3 System.Collections.Generic.IEnumerator`1<System.Xml.Linq.XAttribute> System.Xml.Linq.XElement/<GetAttributes>d__105::System.Collections.Generic.IEnumerable<System.Xml.Linq.XAttribute>.GetEnumerator()
 extern void U3CGetAttributesU3Ed__105_System_Collections_Generic_IEnumerableU3CSystem_Xml_Linq_XAttributeU3E_GetEnumerator_m03BD96D593348C2CBF3918855158022493395620 (void);
-// 0x00000091 System.Collections.IEnumerator System.Xml.Linq.XElement/<GetAttributes>d__105::System.Collections.IEnumerable.GetEnumerator()
+// 0x000000A4 System.Collections.IEnumerator System.Xml.Linq.XElement/<GetAttributes>d__105::System.Collections.IEnumerable.GetEnumerator()
 extern void U3CGetAttributesU3Ed__105_System_Collections_IEnumerable_GetEnumerator_mB82130058725AD786ACC5141E74FE042D9C5BC5C (void);
-// 0x00000092 System.Void System.Xml.Linq.ElementWriter::.ctor(System.Xml.XmlWriter)
+// 0x000000A5 System.Void System.Xml.Linq.ElementWriter::.ctor(System.Xml.XmlWriter)
 extern void ElementWriter__ctor_mAF42701DBC7426DB8FF6F3C19F37C6A5B6E6F798 (void);
-// 0x00000093 System.Void System.Xml.Linq.ElementWriter::WriteElement(System.Xml.Linq.XElement)
+// 0x000000A6 System.Void System.Xml.Linq.ElementWriter::WriteElement(System.Xml.Linq.XElement)
 extern void ElementWriter_WriteElement_mCA724B1F81D4D096CA8A0A3BC3B38B8AAB7A6E7C (void);
-// 0x00000094 System.String System.Xml.Linq.ElementWriter::GetPrefixOfNamespace(System.Xml.Linq.XNamespace,System.Boolean)
+// 0x000000A7 System.String System.Xml.Linq.ElementWriter::GetPrefixOfNamespace(System.Xml.Linq.XNamespace,System.Boolean)
 extern void ElementWriter_GetPrefixOfNamespace_mFE90F844D9421A68634B9AF38ACBA1D127269F26 (void);
-// 0x00000095 System.Void System.Xml.Linq.ElementWriter::PushAncestors(System.Xml.Linq.XElement)
+// 0x000000A8 System.Void System.Xml.Linq.ElementWriter::PushAncestors(System.Xml.Linq.XElement)
 extern void ElementWriter_PushAncestors_mAA5058229B36969BAD86E2332E5B85EF93C10DAD (void);
-// 0x00000096 System.Void System.Xml.Linq.ElementWriter::PushElement(System.Xml.Linq.XElement)
+// 0x000000A9 System.Void System.Xml.Linq.ElementWriter::PushElement(System.Xml.Linq.XElement)
 extern void ElementWriter_PushElement_mD74364B14FDE31D74A6DA824F21EF009142EBAC5 (void);
-// 0x00000097 System.Void System.Xml.Linq.ElementWriter::WriteEndElement()
+// 0x000000AA System.Void System.Xml.Linq.ElementWriter::WriteEndElement()
 extern void ElementWriter_WriteEndElement_mB6853DBC6AC64F10185207107EBE974AB5A274CA (void);
-// 0x00000098 System.Void System.Xml.Linq.ElementWriter::WriteFullEndElement()
+// 0x000000AB System.Void System.Xml.Linq.ElementWriter::WriteFullEndElement()
 extern void ElementWriter_WriteFullEndElement_mAC1EC5BF80311A650B92992C4A9C689811A782F5 (void);
-// 0x00000099 System.Void System.Xml.Linq.ElementWriter::WriteStartElement(System.Xml.Linq.XElement)
+// 0x000000AC System.Void System.Xml.Linq.ElementWriter::WriteStartElement(System.Xml.Linq.XElement)
 extern void ElementWriter_WriteStartElement_m09181D51C5C38A1BB15B41D85A88FE6B8A0BDBFF (void);
-// 0x0000009A System.Void System.Xml.Linq.NamespaceResolver::PushScope()
+// 0x000000AD System.Void System.Xml.Linq.NamespaceResolver::PushScope()
 extern void NamespaceResolver_PushScope_m6A174DFEE5F6E262E8B050EAE30CD935ED3FD468 (void);
-// 0x0000009B System.Void System.Xml.Linq.NamespaceResolver::PopScope()
+// 0x000000AE System.Void System.Xml.Linq.NamespaceResolver::PopScope()
 extern void NamespaceResolver_PopScope_m48BFA95631D7F0301120439B128FF8F7A16C261B (void);
-// 0x0000009C System.Void System.Xml.Linq.NamespaceResolver::Add(System.String,System.Xml.Linq.XNamespace)
+// 0x000000AF System.Void System.Xml.Linq.NamespaceResolver::Add(System.String,System.Xml.Linq.XNamespace)
 extern void NamespaceResolver_Add_mA16774DA6B6A470EC2416849D659179275D28F81 (void);
-// 0x0000009D System.Void System.Xml.Linq.NamespaceResolver::AddFirst(System.String,System.Xml.Linq.XNamespace)
+// 0x000000B0 System.Void System.Xml.Linq.NamespaceResolver::AddFirst(System.String,System.Xml.Linq.XNamespace)
 extern void NamespaceResolver_AddFirst_m7C861D08943FFBAA33EF102312B96499D73CF289 (void);
-// 0x0000009E System.String System.Xml.Linq.NamespaceResolver::GetPrefixOfNamespace(System.Xml.Linq.XNamespace,System.Boolean)
+// 0x000000B1 System.String System.Xml.Linq.NamespaceResolver::GetPrefixOfNamespace(System.Xml.Linq.XNamespace,System.Boolean)
 extern void NamespaceResolver_GetPrefixOfNamespace_m69FAACB8B514D2F3C1E00473B9EC5A7B169F5C0F (void);
-// 0x0000009F System.Void System.Xml.Linq.NamespaceResolver/NamespaceDeclaration::.ctor()
+// 0x000000B2 System.Void System.Xml.Linq.NamespaceResolver/NamespaceDeclaration::.ctor()
 extern void NamespaceDeclaration__ctor_m86ED6350C67E1DA1AAD7F9EAB3D460F12A9EE180 (void);
-// 0x000000A0 System.Void System.Xml.Linq.XDocument::.ctor()
+// 0x000000B3 System.Void System.Xml.Linq.XDocument::.ctor()
 extern void XDocument__ctor_m450D739400B3456C2DF8FF011DE91994776D506A (void);
-// 0x000000A1 System.Void System.Xml.Linq.XDocument::.ctor(System.Xml.Linq.XDocument)
+// 0x000000B4 System.Void System.Xml.Linq.XDocument::.ctor(System.Xml.Linq.XDocument)
 extern void XDocument__ctor_m35FD266D78A2F7C6BD941715B4EE65E86AF2E5A6 (void);
-// 0x000000A2 System.Xml.Linq.XDeclaration System.Xml.Linq.XDocument::get_Declaration()
+// 0x000000B5 System.Xml.Linq.XDeclaration System.Xml.Linq.XDocument::get_Declaration()
 extern void XDocument_get_Declaration_m79EEF06C46AFAB498402C2D1D34140A0E06ABCA3 (void);
-// 0x000000A3 System.Void System.Xml.Linq.XDocument::set_Declaration(System.Xml.Linq.XDeclaration)
+// 0x000000B6 System.Void System.Xml.Linq.XDocument::set_Declaration(System.Xml.Linq.XDeclaration)
 extern void XDocument_set_Declaration_m972A42B67962FBA050E91864F7056AD03FB7ECA0 (void);
-// 0x000000A4 System.Xml.XmlNodeType System.Xml.Linq.XDocument::get_NodeType()
+// 0x000000B7 System.Xml.XmlNodeType System.Xml.Linq.XDocument::get_NodeType()
 extern void XDocument_get_NodeType_m94EEA82F54C2D649D757B564D1BBC9D6EC516601 (void);
-// 0x000000A5 System.Xml.Linq.XElement System.Xml.Linq.XDocument::get_Root()
+// 0x000000B8 System.Xml.Linq.XElement System.Xml.Linq.XDocument::get_Root()
 extern void XDocument_get_Root_mAE2F3525990D542B2614A8CCA6F42C45A0F4302F (void);
-// 0x000000A6 System.Void System.Xml.Linq.XDocument::WriteTo(System.Xml.XmlWriter)
+// 0x000000B9 System.Void System.Xml.Linq.XDocument::WriteTo(System.Xml.XmlWriter)
 extern void XDocument_WriteTo_mCA9178E00D706F20B0F0EC03956C778B4FD95A82 (void);
-// 0x000000A7 System.Void System.Xml.Linq.XDocument::AddAttribute(System.Xml.Linq.XAttribute)
+// 0x000000BA System.Void System.Xml.Linq.XDocument::AddAttribute(System.Xml.Linq.XAttribute)
 extern void XDocument_AddAttribute_m1782ABA0C66FEBCAD60E9FB8B8384222E0A16E13 (void);
-// 0x000000A8 System.Void System.Xml.Linq.XDocument::AddAttributeSkipNotify(System.Xml.Linq.XAttribute)
+// 0x000000BB System.Void System.Xml.Linq.XDocument::AddAttributeSkipNotify(System.Xml.Linq.XAttribute)
 extern void XDocument_AddAttributeSkipNotify_m15961A743A956E9F083D390A61D5A0834C625AD3 (void);
-// 0x000000A9 System.Xml.Linq.XNode System.Xml.Linq.XDocument::CloneNode()
+// 0x000000BC System.Xml.Linq.XNode System.Xml.Linq.XDocument::CloneNode()
 extern void XDocument_CloneNode_m5CD649BF1FAB030E425751216C9CC3EF1B00C405 (void);
-// 0x000000AA T System.Xml.Linq.XDocument::GetFirstNode()
-// 0x000000AB System.Boolean System.Xml.Linq.XDocument::IsWhitespace(System.String)
+// 0x000000BD T System.Xml.Linq.XDocument::GetFirstNode()
+// 0x000000BE System.Boolean System.Xml.Linq.XDocument::IsWhitespace(System.String)
 extern void XDocument_IsWhitespace_mD58CA1E5A1CEE372FE68D01AEA18DD7A8A705420 (void);
-// 0x000000AC System.Void System.Xml.Linq.XDocument::ValidateNode(System.Xml.Linq.XNode,System.Xml.Linq.XNode)
+// 0x000000BF System.Void System.Xml.Linq.XDocument::ValidateNode(System.Xml.Linq.XNode,System.Xml.Linq.XNode)
 extern void XDocument_ValidateNode_m910C70D956DB041302A7AF202D9B361BF1AD8B1F (void);
-// 0x000000AD System.Void System.Xml.Linq.XDocument::ValidateDocument(System.Xml.Linq.XNode,System.Xml.XmlNodeType,System.Xml.XmlNodeType)
+// 0x000000C0 System.Void System.Xml.Linq.XDocument::ValidateDocument(System.Xml.Linq.XNode,System.Xml.XmlNodeType,System.Xml.XmlNodeType)
 extern void XDocument_ValidateDocument_mF01236248E0025F9F140CC29CC233395C4BB4B46 (void);
-// 0x000000AE System.Void System.Xml.Linq.XDocument::ValidateString(System.String)
+// 0x000000C1 System.Void System.Xml.Linq.XDocument::ValidateString(System.String)
 extern void XDocument_ValidateString_m416D0F8419FDA051AA3E98D16C36E6D93C78DB8A (void);
-// 0x000000AF System.Void System.Xml.Linq.XComment::.ctor(System.String)
+// 0x000000C2 System.Void System.Xml.Linq.XComment::.ctor(System.String)
 extern void XComment__ctor_mD1594490E6706E752D9A5C9B748CF84AEC2B9B22 (void);
-// 0x000000B0 System.Void System.Xml.Linq.XComment::.ctor(System.Xml.Linq.XComment)
+// 0x000000C3 System.Void System.Xml.Linq.XComment::.ctor(System.Xml.Linq.XComment)
 extern void XComment__ctor_m293F320541A1F11249027B6C8D623462AD383AA8 (void);
-// 0x000000B1 System.Xml.XmlNodeType System.Xml.Linq.XComment::get_NodeType()
+// 0x000000C4 System.Xml.XmlNodeType System.Xml.Linq.XComment::get_NodeType()
 extern void XComment_get_NodeType_m5D1AD71934D3979AF424213BFCC9CDC2CC9A1887 (void);
-// 0x000000B2 System.String System.Xml.Linq.XComment::get_Value()
+// 0x000000C5 System.String System.Xml.Linq.XComment::get_Value()
 extern void XComment_get_Value_mA7E894839128338EB9E902993EF632F88ED96762 (void);
-// 0x000000B3 System.Void System.Xml.Linq.XComment::WriteTo(System.Xml.XmlWriter)
+// 0x000000C6 System.Void System.Xml.Linq.XComment::WriteTo(System.Xml.XmlWriter)
 extern void XComment_WriteTo_m3686F4EF4AB18C7F42564BC580E33C1CAAEB2BB2 (void);
-// 0x000000B4 System.Xml.Linq.XNode System.Xml.Linq.XComment::CloneNode()
+// 0x000000C7 System.Xml.Linq.XNode System.Xml.Linq.XComment::CloneNode()
 extern void XComment_CloneNode_m22A6E114042E24F367B21549A66EC368B4B9846E (void);
-// 0x000000B5 System.Void System.Xml.Linq.XProcessingInstruction::.ctor(System.String,System.String)
+// 0x000000C8 System.Void System.Xml.Linq.XProcessingInstruction::.ctor(System.String,System.String)
 extern void XProcessingInstruction__ctor_m49A9FD814CED60CDF313649D7529DBE0AC8D4A7B (void);
-// 0x000000B6 System.Void System.Xml.Linq.XProcessingInstruction::.ctor(System.Xml.Linq.XProcessingInstruction)
+// 0x000000C9 System.Void System.Xml.Linq.XProcessingInstruction::.ctor(System.Xml.Linq.XProcessingInstruction)
 extern void XProcessingInstruction__ctor_mFBD37F1027E57C2EB1BE94A0803BE86EC424BCE1 (void);
-// 0x000000B7 System.String System.Xml.Linq.XProcessingInstruction::get_Data()
+// 0x000000CA System.String System.Xml.Linq.XProcessingInstruction::get_Data()
 extern void XProcessingInstruction_get_Data_m2CEF9219706D7BC50ABA55C80C7628369643F79F (void);
-// 0x000000B8 System.Xml.XmlNodeType System.Xml.Linq.XProcessingInstruction::get_NodeType()
+// 0x000000CB System.Xml.XmlNodeType System.Xml.Linq.XProcessingInstruction::get_NodeType()
 extern void XProcessingInstruction_get_NodeType_m1F4FC7AC8000A33EEBAAE945C38B2ABDC9E77F38 (void);
-// 0x000000B9 System.String System.Xml.Linq.XProcessingInstruction::get_Target()
+// 0x000000CC System.String System.Xml.Linq.XProcessingInstruction::get_Target()
 extern void XProcessingInstruction_get_Target_mB3D008E1EEB616F60FD7C8BE667DEB18C68B0C63 (void);
-// 0x000000BA System.Void System.Xml.Linq.XProcessingInstruction::WriteTo(System.Xml.XmlWriter)
+// 0x000000CD System.Void System.Xml.Linq.XProcessingInstruction::WriteTo(System.Xml.XmlWriter)
 extern void XProcessingInstruction_WriteTo_m3FB64607898D2DCC5DD36ACCFBDF4AC723FB1CC3 (void);
-// 0x000000BB System.Xml.Linq.XNode System.Xml.Linq.XProcessingInstruction::CloneNode()
+// 0x000000CE System.Xml.Linq.XNode System.Xml.Linq.XProcessingInstruction::CloneNode()
 extern void XProcessingInstruction_CloneNode_mA174650C7096205059FE436DB9A07159580BAC96 (void);
-// 0x000000BC System.Void System.Xml.Linq.XProcessingInstruction::ValidateName(System.String)
+// 0x000000CF System.Void System.Xml.Linq.XProcessingInstruction::ValidateName(System.String)
 extern void XProcessingInstruction_ValidateName_m0EAC108733F1A398C88966D74AF9FFC4D7231E51 (void);
-// 0x000000BD System.Void System.Xml.Linq.XDeclaration::.ctor(System.String,System.String,System.String)
+// 0x000000D0 System.Void System.Xml.Linq.XDeclaration::.ctor(System.String,System.String,System.String)
 extern void XDeclaration__ctor_mAC7E1D3714CCD045D87DAF9F6C9EEAECAE66F650 (void);
-// 0x000000BE System.Void System.Xml.Linq.XDeclaration::.ctor(System.Xml.Linq.XDeclaration)
+// 0x000000D1 System.Void System.Xml.Linq.XDeclaration::.ctor(System.Xml.Linq.XDeclaration)
 extern void XDeclaration__ctor_mBCB4F6ED791E5154C266DBC138B2647309D9C3AE (void);
-// 0x000000BF System.String System.Xml.Linq.XDeclaration::get_Encoding()
+// 0x000000D2 System.String System.Xml.Linq.XDeclaration::get_Encoding()
 extern void XDeclaration_get_Encoding_mC688E2726A699007C9C7B3EEE8C7398EE276E92C (void);
-// 0x000000C0 System.String System.Xml.Linq.XDeclaration::get_Standalone()
+// 0x000000D3 System.String System.Xml.Linq.XDeclaration::get_Standalone()
 extern void XDeclaration_get_Standalone_m15EF1F74D2226D5CAE08BB9847949FBD2F63D967 (void);
-// 0x000000C1 System.String System.Xml.Linq.XDeclaration::get_Version()
+// 0x000000D4 System.String System.Xml.Linq.XDeclaration::get_Version()
 extern void XDeclaration_get_Version_mDDED237A915B204AE4457A8A79AF21EC3B900BCB (void);
-// 0x000000C2 System.String System.Xml.Linq.XDeclaration::ToString()
+// 0x000000D5 System.String System.Xml.Linq.XDeclaration::ToString()
 extern void XDeclaration_ToString_m62CE18C891848DF411864E40CEA3B1FB5490DCBE (void);
-// 0x000000C3 System.Void System.Xml.Linq.XDocumentType::.ctor(System.String,System.String,System.String,System.String)
+// 0x000000D6 System.Void System.Xml.Linq.XDocumentType::.ctor(System.String,System.String,System.String,System.String)
 extern void XDocumentType__ctor_m8DD9AEBE8CA7BEE73B9AE7D221DA238FB47724C3 (void);
-// 0x000000C4 System.Void System.Xml.Linq.XDocumentType::.ctor(System.Xml.Linq.XDocumentType)
+// 0x000000D7 System.Void System.Xml.Linq.XDocumentType::.ctor(System.Xml.Linq.XDocumentType)
 extern void XDocumentType__ctor_m4973BAC4702EF6EDA6B304CC74DD77F34B1EA51A (void);
-// 0x000000C5 System.String System.Xml.Linq.XDocumentType::get_InternalSubset()
+// 0x000000D8 System.Void System.Xml.Linq.XDocumentType::.ctor(System.String,System.String,System.String,System.String,System.Xml.IDtdInfo)
+extern void XDocumentType__ctor_m92F5146E20DD2E0CFA9A8A8DFF85D27050B314D5 (void);
+// 0x000000D9 System.String System.Xml.Linq.XDocumentType::get_InternalSubset()
 extern void XDocumentType_get_InternalSubset_m11B53A99D2308E042E737F455BC83B7E28B8A02E (void);
-// 0x000000C6 System.String System.Xml.Linq.XDocumentType::get_Name()
+// 0x000000DA System.String System.Xml.Linq.XDocumentType::get_Name()
 extern void XDocumentType_get_Name_m04C91428C8855ADAB40835A90052855A047018AE (void);
-// 0x000000C7 System.Xml.XmlNodeType System.Xml.Linq.XDocumentType::get_NodeType()
+// 0x000000DB System.Xml.XmlNodeType System.Xml.Linq.XDocumentType::get_NodeType()
 extern void XDocumentType_get_NodeType_m6209474A166B3032CD79F42FE99C975EB44B6A6A (void);
-// 0x000000C8 System.String System.Xml.Linq.XDocumentType::get_PublicId()
+// 0x000000DC System.String System.Xml.Linq.XDocumentType::get_PublicId()
 extern void XDocumentType_get_PublicId_mB921F6E459C9B1C858D3DE85A9D2504A99BA0A7C (void);
-// 0x000000C9 System.String System.Xml.Linq.XDocumentType::get_SystemId()
+// 0x000000DD System.String System.Xml.Linq.XDocumentType::get_SystemId()
 extern void XDocumentType_get_SystemId_mB1375770572FE85EEB70E7B9E5D7BFD70197589C (void);
-// 0x000000CA System.Void System.Xml.Linq.XDocumentType::WriteTo(System.Xml.XmlWriter)
+// 0x000000DE System.Void System.Xml.Linq.XDocumentType::WriteTo(System.Xml.XmlWriter)
 extern void XDocumentType_WriteTo_m106DADF2D6955F901D34239ACC17F1CD47F06063 (void);
-// 0x000000CB System.Xml.Linq.XNode System.Xml.Linq.XDocumentType::CloneNode()
+// 0x000000DF System.Xml.Linq.XNode System.Xml.Linq.XDocumentType::CloneNode()
 extern void XDocumentType_CloneNode_mBD0170ABA11A33CDFD0D19E98429E4A08EE471E8 (void);
-// 0x000000CC System.Void System.Xml.Linq.XAttribute::.ctor(System.Xml.Linq.XName,System.Object)
+// 0x000000E0 System.Void System.Xml.Linq.XAttribute::.ctor(System.Xml.Linq.XName,System.Object)
 extern void XAttribute__ctor_m40547774AADEFD8633306215AA57995F4BA4470F (void);
-// 0x000000CD System.Void System.Xml.Linq.XAttribute::.ctor(System.Xml.Linq.XAttribute)
+// 0x000000E1 System.Void System.Xml.Linq.XAttribute::.ctor(System.Xml.Linq.XAttribute)
 extern void XAttribute__ctor_m3EA3008A0D6C0B66C3868AAEB7EC7563DDD57C7B (void);
-// 0x000000CE System.Boolean System.Xml.Linq.XAttribute::get_IsNamespaceDeclaration()
+// 0x000000E2 System.Boolean System.Xml.Linq.XAttribute::get_IsNamespaceDeclaration()
 extern void XAttribute_get_IsNamespaceDeclaration_mE2D54BB132D0A554FA334BDAF92D5664E2BF50EA (void);
-// 0x000000CF System.Xml.Linq.XName System.Xml.Linq.XAttribute::get_Name()
+// 0x000000E3 System.Xml.Linq.XName System.Xml.Linq.XAttribute::get_Name()
 extern void XAttribute_get_Name_m89A65BCA2C1D25349F1B814F823208D897CA79FB (void);
-// 0x000000D0 System.Xml.XmlNodeType System.Xml.Linq.XAttribute::get_NodeType()
+// 0x000000E4 System.Xml.XmlNodeType System.Xml.Linq.XAttribute::get_NodeType()
 extern void XAttribute_get_NodeType_m716AD291593A05B9829DEF1F8CB86A99C88FEE56 (void);
-// 0x000000D1 System.String System.Xml.Linq.XAttribute::get_Value()
+// 0x000000E5 System.String System.Xml.Linq.XAttribute::get_Value()
 extern void XAttribute_get_Value_m2458D145A9C0231EE71816040601199252F53A84 (void);
-// 0x000000D2 System.String System.Xml.Linq.XAttribute::ToString()
+// 0x000000E6 System.String System.Xml.Linq.XAttribute::ToString()
 extern void XAttribute_ToString_m93ACF1DA23DA530929D9EA831ED8A95D19042E21 (void);
-// 0x000000D3 System.String System.Xml.Linq.XAttribute::GetPrefixOfNamespace(System.Xml.Linq.XNamespace)
+// 0x000000E7 System.String System.Xml.Linq.XAttribute::GetPrefixOfNamespace(System.Xml.Linq.XNamespace)
 extern void XAttribute_GetPrefixOfNamespace_mA63C230B534D3AE6BB47161C68D335D729FE8201 (void);
-// 0x000000D4 System.Void System.Xml.Linq.XAttribute::ValidateAttribute(System.Xml.Linq.XName,System.String)
+// 0x000000E8 System.Void System.Xml.Linq.XAttribute::ValidateAttribute(System.Xml.Linq.XName,System.String)
 extern void XAttribute_ValidateAttribute_m131F4A72A9F7E79F93B34C2F7909C80995B6B7B2 (void);
-// 0x000000D5 System.String System.Xml.Linq.Res::GetString(System.String)
+// 0x000000E9 System.String System.Xml.Linq.Res::GetString(System.String)
 extern void Res_GetString_mCACED687581128D64F4A26E6929E41E44DC17750 (void);
-// 0x000000D6 System.String System.Xml.Linq.Res::GetString(System.String,System.Object[])
+// 0x000000EA System.String System.Xml.Linq.Res::GetString(System.String,System.Object[])
 extern void Res_GetString_mA952BE145DB45E41118302D24CD5FF7772CDE9F0 (void);
-// 0x000000D7 System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
+// 0x000000EB System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m627B7273A2428AFBCF4C41D574196135907A582D (void);
-// 0x000000D8 System.Void Unity.ThrowStub::ThrowNotSupportedException()
+// 0x000000EC System.Void Unity.ThrowStub::ThrowNotSupportedException()
 extern void ThrowStub_ThrowNotSupportedException_m1B65D6A1FF55272EEE13380F3E7C53E2015C3F44 (void);
-static Il2CppMethodPointer s_methodPointers[216] = 
+static Il2CppMethodPointer s_methodPointers[236] = 
 {
 	XName__ctor_m08CA9A842644AFE1545DDFB3EA1BF011D797CE59,
 	XName_get_LocalName_m696497ACA70F6707FAF6DDC7B0FB4297D7F4A007,
@@ -468,13 +508,21 @@ static Il2CppMethodPointer s_methodPointers[216] =
 	NULL,
 	NULL,
 	XObject__ctor_mEBF29FD8B8171A6AE6D42BA886E7BFAE31BE563D,
+	XObject_get_BaseUri_m130E3178739EEEB478D7826AF5341937EBCA4E97,
 	NULL,
 	XObject_get_Parent_m1DF667C225BCBFB0C4A2496E3005B5ECC20FFDA1,
+	XObject_AddAnnotation_mCD582B99945D6A963D6C2FB0CFB3CBBEAFE37589,
 	XObject_Annotation_m95490F1AA8945BB8554BC5564CC9A8D9C174AA67,
 	NULL,
 	NULL,
+	XObject_System_Xml_IXmlLineInfo_HasLineInfo_m5A8D102E176F2C0D75E8E8F647960A159F343F07,
+	XObject_System_Xml_IXmlLineInfo_get_LineNumber_m24AD33EE2AB7E73E8E8A734B384AF246647CE4A4,
+	XObject_System_Xml_IXmlLineInfo_get_LinePosition_m2B081F9CCF96364A83B0B34E4AEAAFCC20CDD184,
+	XObject_get_HasBaseUri_m495D449FCEEAB86FEFD3119310D1D1C7F7271C5A,
 	XObject_NotifyChanged_mA374611B24D811C04441A75CD5A1AA04900588D6,
 	XObject_NotifyChanging_m85CA4DCC4BFBB06870828BEC18AAF9EBAC603515,
+	XObject_SetBaseUri_m166BE057D57AACC044AB91ADE70D36408FD4ED27,
+	XObject_SetLineInfo_m5A5F3FB9CE20DA7EC016C2263178A0CBBFD9AB95,
 	XObject_SkipNotify_m28058EBFF963451EFC0AAF9B7DD709B16D8F9895,
 	XObject_GetSaveOptionsFromAnnotations_m3DBE274F86C30B72962F8D9D76ABEA8E2E773D32,
 	NULL,
@@ -485,6 +533,9 @@ static Il2CppMethodPointer s_methodPointers[216] =
 	NULL,
 	NULL,
 	NULL,
+	BaseUriAnnotation__ctor_m73734683B4E9AABD14F9F4FC06456033579CA178,
+	LineInfoAnnotation__ctor_m8E8D7A480E7C181E9B65DC98003BC166AEF5AB38,
+	LineInfoEndElementAnnotation__ctor_mC681F34922255C61324B88EF7174034FB58C3887,
 	XObjectChangeEventArgs__ctor_m4E78C62E79DA6E09176D8CC56E597F362B237A90,
 	XObjectChangeEventArgs__cctor_mE9282A4AB2773E3B9175CE1F3735F48E4C733B4D,
 	XNode__ctor_mE21FF9BECBD8850494DDA2C81F01BA8FAF799D8A,
@@ -525,6 +576,8 @@ static Il2CppMethodPointer s_methodPointers[216] =
 	XContainer_ConvertTextToNode_m814277C7AD70A979F8FC62CF38682F02409A7160,
 	XContainer_GetDateTimeString_mD58B479E6A678F25B000540B0683BDEBBAC2CFEC,
 	XContainer_GetStringValue_m0446331D32F7BDCAE899B332243E52D6B16180EE,
+	XContainer_ReadContentFrom_mF11967A08DEE66ACFB5179D0C8F6B0190644A2AC,
+	XContainer_ReadContentFrom_m10603F00B56DF27E71DCE896EF28269906D3F629,
 	XContainer_RemoveNode_m072810FCA68B5F31097CFF678F1CD8AB5B7940E5,
 	XContainer_ValidateNode_mCB3953BC2CCE733B956DF952FB8EA39089D15B96,
 	XContainer_ValidateString_m0E5A8B53A0F59FF13B97310D30FFF8C70DAF011F,
@@ -537,6 +590,7 @@ static Il2CppMethodPointer s_methodPointers[216] =
 	U3CNodesU3Ed__18_System_Collections_IEnumerator_get_Current_m85F965CFAA2559C3B9C1BD3E13686000060BB30C,
 	U3CNodesU3Ed__18_System_Collections_Generic_IEnumerableU3CSystem_Xml_Linq_XNodeU3E_GetEnumerator_mA259982391A5A540537762C364DD61AED843ECF2,
 	U3CNodesU3Ed__18_System_Collections_IEnumerable_GetEnumerator_mB7FA8D945773FFC3E3AB9C2738908A57F5AD7D72,
+	NamespaceCache_Get_mDA87B6F824AD4AAA424A68A15CCDB48205326995,
 	XElement__ctor_m7C010BE83763396D50EB4E51C1B21A1DDDE258B2,
 	XElement__ctor_m13B7B350DE7B5DDB8B55F222AA15066B66B149A6,
 	XElement__ctor_m3AE89E314A40AEB1D13944480CD5B30CB60C9D78,
@@ -548,6 +602,9 @@ static Il2CppMethodPointer s_methodPointers[216] =
 	XElement_Attributes_m6EEF7C26CF58974068C62663F5A3AD6192327AEB,
 	XElement_GetPrefixOfNamespace_mF9843F62F43762B9E43BBAF8DA634CFBBA393C8E,
 	XElement_WriteTo_mD0544B1B917B698378053735D34076540D872154,
+	XElement_System_Xml_Serialization_IXmlSerializable_GetSchema_m830CC29C17E10FF1E9CB79C7D6D0CE4BF61C721E,
+	XElement_System_Xml_Serialization_IXmlSerializable_ReadXml_mF23D51DDE64786E21605493504750F067142698C,
+	XElement_System_Xml_Serialization_IXmlSerializable_WriteXml_m652EAD7215E35A4DAC3F452095B76DED1C7AF58D,
 	XElement_AddAttribute_mD916A2A7588673C240606429B8DD72E9B8D9D02C,
 	XElement_AddAttributeSkipNotify_m8D13DB88A3C9CDAB2187BD93B39071A969DE2E5A,
 	XElement_AppendAttribute_m0DE1BE78518A9B191036D9142ACC5AC3D95DE169,
@@ -555,6 +612,8 @@ static Il2CppMethodPointer s_methodPointers[216] =
 	XElement_CloneNode_m0D89413E6EE83A35FD5F726A6E5131F0AF6A3712,
 	XElement_GetAttributes_m6E782BD24ECA27DDCDAA230F7C9F2A0EECC004ED,
 	XElement_GetNamespaceOfPrefixInScope_m976485B69E3219453A8A4412721F8C3C90D03A96,
+	XElement_ReadElementFrom_mF82AFFF2679EAA2E7BD55E9C5D625A56FEBF06C3,
+	XElement_SetEndElementLineInfo_m4AF7794890F6E0D65E87B8F967E9A3F6B13B41D5,
 	XElement_ValidateNode_mAFE6C941B26F52216906391DC84D40D587F58C3F,
 	U3CGetAttributesU3Ed__105__ctor_mB7C85FC764518096A1A8FB18A9C0453E6F540D6F,
 	U3CGetAttributesU3Ed__105_System_IDisposable_Dispose_m99C42C5CF42B3A8F77A3E4E09395ADB8498EE9C4,
@@ -615,6 +674,7 @@ static Il2CppMethodPointer s_methodPointers[216] =
 	XDeclaration_ToString_m62CE18C891848DF411864E40CEA3B1FB5490DCBE,
 	XDocumentType__ctor_m8DD9AEBE8CA7BEE73B9AE7D221DA238FB47724C3,
 	XDocumentType__ctor_m4973BAC4702EF6EDA6B304CC74DD77F34B1EA51A,
+	XDocumentType__ctor_m92F5146E20DD2E0CFA9A8A8DFF85D27050B314D5,
 	XDocumentType_get_InternalSubset_m11B53A99D2308E042E737F455BC83B7E28B8A02E,
 	XDocumentType_get_Name_m04C91428C8855ADAB40835A90052855A047018AE,
 	XDocumentType_get_NodeType_m6209474A166B3032CD79F42FE99C975EB44B6A6A,
@@ -636,6 +696,7 @@ static Il2CppMethodPointer s_methodPointers[216] =
 	U3CPrivateImplementationDetailsU3E_ComputeStringHash_m627B7273A2428AFBCF4C41D574196135907A582D,
 	ThrowStub_ThrowNotSupportedException_m1B65D6A1FF55272EEE13380F3E7C53E2015C3F44,
 };
+extern void NamespaceCache_Get_mDA87B6F824AD4AAA424A68A15CCDB48205326995_AdjustorThunk (void);
 extern void ElementWriter__ctor_mAF42701DBC7426DB8FF6F3C19F37C6A5B6E6F798_AdjustorThunk (void);
 extern void ElementWriter_WriteElement_mCA724B1F81D4D096CA8A0A3BC3B38B8AAB7A6E7C_AdjustorThunk (void);
 extern void ElementWriter_GetPrefixOfNamespace_mFE90F844D9421A68634B9AF38ACBA1D127269F26_AdjustorThunk (void);
@@ -649,59 +710,60 @@ extern void NamespaceResolver_PopScope_m48BFA95631D7F0301120439B128FF8F7A16C261B
 extern void NamespaceResolver_Add_mA16774DA6B6A470EC2416849D659179275D28F81_AdjustorThunk (void);
 extern void NamespaceResolver_AddFirst_m7C861D08943FFBAA33EF102312B96499D73CF289_AdjustorThunk (void);
 extern void NamespaceResolver_GetPrefixOfNamespace_m69FAACB8B514D2F3C1E00473B9EC5A7B169F5C0F_AdjustorThunk (void);
-static Il2CppTokenAdjustorThunkPair s_adjustorThunks[13] = 
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[14] = 
 {
-	{ 0x06000092, ElementWriter__ctor_mAF42701DBC7426DB8FF6F3C19F37C6A5B6E6F798_AdjustorThunk },
-	{ 0x06000093, ElementWriter_WriteElement_mCA724B1F81D4D096CA8A0A3BC3B38B8AAB7A6E7C_AdjustorThunk },
-	{ 0x06000094, ElementWriter_GetPrefixOfNamespace_mFE90F844D9421A68634B9AF38ACBA1D127269F26_AdjustorThunk },
-	{ 0x06000095, ElementWriter_PushAncestors_mAA5058229B36969BAD86E2332E5B85EF93C10DAD_AdjustorThunk },
-	{ 0x06000096, ElementWriter_PushElement_mD74364B14FDE31D74A6DA824F21EF009142EBAC5_AdjustorThunk },
-	{ 0x06000097, ElementWriter_WriteEndElement_mB6853DBC6AC64F10185207107EBE974AB5A274CA_AdjustorThunk },
-	{ 0x06000098, ElementWriter_WriteFullEndElement_mAC1EC5BF80311A650B92992C4A9C689811A782F5_AdjustorThunk },
-	{ 0x06000099, ElementWriter_WriteStartElement_m09181D51C5C38A1BB15B41D85A88FE6B8A0BDBFF_AdjustorThunk },
-	{ 0x0600009A, NamespaceResolver_PushScope_m6A174DFEE5F6E262E8B050EAE30CD935ED3FD468_AdjustorThunk },
-	{ 0x0600009B, NamespaceResolver_PopScope_m48BFA95631D7F0301120439B128FF8F7A16C261B_AdjustorThunk },
-	{ 0x0600009C, NamespaceResolver_Add_mA16774DA6B6A470EC2416849D659179275D28F81_AdjustorThunk },
-	{ 0x0600009D, NamespaceResolver_AddFirst_m7C861D08943FFBAA33EF102312B96499D73CF289_AdjustorThunk },
-	{ 0x0600009E, NamespaceResolver_GetPrefixOfNamespace_m69FAACB8B514D2F3C1E00473B9EC5A7B169F5C0F_AdjustorThunk },
+	{ 0x06000084, NamespaceCache_Get_mDA87B6F824AD4AAA424A68A15CCDB48205326995_AdjustorThunk },
+	{ 0x060000A5, ElementWriter__ctor_mAF42701DBC7426DB8FF6F3C19F37C6A5B6E6F798_AdjustorThunk },
+	{ 0x060000A6, ElementWriter_WriteElement_mCA724B1F81D4D096CA8A0A3BC3B38B8AAB7A6E7C_AdjustorThunk },
+	{ 0x060000A7, ElementWriter_GetPrefixOfNamespace_mFE90F844D9421A68634B9AF38ACBA1D127269F26_AdjustorThunk },
+	{ 0x060000A8, ElementWriter_PushAncestors_mAA5058229B36969BAD86E2332E5B85EF93C10DAD_AdjustorThunk },
+	{ 0x060000A9, ElementWriter_PushElement_mD74364B14FDE31D74A6DA824F21EF009142EBAC5_AdjustorThunk },
+	{ 0x060000AA, ElementWriter_WriteEndElement_mB6853DBC6AC64F10185207107EBE974AB5A274CA_AdjustorThunk },
+	{ 0x060000AB, ElementWriter_WriteFullEndElement_mAC1EC5BF80311A650B92992C4A9C689811A782F5_AdjustorThunk },
+	{ 0x060000AC, ElementWriter_WriteStartElement_m09181D51C5C38A1BB15B41D85A88FE6B8A0BDBFF_AdjustorThunk },
+	{ 0x060000AD, NamespaceResolver_PushScope_m6A174DFEE5F6E262E8B050EAE30CD935ED3FD468_AdjustorThunk },
+	{ 0x060000AE, NamespaceResolver_PopScope_m48BFA95631D7F0301120439B128FF8F7A16C261B_AdjustorThunk },
+	{ 0x060000AF, NamespaceResolver_Add_mA16774DA6B6A470EC2416849D659179275D28F81_AdjustorThunk },
+	{ 0x060000B0, NamespaceResolver_AddFirst_m7C861D08943FFBAA33EF102312B96499D73CF289_AdjustorThunk },
+	{ 0x060000B1, NamespaceResolver_GetPrefixOfNamespace_m69FAACB8B514D2F3C1E00473B9EC5A7B169F5C0F_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[216] = 
+static const int32_t s_InvokerIndices[236] = 
 {
-	1272,
-	2572,
-	2572,
-	2572,
-	2572,
-	3916,
-	3571,
-	3916,
-	1886,
-	2559,
-	3644,
-	1886,
-	1280,
-	2626,
-	1280,
-	1692,
-	1280,
-	2162,
-	2572,
-	1689,
-	2572,
-	4052,
-	4052,
-	4052,
-	3916,
-	3916,
-	1886,
-	2559,
-	3644,
-	3644,
-	641,
-	3283,
-	3916,
-	3916,
-	3544,
+	2230,
+	4597,
+	4597,
+	4597,
+	4597,
+	6789,
+	6227,
+	6789,
+	3328,
+	4577,
+	6325,
+	3328,
+	2242,
+	4697,
+	2242,
+	2989,
+	2242,
+	3823,
+	4597,
+	2984,
+	4597,
+	6990,
+	6990,
+	6990,
+	6789,
+	6789,
+	3328,
+	4577,
+	6325,
+	6325,
+	1170,
+	5775,
+	6789,
+	6789,
+	6198,
 	-1,
 	-1,
 	-1,
@@ -715,16 +777,24 @@ static const int32_t s_InvokerIndices[216] =
 	-1,
 	-1,
 	-1,
-	2626,
-	2559,
-	2572,
-	1689,
+	4697,
+	4597,
+	4577,
+	4597,
+	3823,
+	2984,
 	-1,
 	-1,
-	1000,
-	1000,
-	2599,
-	2559,
+	4641,
+	4577,
+	4577,
+	4641,
+	1758,
+	1758,
+	3823,
+	2043,
+	4641,
+	4577,
 	-1,
 	-1,
 	-1,
@@ -733,198 +803,210 @@ static const int32_t s_InvokerIndices[216] =
 	-1,
 	-1,
 	-1,
-	2150,
-	4070,
-	2626,
-	2626,
-	2572,
-	2162,
-	2162,
-	2572,
-	1686,
-	2162,
-	2162,
-	2559,
-	2572,
-	2162,
-	2162,
-	2162,
-	2572,
-	2162,
-	2162,
-	2559,
-	2162,
-	2572,
-	2626,
-	2162,
-	2572,
-	2162,
-	2572,
-	2162,
-	2162,
-	2162,
-	2162,
-	2162,
-	2162,
-	2162,
-	2162,
-	2162,
-	2162,
-	2626,
-	3905,
-	3916,
-	2162,
-	1272,
-	2162,
-	2162,
-	2150,
-	2626,
-	2599,
-	2572,
-	2626,
-	2572,
-	2572,
-	2572,
-	2162,
-	2162,
-	2162,
-	2599,
-	2572,
-	2559,
-	2572,
-	1689,
-	2572,
-	1689,
-	2162,
-	2162,
-	2162,
-	2162,
-	2162,
-	2572,
-	1689,
-	939,
-	1272,
-	2150,
-	2626,
-	2599,
-	2572,
-	2626,
-	2572,
-	2572,
-	2572,
-	2162,
-	2162,
-	940,
-	2162,
-	2162,
-	2626,
-	2626,
-	2162,
-	2626,
-	2626,
-	1272,
-	1272,
-	940,
-	2626,
-	2626,
-	2162,
-	2572,
-	2162,
-	2559,
-	2572,
-	2162,
-	2162,
-	2162,
-	2572,
+	3823,
+	2043,
+	2043,
+	3804,
+	7023,
+	4697,
+	4697,
+	4597,
+	3823,
+	3823,
+	4597,
+	2980,
+	3823,
+	3823,
+	4577,
+	4597,
+	3823,
+	3823,
+	3823,
+	4597,
+	3823,
+	3823,
+	4577,
+	3823,
+	4597,
+	4697,
+	3823,
+	4597,
+	3823,
+	4597,
+	3823,
+	3823,
+	3823,
+	3823,
+	3823,
+	3823,
+	3823,
+	3823,
+	3823,
+	3823,
+	4697,
+	6776,
+	6789,
+	3823,
+	2225,
+	3823,
+	2230,
+	3823,
+	3823,
+	3804,
+	4697,
+	4641,
+	4597,
+	4697,
+	4597,
+	4597,
+	4597,
+	2984,
+	3823,
+	3823,
+	3823,
+	4641,
+	4597,
+	4577,
+	4597,
+	2984,
+	4597,
+	2984,
+	3823,
+	4597,
+	3823,
+	3823,
+	3823,
+	3823,
+	3823,
+	3823,
+	4597,
+	2984,
+	1664,
+	2225,
+	2043,
+	2230,
+	3804,
+	4697,
+	4641,
+	4597,
+	4697,
+	4597,
+	4597,
+	4597,
+	3823,
+	3823,
+	1665,
+	3823,
+	3823,
+	4697,
+	4697,
+	3823,
+	4697,
+	4697,
+	2230,
+	2230,
+	1665,
+	4697,
+	4697,
+	3823,
+	4597,
+	3823,
+	4577,
+	4597,
+	3823,
+	3823,
+	3823,
+	4597,
 	-1,
-	3960,
-	1272,
-	793,
-	2162,
-	2162,
-	2162,
-	2559,
-	2572,
-	2162,
-	2572,
-	1272,
-	2162,
-	2572,
-	2559,
-	2572,
-	2162,
-	2572,
-	4007,
-	804,
-	2162,
-	2572,
-	2572,
-	2572,
-	2572,
-	531,
-	2162,
-	2572,
-	2572,
-	2559,
-	2572,
-	2572,
-	2162,
-	2572,
-	1272,
-	2162,
-	2599,
-	2572,
-	2559,
-	2572,
-	2572,
-	1689,
-	3734,
-	3916,
-	3571,
-	3850,
-	4070,
+	6852,
+	2230,
+	1402,
+	3823,
+	3823,
+	3823,
+	4577,
+	4597,
+	3823,
+	4597,
+	2230,
+	3823,
+	4597,
+	4577,
+	4597,
+	3823,
+	4597,
+	6914,
+	1421,
+	3823,
+	4597,
+	4597,
+	4597,
+	4597,
+	982,
+	3823,
+	514,
+	4597,
+	4597,
+	4577,
+	4597,
+	4597,
+	3823,
+	4597,
+	2230,
+	3823,
+	4641,
+	4597,
+	4577,
+	4597,
+	4597,
+	2984,
+	6494,
+	6789,
+	6227,
+	6697,
+	7023,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[6] = 
 {
 	{ 0x02000005, { 0, 5 } },
 	{ 0x02000007, { 5, 8 } },
 	{ 0x0200000A, { 16, 4 } },
-	{ 0x06000035, { 13, 1 } },
-	{ 0x06000036, { 14, 2 } },
-	{ 0x060000AA, { 20, 1 } },
+	{ 0x06000037, { 13, 1 } },
+	{ 0x06000038, { 14, 2 } },
+	{ 0x060000BD, { 20, 1 } },
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[21] = 
 {
-	{ (Il2CppRGCTXDataType)2, 3316 },
-	{ (Il2CppRGCTXDataType)3, 15202 },
-	{ (Il2CppRGCTXDataType)3, 15205 },
-	{ (Il2CppRGCTXDataType)3, 15204 },
-	{ (Il2CppRGCTXDataType)3, 15203 },
-	{ (Il2CppRGCTXDataType)2, 3863 },
-	{ (Il2CppRGCTXDataType)3, 6459 },
-	{ (Il2CppRGCTXDataType)2, 3318 },
-	{ (Il2CppRGCTXDataType)3, 15206 },
-	{ (Il2CppRGCTXDataType)3, 15209 },
-	{ (Il2CppRGCTXDataType)3, 15207 },
-	{ (Il2CppRGCTXDataType)2, 3318 },
-	{ (Il2CppRGCTXDataType)3, 15208 },
-	{ (Il2CppRGCTXDataType)2, 299 },
-	{ (Il2CppRGCTXDataType)2, 803 },
-	{ (Il2CppRGCTXDataType)3, 220 },
-	{ (Il2CppRGCTXDataType)2, 576 },
-	{ (Il2CppRGCTXDataType)2, 804 },
-	{ (Il2CppRGCTXDataType)3, 221 },
-	{ (Il2CppRGCTXDataType)3, 222 },
-	{ (Il2CppRGCTXDataType)2, 297 },
+	{ (Il2CppRGCTXDataType)2, 4995 },
+	{ (Il2CppRGCTXDataType)3, 30202 },
+	{ (Il2CppRGCTXDataType)3, 30205 },
+	{ (Il2CppRGCTXDataType)3, 30204 },
+	{ (Il2CppRGCTXDataType)3, 30203 },
+	{ (Il2CppRGCTXDataType)2, 5868 },
+	{ (Il2CppRGCTXDataType)3, 11398 },
+	{ (Il2CppRGCTXDataType)2, 4997 },
+	{ (Il2CppRGCTXDataType)3, 30206 },
+	{ (Il2CppRGCTXDataType)3, 30209 },
+	{ (Il2CppRGCTXDataType)3, 30207 },
+	{ (Il2CppRGCTXDataType)2, 4997 },
+	{ (Il2CppRGCTXDataType)3, 30208 },
+	{ (Il2CppRGCTXDataType)2, 414 },
+	{ (Il2CppRGCTXDataType)2, 1040 },
+	{ (Il2CppRGCTXDataType)3, 317 },
+	{ (Il2CppRGCTXDataType)2, 768 },
+	{ (Il2CppRGCTXDataType)2, 1041 },
+	{ (Il2CppRGCTXDataType)3, 318 },
+	{ (Il2CppRGCTXDataType)3, 319 },
+	{ (Il2CppRGCTXDataType)2, 412 },
 };
 extern const CustomAttributesCacheGenerator g_System_Xml_Linq_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Xml_Linq_CodeGenModule;
 const Il2CppCodeGenModule g_System_Xml_Linq_CodeGenModule = 
 {
 	"System.Xml.Linq.dll",
-	216,
+	236,
 	s_methodPointers,
-	13,
+	14,
 	s_adjustorThunks,
 	s_InvokerIndices,
 	0,

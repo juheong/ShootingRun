@@ -152,7 +152,7 @@ PlayerSettings:
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
-  AndroidBundleVersionCode: 3
+  AndroidBundleVersionCode: 5
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -751,11 +751,11 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
-    Analytics: 0
+    Analytics: 1
     Build: 0
     Collab: 0
     Game Performance: 0
-    Purchasing: 0
+    Purchasing: 1
     UDP: 0
     UNet: 1
     Unity Ads: 0
@@ -772,11 +772,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 5a7438d4-1d36-436f-b0bd-887abb497f8b
+  cloudProjectId: 58bfcac7-3bb7-4874-b12e-1ea55c66e28e
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: ShootingRun
-  organizationId: routine7592-naver-com
+  projectName: ShootingRun (2)
+  organizationId: routine7592
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   virtualTexturingSupportEnabled: 0

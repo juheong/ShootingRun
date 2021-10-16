@@ -419,6 +419,10 @@ struct ParameterInfo_t9D9DBDD93E685815E35F4F6D6F58E90EBC8852B7;
 struct Parser_t4C0C729B6FFC7AE44DA86DF5B18B498FAB574B5D;
 // System.PlatformNotSupportedException
 struct PlatformNotSupportedException_t4F02BDC290520CA1A2452F51A8AC464F6D5E356E;
+// Mono.Math.Prime.PrimalityTest
+struct PrimalityTest_tACCB9F1C059A66CADCC2AB71638267E2487F06AF;
+// Mono.Math.Prime.Generator.PrimeGeneratorBase
+struct PrimeGeneratorBase_t214EED83211E78637C0C5E5A1EB42A3A073BB106;
 // System.Runtime.Serialization.Formatters.Binary.PrimitiveArray
 struct PrimitiveArray_t5384C101124DF4A154AEB207C0E757180D57ECE4;
 // System.Reflection.Emit.PropertyBuilder
@@ -633,6 +637,7 @@ IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF
 IL2CPP_EXTERN_C RuntimeClass* PKCS1MaskGenerationMethod_t8B599084DBF0D016E91CC421F682F33C974C8441_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Parser_t4C0C729B6FFC7AE44DA86DF5B18B498FAB574B5D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PlatformNotSupportedException_t4F02BDC290520CA1A2452F51A8AC464F6D5E356E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PrimalityTest_tACCB9F1C059A66CADCC2AB71638267E2487F06AF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PropertyInfo_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* QueueEnumerator_t0A73A9F6902BEBD8BBF0AECB749DC08C1602158E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* QueueUserWorkItemCallback_tB84DE760B2C0C27766032253AC0E18AAA64AD70A_il2cpp_TypeInfo_var;
@@ -806,6 +811,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m4EEB8109480E37331F99941B20
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m402A94AC9070B345C95919DCFFFF627252B3E67A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_m52F33C6963C9A76A14F54B4B2C30CEF580DB1EB7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_mC9A7615EA5EDA84F8B8055BE43CF91D74820C378_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PrimalityTests_RabinMillerTest_m091CBF379AEAE0A349B313081A9FC760D66A4D87_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PropertyBuilder_GetAccessors_m040EAADD9063427BC68013C46E36516B3F676F75_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PropertyBuilder_GetCustomAttributes_m402E985B7EDD0D23ADFB1DA1A914A08B967EEB4E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PropertyBuilder_GetCustomAttributes_mC28D85763B81A4A31A68160C31A75AB97DEC2AAE_RuntimeMethod_var;
@@ -3172,6 +3178,24 @@ public:
 		____t_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&____t_1), (void*)value);
 	}
+};
+
+
+// Mono.Math.Prime.PrimalityTests
+struct  PrimalityTests_tEA2628F01524FBD29D83B99109260F83207B717B  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+
+// Mono.Math.Prime.Generator.PrimeGeneratorBase
+struct  PrimeGeneratorBase_t214EED83211E78637C0C5E5A1EB42A3A073BB106  : public RuntimeObject
+{
+public:
+
+public:
 };
 
 
@@ -8032,6 +8056,24 @@ public:
 };
 
 
+// Mono.Math.Prime.ConfidenceFactor
+struct  ConfidenceFactor_tF6E093292395A0166D6B8191466D7CA266E6F2DC 
+{
+public:
+	// System.Int32 Mono.Math.Prime.ConfidenceFactor::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ConfidenceFactor_tF6E093292395A0166D6B8191466D7CA266E6F2DC, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // System.Runtime.Remoting.Contexts.Context
 struct  Context_t8A5B564FD0F970E10A97ACB8A7579FFF3EE4C678  : public RuntimeObject
 {
@@ -11340,6 +11382,15 @@ public:
 };
 
 
+// Mono.Math.Prime.PrimalityTest
+struct  PrimalityTest_tACCB9F1C059A66CADCC2AB71638267E2487F06AF  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
 // System.Security.Cryptography.RC2
 struct  RC2_t6785EB5219F7B22606804A2D198BCB100E4813F9  : public SymmetricAlgorithm_tD007D9D59B6B96F42548FFE58E5F65CA5F9B7754
 {
@@ -12931,6 +12982,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mFEB2301A6F28290A828A979BA9
 // T System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * List_1_get_Item_mF00B574E58FB078BB753B05A3B86DD0A7A266B63_gshared_inline (List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5 * __this, int32_t ___index0, const RuntimeMethod* method);
 
+// System.Void Mono.Math.Prime.PrimalityTest::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimalityTest__ctor_mF360EB4D7CD17F750F24841050A59025127806BC (PrimalityTest_tACCB9F1C059A66CADCC2AB71638267E2487F06AF * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405 (RuntimeObject * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.Serialization.Formatters.Binary.PrimitiveArray::Init(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE,System.Array)
@@ -13540,6 +13593,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeHandle_DangerousRelease_mD38F583FAFD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitOrTimerCallback_Invoke_m48518AEEA0A747D20E6BD53FBBB778FD6CFB25BC (WaitOrTimerCallback_t79FBDDC8E879825AA8322F3422BF8F1BEAE3BCDB * __this, RuntimeObject * ___state0, bool ___timedOut1, const RuntimeMethod* method);
 // System.Void System.ThrowHelper::ThrowArgumentOutOfRangeException()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowArgumentOutOfRangeException_m4841366ABC2B2AFA37C10900551D7E07522C0929 (const RuntimeMethod* method);
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Mono.Math.Prime.ConfidenceFactor Mono.Math.Prime.Generator.PrimeGeneratorBase::get_Confidence()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PrimeGeneratorBase_get_Confidence_m9F93934E37760C08FB4DE74B675A922F72F027C7 (PrimeGeneratorBase_t214EED83211E78637C0C5E5A1EB42A3A073BB106 * __this, const RuntimeMethod* method)
+{
+	{
+		return (int32_t)(2);
+	}
+}
+// Mono.Math.Prime.PrimalityTest Mono.Math.Prime.Generator.PrimeGeneratorBase::get_PrimalityTest()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PrimalityTest_tACCB9F1C059A66CADCC2AB71638267E2487F06AF * PrimeGeneratorBase_get_PrimalityTest_m11AB4F2AAE9A23D4C3BA3522505421AF4093771C (PrimeGeneratorBase_t214EED83211E78637C0C5E5A1EB42A3A073BB106 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PrimalityTest_tACCB9F1C059A66CADCC2AB71638267E2487F06AF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PrimalityTests_RabinMillerTest_m091CBF379AEAE0A349B313081A9FC760D66A4D87_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		PrimalityTest_tACCB9F1C059A66CADCC2AB71638267E2487F06AF * L_0 = (PrimalityTest_tACCB9F1C059A66CADCC2AB71638267E2487F06AF *)il2cpp_codegen_object_new(PrimalityTest_tACCB9F1C059A66CADCC2AB71638267E2487F06AF_il2cpp_TypeInfo_var);
+		PrimalityTest__ctor_mF360EB4D7CD17F750F24841050A59025127806BC(L_0, NULL, (intptr_t)((intptr_t)PrimalityTests_RabinMillerTest_m091CBF379AEAE0A349B313081A9FC760D66A4D87_RuntimeMethod_var), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int32 Mono.Math.Prime.Generator.PrimeGeneratorBase::get_TrialDivisionBounds()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PrimeGeneratorBase_get_TrialDivisionBounds_m9A17DEFEF85F8BA063FF799722C8A21F1057D3D8 (PrimeGeneratorBase_t214EED83211E78637C0C5E5A1EB42A3A073BB106 * __this, const RuntimeMethod* method)
+{
+	{
+		return ((int32_t)4000);
+	}
+}
+// System.Void Mono.Math.Prime.Generator.PrimeGeneratorBase::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrimeGeneratorBase__ctor_m1D35642324142ED80CB1CA2F3F6F7D4623E20A0B (PrimeGeneratorBase_t214EED83211E78637C0C5E5A1EB42A3A073BB106 * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -25181,6 +25280,15 @@ IL_0027:
 		return ((int32_t)((int32_t)((double)il2cpp_codegen_multiply((double)L_5, (double)((double)((double)L_6))))));
 	}
 }
+// System.Double System.Random::NextDouble()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Random_NextDouble_m6193384C8ECEB23AFF6395780879F93BD0FEEE68 (Random_t6C9E9775A149D0ADCFEB4B252C408F03EE870118 * __this, const RuntimeMethod* method)
+{
+	{
+		double L_0;
+		L_0 = VirtFuncInvoker0< double >::Invoke(4 /* System.Double System.Random::Sample() */, __this);
+		return L_0;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -25512,7 +25620,7 @@ IL_0035:
 		Type_t * L_11 = ___objectType0;
 		NullCheck(L_10);
 		bool L_12;
-		L_12 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_10, L_11);
+		L_12 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_10, L_11);
 		if (!L_12)
 		{
 			goto IL_0051;
@@ -27549,7 +27657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C
 		L_7 = InterfaceFuncInvoker0< RuntimeObject * >::Invoke(2 /* System.Object System.Runtime.Remoting.Messaging.IMethodReturnMessage::get_ReturnValue() */, IMethodReturnMessage_t4B84F631CB7E599CD495048748DE5E21B62390B0_il2cpp_TypeInfo_var, L_6);
 		NullCheck(L_5);
 		bool L_8;
-		L_8 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(111 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_7);
+		L_8 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(112 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_7);
 		if (L_8)
 		{
 			goto IL_0032;
@@ -27758,11 +27866,11 @@ IL_0108:
 		L_60 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_59);
 		NullCheck(L_60);
 		Type_t * L_61;
-		L_61 = VirtFuncInvoker0< Type_t * >::Invoke(100 /* System.Type System.Type::GetElementType() */, L_60);
+		L_61 = VirtFuncInvoker0< Type_t * >::Invoke(101 /* System.Type System.Type::GetElementType() */, L_60);
 		RuntimeObject * L_62 = V_9;
 		NullCheck(L_61);
 		bool L_63;
-		L_63 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(111 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_61, L_62);
+		L_63 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(112 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_61, L_62);
 		if (L_63)
 		{
 			goto IL_013f;
