@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
 
 
     public int coin;
+    public int score;
+    public int kills;
     [SerializeField]
     public int health;
     [SerializeField]
@@ -60,14 +62,18 @@ public class Player : MonoBehaviour
     private bool isFireReady;
     private bool isScene = true;
 
-    public int score;
+    public TextMeshProUGUI coin_text;
     public TextMeshProUGUI score_text;
+    public TextMeshProUGUI kills_text;
     public GameObject hudEvadeText;
     int evade;      //회피 여부 확인을 위한 변수
 
     private void Awake()
     {
         score = 0;
+        kills = 0;
+        coin = 0;
+
         uiObject.SetActive(false);
         rigibody = GetComponent<Rigidbody>();
         playerAnimator = GetComponentInChildren<PlayerAnimator>();
@@ -96,6 +102,10 @@ public class Player : MonoBehaviour
             if (!isDie)
             {
                 score_text.text = score.ToString();
+                kills_text.text = kills.ToString();
+
+                coin = (int)(score / 1000);
+                coin_text.text = coin.ToString();
 
                 if (isBoss == true)
                 {

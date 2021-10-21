@@ -119130,6 +119130,11 @@ PrefabInstance:
       objectReference: {fileID: 793015396}
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
+      propertyPath: coin_text
+      value: 
+      objectReference: {fileID: 77920309}
+    - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
       propertyPath: maxhealth
       value: 1000
       objectReference: {fileID: 0}
@@ -119138,6 +119143,11 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
+        type: 3}
+      propertyPath: kills_text
+      value: 
+      objectReference: {fileID: 681718409}
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: mainCamera

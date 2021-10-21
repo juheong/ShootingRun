@@ -201,6 +201,7 @@ public class Enemy : MonoBehaviour
             //rigid.AddForce(reactVec * 10, ForceMode.Impulse);
             Destroy(gameObject, 1f);
             playerData.score += 150;
+            ++playerData.kills;
         }
     }
 
