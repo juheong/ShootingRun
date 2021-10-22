@@ -30,12 +30,7 @@ public class LoginManager : MonoBehaviour
             Debug.Log("Backend 초기화 실패");
         }
         data = GetComponent<DataManager>();
-
-        /*if (Backend.BMember.GetGuestID() != "")
-        {
-            Backend.BMember.DeleteGuestInfo();
-            Debug.Log("게스트 계정 삭제(테스트용)");
-        }*/
+               
     }
 
     public void BtnLogin()
@@ -158,6 +153,15 @@ public class LoginManager : MonoBehaviour
                     warningText.text = "서버 공통 에러가 발생하였습니다.";
                     break;
             }
+        }
+    }
+
+    public void BtnInitial()
+    {
+        if (Backend.BMember.GetGuestID() != "")
+        {
+            Backend.BMember.DeleteGuestInfo();
+            Debug.Log("게스트 계정 초기화");
         }
     }
 
