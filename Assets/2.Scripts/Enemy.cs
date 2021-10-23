@@ -11,8 +11,8 @@ public class Enemy : MonoBehaviour
 
     [SerializeField]
     private int maxHealth;
-    [SerializeField]
     private int curHealth;
+
     public GameObject hudDamageText;
     public GameObject bullet;
     private bool isDie = false;
@@ -23,6 +23,7 @@ public class Enemy : MonoBehaviour
     private float attackTime = 2f;
     GameObject Player;
     Player playerData;
+    AreaSpawner areaSpawner;
 
 
     int attacked = 1;
@@ -33,23 +34,36 @@ public class Enemy : MonoBehaviour
         meshs = GetComponentsInChildren<SkinnedMeshRenderer>();
         anim = GetComponent<Animator>();
         audioSource = this.gameObject.GetComponent<AudioSource>();
+        areaSpawner = GameObject.Find("AreaSpawner").GetComponent<AreaSpawner>();
+        int stage = areaSpawner.stage -1;
+
         if (this.enemyType != 0)
         {
             AttackSource = this.transform.Find("AttackClip").gameObject.GetComponent<AudioSource>();
         }
 
 
-        switch (enemyType)      //타입에 따른 공격속도
+        switch (enemyType)      //타입에 따른 초기화
         {
             default:
                 break;
             case Type.Burrow:
+                maxHealth = (int)(30 *(1+(stage*0.2)));
                 attackTime = 0.3f;
                 break;
             case Type.Sneak:
+                maxHealth = (int)(30 * (1 + (stage * 0.2)));
                 attackTime = 0.5f;
                 break;
+            case Type.Rush:
+                maxHealth = (int)(50 * (1 + (stage * 0.2)));
+                break;
+            case Type.Range:
+                maxHealth = (int)(30 * (1 + (stage * 0.2)));
+                break;
         }
+        curHealth = maxHealth;
+
         InvokeRepeating("Attack", 1, attackTime);
         Player = GameObject.FindWithTag("Player");
         playerData = Player.gameObject.GetComponent<Player>();

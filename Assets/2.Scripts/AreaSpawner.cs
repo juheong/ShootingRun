@@ -78,10 +78,6 @@ public class AreaSpawner : MonoBehaviour
     {
         int isSpawn;
 
-
-        Debug.Log("obsStart=" + obsStart);
-        Debug.Log("obsEND=" + obsEND);
-
         if (clear >= 60)       //clear 변수가 일정수준 도달했을 경우 패널을 띄운 뒤 변수 초기화
         {
             Debug.Log("clear!");
@@ -125,15 +121,15 @@ public class AreaSpawner : MonoBehaviour
             loc = Random.Range(0, 3);       //토네이도 위치를 위한 랜덤변수
             if (loc == 0)       //좌측
             {
-                StartCoroutine(Tornado(-1f, 1f, playerTransform.position.z, 84f));
+                StartCoroutine(Tornado(-1f, 1f, playerTransform.position.z));
             }
             else if (loc == 1)        //중간
             {
-                StartCoroutine(Tornado(0f, 1f, playerTransform.position.z, 90f));
+                StartCoroutine(Tornado(0f, 1f, playerTransform.position.z));
             }
             else           //우측
             {
-                StartCoroutine(Tornado(1f, 1f, playerTransform.position.z, 96f));
+                StartCoroutine(Tornado(1f, 1f, playerTransform.position.z));
             } 
         }
     }
@@ -162,20 +158,19 @@ public class AreaSpawner : MonoBehaviour
         Instantiate(obstacles[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //장애물터 생성
     }
 
-    IEnumerator Tornado(float x, float y, float z, float rot)
+    IEnumerator Tornado(float x, float y, float z)
     {
         z += 15f;
-        Vector3 Indi_position = new Vector3(x, y+2f, z);
+        Vector3 Indi_position = new Vector3(x, y, z+10f);
         GameObject skill_indicator = Instantiate(SkillsIndicator, Indi_position, transform.rotation);
         skill_indicator.transform.LookAt(Player.transform);
-        indirigi = skill_indicator.GetComponent<Rigidbody>();
-        indirigi.velocity = transform.forward * 20;
+
         Quaternion indirot = skill_indicator.transform.rotation * Quaternion.Euler(new Vector3(0,90,0));
         Destroy(skill_indicator, 1.5f);
 
         yield return new WaitForSeconds(1.5f);
 
-        Vector3 enem_transform = new Vector3(x, y, z + 50);    //이벤트 좌표값
+        Vector3 enem_transform = new Vector3(x, y, z + 50f);    //이벤트 좌표값
         Enemy tornado = Instantiate(events[0], enem_transform, indirot);   //rotation
         Destroy(tornado, 4f);
 

@@ -25658,7 +25658,7 @@ MonoBehaviour:
   spawnAreaCountAtStart: 5
   zDistance: 20
   isBoss: 0
-  SkillsIndicator: {fileID: 7108696636889866876, guid: 9e57d2b7abd41fc4d9b231aab908fd3f,
+  SkillsIndicator: {fileID: 1152037619433109162, guid: 0d51fff929e83cf4daa65d231984134d,
     type: 3}
   panelController: {fileID: 1688787457}
   playerTransform: {fileID: 115934671}
@@ -119121,7 +119121,7 @@ PrefabInstance:
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: health
-      value: 1000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
@@ -119136,7 +119136,7 @@ PrefabInstance:
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: maxhealth
-      value: 1000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8310867128036160256, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}

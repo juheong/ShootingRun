@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2046017594830816841}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 1.2, z: 0}
-  m_LocalScale: {x: 1, y: 1.2, z: 1.2}
+  m_LocalScale: {x: 0.88, y: 1.2, z: 1.2}
   m_Children:
   - {fileID: 2046017596056919638}
   - {fileID: 2046017595586496595}
@@ -94,7 +94,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyType: 5
   maxHealth: 999999
-  curHealth: 999999
   hudDamageText: {fileID: 0}
   bullet: {fileID: 0}
 --- !u!114 &4400454139845834694
@@ -326,7 +325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4996b47e421118e4d8d977b08edd0818, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.3
+      value: 0.224
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4996b47e421118e4d8d977b08edd0818, type: 3}
       propertyPath: m_LocalRotation.w
@@ -385,7 +384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4996b47e421118e4d8d977b08edd0818, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.146
+      value: 0.217
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4996b47e421118e4d8d977b08edd0818, type: 3}
       propertyPath: m_LocalPosition.y
@@ -393,7 +392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4996b47e421118e4d8d977b08edd0818, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.05
+      value: -0.045
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4996b47e421118e4d8d977b08edd0818, type: 3}
       propertyPath: m_LocalRotation.w
