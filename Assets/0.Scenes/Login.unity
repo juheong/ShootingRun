@@ -195,7 +195,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 16
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
@@ -218,7 +218,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -6447722072507503168, guid: 10f3cacccb0c4c547be76836eba20664,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -330,14 +330,14 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113335492}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1524281509}
   - {fileID: 684727458}
   - {fileID: 394850319}
   m_Father: {fileID: 1161365826}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3216,8 +3216,8 @@ RectTransform:
   - {fileID: 1829412374}
   - {fileID: 1691920365}
   - {fileID: 1711872052}
-  - {fileID: 113335493}
   - {fileID: 1889448374}
+  - {fileID: 113335493}
   - {fileID: 735453811}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -5002,7 +5002,7 @@ RectTransform:
   m_Children:
   - {fileID: 1190413597}
   m_Father: {fileID: 1161365826}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
