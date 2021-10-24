@@ -42,14 +42,15 @@ public class Enemy : MonoBehaviour
             AttackSource = this.transform.Find("AttackClip").gameObject.GetComponent<AudioSource>();
         }
 
-
+        Player = GameObject.FindWithTag("Player");
+        playerData = Player.gameObject.GetComponent<Player>();
         switch (enemyType)      //타입에 따른 초기화
         {
             default:
                 break;
             case Type.Burrow:
                 maxHealth = (int)(30 *(1+(stage*0.2)));
-                attackTime = 0.3f;
+                attackTime = 0.3f;                
                 break;
             case Type.Sneak:
                 maxHealth = (int)(30 * (1 + (stage * 0.2)));
@@ -57,16 +58,15 @@ public class Enemy : MonoBehaviour
                 break;
             case Type.Rush:
                 maxHealth = (int)(50 * (1 + (stage * 0.2)));
+                attackTime = 0.3f;
                 break;
             case Type.Range:
+                attackTime = 0.3f;
                 maxHealth = (int)(30 * (1 + (stage * 0.2)));
-                break;
+                break;                     
         }
         curHealth = maxHealth;
-
         InvokeRepeating("Attack", 1, attackTime);
-        Player = GameObject.FindWithTag("Player");
-        playerData = Player.gameObject.GetComponent<Player>();
 
     }
     void Start()
@@ -144,11 +144,11 @@ public class Enemy : MonoBehaviour
                     }
                         break;
                 case Type.Burrow:
-                    if (Vector3.Distance(Player.transform.position, this.transform.position) <= 15f && attacked==1)      //플레이어와 근접했을 때에만 공격
+                    if (Vector3.Distance(Player.transform.position, this.transform.position) <= 20f && attacked==1)      //플레이어와 근접했을 때에만 공격
                     {
                         anim.SetTrigger("onAttack");
                         this.AttackSource.Play();
-                        Invoke("Burrow", 0f);
+                        Burrow();
                         attacked = 0;
                     }
                     break;

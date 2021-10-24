@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131956}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyType: 0
   maxHealth: 99999
-  curHealth: 99999
+  hudDamageText: {fileID: 0}
   bullet: {fileID: 0}
 --- !u!54 &3181044441027819914
 Rigidbody:
@@ -143,10 +143,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6094ade093ad974391c35c2a0f57a6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentCol: {fileID: 13651134}
-  childCol: {fileID: 13651134}
-  childRigid: {fileID: 3181044441027819914}
-  force: 10
-  go_ChildTree: {fileID: 131956}
-  go_Tree_Prefabs: {fileID: 131956}
-  destroyTime: 6
+  speed: 20

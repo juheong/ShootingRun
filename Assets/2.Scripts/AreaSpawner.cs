@@ -139,11 +139,9 @@ public class AreaSpawner : MonoBehaviour
         int index;
         index = 0;
 
-        index = Random.Range(0, len);       //각 몬스터 스폰 확률 (0=range, 1=burrow, 2=rush , 3=sneak)
- 
+        index = Random.Range(0, len);      //각 몬스터 스폰 확률 (0=range, 1=burrow, 2=rush , 3=sneak)    
         Vector3 enem_transform = new Vector3(X_coord, enemies[index].transform.position.y, playerTransform.position.z + 40 + Random.Range(-5.0f, 20.0f));    //몬스터의 좌표값
-
-        Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //1st몬스터 생성, 마지막은 몬스터 회전
+        Instantiate(enemies[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //1st몬스터 생성, 마지막은 몬스터 회전      
     }
 
     public void SpawnObstacle(int len, float X_coord)
@@ -152,7 +150,13 @@ public class AreaSpawner : MonoBehaviour
         index = 0;
 
         index = Random.Range(0, len);       //장애물 스폰 결정
-
+        if (index == 1)
+        {
+            if (X_coord == 0) return;
+            else if (X_coord == -1.5f) X_coord = -3f;
+            else if (X_coord == 1.5f) X_coord = 3f;
+        }
+        
         Vector3 enem_transform = new Vector3(X_coord, obstacles[index].transform.position.y, playerTransform.position.z + 40 + Random.Range(-5.0f, 20.0f));    //장애물 좌표값
 
         Instantiate(obstacles[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //장애물터 생성

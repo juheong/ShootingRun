@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     private float originY = 0.1f;
     private float gravity = -9.81f;
     private float moveTimeY = 0.7f;
-    private float moveTimeYdown = 1f;
+    private float moveTimeYdown = 0.7f;
     private bool isJump = false;
     private bool isSlide = false;
     public float moveSpeed = 20.0f;
@@ -349,7 +349,7 @@ public class Player : MonoBehaviour
     }
 
     IEnumerator OnDamage(int damage)
-    {
+    {      
         health -= damage;
         gameController.DecreaseHealthCount(damage);
         foreach (SkinnedMeshRenderer mesh in meshs)
