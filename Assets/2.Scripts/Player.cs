@@ -15,10 +15,9 @@ public class Player : MonoBehaviour
     public int coin;
     public int score;
     public int kills;
+    public int stage;
     [SerializeField]
     public int health;
-    [SerializeField]
-    private int maxcoin;
     [SerializeField]
     public int maxhealth;
 
@@ -48,7 +47,7 @@ public class Player : MonoBehaviour
     private GameObject mainCamera;
     [SerializeField]
     private GameObject uiObject;
-
+    private AreaSpawner areaSpawner;
     private DataManager data;
     GameObject obj1;
 
@@ -73,6 +72,7 @@ public class Player : MonoBehaviour
         score = 0;
         kills = 0;
         coin = 0;
+        stage = 0;
 
         uiObject.SetActive(false);
         rigibody = GetComponent<Rigidbody>();
@@ -82,7 +82,7 @@ public class Player : MonoBehaviour
         data = obj1.GetComponent<DataManager>();
         EquipWeapon(data.getEquip());
         audioSource = this.gameObject.GetComponent<AudioSource>();
-
+        areaSpawner = GameObject.Find("AreaSpawner").GetComponent<AreaSpawner>();
         //// hasWeapons 배열값들의 트루값을 검사해서 참이면 무기 활성화
         //for (int i = 0; i < hasWeapons.Length; i++)
         //{
@@ -102,9 +102,7 @@ public class Player : MonoBehaviour
             if (!isDie)
             {
                 score_text.text = score.ToString();
-                kills_text.text = kills.ToString();
-
-                coin = (int)(score / 1000);
+                kills_text.text = kills.ToString();                
                 coin_text.text = coin.ToString();
 
                 if (isBoss == true)
@@ -293,21 +291,7 @@ public class Player : MonoBehaviour
             equipWeapon = weapons[weaponIndex].GetComponent<Weapon>();
             equipWeapon.gameObject.SetActive(true);
             Destroy(nearObject);
-        }
-        else if (other.tag == "Item")
-        {
-            Item item = other.GetComponent<Item>();
-            switch (item.type)
-            {
-
-                case Item.Type.Coin:
-                    coin += item.value;
-                    if (coin > maxcoin)
-                        coin = maxcoin;
-                    gameController.IncreaseCoinCount();
-                    break;
-            }
-        }
+        }        
         else if (other.tag == "Obstacle")
         {
             StartCoroutine(OnDamage(20));
@@ -376,7 +360,11 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(2f);
         Time.timeScale = 0;
         PanelController panelController = FindObjectOfType<PanelController>();
-        //data.expUpdate(200);
+        data.expUpdate(200);
+        score =  (score > data.getHighScore()) ? score : data.getHighScore();
+        stage = (areaSpawner.stage > data.getHighStage()) ? areaSpawner.stage : data.getHighStage();
+        data.RankUpdate(score, stage);
+        data.coinUpdate(coin);
         GameObject.Destroy(obj1);
         panelController.OpenPanel(2);
         gameController.InitialLevel();

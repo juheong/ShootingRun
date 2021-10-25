@@ -16,11 +16,29 @@ public class PlayerData
     public int[] levelChart = new int[100];
     public int[] expChart = new int[100];
     public int coin;
+    public string indateRank;
     public string indate;
     public string uuid;
     public int highScore;
+    public int highStage;
     public string equip;
     public bool[] hasItem = new bool[6];
+}
+
+[Serializable]
+public class RankData
+{
+    private string name;
+    private int rank;
+    private int score;
+    private int stage;
+    public RankData(string name, int rank, int score, int stage)
+    {
+        this.name = name;
+        this.rank = rank;
+        this.score = score;
+        this.stage = stage;
+    }
 }
 
 [Serializable]
@@ -115,10 +133,27 @@ public class DataManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI textExp;
     [SerializeField]
+    private TextMeshProUGUI textMRank;
+    [SerializeField]
+    private TextMeshProUGUI textMRankName;
+    [SerializeField]
+    private TextMeshProUGUI textMRankScore;
+    [SerializeField]
+    private TextMeshProUGUI textMRankStage;
+    private TextMeshProUGUI textRank;
+    private TextMeshProUGUI textRankName;
+    private TextMeshProUGUI textRankScore;
+    private TextMeshProUGUI textRankStage;
 
     public PlayerData player;
     public WeaponData[] weapon;
     public ItemData[] item;
+    public RankData[] rankdata;
+
+    public GameObject Rank1;
+    public GameObject Rank2;
+    public GameObject Rank3;
+    public GameObject Rank4;
 
     private void Update()
     {
@@ -132,11 +167,13 @@ public class DataManager : MonoBehaviour
         int Exp = 0;
         int Coin = 0;
         int Score = 0;
+        int Stage = 0;
         Param param = new Param();
         param.Add("Level", Level);
         param.Add("Exp", Exp);
         param.Add("Coin", Coin);
         param.Add("HighScore", Score);
+        param.Add("HighStage", Stage);
 
         string equipment = "M1911";
 
@@ -190,15 +227,19 @@ public class DataManager : MonoBehaviour
             var exp = bro.Rows()[i]["Exp"]["N"].ToString();
             var coin = bro.Rows()[i]["Coin"]["N"].ToString();
             var score = bro.Rows()[i]["HighScore"]["N"].ToString();
+            var stage = bro.Rows()[i]["HighStage"]["N"].ToString();
             var equip = bro.Rows()[i]["Equip"]["S"].ToString();
-            var indate = bro2.GetReturnValuetoJSON()["row"]["inDate"].ToString();         
-         
+            var indateR = bro.Rows()[i]["inDate"]["S"].ToString();
+            var indate = bro2.GetReturnValuetoJSON()["row"]["inDate"].ToString();
+
+            player.indateRank = indateR;
             player.indate = indate;
             player.nickname = name;
             player.level = int.Parse(level);
             player.current_exp = int.Parse(exp);
             player.coin = int.Parse(coin);
             player.highScore = int.Parse(score);
+            player.highStage = int.Parse(stage);
             player.equip = equip;
             BackendReturnObject bro3 = Backend.Chart.GetChartList();            
             if (bro3.IsSuccess())
@@ -258,8 +299,9 @@ public class DataManager : MonoBehaviour
             else
             {
                 Debug.Log("실패");
-            }            
+            }                       
             ReadItem();
+            getRank();
         }
     }
 
@@ -305,6 +347,15 @@ public class DataManager : MonoBehaviour
         textLevel.text = player.level.ToString();
         textCoin.text = player.coin.ToString();
         textExp.text = player.current_exp.ToString()+ " / " + player.next_exp.ToString();
+        BackendReturnObject bro = Backend.URank.User.GetMyRank("46965e40-359d-11ec-8a8c-53246299c7e2");
+        if (bro.IsSuccess())
+        {   
+            textMRank.text = bro.GetReturnValuetoJSON()["rows"][0]["rank"]["N"].ToString();
+        }        
+        textMRankName.text = player.nickname;
+        textMRankScore.text = player.highScore.ToString();
+        textMRankStage.text = "최고 스테이지 : " + player.highStage.ToString();
+        
     }
 
     public void expUpdate(int value)
@@ -371,6 +422,18 @@ public class DataManager : MonoBehaviour
         }
     }
 
+    public void coinUpdate(int coin)
+    {
+        Param updateParam = new Param();
+        updateParam.AddCalculation("Coin", GameInfoOperator.addition, coin);
+        Where where = new Where();
+        where.Equal("owner_inDate", player.indate);
+        BackendReturnObject bro = Backend.GameData.UpdateWithCalculation("User", where, updateParam);
+        if (bro.IsSuccess())
+        {
+            Debug.Log("코인 업데이트 성공");
+        }
+    }
     public void equipUpdate(string name)
     {
         Param param = new Param();
@@ -385,6 +448,7 @@ public class DataManager : MonoBehaviour
             Debug.Log("장비장착 업데이트 성공");
         }
     }
+
     public void ItemUpdate(string itemId)
     {
         Param param = new Param();
@@ -416,6 +480,77 @@ public class DataManager : MonoBehaviour
             Debug.Log("상점 구매 업데이트 성공");
         }
     }
+
+    public void RankUpdate(int score, int stage)
+    {
+        player.highScore = score;
+        player.highStage = stage;
+        Param param = new Param();
+        param.Add("HighScore", score);
+        param.Add("HighStage", stage);
+        
+        BackendReturnObject bro = Backend.URank.User.UpdateUserScore("46965e40-359d-11ec-8a8c-53246299c7e2", "User", player.indateRank, param);
+        if (bro.IsSuccess())
+        {
+            Debug.Log("랭킹 갱신");
+        }
+        else
+        {
+            errorCode(bro.GetStatusCode(), bro.GetMessage());
+        }
+    }
+
+    public void getRank()    
+    {    
+        BackendReturnObject bro = Backend.URank.User.GetRankList("46965e40-359d-11ec-8a8c-53246299c7e2");
+        if (bro.IsSuccess())
+        {            
+            GameObject RImage;
+            var rows = bro.GetReturnValuetoJSON()["rows"];
+            rankdata = new RankData[rows.Count];
+            for (int i = 0; i < rows.Count; ++i)
+            {
+                var name = rows[i]["nickname"]["S"].ToString();
+                var score = rows[i]["score"]["N"].ToString();
+                var stage = rows[i]["HighStage"]["N"].ToString();
+                var rank = rows[i]["rank"]["N"].ToString();
+                rankdata[i] = new RankData(name, int.Parse(rank), int.Parse(score), int.Parse(stage));
+
+                switch (i)
+                {
+                    case 0:
+                        RImage = Instantiate(Rank1) as GameObject;
+                        break;
+                    case 1:
+                        RImage = Instantiate(Rank2) as GameObject;
+                        break;
+                    case 2:
+                        RImage = Instantiate(Rank3) as GameObject;
+                        break;
+                    default:
+                        RImage = Instantiate(Rank4) as GameObject;
+                        textRank = RImage.transform.Find("Text_Rank").GetComponent<TextMeshProUGUI>();
+                        textRank.text = rank;  
+                        break;
+                }                
+                RImage.transform.parent = GameObject.Find("RContent").transform;
+                RImage.transform.localScale = new Vector3(1, 1, 1);                            
+                RImage.SetActive(true);                
+                RImage.transform.localPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                textRankName = RImage.transform.Find("Text_NickName").GetComponent<TextMeshProUGUI>();
+                textRankScore = RImage.transform.Find("Text_Score").GetComponent<TextMeshProUGUI>();
+                textRankStage = RImage.transform.Find("Text_Stage").GetComponent<TextMeshProUGUI>();                        
+                textRankName.text = name;
+                textRankScore.text = score;
+                textRankStage.text = "최고 스테이지 : " + stage;
+            }            
+        }
+        else
+        {
+            errorCode(bro.GetStatusCode(), bro.GetMessage());
+        }
+    }
+
     public string getName()
     {
         return player.nickname;
@@ -430,7 +565,16 @@ public class DataManager : MonoBehaviour
     {
         return player.current_exp;
     }
-   
+
+    public int getHighScore()
+    {
+        return player.highScore;
+    }
+
+    public int getHighStage()
+    {
+        return player.highStage;
+    }
     public string getEquip()
     {
         if (player.equip != "")
@@ -447,8 +591,12 @@ public class DataManager : MonoBehaviour
     {
         switch (code)
         {
+            case "400":
+                Debug.Log(msg);
+                break;
             case "404":
                 Debug.Log("존재하지 않는 tableName인 경우");
+                Debug.Log(msg);
                 break;
 
             case "412":

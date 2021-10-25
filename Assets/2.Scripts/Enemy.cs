@@ -12,7 +12,8 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private int maxHealth;
     private int curHealth;
-
+    [SerializeField]
+    private int coin;
     public GameObject hudDamageText;
     public GameObject bullet;
     private bool isDie = false;
@@ -216,6 +217,7 @@ public class Enemy : MonoBehaviour
             Destroy(gameObject, 1f);
             playerData.score += 150;
             ++playerData.kills;
+            playerData.coin += coin;            
         }
     }
 

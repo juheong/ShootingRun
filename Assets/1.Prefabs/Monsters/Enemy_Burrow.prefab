@@ -1145,6 +1145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyType: 3
   maxHealth: 0
+  coin: 3
   hudDamageText: {fileID: 7133056171419683482, guid: 29b4b66f16535d343866829af050c5d6,
     type: 3}
   bullet: {fileID: 0}

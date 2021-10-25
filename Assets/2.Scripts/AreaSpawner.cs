@@ -83,6 +83,7 @@ public class AreaSpawner : MonoBehaviour
             Debug.Log("clear!");
             Time.timeScale = 0;
             panelController.OpenPanel(3);
+            stage += 1;
             clear = 0;
             obsStart = Random.Range(10, 25);     //장애물 스폰 시작점
             obsEND = Random.Range(obsStart + 3, 47);        //끝점
