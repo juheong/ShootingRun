@@ -83,55 +83,56 @@ public class AreaSpawner : MonoBehaviour
             Debug.Log("clear!");
             Time.timeScale = 0;
             panelController.OpenPanel(3);
-            stage += 1;
             clear = 0;
             obsStart = Random.Range(10, 25);     //장애물 스폰 시작점
             obsEND = Random.Range(obsStart + 3, 47);        //끝점
         }
 
-
-        if ( clear>= obsStart&& clear<= obsEND)
+        else
         {
-            float X_coord = -1.5f;        //장애물 X좌표
-            for (int i = 0; i < 3; i++)
+            if (clear >= obsStart && clear <= obsEND)
             {
-                isSpawn = Random.Range(0, 10);       //스폰 할 것 인지 말 것인지 (70%)
-                if (isSpawn > 2)
-                    SpawnObstacle(O_len, X_coord);
-                X_coord += 1.5f;
+                float X_coord = -1.5f;        //장애물 X좌표
+                for (int i = 0; i < 3; i++)
+                {
+                    isSpawn = Random.Range(0, 10);       //스폰 할 것 인지 말 것인지 (70%)
+                    if (isSpawn > 2)
+                        SpawnObstacle(O_len, X_coord);
+                    X_coord += 1.5f;
+                }
             }
-        }
-        else if (clear<=55 && clear>=8)
-        {
-            float X_coord = -1.5f;        //몬스터 X좌표
-
-            for (int i = 0; i < 3; i++)
+            else if (clear <= 55 && clear >= 8)
             {
-                isSpawn = Random.Range(0, 10);       //스폰 할 것 인지 말 것인지 (70%)
-                if (isSpawn > 2)
-                    SpawnMonster(E_len, X_coord);
-                X_coord += 1.5f;
+                float X_coord = -1.5f;        //몬스터 X좌표
+
+                for (int i = 0; i < 3; i++)
+                {
+                    isSpawn = Random.Range(0, 10);       //스폰 할 것 인지 말 것인지 (70%)
+                    if (isSpawn > 2)
+                        SpawnMonster(E_len, X_coord);
+                    X_coord += 1.5f;
+                }
             }
-        }
 
 
-        if (clear <55 && clear %10==0)       // clear 조건에 따라 토네이도 이벤트 발생
-        {
-            int loc;
-
-            loc = Random.Range(0, 3);       //토네이도 위치를 위한 랜덤변수
-            if (loc == 0)       //좌측
+            if (clear < 55 && clear % 10 == 0)       // clear 조건에 따라 토네이도 이벤트 발생
             {
-                StartCoroutine(Tornado(-1f, 1f, playerTransform.position.z));
+                int loc;
+
+                loc = Random.Range(0, 3);       //토네이도 위치를 위한 랜덤변수
+                if (loc == 0)       //좌측
+                {
+                    StartCoroutine(Tornado(-1f, 1f, playerTransform.position.z));
+                }
+                else if (loc == 1)        //중간
+                {
+                    StartCoroutine(Tornado(0f, 1f, playerTransform.position.z));
+                }
+                else           //우측
+                {
+                    StartCoroutine(Tornado(1f, 1f, playerTransform.position.z));
+                }
             }
-            else if (loc == 1)        //중간
-            {
-                StartCoroutine(Tornado(0f, 1f, playerTransform.position.z));
-            }
-            else           //우측
-            {
-                StartCoroutine(Tornado(1f, 1f, playerTransform.position.z));
-            } 
         }
     }
 

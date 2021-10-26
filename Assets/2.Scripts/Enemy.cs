@@ -201,13 +201,14 @@ public class Enemy : MonoBehaviour
         }
         else
         {
+            gameObject.GetComponent<BoxCollider>().enabled = false;     //충돌판정 off
+
             foreach (SkinnedMeshRenderer mesh in meshs)
                 mesh.material.color = Color.gray;
             LayerUpdate(gameObject.transform, "EnemyDead");
             gameObject.tag = "EnemyDead";
             anim.SetTrigger("doDie");
-            isDie = true;
-            
+
             // 몬스터 죽을 시 날라가는 효과
             //reactVec = reactVec.normalized;
             //reactVec += Vector3.up * 1.5f;
@@ -215,9 +216,13 @@ public class Enemy : MonoBehaviour
             //rigid.freezeRotation = false;
             //rigid.AddForce(reactVec * 10, ForceMode.Impulse);
             Destroy(gameObject, 1f);
-            playerData.score += 150;
-            ++playerData.kills;
-            playerData.coin += coin;            
+            if (!isDie)     //score가 비정상적으로 오르는 버그 방지
+            {
+                playerData.score += 150;
+                ++playerData.kills;
+            }
+            isDie = true;
+
         }
     }
 

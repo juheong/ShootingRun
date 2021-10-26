@@ -32,7 +32,10 @@ public class GameController : MonoBehaviour
         textlevel.text = data.getLevel().ToString();
         textexp.text = data.getExp().ToString();
     }
-
+    private void Update()
+    {
+        sliderHealthCount.value = (float)healthCount / 100f;
+    }
     public void InitialLevel()
     {
         textlevel.text = data.getLevel().ToString();
@@ -52,7 +55,6 @@ public class GameController : MonoBehaviour
     public void InitialHealth(int health)
     {
         healthCount = health;
-        sliderHealthCount.value = (float)healthCount/100f;
         //textHealthCount.text = healthCount.ToString();
     }
 

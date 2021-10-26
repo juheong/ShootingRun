@@ -129,12 +129,11 @@ MonoBehaviour:
   type: 1
   type2: 0
   damage: 10
-  rate: 0.12
+  rate: 0.15
   range: 0.8
   bulletPos: {fileID: 0}
   bulletPrefab: {fileID: -4209495018278746016, guid: 7d0b90a1012893d4da2e9e31dc94fa02,
     type: 3}
-  audioSource: {fileID: 0}
 --- !u!82 &3164674402171528733
 AudioSource:
   m_ObjectHideFlags: 0

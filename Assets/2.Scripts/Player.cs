@@ -101,8 +101,10 @@ public class Player : MonoBehaviour
         {
             if (!isDie)
             {
+                coin = (int)(score / 3000) + kills;
+
                 score_text.text = score.ToString();
-                kills_text.text = kills.ToString();                
+                kills_text.text = kills.ToString();               
                 coin_text.text = coin.ToString();
 
                 if (isBoss == true)
@@ -360,15 +362,9 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(2f);
         Time.timeScale = 0;
         PanelController panelController = FindObjectOfType<PanelController>();
-        data.expUpdate(200);
-        score =  (score > data.getHighScore()) ? score : data.getHighScore();
-        stage = (areaSpawner.stage > data.getHighStage()) ? areaSpawner.stage : data.getHighStage();
-        data.RankUpdate(score, stage);
-        data.coinUpdate(coin);
         GameObject.Destroy(obj1);
         panelController.OpenPanel(2);
-        gameController.InitialLevel();
-        gameController.InitialExp();
+
     }
 
     public void Attack()
