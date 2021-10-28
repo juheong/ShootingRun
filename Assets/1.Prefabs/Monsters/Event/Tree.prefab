@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 493882}
   - component: {fileID: 3327966}
   - component: {fileID: 2352006}
-  - component: {fileID: 13651134}
-  - component: {fileID: -8950386227126152616}
   - component: {fileID: 3181044441027819914}
   - component: {fileID: 2054639391198388851}
-  m_Layer: 10
+  - component: {fileID: -6255082630588009332}
+  m_Layer: 0
   m_Name: Tree
-  m_TagString: Enemy
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,36 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &13651134
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 131956}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 2.1462612
-  m_Height: 9.017058
-  m_Direction: 1
-  m_Center: {x: 0, y: 4.2201676, z: -0.08100402}
---- !u!114 &-8950386227126152616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 131956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cd4b0c72c0c2354191349c5c30a7d48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyType: 0
-  maxHealth: 99999
-  hudDamageText: {fileID: 0}
-  bullet: {fileID: 0}
 --- !u!54 &3181044441027819914
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -144,3 +113,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+--- !u!136 &-6255082630588009332
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131956}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1
+  m_Height: 9.017058
+  m_Direction: 1
+  m_Center: {x: 0, y: 4.2201676, z: -0.08100402}

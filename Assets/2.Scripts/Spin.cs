@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class Spin : MonoBehaviour
 {
+    Rigidbody rigid;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        rigid = GetComponent<Rigidbody>();
+        rigid.AddForce(transform.forward * 20, ForceMode.Impulse);
+
     }
 
     float timer = 0f;

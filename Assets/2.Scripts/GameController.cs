@@ -20,9 +20,9 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI textexp;
     public Slider sliderHealthCount;
-    private int healthCount = 100;
     private DataManager data;
     GameObject obj1;
+    Player player;
 
     private void Start()
     {
@@ -31,10 +31,11 @@ public class GameController : MonoBehaviour
         textname.text = data.getName();
         textlevel.text = data.getLevel().ToString();
         textexp.text = data.getExp().ToString();
+        player = GameObject.FindWithTag("Player").GetComponent<Player>();
     }
     private void Update()
     {
-        sliderHealthCount.value = (float)healthCount / 100f;
+        sliderHealthCount.value = (float)player.health / (float)player.maxhealth;
     }
     public void InitialLevel()
     {
@@ -52,11 +53,7 @@ public class GameController : MonoBehaviour
         textCoinCount.text = coinCount.ToString();
     }
 
-    public void InitialHealth(int health)
-    {
-        healthCount = health;
-        //textHealthCount.text = healthCount.ToString();
-    }
+
 
     public void IncreaseCoinCount()
     {
@@ -64,20 +61,6 @@ public class GameController : MonoBehaviour
         textCoinCount.text = coinCount.ToString();
     }
 
-    public void DecreaseHealthCount(int damage)
-    {
-        if( healthCount < damage)
-        {
-            healthCount = 0;
-        }
-        else
-        {
-            healthCount -= damage;
-        }
-
-        sliderHealthCount.value = (float)healthCount/100f;
-        //textHealthCount.text = healthCount.ToString();
-    }
 
     public void GameOver()
     {

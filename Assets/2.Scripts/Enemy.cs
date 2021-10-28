@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public enum Type {Basic, Rush, Range ,Burrow, Sneak, Stone};
+    public enum Type {Basic, Rush, Range ,Burrow, Sneak};
     public Type enemyType;
     private AudioSource audioSource;        //피격 효과음
     private AudioSource AttackSource;       //공격 효과음
@@ -68,19 +68,8 @@ public class Enemy : MonoBehaviour
         }
         curHealth = maxHealth;
         InvokeRepeating("Attack", 1, attackTime);
-
-    }
-    void Start()
-    {
-        switch (enemyType)
-        {
-            default:
-                break;
-            case Type.Stone:
-                rigid.AddForce(transform.forward * 20, ForceMode.Impulse);
-                break;
-        }
         Destroy(this.gameObject, 4f);
+
     }
     private void Update()
     {
@@ -160,9 +149,6 @@ public class Enemy : MonoBehaviour
                         this.AttackSource.Play();
                         StartCoroutine(Bee_Sting());
                     }
-                    break;
-                case Type.Stone:
-                    //rigid.AddForce(transform.forward * 30, ForceMode.Impulse);
                     break;
             }
         }

@@ -9,7 +9,7 @@ public class AreaSpawner : MonoBehaviour
     [SerializeField]
     private GameObject[] areaPrefabs;
     public Enemy[] enemies;
-    public Enemy[] obstacles;
+    public GameObject[] obstacles;
     public Enemy[] events;
     //public MiddleBoss middleboss;
     [SerializeField]
@@ -35,12 +35,14 @@ public class AreaSpawner : MonoBehaviour
     private int obsEND;
     private int E_len;
     private int O_len;
+    private int treeCount;
 
     private void Awake()
     {
         stage = 1;
         clear = 0;
 
+        treeCount = 0;
         obsStart = Random.Range(10, 25);     //장애물 스폰 시작점
         obsEND = Random.Range(obsStart + 3, 47);        //끝점
         E_len = enemies.Length;
@@ -154,6 +156,14 @@ public class AreaSpawner : MonoBehaviour
         index = Random.Range(0, len);       //장애물 스폰 결정
         if (index == 1)
         {
+            if (treeCount < 2)
+            {
+                treeCount++;
+                return;
+            }
+            else
+                treeCount = 0;
+
             if (X_coord == 0) return;
             else if (X_coord == -1.5f) X_coord = -3f;
             else if (X_coord == 1.5f) X_coord = 3f;
@@ -161,13 +171,13 @@ public class AreaSpawner : MonoBehaviour
         
         Vector3 enem_transform = new Vector3(X_coord, obstacles[index].transform.position.y, playerTransform.position.z + 40 + Random.Range(-5.0f, 20.0f));    //장애물 좌표값
 
-        Instantiate(obstacles[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //장애물터 생성
+        Instantiate(obstacles[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //장애물 생성
     }
 
     IEnumerator Tornado(float x, float y, float z)
     {
         z += 15f;
-        Vector3 Indi_position = new Vector3(x, y, z+10f);
+        Vector3 Indi_position = new Vector3(x, y, z);
         GameObject skill_indicator = Instantiate(SkillsIndicator, Indi_position, transform.rotation);
         skill_indicator.transform.LookAt(Player.transform);
 

@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
 
 
     public int coin;
+    public int getCoin;
     public int score;
     public int kills;
     public int stage;
@@ -73,6 +74,7 @@ public class Player : MonoBehaviour
         kills = 0;
         coin = 0;
         stage = 0;
+        getCoin = 3000;
 
         uiObject.SetActive(false);
         rigibody = GetComponent<Rigidbody>();
@@ -101,7 +103,7 @@ public class Player : MonoBehaviour
         {
             if (!isDie)
             {
-                coin = (int)(score / 3000) + kills;
+                coin = (int)(score / getCoin) + kills;
 
                 score_text.text = score.ToString();
                 kills_text.text = kills.ToString();               
@@ -337,7 +339,6 @@ public class Player : MonoBehaviour
     IEnumerator OnDamage(int damage)
     {      
         health -= damage;
-        gameController.DecreaseHealthCount(damage);
         foreach (SkinnedMeshRenderer mesh in meshs)
             mesh.material.color = Color.red;
         yield return new WaitForSeconds(0.1f);

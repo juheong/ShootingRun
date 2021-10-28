@@ -99,7 +99,10 @@ public class ButtonUpgrade : MonoBehaviour
     }
     public void MaxHPUp()
     {
-        playerData.maxhealth = (int)(playerData.maxhealth * 1.5f);
+        int upHp;
+        upHp = (int)(playerData.maxhealth*0.5f);
+        playerData.maxhealth += upHp;
+        playerData.health += upHp;
     }
     public void HealHp()
     {
@@ -107,5 +110,6 @@ public class ButtonUpgrade : MonoBehaviour
     }
     public void CoinUp()
     {
+        playerData.getCoin = (int)(playerData.getCoin * 0.75f);
     }
 }
