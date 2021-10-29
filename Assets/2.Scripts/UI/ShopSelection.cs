@@ -9,7 +9,6 @@ public class ShopSelection : MonoBehaviour
     private DataManager data;
     public GameObject[] things;
     private TabManager tab;
-    private ActiveShop activeShop;
 
     GameObject obj1;
     GameObject obj2;
@@ -21,7 +20,6 @@ public class ShopSelection : MonoBehaviour
 
         data = GameObject.Find("DataManager").GetComponent<DataManager>();
         tab = obj1.GetComponent<TabManager>();
-        activeShop = GameObject.Find("ShopPanel").GetComponent<ActiveShop>();
     }
 
     public void SelectThing(int num)        //선택기능
