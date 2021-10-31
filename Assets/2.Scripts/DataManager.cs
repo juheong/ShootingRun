@@ -22,7 +22,7 @@ public class PlayerData
     public int highScore;
     public int highStage;
     public string equip;
-    public bool[] hasItem = new bool[6];
+    public bool[] hasItem = new bool[17];
 }
 
 [Serializable]
@@ -187,9 +187,16 @@ public class DataManager : MonoBehaviour
         }
         else
         {
-            errorCode(BRO.GetStatusCode(), BRO.GetMessage());            
+            errorCode(BRO.GetStatusCode(), BRO.GetMessage());
         }
+
         //=============== 아이템 데이터 추가 =================      // 처음엔 M1911만 지닌 채로 시작
+        InitInventory();
+
+    }
+    public void InitInventory()
+    {
+        //무기 데이터
         Dictionary<string, bool> Weapon = new Dictionary<string, bool>
         {
             { "101", true},
@@ -200,12 +207,24 @@ public class DataManager : MonoBehaviour
             { "106", false}
 
         };
-        Param param2 = new Param();
-        param2.Add("Weapon", Weapon);
-        BackendReturnObject BRO2 = Backend.GameData.Insert("Item", param2);
-        
+        //스킨 데이터
+        Dictionary<string, bool> Skin = new Dictionary<string, bool> { };
+        int i, j;
+        for (i = 310; i < 340; i += 10)     //반복문으로 스킨 데이터 입력
+        {
+            for(j=1;j<4;j++)
+            {
+                Skin.Add((i + j).ToString(), false);
+            }
+        }
+        Param param = new Param();
+        param.Add("Weapon", Weapon);
+        //param.Add("Skin", Skin);
 
+        BackendReturnObject BRO = Backend.GameData.Insert("Item", param);
+        Debug.Log("신규 정보 입력 완료");
     }
+
 
     public void ReadData()
     {
@@ -220,8 +239,8 @@ public class DataManager : MonoBehaviour
             Debug.Log(bro);
             return;
         }
-        for (int i = 0; i < bro.Rows().Count; ++i)          
-        {   BackendReturnObject bro2 = Backend.BMember.GetUserInfo();
+        for (int i = 0; i < bro.Rows().Count; ++i)
+        { BackendReturnObject bro2 = Backend.BMember.GetUserInfo();
             var name = bro2.GetReturnValuetoJSON()["row"]["nickname"].ToString();
             var level = bro.Rows()[i]["Level"]["N"].ToString();
             var exp = bro.Rows()[i]["Exp"]["N"].ToString();
@@ -241,21 +260,21 @@ public class DataManager : MonoBehaviour
             player.highScore = int.Parse(score);
             player.highStage = int.Parse(stage);
             player.equip = equip;
-            BackendReturnObject bro3 = Backend.Chart.GetChartList();            
+            BackendReturnObject bro3 = Backend.Chart.GetChartList();
             if (bro3.IsSuccess())
             {
 
                 var uuid = bro3.GetReturnValuetoJSON()["rows"][1]["selectedChartFileId"]["N"].ToString();
-                BackendReturnObject bro4 = Backend.Chart.GetAllChartAndSave(true);                
+                BackendReturnObject bro4 = Backend.Chart.GetAllChartAndSave(true);
                 if (bro4.IsSuccess())
                 {
                     Debug.Log("차트 로드 성공");
                     JsonData levelChart = JsonMapper.ToObject(Backend.Chart.GetLocalChartData("Level"));
-                    var rows = levelChart["rows"];                            
+                    var rows = levelChart["rows"];
                     for (int j = 0; j < rows.Count; j++)
                     {
                         var lev = rows[j]["Level"]["S"].ToString();
-                        player.levelChart[j] = int.Parse(lev);                                
+                        player.levelChart[j] = int.Parse(lev);
                         var ex = rows[j]["Exp"]["S"].ToString();
                         player.expChart[j] = int.Parse(ex);
                         if (player.level == player.levelChart[j])
@@ -263,6 +282,7 @@ public class DataManager : MonoBehaviour
                             player.next_exp = player.expChart[j];
                         }
                     }
+                    //Weapon Chart를 통한 무기 정보 입력
                     JsonData weaponChart = JsonMapper.ToObject(Backend.Chart.GetLocalChartData("Weapon"));
                     var rows2 = weaponChart["rows"];
                     weapon = new WeaponData[rows2.Count];
@@ -275,11 +295,12 @@ public class DataManager : MonoBehaviour
                         var damage = rows2[j]["damage"]["S"].ToString();
                         var rate = rows2[j]["rate"]["S"].ToString();
                         var range = rows2[j]["range"]["S"].ToString();
-                        weapon[j] = new WeaponData(int.Parse(id), weaponname, type, dis, int.Parse(damage), 
+                        weapon[j] = new WeaponData(int.Parse(id), weaponname, type, dis, int.Parse(damage),
                             float.Parse(rate), float.Parse(range));
                     }
 
-                    JsonData itemChart = JsonMapper.ToObject(Backend.Chart.GetLocalChartData("Store"));     //상점 차트 읽기
+                    //itemChart를 통한 상점 정보 입력
+                    JsonData itemChart = JsonMapper.ToObject(Backend.Chart.GetLocalChartData("Store"));
                     var rows3 = itemChart["rows"];
                     item = new ItemData[rows3.Count];
                     for (int j = 0; j < rows3.Count; j++)
@@ -290,7 +311,8 @@ public class DataManager : MonoBehaviour
                         var price = rows3[j]["Price"]["S"].ToString();
                         item[j] = new ItemData(int.Parse(id), itemName, type, int.Parse(price));
                     }
-                }                                                   
+
+                }
                 else
                 {
                     Debug.Log("실패");
@@ -299,7 +321,20 @@ public class DataManager : MonoBehaviour
             else
             {
                 Debug.Log("실패");
-            }                       
+            }
+            string[] select = { "owner_inDate", "Skin" };
+
+            //스킨 정보 확인 후 추가
+            var bro0 = Backend.GameData.GetMyData("Item", new Where(), select);
+            var data0 = bro0.GetReturnValuetoJSON();
+            try
+            {
+                Debug.Log(data0["rows"][0]["Skin"].Count);
+            }
+            catch (Exception ex)
+            {
+                addSkinData();
+            }
             ReadItem();
             getRank();
         }
@@ -324,22 +359,58 @@ public class DataManager : MonoBehaviour
 
         for (int i = 0; i < bro.Rows().Count; ++i)
         {  
-            //수가 많아지면 int형 변수를 통해서 반복문으로 입력
-            String[] c1 = new String[10];
-            c1[0] = bro.Rows()[i]["Weapon"][0]["101"]["BOOL"].ToString();
-            c1[1] = bro.Rows()[i]["Weapon"][0]["102"]["BOOL"].ToString();
-            c1[2] = bro.Rows()[i]["Weapon"][0]["103"]["BOOL"].ToString();
-            c1[3] = bro.Rows()[i]["Weapon"][0]["104"]["BOOL"].ToString();
-            c1[4] = bro.Rows()[i]["Weapon"][0]["105"]["BOOL"].ToString();
-            c1[5] = bro.Rows()[i]["Weapon"][0]["106"]["BOOL"].ToString();
+            String[] c1 = new String[17];
+            int key = 101, j;
 
-            for (int j = 0; j < 6; j++)
+            for (j = 0; j < 8; j++)
+            {
+                if (j < 6)
+                    c1[j] = bro.Rows()[i]["Weapon"][0][(key + j).ToString()]["BOOL"].ToString();
+                else if (j == 6)
+                    c1[j] = "false";
+                Debug.Log("무기 품목 확인");
+            }
+            key = 311;
+            for (j=8;j<17;j++)
+            {
+                c1[j] = bro.Rows()[i]["Skin"][0][key.ToString()]["BOOL"].ToString();
+                key++;
+                if (key == 314 || key == 324)
+                    key += 7;
+                Debug.Log("스킨 품목 확인");
+            }
+
+            for (j = 0; j < 17; j++)
             {
                 player.hasItem[j] = Convert.ToBoolean(c1[j]);
             }
         }
     }
+    public void addSkinData()
+    {
+        Param param = new Param();
+        Where where = new Where();
+        where.Equal("owner_inDate", player.indate);
 
+        Dictionary<string, bool> Skin = new Dictionary<string, bool> { };
+        int i, j;
+        for (i = 310; i < 340; i += 10)     //반복문으로 스킨 데이터 입력
+        {
+            for (j = 1; j < 4; j++)
+            {
+                Skin.Add((i + j).ToString(), false);
+            }
+        }
+        param.Add("Skin", Skin);
+
+        BackendReturnObject bro2 = Backend.GameData.Update("Item", where, param);       //서버의 플레이어 정보 업데이트
+        if(bro2.IsSuccess())
+        {
+            ReadItem();
+            Debug.Log("스킨 정보 업데이트 성공");
+        }
+
+    }
     public void SetText()
     {
         //========== 유저 데이터 표시 =============
@@ -451,26 +522,55 @@ public class DataManager : MonoBehaviour
 
     public void ItemUpdate(string itemId)
     {
-        Param param = new Param();
+        int idInt;
+        idInt = Int32.Parse(itemId);
+        Debug.Log(idInt);
 
+        Param param = new Param();
         Where where = new Where();
         where.Equal("owner_inDate", player.indate);
         var bro = Backend.GameData.GetMyData("Item", new Where());      //서버 게임정보/Item 테이블을 가져옴
+
         Dictionary<string, bool> items = new Dictionary<string, bool>();        //업데이트를 위한 딕셔너리
 
-        for (int i=1;i<=6;i++)      //현재 테이블에 존재하는 딕셔너리 복사
+        //200 아래면 무기, 300이상이면 스킨
+        if (idInt < 200)
         {
-            String findId = (100 + i).ToString();
-            if (findId == itemId)       //구매한 품목과 동일하면 true
+            for (int i = 1; i <= 6; i++)      //현재 테이블에 존재하는 딕셔너리 복사
             {
-                items.Add(findId, true);
+                String findId = (100 + i).ToString();
+                if (findId == itemId)       //구매한 품목과 동일하면 true
+                {
+                    items.Add(findId, true);
+                }
+                else
+                {
+                    items.Add(findId, Convert.ToBoolean(bro.Rows()[0]["Weapon"][0][findId]["BOOL"].ToString()));        //동일하지 않은 품목은 그대로 복사
+                }
             }
-            else
-            {
-                items.Add(findId, Convert.ToBoolean(bro.Rows()[0]["Weapon"][0][findId]["BOOL"].ToString()));        //동일하지 않은 품목은 그대로 복사
-            }
+            param.Add("Weapon", items);
         }
-        param.Add("Weapon", items);
+        else if (idInt>300)
+        {
+            for (int i = 10; i <= 30; i+=10)
+            {
+                for(int j=1;j<=3;j++)
+                {
+                    String findId = (300 + i + j).ToString();
+                    Debug.Log(findId);
+                    if (findId == itemId)       //구매한 품목과 동일하면 true
+                    {
+                        items.Add(findId, true);
+                    }
+                    else
+                    {
+                        items.Add(findId, Convert.ToBoolean(bro.Rows()[0]["Skin"][0][findId]["BOOL"].ToString()));        //동일하지 않은 품목은 그대로 복사
+                    }
+                }
+            }
+            param.Add("Skin", items);
+
+        }
 
         BackendReturnObject bro2 = Backend.GameData.Update("Item", where, param);       //서버의 플레이어 정보 업데이트
 
@@ -480,7 +580,6 @@ public class DataManager : MonoBehaviour
             Debug.Log("상점 구매 업데이트 성공");
         }
     }
-
     public void RankUpdate(int score, int stage)
     {
         player.highScore = score;
