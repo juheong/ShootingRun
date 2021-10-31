@@ -13,16 +13,82 @@ public class Weapon : MonoBehaviour
     public float range;
     public Transform bulletPos;
 
-    public Bullet bulletPrefab;
-    private AudioSource audioSource;     //오디오 플레이어
+    public Bullet basicBullet;
+    public Bullet blueBullet;
+    public Bullet darkBullet;
+    public Bullet redBullet;
+    private Bullet selectedBullet;
 
+    private AudioSource audioSource;     //오디오 플레이어
     Bullet newBullet;
+    private DataManager data;
 
     void Start()
     {
+        data = GameObject.Find("DataManager").GetComponent<DataManager>();
         audioSource = this.gameObject.GetComponent<AudioSource>();
-    }
 
+        selectBullet();
+    }
+    private void selectBullet()
+    {
+        switch(type2)
+        {
+            default:
+                break;
+            case Type2.Pistol:
+                switch(data.player.equipSkin[0])
+                {
+                    default:
+                        selectedBullet = basicBullet;
+                        break;
+                    case "311":
+                        selectedBullet = blueBullet;
+                        break;
+                    case "312":
+                        selectedBullet = darkBullet;
+                        break;
+                    case "313":
+                        selectedBullet = redBullet;
+                        break;
+                }
+                break;
+            case Type2.Rifle:
+                switch (data.player.equipSkin[1])
+                {
+                    default:
+                        selectedBullet = basicBullet;
+                        break;
+                    case "321":
+                        selectedBullet = blueBullet;
+                        break;
+                    case "322":
+                        selectedBullet = darkBullet;
+                        break;
+                    case "323":
+                        selectedBullet = redBullet;
+                        break;
+                }
+                break;
+            case Type2.Sniper:
+                switch (data.player.equipSkin[2])
+                {
+                    default:
+                        selectedBullet = basicBullet;
+                        break;
+                    case "331":
+                        selectedBullet = blueBullet;
+                        break;
+                    case "332":
+                        selectedBullet = darkBullet;
+                        break;
+                    case "333":
+                        selectedBullet = redBullet;
+                        break;
+                }
+                break;
+        }
+    }
     public void Use(bool boss = false)
     {
         if (type == Type.Range)
@@ -41,7 +107,7 @@ public class Weapon : MonoBehaviour
 
     IEnumerator Shoot()
     {
-        newBullet = Instantiate(bulletPrefab, bulletPos.position, bulletPos.rotation) as Bullet;
+        newBullet = Instantiate(selectedBullet, bulletPos.position, bulletPos.rotation) as Bullet;
         newBullet.damage = damage;
         newBullet.brange = range;
         Rigidbody bulletRigid = newBullet.GetComponent<Rigidbody>();
@@ -54,7 +120,7 @@ public class Weapon : MonoBehaviour
     IEnumerator BossShoot()
     {
         yield return new WaitForSeconds(0.5f);
-        newBullet = Instantiate(bulletPrefab, bulletPos.position, bulletPos.rotation) as Bullet;
+        newBullet = Instantiate(selectedBullet, bulletPos.position, bulletPos.rotation) as Bullet;
         Rigidbody bulletRigid = newBullet.GetComponent<Rigidbody>();
         bulletRigid.velocity = bulletPos.forward * 50;
         newBullet.damage += this.damage;

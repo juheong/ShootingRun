@@ -23317,7 +23317,11 @@ MonoBehaviour:
     highScore: 0
     highStage: 0
     equip: 
-    hasItem: 000000000000
+    equipSkin:
+    - 
+    - 
+    - 
+    hasItem: 0000000000000000000000000000000000
   weapon: []
   rankdata: []
   Rank1: {fileID: 0}

@@ -77,11 +77,9 @@ public class WeaponSelection : MonoBehaviour
 
 	public void EquipWeapon()
     {
-		if (equipedWeapon == selectedWeapon) return;
 		if (equipedWeapon == -1)
-        {
 			equipedWeapon = selectedWeapon;
-        }
+
 		equipImage = weapon[equipedWeapon].GetComponent<Image>();
 		equipImage.sprite = basicSprite;
 		weapon[equipedWeapon].transform.parent.Find("Text_State").gameObject.SetActive(false);

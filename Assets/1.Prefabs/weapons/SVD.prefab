@@ -53,7 +53,13 @@ MonoBehaviour:
   rate: 0.6
   range: 2
   bulletPos: {fileID: 0}
-  bulletPrefab: {fileID: 2411230585462366827, guid: 3ce53d8e70445004299196bae55a8309,
+  basicBullet: {fileID: 2411230585462366827, guid: 3ce53d8e70445004299196bae55a8309,
+    type: 3}
+  blueBullet: {fileID: 3264193216470511503, guid: b063e7b33fada3540b5a8c736326c301,
+    type: 3}
+  darkBullet: {fileID: -7581116891702569702, guid: 678ba4ec063588d47b674366fdc6b52f,
+    type: 3}
+  redBullet: {fileID: 9147858969236692773, guid: 88241e789e813d543bfcc94b6da0df28,
     type: 3}
 --- !u!82 &7649442605043352185
 AudioSource:

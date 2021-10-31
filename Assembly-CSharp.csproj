@@ -60,6 +60,7 @@
      <Compile Include="Assets\2.Scripts\PlayerAnimator.cs" />
      <Compile Include="Assets\EffectCore\packs\WebDemoAssets\scripts\ECCameraShakeProjectile.cs" />
      <Compile Include="Assets\2.Scripts\UI\ScrollScript.cs" />
+     <Compile Include="Assets\2.Scripts\SkinNumbers.cs" />
      <Compile Include="Assets\Hovl Studio\Epic toon VFX\Demo scene\DemoToonVFX.cs" />
      <Compile Include="Assets\2.Scripts\LoginManager.cs" />
      <Compile Include="Assets\2.Scripts\UI\SkinSelection.cs" />
@@ -91,6 +92,7 @@
      <Compile Include="Assets\2.Scripts\DebugToScreen.cs" />
      <Compile Include="Assets\2.Scripts\Tree_Component.cs" />
      <Compile Include="Assets\2.Scripts\UI\LoadingSceneController.cs" />
+     <Compile Include="Assets\2.Scripts\UI\EquipItems.cs" />
      <Compile Include="Assets\2.Scripts\Weapon.cs" />
      <Compile Include="Assets\GUI_Kit_Casual_Game\Extensions\UIParticle\UIParticleSystem.cs" />
      <Compile Include="Assets\2.Scripts\Item.cs" />
