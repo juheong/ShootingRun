@@ -7,6 +7,8 @@ public class DataSet : MonoBehaviour
 {
     DataManager data;
     private WeaponSelection weaponSelect;
+    private SkinSelection skinSelection;
+
     GameObject obj1;
 
     void Start()
@@ -19,6 +21,12 @@ public class DataSet : MonoBehaviour
         {
             weaponSelect = obj1.GetComponent<WeaponSelection>();
             weaponSelect.InitialWeapon(data.player.equip);
+
+            skinSelection = obj1.GetComponent<SkinSelection>();
+            for (int i = 0; i < 3; i++)
+            {
+                skinSelection.InitialSkin(data.player.equipSkin[i],i);
+            }
         }        
         DontDestroyOnLoad(this.gameObject);
 

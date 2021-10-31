@@ -101,7 +101,7 @@ Material:
     - X_Axis: -0.024
     - Y_Axis: 0
     - _AlphaClip: 0
-    - _Amount: 0.005
+    - _Amount: 0
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0

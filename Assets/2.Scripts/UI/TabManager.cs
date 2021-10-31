@@ -7,7 +7,7 @@ public class TabManager : MonoBehaviour
 {
     public GameObject[] Panel;
     public RectTransform[] BtnRectImage;
-    private int targetIndex;
+    public int targetIndex;
 
     //public Image[] TabBtnImage;
     //public Sprite[] IdleSprite, SelectSprite;

@@ -22,6 +22,7 @@ public class PlayerData
     public int highScore;
     public int highStage;
     public string equip;
+    public string[] equipSkin = new string[3];
     public bool[] hasItem = new bool[17];
 }
 
@@ -168,12 +169,18 @@ public class DataManager : MonoBehaviour
         int Coin = 0;
         int Score = 0;
         int Stage = 0;
+        string[] equipskin = new string[3];
+        equipskin[0] = "310";
+        equipskin[1] = "320";
+        equipskin[2] = "330";
+
         Param param = new Param();
         param.Add("Level", Level);
         param.Add("Exp", Exp);
         param.Add("Coin", Coin);
         param.Add("HighScore", Score);
         param.Add("HighStage", Stage);
+        //param.Add("EquipSkin",equipskin);
 
         string equipment = "M1911";
 
@@ -219,7 +226,7 @@ public class DataManager : MonoBehaviour
         }
         Param param = new Param();
         param.Add("Weapon", Weapon);
-        //param.Add("Skin", Skin);
+        param.Add("Skin", Skin);
 
         BackendReturnObject BRO = Backend.GameData.Insert("Item", param);
         Debug.Log("신규 정보 입력 완료");
@@ -260,7 +267,22 @@ public class DataManager : MonoBehaviour
             player.highScore = int.Parse(score);
             player.highStage = int.Parse(stage);
             player.equip = equip;
+            // 장착 스킨이 없으면 업데이트
+            var data0 = bro.GetReturnValuetoJSON();
+            try
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    player.equipSkin[j] = bro.Rows()[i]["EquipSkin"][0][j]["S"].ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                addEquipSkinData();
+
+            }
             BackendReturnObject bro3 = Backend.Chart.GetChartList();
+            //
             if (bro3.IsSuccess())
             {
 
@@ -326,7 +348,7 @@ public class DataManager : MonoBehaviour
 
             //스킨 정보 확인 후 추가
             var bro0 = Backend.GameData.GetMyData("Item", new Where(), select);
-            var data0 = bro0.GetReturnValuetoJSON();
+            data0 = bro0.GetReturnValuetoJSON();
             try
             {
                 Debug.Log(data0["rows"][0]["Skin"].Count);
@@ -335,6 +357,7 @@ public class DataManager : MonoBehaviour
             {
                 addSkinData();
             }
+            //
             ReadItem();
             getRank();
         }
@@ -368,7 +391,6 @@ public class DataManager : MonoBehaviour
                     c1[j] = bro.Rows()[i]["Weapon"][0][(key + j).ToString()]["BOOL"].ToString();
                 else if (j == 6)
                     c1[j] = "false";
-                Debug.Log("무기 품목 확인");
             }
             key = 311;
             for (j=8;j<17;j++)
@@ -377,7 +399,6 @@ public class DataManager : MonoBehaviour
                 key++;
                 if (key == 314 || key == 324)
                     key += 7;
-                Debug.Log("스킨 품목 확인");
             }
 
             for (j = 0; j < 17; j++)
@@ -410,6 +431,32 @@ public class DataManager : MonoBehaviour
             Debug.Log("스킨 정보 업데이트 성공");
         }
 
+    }
+    public void addEquipSkinData()
+    {
+        Param param = new Param();
+        Where where = new Where();
+        where.Equal("owner_inDate", player.indate);
+
+
+        string[] equipskin = new string[3];
+        equipskin[0] = "310";
+        equipskin[1] = "320";
+        equipskin[2] = "330";
+
+        param.Add("EquipSkin", equipskin);
+
+        BackendReturnObject bro2 = Backend.GameData.Update("User", where, param);       //서버의 플레이어 정보 업데이트
+        var bro = Backend.GameData.GetMyData("User", new Where(), 10);
+
+        if (bro2.IsSuccess())
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                player.equipSkin[j] = bro.Rows()[0]["EquipSkin"][0][j]["S"].ToString();
+            }
+            Debug.Log("장착 스킨 업데이트 성공");
+        }
     }
     public void SetText()
     {
@@ -519,12 +566,28 @@ public class DataManager : MonoBehaviour
             Debug.Log("장비장착 업데이트 성공");
         }
     }
+    public void skinUpdate(string name, int num)
+    {
+        Param param = new Param();
+        Where where = new Where();
+        where.Equal("owner_inDate", player.indate);
 
+        player.equipSkin[num] = name;
+        string[] equipskin = new string[3];
+        for(int i=0;i<3;i++)
+             equipskin[i]=player.equipSkin[i];
+        param.Add("EquipSkin", equipskin);
+
+        BackendReturnObject bro = Backend.GameData.Update("User", where, param);
+        if (bro.IsSuccess())
+        {
+            Debug.Log("스킨장착 업데이트 성공");
+        }
+    }
     public void ItemUpdate(string itemId)
     {
         int idInt;
         idInt = Int32.Parse(itemId);
-        Debug.Log(idInt);
 
         Param param = new Param();
         Where where = new Where();
@@ -557,7 +620,6 @@ public class DataManager : MonoBehaviour
                 for(int j=1;j<=3;j++)
                 {
                     String findId = (300 + i + j).ToString();
-                    Debug.Log(findId);
                     if (findId == itemId)       //구매한 품목과 동일하면 true
                     {
                         items.Add(findId, true);

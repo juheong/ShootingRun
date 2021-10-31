@@ -80,7 +80,7 @@ Material:
     - Vector1_7946CFC4: 0
     - X_Axis: 0
     - Y_Axis: 0
-    - _Amount: 0.005
+    - _Amount: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1

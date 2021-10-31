@@ -8,7 +8,7 @@ public class WeaponSelection : MonoBehaviour
 	public GameObject[] weapon;
 	public static int selectedWeapon = 0;
 	public static int equipedWeapon = -1;
-	private Image equipImage;
+	public Image equipImage;
 	public Sprite basicSprite;
 	public Sprite equipSprite;
 	private DataManager data;
