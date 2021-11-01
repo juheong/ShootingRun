@@ -19,14 +19,18 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (Application.isMobilePlatform)
-        {
-            OnMobilePlatform();
-        }
-        else
-        {
-            OnPCPlatform();
-        }
+        if (movement.isScene)
+        { 
+            if (Application.isMobilePlatform)
+            {
+                OnMobilePlatform();
+            }
+            else
+            {
+                OnPCPlatform();
+            }
+
+        }       
     }
 
 

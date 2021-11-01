@@ -51,6 +51,7 @@ public class Player : MonoBehaviour
     private AreaSpawner areaSpawner;
     private DataManager data;
     GameObject obj1;
+    GameObject obj2;
 
     GameObject nearObject;
     Weapon equipWeapon;
@@ -60,7 +61,7 @@ public class Player : MonoBehaviour
 
     private float fireDelay;
     private bool isFireReady;
-    private bool isScene = true;
+    public bool isScene = false;
 
     public TextMeshProUGUI coin_text;
     public TextMeshProUGUI score_text;
@@ -129,26 +130,26 @@ public class Player : MonoBehaviour
         switch (name)
         {
             case "M1911":
-                obj1 = GameObject.Find("Weapon Point").transform.Find("M1911").gameObject;
+                obj2 = GameObject.Find("Weapon Point").transform.Find("M1911").gameObject;
                 break;
             case "PBR":
-                obj1 = GameObject.Find("Weapon Point").transform.Find("PBR").gameObject;
+                obj2 = GameObject.Find("Weapon Point").transform.Find("PBR").gameObject;
                 break;
             case "AK74":
-                obj1 = GameObject.Find("Weapon Point").transform.Find("AK74").gameObject;
+                obj2 = GameObject.Find("Weapon Point").transform.Find("AK74").gameObject;
                 break;
             case "M4_8":
-                obj1 = GameObject.Find("Weapon Point").transform.Find("M4_8").gameObject;
+                obj2 = GameObject.Find("Weapon Point").transform.Find("M4_8").gameObject;
                 break;
             case "M107":
-                obj1 = GameObject.Find("Weapon Point").transform.Find("M107").gameObject;
+                obj2 = GameObject.Find("Weapon Point").transform.Find("M107").gameObject;
                 break;
             case "SVD":
-                obj1 = GameObject.Find("Weapon Point").transform.Find("SVD").gameObject;
+                obj2 = GameObject.Find("Weapon Point").transform.Find("SVD").gameObject;
                 break;
         }
-        obj1.SetActive(true);
-        equipWeapon = obj1.GetComponent<Weapon>();
+        obj2.SetActive(true);
+        equipWeapon = obj2.GetComponent<Weapon>();
     }
     private void FixedUpdate()
     {
@@ -171,7 +172,7 @@ public class Player : MonoBehaviour
             mainCamera.SetActive(true);
             uiObject.SetActive(true);
             cameraController = GameObject.Find("Main Camera").GetComponent<CameraController>();
-            isScene = false;
+            isScene = true;
         }
         else
         {
@@ -182,7 +183,7 @@ public class Player : MonoBehaviour
             mainCamera.SetActive(true);
             uiObject.SetActive(true);
             cameraController = GameObject.Find("Main Camera").GetComponent<CameraController>();
-            isScene = false;
+            isScene = true;
         }
     }
 
@@ -202,13 +203,13 @@ public class Player : MonoBehaviour
 
     public void MoveToYup()
     {
-        if (isJump == true && !isSlide) return;
+        if (isJump == true && !isSlide && isScene) return;
         StartCoroutine(OnMoveToYup());
     }
 
     public void MoveToYdown()
     {
-        if (isSlide == true && !isJump) return;
+        if (isSlide == true && !isJump && isScene) return;
         StartCoroutine(OnMoveToYdown());
     }
 
@@ -353,6 +354,7 @@ public class Player : MonoBehaviour
 
     IEnumerator OnDie()
     {
+        isScene = false;
         isDie = true;
         cameraController.DieCamera();
         playerAnimator.DoDie();

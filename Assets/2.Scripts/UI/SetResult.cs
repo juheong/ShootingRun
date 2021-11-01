@@ -10,6 +10,10 @@ public class SetResult : MonoBehaviour
     public TextMeshProUGUI stageText;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI coinText;
+    [SerializeField]
+    private TextMeshProUGUI textlevel;
+    [SerializeField]
+    private TextMeshProUGUI textexp;
     public GameObject newScore;
     public GameObject newStage;
 
@@ -23,14 +27,13 @@ public class SetResult : MonoBehaviour
     {
         areaSpawner = GameObject.Find("AreaSpawner").GetComponent<AreaSpawner>();
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
-        data = GameObject.Find("DataManager").GetComponent<DataManager>();
-
-        setText();
+        data = GameObject.Find("DataManager").GetComponent<DataManager>();        
 
         //데이터 업데이트
         data.RankUpdate(score, stage);
         data.coinUpdate(player.coin);
         data.expUpdate((int)score / 100);
+        setText();
     }
 
     void setText()      //텍스트 적용
@@ -53,5 +56,7 @@ public class SetResult : MonoBehaviour
         stageText.text = areaSpawner.stage.ToString();
         scoreText.text = player.score.ToString();
         coinText.text = player.coin.ToString();
+        textlevel.text = data.getLevel().ToString();
+        textexp.text = data.getExp().ToString();
     }
 }

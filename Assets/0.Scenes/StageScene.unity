@@ -10738,7 +10738,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &581034803
 GameObject:
@@ -10803,7 +10803,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &588618756
 GameObject:
@@ -11072,7 +11072,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &607873184
 GameObject:
@@ -12948,7 +12948,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &708055279
 GameObject:
@@ -18884,7 +18884,7 @@ RectTransform:
   - {fileID: 1641592602}
   - {fileID: 306105486}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -23253,95 +23253,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131847292}
   m_CullTransparentMesh: 0
---- !u!1 &1132669687
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1132669690}
-  - component: {fileID: 1132669689}
-  - component: {fileID: 1132669688}
-  m_Layer: 0
-  m_Name: DataManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1132669688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1132669687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b27df846813e6644a2be780a74c5167, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1132669689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1132669687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1551d28429f0a2145ade4a57403237f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textName: {fileID: 1098315079}
-  textLevel: {fileID: 491373593}
-  textCoin: {fileID: 77920309}
-  textExp: {fileID: 1184341655}
-  textMRank: {fileID: 0}
-  textMRankName: {fileID: 0}
-  textMRankScore: {fileID: 0}
-  textMRankStage: {fileID: 0}
-  player:
-    nickname: 
-    level: 0
-    current_exp: 0
-    next_exp: 0
-    levelChart: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-    expChart: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-    coin: 0
-    indateRank: 
-    indate: 
-    uuid: 
-    highScore: 0
-    highStage: 0
-    equip: 
-    equipSkin:
-    - 
-    - 
-    - 
-    hasItem: 0000000000000000000000000000000000
-  weapon: []
-  rankdata: []
-  Rank1: {fileID: 0}
-  Rank2: {fileID: 0}
-  Rank3: {fileID: 0}
-  Rank4: {fileID: 0}
---- !u!4 &1132669690
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1132669687}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1140998275
 GameObject:
   m_ObjectHideFlags: 0
@@ -32053,7 +31964,7 @@ PrefabInstance:
     - target: {fileID: 8025215347951476091, guid: 2111e99149cd52248961de84192a4774,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8025215347951476091, guid: 2111e99149cd52248961de84192a4774,
         type: 3}
@@ -41656,11 +41567,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdff7a25545950642b135ba1f51a438d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textCoinCount: {fileID: 77920309}
   textHealthCount: {fileID: 433689925}
   textname: {fileID: 1098315079}
-  textlevel: {fileID: 491373593}
-  textexp: {fileID: 1184341655}
   sliderHealthCount: {fileID: 561008204}
 --- !u!4 &1688787456
 Transform:
@@ -47787,7 +47695,7 @@ Transform:
   m_Children:
   - {fileID: 153135624}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1862247999
 GameObject:
@@ -54342,6 +54250,8 @@ MonoBehaviour:
   stageText: {fileID: 1122996434}
   scoreText: {fileID: 127691961}
   coinText: {fileID: 1302901482}
+  textlevel: {fileID: 491373593}
+  textexp: {fileID: 1184341655}
   newScore: {fileID: 1909830401}
   newStage: {fileID: 630975753}
 --- !u!1 &2041469304
@@ -60464,7 +60374,7 @@ PrefabInstance:
     - target: {fileID: 8310867128036160284, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8310867128036160284, guid: 6a6124ad907676c44abec39b244ec924,
         type: 3}

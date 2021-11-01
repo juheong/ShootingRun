@@ -29,6 +29,7 @@ Shader "Projector/Light" {
 				float4 uvFalloff : TEXCOORD1;
 				UNITY_FOG_COORDS(2)
 				float4 pos : SV_POSITION;
+				float4 color : COLOR;
 			};
 			
 			float4x4 unity_Projector;
@@ -41,11 +42,7 @@ Shader "Projector/Light" {
 				v2f o;				
 				o.pos = UnityObjectToClipPos(vertex);
 				o.uvShadow = mul (unity_Projector, vertex);
-				o.uvFalloff = mul (unity_ProjectorClip, vertex);
-				float4 vPos = mul (UNITY_MATRIX_MV, vertex);
-			   	float zOff = vPos.z/_Dist;
-			    vPos += _QOffset*zOff*zOff;
-			    o.pos = mul (UNITY_MATRIX_P, vPos);									
+				o.uvFalloff = mul (unity_ProjectorClip, vertex);				
 				UNITY_TRANSFER_FOG(o,o.pos);
 				return o;
 			}

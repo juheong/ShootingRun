@@ -301,8 +301,6 @@ public class BossManager : MonoBehaviour
         //data.expUpdate(200);
         GameObject.Destroy(obj1);
         panelController.OpenPanel(2);
-        gameController.InitialLevel();
-        gameController.InitialExp();
     }
 
 
