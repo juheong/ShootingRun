@@ -1,4 +1,4 @@
-﻿    using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
@@ -23,8 +23,7 @@ public class AreaSpawner : MonoBehaviour
 
     //public TextMeshProUGUI text;
     public PanelController panelController;
-
-    [SerializeField]
+        
     private Transform playerTransform;
     public int clear;
     public int stage;
@@ -37,8 +36,10 @@ public class AreaSpawner : MonoBehaviour
     private int O_len;
     private int treeCount;
 
-    private void Awake()
+    private void Start()
     {
+        Player = GameObject.FindWithTag("Player");
+        playerTransform = Player.transform;
         stage = 1;
         clear = 0;
 
@@ -59,8 +60,7 @@ public class AreaSpawner : MonoBehaviour
             {
                 SpawnArea();
             }
-        }
-        Player = GameObject.FindWithTag("Player");
+        }        
         InvokeRepeating("Spawn", 0, 2);
     }
 

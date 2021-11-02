@@ -6,10 +6,11 @@ public class PlayerAnimator : MonoBehaviour
     [SerializeField]
     private GameObject attackCollision;
     private Animator animator;
-
+    private AudioSource audioSource;
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        audioSource = this.gameObject.GetComponent<AudioSource>();
     }
 
     public void OnMovement(float vertical)
@@ -36,6 +37,11 @@ public class PlayerAnimator : MonoBehaviour
         animator.ResetTrigger("RifleShoot");
         animator.SetTrigger("onSlide");
               
+    }
+
+    public void audio()
+    {
+        this.audioSource.Play();
     }
 
     public void PistolShoot()

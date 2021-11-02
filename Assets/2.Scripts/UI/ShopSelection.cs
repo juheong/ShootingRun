@@ -29,7 +29,7 @@ public class ShopSelection : MonoBehaviour
         things[selectedThing].transform.parent.Find("Frame_Focus").gameObject.SetActive(true);
     }
     public void BuyThing()      //구매기능
-    {
+    {        
         data.ItemUpdate(things[selectedThing].GetComponent<ItemDataSet>().itemId);      //DataManager의 선택한 품목의 id를 인자로 ItemUpdate 실행
         things[selectedThing].transform.parent.Find("Frame_Focus").gameObject.SetActive(false);     //구매한 품목 상점에서 삭제
         things[selectedThing].gameObject.SetActive(false);      //선택기능 끔

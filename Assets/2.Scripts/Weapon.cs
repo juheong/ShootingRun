@@ -116,7 +116,7 @@ public class Weapon : MonoBehaviour
         // if (newBullet != null) Destroy(newBullet, range);
         yield return null;
     }
-
+        
     IEnumerator BossShoot()
     {
         yield return new WaitForSeconds(0.5f);

@@ -14,9 +14,32 @@ public class GameController : MonoBehaviour
     private TextMeshProUGUI textname;
     public Slider sliderHealthCount;
     private DataManager data;
+    private CameraController cameraController;
     GameObject obj1;
+    public GameObject obj2;
+    public GameObject obj3;
+
     Player player;
 
+    private void Awake()
+    {
+        if (StageSelection.selectedStage == 0)
+        {
+            if (obj3.activeSelf)
+            {
+                obj3.SetActive(false);
+            }            
+            obj2.SetActive(true);
+        }
+        else if(StageSelection.selectedStage == 1)
+        {
+            if (obj2.activeSelf)
+            {
+                obj2.SetActive(false);
+            }
+            obj3.SetActive(true);
+        }
+    }
     private void Start()
     {
         obj1 = GameObject.Find("DataManager");

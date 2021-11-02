@@ -5,64 +5,94 @@ using UnityEngine;
 public class MenuCharacter : MonoBehaviour
 {
     GameObject obj1;
+	public GameObject obj2;
+	public GameObject Lock;
+	private GameObject obj3;
+	public Material obj4;
+	SkinnedMeshRenderer[] meshs;
 
-    public void Change(string name)
+	[SerializeField]
+	private GameObject[] Z_weapons;
+	[SerializeField]
+	private GameObject[] P_weapons;
+	public void Change(string name)
     {
+		int i = 0;
 		switch (name)
 		{
 			case "M1911":
-				obj1 = GameObject.Find("Weapon Point").transform.Find("C_M1911").gameObject;
+				i = 0;
 				break;
 			case "PBR":
-				obj1 = GameObject.Find("Weapon Point").transform.Find("C_PBR").gameObject;
+				i = 1;
 				break;
 			case "AK74":
-				obj1 = GameObject.Find("Weapon Point").transform.Find("C_AK74").gameObject;
+				i = 2;
 				break;
 			case "M4_8":
-				obj1 = GameObject.Find("Weapon Point").transform.Find("C_M4_8").gameObject;
+				i = 3;
 				break;
 			case "M107":
-				obj1 = GameObject.Find("Weapon Point").transform.Find("C_M107").gameObject;
+				i = 4;
 				break;
 			case "SVD":
-				obj1 = GameObject.Find("Weapon Point").transform.Find("C_SVD").gameObject;
+				i = 5;
 				break;
 		}
-		if (obj1.activeSelf == false)
+		if (Z_weapons[i].activeSelf == false)
 		{
-			obj1.SetActive(true);
+			Z_weapons[i].SetActive(true);
+
+		}
+		if (P_weapons[i].activeSelf == false)
+		{
+			P_weapons[i].SetActive(true);
 
 		}
 	}
 	public void Disabled(string name)
 	{
+		int i = 0;
 		switch (name)
 		{
 			case "M1911":
-				obj1 = GameObject.Find("C_M1911");
-				obj1.gameObject.SetActive(false);
+				i = 0;
 				break;
 			case "PBR":
-				obj1 = GameObject.Find("C_PBR");
-				obj1.gameObject.SetActive(false);
+				i = 1;
 				break;
 			case "AK74":
-				obj1 = GameObject.Find("C_AK74");
-				obj1.gameObject.SetActive(false);
+				i = 2;
 				break;
 			case "M4_8":
-				obj1 = GameObject.Find("C_M4_8");
-				obj1.gameObject.SetActive(false);
+				i = 3;
 				break;
 			case "M107":
-				obj1 = GameObject.Find("C_M107");
-				obj1.gameObject.SetActive(false);
+				i = 4;
 				break;
 			case "SVD":
-				obj1 = GameObject.Find("C_SVD");
-				obj1.gameObject.SetActive(false);
+				i = 5;
 				break;
 		}
+		if (Z_weapons[i].activeSelf == true)
+		{
+			Z_weapons[i].SetActive(false);
+
+		}
+		if (P_weapons[i].activeSelf == true)
+		{
+			P_weapons[i].SetActive(false);
+
+		}
+	}
+
+	public void COpen()
+    {
+		
+		Lock.gameObject.SetActive(false);
+		obj3 = obj2.transform.Find("body").gameObject;
+		meshs = obj3.GetComponentsInChildren<SkinnedMeshRenderer>();
+		foreach (SkinnedMeshRenderer mesh in meshs)
+			mesh.material = obj4;
 	}
 }

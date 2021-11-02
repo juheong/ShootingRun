@@ -24,6 +24,7 @@ public class PlayerData
     public string equip;
     public string[] equipSkin = new string[3];
     public bool[] hasItem = new bool[17];
+    public int character;
 }
 
 [Serializable]
@@ -214,6 +215,11 @@ public class DataManager : MonoBehaviour
             { "106", false}
 
         };
+        Dictionary<string, bool> Character = new Dictionary<string, bool>
+        {
+            { "201", false}         
+
+        };
         //스킨 데이터
         Dictionary<string, bool> Skin = new Dictionary<string, bool> { };
         int i, j;
@@ -226,6 +232,7 @@ public class DataManager : MonoBehaviour
         }
         Param param = new Param();
         param.Add("Weapon", Weapon);
+        param.Add("Character", Character);
         param.Add("Skin", Skin);
 
         BackendReturnObject BRO = Backend.GameData.Insert("Item", param);
@@ -389,8 +396,11 @@ public class DataManager : MonoBehaviour
             {
                 if (j < 6)
                     c1[j] = bro.Rows()[i]["Weapon"][0][(key + j).ToString()]["BOOL"].ToString();
-                else if (j == 6)
-                    c1[j] = "false";
+                else if (j == 7)
+                {
+                    key = 201;
+                    c1[j] = bro.Rows()[i]["Character"][0][key.ToString()]["BOOL"].ToString();                                        
+                }         
             }
             key = 311;
             for (j=8;j<17;j++)
@@ -458,6 +468,7 @@ public class DataManager : MonoBehaviour
             Debug.Log("장착 스킨 업데이트 성공");
         }
     }
+
     public void SetText()
     {
         //========== 유저 데이터 표시 =============
@@ -588,7 +599,7 @@ public class DataManager : MonoBehaviour
     {
         int idInt;
         idInt = Int32.Parse(itemId);
-
+        Debug.Log(idInt);
         Param param = new Param();
         Where where = new Where();
         where.Equal("owner_inDate", player.indate);
@@ -632,6 +643,20 @@ public class DataManager : MonoBehaviour
             }
             param.Add("Skin", items);
 
+        }
+        else
+        {
+            
+            if (itemId == "201")       //구매한 품목과 동일하면 true
+            {
+                items.Add(itemId, true);
+            }
+            else
+            {
+                items.Add(itemId, Convert.ToBoolean(bro.Rows()[0]["Character"][0][itemId]["BOOL"].ToString()));        //동일하지 않은 품목은 그대로 복사
+            }
+
+            param.Add("Character", items);
         }
 
         BackendReturnObject bro2 = Backend.GameData.Update("Item", where, param);       //서버의 플레이어 정보 업데이트

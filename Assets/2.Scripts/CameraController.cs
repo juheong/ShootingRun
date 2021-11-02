@@ -3,7 +3,7 @@
 public class CameraController : MonoBehaviour
 {
     [SerializeField]
-    private Transform target;
+    public Transform target;
     private float zDistance;
     private bool isDie = false;
     Vector3 position;

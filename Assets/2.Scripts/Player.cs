@@ -71,6 +71,7 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
+
         score = 0;
         kills = 0;
         coin = 0;
@@ -82,7 +83,7 @@ public class Player : MonoBehaviour
         playerAnimator = GetComponentInChildren<PlayerAnimator>();
         meshs = GetComponentsInChildren<SkinnedMeshRenderer>();
         obj1 = GameObject.Find("DataManager");
-        data = obj1.GetComponent<DataManager>();
+        data = obj1.GetComponent<DataManager>();        
         EquipWeapon(data.getEquip());
         audioSource = this.gameObject.GetComponent<AudioSource>();
         areaSpawner = GameObject.Find("AreaSpawner").GetComponent<AreaSpawner>();
@@ -100,7 +101,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (!isScene)
+        if (isScene)
         {
             if (!isDie)
             {
@@ -183,6 +184,7 @@ public class Player : MonoBehaviour
             mainCamera.SetActive(true);
             uiObject.SetActive(true);
             cameraController = GameObject.Find("Main Camera").GetComponent<CameraController>();
+            cameraController.target = transform;
             isScene = true;
         }
     }

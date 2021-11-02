@@ -24,7 +24,7 @@ public class WeaponSelection : MonoBehaviour
 	{
 		obj1 = GameObject.Find("DataManager");
 		data = obj1.GetComponent<DataManager>();
-		obj3 = GameObject.Find("C_1");
+		obj3 = GameObject.Find("Group_Left");
 		character = obj3.GetComponent<MenuCharacter>();
 		obj4 = GameObject.Find("TopTab_Eq");
 		tab = obj4.GetComponent<TabManager>();

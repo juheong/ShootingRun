@@ -128,7 +128,6 @@ GameObject:
   - component: {fileID: 7639246370135174093}
   - component: {fileID: 7639246370135174094}
   - component: {fileID: 7639246370135174095}
-  - component: {fileID: 7639246370135174090}
   - component: {fileID: 7639246370135174088}
   - component: {fileID: 7639246370135174089}
   m_Layer: 3
@@ -188,8 +187,11 @@ MonoBehaviour:
   - {fileID: 4584661780760927333}
   hasWeapons: 010000000000
   coin: 0
+  getCoin: 0
+  score: 0
+  kills: 0
+  stage: 0
   health: 100
-  maxcoin: 9999
   maxhealth: 100
   moveSpeed: 10
   isBoss: 0
@@ -197,24 +199,11 @@ MonoBehaviour:
   sceneCamera: {fileID: 0}
   mainCamera: {fileID: 0}
   uiObject: {fileID: 0}
---- !u!143 &7639246370135174090
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7639246370135174091}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.4
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1, z: 0}
+  isScene: 0
+  coin_text: {fileID: 0}
+  score_text: {fileID: 0}
+  kills_text: {fileID: 0}
+  hudEvadeText: {fileID: 0}
 --- !u!54 &7639246370135174088
 Rigidbody:
   m_ObjectHideFlags: 0
