@@ -31,7 +31,6 @@ public class StageSelection : MonoBehaviour
 
 	public void PreviousStage()
 	{
-		Debug.Log(selectedStage);
 		stage[selectedStage].SetActive(false);
 		selectedStage--;		
 		if (selectedStage < 0)
@@ -41,8 +40,18 @@ public class StageSelection : MonoBehaviour
 		stage[selectedStage].SetActive(true);
 	}
 
+	public void Cselect(string sceneName)
+    {
+		if(selectedStage == 1 && data.player.hasItem[7] == false)
+        {
+			selectedStage = 0;
+        }
+		StartGame(sceneName);
+    }
+
 	public static void StartGame(string sceneName) // 스테이지 판넬에서 호출 가정
 	{
+		
 		LoadingSceneController.LoadSceneString(sceneName);
         
         //SceneManager.LoadScene(selectedStage+1, LoadSceneMode.Single);
