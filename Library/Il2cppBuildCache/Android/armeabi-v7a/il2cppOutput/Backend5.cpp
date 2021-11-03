@@ -1188,6 +1188,7 @@ IL2CPP_EXTERN_C RuntimeClass* SessionId_t812AFD3FAD4A6AF04C887114EE12A35CE7BB6A6
 IL2CPP_EXTERN_C RuntimeClass* SessionInfo_t0E4D49A39834744BFD18C64F03FF9EA9383F6314_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Singleton_1_t3795A2B0DB1B493526CF8B8D167380E06E833F4B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Singleton_1_t48F33E326AC747E3CD7A49378AB4C75E524E6DA2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Singleton_1_t58079C538BBE6FF5A8EDB2E01965914D6AD7C481_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Singleton_1_t82C3B171FA8C08F7FEDE6173CF5BC3A996E69284_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Singleton_1_t9CD3082B1DB6C49FF7840E55E47B9A1279A60FF0_il2cpp_TypeInfo_var;
@@ -1228,9 +1229,11 @@ IL2CPP_EXTERN_C RuntimeClass* U23Kp_tD6AC63465093F101706723C959657582C23F48C2_il
 IL2CPP_EXTERN_C RuntimeClass* U23Mp_tEEB1DE8E035A6F8FCF7B9047D7C69DF48919B9D1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U23Op_t4388034E69F9AD6F43BB4096065D230D5DDE4C45_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U23Pmb_t88C86781CF26DE3950FF294B4373B11BC5E24C1C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U23Zo_t0B8CD0F34BA5A67B2C9A5276A0D06C2ABFEBF36B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U23ap_t33514AFF043BABEB4E3238761E2E824A19E9F009_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U23bnb_t7A62CC23C8FE313DC753E216B1AABAA4BE4EB7B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U23cp_t90BF6155419F307A7CEB9D431A8B5488B59D323E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U23ep_tD5B052E1A7557FE0EC066606120C9CE264EBE212_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U23gp_tEA442BA52FC2DDD16D1DB9500AE90C76DB9E3B4E_il2cpp_TypeInfo_var;
@@ -1269,9 +1272,11 @@ IL2CPP_EXTERN_C RuntimeField* U23rnb_t8D479B6F38C703BC8A306AE3717792734AE0C0E3__
 IL2CPP_EXTERN_C RuntimeField* U23rnb_t8D479B6F38C703BC8A306AE3717792734AE0C0E3____U23pnb_10_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U23rnb_t8D479B6F38C703BC8A306AE3717792734AE0C0E3____U23qnb_11_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD;
+IL2CPP_EXTERN_C String_t* _stringLiteral05463B6C3EDD027BB3F74346A12B56AD0AD8909A;
 IL2CPP_EXTERN_C String_t* _stringLiteral0704E287A634839C36EEB4FAE5B1B02EF867D720;
 IL2CPP_EXTERN_C String_t* _stringLiteral098A172DEA459360162609211F3572251217DFE4;
 IL2CPP_EXTERN_C String_t* _stringLiteral0B27BABCCB344AFC5CB815605F482ED4450EA302;
+IL2CPP_EXTERN_C String_t* _stringLiteral0EAAFEA47F361C424891842EC463A4998A97D208;
 IL2CPP_EXTERN_C String_t* _stringLiteral136A55742A682B55E09AB7BC50610AD709A88AFF;
 IL2CPP_EXTERN_C String_t* _stringLiteral14BF511698C78DDC82576EB1AC4F779423A3F1C1;
 IL2CPP_EXTERN_C String_t* _stringLiteral1B98E8F57C9C64CD195937A838BC03FCA6DF6A71;
@@ -1281,6 +1286,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral2DAE84B9FCECD39129D503C2000A2BA551EE1A5F
 IL2CPP_EXTERN_C String_t* _stringLiteral2F3CA0198E1FC9ECBFAF5319F4200CDDC9B45957;
 IL2CPP_EXTERN_C String_t* _stringLiteral2FA35785030417D7D0231C7D255A20E8C43DAFD6;
 IL2CPP_EXTERN_C String_t* _stringLiteral320772EF40302B49A179DB96BAD02224E97B4018;
+IL2CPP_EXTERN_C String_t* _stringLiteral32BFDF00D9C0A1F8765D6BA8DF0B5CA6B528C59D;
 IL2CPP_EXTERN_C String_t* _stringLiteral347AE41DEB51E5C24D439F61C0DEC02AEB379143;
 IL2CPP_EXTERN_C String_t* _stringLiteral386578B1EB4F7BD22286B0CB1945CAD7DB57D0A2;
 IL2CPP_EXTERN_C String_t* _stringLiteral3BA59C4AA7C2F6DD8728F78A4194DD324111ABC1;
@@ -1303,6 +1309,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral847BDE321BACE58C20EACA226ABC5487CBF50A05
 IL2CPP_EXTERN_C String_t* _stringLiteral8678B56566DBD8D10E4FC877FCA091CC61474683;
 IL2CPP_EXTERN_C String_t* _stringLiteral8818E65E12EC973C67E8196EF2FEA2A508592736;
 IL2CPP_EXTERN_C String_t* _stringLiteral88795AB13DE909B0C1686FB8EF79E69E5C7468DD;
+IL2CPP_EXTERN_C String_t* _stringLiteral8940E1FEA4EBF3CA20C44768AA93531C62B71B4A;
 IL2CPP_EXTERN_C String_t* _stringLiteral8B1F87BF4C64319A8AA1DA5423C987A720C3CFF0;
 IL2CPP_EXTERN_C String_t* _stringLiteral8F2FD1B9026D62C325B776EC44032A5FFB3A5C63;
 IL2CPP_EXTERN_C String_t* _stringLiteral92A38C953A6126D97ED1B04B582F3B4519E7D184;
@@ -1310,13 +1317,17 @@ IL2CPP_EXTERN_C String_t* _stringLiteral94E143DD011E1DAAD4B4D47AE3D6BA521B3F5032
 IL2CPP_EXTERN_C String_t* _stringLiteral991836CCF21BCCA97E9F0F51D3F0A361F75728C6;
 IL2CPP_EXTERN_C String_t* _stringLiteral9BF3B27ED4B30446D57C1D67F48C33F813074AB2;
 IL2CPP_EXTERN_C String_t* _stringLiteralAF09A6BC0279473D57B36A82CF658E854D58181E;
+IL2CPP_EXTERN_C String_t* _stringLiteralB0FDF5B3CEAD25B0E53D7B901D18C15D944CD942;
+IL2CPP_EXTERN_C String_t* _stringLiteralB4054C6E4E11B87959DDCCED1FDA757609E47F49;
 IL2CPP_EXTERN_C String_t* _stringLiteralB6F02FE6CD732AB22BD11BE4254D9546F3BEEE58;
 IL2CPP_EXTERN_C String_t* _stringLiteralB7AD502D5A25B2E167759E5FF65A20217C147509;
+IL2CPP_EXTERN_C String_t* _stringLiteralBF6478CCE629B69A9A4FC244049F5A2ABB831110;
 IL2CPP_EXTERN_C String_t* _stringLiteralC53E63D0484C54FA447F4E687330E5946C7E09F5;
 IL2CPP_EXTERN_C String_t* _stringLiteralCA4470BB3CEB453F394923B61657ED246080D5B2;
 IL2CPP_EXTERN_C String_t* _stringLiteralD559C6D97E819D8E4EF7ACDC34C4E8D3DD314964;
 IL2CPP_EXTERN_C String_t* _stringLiteralD86EE27D9DBCE65573D37914CAA0865947A7B8BF;
 IL2CPP_EXTERN_C String_t* _stringLiteralD92994F7434C11C4CFBE5EB9BD20D4B724E33739;
+IL2CPP_EXTERN_C String_t* _stringLiteralDAA60D6693ABF563BE4F7645B229879DBD41937C;
 IL2CPP_EXTERN_C String_t* _stringLiteralDC831E4287EDA3A3A9B5B37A3194AA566D49E6CF;
 IL2CPP_EXTERN_C String_t* _stringLiteralE2BBE0E0C1B0C78DB9E5F65037F46002FDD087E8;
 IL2CPP_EXTERN_C String_t* _stringLiteralE4B721B44501B18CD5BE78A2A86EAD6264C64FAF;
@@ -1324,6 +1335,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralECBAC2A6E4282AC00C1FFCB099D87865C91E1C2B
 IL2CPP_EXTERN_C String_t* _stringLiteralF23E728301722ADFB4013CAFB98300BDB22AE4D6;
 IL2CPP_EXTERN_C String_t* _stringLiteralF347B4C3A8A9EBF05E398C101E5F88286673457C;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7;
+IL2CPP_EXTERN_C String_t* _stringLiteralF70891BA65E4D2FFE5B94E5074636F68E25F967F;
 IL2CPP_EXTERN_C String_t* _stringLiteralFBC35FFDE20578F35F7D80AA15EBCB02F42463C4;
 IL2CPP_EXTERN_C String_t* _stringLiteralFC517DF70D3D15D7959A6EE05667F9A868C1B438;
 IL2CPP_EXTERN_C String_t* _stringLiteralFDF0BD6CCC5C35804BFE83E90FFF2E92AC4FE4B5;
@@ -1410,6 +1422,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_m3E265B655CEFE556F80B2D3F0C
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_GetValueOrDefault_mB4CE6E77EC85DD762FDA6C24F96EBC2A75E28546_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m9D7EBA0DE2F89A891507EC35157C70FC4DC81184_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_m7455E879CFAAE682AE3786D4D2B1F65C8AA23921_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Param_Add_TisParam_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012_m98D5965E18D17D9DCC461CCB63E6653D79B328C0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Param_Add_TisString_t_mA43977E2A85768DEEC385BB28C689B3E1D6E8DF5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Param_U23ec_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m19615FA11137449482B4BE920E121625D2F13F02_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Clear_mCBE760BD5C3E61124681F833DC429F4418BEBD27_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Dequeue_m48277A7E3614E2812FDDDE832CB29A0C040DFB43_RuntimeMethod_var;
@@ -1445,10 +1459,13 @@ IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1__ctor_m86629673AE852E1F10BE0CF7
 IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1__ctor_m89A38524F393504177CE1E88BBD98B5963D124F1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1__ctor_mEE686AFFCF816F2B10F09317D4E62AF5F21EDE40_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1_get_GetInstance_m17FEC7A19D105812A936FDFAE84414229C88CF02_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1_get_GetInstance_mA83C0548C7C7B6E49C489DD69694971EBF3AF120_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Singleton_1_get_GetInstance_mD1BB89E4B6805577C9F3482B1B92E19D5692D157_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_ConfigureAwait_m0A68F4D87250A00534E54CE55EA66CCC82B3D384_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_ConfigureAwait_m215C8650610D3398BE3FC9A46691495A0AC3E4F8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_ConfigureAwait_m4A6D2565EE9545645B9418B3B2CC34B6A3D260A8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_get_Result_m8DF64FCABD50BE9635BB44AA525CE62E595F61B4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_Run_TisBackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C_m25E6A938CD8F2F909734F06643AA3FB9C0496C02_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TcpClient_U23Jn_mFFF1C2328EA317A7D0D1B661A121859885AB8D6B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TcpClient_U23Kn_m293E890059BAB2322DBCD240B23BC2166689E218_RuntimeMethod_var;
@@ -1499,6 +1516,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* U23rdb_Invoke_m3106C66544235A9D5176C5F57CCD
 IL2CPP_EXTERN_C const RuntimeMethod* U23sp_U23rp_m6501D7E64ACF571C9DC2264C8B0B723C971F316B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U23up_U23tp_m6EB92AFA3531C1E17427F33B48D4746FF69239A1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U23wgb_U23pD_mEAB7B1CE50EF92EFA552A6D5183C1E4083D39D9D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U23wk_U23fk_TisSortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165_m421315CFF048323C308EBAD05CB557624AB3A3C7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U23wp_U23vp_mD1F3FA80433E5DD77C814D6658B653BD4DECDFC1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U23xE_U239pb_mEDE34352D647105343638A1BDD309CD033AAF4BE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U23yp_U23xp_m68B8ED79323BF6CB9A40C0D7F89B02594985B4DD_RuntimeMethod_var;
@@ -3124,6 +3142,4544 @@ public:
 	inline void set_U23K7_5(bool value)
 	{
 		___U23K7_5 = value;
+	}
+};
+
+
+// #Jf.#Xi
+struct  U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields
+{
+public:
+	// System.String #Jf.#Xi::#Of
+	String_t* ___U23Of_0;
+	// System.String #Jf.#Xi::#Pf
+	String_t* ___U23Pf_1;
+	// System.String #Jf.#Xi::#Qf
+	String_t* ___U23Qf_2;
+	// System.String #Jf.#Xi::#le
+	String_t* ___U23le_3;
+	// System.String #Jf.#Xi::#Rf
+	String_t* ___U23Rf_4;
+	// System.String #Jf.#Xi::#Sf
+	String_t* ___U23Sf_5;
+	// System.String #Jf.#Xi::#Tf
+	String_t* ___U23Tf_6;
+	// System.String #Jf.#Xi::#Uf
+	String_t* ___U23Uf_7;
+	// System.String #Jf.#Xi::#Vf
+	String_t* ___U23Vf_8;
+	// System.String #Jf.#Xi::#Wf
+	String_t* ___U23Wf_9;
+	// System.String #Jf.#Xi::#Xf
+	String_t* ___U23Xf_10;
+	// System.String #Jf.#Xi::#Yf
+	String_t* ___U23Yf_11;
+	// System.String #Jf.#Xi::#Zf
+	String_t* ___U23Zf_12;
+	// System.String #Jf.#Xi::#0f
+	String_t* ___U230f_13;
+	// System.String #Jf.#Xi::#1f
+	String_t* ___U231f_14;
+	// System.String #Jf.#Xi::#2f
+	String_t* ___U232f_15;
+	// System.String #Jf.#Xi::#3f
+	String_t* ___U233f_16;
+	// System.String #Jf.#Xi::#4f
+	String_t* ___U234f_17;
+	// System.String #Jf.#Xi::#5f
+	String_t* ___U235f_18;
+	// System.String #Jf.#Xi::#6f
+	String_t* ___U236f_19;
+	// System.String #Jf.#Xi::#7f
+	String_t* ___U237f_20;
+	// System.String #Jf.#Xi::#8f
+	String_t* ___U238f_21;
+	// System.String #Jf.#Xi::#9f
+	String_t* ___U239f_22;
+	// System.String #Jf.#Xi::#ag
+	String_t* ___U23ag_23;
+	// System.String #Jf.#Xi::#bg
+	String_t* ___U23bg_24;
+	// System.String #Jf.#Xi::#cg
+	String_t* ___U23cg_25;
+	// System.String #Jf.#Xi::#dg
+	String_t* ___U23dg_26;
+	// System.String #Jf.#Xi::#eg
+	String_t* ___U23eg_27;
+	// System.String #Jf.#Xi::#fg
+	String_t* ___U23fg_28;
+	// System.String #Jf.#Xi::#gg
+	String_t* ___U23gg_29;
+	// System.String #Jf.#Xi::#hg
+	String_t* ___U23hg_30;
+	// System.String #Jf.#Xi::#ig
+	String_t* ___U23ig_31;
+	// System.String #Jf.#Xi::#jg
+	String_t* ___U23jg_32;
+	// System.String #Jf.#Xi::#kg
+	String_t* ___U23kg_33;
+	// System.String #Jf.#Xi::#lg
+	String_t* ___U23lg_34;
+	// System.String #Jf.#Xi::#mg
+	String_t* ___U23mg_35;
+	// System.String #Jf.#Xi::#ng
+	String_t* ___U23ng_36;
+	// System.String #Jf.#Xi::#og
+	String_t* ___U23og_37;
+	// System.String #Jf.#Xi::#pg
+	String_t* ___U23pg_38;
+	// System.String #Jf.#Xi::#Zub
+	String_t* ___U23Zub_39;
+	// System.String #Jf.#Xi::#0ub
+	String_t* ___U230ub_40;
+	// System.String #Jf.#Xi::#1ub
+	String_t* ___U231ub_41;
+	// System.String #Jf.#Xi::#3ub
+	String_t* ___U233ub_42;
+	// System.String #Jf.#Xi::#qg
+	String_t* ___U23qg_43;
+	// System.String #Jf.#Xi::#rg
+	String_t* ___U23rg_44;
+	// System.String #Jf.#Xi::#sg
+	String_t* ___U23sg_45;
+	// System.String #Jf.#Xi::#tg
+	String_t* ___U23tg_46;
+	// System.String #Jf.#Xi::#ug
+	String_t* ___U23ug_47;
+	// System.String #Jf.#Xi::#vg
+	String_t* ___U23vg_48;
+	// System.String #Jf.#Xi::#wg
+	String_t* ___U23wg_49;
+	// System.String #Jf.#Xi::#xg
+	String_t* ___U23xg_50;
+	// System.String #Jf.#Xi::#yg
+	String_t* ___U23yg_51;
+	// System.String #Jf.#Xi::#zg
+	String_t* ___U23zg_52;
+	// System.String #Jf.#Xi::#Ag
+	String_t* ___U23Ag_53;
+	// System.String #Jf.#Xi::#Bg
+	String_t* ___U23Bg_54;
+	// System.String #Jf.#Xi::#Cg
+	String_t* ___U23Cg_55;
+	// System.String #Jf.#Xi::#Dg
+	String_t* ___U23Dg_56;
+	// System.String #Jf.#Xi::#Eg
+	String_t* ___U23Eg_57;
+	// System.String #Jf.#Xi::#Fg
+	String_t* ___U23Fg_58;
+	// System.String #Jf.#Xi::#Gg
+	String_t* ___U23Gg_59;
+	// System.String #Jf.#Xi::#Hg
+	String_t* ___U23Hg_60;
+	// System.String #Jf.#Xi::#Ig
+	String_t* ___U23Ig_61;
+	// System.String #Jf.#Xi::#Jg
+	String_t* ___U23Jg_62;
+	// System.String #Jf.#Xi::#Kg
+	String_t* ___U23Kg_63;
+	// System.String #Jf.#Xi::#Lg
+	String_t* ___U23Lg_64;
+	// System.String #Jf.#Xi::#Mg
+	String_t* ___U23Mg_65;
+	// System.String #Jf.#Xi::#Ng
+	String_t* ___U23Ng_66;
+	// System.String #Jf.#Xi::#Og
+	String_t* ___U23Og_67;
+	// System.String #Jf.#Xi::#Pg
+	String_t* ___U23Pg_68;
+	// System.String #Jf.#Xi::#Qg
+	String_t* ___U23Qg_69;
+	// System.String #Jf.#Xi::#Rg
+	String_t* ___U23Rg_70;
+	// System.String #Jf.#Xi::#Sg
+	String_t* ___U23Sg_71;
+	// System.String #Jf.#Xi::#Tg
+	String_t* ___U23Tg_72;
+	// System.String #Jf.#Xi::#Ug
+	String_t* ___U23Ug_73;
+	// System.String #Jf.#Xi::#Vg
+	String_t* ___U23Vg_74;
+	// System.String #Jf.#Xi::#Wg
+	String_t* ___U23Wg_75;
+	// System.String #Jf.#Xi::#Xg
+	String_t* ___U23Xg_76;
+	// System.String #Jf.#Xi::#Yg
+	String_t* ___U23Yg_77;
+	// System.String #Jf.#Xi::#Zg
+	String_t* ___U23Zg_78;
+	// System.String #Jf.#Xi::#0g
+	String_t* ___U230g_79;
+	// System.String #Jf.#Xi::#1g
+	String_t* ___U231g_80;
+	// System.String #Jf.#Xi::#2g
+	String_t* ___U232g_81;
+	// System.String #Jf.#Xi::#3g
+	String_t* ___U233g_82;
+	// System.String #Jf.#Xi::#4g
+	String_t* ___U234g_83;
+	// System.String #Jf.#Xi::#5g
+	String_t* ___U235g_84;
+	// System.String #Jf.#Xi::#6g
+	String_t* ___U236g_85;
+	// System.String #Jf.#Xi::#7g
+	String_t* ___U237g_86;
+	// System.String #Jf.#Xi::#2ub
+	String_t* ___U232ub_87;
+	// System.String #Jf.#Xi::#8g
+	String_t* ___U238g_88;
+	// System.String #Jf.#Xi::#9g
+	String_t* ___U239g_89;
+	// System.String #Jf.#Xi::#ah
+	String_t* ___U23ah_90;
+	// System.String #Jf.#Xi::#bh
+	String_t* ___U23bh_91;
+	// System.String #Jf.#Xi::#ch
+	String_t* ___U23ch_92;
+	// System.String #Jf.#Xi::#dh
+	String_t* ___U23dh_93;
+	// System.String #Jf.#Xi::#eh
+	String_t* ___U23eh_94;
+	// System.String #Jf.#Xi::#fh
+	String_t* ___U23fh_95;
+	// System.String #Jf.#Xi::#gh
+	String_t* ___U23gh_96;
+	// System.String #Jf.#Xi::#hh
+	String_t* ___U23hh_97;
+	// System.String #Jf.#Xi::#ih
+	String_t* ___U23ih_98;
+	// System.String #Jf.#Xi::#jh
+	String_t* ___U23jh_99;
+	// System.String #Jf.#Xi::#kh
+	String_t* ___U23kh_100;
+	// System.String #Jf.#Xi::#lh
+	String_t* ___U23lh_101;
+	// System.String #Jf.#Xi::#mh
+	String_t* ___U23mh_102;
+	// System.String #Jf.#Xi::#nh
+	String_t* ___U23nh_103;
+	// System.String #Jf.#Xi::#oh
+	String_t* ___U23oh_104;
+	// System.String #Jf.#Xi::#ph
+	String_t* ___U23ph_105;
+	// System.String #Jf.#Xi::#qh
+	String_t* ___U23qh_106;
+	// System.String #Jf.#Xi::#rh
+	String_t* ___U23rh_107;
+	// System.String #Jf.#Xi::#sh
+	String_t* ___U23sh_108;
+	// System.String #Jf.#Xi::#th
+	String_t* ___U23th_109;
+	// System.String #Jf.#Xi::#uh
+	String_t* ___U23uh_110;
+	// System.String #Jf.#Xi::#vh
+	String_t* ___U23vh_111;
+	// System.String #Jf.#Xi::#wh
+	String_t* ___U23wh_112;
+	// System.String #Jf.#Xi::#xh
+	String_t* ___U23xh_113;
+	// System.String #Jf.#Xi::#iob
+	String_t* ___U23iob_114;
+	// System.String #Jf.#Xi::#job
+	String_t* ___U23job_115;
+	// System.String #Jf.#Xi::#kob
+	String_t* ___U23kob_116;
+	// System.String #Jf.#Xi::#lob
+	String_t* ___U23lob_117;
+	// System.String #Jf.#Xi::#mob
+	String_t* ___U23mob_118;
+	// System.String #Jf.#Xi::#nob
+	String_t* ___U23nob_119;
+	// System.String #Jf.#Xi::#oob
+	String_t* ___U23oob_120;
+	// System.String #Jf.#Xi::#pob
+	String_t* ___U23pob_121;
+	// System.String #Jf.#Xi::#qob
+	String_t* ___U23qob_122;
+	// System.String #Jf.#Xi::#yh
+	String_t* ___U23yh_123;
+	// System.String #Jf.#Xi::#zh
+	String_t* ___U23zh_124;
+	// System.String #Jf.#Xi::#Ah
+	String_t* ___U23Ah_125;
+	// System.String #Jf.#Xi::#Bh
+	String_t* ___U23Bh_126;
+	// System.String #Jf.#Xi::#Ch
+	String_t* ___U23Ch_127;
+	// System.String #Jf.#Xi::#Dh
+	String_t* ___U23Dh_128;
+	// System.String #Jf.#Xi::#Eh
+	String_t* ___U23Eh_129;
+	// System.String #Jf.#Xi::#Fh
+	String_t* ___U23Fh_130;
+	// System.String #Jf.#Xi::#Gh
+	String_t* ___U23Gh_131;
+	// System.String #Jf.#Xi::#Hh
+	String_t* ___U23Hh_132;
+	// System.String #Jf.#Xi::#Ih
+	String_t* ___U23Ih_133;
+	// System.String #Jf.#Xi::#Jh
+	String_t* ___U23Jh_134;
+	// System.String #Jf.#Xi::#Kh
+	String_t* ___U23Kh_135;
+	// System.String #Jf.#Xi::#Lh
+	String_t* ___U23Lh_136;
+	// System.String #Jf.#Xi::#Mh
+	String_t* ___U23Mh_137;
+	// System.String #Jf.#Xi::#Nh
+	String_t* ___U23Nh_138;
+	// System.String #Jf.#Xi::#Oh
+	String_t* ___U23Oh_139;
+	// System.String #Jf.#Xi::#Ph
+	String_t* ___U23Ph_140;
+	// System.String #Jf.#Xi::#Qh
+	String_t* ___U23Qh_141;
+	// System.String #Jf.#Xi::#Rh
+	String_t* ___U23Rh_142;
+	// System.String #Jf.#Xi::#Sh
+	String_t* ___U23Sh_143;
+	// System.String #Jf.#Xi::#Th
+	String_t* ___U23Th_144;
+	// System.String #Jf.#Xi::#Uh
+	String_t* ___U23Uh_145;
+	// System.String #Jf.#Xi::#Vh
+	String_t* ___U23Vh_146;
+	// System.String #Jf.#Xi::#Wh
+	String_t* ___U23Wh_147;
+	// System.String #Jf.#Xi::#Xh
+	String_t* ___U23Xh_148;
+	// System.String #Jf.#Xi::#Yh
+	String_t* ___U23Yh_149;
+	// System.String #Jf.#Xi::#Zh
+	String_t* ___U23Zh_150;
+	// System.String #Jf.#Xi::#0h
+	String_t* ___U230h_151;
+	// System.String #Jf.#Xi::#1h
+	String_t* ___U231h_152;
+	// System.String #Jf.#Xi::#2h
+	String_t* ___U232h_153;
+	// System.String #Jf.#Xi::#3h
+	String_t* ___U233h_154;
+	// System.String #Jf.#Xi::#4h
+	String_t* ___U234h_155;
+	// System.String #Jf.#Xi::#5h
+	String_t* ___U235h_156;
+	// System.String #Jf.#Xi::#6h
+	String_t* ___U236h_157;
+	// System.String #Jf.#Xi::#7h
+	String_t* ___U237h_158;
+	// System.String #Jf.#Xi::#8h
+	String_t* ___U238h_159;
+	// System.String #Jf.#Xi::#9h
+	String_t* ___U239h_160;
+	// System.String #Jf.#Xi::#ai
+	String_t* ___U23ai_161;
+	// System.String #Jf.#Xi::#bi
+	String_t* ___U23bi_162;
+	// System.String #Jf.#Xi::#ci
+	String_t* ___U23ci_163;
+	// System.String #Jf.#Xi::#di
+	String_t* ___U23di_164;
+	// System.String #Jf.#Xi::#ei
+	String_t* ___U23ei_165;
+	// System.String #Jf.#Xi::#fi
+	String_t* ___U23fi_166;
+	// System.String #Jf.#Xi::#gi
+	String_t* ___U23gi_167;
+	// System.String #Jf.#Xi::#hi
+	String_t* ___U23hi_168;
+	// System.String #Jf.#Xi::#rob
+	String_t* ___U23rob_169;
+	// System.String #Jf.#Xi::#sob
+	String_t* ___U23sob_170;
+	// System.String #Jf.#Xi::#tob
+	String_t* ___U23tob_171;
+	// System.String #Jf.#Xi::#7pb
+	String_t* ___U237pb_172;
+	// System.String #Jf.#Xi::#uob
+	String_t* ___U23uob_173;
+	// System.String #Jf.#Xi::#vob
+	String_t* ___U23vob_174;
+	// System.String #Jf.#Xi::#wob
+	String_t* ___U23wob_175;
+	// System.String #Jf.#Xi::#xob
+	String_t* ___U23xob_176;
+	// System.String #Jf.#Xi::#yob
+	String_t* ___U23yob_177;
+	// System.String #Jf.#Xi::#ii
+	String_t* ___U23ii_178;
+	// System.String #Jf.#Xi::#Irb
+	String_t* ___U23Irb_179;
+	// System.String #Jf.#Xi::#ji
+	String_t* ___U23ji_180;
+	// System.String #Jf.#Xi::#ki
+	String_t* ___U23ki_181;
+	// System.String #Jf.#Xi::#li
+	String_t* ___U23li_182;
+	// System.String #Jf.#Xi::#mi
+	String_t* ___U23mi_183;
+	// System.String #Jf.#Xi::#pi
+	String_t* ___U23pi_184;
+	// System.String #Jf.#Xi::#qi
+	String_t* ___U23qi_185;
+	// System.String #Jf.#Xi::#ri
+	String_t* ___U23ri_186;
+	// System.String #Jf.#Xi::#si
+	String_t* ___U23si_187;
+	// System.String #Jf.#Xi::#ti
+	String_t* ___U23ti_188;
+	// System.String #Jf.#Xi::#ui
+	String_t* ___U23ui_189;
+	// System.String #Jf.#Xi::#vi
+	String_t* ___U23vi_190;
+	// System.String #Jf.#Xi::#wi
+	String_t* ___U23wi_191;
+	// System.String #Jf.#Xi::#xi
+	String_t* ___U23xi_192;
+	// System.String #Jf.#Xi::#srb
+	String_t* ___U23srb_193;
+	// System.String #Jf.#Xi::#zi
+	String_t* ___U23zi_194;
+	// System.String #Jf.#Xi::#Ai
+	String_t* ___U23Ai_195;
+	// System.String #Jf.#Xi::#Bi
+	String_t* ___U23Bi_196;
+	// System.String #Jf.#Xi::#zob
+	String_t* ___U23zob_197;
+	// System.String #Jf.#Xi::#Di
+	String_t* ___U23Di_198;
+	// System.String #Jf.#Xi::#Ei
+	String_t* ___U23Ei_199;
+	// System.String #Jf.#Xi::#Fi
+	String_t* ___U23Fi_200;
+	// System.String #Jf.#Xi::#Gi
+	String_t* ___U23Gi_201;
+	// System.String #Jf.#Xi::#Hi
+	String_t* ___U23Hi_202;
+	// System.String #Jf.#Xi::#Ii
+	String_t* ___U23Ii_203;
+	// System.String #Jf.#Xi::#Ji
+	String_t* ___U23Ji_204;
+	// System.String #Jf.#Xi::#Ki
+	String_t* ___U23Ki_205;
+	// System.String #Jf.#Xi::#Li
+	String_t* ___U23Li_206;
+	// System.UInt16 #Jf.#Xi::#Mi
+	uint16_t ___U23Mi_207;
+	// System.UInt16 #Jf.#Xi::#Ni
+	uint16_t ___U23Ni_208;
+	// System.String #Jf.#Xi::#Oi
+	String_t* ___U23Oi_209;
+	// System.String #Jf.#Xi::#Pi
+	String_t* ___U23Pi_210;
+	// System.String #Jf.#Xi::#Ri
+	String_t* ___U23Ri_211;
+	// System.String #Jf.#Xi::#Si
+	String_t* ___U23Si_212;
+	// System.String #Jf.#Xi::#Ti
+	String_t* ___U23Ti_213;
+	// System.String #Jf.#Xi::#Ui
+	String_t* ___U23Ui_214;
+	// System.String #Jf.#Xi::#Vi
+	String_t* ___U23Vi_215;
+
+public:
+	inline static int32_t get_offset_of_U23Of_0() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Of_0)); }
+	inline String_t* get_U23Of_0() const { return ___U23Of_0; }
+	inline String_t** get_address_of_U23Of_0() { return &___U23Of_0; }
+	inline void set_U23Of_0(String_t* value)
+	{
+		___U23Of_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Of_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Pf_1() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Pf_1)); }
+	inline String_t* get_U23Pf_1() const { return ___U23Pf_1; }
+	inline String_t** get_address_of_U23Pf_1() { return &___U23Pf_1; }
+	inline void set_U23Pf_1(String_t* value)
+	{
+		___U23Pf_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Pf_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Qf_2() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Qf_2)); }
+	inline String_t* get_U23Qf_2() const { return ___U23Qf_2; }
+	inline String_t** get_address_of_U23Qf_2() { return &___U23Qf_2; }
+	inline void set_U23Qf_2(String_t* value)
+	{
+		___U23Qf_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Qf_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23le_3() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23le_3)); }
+	inline String_t* get_U23le_3() const { return ___U23le_3; }
+	inline String_t** get_address_of_U23le_3() { return &___U23le_3; }
+	inline void set_U23le_3(String_t* value)
+	{
+		___U23le_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23le_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Rf_4() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Rf_4)); }
+	inline String_t* get_U23Rf_4() const { return ___U23Rf_4; }
+	inline String_t** get_address_of_U23Rf_4() { return &___U23Rf_4; }
+	inline void set_U23Rf_4(String_t* value)
+	{
+		___U23Rf_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Rf_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Sf_5() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Sf_5)); }
+	inline String_t* get_U23Sf_5() const { return ___U23Sf_5; }
+	inline String_t** get_address_of_U23Sf_5() { return &___U23Sf_5; }
+	inline void set_U23Sf_5(String_t* value)
+	{
+		___U23Sf_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Sf_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Tf_6() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Tf_6)); }
+	inline String_t* get_U23Tf_6() const { return ___U23Tf_6; }
+	inline String_t** get_address_of_U23Tf_6() { return &___U23Tf_6; }
+	inline void set_U23Tf_6(String_t* value)
+	{
+		___U23Tf_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Tf_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Uf_7() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Uf_7)); }
+	inline String_t* get_U23Uf_7() const { return ___U23Uf_7; }
+	inline String_t** get_address_of_U23Uf_7() { return &___U23Uf_7; }
+	inline void set_U23Uf_7(String_t* value)
+	{
+		___U23Uf_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Uf_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Vf_8() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Vf_8)); }
+	inline String_t* get_U23Vf_8() const { return ___U23Vf_8; }
+	inline String_t** get_address_of_U23Vf_8() { return &___U23Vf_8; }
+	inline void set_U23Vf_8(String_t* value)
+	{
+		___U23Vf_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Vf_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Wf_9() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Wf_9)); }
+	inline String_t* get_U23Wf_9() const { return ___U23Wf_9; }
+	inline String_t** get_address_of_U23Wf_9() { return &___U23Wf_9; }
+	inline void set_U23Wf_9(String_t* value)
+	{
+		___U23Wf_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Wf_9), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Xf_10() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Xf_10)); }
+	inline String_t* get_U23Xf_10() const { return ___U23Xf_10; }
+	inline String_t** get_address_of_U23Xf_10() { return &___U23Xf_10; }
+	inline void set_U23Xf_10(String_t* value)
+	{
+		___U23Xf_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Xf_10), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Yf_11() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Yf_11)); }
+	inline String_t* get_U23Yf_11() const { return ___U23Yf_11; }
+	inline String_t** get_address_of_U23Yf_11() { return &___U23Yf_11; }
+	inline void set_U23Yf_11(String_t* value)
+	{
+		___U23Yf_11 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Yf_11), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Zf_12() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Zf_12)); }
+	inline String_t* get_U23Zf_12() const { return ___U23Zf_12; }
+	inline String_t** get_address_of_U23Zf_12() { return &___U23Zf_12; }
+	inline void set_U23Zf_12(String_t* value)
+	{
+		___U23Zf_12 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Zf_12), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U230f_13() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U230f_13)); }
+	inline String_t* get_U230f_13() const { return ___U230f_13; }
+	inline String_t** get_address_of_U230f_13() { return &___U230f_13; }
+	inline void set_U230f_13(String_t* value)
+	{
+		___U230f_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U230f_13), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U231f_14() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U231f_14)); }
+	inline String_t* get_U231f_14() const { return ___U231f_14; }
+	inline String_t** get_address_of_U231f_14() { return &___U231f_14; }
+	inline void set_U231f_14(String_t* value)
+	{
+		___U231f_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U231f_14), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U232f_15() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U232f_15)); }
+	inline String_t* get_U232f_15() const { return ___U232f_15; }
+	inline String_t** get_address_of_U232f_15() { return &___U232f_15; }
+	inline void set_U232f_15(String_t* value)
+	{
+		___U232f_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U232f_15), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U233f_16() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U233f_16)); }
+	inline String_t* get_U233f_16() const { return ___U233f_16; }
+	inline String_t** get_address_of_U233f_16() { return &___U233f_16; }
+	inline void set_U233f_16(String_t* value)
+	{
+		___U233f_16 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U233f_16), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U234f_17() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U234f_17)); }
+	inline String_t* get_U234f_17() const { return ___U234f_17; }
+	inline String_t** get_address_of_U234f_17() { return &___U234f_17; }
+	inline void set_U234f_17(String_t* value)
+	{
+		___U234f_17 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U234f_17), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U235f_18() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U235f_18)); }
+	inline String_t* get_U235f_18() const { return ___U235f_18; }
+	inline String_t** get_address_of_U235f_18() { return &___U235f_18; }
+	inline void set_U235f_18(String_t* value)
+	{
+		___U235f_18 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U235f_18), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U236f_19() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U236f_19)); }
+	inline String_t* get_U236f_19() const { return ___U236f_19; }
+	inline String_t** get_address_of_U236f_19() { return &___U236f_19; }
+	inline void set_U236f_19(String_t* value)
+	{
+		___U236f_19 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U236f_19), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U237f_20() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U237f_20)); }
+	inline String_t* get_U237f_20() const { return ___U237f_20; }
+	inline String_t** get_address_of_U237f_20() { return &___U237f_20; }
+	inline void set_U237f_20(String_t* value)
+	{
+		___U237f_20 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U237f_20), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U238f_21() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U238f_21)); }
+	inline String_t* get_U238f_21() const { return ___U238f_21; }
+	inline String_t** get_address_of_U238f_21() { return &___U238f_21; }
+	inline void set_U238f_21(String_t* value)
+	{
+		___U238f_21 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U238f_21), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U239f_22() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U239f_22)); }
+	inline String_t* get_U239f_22() const { return ___U239f_22; }
+	inline String_t** get_address_of_U239f_22() { return &___U239f_22; }
+	inline void set_U239f_22(String_t* value)
+	{
+		___U239f_22 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U239f_22), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ag_23() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ag_23)); }
+	inline String_t* get_U23ag_23() const { return ___U23ag_23; }
+	inline String_t** get_address_of_U23ag_23() { return &___U23ag_23; }
+	inline void set_U23ag_23(String_t* value)
+	{
+		___U23ag_23 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ag_23), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23bg_24() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23bg_24)); }
+	inline String_t* get_U23bg_24() const { return ___U23bg_24; }
+	inline String_t** get_address_of_U23bg_24() { return &___U23bg_24; }
+	inline void set_U23bg_24(String_t* value)
+	{
+		___U23bg_24 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23bg_24), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23cg_25() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23cg_25)); }
+	inline String_t* get_U23cg_25() const { return ___U23cg_25; }
+	inline String_t** get_address_of_U23cg_25() { return &___U23cg_25; }
+	inline void set_U23cg_25(String_t* value)
+	{
+		___U23cg_25 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23cg_25), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23dg_26() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23dg_26)); }
+	inline String_t* get_U23dg_26() const { return ___U23dg_26; }
+	inline String_t** get_address_of_U23dg_26() { return &___U23dg_26; }
+	inline void set_U23dg_26(String_t* value)
+	{
+		___U23dg_26 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23dg_26), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23eg_27() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23eg_27)); }
+	inline String_t* get_U23eg_27() const { return ___U23eg_27; }
+	inline String_t** get_address_of_U23eg_27() { return &___U23eg_27; }
+	inline void set_U23eg_27(String_t* value)
+	{
+		___U23eg_27 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23eg_27), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23fg_28() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23fg_28)); }
+	inline String_t* get_U23fg_28() const { return ___U23fg_28; }
+	inline String_t** get_address_of_U23fg_28() { return &___U23fg_28; }
+	inline void set_U23fg_28(String_t* value)
+	{
+		___U23fg_28 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23fg_28), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23gg_29() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23gg_29)); }
+	inline String_t* get_U23gg_29() const { return ___U23gg_29; }
+	inline String_t** get_address_of_U23gg_29() { return &___U23gg_29; }
+	inline void set_U23gg_29(String_t* value)
+	{
+		___U23gg_29 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23gg_29), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23hg_30() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23hg_30)); }
+	inline String_t* get_U23hg_30() const { return ___U23hg_30; }
+	inline String_t** get_address_of_U23hg_30() { return &___U23hg_30; }
+	inline void set_U23hg_30(String_t* value)
+	{
+		___U23hg_30 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23hg_30), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ig_31() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ig_31)); }
+	inline String_t* get_U23ig_31() const { return ___U23ig_31; }
+	inline String_t** get_address_of_U23ig_31() { return &___U23ig_31; }
+	inline void set_U23ig_31(String_t* value)
+	{
+		___U23ig_31 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ig_31), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23jg_32() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23jg_32)); }
+	inline String_t* get_U23jg_32() const { return ___U23jg_32; }
+	inline String_t** get_address_of_U23jg_32() { return &___U23jg_32; }
+	inline void set_U23jg_32(String_t* value)
+	{
+		___U23jg_32 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23jg_32), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23kg_33() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23kg_33)); }
+	inline String_t* get_U23kg_33() const { return ___U23kg_33; }
+	inline String_t** get_address_of_U23kg_33() { return &___U23kg_33; }
+	inline void set_U23kg_33(String_t* value)
+	{
+		___U23kg_33 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23kg_33), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23lg_34() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23lg_34)); }
+	inline String_t* get_U23lg_34() const { return ___U23lg_34; }
+	inline String_t** get_address_of_U23lg_34() { return &___U23lg_34; }
+	inline void set_U23lg_34(String_t* value)
+	{
+		___U23lg_34 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23lg_34), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23mg_35() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23mg_35)); }
+	inline String_t* get_U23mg_35() const { return ___U23mg_35; }
+	inline String_t** get_address_of_U23mg_35() { return &___U23mg_35; }
+	inline void set_U23mg_35(String_t* value)
+	{
+		___U23mg_35 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23mg_35), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ng_36() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ng_36)); }
+	inline String_t* get_U23ng_36() const { return ___U23ng_36; }
+	inline String_t** get_address_of_U23ng_36() { return &___U23ng_36; }
+	inline void set_U23ng_36(String_t* value)
+	{
+		___U23ng_36 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ng_36), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23og_37() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23og_37)); }
+	inline String_t* get_U23og_37() const { return ___U23og_37; }
+	inline String_t** get_address_of_U23og_37() { return &___U23og_37; }
+	inline void set_U23og_37(String_t* value)
+	{
+		___U23og_37 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23og_37), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23pg_38() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23pg_38)); }
+	inline String_t* get_U23pg_38() const { return ___U23pg_38; }
+	inline String_t** get_address_of_U23pg_38() { return &___U23pg_38; }
+	inline void set_U23pg_38(String_t* value)
+	{
+		___U23pg_38 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23pg_38), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Zub_39() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Zub_39)); }
+	inline String_t* get_U23Zub_39() const { return ___U23Zub_39; }
+	inline String_t** get_address_of_U23Zub_39() { return &___U23Zub_39; }
+	inline void set_U23Zub_39(String_t* value)
+	{
+		___U23Zub_39 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Zub_39), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U230ub_40() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U230ub_40)); }
+	inline String_t* get_U230ub_40() const { return ___U230ub_40; }
+	inline String_t** get_address_of_U230ub_40() { return &___U230ub_40; }
+	inline void set_U230ub_40(String_t* value)
+	{
+		___U230ub_40 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U230ub_40), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U231ub_41() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U231ub_41)); }
+	inline String_t* get_U231ub_41() const { return ___U231ub_41; }
+	inline String_t** get_address_of_U231ub_41() { return &___U231ub_41; }
+	inline void set_U231ub_41(String_t* value)
+	{
+		___U231ub_41 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U231ub_41), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U233ub_42() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U233ub_42)); }
+	inline String_t* get_U233ub_42() const { return ___U233ub_42; }
+	inline String_t** get_address_of_U233ub_42() { return &___U233ub_42; }
+	inline void set_U233ub_42(String_t* value)
+	{
+		___U233ub_42 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U233ub_42), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23qg_43() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23qg_43)); }
+	inline String_t* get_U23qg_43() const { return ___U23qg_43; }
+	inline String_t** get_address_of_U23qg_43() { return &___U23qg_43; }
+	inline void set_U23qg_43(String_t* value)
+	{
+		___U23qg_43 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23qg_43), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23rg_44() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23rg_44)); }
+	inline String_t* get_U23rg_44() const { return ___U23rg_44; }
+	inline String_t** get_address_of_U23rg_44() { return &___U23rg_44; }
+	inline void set_U23rg_44(String_t* value)
+	{
+		___U23rg_44 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23rg_44), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23sg_45() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23sg_45)); }
+	inline String_t* get_U23sg_45() const { return ___U23sg_45; }
+	inline String_t** get_address_of_U23sg_45() { return &___U23sg_45; }
+	inline void set_U23sg_45(String_t* value)
+	{
+		___U23sg_45 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23sg_45), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23tg_46() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23tg_46)); }
+	inline String_t* get_U23tg_46() const { return ___U23tg_46; }
+	inline String_t** get_address_of_U23tg_46() { return &___U23tg_46; }
+	inline void set_U23tg_46(String_t* value)
+	{
+		___U23tg_46 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23tg_46), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ug_47() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ug_47)); }
+	inline String_t* get_U23ug_47() const { return ___U23ug_47; }
+	inline String_t** get_address_of_U23ug_47() { return &___U23ug_47; }
+	inline void set_U23ug_47(String_t* value)
+	{
+		___U23ug_47 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ug_47), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23vg_48() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23vg_48)); }
+	inline String_t* get_U23vg_48() const { return ___U23vg_48; }
+	inline String_t** get_address_of_U23vg_48() { return &___U23vg_48; }
+	inline void set_U23vg_48(String_t* value)
+	{
+		___U23vg_48 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23vg_48), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23wg_49() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23wg_49)); }
+	inline String_t* get_U23wg_49() const { return ___U23wg_49; }
+	inline String_t** get_address_of_U23wg_49() { return &___U23wg_49; }
+	inline void set_U23wg_49(String_t* value)
+	{
+		___U23wg_49 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23wg_49), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23xg_50() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23xg_50)); }
+	inline String_t* get_U23xg_50() const { return ___U23xg_50; }
+	inline String_t** get_address_of_U23xg_50() { return &___U23xg_50; }
+	inline void set_U23xg_50(String_t* value)
+	{
+		___U23xg_50 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23xg_50), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23yg_51() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23yg_51)); }
+	inline String_t* get_U23yg_51() const { return ___U23yg_51; }
+	inline String_t** get_address_of_U23yg_51() { return &___U23yg_51; }
+	inline void set_U23yg_51(String_t* value)
+	{
+		___U23yg_51 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23yg_51), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23zg_52() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23zg_52)); }
+	inline String_t* get_U23zg_52() const { return ___U23zg_52; }
+	inline String_t** get_address_of_U23zg_52() { return &___U23zg_52; }
+	inline void set_U23zg_52(String_t* value)
+	{
+		___U23zg_52 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23zg_52), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ag_53() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ag_53)); }
+	inline String_t* get_U23Ag_53() const { return ___U23Ag_53; }
+	inline String_t** get_address_of_U23Ag_53() { return &___U23Ag_53; }
+	inline void set_U23Ag_53(String_t* value)
+	{
+		___U23Ag_53 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ag_53), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Bg_54() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Bg_54)); }
+	inline String_t* get_U23Bg_54() const { return ___U23Bg_54; }
+	inline String_t** get_address_of_U23Bg_54() { return &___U23Bg_54; }
+	inline void set_U23Bg_54(String_t* value)
+	{
+		___U23Bg_54 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Bg_54), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Cg_55() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Cg_55)); }
+	inline String_t* get_U23Cg_55() const { return ___U23Cg_55; }
+	inline String_t** get_address_of_U23Cg_55() { return &___U23Cg_55; }
+	inline void set_U23Cg_55(String_t* value)
+	{
+		___U23Cg_55 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Cg_55), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Dg_56() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Dg_56)); }
+	inline String_t* get_U23Dg_56() const { return ___U23Dg_56; }
+	inline String_t** get_address_of_U23Dg_56() { return &___U23Dg_56; }
+	inline void set_U23Dg_56(String_t* value)
+	{
+		___U23Dg_56 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Dg_56), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Eg_57() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Eg_57)); }
+	inline String_t* get_U23Eg_57() const { return ___U23Eg_57; }
+	inline String_t** get_address_of_U23Eg_57() { return &___U23Eg_57; }
+	inline void set_U23Eg_57(String_t* value)
+	{
+		___U23Eg_57 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Eg_57), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Fg_58() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Fg_58)); }
+	inline String_t* get_U23Fg_58() const { return ___U23Fg_58; }
+	inline String_t** get_address_of_U23Fg_58() { return &___U23Fg_58; }
+	inline void set_U23Fg_58(String_t* value)
+	{
+		___U23Fg_58 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Fg_58), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Gg_59() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Gg_59)); }
+	inline String_t* get_U23Gg_59() const { return ___U23Gg_59; }
+	inline String_t** get_address_of_U23Gg_59() { return &___U23Gg_59; }
+	inline void set_U23Gg_59(String_t* value)
+	{
+		___U23Gg_59 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Gg_59), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Hg_60() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Hg_60)); }
+	inline String_t* get_U23Hg_60() const { return ___U23Hg_60; }
+	inline String_t** get_address_of_U23Hg_60() { return &___U23Hg_60; }
+	inline void set_U23Hg_60(String_t* value)
+	{
+		___U23Hg_60 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Hg_60), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ig_61() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ig_61)); }
+	inline String_t* get_U23Ig_61() const { return ___U23Ig_61; }
+	inline String_t** get_address_of_U23Ig_61() { return &___U23Ig_61; }
+	inline void set_U23Ig_61(String_t* value)
+	{
+		___U23Ig_61 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ig_61), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Jg_62() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Jg_62)); }
+	inline String_t* get_U23Jg_62() const { return ___U23Jg_62; }
+	inline String_t** get_address_of_U23Jg_62() { return &___U23Jg_62; }
+	inline void set_U23Jg_62(String_t* value)
+	{
+		___U23Jg_62 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Jg_62), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Kg_63() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Kg_63)); }
+	inline String_t* get_U23Kg_63() const { return ___U23Kg_63; }
+	inline String_t** get_address_of_U23Kg_63() { return &___U23Kg_63; }
+	inline void set_U23Kg_63(String_t* value)
+	{
+		___U23Kg_63 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Kg_63), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Lg_64() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Lg_64)); }
+	inline String_t* get_U23Lg_64() const { return ___U23Lg_64; }
+	inline String_t** get_address_of_U23Lg_64() { return &___U23Lg_64; }
+	inline void set_U23Lg_64(String_t* value)
+	{
+		___U23Lg_64 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Lg_64), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Mg_65() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Mg_65)); }
+	inline String_t* get_U23Mg_65() const { return ___U23Mg_65; }
+	inline String_t** get_address_of_U23Mg_65() { return &___U23Mg_65; }
+	inline void set_U23Mg_65(String_t* value)
+	{
+		___U23Mg_65 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Mg_65), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ng_66() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ng_66)); }
+	inline String_t* get_U23Ng_66() const { return ___U23Ng_66; }
+	inline String_t** get_address_of_U23Ng_66() { return &___U23Ng_66; }
+	inline void set_U23Ng_66(String_t* value)
+	{
+		___U23Ng_66 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ng_66), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Og_67() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Og_67)); }
+	inline String_t* get_U23Og_67() const { return ___U23Og_67; }
+	inline String_t** get_address_of_U23Og_67() { return &___U23Og_67; }
+	inline void set_U23Og_67(String_t* value)
+	{
+		___U23Og_67 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Og_67), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Pg_68() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Pg_68)); }
+	inline String_t* get_U23Pg_68() const { return ___U23Pg_68; }
+	inline String_t** get_address_of_U23Pg_68() { return &___U23Pg_68; }
+	inline void set_U23Pg_68(String_t* value)
+	{
+		___U23Pg_68 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Pg_68), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Qg_69() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Qg_69)); }
+	inline String_t* get_U23Qg_69() const { return ___U23Qg_69; }
+	inline String_t** get_address_of_U23Qg_69() { return &___U23Qg_69; }
+	inline void set_U23Qg_69(String_t* value)
+	{
+		___U23Qg_69 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Qg_69), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Rg_70() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Rg_70)); }
+	inline String_t* get_U23Rg_70() const { return ___U23Rg_70; }
+	inline String_t** get_address_of_U23Rg_70() { return &___U23Rg_70; }
+	inline void set_U23Rg_70(String_t* value)
+	{
+		___U23Rg_70 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Rg_70), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Sg_71() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Sg_71)); }
+	inline String_t* get_U23Sg_71() const { return ___U23Sg_71; }
+	inline String_t** get_address_of_U23Sg_71() { return &___U23Sg_71; }
+	inline void set_U23Sg_71(String_t* value)
+	{
+		___U23Sg_71 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Sg_71), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Tg_72() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Tg_72)); }
+	inline String_t* get_U23Tg_72() const { return ___U23Tg_72; }
+	inline String_t** get_address_of_U23Tg_72() { return &___U23Tg_72; }
+	inline void set_U23Tg_72(String_t* value)
+	{
+		___U23Tg_72 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Tg_72), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ug_73() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ug_73)); }
+	inline String_t* get_U23Ug_73() const { return ___U23Ug_73; }
+	inline String_t** get_address_of_U23Ug_73() { return &___U23Ug_73; }
+	inline void set_U23Ug_73(String_t* value)
+	{
+		___U23Ug_73 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ug_73), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Vg_74() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Vg_74)); }
+	inline String_t* get_U23Vg_74() const { return ___U23Vg_74; }
+	inline String_t** get_address_of_U23Vg_74() { return &___U23Vg_74; }
+	inline void set_U23Vg_74(String_t* value)
+	{
+		___U23Vg_74 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Vg_74), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Wg_75() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Wg_75)); }
+	inline String_t* get_U23Wg_75() const { return ___U23Wg_75; }
+	inline String_t** get_address_of_U23Wg_75() { return &___U23Wg_75; }
+	inline void set_U23Wg_75(String_t* value)
+	{
+		___U23Wg_75 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Wg_75), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Xg_76() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Xg_76)); }
+	inline String_t* get_U23Xg_76() const { return ___U23Xg_76; }
+	inline String_t** get_address_of_U23Xg_76() { return &___U23Xg_76; }
+	inline void set_U23Xg_76(String_t* value)
+	{
+		___U23Xg_76 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Xg_76), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Yg_77() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Yg_77)); }
+	inline String_t* get_U23Yg_77() const { return ___U23Yg_77; }
+	inline String_t** get_address_of_U23Yg_77() { return &___U23Yg_77; }
+	inline void set_U23Yg_77(String_t* value)
+	{
+		___U23Yg_77 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Yg_77), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Zg_78() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Zg_78)); }
+	inline String_t* get_U23Zg_78() const { return ___U23Zg_78; }
+	inline String_t** get_address_of_U23Zg_78() { return &___U23Zg_78; }
+	inline void set_U23Zg_78(String_t* value)
+	{
+		___U23Zg_78 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Zg_78), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U230g_79() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U230g_79)); }
+	inline String_t* get_U230g_79() const { return ___U230g_79; }
+	inline String_t** get_address_of_U230g_79() { return &___U230g_79; }
+	inline void set_U230g_79(String_t* value)
+	{
+		___U230g_79 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U230g_79), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U231g_80() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U231g_80)); }
+	inline String_t* get_U231g_80() const { return ___U231g_80; }
+	inline String_t** get_address_of_U231g_80() { return &___U231g_80; }
+	inline void set_U231g_80(String_t* value)
+	{
+		___U231g_80 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U231g_80), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U232g_81() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U232g_81)); }
+	inline String_t* get_U232g_81() const { return ___U232g_81; }
+	inline String_t** get_address_of_U232g_81() { return &___U232g_81; }
+	inline void set_U232g_81(String_t* value)
+	{
+		___U232g_81 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U232g_81), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U233g_82() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U233g_82)); }
+	inline String_t* get_U233g_82() const { return ___U233g_82; }
+	inline String_t** get_address_of_U233g_82() { return &___U233g_82; }
+	inline void set_U233g_82(String_t* value)
+	{
+		___U233g_82 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U233g_82), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U234g_83() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U234g_83)); }
+	inline String_t* get_U234g_83() const { return ___U234g_83; }
+	inline String_t** get_address_of_U234g_83() { return &___U234g_83; }
+	inline void set_U234g_83(String_t* value)
+	{
+		___U234g_83 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U234g_83), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U235g_84() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U235g_84)); }
+	inline String_t* get_U235g_84() const { return ___U235g_84; }
+	inline String_t** get_address_of_U235g_84() { return &___U235g_84; }
+	inline void set_U235g_84(String_t* value)
+	{
+		___U235g_84 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U235g_84), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U236g_85() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U236g_85)); }
+	inline String_t* get_U236g_85() const { return ___U236g_85; }
+	inline String_t** get_address_of_U236g_85() { return &___U236g_85; }
+	inline void set_U236g_85(String_t* value)
+	{
+		___U236g_85 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U236g_85), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U237g_86() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U237g_86)); }
+	inline String_t* get_U237g_86() const { return ___U237g_86; }
+	inline String_t** get_address_of_U237g_86() { return &___U237g_86; }
+	inline void set_U237g_86(String_t* value)
+	{
+		___U237g_86 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U237g_86), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U232ub_87() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U232ub_87)); }
+	inline String_t* get_U232ub_87() const { return ___U232ub_87; }
+	inline String_t** get_address_of_U232ub_87() { return &___U232ub_87; }
+	inline void set_U232ub_87(String_t* value)
+	{
+		___U232ub_87 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U232ub_87), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U238g_88() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U238g_88)); }
+	inline String_t* get_U238g_88() const { return ___U238g_88; }
+	inline String_t** get_address_of_U238g_88() { return &___U238g_88; }
+	inline void set_U238g_88(String_t* value)
+	{
+		___U238g_88 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U238g_88), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U239g_89() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U239g_89)); }
+	inline String_t* get_U239g_89() const { return ___U239g_89; }
+	inline String_t** get_address_of_U239g_89() { return &___U239g_89; }
+	inline void set_U239g_89(String_t* value)
+	{
+		___U239g_89 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U239g_89), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ah_90() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ah_90)); }
+	inline String_t* get_U23ah_90() const { return ___U23ah_90; }
+	inline String_t** get_address_of_U23ah_90() { return &___U23ah_90; }
+	inline void set_U23ah_90(String_t* value)
+	{
+		___U23ah_90 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ah_90), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23bh_91() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23bh_91)); }
+	inline String_t* get_U23bh_91() const { return ___U23bh_91; }
+	inline String_t** get_address_of_U23bh_91() { return &___U23bh_91; }
+	inline void set_U23bh_91(String_t* value)
+	{
+		___U23bh_91 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23bh_91), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ch_92() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ch_92)); }
+	inline String_t* get_U23ch_92() const { return ___U23ch_92; }
+	inline String_t** get_address_of_U23ch_92() { return &___U23ch_92; }
+	inline void set_U23ch_92(String_t* value)
+	{
+		___U23ch_92 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ch_92), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23dh_93() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23dh_93)); }
+	inline String_t* get_U23dh_93() const { return ___U23dh_93; }
+	inline String_t** get_address_of_U23dh_93() { return &___U23dh_93; }
+	inline void set_U23dh_93(String_t* value)
+	{
+		___U23dh_93 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23dh_93), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23eh_94() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23eh_94)); }
+	inline String_t* get_U23eh_94() const { return ___U23eh_94; }
+	inline String_t** get_address_of_U23eh_94() { return &___U23eh_94; }
+	inline void set_U23eh_94(String_t* value)
+	{
+		___U23eh_94 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23eh_94), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23fh_95() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23fh_95)); }
+	inline String_t* get_U23fh_95() const { return ___U23fh_95; }
+	inline String_t** get_address_of_U23fh_95() { return &___U23fh_95; }
+	inline void set_U23fh_95(String_t* value)
+	{
+		___U23fh_95 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23fh_95), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23gh_96() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23gh_96)); }
+	inline String_t* get_U23gh_96() const { return ___U23gh_96; }
+	inline String_t** get_address_of_U23gh_96() { return &___U23gh_96; }
+	inline void set_U23gh_96(String_t* value)
+	{
+		___U23gh_96 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23gh_96), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23hh_97() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23hh_97)); }
+	inline String_t* get_U23hh_97() const { return ___U23hh_97; }
+	inline String_t** get_address_of_U23hh_97() { return &___U23hh_97; }
+	inline void set_U23hh_97(String_t* value)
+	{
+		___U23hh_97 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23hh_97), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ih_98() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ih_98)); }
+	inline String_t* get_U23ih_98() const { return ___U23ih_98; }
+	inline String_t** get_address_of_U23ih_98() { return &___U23ih_98; }
+	inline void set_U23ih_98(String_t* value)
+	{
+		___U23ih_98 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ih_98), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23jh_99() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23jh_99)); }
+	inline String_t* get_U23jh_99() const { return ___U23jh_99; }
+	inline String_t** get_address_of_U23jh_99() { return &___U23jh_99; }
+	inline void set_U23jh_99(String_t* value)
+	{
+		___U23jh_99 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23jh_99), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23kh_100() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23kh_100)); }
+	inline String_t* get_U23kh_100() const { return ___U23kh_100; }
+	inline String_t** get_address_of_U23kh_100() { return &___U23kh_100; }
+	inline void set_U23kh_100(String_t* value)
+	{
+		___U23kh_100 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23kh_100), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23lh_101() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23lh_101)); }
+	inline String_t* get_U23lh_101() const { return ___U23lh_101; }
+	inline String_t** get_address_of_U23lh_101() { return &___U23lh_101; }
+	inline void set_U23lh_101(String_t* value)
+	{
+		___U23lh_101 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23lh_101), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23mh_102() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23mh_102)); }
+	inline String_t* get_U23mh_102() const { return ___U23mh_102; }
+	inline String_t** get_address_of_U23mh_102() { return &___U23mh_102; }
+	inline void set_U23mh_102(String_t* value)
+	{
+		___U23mh_102 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23mh_102), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23nh_103() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23nh_103)); }
+	inline String_t* get_U23nh_103() const { return ___U23nh_103; }
+	inline String_t** get_address_of_U23nh_103() { return &___U23nh_103; }
+	inline void set_U23nh_103(String_t* value)
+	{
+		___U23nh_103 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23nh_103), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23oh_104() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23oh_104)); }
+	inline String_t* get_U23oh_104() const { return ___U23oh_104; }
+	inline String_t** get_address_of_U23oh_104() { return &___U23oh_104; }
+	inline void set_U23oh_104(String_t* value)
+	{
+		___U23oh_104 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23oh_104), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ph_105() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ph_105)); }
+	inline String_t* get_U23ph_105() const { return ___U23ph_105; }
+	inline String_t** get_address_of_U23ph_105() { return &___U23ph_105; }
+	inline void set_U23ph_105(String_t* value)
+	{
+		___U23ph_105 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ph_105), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23qh_106() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23qh_106)); }
+	inline String_t* get_U23qh_106() const { return ___U23qh_106; }
+	inline String_t** get_address_of_U23qh_106() { return &___U23qh_106; }
+	inline void set_U23qh_106(String_t* value)
+	{
+		___U23qh_106 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23qh_106), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23rh_107() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23rh_107)); }
+	inline String_t* get_U23rh_107() const { return ___U23rh_107; }
+	inline String_t** get_address_of_U23rh_107() { return &___U23rh_107; }
+	inline void set_U23rh_107(String_t* value)
+	{
+		___U23rh_107 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23rh_107), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23sh_108() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23sh_108)); }
+	inline String_t* get_U23sh_108() const { return ___U23sh_108; }
+	inline String_t** get_address_of_U23sh_108() { return &___U23sh_108; }
+	inline void set_U23sh_108(String_t* value)
+	{
+		___U23sh_108 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23sh_108), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23th_109() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23th_109)); }
+	inline String_t* get_U23th_109() const { return ___U23th_109; }
+	inline String_t** get_address_of_U23th_109() { return &___U23th_109; }
+	inline void set_U23th_109(String_t* value)
+	{
+		___U23th_109 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23th_109), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23uh_110() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23uh_110)); }
+	inline String_t* get_U23uh_110() const { return ___U23uh_110; }
+	inline String_t** get_address_of_U23uh_110() { return &___U23uh_110; }
+	inline void set_U23uh_110(String_t* value)
+	{
+		___U23uh_110 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23uh_110), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23vh_111() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23vh_111)); }
+	inline String_t* get_U23vh_111() const { return ___U23vh_111; }
+	inline String_t** get_address_of_U23vh_111() { return &___U23vh_111; }
+	inline void set_U23vh_111(String_t* value)
+	{
+		___U23vh_111 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23vh_111), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23wh_112() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23wh_112)); }
+	inline String_t* get_U23wh_112() const { return ___U23wh_112; }
+	inline String_t** get_address_of_U23wh_112() { return &___U23wh_112; }
+	inline void set_U23wh_112(String_t* value)
+	{
+		___U23wh_112 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23wh_112), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23xh_113() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23xh_113)); }
+	inline String_t* get_U23xh_113() const { return ___U23xh_113; }
+	inline String_t** get_address_of_U23xh_113() { return &___U23xh_113; }
+	inline void set_U23xh_113(String_t* value)
+	{
+		___U23xh_113 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23xh_113), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23iob_114() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23iob_114)); }
+	inline String_t* get_U23iob_114() const { return ___U23iob_114; }
+	inline String_t** get_address_of_U23iob_114() { return &___U23iob_114; }
+	inline void set_U23iob_114(String_t* value)
+	{
+		___U23iob_114 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23iob_114), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23job_115() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23job_115)); }
+	inline String_t* get_U23job_115() const { return ___U23job_115; }
+	inline String_t** get_address_of_U23job_115() { return &___U23job_115; }
+	inline void set_U23job_115(String_t* value)
+	{
+		___U23job_115 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23job_115), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23kob_116() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23kob_116)); }
+	inline String_t* get_U23kob_116() const { return ___U23kob_116; }
+	inline String_t** get_address_of_U23kob_116() { return &___U23kob_116; }
+	inline void set_U23kob_116(String_t* value)
+	{
+		___U23kob_116 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23kob_116), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23lob_117() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23lob_117)); }
+	inline String_t* get_U23lob_117() const { return ___U23lob_117; }
+	inline String_t** get_address_of_U23lob_117() { return &___U23lob_117; }
+	inline void set_U23lob_117(String_t* value)
+	{
+		___U23lob_117 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23lob_117), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23mob_118() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23mob_118)); }
+	inline String_t* get_U23mob_118() const { return ___U23mob_118; }
+	inline String_t** get_address_of_U23mob_118() { return &___U23mob_118; }
+	inline void set_U23mob_118(String_t* value)
+	{
+		___U23mob_118 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23mob_118), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23nob_119() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23nob_119)); }
+	inline String_t* get_U23nob_119() const { return ___U23nob_119; }
+	inline String_t** get_address_of_U23nob_119() { return &___U23nob_119; }
+	inline void set_U23nob_119(String_t* value)
+	{
+		___U23nob_119 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23nob_119), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23oob_120() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23oob_120)); }
+	inline String_t* get_U23oob_120() const { return ___U23oob_120; }
+	inline String_t** get_address_of_U23oob_120() { return &___U23oob_120; }
+	inline void set_U23oob_120(String_t* value)
+	{
+		___U23oob_120 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23oob_120), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23pob_121() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23pob_121)); }
+	inline String_t* get_U23pob_121() const { return ___U23pob_121; }
+	inline String_t** get_address_of_U23pob_121() { return &___U23pob_121; }
+	inline void set_U23pob_121(String_t* value)
+	{
+		___U23pob_121 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23pob_121), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23qob_122() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23qob_122)); }
+	inline String_t* get_U23qob_122() const { return ___U23qob_122; }
+	inline String_t** get_address_of_U23qob_122() { return &___U23qob_122; }
+	inline void set_U23qob_122(String_t* value)
+	{
+		___U23qob_122 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23qob_122), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23yh_123() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23yh_123)); }
+	inline String_t* get_U23yh_123() const { return ___U23yh_123; }
+	inline String_t** get_address_of_U23yh_123() { return &___U23yh_123; }
+	inline void set_U23yh_123(String_t* value)
+	{
+		___U23yh_123 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23yh_123), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23zh_124() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23zh_124)); }
+	inline String_t* get_U23zh_124() const { return ___U23zh_124; }
+	inline String_t** get_address_of_U23zh_124() { return &___U23zh_124; }
+	inline void set_U23zh_124(String_t* value)
+	{
+		___U23zh_124 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23zh_124), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ah_125() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ah_125)); }
+	inline String_t* get_U23Ah_125() const { return ___U23Ah_125; }
+	inline String_t** get_address_of_U23Ah_125() { return &___U23Ah_125; }
+	inline void set_U23Ah_125(String_t* value)
+	{
+		___U23Ah_125 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ah_125), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Bh_126() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Bh_126)); }
+	inline String_t* get_U23Bh_126() const { return ___U23Bh_126; }
+	inline String_t** get_address_of_U23Bh_126() { return &___U23Bh_126; }
+	inline void set_U23Bh_126(String_t* value)
+	{
+		___U23Bh_126 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Bh_126), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ch_127() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ch_127)); }
+	inline String_t* get_U23Ch_127() const { return ___U23Ch_127; }
+	inline String_t** get_address_of_U23Ch_127() { return &___U23Ch_127; }
+	inline void set_U23Ch_127(String_t* value)
+	{
+		___U23Ch_127 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ch_127), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Dh_128() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Dh_128)); }
+	inline String_t* get_U23Dh_128() const { return ___U23Dh_128; }
+	inline String_t** get_address_of_U23Dh_128() { return &___U23Dh_128; }
+	inline void set_U23Dh_128(String_t* value)
+	{
+		___U23Dh_128 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Dh_128), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Eh_129() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Eh_129)); }
+	inline String_t* get_U23Eh_129() const { return ___U23Eh_129; }
+	inline String_t** get_address_of_U23Eh_129() { return &___U23Eh_129; }
+	inline void set_U23Eh_129(String_t* value)
+	{
+		___U23Eh_129 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Eh_129), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Fh_130() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Fh_130)); }
+	inline String_t* get_U23Fh_130() const { return ___U23Fh_130; }
+	inline String_t** get_address_of_U23Fh_130() { return &___U23Fh_130; }
+	inline void set_U23Fh_130(String_t* value)
+	{
+		___U23Fh_130 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Fh_130), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Gh_131() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Gh_131)); }
+	inline String_t* get_U23Gh_131() const { return ___U23Gh_131; }
+	inline String_t** get_address_of_U23Gh_131() { return &___U23Gh_131; }
+	inline void set_U23Gh_131(String_t* value)
+	{
+		___U23Gh_131 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Gh_131), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Hh_132() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Hh_132)); }
+	inline String_t* get_U23Hh_132() const { return ___U23Hh_132; }
+	inline String_t** get_address_of_U23Hh_132() { return &___U23Hh_132; }
+	inline void set_U23Hh_132(String_t* value)
+	{
+		___U23Hh_132 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Hh_132), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ih_133() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ih_133)); }
+	inline String_t* get_U23Ih_133() const { return ___U23Ih_133; }
+	inline String_t** get_address_of_U23Ih_133() { return &___U23Ih_133; }
+	inline void set_U23Ih_133(String_t* value)
+	{
+		___U23Ih_133 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ih_133), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Jh_134() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Jh_134)); }
+	inline String_t* get_U23Jh_134() const { return ___U23Jh_134; }
+	inline String_t** get_address_of_U23Jh_134() { return &___U23Jh_134; }
+	inline void set_U23Jh_134(String_t* value)
+	{
+		___U23Jh_134 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Jh_134), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Kh_135() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Kh_135)); }
+	inline String_t* get_U23Kh_135() const { return ___U23Kh_135; }
+	inline String_t** get_address_of_U23Kh_135() { return &___U23Kh_135; }
+	inline void set_U23Kh_135(String_t* value)
+	{
+		___U23Kh_135 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Kh_135), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Lh_136() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Lh_136)); }
+	inline String_t* get_U23Lh_136() const { return ___U23Lh_136; }
+	inline String_t** get_address_of_U23Lh_136() { return &___U23Lh_136; }
+	inline void set_U23Lh_136(String_t* value)
+	{
+		___U23Lh_136 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Lh_136), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Mh_137() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Mh_137)); }
+	inline String_t* get_U23Mh_137() const { return ___U23Mh_137; }
+	inline String_t** get_address_of_U23Mh_137() { return &___U23Mh_137; }
+	inline void set_U23Mh_137(String_t* value)
+	{
+		___U23Mh_137 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Mh_137), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Nh_138() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Nh_138)); }
+	inline String_t* get_U23Nh_138() const { return ___U23Nh_138; }
+	inline String_t** get_address_of_U23Nh_138() { return &___U23Nh_138; }
+	inline void set_U23Nh_138(String_t* value)
+	{
+		___U23Nh_138 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Nh_138), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Oh_139() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Oh_139)); }
+	inline String_t* get_U23Oh_139() const { return ___U23Oh_139; }
+	inline String_t** get_address_of_U23Oh_139() { return &___U23Oh_139; }
+	inline void set_U23Oh_139(String_t* value)
+	{
+		___U23Oh_139 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Oh_139), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ph_140() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ph_140)); }
+	inline String_t* get_U23Ph_140() const { return ___U23Ph_140; }
+	inline String_t** get_address_of_U23Ph_140() { return &___U23Ph_140; }
+	inline void set_U23Ph_140(String_t* value)
+	{
+		___U23Ph_140 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ph_140), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Qh_141() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Qh_141)); }
+	inline String_t* get_U23Qh_141() const { return ___U23Qh_141; }
+	inline String_t** get_address_of_U23Qh_141() { return &___U23Qh_141; }
+	inline void set_U23Qh_141(String_t* value)
+	{
+		___U23Qh_141 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Qh_141), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Rh_142() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Rh_142)); }
+	inline String_t* get_U23Rh_142() const { return ___U23Rh_142; }
+	inline String_t** get_address_of_U23Rh_142() { return &___U23Rh_142; }
+	inline void set_U23Rh_142(String_t* value)
+	{
+		___U23Rh_142 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Rh_142), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Sh_143() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Sh_143)); }
+	inline String_t* get_U23Sh_143() const { return ___U23Sh_143; }
+	inline String_t** get_address_of_U23Sh_143() { return &___U23Sh_143; }
+	inline void set_U23Sh_143(String_t* value)
+	{
+		___U23Sh_143 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Sh_143), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Th_144() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Th_144)); }
+	inline String_t* get_U23Th_144() const { return ___U23Th_144; }
+	inline String_t** get_address_of_U23Th_144() { return &___U23Th_144; }
+	inline void set_U23Th_144(String_t* value)
+	{
+		___U23Th_144 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Th_144), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Uh_145() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Uh_145)); }
+	inline String_t* get_U23Uh_145() const { return ___U23Uh_145; }
+	inline String_t** get_address_of_U23Uh_145() { return &___U23Uh_145; }
+	inline void set_U23Uh_145(String_t* value)
+	{
+		___U23Uh_145 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Uh_145), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Vh_146() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Vh_146)); }
+	inline String_t* get_U23Vh_146() const { return ___U23Vh_146; }
+	inline String_t** get_address_of_U23Vh_146() { return &___U23Vh_146; }
+	inline void set_U23Vh_146(String_t* value)
+	{
+		___U23Vh_146 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Vh_146), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Wh_147() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Wh_147)); }
+	inline String_t* get_U23Wh_147() const { return ___U23Wh_147; }
+	inline String_t** get_address_of_U23Wh_147() { return &___U23Wh_147; }
+	inline void set_U23Wh_147(String_t* value)
+	{
+		___U23Wh_147 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Wh_147), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Xh_148() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Xh_148)); }
+	inline String_t* get_U23Xh_148() const { return ___U23Xh_148; }
+	inline String_t** get_address_of_U23Xh_148() { return &___U23Xh_148; }
+	inline void set_U23Xh_148(String_t* value)
+	{
+		___U23Xh_148 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Xh_148), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Yh_149() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Yh_149)); }
+	inline String_t* get_U23Yh_149() const { return ___U23Yh_149; }
+	inline String_t** get_address_of_U23Yh_149() { return &___U23Yh_149; }
+	inline void set_U23Yh_149(String_t* value)
+	{
+		___U23Yh_149 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Yh_149), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Zh_150() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Zh_150)); }
+	inline String_t* get_U23Zh_150() const { return ___U23Zh_150; }
+	inline String_t** get_address_of_U23Zh_150() { return &___U23Zh_150; }
+	inline void set_U23Zh_150(String_t* value)
+	{
+		___U23Zh_150 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Zh_150), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U230h_151() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U230h_151)); }
+	inline String_t* get_U230h_151() const { return ___U230h_151; }
+	inline String_t** get_address_of_U230h_151() { return &___U230h_151; }
+	inline void set_U230h_151(String_t* value)
+	{
+		___U230h_151 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U230h_151), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U231h_152() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U231h_152)); }
+	inline String_t* get_U231h_152() const { return ___U231h_152; }
+	inline String_t** get_address_of_U231h_152() { return &___U231h_152; }
+	inline void set_U231h_152(String_t* value)
+	{
+		___U231h_152 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U231h_152), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U232h_153() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U232h_153)); }
+	inline String_t* get_U232h_153() const { return ___U232h_153; }
+	inline String_t** get_address_of_U232h_153() { return &___U232h_153; }
+	inline void set_U232h_153(String_t* value)
+	{
+		___U232h_153 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U232h_153), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U233h_154() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U233h_154)); }
+	inline String_t* get_U233h_154() const { return ___U233h_154; }
+	inline String_t** get_address_of_U233h_154() { return &___U233h_154; }
+	inline void set_U233h_154(String_t* value)
+	{
+		___U233h_154 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U233h_154), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U234h_155() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U234h_155)); }
+	inline String_t* get_U234h_155() const { return ___U234h_155; }
+	inline String_t** get_address_of_U234h_155() { return &___U234h_155; }
+	inline void set_U234h_155(String_t* value)
+	{
+		___U234h_155 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U234h_155), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U235h_156() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U235h_156)); }
+	inline String_t* get_U235h_156() const { return ___U235h_156; }
+	inline String_t** get_address_of_U235h_156() { return &___U235h_156; }
+	inline void set_U235h_156(String_t* value)
+	{
+		___U235h_156 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U235h_156), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U236h_157() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U236h_157)); }
+	inline String_t* get_U236h_157() const { return ___U236h_157; }
+	inline String_t** get_address_of_U236h_157() { return &___U236h_157; }
+	inline void set_U236h_157(String_t* value)
+	{
+		___U236h_157 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U236h_157), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U237h_158() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U237h_158)); }
+	inline String_t* get_U237h_158() const { return ___U237h_158; }
+	inline String_t** get_address_of_U237h_158() { return &___U237h_158; }
+	inline void set_U237h_158(String_t* value)
+	{
+		___U237h_158 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U237h_158), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U238h_159() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U238h_159)); }
+	inline String_t* get_U238h_159() const { return ___U238h_159; }
+	inline String_t** get_address_of_U238h_159() { return &___U238h_159; }
+	inline void set_U238h_159(String_t* value)
+	{
+		___U238h_159 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U238h_159), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U239h_160() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U239h_160)); }
+	inline String_t* get_U239h_160() const { return ___U239h_160; }
+	inline String_t** get_address_of_U239h_160() { return &___U239h_160; }
+	inline void set_U239h_160(String_t* value)
+	{
+		___U239h_160 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U239h_160), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ai_161() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ai_161)); }
+	inline String_t* get_U23ai_161() const { return ___U23ai_161; }
+	inline String_t** get_address_of_U23ai_161() { return &___U23ai_161; }
+	inline void set_U23ai_161(String_t* value)
+	{
+		___U23ai_161 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ai_161), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23bi_162() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23bi_162)); }
+	inline String_t* get_U23bi_162() const { return ___U23bi_162; }
+	inline String_t** get_address_of_U23bi_162() { return &___U23bi_162; }
+	inline void set_U23bi_162(String_t* value)
+	{
+		___U23bi_162 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23bi_162), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ci_163() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ci_163)); }
+	inline String_t* get_U23ci_163() const { return ___U23ci_163; }
+	inline String_t** get_address_of_U23ci_163() { return &___U23ci_163; }
+	inline void set_U23ci_163(String_t* value)
+	{
+		___U23ci_163 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ci_163), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23di_164() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23di_164)); }
+	inline String_t* get_U23di_164() const { return ___U23di_164; }
+	inline String_t** get_address_of_U23di_164() { return &___U23di_164; }
+	inline void set_U23di_164(String_t* value)
+	{
+		___U23di_164 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23di_164), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ei_165() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ei_165)); }
+	inline String_t* get_U23ei_165() const { return ___U23ei_165; }
+	inline String_t** get_address_of_U23ei_165() { return &___U23ei_165; }
+	inline void set_U23ei_165(String_t* value)
+	{
+		___U23ei_165 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ei_165), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23fi_166() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23fi_166)); }
+	inline String_t* get_U23fi_166() const { return ___U23fi_166; }
+	inline String_t** get_address_of_U23fi_166() { return &___U23fi_166; }
+	inline void set_U23fi_166(String_t* value)
+	{
+		___U23fi_166 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23fi_166), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23gi_167() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23gi_167)); }
+	inline String_t* get_U23gi_167() const { return ___U23gi_167; }
+	inline String_t** get_address_of_U23gi_167() { return &___U23gi_167; }
+	inline void set_U23gi_167(String_t* value)
+	{
+		___U23gi_167 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23gi_167), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23hi_168() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23hi_168)); }
+	inline String_t* get_U23hi_168() const { return ___U23hi_168; }
+	inline String_t** get_address_of_U23hi_168() { return &___U23hi_168; }
+	inline void set_U23hi_168(String_t* value)
+	{
+		___U23hi_168 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23hi_168), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23rob_169() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23rob_169)); }
+	inline String_t* get_U23rob_169() const { return ___U23rob_169; }
+	inline String_t** get_address_of_U23rob_169() { return &___U23rob_169; }
+	inline void set_U23rob_169(String_t* value)
+	{
+		___U23rob_169 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23rob_169), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23sob_170() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23sob_170)); }
+	inline String_t* get_U23sob_170() const { return ___U23sob_170; }
+	inline String_t** get_address_of_U23sob_170() { return &___U23sob_170; }
+	inline void set_U23sob_170(String_t* value)
+	{
+		___U23sob_170 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23sob_170), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23tob_171() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23tob_171)); }
+	inline String_t* get_U23tob_171() const { return ___U23tob_171; }
+	inline String_t** get_address_of_U23tob_171() { return &___U23tob_171; }
+	inline void set_U23tob_171(String_t* value)
+	{
+		___U23tob_171 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23tob_171), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U237pb_172() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U237pb_172)); }
+	inline String_t* get_U237pb_172() const { return ___U237pb_172; }
+	inline String_t** get_address_of_U237pb_172() { return &___U237pb_172; }
+	inline void set_U237pb_172(String_t* value)
+	{
+		___U237pb_172 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U237pb_172), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23uob_173() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23uob_173)); }
+	inline String_t* get_U23uob_173() const { return ___U23uob_173; }
+	inline String_t** get_address_of_U23uob_173() { return &___U23uob_173; }
+	inline void set_U23uob_173(String_t* value)
+	{
+		___U23uob_173 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23uob_173), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23vob_174() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23vob_174)); }
+	inline String_t* get_U23vob_174() const { return ___U23vob_174; }
+	inline String_t** get_address_of_U23vob_174() { return &___U23vob_174; }
+	inline void set_U23vob_174(String_t* value)
+	{
+		___U23vob_174 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23vob_174), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23wob_175() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23wob_175)); }
+	inline String_t* get_U23wob_175() const { return ___U23wob_175; }
+	inline String_t** get_address_of_U23wob_175() { return &___U23wob_175; }
+	inline void set_U23wob_175(String_t* value)
+	{
+		___U23wob_175 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23wob_175), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23xob_176() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23xob_176)); }
+	inline String_t* get_U23xob_176() const { return ___U23xob_176; }
+	inline String_t** get_address_of_U23xob_176() { return &___U23xob_176; }
+	inline void set_U23xob_176(String_t* value)
+	{
+		___U23xob_176 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23xob_176), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23yob_177() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23yob_177)); }
+	inline String_t* get_U23yob_177() const { return ___U23yob_177; }
+	inline String_t** get_address_of_U23yob_177() { return &___U23yob_177; }
+	inline void set_U23yob_177(String_t* value)
+	{
+		___U23yob_177 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23yob_177), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ii_178() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ii_178)); }
+	inline String_t* get_U23ii_178() const { return ___U23ii_178; }
+	inline String_t** get_address_of_U23ii_178() { return &___U23ii_178; }
+	inline void set_U23ii_178(String_t* value)
+	{
+		___U23ii_178 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ii_178), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Irb_179() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Irb_179)); }
+	inline String_t* get_U23Irb_179() const { return ___U23Irb_179; }
+	inline String_t** get_address_of_U23Irb_179() { return &___U23Irb_179; }
+	inline void set_U23Irb_179(String_t* value)
+	{
+		___U23Irb_179 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Irb_179), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ji_180() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ji_180)); }
+	inline String_t* get_U23ji_180() const { return ___U23ji_180; }
+	inline String_t** get_address_of_U23ji_180() { return &___U23ji_180; }
+	inline void set_U23ji_180(String_t* value)
+	{
+		___U23ji_180 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ji_180), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ki_181() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ki_181)); }
+	inline String_t* get_U23ki_181() const { return ___U23ki_181; }
+	inline String_t** get_address_of_U23ki_181() { return &___U23ki_181; }
+	inline void set_U23ki_181(String_t* value)
+	{
+		___U23ki_181 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ki_181), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23li_182() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23li_182)); }
+	inline String_t* get_U23li_182() const { return ___U23li_182; }
+	inline String_t** get_address_of_U23li_182() { return &___U23li_182; }
+	inline void set_U23li_182(String_t* value)
+	{
+		___U23li_182 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23li_182), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23mi_183() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23mi_183)); }
+	inline String_t* get_U23mi_183() const { return ___U23mi_183; }
+	inline String_t** get_address_of_U23mi_183() { return &___U23mi_183; }
+	inline void set_U23mi_183(String_t* value)
+	{
+		___U23mi_183 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23mi_183), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23pi_184() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23pi_184)); }
+	inline String_t* get_U23pi_184() const { return ___U23pi_184; }
+	inline String_t** get_address_of_U23pi_184() { return &___U23pi_184; }
+	inline void set_U23pi_184(String_t* value)
+	{
+		___U23pi_184 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23pi_184), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23qi_185() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23qi_185)); }
+	inline String_t* get_U23qi_185() const { return ___U23qi_185; }
+	inline String_t** get_address_of_U23qi_185() { return &___U23qi_185; }
+	inline void set_U23qi_185(String_t* value)
+	{
+		___U23qi_185 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23qi_185), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ri_186() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ri_186)); }
+	inline String_t* get_U23ri_186() const { return ___U23ri_186; }
+	inline String_t** get_address_of_U23ri_186() { return &___U23ri_186; }
+	inline void set_U23ri_186(String_t* value)
+	{
+		___U23ri_186 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ri_186), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23si_187() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23si_187)); }
+	inline String_t* get_U23si_187() const { return ___U23si_187; }
+	inline String_t** get_address_of_U23si_187() { return &___U23si_187; }
+	inline void set_U23si_187(String_t* value)
+	{
+		___U23si_187 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23si_187), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ti_188() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ti_188)); }
+	inline String_t* get_U23ti_188() const { return ___U23ti_188; }
+	inline String_t** get_address_of_U23ti_188() { return &___U23ti_188; }
+	inline void set_U23ti_188(String_t* value)
+	{
+		___U23ti_188 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ti_188), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ui_189() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23ui_189)); }
+	inline String_t* get_U23ui_189() const { return ___U23ui_189; }
+	inline String_t** get_address_of_U23ui_189() { return &___U23ui_189; }
+	inline void set_U23ui_189(String_t* value)
+	{
+		___U23ui_189 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ui_189), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23vi_190() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23vi_190)); }
+	inline String_t* get_U23vi_190() const { return ___U23vi_190; }
+	inline String_t** get_address_of_U23vi_190() { return &___U23vi_190; }
+	inline void set_U23vi_190(String_t* value)
+	{
+		___U23vi_190 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23vi_190), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23wi_191() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23wi_191)); }
+	inline String_t* get_U23wi_191() const { return ___U23wi_191; }
+	inline String_t** get_address_of_U23wi_191() { return &___U23wi_191; }
+	inline void set_U23wi_191(String_t* value)
+	{
+		___U23wi_191 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23wi_191), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23xi_192() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23xi_192)); }
+	inline String_t* get_U23xi_192() const { return ___U23xi_192; }
+	inline String_t** get_address_of_U23xi_192() { return &___U23xi_192; }
+	inline void set_U23xi_192(String_t* value)
+	{
+		___U23xi_192 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23xi_192), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23srb_193() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23srb_193)); }
+	inline String_t* get_U23srb_193() const { return ___U23srb_193; }
+	inline String_t** get_address_of_U23srb_193() { return &___U23srb_193; }
+	inline void set_U23srb_193(String_t* value)
+	{
+		___U23srb_193 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23srb_193), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23zi_194() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23zi_194)); }
+	inline String_t* get_U23zi_194() const { return ___U23zi_194; }
+	inline String_t** get_address_of_U23zi_194() { return &___U23zi_194; }
+	inline void set_U23zi_194(String_t* value)
+	{
+		___U23zi_194 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23zi_194), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ai_195() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ai_195)); }
+	inline String_t* get_U23Ai_195() const { return ___U23Ai_195; }
+	inline String_t** get_address_of_U23Ai_195() { return &___U23Ai_195; }
+	inline void set_U23Ai_195(String_t* value)
+	{
+		___U23Ai_195 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ai_195), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Bi_196() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Bi_196)); }
+	inline String_t* get_U23Bi_196() const { return ___U23Bi_196; }
+	inline String_t** get_address_of_U23Bi_196() { return &___U23Bi_196; }
+	inline void set_U23Bi_196(String_t* value)
+	{
+		___U23Bi_196 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Bi_196), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23zob_197() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23zob_197)); }
+	inline String_t* get_U23zob_197() const { return ___U23zob_197; }
+	inline String_t** get_address_of_U23zob_197() { return &___U23zob_197; }
+	inline void set_U23zob_197(String_t* value)
+	{
+		___U23zob_197 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23zob_197), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Di_198() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Di_198)); }
+	inline String_t* get_U23Di_198() const { return ___U23Di_198; }
+	inline String_t** get_address_of_U23Di_198() { return &___U23Di_198; }
+	inline void set_U23Di_198(String_t* value)
+	{
+		___U23Di_198 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Di_198), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ei_199() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ei_199)); }
+	inline String_t* get_U23Ei_199() const { return ___U23Ei_199; }
+	inline String_t** get_address_of_U23Ei_199() { return &___U23Ei_199; }
+	inline void set_U23Ei_199(String_t* value)
+	{
+		___U23Ei_199 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ei_199), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Fi_200() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Fi_200)); }
+	inline String_t* get_U23Fi_200() const { return ___U23Fi_200; }
+	inline String_t** get_address_of_U23Fi_200() { return &___U23Fi_200; }
+	inline void set_U23Fi_200(String_t* value)
+	{
+		___U23Fi_200 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Fi_200), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Gi_201() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Gi_201)); }
+	inline String_t* get_U23Gi_201() const { return ___U23Gi_201; }
+	inline String_t** get_address_of_U23Gi_201() { return &___U23Gi_201; }
+	inline void set_U23Gi_201(String_t* value)
+	{
+		___U23Gi_201 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Gi_201), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Hi_202() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Hi_202)); }
+	inline String_t* get_U23Hi_202() const { return ___U23Hi_202; }
+	inline String_t** get_address_of_U23Hi_202() { return &___U23Hi_202; }
+	inline void set_U23Hi_202(String_t* value)
+	{
+		___U23Hi_202 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Hi_202), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ii_203() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ii_203)); }
+	inline String_t* get_U23Ii_203() const { return ___U23Ii_203; }
+	inline String_t** get_address_of_U23Ii_203() { return &___U23Ii_203; }
+	inline void set_U23Ii_203(String_t* value)
+	{
+		___U23Ii_203 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ii_203), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ji_204() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ji_204)); }
+	inline String_t* get_U23Ji_204() const { return ___U23Ji_204; }
+	inline String_t** get_address_of_U23Ji_204() { return &___U23Ji_204; }
+	inline void set_U23Ji_204(String_t* value)
+	{
+		___U23Ji_204 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ji_204), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ki_205() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ki_205)); }
+	inline String_t* get_U23Ki_205() const { return ___U23Ki_205; }
+	inline String_t** get_address_of_U23Ki_205() { return &___U23Ki_205; }
+	inline void set_U23Ki_205(String_t* value)
+	{
+		___U23Ki_205 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ki_205), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Li_206() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Li_206)); }
+	inline String_t* get_U23Li_206() const { return ___U23Li_206; }
+	inline String_t** get_address_of_U23Li_206() { return &___U23Li_206; }
+	inline void set_U23Li_206(String_t* value)
+	{
+		___U23Li_206 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Li_206), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Mi_207() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Mi_207)); }
+	inline uint16_t get_U23Mi_207() const { return ___U23Mi_207; }
+	inline uint16_t* get_address_of_U23Mi_207() { return &___U23Mi_207; }
+	inline void set_U23Mi_207(uint16_t value)
+	{
+		___U23Mi_207 = value;
+	}
+
+	inline static int32_t get_offset_of_U23Ni_208() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ni_208)); }
+	inline uint16_t get_U23Ni_208() const { return ___U23Ni_208; }
+	inline uint16_t* get_address_of_U23Ni_208() { return &___U23Ni_208; }
+	inline void set_U23Ni_208(uint16_t value)
+	{
+		___U23Ni_208 = value;
+	}
+
+	inline static int32_t get_offset_of_U23Oi_209() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Oi_209)); }
+	inline String_t* get_U23Oi_209() const { return ___U23Oi_209; }
+	inline String_t** get_address_of_U23Oi_209() { return &___U23Oi_209; }
+	inline void set_U23Oi_209(String_t* value)
+	{
+		___U23Oi_209 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Oi_209), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Pi_210() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Pi_210)); }
+	inline String_t* get_U23Pi_210() const { return ___U23Pi_210; }
+	inline String_t** get_address_of_U23Pi_210() { return &___U23Pi_210; }
+	inline void set_U23Pi_210(String_t* value)
+	{
+		___U23Pi_210 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Pi_210), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ri_211() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ri_211)); }
+	inline String_t* get_U23Ri_211() const { return ___U23Ri_211; }
+	inline String_t** get_address_of_U23Ri_211() { return &___U23Ri_211; }
+	inline void set_U23Ri_211(String_t* value)
+	{
+		___U23Ri_211 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ri_211), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Si_212() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Si_212)); }
+	inline String_t* get_U23Si_212() const { return ___U23Si_212; }
+	inline String_t** get_address_of_U23Si_212() { return &___U23Si_212; }
+	inline void set_U23Si_212(String_t* value)
+	{
+		___U23Si_212 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Si_212), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ti_213() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ti_213)); }
+	inline String_t* get_U23Ti_213() const { return ___U23Ti_213; }
+	inline String_t** get_address_of_U23Ti_213() { return &___U23Ti_213; }
+	inline void set_U23Ti_213(String_t* value)
+	{
+		___U23Ti_213 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ti_213), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ui_214() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Ui_214)); }
+	inline String_t* get_U23Ui_214() const { return ___U23Ui_214; }
+	inline String_t** get_address_of_U23Ui_214() { return &___U23Ui_214; }
+	inline void set_U23Ui_214(String_t* value)
+	{
+		___U23Ui_214 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ui_214), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Vi_215() { return static_cast<int32_t>(offsetof(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields, ___U23Vi_215)); }
+	inline String_t* get_U23Vi_215() const { return ___U23Vi_215; }
+	inline String_t** get_address_of_U23Vi_215() { return &___U23Vi_215; }
+	inline void set_U23Vi_215(String_t* value)
+	{
+		___U23Vi_215 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Vi_215), (void*)value);
+	}
+};
+
+
+// #Jf.#bsb
+struct  U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields
+{
+public:
+	// System.String #Jf.#bsb::#Vf
+	String_t* ___U23Vf_0;
+	// System.String #Jf.#bsb::#Wf
+	String_t* ___U23Wf_1;
+	// System.String #Jf.#bsb::#Xf
+	String_t* ___U23Xf_2;
+	// System.String #Jf.#bsb::#Yf
+	String_t* ___U23Yf_3;
+	// System.String #Jf.#bsb::#9f
+	String_t* ___U239f_4;
+	// System.String #Jf.#bsb::#Urb
+	String_t* ___U23Urb_5;
+	// System.String #Jf.#bsb::#Vrb
+	String_t* ___U23Vrb_6;
+	// System.String #Jf.#bsb::#ag
+	String_t* ___U23ag_7;
+	// System.String #Jf.#bsb::#bg
+	String_t* ___U23bg_8;
+	// System.String #Jf.#bsb::#Wrb
+	String_t* ___U23Wrb_9;
+	// System.String #Jf.#bsb::#cg
+	String_t* ___U23cg_10;
+	// System.String #Jf.#bsb::#dg
+	String_t* ___U23dg_11;
+	// System.String #Jf.#bsb::#eg
+	String_t* ___U23eg_12;
+	// System.String #Jf.#bsb::#fg
+	String_t* ___U23fg_13;
+	// System.String #Jf.#bsb::#gg
+	String_t* ___U23gg_14;
+	// System.String #Jf.#bsb::#hg
+	String_t* ___U23hg_15;
+	// System.String #Jf.#bsb::#ig
+	String_t* ___U23ig_16;
+	// System.String #Jf.#bsb::#jg
+	String_t* ___U23jg_17;
+	// System.String #Jf.#bsb::#kg
+	String_t* ___U23kg_18;
+	// System.String #Jf.#bsb::#lg
+	String_t* ___U23lg_19;
+	// System.String #Jf.#bsb::#mg
+	String_t* ___U23mg_20;
+	// System.String #Jf.#bsb::#ng
+	String_t* ___U23ng_21;
+	// System.String #Jf.#bsb::#og
+	String_t* ___U23og_22;
+	// System.String #Jf.#bsb::#Xrb
+	String_t* ___U23Xrb_23;
+	// System.String #Jf.#bsb::#Yrb
+	String_t* ___U23Yrb_24;
+	// System.String #Jf.#bsb::#pg
+	String_t* ___U23pg_25;
+	// System.String #Jf.#bsb::#Zub
+	String_t* ___U23Zub_26;
+	// System.String #Jf.#bsb::#0ub
+	String_t* ___U230ub_27;
+	// System.String #Jf.#bsb::#1ub
+	String_t* ___U231ub_28;
+	// System.String #Jf.#bsb::#rg
+	String_t* ___U23rg_29;
+	// System.String #Jf.#bsb::#sg
+	String_t* ___U23sg_30;
+	// System.String #Jf.#bsb::#tg
+	String_t* ___U23tg_31;
+	// System.String #Jf.#bsb::#ug
+	String_t* ___U23ug_32;
+	// System.String #Jf.#bsb::#vg
+	String_t* ___U23vg_33;
+	// System.String #Jf.#bsb::#wg
+	String_t* ___U23wg_34;
+	// System.String #Jf.#bsb::#xg
+	String_t* ___U23xg_35;
+	// System.String #Jf.#bsb::#yg
+	String_t* ___U23yg_36;
+	// System.String #Jf.#bsb::#Ag
+	String_t* ___U23Ag_37;
+	// System.String #Jf.#bsb::#Bg
+	String_t* ___U23Bg_38;
+	// System.String #Jf.#bsb::#Cg
+	String_t* ___U23Cg_39;
+	// System.String #Jf.#bsb::#Dg
+	String_t* ___U23Dg_40;
+	// System.String #Jf.#bsb::#Eg
+	String_t* ___U23Eg_41;
+	// System.String #Jf.#bsb::#Fg
+	String_t* ___U23Fg_42;
+	// System.String #Jf.#bsb::#Gg
+	String_t* ___U23Gg_43;
+	// System.String #Jf.#bsb::#Ig
+	String_t* ___U23Ig_44;
+	// System.String #Jf.#bsb::#Jg
+	String_t* ___U23Jg_45;
+	// System.String #Jf.#bsb::#Lg
+	String_t* ___U23Lg_46;
+	// System.String #Jf.#bsb::#Ng
+	String_t* ___U23Ng_47;
+	// System.String #Jf.#bsb::#Og
+	String_t* ___U23Og_48;
+	// System.String #Jf.#bsb::#Pg
+	String_t* ___U23Pg_49;
+	// System.String #Jf.#bsb::#Qg
+	String_t* ___U23Qg_50;
+	// System.String #Jf.#bsb::#Rg
+	String_t* ___U23Rg_51;
+	// System.String #Jf.#bsb::#Sg
+	String_t* ___U23Sg_52;
+	// System.String #Jf.#bsb::#Tg
+	String_t* ___U23Tg_53;
+	// System.String #Jf.#bsb::#Ug
+	String_t* ___U23Ug_54;
+	// System.String #Jf.#bsb::#Vg
+	String_t* ___U23Vg_55;
+	// System.String #Jf.#bsb::#Wg
+	String_t* ___U23Wg_56;
+	// System.String #Jf.#bsb::#Yg
+	String_t* ___U23Yg_57;
+	// System.String #Jf.#bsb::#Zg
+	String_t* ___U23Zg_58;
+	// System.String #Jf.#bsb::#0g
+	String_t* ___U230g_59;
+	// System.String #Jf.#bsb::#1g
+	String_t* ___U231g_60;
+	// System.String #Jf.#bsb::#Zrb
+	String_t* ___U23Zrb_61;
+	// System.String #Jf.#bsb::#2g
+	String_t* ___U232g_62;
+	// System.String #Jf.#bsb::#3g
+	String_t* ___U233g_63;
+	// System.String #Jf.#bsb::#5g
+	String_t* ___U235g_64;
+	// System.String #Jf.#bsb::#6g
+	String_t* ___U236g_65;
+	// System.String #Jf.#bsb::#7g
+	String_t* ___U237g_66;
+	// System.String #Jf.#bsb::#2ub
+	String_t* ___U232ub_67;
+	// System.String #Jf.#bsb::#8g
+	String_t* ___U238g_68;
+	// System.String #Jf.#bsb::#9g
+	String_t* ___U239g_69;
+	// System.String #Jf.#bsb::#ah
+	String_t* ___U23ah_70;
+	// System.String #Jf.#bsb::#bh
+	String_t* ___U23bh_71;
+	// System.String #Jf.#bsb::#ch
+	String_t* ___U23ch_72;
+	// System.String #Jf.#bsb::#dh
+	String_t* ___U23dh_73;
+	// System.String #Jf.#bsb::#eh
+	String_t* ___U23eh_74;
+	// System.String #Jf.#bsb::#fh
+	String_t* ___U23fh_75;
+	// System.String #Jf.#bsb::#gh
+	String_t* ___U23gh_76;
+	// System.String #Jf.#bsb::#hh
+	String_t* ___U23hh_77;
+	// System.String #Jf.#bsb::#ih
+	String_t* ___U23ih_78;
+	// System.String #Jf.#bsb::#jh
+	String_t* ___U23jh_79;
+	// System.String #Jf.#bsb::#0rb
+	String_t* ___U230rb_80;
+	// System.String #Jf.#bsb::#kh
+	String_t* ___U23kh_81;
+	// System.String #Jf.#bsb::#lh
+	String_t* ___U23lh_82;
+	// System.String #Jf.#bsb::#mh
+	String_t* ___U23mh_83;
+	// System.String #Jf.#bsb::#nh
+	String_t* ___U23nh_84;
+	// System.String #Jf.#bsb::#oh
+	String_t* ___U23oh_85;
+	// System.String #Jf.#bsb::#ph
+	String_t* ___U23ph_86;
+	// System.String #Jf.#bsb::#qh
+	String_t* ___U23qh_87;
+	// System.String #Jf.#bsb::#rh
+	String_t* ___U23rh_88;
+	// System.String #Jf.#bsb::#sh
+	String_t* ___U23sh_89;
+	// System.String #Jf.#bsb::#uh
+	String_t* ___U23uh_90;
+	// System.String #Jf.#bsb::#vh
+	String_t* ___U23vh_91;
+	// System.String #Jf.#bsb::#wh
+	String_t* ___U23wh_92;
+	// System.String #Jf.#bsb::#xh
+	String_t* ___U23xh_93;
+	// System.String #Jf.#bsb::#iob
+	String_t* ___U23iob_94;
+	// System.String #Jf.#bsb::#job
+	String_t* ___U23job_95;
+	// System.String #Jf.#bsb::#kob
+	String_t* ___U23kob_96;
+	// System.String #Jf.#bsb::#lob
+	String_t* ___U23lob_97;
+	// System.String #Jf.#bsb::#mob
+	String_t* ___U23mob_98;
+	// System.String #Jf.#bsb::#nob
+	String_t* ___U23nob_99;
+	// System.String #Jf.#bsb::#oob
+	String_t* ___U23oob_100;
+	// System.String #Jf.#bsb::#pob
+	String_t* ___U23pob_101;
+	// System.String #Jf.#bsb::#qob
+	String_t* ___U23qob_102;
+	// System.String #Jf.#bsb::#1rb
+	String_t* ___U231rb_103;
+	// System.String #Jf.#bsb::#2rb
+	String_t* ___U232rb_104;
+	// System.String #Jf.#bsb::#3rb
+	String_t* ___U233rb_105;
+	// System.String #Jf.#bsb::#yh
+	String_t* ___U23yh_106;
+	// System.String #Jf.#bsb::#zh
+	String_t* ___U23zh_107;
+	// System.String #Jf.#bsb::#Ah
+	String_t* ___U23Ah_108;
+	// System.String #Jf.#bsb::#Bh
+	String_t* ___U23Bh_109;
+	// System.String #Jf.#bsb::#Ch
+	String_t* ___U23Ch_110;
+	// System.String #Jf.#bsb::#Dh
+	String_t* ___U23Dh_111;
+	// System.String #Jf.#bsb::#Eh
+	String_t* ___U23Eh_112;
+	// System.String #Jf.#bsb::#Fh
+	String_t* ___U23Fh_113;
+	// System.String #Jf.#bsb::#Gh
+	String_t* ___U23Gh_114;
+	// System.String #Jf.#bsb::#Hh
+	String_t* ___U23Hh_115;
+	// System.String #Jf.#bsb::#Ih
+	String_t* ___U23Ih_116;
+	// System.String #Jf.#bsb::#Jh
+	String_t* ___U23Jh_117;
+	// System.String #Jf.#bsb::#Kh
+	String_t* ___U23Kh_118;
+	// System.String #Jf.#bsb::#Lh
+	String_t* ___U23Lh_119;
+	// System.String #Jf.#bsb::#Mh
+	String_t* ___U23Mh_120;
+	// System.String #Jf.#bsb::#Nh
+	String_t* ___U23Nh_121;
+	// System.String #Jf.#bsb::#Oh
+	String_t* ___U23Oh_122;
+	// System.String #Jf.#bsb::#Ph
+	String_t* ___U23Ph_123;
+	// System.String #Jf.#bsb::#Qh
+	String_t* ___U23Qh_124;
+	// System.String #Jf.#bsb::#Rh
+	String_t* ___U23Rh_125;
+	// System.String #Jf.#bsb::#Sh
+	String_t* ___U23Sh_126;
+	// System.String #Jf.#bsb::#Th
+	String_t* ___U23Th_127;
+	// System.String #Jf.#bsb::#Uh
+	String_t* ___U23Uh_128;
+	// System.String #Jf.#bsb::#Vh
+	String_t* ___U23Vh_129;
+	// System.String #Jf.#bsb::#Wh
+	String_t* ___U23Wh_130;
+	// System.String #Jf.#bsb::#Xh
+	String_t* ___U23Xh_131;
+	// System.String #Jf.#bsb::#Yh
+	String_t* ___U23Yh_132;
+	// System.String #Jf.#bsb::#Zh
+	String_t* ___U23Zh_133;
+	// System.String #Jf.#bsb::#0h
+	String_t* ___U230h_134;
+	// System.String #Jf.#bsb::#1h
+	String_t* ___U231h_135;
+	// System.String #Jf.#bsb::#6h
+	String_t* ___U236h_136;
+	// System.String #Jf.#bsb::#7h
+	String_t* ___U237h_137;
+	// System.String #Jf.#bsb::#8h
+	String_t* ___U238h_138;
+	// System.String #Jf.#bsb::#9h
+	String_t* ___U239h_139;
+	// System.String #Jf.#bsb::#ai
+	String_t* ___U23ai_140;
+	// System.String #Jf.#bsb::#bi
+	String_t* ___U23bi_141;
+	// System.String #Jf.#bsb::#ci
+	String_t* ___U23ci_142;
+	// System.String #Jf.#bsb::#di
+	String_t* ___U23di_143;
+	// System.String #Jf.#bsb::#fi
+	String_t* ___U23fi_144;
+	// System.String #Jf.#bsb::#gi
+	String_t* ___U23gi_145;
+	// System.String #Jf.#bsb::#hi
+	String_t* ___U23hi_146;
+	// System.String #Jf.#bsb::#rob
+	String_t* ___U23rob_147;
+	// System.String #Jf.#bsb::#sob
+	String_t* ___U23sob_148;
+	// System.String #Jf.#bsb::#tob
+	String_t* ___U23tob_149;
+	// System.String #Jf.#bsb::#7pb
+	String_t* ___U237pb_150;
+	// System.String #Jf.#bsb::#uob
+	String_t* ___U23uob_151;
+	// System.String #Jf.#bsb::#vob
+	String_t* ___U23vob_152;
+	// System.String #Jf.#bsb::#wob
+	String_t* ___U23wob_153;
+	// System.String #Jf.#bsb::#xob
+	String_t* ___U23xob_154;
+	// System.String #Jf.#bsb::#yob
+	String_t* ___U23yob_155;
+	// System.String #Jf.#bsb::#ii
+	String_t* ___U23ii_156;
+	// System.String #Jf.#bsb::#4rb
+	String_t* ___U234rb_157;
+	// System.String #Jf.#bsb::#5rb
+	String_t* ___U235rb_158;
+	// System.String #Jf.#bsb::#ki
+	String_t* ___U23ki_159;
+	// System.String #Jf.#bsb::#li
+	String_t* ___U23li_160;
+	// System.String #Jf.#bsb::#mi
+	String_t* ___U23mi_161;
+	// System.String #Jf.#bsb::#pi
+	String_t* ___U23pi_162;
+	// System.String #Jf.#bsb::#qi
+	String_t* ___U23qi_163;
+	// System.String #Jf.#bsb::#6rb
+	String_t* ___U236rb_164;
+	// System.String #Jf.#bsb::#7rb
+	String_t* ___U237rb_165;
+	// System.String #Jf.#bsb::#8rb
+	String_t* ___U238rb_166;
+	// System.String #Jf.#bsb::#9rb
+	String_t* ___U239rb_167;
+	// System.String #Jf.#bsb::#ui
+	String_t* ___U23ui_168;
+	// System.String #Jf.#bsb::#wi
+	String_t* ___U23wi_169;
+	// System.String #Jf.#bsb::#xi
+	String_t* ___U23xi_170;
+	// System.String #Jf.#bsb::#asb
+	String_t* ___U23asb_171;
+	// System.String #Jf.#bsb::#yi
+	String_t* ___U23yi_172;
+	// System.String #Jf.#bsb::#zi
+	String_t* ___U23zi_173;
+	// System.String #Jf.#bsb::#Ai
+	String_t* ___U23Ai_174;
+	// System.String #Jf.#bsb::#Bi
+	String_t* ___U23Bi_175;
+	// System.String #Jf.#bsb::#zob
+	String_t* ___U23zob_176;
+	// System.String #Jf.#bsb::#Di
+	String_t* ___U23Di_177;
+	// System.String #Jf.#bsb::#Ei
+	String_t* ___U23Ei_178;
+	// System.String #Jf.#bsb::#Fi
+	String_t* ___U23Fi_179;
+	// System.String #Jf.#bsb::#Gi
+	String_t* ___U23Gi_180;
+	// System.String #Jf.#bsb::#Hi
+	String_t* ___U23Hi_181;
+	// System.String #Jf.#bsb::#Ii
+	String_t* ___U23Ii_182;
+	// System.String #Jf.#bsb::#3f
+	String_t* ___U233f_183;
+	// System.String #Jf.#bsb::#4f
+	String_t* ___U234f_184;
+	// System.String #Jf.#bsb::#5f
+	String_t* ___U235f_185;
+	// System.String #Jf.#bsb::#6f
+	String_t* ___U236f_186;
+	// System.String #Jf.#bsb::#7f
+	String_t* ___U237f_187;
+	// System.String #Jf.#bsb::#8f
+	String_t* ___U238f_188;
+	// System.String #Jf.#bsb::#Ri
+	String_t* ___U23Ri_189;
+	// System.String #Jf.#bsb::#Si
+	String_t* ___U23Si_190;
+	// System.String #Jf.#bsb::#Ti
+	String_t* ___U23Ti_191;
+	// System.String #Jf.#bsb::#Ui
+	String_t* ___U23Ui_192;
+	// System.String #Jf.#bsb::#Vi
+	String_t* ___U23Vi_193;
+
+public:
+	inline static int32_t get_offset_of_U23Vf_0() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Vf_0)); }
+	inline String_t* get_U23Vf_0() const { return ___U23Vf_0; }
+	inline String_t** get_address_of_U23Vf_0() { return &___U23Vf_0; }
+	inline void set_U23Vf_0(String_t* value)
+	{
+		___U23Vf_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Vf_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Wf_1() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Wf_1)); }
+	inline String_t* get_U23Wf_1() const { return ___U23Wf_1; }
+	inline String_t** get_address_of_U23Wf_1() { return &___U23Wf_1; }
+	inline void set_U23Wf_1(String_t* value)
+	{
+		___U23Wf_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Wf_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Xf_2() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Xf_2)); }
+	inline String_t* get_U23Xf_2() const { return ___U23Xf_2; }
+	inline String_t** get_address_of_U23Xf_2() { return &___U23Xf_2; }
+	inline void set_U23Xf_2(String_t* value)
+	{
+		___U23Xf_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Xf_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Yf_3() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Yf_3)); }
+	inline String_t* get_U23Yf_3() const { return ___U23Yf_3; }
+	inline String_t** get_address_of_U23Yf_3() { return &___U23Yf_3; }
+	inline void set_U23Yf_3(String_t* value)
+	{
+		___U23Yf_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Yf_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U239f_4() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U239f_4)); }
+	inline String_t* get_U239f_4() const { return ___U239f_4; }
+	inline String_t** get_address_of_U239f_4() { return &___U239f_4; }
+	inline void set_U239f_4(String_t* value)
+	{
+		___U239f_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U239f_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Urb_5() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Urb_5)); }
+	inline String_t* get_U23Urb_5() const { return ___U23Urb_5; }
+	inline String_t** get_address_of_U23Urb_5() { return &___U23Urb_5; }
+	inline void set_U23Urb_5(String_t* value)
+	{
+		___U23Urb_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Urb_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Vrb_6() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Vrb_6)); }
+	inline String_t* get_U23Vrb_6() const { return ___U23Vrb_6; }
+	inline String_t** get_address_of_U23Vrb_6() { return &___U23Vrb_6; }
+	inline void set_U23Vrb_6(String_t* value)
+	{
+		___U23Vrb_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Vrb_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ag_7() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23ag_7)); }
+	inline String_t* get_U23ag_7() const { return ___U23ag_7; }
+	inline String_t** get_address_of_U23ag_7() { return &___U23ag_7; }
+	inline void set_U23ag_7(String_t* value)
+	{
+		___U23ag_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ag_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23bg_8() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23bg_8)); }
+	inline String_t* get_U23bg_8() const { return ___U23bg_8; }
+	inline String_t** get_address_of_U23bg_8() { return &___U23bg_8; }
+	inline void set_U23bg_8(String_t* value)
+	{
+		___U23bg_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23bg_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Wrb_9() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Wrb_9)); }
+	inline String_t* get_U23Wrb_9() const { return ___U23Wrb_9; }
+	inline String_t** get_address_of_U23Wrb_9() { return &___U23Wrb_9; }
+	inline void set_U23Wrb_9(String_t* value)
+	{
+		___U23Wrb_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Wrb_9), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23cg_10() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23cg_10)); }
+	inline String_t* get_U23cg_10() const { return ___U23cg_10; }
+	inline String_t** get_address_of_U23cg_10() { return &___U23cg_10; }
+	inline void set_U23cg_10(String_t* value)
+	{
+		___U23cg_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23cg_10), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23dg_11() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23dg_11)); }
+	inline String_t* get_U23dg_11() const { return ___U23dg_11; }
+	inline String_t** get_address_of_U23dg_11() { return &___U23dg_11; }
+	inline void set_U23dg_11(String_t* value)
+	{
+		___U23dg_11 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23dg_11), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23eg_12() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23eg_12)); }
+	inline String_t* get_U23eg_12() const { return ___U23eg_12; }
+	inline String_t** get_address_of_U23eg_12() { return &___U23eg_12; }
+	inline void set_U23eg_12(String_t* value)
+	{
+		___U23eg_12 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23eg_12), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23fg_13() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23fg_13)); }
+	inline String_t* get_U23fg_13() const { return ___U23fg_13; }
+	inline String_t** get_address_of_U23fg_13() { return &___U23fg_13; }
+	inline void set_U23fg_13(String_t* value)
+	{
+		___U23fg_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23fg_13), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23gg_14() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23gg_14)); }
+	inline String_t* get_U23gg_14() const { return ___U23gg_14; }
+	inline String_t** get_address_of_U23gg_14() { return &___U23gg_14; }
+	inline void set_U23gg_14(String_t* value)
+	{
+		___U23gg_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23gg_14), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23hg_15() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23hg_15)); }
+	inline String_t* get_U23hg_15() const { return ___U23hg_15; }
+	inline String_t** get_address_of_U23hg_15() { return &___U23hg_15; }
+	inline void set_U23hg_15(String_t* value)
+	{
+		___U23hg_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23hg_15), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ig_16() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23ig_16)); }
+	inline String_t* get_U23ig_16() const { return ___U23ig_16; }
+	inline String_t** get_address_of_U23ig_16() { return &___U23ig_16; }
+	inline void set_U23ig_16(String_t* value)
+	{
+		___U23ig_16 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ig_16), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23jg_17() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23jg_17)); }
+	inline String_t* get_U23jg_17() const { return ___U23jg_17; }
+	inline String_t** get_address_of_U23jg_17() { return &___U23jg_17; }
+	inline void set_U23jg_17(String_t* value)
+	{
+		___U23jg_17 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23jg_17), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23kg_18() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23kg_18)); }
+	inline String_t* get_U23kg_18() const { return ___U23kg_18; }
+	inline String_t** get_address_of_U23kg_18() { return &___U23kg_18; }
+	inline void set_U23kg_18(String_t* value)
+	{
+		___U23kg_18 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23kg_18), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23lg_19() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23lg_19)); }
+	inline String_t* get_U23lg_19() const { return ___U23lg_19; }
+	inline String_t** get_address_of_U23lg_19() { return &___U23lg_19; }
+	inline void set_U23lg_19(String_t* value)
+	{
+		___U23lg_19 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23lg_19), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23mg_20() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23mg_20)); }
+	inline String_t* get_U23mg_20() const { return ___U23mg_20; }
+	inline String_t** get_address_of_U23mg_20() { return &___U23mg_20; }
+	inline void set_U23mg_20(String_t* value)
+	{
+		___U23mg_20 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23mg_20), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ng_21() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23ng_21)); }
+	inline String_t* get_U23ng_21() const { return ___U23ng_21; }
+	inline String_t** get_address_of_U23ng_21() { return &___U23ng_21; }
+	inline void set_U23ng_21(String_t* value)
+	{
+		___U23ng_21 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ng_21), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23og_22() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23og_22)); }
+	inline String_t* get_U23og_22() const { return ___U23og_22; }
+	inline String_t** get_address_of_U23og_22() { return &___U23og_22; }
+	inline void set_U23og_22(String_t* value)
+	{
+		___U23og_22 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23og_22), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Xrb_23() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Xrb_23)); }
+	inline String_t* get_U23Xrb_23() const { return ___U23Xrb_23; }
+	inline String_t** get_address_of_U23Xrb_23() { return &___U23Xrb_23; }
+	inline void set_U23Xrb_23(String_t* value)
+	{
+		___U23Xrb_23 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Xrb_23), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Yrb_24() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Yrb_24)); }
+	inline String_t* get_U23Yrb_24() const { return ___U23Yrb_24; }
+	inline String_t** get_address_of_U23Yrb_24() { return &___U23Yrb_24; }
+	inline void set_U23Yrb_24(String_t* value)
+	{
+		___U23Yrb_24 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Yrb_24), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23pg_25() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23pg_25)); }
+	inline String_t* get_U23pg_25() const { return ___U23pg_25; }
+	inline String_t** get_address_of_U23pg_25() { return &___U23pg_25; }
+	inline void set_U23pg_25(String_t* value)
+	{
+		___U23pg_25 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23pg_25), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Zub_26() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Zub_26)); }
+	inline String_t* get_U23Zub_26() const { return ___U23Zub_26; }
+	inline String_t** get_address_of_U23Zub_26() { return &___U23Zub_26; }
+	inline void set_U23Zub_26(String_t* value)
+	{
+		___U23Zub_26 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Zub_26), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U230ub_27() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U230ub_27)); }
+	inline String_t* get_U230ub_27() const { return ___U230ub_27; }
+	inline String_t** get_address_of_U230ub_27() { return &___U230ub_27; }
+	inline void set_U230ub_27(String_t* value)
+	{
+		___U230ub_27 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U230ub_27), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U231ub_28() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U231ub_28)); }
+	inline String_t* get_U231ub_28() const { return ___U231ub_28; }
+	inline String_t** get_address_of_U231ub_28() { return &___U231ub_28; }
+	inline void set_U231ub_28(String_t* value)
+	{
+		___U231ub_28 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U231ub_28), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23rg_29() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23rg_29)); }
+	inline String_t* get_U23rg_29() const { return ___U23rg_29; }
+	inline String_t** get_address_of_U23rg_29() { return &___U23rg_29; }
+	inline void set_U23rg_29(String_t* value)
+	{
+		___U23rg_29 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23rg_29), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23sg_30() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23sg_30)); }
+	inline String_t* get_U23sg_30() const { return ___U23sg_30; }
+	inline String_t** get_address_of_U23sg_30() { return &___U23sg_30; }
+	inline void set_U23sg_30(String_t* value)
+	{
+		___U23sg_30 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23sg_30), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23tg_31() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23tg_31)); }
+	inline String_t* get_U23tg_31() const { return ___U23tg_31; }
+	inline String_t** get_address_of_U23tg_31() { return &___U23tg_31; }
+	inline void set_U23tg_31(String_t* value)
+	{
+		___U23tg_31 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23tg_31), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ug_32() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23ug_32)); }
+	inline String_t* get_U23ug_32() const { return ___U23ug_32; }
+	inline String_t** get_address_of_U23ug_32() { return &___U23ug_32; }
+	inline void set_U23ug_32(String_t* value)
+	{
+		___U23ug_32 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ug_32), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23vg_33() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23vg_33)); }
+	inline String_t* get_U23vg_33() const { return ___U23vg_33; }
+	inline String_t** get_address_of_U23vg_33() { return &___U23vg_33; }
+	inline void set_U23vg_33(String_t* value)
+	{
+		___U23vg_33 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23vg_33), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23wg_34() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23wg_34)); }
+	inline String_t* get_U23wg_34() const { return ___U23wg_34; }
+	inline String_t** get_address_of_U23wg_34() { return &___U23wg_34; }
+	inline void set_U23wg_34(String_t* value)
+	{
+		___U23wg_34 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23wg_34), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23xg_35() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23xg_35)); }
+	inline String_t* get_U23xg_35() const { return ___U23xg_35; }
+	inline String_t** get_address_of_U23xg_35() { return &___U23xg_35; }
+	inline void set_U23xg_35(String_t* value)
+	{
+		___U23xg_35 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23xg_35), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23yg_36() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23yg_36)); }
+	inline String_t* get_U23yg_36() const { return ___U23yg_36; }
+	inline String_t** get_address_of_U23yg_36() { return &___U23yg_36; }
+	inline void set_U23yg_36(String_t* value)
+	{
+		___U23yg_36 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23yg_36), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ag_37() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ag_37)); }
+	inline String_t* get_U23Ag_37() const { return ___U23Ag_37; }
+	inline String_t** get_address_of_U23Ag_37() { return &___U23Ag_37; }
+	inline void set_U23Ag_37(String_t* value)
+	{
+		___U23Ag_37 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ag_37), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Bg_38() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Bg_38)); }
+	inline String_t* get_U23Bg_38() const { return ___U23Bg_38; }
+	inline String_t** get_address_of_U23Bg_38() { return &___U23Bg_38; }
+	inline void set_U23Bg_38(String_t* value)
+	{
+		___U23Bg_38 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Bg_38), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Cg_39() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Cg_39)); }
+	inline String_t* get_U23Cg_39() const { return ___U23Cg_39; }
+	inline String_t** get_address_of_U23Cg_39() { return &___U23Cg_39; }
+	inline void set_U23Cg_39(String_t* value)
+	{
+		___U23Cg_39 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Cg_39), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Dg_40() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Dg_40)); }
+	inline String_t* get_U23Dg_40() const { return ___U23Dg_40; }
+	inline String_t** get_address_of_U23Dg_40() { return &___U23Dg_40; }
+	inline void set_U23Dg_40(String_t* value)
+	{
+		___U23Dg_40 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Dg_40), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Eg_41() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Eg_41)); }
+	inline String_t* get_U23Eg_41() const { return ___U23Eg_41; }
+	inline String_t** get_address_of_U23Eg_41() { return &___U23Eg_41; }
+	inline void set_U23Eg_41(String_t* value)
+	{
+		___U23Eg_41 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Eg_41), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Fg_42() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Fg_42)); }
+	inline String_t* get_U23Fg_42() const { return ___U23Fg_42; }
+	inline String_t** get_address_of_U23Fg_42() { return &___U23Fg_42; }
+	inline void set_U23Fg_42(String_t* value)
+	{
+		___U23Fg_42 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Fg_42), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Gg_43() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Gg_43)); }
+	inline String_t* get_U23Gg_43() const { return ___U23Gg_43; }
+	inline String_t** get_address_of_U23Gg_43() { return &___U23Gg_43; }
+	inline void set_U23Gg_43(String_t* value)
+	{
+		___U23Gg_43 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Gg_43), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ig_44() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ig_44)); }
+	inline String_t* get_U23Ig_44() const { return ___U23Ig_44; }
+	inline String_t** get_address_of_U23Ig_44() { return &___U23Ig_44; }
+	inline void set_U23Ig_44(String_t* value)
+	{
+		___U23Ig_44 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ig_44), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Jg_45() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Jg_45)); }
+	inline String_t* get_U23Jg_45() const { return ___U23Jg_45; }
+	inline String_t** get_address_of_U23Jg_45() { return &___U23Jg_45; }
+	inline void set_U23Jg_45(String_t* value)
+	{
+		___U23Jg_45 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Jg_45), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Lg_46() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Lg_46)); }
+	inline String_t* get_U23Lg_46() const { return ___U23Lg_46; }
+	inline String_t** get_address_of_U23Lg_46() { return &___U23Lg_46; }
+	inline void set_U23Lg_46(String_t* value)
+	{
+		___U23Lg_46 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Lg_46), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ng_47() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ng_47)); }
+	inline String_t* get_U23Ng_47() const { return ___U23Ng_47; }
+	inline String_t** get_address_of_U23Ng_47() { return &___U23Ng_47; }
+	inline void set_U23Ng_47(String_t* value)
+	{
+		___U23Ng_47 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ng_47), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Og_48() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Og_48)); }
+	inline String_t* get_U23Og_48() const { return ___U23Og_48; }
+	inline String_t** get_address_of_U23Og_48() { return &___U23Og_48; }
+	inline void set_U23Og_48(String_t* value)
+	{
+		___U23Og_48 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Og_48), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Pg_49() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Pg_49)); }
+	inline String_t* get_U23Pg_49() const { return ___U23Pg_49; }
+	inline String_t** get_address_of_U23Pg_49() { return &___U23Pg_49; }
+	inline void set_U23Pg_49(String_t* value)
+	{
+		___U23Pg_49 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Pg_49), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Qg_50() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Qg_50)); }
+	inline String_t* get_U23Qg_50() const { return ___U23Qg_50; }
+	inline String_t** get_address_of_U23Qg_50() { return &___U23Qg_50; }
+	inline void set_U23Qg_50(String_t* value)
+	{
+		___U23Qg_50 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Qg_50), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Rg_51() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Rg_51)); }
+	inline String_t* get_U23Rg_51() const { return ___U23Rg_51; }
+	inline String_t** get_address_of_U23Rg_51() { return &___U23Rg_51; }
+	inline void set_U23Rg_51(String_t* value)
+	{
+		___U23Rg_51 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Rg_51), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Sg_52() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Sg_52)); }
+	inline String_t* get_U23Sg_52() const { return ___U23Sg_52; }
+	inline String_t** get_address_of_U23Sg_52() { return &___U23Sg_52; }
+	inline void set_U23Sg_52(String_t* value)
+	{
+		___U23Sg_52 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Sg_52), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Tg_53() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Tg_53)); }
+	inline String_t* get_U23Tg_53() const { return ___U23Tg_53; }
+	inline String_t** get_address_of_U23Tg_53() { return &___U23Tg_53; }
+	inline void set_U23Tg_53(String_t* value)
+	{
+		___U23Tg_53 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Tg_53), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ug_54() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ug_54)); }
+	inline String_t* get_U23Ug_54() const { return ___U23Ug_54; }
+	inline String_t** get_address_of_U23Ug_54() { return &___U23Ug_54; }
+	inline void set_U23Ug_54(String_t* value)
+	{
+		___U23Ug_54 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ug_54), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Vg_55() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Vg_55)); }
+	inline String_t* get_U23Vg_55() const { return ___U23Vg_55; }
+	inline String_t** get_address_of_U23Vg_55() { return &___U23Vg_55; }
+	inline void set_U23Vg_55(String_t* value)
+	{
+		___U23Vg_55 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Vg_55), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Wg_56() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Wg_56)); }
+	inline String_t* get_U23Wg_56() const { return ___U23Wg_56; }
+	inline String_t** get_address_of_U23Wg_56() { return &___U23Wg_56; }
+	inline void set_U23Wg_56(String_t* value)
+	{
+		___U23Wg_56 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Wg_56), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Yg_57() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Yg_57)); }
+	inline String_t* get_U23Yg_57() const { return ___U23Yg_57; }
+	inline String_t** get_address_of_U23Yg_57() { return &___U23Yg_57; }
+	inline void set_U23Yg_57(String_t* value)
+	{
+		___U23Yg_57 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Yg_57), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Zg_58() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Zg_58)); }
+	inline String_t* get_U23Zg_58() const { return ___U23Zg_58; }
+	inline String_t** get_address_of_U23Zg_58() { return &___U23Zg_58; }
+	inline void set_U23Zg_58(String_t* value)
+	{
+		___U23Zg_58 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Zg_58), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U230g_59() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U230g_59)); }
+	inline String_t* get_U230g_59() const { return ___U230g_59; }
+	inline String_t** get_address_of_U230g_59() { return &___U230g_59; }
+	inline void set_U230g_59(String_t* value)
+	{
+		___U230g_59 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U230g_59), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U231g_60() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U231g_60)); }
+	inline String_t* get_U231g_60() const { return ___U231g_60; }
+	inline String_t** get_address_of_U231g_60() { return &___U231g_60; }
+	inline void set_U231g_60(String_t* value)
+	{
+		___U231g_60 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U231g_60), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Zrb_61() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Zrb_61)); }
+	inline String_t* get_U23Zrb_61() const { return ___U23Zrb_61; }
+	inline String_t** get_address_of_U23Zrb_61() { return &___U23Zrb_61; }
+	inline void set_U23Zrb_61(String_t* value)
+	{
+		___U23Zrb_61 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Zrb_61), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U232g_62() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U232g_62)); }
+	inline String_t* get_U232g_62() const { return ___U232g_62; }
+	inline String_t** get_address_of_U232g_62() { return &___U232g_62; }
+	inline void set_U232g_62(String_t* value)
+	{
+		___U232g_62 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U232g_62), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U233g_63() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U233g_63)); }
+	inline String_t* get_U233g_63() const { return ___U233g_63; }
+	inline String_t** get_address_of_U233g_63() { return &___U233g_63; }
+	inline void set_U233g_63(String_t* value)
+	{
+		___U233g_63 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U233g_63), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U235g_64() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U235g_64)); }
+	inline String_t* get_U235g_64() const { return ___U235g_64; }
+	inline String_t** get_address_of_U235g_64() { return &___U235g_64; }
+	inline void set_U235g_64(String_t* value)
+	{
+		___U235g_64 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U235g_64), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U236g_65() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U236g_65)); }
+	inline String_t* get_U236g_65() const { return ___U236g_65; }
+	inline String_t** get_address_of_U236g_65() { return &___U236g_65; }
+	inline void set_U236g_65(String_t* value)
+	{
+		___U236g_65 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U236g_65), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U237g_66() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U237g_66)); }
+	inline String_t* get_U237g_66() const { return ___U237g_66; }
+	inline String_t** get_address_of_U237g_66() { return &___U237g_66; }
+	inline void set_U237g_66(String_t* value)
+	{
+		___U237g_66 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U237g_66), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U232ub_67() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U232ub_67)); }
+	inline String_t* get_U232ub_67() const { return ___U232ub_67; }
+	inline String_t** get_address_of_U232ub_67() { return &___U232ub_67; }
+	inline void set_U232ub_67(String_t* value)
+	{
+		___U232ub_67 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U232ub_67), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U238g_68() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U238g_68)); }
+	inline String_t* get_U238g_68() const { return ___U238g_68; }
+	inline String_t** get_address_of_U238g_68() { return &___U238g_68; }
+	inline void set_U238g_68(String_t* value)
+	{
+		___U238g_68 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U238g_68), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U239g_69() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U239g_69)); }
+	inline String_t* get_U239g_69() const { return ___U239g_69; }
+	inline String_t** get_address_of_U239g_69() { return &___U239g_69; }
+	inline void set_U239g_69(String_t* value)
+	{
+		___U239g_69 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U239g_69), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ah_70() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23ah_70)); }
+	inline String_t* get_U23ah_70() const { return ___U23ah_70; }
+	inline String_t** get_address_of_U23ah_70() { return &___U23ah_70; }
+	inline void set_U23ah_70(String_t* value)
+	{
+		___U23ah_70 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ah_70), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23bh_71() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23bh_71)); }
+	inline String_t* get_U23bh_71() const { return ___U23bh_71; }
+	inline String_t** get_address_of_U23bh_71() { return &___U23bh_71; }
+	inline void set_U23bh_71(String_t* value)
+	{
+		___U23bh_71 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23bh_71), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ch_72() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23ch_72)); }
+	inline String_t* get_U23ch_72() const { return ___U23ch_72; }
+	inline String_t** get_address_of_U23ch_72() { return &___U23ch_72; }
+	inline void set_U23ch_72(String_t* value)
+	{
+		___U23ch_72 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ch_72), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23dh_73() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23dh_73)); }
+	inline String_t* get_U23dh_73() const { return ___U23dh_73; }
+	inline String_t** get_address_of_U23dh_73() { return &___U23dh_73; }
+	inline void set_U23dh_73(String_t* value)
+	{
+		___U23dh_73 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23dh_73), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23eh_74() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23eh_74)); }
+	inline String_t* get_U23eh_74() const { return ___U23eh_74; }
+	inline String_t** get_address_of_U23eh_74() { return &___U23eh_74; }
+	inline void set_U23eh_74(String_t* value)
+	{
+		___U23eh_74 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23eh_74), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23fh_75() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23fh_75)); }
+	inline String_t* get_U23fh_75() const { return ___U23fh_75; }
+	inline String_t** get_address_of_U23fh_75() { return &___U23fh_75; }
+	inline void set_U23fh_75(String_t* value)
+	{
+		___U23fh_75 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23fh_75), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23gh_76() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23gh_76)); }
+	inline String_t* get_U23gh_76() const { return ___U23gh_76; }
+	inline String_t** get_address_of_U23gh_76() { return &___U23gh_76; }
+	inline void set_U23gh_76(String_t* value)
+	{
+		___U23gh_76 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23gh_76), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23hh_77() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23hh_77)); }
+	inline String_t* get_U23hh_77() const { return ___U23hh_77; }
+	inline String_t** get_address_of_U23hh_77() { return &___U23hh_77; }
+	inline void set_U23hh_77(String_t* value)
+	{
+		___U23hh_77 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23hh_77), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ih_78() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23ih_78)); }
+	inline String_t* get_U23ih_78() const { return ___U23ih_78; }
+	inline String_t** get_address_of_U23ih_78() { return &___U23ih_78; }
+	inline void set_U23ih_78(String_t* value)
+	{
+		___U23ih_78 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ih_78), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23jh_79() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23jh_79)); }
+	inline String_t* get_U23jh_79() const { return ___U23jh_79; }
+	inline String_t** get_address_of_U23jh_79() { return &___U23jh_79; }
+	inline void set_U23jh_79(String_t* value)
+	{
+		___U23jh_79 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23jh_79), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U230rb_80() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U230rb_80)); }
+	inline String_t* get_U230rb_80() const { return ___U230rb_80; }
+	inline String_t** get_address_of_U230rb_80() { return &___U230rb_80; }
+	inline void set_U230rb_80(String_t* value)
+	{
+		___U230rb_80 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U230rb_80), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23kh_81() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23kh_81)); }
+	inline String_t* get_U23kh_81() const { return ___U23kh_81; }
+	inline String_t** get_address_of_U23kh_81() { return &___U23kh_81; }
+	inline void set_U23kh_81(String_t* value)
+	{
+		___U23kh_81 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23kh_81), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23lh_82() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23lh_82)); }
+	inline String_t* get_U23lh_82() const { return ___U23lh_82; }
+	inline String_t** get_address_of_U23lh_82() { return &___U23lh_82; }
+	inline void set_U23lh_82(String_t* value)
+	{
+		___U23lh_82 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23lh_82), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23mh_83() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23mh_83)); }
+	inline String_t* get_U23mh_83() const { return ___U23mh_83; }
+	inline String_t** get_address_of_U23mh_83() { return &___U23mh_83; }
+	inline void set_U23mh_83(String_t* value)
+	{
+		___U23mh_83 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23mh_83), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23nh_84() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23nh_84)); }
+	inline String_t* get_U23nh_84() const { return ___U23nh_84; }
+	inline String_t** get_address_of_U23nh_84() { return &___U23nh_84; }
+	inline void set_U23nh_84(String_t* value)
+	{
+		___U23nh_84 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23nh_84), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23oh_85() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23oh_85)); }
+	inline String_t* get_U23oh_85() const { return ___U23oh_85; }
+	inline String_t** get_address_of_U23oh_85() { return &___U23oh_85; }
+	inline void set_U23oh_85(String_t* value)
+	{
+		___U23oh_85 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23oh_85), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ph_86() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23ph_86)); }
+	inline String_t* get_U23ph_86() const { return ___U23ph_86; }
+	inline String_t** get_address_of_U23ph_86() { return &___U23ph_86; }
+	inline void set_U23ph_86(String_t* value)
+	{
+		___U23ph_86 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ph_86), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23qh_87() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23qh_87)); }
+	inline String_t* get_U23qh_87() const { return ___U23qh_87; }
+	inline String_t** get_address_of_U23qh_87() { return &___U23qh_87; }
+	inline void set_U23qh_87(String_t* value)
+	{
+		___U23qh_87 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23qh_87), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23rh_88() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23rh_88)); }
+	inline String_t* get_U23rh_88() const { return ___U23rh_88; }
+	inline String_t** get_address_of_U23rh_88() { return &___U23rh_88; }
+	inline void set_U23rh_88(String_t* value)
+	{
+		___U23rh_88 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23rh_88), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23sh_89() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23sh_89)); }
+	inline String_t* get_U23sh_89() const { return ___U23sh_89; }
+	inline String_t** get_address_of_U23sh_89() { return &___U23sh_89; }
+	inline void set_U23sh_89(String_t* value)
+	{
+		___U23sh_89 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23sh_89), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23uh_90() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23uh_90)); }
+	inline String_t* get_U23uh_90() const { return ___U23uh_90; }
+	inline String_t** get_address_of_U23uh_90() { return &___U23uh_90; }
+	inline void set_U23uh_90(String_t* value)
+	{
+		___U23uh_90 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23uh_90), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23vh_91() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23vh_91)); }
+	inline String_t* get_U23vh_91() const { return ___U23vh_91; }
+	inline String_t** get_address_of_U23vh_91() { return &___U23vh_91; }
+	inline void set_U23vh_91(String_t* value)
+	{
+		___U23vh_91 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23vh_91), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23wh_92() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23wh_92)); }
+	inline String_t* get_U23wh_92() const { return ___U23wh_92; }
+	inline String_t** get_address_of_U23wh_92() { return &___U23wh_92; }
+	inline void set_U23wh_92(String_t* value)
+	{
+		___U23wh_92 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23wh_92), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23xh_93() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23xh_93)); }
+	inline String_t* get_U23xh_93() const { return ___U23xh_93; }
+	inline String_t** get_address_of_U23xh_93() { return &___U23xh_93; }
+	inline void set_U23xh_93(String_t* value)
+	{
+		___U23xh_93 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23xh_93), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23iob_94() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23iob_94)); }
+	inline String_t* get_U23iob_94() const { return ___U23iob_94; }
+	inline String_t** get_address_of_U23iob_94() { return &___U23iob_94; }
+	inline void set_U23iob_94(String_t* value)
+	{
+		___U23iob_94 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23iob_94), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23job_95() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23job_95)); }
+	inline String_t* get_U23job_95() const { return ___U23job_95; }
+	inline String_t** get_address_of_U23job_95() { return &___U23job_95; }
+	inline void set_U23job_95(String_t* value)
+	{
+		___U23job_95 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23job_95), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23kob_96() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23kob_96)); }
+	inline String_t* get_U23kob_96() const { return ___U23kob_96; }
+	inline String_t** get_address_of_U23kob_96() { return &___U23kob_96; }
+	inline void set_U23kob_96(String_t* value)
+	{
+		___U23kob_96 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23kob_96), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23lob_97() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23lob_97)); }
+	inline String_t* get_U23lob_97() const { return ___U23lob_97; }
+	inline String_t** get_address_of_U23lob_97() { return &___U23lob_97; }
+	inline void set_U23lob_97(String_t* value)
+	{
+		___U23lob_97 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23lob_97), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23mob_98() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23mob_98)); }
+	inline String_t* get_U23mob_98() const { return ___U23mob_98; }
+	inline String_t** get_address_of_U23mob_98() { return &___U23mob_98; }
+	inline void set_U23mob_98(String_t* value)
+	{
+		___U23mob_98 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23mob_98), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23nob_99() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23nob_99)); }
+	inline String_t* get_U23nob_99() const { return ___U23nob_99; }
+	inline String_t** get_address_of_U23nob_99() { return &___U23nob_99; }
+	inline void set_U23nob_99(String_t* value)
+	{
+		___U23nob_99 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23nob_99), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23oob_100() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23oob_100)); }
+	inline String_t* get_U23oob_100() const { return ___U23oob_100; }
+	inline String_t** get_address_of_U23oob_100() { return &___U23oob_100; }
+	inline void set_U23oob_100(String_t* value)
+	{
+		___U23oob_100 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23oob_100), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23pob_101() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23pob_101)); }
+	inline String_t* get_U23pob_101() const { return ___U23pob_101; }
+	inline String_t** get_address_of_U23pob_101() { return &___U23pob_101; }
+	inline void set_U23pob_101(String_t* value)
+	{
+		___U23pob_101 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23pob_101), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23qob_102() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23qob_102)); }
+	inline String_t* get_U23qob_102() const { return ___U23qob_102; }
+	inline String_t** get_address_of_U23qob_102() { return &___U23qob_102; }
+	inline void set_U23qob_102(String_t* value)
+	{
+		___U23qob_102 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23qob_102), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U231rb_103() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U231rb_103)); }
+	inline String_t* get_U231rb_103() const { return ___U231rb_103; }
+	inline String_t** get_address_of_U231rb_103() { return &___U231rb_103; }
+	inline void set_U231rb_103(String_t* value)
+	{
+		___U231rb_103 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U231rb_103), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U232rb_104() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U232rb_104)); }
+	inline String_t* get_U232rb_104() const { return ___U232rb_104; }
+	inline String_t** get_address_of_U232rb_104() { return &___U232rb_104; }
+	inline void set_U232rb_104(String_t* value)
+	{
+		___U232rb_104 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U232rb_104), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U233rb_105() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U233rb_105)); }
+	inline String_t* get_U233rb_105() const { return ___U233rb_105; }
+	inline String_t** get_address_of_U233rb_105() { return &___U233rb_105; }
+	inline void set_U233rb_105(String_t* value)
+	{
+		___U233rb_105 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U233rb_105), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23yh_106() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23yh_106)); }
+	inline String_t* get_U23yh_106() const { return ___U23yh_106; }
+	inline String_t** get_address_of_U23yh_106() { return &___U23yh_106; }
+	inline void set_U23yh_106(String_t* value)
+	{
+		___U23yh_106 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23yh_106), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23zh_107() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23zh_107)); }
+	inline String_t* get_U23zh_107() const { return ___U23zh_107; }
+	inline String_t** get_address_of_U23zh_107() { return &___U23zh_107; }
+	inline void set_U23zh_107(String_t* value)
+	{
+		___U23zh_107 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23zh_107), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ah_108() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ah_108)); }
+	inline String_t* get_U23Ah_108() const { return ___U23Ah_108; }
+	inline String_t** get_address_of_U23Ah_108() { return &___U23Ah_108; }
+	inline void set_U23Ah_108(String_t* value)
+	{
+		___U23Ah_108 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ah_108), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Bh_109() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Bh_109)); }
+	inline String_t* get_U23Bh_109() const { return ___U23Bh_109; }
+	inline String_t** get_address_of_U23Bh_109() { return &___U23Bh_109; }
+	inline void set_U23Bh_109(String_t* value)
+	{
+		___U23Bh_109 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Bh_109), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ch_110() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ch_110)); }
+	inline String_t* get_U23Ch_110() const { return ___U23Ch_110; }
+	inline String_t** get_address_of_U23Ch_110() { return &___U23Ch_110; }
+	inline void set_U23Ch_110(String_t* value)
+	{
+		___U23Ch_110 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ch_110), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Dh_111() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Dh_111)); }
+	inline String_t* get_U23Dh_111() const { return ___U23Dh_111; }
+	inline String_t** get_address_of_U23Dh_111() { return &___U23Dh_111; }
+	inline void set_U23Dh_111(String_t* value)
+	{
+		___U23Dh_111 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Dh_111), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Eh_112() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Eh_112)); }
+	inline String_t* get_U23Eh_112() const { return ___U23Eh_112; }
+	inline String_t** get_address_of_U23Eh_112() { return &___U23Eh_112; }
+	inline void set_U23Eh_112(String_t* value)
+	{
+		___U23Eh_112 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Eh_112), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Fh_113() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Fh_113)); }
+	inline String_t* get_U23Fh_113() const { return ___U23Fh_113; }
+	inline String_t** get_address_of_U23Fh_113() { return &___U23Fh_113; }
+	inline void set_U23Fh_113(String_t* value)
+	{
+		___U23Fh_113 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Fh_113), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Gh_114() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Gh_114)); }
+	inline String_t* get_U23Gh_114() const { return ___U23Gh_114; }
+	inline String_t** get_address_of_U23Gh_114() { return &___U23Gh_114; }
+	inline void set_U23Gh_114(String_t* value)
+	{
+		___U23Gh_114 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Gh_114), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Hh_115() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Hh_115)); }
+	inline String_t* get_U23Hh_115() const { return ___U23Hh_115; }
+	inline String_t** get_address_of_U23Hh_115() { return &___U23Hh_115; }
+	inline void set_U23Hh_115(String_t* value)
+	{
+		___U23Hh_115 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Hh_115), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ih_116() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ih_116)); }
+	inline String_t* get_U23Ih_116() const { return ___U23Ih_116; }
+	inline String_t** get_address_of_U23Ih_116() { return &___U23Ih_116; }
+	inline void set_U23Ih_116(String_t* value)
+	{
+		___U23Ih_116 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ih_116), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Jh_117() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Jh_117)); }
+	inline String_t* get_U23Jh_117() const { return ___U23Jh_117; }
+	inline String_t** get_address_of_U23Jh_117() { return &___U23Jh_117; }
+	inline void set_U23Jh_117(String_t* value)
+	{
+		___U23Jh_117 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Jh_117), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Kh_118() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Kh_118)); }
+	inline String_t* get_U23Kh_118() const { return ___U23Kh_118; }
+	inline String_t** get_address_of_U23Kh_118() { return &___U23Kh_118; }
+	inline void set_U23Kh_118(String_t* value)
+	{
+		___U23Kh_118 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Kh_118), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Lh_119() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Lh_119)); }
+	inline String_t* get_U23Lh_119() const { return ___U23Lh_119; }
+	inline String_t** get_address_of_U23Lh_119() { return &___U23Lh_119; }
+	inline void set_U23Lh_119(String_t* value)
+	{
+		___U23Lh_119 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Lh_119), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Mh_120() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Mh_120)); }
+	inline String_t* get_U23Mh_120() const { return ___U23Mh_120; }
+	inline String_t** get_address_of_U23Mh_120() { return &___U23Mh_120; }
+	inline void set_U23Mh_120(String_t* value)
+	{
+		___U23Mh_120 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Mh_120), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Nh_121() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Nh_121)); }
+	inline String_t* get_U23Nh_121() const { return ___U23Nh_121; }
+	inline String_t** get_address_of_U23Nh_121() { return &___U23Nh_121; }
+	inline void set_U23Nh_121(String_t* value)
+	{
+		___U23Nh_121 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Nh_121), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Oh_122() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Oh_122)); }
+	inline String_t* get_U23Oh_122() const { return ___U23Oh_122; }
+	inline String_t** get_address_of_U23Oh_122() { return &___U23Oh_122; }
+	inline void set_U23Oh_122(String_t* value)
+	{
+		___U23Oh_122 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Oh_122), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ph_123() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ph_123)); }
+	inline String_t* get_U23Ph_123() const { return ___U23Ph_123; }
+	inline String_t** get_address_of_U23Ph_123() { return &___U23Ph_123; }
+	inline void set_U23Ph_123(String_t* value)
+	{
+		___U23Ph_123 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ph_123), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Qh_124() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Qh_124)); }
+	inline String_t* get_U23Qh_124() const { return ___U23Qh_124; }
+	inline String_t** get_address_of_U23Qh_124() { return &___U23Qh_124; }
+	inline void set_U23Qh_124(String_t* value)
+	{
+		___U23Qh_124 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Qh_124), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Rh_125() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Rh_125)); }
+	inline String_t* get_U23Rh_125() const { return ___U23Rh_125; }
+	inline String_t** get_address_of_U23Rh_125() { return &___U23Rh_125; }
+	inline void set_U23Rh_125(String_t* value)
+	{
+		___U23Rh_125 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Rh_125), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Sh_126() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Sh_126)); }
+	inline String_t* get_U23Sh_126() const { return ___U23Sh_126; }
+	inline String_t** get_address_of_U23Sh_126() { return &___U23Sh_126; }
+	inline void set_U23Sh_126(String_t* value)
+	{
+		___U23Sh_126 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Sh_126), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Th_127() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Th_127)); }
+	inline String_t* get_U23Th_127() const { return ___U23Th_127; }
+	inline String_t** get_address_of_U23Th_127() { return &___U23Th_127; }
+	inline void set_U23Th_127(String_t* value)
+	{
+		___U23Th_127 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Th_127), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Uh_128() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Uh_128)); }
+	inline String_t* get_U23Uh_128() const { return ___U23Uh_128; }
+	inline String_t** get_address_of_U23Uh_128() { return &___U23Uh_128; }
+	inline void set_U23Uh_128(String_t* value)
+	{
+		___U23Uh_128 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Uh_128), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Vh_129() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Vh_129)); }
+	inline String_t* get_U23Vh_129() const { return ___U23Vh_129; }
+	inline String_t** get_address_of_U23Vh_129() { return &___U23Vh_129; }
+	inline void set_U23Vh_129(String_t* value)
+	{
+		___U23Vh_129 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Vh_129), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Wh_130() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Wh_130)); }
+	inline String_t* get_U23Wh_130() const { return ___U23Wh_130; }
+	inline String_t** get_address_of_U23Wh_130() { return &___U23Wh_130; }
+	inline void set_U23Wh_130(String_t* value)
+	{
+		___U23Wh_130 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Wh_130), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Xh_131() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Xh_131)); }
+	inline String_t* get_U23Xh_131() const { return ___U23Xh_131; }
+	inline String_t** get_address_of_U23Xh_131() { return &___U23Xh_131; }
+	inline void set_U23Xh_131(String_t* value)
+	{
+		___U23Xh_131 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Xh_131), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Yh_132() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Yh_132)); }
+	inline String_t* get_U23Yh_132() const { return ___U23Yh_132; }
+	inline String_t** get_address_of_U23Yh_132() { return &___U23Yh_132; }
+	inline void set_U23Yh_132(String_t* value)
+	{
+		___U23Yh_132 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Yh_132), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Zh_133() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Zh_133)); }
+	inline String_t* get_U23Zh_133() const { return ___U23Zh_133; }
+	inline String_t** get_address_of_U23Zh_133() { return &___U23Zh_133; }
+	inline void set_U23Zh_133(String_t* value)
+	{
+		___U23Zh_133 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Zh_133), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U230h_134() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U230h_134)); }
+	inline String_t* get_U230h_134() const { return ___U230h_134; }
+	inline String_t** get_address_of_U230h_134() { return &___U230h_134; }
+	inline void set_U230h_134(String_t* value)
+	{
+		___U230h_134 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U230h_134), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U231h_135() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U231h_135)); }
+	inline String_t* get_U231h_135() const { return ___U231h_135; }
+	inline String_t** get_address_of_U231h_135() { return &___U231h_135; }
+	inline void set_U231h_135(String_t* value)
+	{
+		___U231h_135 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U231h_135), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U236h_136() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U236h_136)); }
+	inline String_t* get_U236h_136() const { return ___U236h_136; }
+	inline String_t** get_address_of_U236h_136() { return &___U236h_136; }
+	inline void set_U236h_136(String_t* value)
+	{
+		___U236h_136 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U236h_136), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U237h_137() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U237h_137)); }
+	inline String_t* get_U237h_137() const { return ___U237h_137; }
+	inline String_t** get_address_of_U237h_137() { return &___U237h_137; }
+	inline void set_U237h_137(String_t* value)
+	{
+		___U237h_137 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U237h_137), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U238h_138() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U238h_138)); }
+	inline String_t* get_U238h_138() const { return ___U238h_138; }
+	inline String_t** get_address_of_U238h_138() { return &___U238h_138; }
+	inline void set_U238h_138(String_t* value)
+	{
+		___U238h_138 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U238h_138), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U239h_139() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U239h_139)); }
+	inline String_t* get_U239h_139() const { return ___U239h_139; }
+	inline String_t** get_address_of_U239h_139() { return &___U239h_139; }
+	inline void set_U239h_139(String_t* value)
+	{
+		___U239h_139 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U239h_139), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ai_140() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23ai_140)); }
+	inline String_t* get_U23ai_140() const { return ___U23ai_140; }
+	inline String_t** get_address_of_U23ai_140() { return &___U23ai_140; }
+	inline void set_U23ai_140(String_t* value)
+	{
+		___U23ai_140 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ai_140), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23bi_141() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23bi_141)); }
+	inline String_t* get_U23bi_141() const { return ___U23bi_141; }
+	inline String_t** get_address_of_U23bi_141() { return &___U23bi_141; }
+	inline void set_U23bi_141(String_t* value)
+	{
+		___U23bi_141 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23bi_141), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ci_142() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23ci_142)); }
+	inline String_t* get_U23ci_142() const { return ___U23ci_142; }
+	inline String_t** get_address_of_U23ci_142() { return &___U23ci_142; }
+	inline void set_U23ci_142(String_t* value)
+	{
+		___U23ci_142 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ci_142), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23di_143() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23di_143)); }
+	inline String_t* get_U23di_143() const { return ___U23di_143; }
+	inline String_t** get_address_of_U23di_143() { return &___U23di_143; }
+	inline void set_U23di_143(String_t* value)
+	{
+		___U23di_143 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23di_143), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23fi_144() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23fi_144)); }
+	inline String_t* get_U23fi_144() const { return ___U23fi_144; }
+	inline String_t** get_address_of_U23fi_144() { return &___U23fi_144; }
+	inline void set_U23fi_144(String_t* value)
+	{
+		___U23fi_144 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23fi_144), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23gi_145() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23gi_145)); }
+	inline String_t* get_U23gi_145() const { return ___U23gi_145; }
+	inline String_t** get_address_of_U23gi_145() { return &___U23gi_145; }
+	inline void set_U23gi_145(String_t* value)
+	{
+		___U23gi_145 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23gi_145), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23hi_146() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23hi_146)); }
+	inline String_t* get_U23hi_146() const { return ___U23hi_146; }
+	inline String_t** get_address_of_U23hi_146() { return &___U23hi_146; }
+	inline void set_U23hi_146(String_t* value)
+	{
+		___U23hi_146 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23hi_146), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23rob_147() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23rob_147)); }
+	inline String_t* get_U23rob_147() const { return ___U23rob_147; }
+	inline String_t** get_address_of_U23rob_147() { return &___U23rob_147; }
+	inline void set_U23rob_147(String_t* value)
+	{
+		___U23rob_147 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23rob_147), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23sob_148() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23sob_148)); }
+	inline String_t* get_U23sob_148() const { return ___U23sob_148; }
+	inline String_t** get_address_of_U23sob_148() { return &___U23sob_148; }
+	inline void set_U23sob_148(String_t* value)
+	{
+		___U23sob_148 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23sob_148), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23tob_149() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23tob_149)); }
+	inline String_t* get_U23tob_149() const { return ___U23tob_149; }
+	inline String_t** get_address_of_U23tob_149() { return &___U23tob_149; }
+	inline void set_U23tob_149(String_t* value)
+	{
+		___U23tob_149 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23tob_149), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U237pb_150() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U237pb_150)); }
+	inline String_t* get_U237pb_150() const { return ___U237pb_150; }
+	inline String_t** get_address_of_U237pb_150() { return &___U237pb_150; }
+	inline void set_U237pb_150(String_t* value)
+	{
+		___U237pb_150 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U237pb_150), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23uob_151() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23uob_151)); }
+	inline String_t* get_U23uob_151() const { return ___U23uob_151; }
+	inline String_t** get_address_of_U23uob_151() { return &___U23uob_151; }
+	inline void set_U23uob_151(String_t* value)
+	{
+		___U23uob_151 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23uob_151), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23vob_152() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23vob_152)); }
+	inline String_t* get_U23vob_152() const { return ___U23vob_152; }
+	inline String_t** get_address_of_U23vob_152() { return &___U23vob_152; }
+	inline void set_U23vob_152(String_t* value)
+	{
+		___U23vob_152 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23vob_152), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23wob_153() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23wob_153)); }
+	inline String_t* get_U23wob_153() const { return ___U23wob_153; }
+	inline String_t** get_address_of_U23wob_153() { return &___U23wob_153; }
+	inline void set_U23wob_153(String_t* value)
+	{
+		___U23wob_153 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23wob_153), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23xob_154() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23xob_154)); }
+	inline String_t* get_U23xob_154() const { return ___U23xob_154; }
+	inline String_t** get_address_of_U23xob_154() { return &___U23xob_154; }
+	inline void set_U23xob_154(String_t* value)
+	{
+		___U23xob_154 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23xob_154), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23yob_155() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23yob_155)); }
+	inline String_t* get_U23yob_155() const { return ___U23yob_155; }
+	inline String_t** get_address_of_U23yob_155() { return &___U23yob_155; }
+	inline void set_U23yob_155(String_t* value)
+	{
+		___U23yob_155 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23yob_155), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ii_156() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23ii_156)); }
+	inline String_t* get_U23ii_156() const { return ___U23ii_156; }
+	inline String_t** get_address_of_U23ii_156() { return &___U23ii_156; }
+	inline void set_U23ii_156(String_t* value)
+	{
+		___U23ii_156 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ii_156), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U234rb_157() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U234rb_157)); }
+	inline String_t* get_U234rb_157() const { return ___U234rb_157; }
+	inline String_t** get_address_of_U234rb_157() { return &___U234rb_157; }
+	inline void set_U234rb_157(String_t* value)
+	{
+		___U234rb_157 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U234rb_157), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U235rb_158() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U235rb_158)); }
+	inline String_t* get_U235rb_158() const { return ___U235rb_158; }
+	inline String_t** get_address_of_U235rb_158() { return &___U235rb_158; }
+	inline void set_U235rb_158(String_t* value)
+	{
+		___U235rb_158 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U235rb_158), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ki_159() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23ki_159)); }
+	inline String_t* get_U23ki_159() const { return ___U23ki_159; }
+	inline String_t** get_address_of_U23ki_159() { return &___U23ki_159; }
+	inline void set_U23ki_159(String_t* value)
+	{
+		___U23ki_159 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ki_159), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23li_160() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23li_160)); }
+	inline String_t* get_U23li_160() const { return ___U23li_160; }
+	inline String_t** get_address_of_U23li_160() { return &___U23li_160; }
+	inline void set_U23li_160(String_t* value)
+	{
+		___U23li_160 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23li_160), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23mi_161() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23mi_161)); }
+	inline String_t* get_U23mi_161() const { return ___U23mi_161; }
+	inline String_t** get_address_of_U23mi_161() { return &___U23mi_161; }
+	inline void set_U23mi_161(String_t* value)
+	{
+		___U23mi_161 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23mi_161), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23pi_162() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23pi_162)); }
+	inline String_t* get_U23pi_162() const { return ___U23pi_162; }
+	inline String_t** get_address_of_U23pi_162() { return &___U23pi_162; }
+	inline void set_U23pi_162(String_t* value)
+	{
+		___U23pi_162 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23pi_162), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23qi_163() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23qi_163)); }
+	inline String_t* get_U23qi_163() const { return ___U23qi_163; }
+	inline String_t** get_address_of_U23qi_163() { return &___U23qi_163; }
+	inline void set_U23qi_163(String_t* value)
+	{
+		___U23qi_163 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23qi_163), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U236rb_164() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U236rb_164)); }
+	inline String_t* get_U236rb_164() const { return ___U236rb_164; }
+	inline String_t** get_address_of_U236rb_164() { return &___U236rb_164; }
+	inline void set_U236rb_164(String_t* value)
+	{
+		___U236rb_164 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U236rb_164), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U237rb_165() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U237rb_165)); }
+	inline String_t* get_U237rb_165() const { return ___U237rb_165; }
+	inline String_t** get_address_of_U237rb_165() { return &___U237rb_165; }
+	inline void set_U237rb_165(String_t* value)
+	{
+		___U237rb_165 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U237rb_165), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U238rb_166() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U238rb_166)); }
+	inline String_t* get_U238rb_166() const { return ___U238rb_166; }
+	inline String_t** get_address_of_U238rb_166() { return &___U238rb_166; }
+	inline void set_U238rb_166(String_t* value)
+	{
+		___U238rb_166 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U238rb_166), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U239rb_167() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U239rb_167)); }
+	inline String_t* get_U239rb_167() const { return ___U239rb_167; }
+	inline String_t** get_address_of_U239rb_167() { return &___U239rb_167; }
+	inline void set_U239rb_167(String_t* value)
+	{
+		___U239rb_167 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U239rb_167), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23ui_168() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23ui_168)); }
+	inline String_t* get_U23ui_168() const { return ___U23ui_168; }
+	inline String_t** get_address_of_U23ui_168() { return &___U23ui_168; }
+	inline void set_U23ui_168(String_t* value)
+	{
+		___U23ui_168 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23ui_168), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23wi_169() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23wi_169)); }
+	inline String_t* get_U23wi_169() const { return ___U23wi_169; }
+	inline String_t** get_address_of_U23wi_169() { return &___U23wi_169; }
+	inline void set_U23wi_169(String_t* value)
+	{
+		___U23wi_169 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23wi_169), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23xi_170() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23xi_170)); }
+	inline String_t* get_U23xi_170() const { return ___U23xi_170; }
+	inline String_t** get_address_of_U23xi_170() { return &___U23xi_170; }
+	inline void set_U23xi_170(String_t* value)
+	{
+		___U23xi_170 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23xi_170), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23asb_171() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23asb_171)); }
+	inline String_t* get_U23asb_171() const { return ___U23asb_171; }
+	inline String_t** get_address_of_U23asb_171() { return &___U23asb_171; }
+	inline void set_U23asb_171(String_t* value)
+	{
+		___U23asb_171 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23asb_171), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23yi_172() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23yi_172)); }
+	inline String_t* get_U23yi_172() const { return ___U23yi_172; }
+	inline String_t** get_address_of_U23yi_172() { return &___U23yi_172; }
+	inline void set_U23yi_172(String_t* value)
+	{
+		___U23yi_172 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23yi_172), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23zi_173() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23zi_173)); }
+	inline String_t* get_U23zi_173() const { return ___U23zi_173; }
+	inline String_t** get_address_of_U23zi_173() { return &___U23zi_173; }
+	inline void set_U23zi_173(String_t* value)
+	{
+		___U23zi_173 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23zi_173), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ai_174() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ai_174)); }
+	inline String_t* get_U23Ai_174() const { return ___U23Ai_174; }
+	inline String_t** get_address_of_U23Ai_174() { return &___U23Ai_174; }
+	inline void set_U23Ai_174(String_t* value)
+	{
+		___U23Ai_174 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ai_174), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Bi_175() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Bi_175)); }
+	inline String_t* get_U23Bi_175() const { return ___U23Bi_175; }
+	inline String_t** get_address_of_U23Bi_175() { return &___U23Bi_175; }
+	inline void set_U23Bi_175(String_t* value)
+	{
+		___U23Bi_175 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Bi_175), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23zob_176() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23zob_176)); }
+	inline String_t* get_U23zob_176() const { return ___U23zob_176; }
+	inline String_t** get_address_of_U23zob_176() { return &___U23zob_176; }
+	inline void set_U23zob_176(String_t* value)
+	{
+		___U23zob_176 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23zob_176), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Di_177() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Di_177)); }
+	inline String_t* get_U23Di_177() const { return ___U23Di_177; }
+	inline String_t** get_address_of_U23Di_177() { return &___U23Di_177; }
+	inline void set_U23Di_177(String_t* value)
+	{
+		___U23Di_177 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Di_177), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ei_178() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ei_178)); }
+	inline String_t* get_U23Ei_178() const { return ___U23Ei_178; }
+	inline String_t** get_address_of_U23Ei_178() { return &___U23Ei_178; }
+	inline void set_U23Ei_178(String_t* value)
+	{
+		___U23Ei_178 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ei_178), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Fi_179() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Fi_179)); }
+	inline String_t* get_U23Fi_179() const { return ___U23Fi_179; }
+	inline String_t** get_address_of_U23Fi_179() { return &___U23Fi_179; }
+	inline void set_U23Fi_179(String_t* value)
+	{
+		___U23Fi_179 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Fi_179), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Gi_180() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Gi_180)); }
+	inline String_t* get_U23Gi_180() const { return ___U23Gi_180; }
+	inline String_t** get_address_of_U23Gi_180() { return &___U23Gi_180; }
+	inline void set_U23Gi_180(String_t* value)
+	{
+		___U23Gi_180 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Gi_180), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Hi_181() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Hi_181)); }
+	inline String_t* get_U23Hi_181() const { return ___U23Hi_181; }
+	inline String_t** get_address_of_U23Hi_181() { return &___U23Hi_181; }
+	inline void set_U23Hi_181(String_t* value)
+	{
+		___U23Hi_181 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Hi_181), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ii_182() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ii_182)); }
+	inline String_t* get_U23Ii_182() const { return ___U23Ii_182; }
+	inline String_t** get_address_of_U23Ii_182() { return &___U23Ii_182; }
+	inline void set_U23Ii_182(String_t* value)
+	{
+		___U23Ii_182 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ii_182), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U233f_183() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U233f_183)); }
+	inline String_t* get_U233f_183() const { return ___U233f_183; }
+	inline String_t** get_address_of_U233f_183() { return &___U233f_183; }
+	inline void set_U233f_183(String_t* value)
+	{
+		___U233f_183 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U233f_183), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U234f_184() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U234f_184)); }
+	inline String_t* get_U234f_184() const { return ___U234f_184; }
+	inline String_t** get_address_of_U234f_184() { return &___U234f_184; }
+	inline void set_U234f_184(String_t* value)
+	{
+		___U234f_184 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U234f_184), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U235f_185() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U235f_185)); }
+	inline String_t* get_U235f_185() const { return ___U235f_185; }
+	inline String_t** get_address_of_U235f_185() { return &___U235f_185; }
+	inline void set_U235f_185(String_t* value)
+	{
+		___U235f_185 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U235f_185), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U236f_186() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U236f_186)); }
+	inline String_t* get_U236f_186() const { return ___U236f_186; }
+	inline String_t** get_address_of_U236f_186() { return &___U236f_186; }
+	inline void set_U236f_186(String_t* value)
+	{
+		___U236f_186 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U236f_186), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U237f_187() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U237f_187)); }
+	inline String_t* get_U237f_187() const { return ___U237f_187; }
+	inline String_t** get_address_of_U237f_187() { return &___U237f_187; }
+	inline void set_U237f_187(String_t* value)
+	{
+		___U237f_187 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U237f_187), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U238f_188() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U238f_188)); }
+	inline String_t* get_U238f_188() const { return ___U238f_188; }
+	inline String_t** get_address_of_U238f_188() { return &___U238f_188; }
+	inline void set_U238f_188(String_t* value)
+	{
+		___U238f_188 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U238f_188), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ri_189() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ri_189)); }
+	inline String_t* get_U23Ri_189() const { return ___U23Ri_189; }
+	inline String_t** get_address_of_U23Ri_189() { return &___U23Ri_189; }
+	inline void set_U23Ri_189(String_t* value)
+	{
+		___U23Ri_189 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ri_189), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Si_190() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Si_190)); }
+	inline String_t* get_U23Si_190() const { return ___U23Si_190; }
+	inline String_t** get_address_of_U23Si_190() { return &___U23Si_190; }
+	inline void set_U23Si_190(String_t* value)
+	{
+		___U23Si_190 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Si_190), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ti_191() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ti_191)); }
+	inline String_t* get_U23Ti_191() const { return ___U23Ti_191; }
+	inline String_t** get_address_of_U23Ti_191() { return &___U23Ti_191; }
+	inline void set_U23Ti_191(String_t* value)
+	{
+		___U23Ti_191 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ti_191), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Ui_192() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Ui_192)); }
+	inline String_t* get_U23Ui_192() const { return ___U23Ui_192; }
+	inline String_t** get_address_of_U23Ui_192() { return &___U23Ui_192; }
+	inline void set_U23Ui_192(String_t* value)
+	{
+		___U23Ui_192 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Ui_192), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U23Vi_193() { return static_cast<int32_t>(offsetof(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields, ___U23Vi_193)); }
+	inline String_t* get_U23Vi_193() const { return ___U23Vi_193; }
+	inline String_t** get_address_of_U23Vi_193() { return &___U23Vi_193; }
+	inline void set_U23Vi_193(String_t* value)
+	{
+		___U23Vi_193 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U23Vi_193), (void*)value);
 	}
 };
 
@@ -17812,6 +22368,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Queue_1_Dequeue_mE9A2A69E86A7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_Enqueue_mCACF312F04BD04D69E3FBA7D779B5DBF39BB3728_gshared (Queue_1_t65333FCCA10D8CE1B441D400B6B94140BCB8BF64 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // T BackEnd.Util.Singleton`1<System.Object>::get_GetInstance()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Singleton_1_get_GetInstance_m74A65ACE1A197F0D5F802548318EDA32656CE330_gshared (const RuntimeMethod* method);
+// System.Void BackEnd.Param::Add<System.Object>(System.String,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Param_Add_TisRuntimeObject_m280D264B7880A5EACEC9A13246FEA93E274C1B3F_gshared (Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * __this, String_t* ___key0, RuntimeObject * ___value1, const RuntimeMethod* method);
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> #Gj.#wk::#fk<System.Object>(System.String,System.String,#dc)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * U23wk_U23fk_TisRuntimeObject_mD52FADAC72DAA60FD568CE5CF82BD80586E2C640_gshared (U23wk_t38E98271A47233FFE14D8FDE4966E9F932A1BA4F * __this, String_t* p0, String_t* p1, RuntimeObject * p2, const RuntimeMethod* method);
+// !0 System.Threading.Tasks.Task`1<System.Object>::get_Result()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Task_1_get_Result_m5A339E4CA9D86AC691E5754F29A452802A8DE548_gshared (Task_1_tC1805497876E88B78A2B0CB81C6409E0B381AC17 * __this, const RuntimeMethod* method);
 // System.Void BackEnd.Where::#wc<System.Object>(System.String,#dc,BackEnd.WhereOperator)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Where_U23wc_TisRuntimeObject_m0D997C6F7481CF3193302D6DE63509516716FE4A_gshared (Where_t9D59FFD956507B5EE0E36F8EF0D8E4CC1DBF0B4D * __this, String_t* p0, RuntimeObject * p1, int32_t p2, const RuntimeMethod* method);
 // !0 System.Func`1<System.Object>::Invoke()
@@ -18813,11 +23375,71 @@ inline GuildRank_t479D441FA0D47A7BFF92FB985C912CDE34726424 * Singleton_1_get_Get
 {
 	return ((  GuildRank_t479D441FA0D47A7BFF92FB985C912CDE34726424 * (*) (const RuntimeMethod*))Singleton_1_get_GetInstance_m74A65ACE1A197F0D5F802548318EDA32656CE330_gshared)(method);
 }
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> BackEnd.Game.Rank.UnionRank::#nrb()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * UnionRank_U23nrb_mB39977A93252E59EBE75DD85D7F953C325DCE6D8 (UnionRank_tC054E7C61F5F5F13A2C3A7C88E014B0220D442DC * __this, const RuntimeMethod* method);
+// System.Void System.Text.StringBuilder::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m9305A36F9CF53EDD80D132428999934C68904C77 (StringBuilder_t * __this, String_t* ___value0, const RuntimeMethod* method);
+// System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t * StringBuilder_Append_mD02AB0C74C6F55E3E330818C77EC147E22096FB1 (StringBuilder_t * __this, String_t* ___value0, const RuntimeMethod* method);
+// System.Text.StringBuilder System.Text.StringBuilder::Append(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t * StringBuilder_Append_m796285D173EEA5261E85B95FC79DD4F996CC93DD (StringBuilder_t * __this, int32_t ___value0, const RuntimeMethod* method);
+// T BackEnd.Util.Singleton`1<#Gj.#wk>::get_GetInstance()
+inline U23wk_t38E98271A47233FFE14D8FDE4966E9F932A1BA4F * Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F (const RuntimeMethod* method)
+{
+	return ((  U23wk_t38E98271A47233FFE14D8FDE4966E9F932A1BA4F * (*) (const RuntimeMethod*))Singleton_1_get_GetInstance_m74A65ACE1A197F0D5F802548318EDA32656CE330_gshared)(method);
+}
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> #Gj.#wk::#9j(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * U23wk_U239j_m0A41E213453654AA5F29EBAFAFD7EF8B6DA9F0E6 (U23wk_t38E98271A47233FFE14D8FDE4966E9F932A1BA4F * __this, String_t* p0, String_t* p1, const RuntimeMethod* method);
+// System.Void BackEnd.Param::Add<BackEnd.Param>(System.String,T)
+inline void Param_Add_TisParam_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012_m98D5965E18D17D9DCC461CCB63E6653D79B328C0 (Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * __this, String_t* ___key0, Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 *, String_t*, Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 *, const RuntimeMethod*))Param_Add_TisRuntimeObject_m280D264B7880A5EACEC9A13246FEA93E274C1B3F_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Collections.SortedList BackEnd.Param::GetValue()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * Param_GetValue_m73B11E8D71BF69A5BF444A41A4CE1E19CFE0DBB0 (Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * __this, const RuntimeMethod* method);
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> #Gj.#wk::#fk<System.Collections.SortedList>(System.String,System.String,#dc)
+inline Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * U23wk_U23fk_TisSortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165_m421315CFF048323C308EBAD05CB557624AB3A3C7 (U23wk_t38E98271A47233FFE14D8FDE4966E9F932A1BA4F * __this, String_t* p0, String_t* p1, SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * p2, const RuntimeMethod* method)
+{
+	return ((  Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * (*) (U23wk_t38E98271A47233FFE14D8FDE4966E9F932A1BA4F *, String_t*, String_t*, SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 *, const RuntimeMethod*))U23wk_U23fk_TisRuntimeObject_mD52FADAC72DAA60FD568CE5CF82BD80586E2C640_gshared)(__this, p0, p1, p2, method);
+}
+// System.Void BackEnd.BackendReturnObject::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackendReturnObject__ctor_m9D8B098557002E8ACFDC6B815FDE89D48A5F1F56 (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, const RuntimeMethod* method);
+// System.Void BackEnd.BackendReturnObject::#7b(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BackendReturnObject_U237b_m0CF0ACE6189F7E1CFABF32A1E208BDCF35E3A844_inline (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, String_t* p0, const RuntimeMethod* method);
+// System.Void BackEnd.BackendReturnObject::#8b(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BackendReturnObject_U238b_m37B4B9A1661F692B8CFEB7367BFEFC7EA0794CC8_inline (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, String_t* p0, const RuntimeMethod* method);
+// System.Void BackEnd.BackendReturnObject::#6b(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackendReturnObject_U236b_m1C3139B49E23DBCAC0B0718AD73964EB5E6ADD11 (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, int32_t p0, const RuntimeMethod* method);
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> #Gj.#wk::#oW(BackEnd.BackendReturnObject)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * U23wk_U23oW_m762A4CE41B52B8A67BFD8A804DCB652546818CCC (U23wk_t38E98271A47233FFE14D8FDE4966E9F932A1BA4F * __this, BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * p0, const RuntimeMethod* method);
 // System.Void BackEnd.Util.Singleton`1<BackEnd.Game.Rank.UserRank>::.ctor()
 inline void Singleton_1__ctor_m0B257F240672E9D12BCCD644878209A9BF4D1BB5 (Singleton_1_t3795A2B0DB1B493526CF8B8D167380E06E833F4B * __this, const RuntimeMethod* method)
 {
 	((  void (*) (Singleton_1_t3795A2B0DB1B493526CF8B8D167380E06E833F4B *, const RuntimeMethod*))Singleton_1__ctor_m5C84294B5C9DD627E4A96A6C54BF2902545B2655_gshared)(__this, method);
 }
+// T BackEnd.Util.Singleton`1<BackEnd.Game.Rank.UnionRank>::get_GetInstance()
+inline UnionRank_tC054E7C61F5F5F13A2C3A7C88E014B0220D442DC * Singleton_1_get_GetInstance_mD1BB89E4B6805577C9F3482B1B92E19D5692D157 (const RuntimeMethod* method)
+{
+	return ((  UnionRank_tC054E7C61F5F5F13A2C3A7C88E014B0220D442DC * (*) (const RuntimeMethod*))Singleton_1_get_GetInstance_m74A65ACE1A197F0D5F802548318EDA32656CE330_gshared)(method);
+}
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> BackEnd.Game.Rank.UnionRank::#hpb(System.String,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * UnionRank_U23hpb_m85476E3E23C92312EF4AE7FA7CF00E5537456E53 (UnionRank_tC054E7C61F5F5F13A2C3A7C88E014B0220D442DC * __this, String_t* p0, int32_t p1, int32_t p2, const RuntimeMethod* method);
+// !0 System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject>::get_Result()
+inline BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * Task_1_get_Result_m8DF64FCABD50BE9635BB44AA525CE62E595F61B4 (Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * __this, const RuntimeMethod* method)
+{
+	return ((  BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * (*) (Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B *, const RuntimeMethod*))Task_1_get_Result_m5A339E4CA9D86AC691E5754F29A452802A8DE548_gshared)(__this, method);
+}
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> BackEnd.Game.Rank.UserRank::#Rx(System.String,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * UserRank_U23Rx_m7B50F142749660BFECD56798E9CF733F25DE03BC (UserRank_tAB59585C0BC8A148AA75414A91B708384C0D9311 * __this, String_t* p0, int32_t p1, const RuntimeMethod* method);
+// System.Void BackEnd.Param::Add<System.String>(System.String,T)
+inline void Param_Add_TisString_t_mA43977E2A85768DEEC385BB28C689B3E1D6E8DF5 (Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 *, String_t*, String_t*, const RuntimeMethod*))Param_Add_TisRuntimeObject_m280D264B7880A5EACEC9A13246FEA93E274C1B3F_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> BackEnd.Game.Rank.UnionRank::#jpb(System.String,System.String,BackEnd.Param)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * UnionRank_U23jpb_mA191F288E333C3E335F189C6008A2AB432B20776 (UnionRank_tC054E7C61F5F5F13A2C3A7C88E014B0220D442DC * __this, String_t* p0, String_t* p1, Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * p2, const RuntimeMethod* method);
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> BackEnd.Game.Rank.UserRank::#5ob(System.String,System.String,System.String,BackEnd.Param)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * UserRank_U235ob_m4FB08B2703DC0DCFFFF2B3C057FF142076F6421A (UserRank_tAB59585C0BC8A148AA75414A91B708384C0D9311 * __this, String_t* p0, String_t* p1, String_t* p2, Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * p3, const RuntimeMethod* method);
 // System.StringComparer System.StringComparer::get_Ordinal()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * StringComparer_get_Ordinal_mF3B6370BEBD77351DB5218C867DCD669C47B8812_inline (const RuntimeMethod* method);
 // System.Void System.Collections.SortedList::.ctor(System.Collections.IComparer)
@@ -18928,8 +23550,6 @@ inline RuntimeObject * U23nZ_Invoke_mBBF3F7017582F4644E0160194FD22C9E7A9A0539 (U
 {
 	return ((  RuntimeObject * (*) (U23nZ_t79DF137830BE170F452E40B9517B2242C6A5B629 *, RuntimeObject *, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*, const RuntimeMethod*))U23nZ_Invoke_mBBF3F7017582F4644E0160194FD22C9E7A9A0539_gshared)(__this, p0, p1, method);
 }
-// System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t * StringBuilder_Append_mD02AB0C74C6F55E3E330818C77EC147E22096FB1 (StringBuilder_t * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Boolean System.Version::op_Inequality(System.Version,System.Version)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Version_op_Inequality_mCF079498CD00AA720348D8F7CABEBC8DDA798B0F (Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * ___v10, Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * ___v21, const RuntimeMethod* method);
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Object)
@@ -19022,8 +23642,6 @@ inline void AsyncTaskMethodBuilder_1_SetStateMachine_m235CB9D09B71AFFBF36A943AEA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U23btb_U23z_m0A1792A6824D6E758B1E71F7A7EFB72338CC3B89 (U23btb_tE107AD0D1E68AC35470A8AD3AF35084C2AA8E518 * __this, RuntimeObject* p0, const RuntimeMethod* method);
 // System.DateTime System.DateTime::get_UtcNow()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  DateTime_get_UtcNow_m761E57F86226DDD94F0A2F4D98F0A8E27C74F090 (const RuntimeMethod* method);
-// System.Void BackEnd.BackendReturnObject::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackendReturnObject__ctor_m9D8B098557002E8ACFDC6B815FDE89D48A5F1F56 (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, const RuntimeMethod* method);
 // System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> System.Net.Http.HttpClient::SendAsync(System.Net.Http.HttpRequestMessage)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tF08A4E047068CD6A9761693B04A791EC6BBF5F1A * HttpClient_SendAsync_mA64FD0AB5F6DE74BEB7B7C16FF6017DCDD750AB9 (HttpClient_t6C591CE801CCF126E2F8770F513BFA7DB2800A20 * __this, HttpRequestMessage_t2363952C1280568FCCFC6514257FA681811F942F * ___request0, const RuntimeMethod* method);
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<!0> System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage>::ConfigureAwait(System.Boolean)
@@ -19086,18 +23704,12 @@ inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * ConfiguredTaskAwaiter_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamReader__ctor_m0F256281F982E077C73A4C297F1301026A3C2905 (StreamReader_tA857ACC7ABF9AA4638E1291E6D2539C14D2963D3 * __this, Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * ___stream0, const RuntimeMethod* method);
 // System.Boolean System.Net.Http.HttpResponseMessage::get_IsSuccessStatusCode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HttpResponseMessage_get_IsSuccessStatusCode_m24E3914FE4A058EAA89F4019F67271A3F623494B (HttpResponseMessage_t63F09CB81BACD128DB43F511182D683D13445752 * __this, const RuntimeMethod* method);
-// System.Void BackEnd.BackendReturnObject::#6b(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackendReturnObject_U236b_m1C3139B49E23DBCAC0B0718AD73964EB5E6ADD11 (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, int32_t p0, const RuntimeMethod* method);
-// System.Void BackEnd.BackendReturnObject::#8b(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BackendReturnObject_U238b_m37B4B9A1661F692B8CFEB7367BFEFC7EA0794CC8_inline (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, String_t* p0, const RuntimeMethod* method);
 // System.Void BackEnd.BackendReturnObject::#9b(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BackendReturnObject_U239b_m1C09ADE14B36B2442D3A06DF7B1195004EBBB123 (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, String_t* p0, const RuntimeMethod* method);
 // #udb.#zfb #udb.#zfb::Parse(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR U23zfb_t9F5A48CB3F877B9C7D87091E4C5146EB96A77BD8 * U23zfb_Parse_m6C168C8A4FFE7A693959458EF4BE2369449E8945 (String_t* p0, const RuntimeMethod* method);
 // Newtonsoft.Json.Linq.JToken #udb.#zfb::#KD(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JToken_t822BF3FC2F101A435864B158E16F0A0EF19FF66F * U23zfb_U23KD_m95EF142B4BA63C0E3AEBA2F5999B01C33C828916 (U23zfb_t9F5A48CB3F877B9C7D87091E4C5146EB96A77BD8 * __this, String_t* p0, const RuntimeMethod* method);
-// System.Void BackEnd.BackendReturnObject::#7b(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BackendReturnObject_U237b_m0CF0ACE6189F7E1CFABF32A1E208BDCF35E3A844_inline (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, String_t* p0, const RuntimeMethod* method);
 // System.String BackEnd.BackendReturnObject::GetMessage()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* BackendReturnObject_GetMessage_mDEC2BA83C4B3DB3B6ACCD3ECC8CB31563EDA035F_inline (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, const RuntimeMethod* method);
 // System.Void BackEnd.BackendReturnObject::Clear()
@@ -21817,7 +26429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ReflectionUtils_U23y3_m3D4984CD2F901227C
 		Type_t * L_3 = p0;
 		NullCheck(L_3);
 		Type_t * L_4;
-		L_4 = VirtFuncInvoker0< Type_t * >::Invoke(103 /* System.Type System.Type::GetGenericTypeDefinition() */, L_3);
+		L_4 = VirtFuncInvoker0< Type_t * >::Invoke(102 /* System.Type System.Type::GetGenericTypeDefinition() */, L_3);
 		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_5 = { reinterpret_cast<intptr_t> (Nullable_1_t4EDBE007AFFA0315135B9A508DACA62D3C201867_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_6;
@@ -21883,7 +26495,7 @@ IL_000a:
 		Type_t * L_2 = p0;
 		NullCheck(L_2);
 		Type_t * L_3;
-		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(103 /* System.Type System.Type::GetGenericTypeDefinition() */, L_2);
+		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(102 /* System.Type System.Type::GetGenericTypeDefinition() */, L_2);
 		Type_t * L_4 = p1;
 		return (bool)((((RuntimeObject*)(Type_t *)L_3) == ((RuntimeObject*)(Type_t *)L_4))? 1 : 0);
 	}
@@ -21981,7 +26593,7 @@ IL_003c:
 		Type_t * L_14 = ___U23re0;
 		NullCheck(L_14);
 		Type_t * L_15;
-		L_15 = VirtFuncInvoker0< Type_t * >::Invoke(103 /* System.Type System.Type::GetGenericTypeDefinition() */, L_14);
+		L_15 = VirtFuncInvoker0< Type_t * >::Invoke(102 /* System.Type System.Type::GetGenericTypeDefinition() */, L_14);
 		V_0 = L_15;
 		Type_t * L_16 = ___U23C31;
 		Type_t * L_17 = V_0;
@@ -22029,7 +26641,7 @@ IL_0067:
 		Type_t * L_28 = V_3;
 		NullCheck(L_28);
 		Type_t * L_29;
-		L_29 = VirtFuncInvoker0< Type_t * >::Invoke(103 /* System.Type System.Type::GetGenericTypeDefinition() */, L_28);
+		L_29 = VirtFuncInvoker0< Type_t * >::Invoke(102 /* System.Type System.Type::GetGenericTypeDefinition() */, L_28);
 		V_4 = L_29;
 		Type_t * L_30 = ___U23C31;
 		Type_t * L_31 = V_4;
@@ -22169,7 +26781,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ReflectionUtils_U23G3_m263DBD59BDD0248FF
 		Type_t * L_2 = ___U23H30;
 		NullCheck(L_2);
 		Type_t * L_3;
-		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(103 /* System.Type System.Type::GetGenericTypeDefinition() */, L_2);
+		L_3 = VirtFuncInvoker0< Type_t * >::Invoke(102 /* System.Type System.Type::GetGenericTypeDefinition() */, L_2);
 		V_0 = L_3;
 		Type_t * L_4 = ___U23F31;
 		Type_t * L_5 = V_0;
@@ -22246,7 +26858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * ReflectionUtils_U23I3_mC3C534E47C0F4
 		Type_t * L_3 = p0;
 		NullCheck(L_3);
 		Type_t * L_4;
-		L_4 = VirtFuncInvoker0< Type_t * >::Invoke(101 /* System.Type System.Type::GetElementType() */, L_3);
+		L_4 = VirtFuncInvoker0< Type_t * >::Invoke(100 /* System.Type System.Type::GetElementType() */, L_3);
 		return L_4;
 	}
 
@@ -22291,7 +26903,7 @@ IL_004c:
 		Type_t * L_15 = V_0;
 		NullCheck(L_15);
 		TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* L_16;
-		L_16 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(102 /* System.Type[] System.Type::GetGenericArguments() */, L_15);
+		L_16 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(101 /* System.Type[] System.Type::GetGenericArguments() */, L_15);
 		NullCheck(L_16);
 		int32_t L_17 = 0;
 		Type_t * L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
@@ -22307,7 +26919,7 @@ IL_0055:
 		Type_t * L_21 = p0;
 		NullCheck(L_20);
 		bool L_22;
-		L_22 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_20, L_21);
+		L_22 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_20, L_21);
 		if (!L_22)
 		{
 			goto IL_0069;
@@ -22387,7 +26999,7 @@ IL_003d:
 		Type_t * L_11 = V_0;
 		NullCheck(L_11);
 		TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* L_12;
-		L_12 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(102 /* System.Type[] System.Type::GetGenericArguments() */, L_11);
+		L_12 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(101 /* System.Type[] System.Type::GetGenericArguments() */, L_11);
 		V_1 = L_12;
 		Type_t ** L_13 = ___U23L31;
 		TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* L_14 = V_1;
@@ -22415,7 +27027,7 @@ IL_004f:
 		Type_t * L_23 = ___U23K30;
 		NullCheck(L_22);
 		bool L_24;
-		L_24 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_22, L_23);
+		L_24 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_22, L_23);
 		if (!L_24)
 		{
 			goto IL_0068;
@@ -23468,7 +28080,7 @@ IL_002e:
 		Type_t * L_9 = V_1;
 		NullCheck(L_9);
 		Type_t * L_10;
-		L_10 = VirtFuncInvoker0< Type_t * >::Invoke(103 /* System.Type System.Type::GetGenericTypeDefinition() */, L_9);
+		L_10 = VirtFuncInvoker0< Type_t * >::Invoke(102 /* System.Type System.Type::GetGenericTypeDefinition() */, L_9);
 		V_2 = L_10;
 		Type_t * L_11 = V_2;
 		if (L_11)
@@ -23490,7 +28102,7 @@ IL_003a:
 		int32_t L_15 = p1;
 		NullCheck(L_12);
 		MemberInfoU5BU5D_t04CE6CC3692D77C74DC079E7CAF110CBF031C99E* L_16;
-		L_16 = VirtFuncInvoker2< MemberInfoU5BU5D_t04CE6CC3692D77C74DC079E7CAF110CBF031C99E*, String_t*, int32_t >::Invoke(60 /* System.Reflection.MemberInfo[] System.Type::GetMember(System.String,System.Reflection.BindingFlags) */, L_12, L_14, L_15);
+		L_16 = VirtFuncInvoker2< MemberInfoU5BU5D_t04CE6CC3692D77C74DC079E7CAF110CBF031C99E*, String_t*, int32_t >::Invoke(59 /* System.Reflection.MemberInfo[] System.Type::GetMember(System.String,System.Reflection.BindingFlags) */, L_12, L_14, L_15);
 		V_3 = L_16;
 		MemberInfoU5BU5D_t04CE6CC3692D77C74DC079E7CAF110CBF031C99E* L_17 = V_3;
 		NullCheck(L_17);
@@ -23514,7 +28126,7 @@ IL_004e:
 		L_21 = ReflectionUtils_U23N3_m51AA8C7BB75444F3D9AEE3947C9630D617EC3E6B(L_20, /*hidden argument*/NULL);
 		NullCheck(L_21);
 		bool L_22;
-		L_22 = VirtFuncInvoker0< bool >::Invoke(80 /* System.Boolean System.Type::get_IsGenericParameter() */, L_21);
+		L_22 = VirtFuncInvoker0< bool >::Invoke(79 /* System.Boolean System.Type::get_IsGenericParameter() */, L_21);
 		if (L_22)
 		{
 			goto IL_005f;
@@ -24098,7 +28710,7 @@ IL_005b:
 		L_24 = U23L4_U23w4_m7579EBDC7AB99AAEB61929EA42063FA55556D62B(L_23, /*hidden argument*/NULL);
 		NullCheck(L_20);
 		MemberInfoU5BU5D_t04CE6CC3692D77C74DC079E7CAF110CBF031C99E* L_25;
-		L_25 = VirtFuncInvoker3< MemberInfoU5BU5D_t04CE6CC3692D77C74DC079E7CAF110CBF031C99E*, String_t*, int32_t, int32_t >::Invoke(61 /* System.Reflection.MemberInfo[] System.Type::GetMember(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags) */, L_20, L_22, L_24, ((int32_t)60));
+		L_25 = VirtFuncInvoker3< MemberInfoU5BU5D_t04CE6CC3692D77C74DC079E7CAF110CBF031C99E*, String_t*, int32_t, int32_t >::Invoke(60 /* System.Reflection.MemberInfo[] System.Type::GetMember(System.String,System.Reflection.MemberTypes,System.Reflection.BindingFlags) */, L_20, L_22, L_24, ((int32_t)60));
 		MemberInfo_t * L_26;
 		L_26 = Enumerable_SingleOrDefault_TisMemberInfo_t_m369778E6FAF2741CD8A8F39B7D89B4C9B62E407F((RuntimeObject*)(RuntimeObject*)L_25, /*hidden argument*/Enumerable_SingleOrDefault_TisMemberInfo_t_m369778E6FAF2741CD8A8F39B7D89B4C9B62E407F_RuntimeMethod_var);
 		return L_26;
@@ -32227,6 +36839,213 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnionRank__ctor_mB643CD153E7C4359DF61F5F
 		return;
 	}
 }
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> BackEnd.Game.Rank.UnionRank::#hpb(System.String,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * UnionRank_U23hpb_m85476E3E23C92312EF4AE7FA7CF00E5537456E53 (UnionRank_tC054E7C61F5F5F13A2C3A7C88E014B0220D442DC * __this, String_t* p0, int32_t p1, int32_t p2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_t48F33E326AC747E3CD7A49378AB4C75E524E6DA2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBF6478CCE629B69A9A4FC244049F5A2ABB831110);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF70891BA65E4D2FFE5B94E5074636F68E25F967F);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringBuilder_t * V_0 = NULL;
+	{
+		String_t* L_0 = p0;
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_m9AFBB5335B441B94E884B8A9D4A27AD60E3D7F7C(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * L_2;
+		L_2 = UnionRank_U23nrb_mB39977A93252E59EBE75DD85D7F953C325DCE6D8(__this, /*hidden argument*/NULL);
+		return L_2;
+	}
+
+IL_000f:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields*)il2cpp_codegen_static_fields_for(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_il2cpp_TypeInfo_var))->get_U23job_115();
+		StringBuilder_t * L_4 = (StringBuilder_t *)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m9305A36F9CF53EDD80D132428999934C68904C77(L_4, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		StringBuilder_t * L_5 = V_0;
+		String_t* L_6 = p0;
+		NullCheck(L_5);
+		StringBuilder_t * L_7;
+		L_7 = StringBuilder_Append_mD02AB0C74C6F55E3E330818C77EC147E22096FB1(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_8 = p1;
+		if ((((int32_t)L_8) <= ((int32_t)((int32_t)100))))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		p1 = ((int32_t)100);
+		goto IL_0035;
+	}
+
+IL_002d:
+	{
+		int32_t L_9 = p1;
+		if ((((int32_t)L_9) > ((int32_t)0)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		p1 = ((int32_t)10);
+	}
+
+IL_0035:
+	{
+		int32_t L_10 = p2;
+		if ((((int32_t)L_10) >= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		p2 = 0;
+	}
+
+IL_003c:
+	{
+		StringBuilder_t * L_11 = V_0;
+		NullCheck(L_11);
+		StringBuilder_t * L_12;
+		L_12 = StringBuilder_Append_mD02AB0C74C6F55E3E330818C77EC147E22096FB1(L_11, _stringLiteralBF6478CCE629B69A9A4FC244049F5A2ABB831110, /*hidden argument*/NULL);
+		int32_t L_13 = p1;
+		NullCheck(L_12);
+		StringBuilder_t * L_14;
+		L_14 = StringBuilder_Append_m796285D173EEA5261E85B95FC79DD4F996CC93DD(L_12, L_13, /*hidden argument*/NULL);
+		StringBuilder_t * L_15 = V_0;
+		NullCheck(L_15);
+		StringBuilder_t * L_16;
+		L_16 = StringBuilder_Append_mD02AB0C74C6F55E3E330818C77EC147E22096FB1(L_15, _stringLiteralF70891BA65E4D2FFE5B94E5074636F68E25F967F, /*hidden argument*/NULL);
+		int32_t L_17 = p2;
+		NullCheck(L_16);
+		StringBuilder_t * L_18;
+		L_18 = StringBuilder_Append_m796285D173EEA5261E85B95FC79DD4F996CC93DD(L_16, L_17, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Singleton_1_t48F33E326AC747E3CD7A49378AB4C75E524E6DA2_il2cpp_TypeInfo_var);
+		U23wk_t38E98271A47233FFE14D8FDE4966E9F932A1BA4F * L_19;
+		L_19 = Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F(/*hidden argument*/Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F_RuntimeMethod_var);
+		StringBuilder_t * L_20 = V_0;
+		NullCheck(L_20);
+		String_t* L_21;
+		L_21 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_20);
+		IL2CPP_RUNTIME_CLASS_INIT(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_il2cpp_TypeInfo_var);
+		String_t* L_22 = ((U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields*)il2cpp_codegen_static_fields_for(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_il2cpp_TypeInfo_var))->get_U23job_95();
+		NullCheck(L_19);
+		Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * L_23;
+		L_23 = U23wk_U239j_m0A41E213453654AA5F29EBAFAFD7EF8B6DA9F0E6(L_19, L_21, L_22, /*hidden argument*/NULL);
+		return L_23;
+	}
+}
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> BackEnd.Game.Rank.UnionRank::#jpb(System.String,System.String,BackEnd.Param)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * UnionRank_U23jpb_mA191F288E333C3E335F189C6008A2AB432B20776 (UnionRank_tC054E7C61F5F5F13A2C3A7C88E014B0220D442DC * __this, String_t* p0, String_t* p1, Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * p2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Param_Add_TisParam_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012_m98D5965E18D17D9DCC461CCB63E6653D79B328C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_t48F33E326AC747E3CD7A49378AB4C75E524E6DA2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U23wk_U23fk_TisSortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165_m421315CFF048323C308EBAD05CB557624AB3A3C7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral32BFDF00D9C0A1F8765D6BA8DF0B5CA6B528C59D);
+		s_Il2CppMethodInitialized = true;
+	}
+	Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * V_0 = NULL;
+	{
+		String_t* L_0 = p0;
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_m9AFBB5335B441B94E884B8A9D4A27AD60E3D7F7C(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * L_2;
+		L_2 = UnionRank_U23nrb_mB39977A93252E59EBE75DD85D7F953C325DCE6D8(__this, /*hidden argument*/NULL);
+		return L_2;
+	}
+
+IL_000f:
+	{
+		Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * L_3 = (Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 *)il2cpp_codegen_object_new(Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012_il2cpp_TypeInfo_var);
+		Param__ctor_mD39113C8EDF157A210C40DD7D97294CCC89C3B7D(L_3, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * L_4 = V_0;
+		Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * L_5 = p2;
+		NullCheck(L_4);
+		Param_Add_TisParam_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012_m98D5965E18D17D9DCC461CCB63E6653D79B328C0(L_4, _stringLiteral32BFDF00D9C0A1F8765D6BA8DF0B5CA6B528C59D, L_5, /*hidden argument*/Param_Add_TisParam_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012_m98D5965E18D17D9DCC461CCB63E6653D79B328C0_RuntimeMethod_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Singleton_1_t48F33E326AC747E3CD7A49378AB4C75E524E6DA2_il2cpp_TypeInfo_var);
+		U23wk_t38E98271A47233FFE14D8FDE4966E9F932A1BA4F * L_6;
+		L_6 = Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F(/*hidden argument*/Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F_RuntimeMethod_var);
+		IL2CPP_RUNTIME_CLASS_INIT(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_il2cpp_TypeInfo_var);
+		String_t* L_7 = ((U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields*)il2cpp_codegen_static_fields_for(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_il2cpp_TypeInfo_var))->get_U23qob_122();
+		String_t* L_8 = p0;
+		String_t* L_9;
+		L_9 = String_Format_mB3D38E5238C3164DB4D7D29339D9E225A4496D17(L_7, L_8, /*hidden argument*/NULL);
+		String_t* L_10 = p1;
+		Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * L_11 = V_0;
+		NullCheck(L_11);
+		SortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165 * L_12;
+		L_12 = Param_GetValue_m73B11E8D71BF69A5BF444A41A4CE1E19CFE0DBB0(L_11, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * L_13;
+		L_13 = U23wk_U23fk_TisSortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165_m421315CFF048323C308EBAD05CB557624AB3A3C7(L_6, L_9, L_10, L_12, /*hidden argument*/U23wk_U23fk_TisSortedList_t52B9ACC0DAA6CD074E375215F43251DE16366165_m421315CFF048323C308EBAD05CB557624AB3A3C7_RuntimeMethod_var);
+		return L_13;
+	}
+}
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> BackEnd.Game.Rank.UnionRank::#nrb()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * UnionRank_U23nrb_mB39977A93252E59EBE75DD85D7F953C325DCE6D8 (UnionRank_tC054E7C61F5F5F13A2C3A7C88E014B0220D442DC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_t48F33E326AC747E3CD7A49378AB4C75E524E6DA2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0EAAFEA47F361C424891842EC463A4998A97D208);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDAA60D6693ABF563BE4F7645B229879DBD41937C);
+		s_Il2CppMethodInitialized = true;
+	}
+	BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * V_0 = NULL;
+	{
+		BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * L_0 = (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C *)il2cpp_codegen_object_new(BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C_il2cpp_TypeInfo_var);
+		BackendReturnObject__ctor_m9D8B098557002E8ACFDC6B815FDE89D48A5F1F56(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * L_1 = V_0;
+		NullCheck(L_1);
+		BackendReturnObject_U237b_m0CF0ACE6189F7E1CFABF32A1E208BDCF35E3A844_inline(L_1, _stringLiteralDAA60D6693ABF563BE4F7645B229879DBD41937C, /*hidden argument*/NULL);
+		BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * L_2 = V_0;
+		NullCheck(L_2);
+		BackendReturnObject_U238b_m37B4B9A1661F692B8CFEB7367BFEFC7EA0794CC8_inline(L_2, _stringLiteral0EAAFEA47F361C424891842EC463A4998A97D208, /*hidden argument*/NULL);
+		BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * L_3 = V_0;
+		NullCheck(L_3);
+		BackendReturnObject_U236b_m1C3139B49E23DBCAC0B0718AD73964EB5E6ADD11(L_3, ((int32_t)400), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Singleton_1_t48F33E326AC747E3CD7A49378AB4C75E524E6DA2_il2cpp_TypeInfo_var);
+		U23wk_t38E98271A47233FFE14D8FDE4966E9F932A1BA4F * L_4;
+		L_4 = Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F(/*hidden argument*/Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F_RuntimeMethod_var);
+		BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * L_5 = V_0;
+		NullCheck(L_4);
+		Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * L_6;
+		L_6 = U23wk_U23oW_m762A4CE41B52B8A67BFD8A804DCB652546818CCC(L_4, L_5, /*hidden argument*/NULL);
+		return L_6;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -32249,6 +37068,213 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserRank__ctor_m83D6F1A6583A980C0C1A91B1
 		IL2CPP_RUNTIME_CLASS_INIT(Singleton_1_t3795A2B0DB1B493526CF8B8D167380E06E833F4B_il2cpp_TypeInfo_var);
 		Singleton_1__ctor_m0B257F240672E9D12BCCD644878209A9BF4D1BB5(__this, /*hidden argument*/Singleton_1__ctor_m0B257F240672E9D12BCCD644878209A9BF4D1BB5_RuntimeMethod_var);
 		return;
+	}
+}
+// BackEnd.BackendReturnObject BackEnd.Game.Rank.UserRank::GetRankList(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * UserRank_GetRankList_m38892382DFF06E5DB8F7A4E754C81BD951D21E23 (UserRank_tAB59585C0BC8A148AA75414A91B708384C0D9311 * __this, String_t* ___rankUuid0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_GetInstance_mD1BB89E4B6805577C9F3482B1B92E19D5692D157_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_t58079C538BBE6FF5A8EDB2E01965914D6AD7C481_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_get_Result_m8DF64FCABD50BE9635BB44AA525CE62E595F61B4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Singleton_1_t58079C538BBE6FF5A8EDB2E01965914D6AD7C481_il2cpp_TypeInfo_var);
+		UnionRank_tC054E7C61F5F5F13A2C3A7C88E014B0220D442DC * L_0;
+		L_0 = Singleton_1_get_GetInstance_mD1BB89E4B6805577C9F3482B1B92E19D5692D157(/*hidden argument*/Singleton_1_get_GetInstance_mD1BB89E4B6805577C9F3482B1B92E19D5692D157_RuntimeMethod_var);
+		String_t* L_1 = ___rankUuid0;
+		NullCheck(L_0);
+		Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * L_2;
+		L_2 = UnionRank_U23hpb_m85476E3E23C92312EF4AE7FA7CF00E5537456E53(L_0, L_1, 0, 0, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * L_3;
+		L_3 = Task_1_get_Result_m8DF64FCABD50BE9635BB44AA525CE62E595F61B4(L_2, /*hidden argument*/Task_1_get_Result_m8DF64FCABD50BE9635BB44AA525CE62E595F61B4_RuntimeMethod_var);
+		return L_3;
+	}
+}
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> BackEnd.Game.Rank.UserRank::#Rx(System.String,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * UserRank_U23Rx_m7B50F142749660BFECD56798E9CF733F25DE03BC (UserRank_tAB59585C0BC8A148AA75414A91B708384C0D9311 * __this, String_t* p0, int32_t p1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_GetInstance_mD1BB89E4B6805577C9F3482B1B92E19D5692D157_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_t48F33E326AC747E3CD7A49378AB4C75E524E6DA2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_t58079C538BBE6FF5A8EDB2E01965914D6AD7C481_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral05463B6C3EDD027BB3F74346A12B56AD0AD8909A);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringBuilder_t * V_0 = NULL;
+	{
+		String_t* L_0 = p0;
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_m9AFBB5335B441B94E884B8A9D4A27AD60E3D7F7C(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Singleton_1_t58079C538BBE6FF5A8EDB2E01965914D6AD7C481_il2cpp_TypeInfo_var);
+		UnionRank_tC054E7C61F5F5F13A2C3A7C88E014B0220D442DC * L_2;
+		L_2 = Singleton_1_get_GetInstance_mD1BB89E4B6805577C9F3482B1B92E19D5692D157(/*hidden argument*/Singleton_1_get_GetInstance_mD1BB89E4B6805577C9F3482B1B92E19D5692D157_RuntimeMethod_var);
+		NullCheck(L_2);
+		Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * L_3;
+		L_3 = UnionRank_U23nrb_mB39977A93252E59EBE75DD85D7F953C325DCE6D8(L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+
+IL_0013:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_StaticFields*)il2cpp_codegen_static_fields_for(U23Xi_t004E2B096A8E7EDEB748FBBBB1B71DFA37FF50F4_il2cpp_TypeInfo_var))->get_U23kob_116();
+		String_t* L_5 = p0;
+		String_t* L_6;
+		L_6 = String_Format_mB3D38E5238C3164DB4D7D29339D9E225A4496D17(L_4, L_5, /*hidden argument*/NULL);
+		StringBuilder_t * L_7 = (StringBuilder_t *)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m9305A36F9CF53EDD80D132428999934C68904C77(L_7, L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		int32_t L_8 = p1;
+		if ((((int32_t)L_8) >= ((int32_t)0)))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		p1 = 0;
+		goto IL_0036;
+	}
+
+IL_002d:
+	{
+		int32_t L_9 = p1;
+		if ((((int32_t)L_9) <= ((int32_t)((int32_t)100))))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		p1 = ((int32_t)100);
+	}
+
+IL_0036:
+	{
+		StringBuilder_t * L_10 = V_0;
+		NullCheck(L_10);
+		StringBuilder_t * L_11;
+		L_11 = StringBuilder_Append_mD02AB0C74C6F55E3E330818C77EC147E22096FB1(L_10, _stringLiteral05463B6C3EDD027BB3F74346A12B56AD0AD8909A, /*hidden argument*/NULL);
+		int32_t L_12 = p1;
+		NullCheck(L_11);
+		StringBuilder_t * L_13;
+		L_13 = StringBuilder_Append_m796285D173EEA5261E85B95FC79DD4F996CC93DD(L_11, L_12, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Singleton_1_t48F33E326AC747E3CD7A49378AB4C75E524E6DA2_il2cpp_TypeInfo_var);
+		U23wk_t38E98271A47233FFE14D8FDE4966E9F932A1BA4F * L_14;
+		L_14 = Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F(/*hidden argument*/Singleton_1_get_GetInstance_m8616166E955A86B8711F0B1D9C188E7C83BB592F_RuntimeMethod_var);
+		StringBuilder_t * L_15 = V_0;
+		NullCheck(L_15);
+		String_t* L_16;
+		L_16 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_15);
+		IL2CPP_RUNTIME_CLASS_INIT(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_il2cpp_TypeInfo_var);
+		String_t* L_17 = ((U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields*)il2cpp_codegen_static_fields_for(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_il2cpp_TypeInfo_var))->get_U23kob_96();
+		NullCheck(L_14);
+		Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * L_18;
+		L_18 = U23wk_U239j_m0A41E213453654AA5F29EBAFAFD7EF8B6DA9F0E6(L_14, L_16, L_17, /*hidden argument*/NULL);
+		return L_18;
+	}
+}
+// BackEnd.BackendReturnObject BackEnd.Game.Rank.UserRank::GetMyRank(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * UserRank_GetMyRank_mCF501330E40119880C2C6796A80AF654F592237D (UserRank_tAB59585C0BC8A148AA75414A91B708384C0D9311 * __this, String_t* ___rankUuid0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_get_Result_m8DF64FCABD50BE9635BB44AA525CE62E595F61B4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___rankUuid0;
+		Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * L_1;
+		L_1 = UserRank_U23Rx_m7B50F142749660BFECD56798E9CF733F25DE03BC(__this, L_0, 0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * L_2;
+		L_2 = Task_1_get_Result_m8DF64FCABD50BE9635BB44AA525CE62E595F61B4(L_1, /*hidden argument*/Task_1_get_Result_m8DF64FCABD50BE9635BB44AA525CE62E595F61B4_RuntimeMethod_var);
+		return L_2;
+	}
+}
+// System.Threading.Tasks.Task`1<BackEnd.BackendReturnObject> BackEnd.Game.Rank.UserRank::#5ob(System.String,System.String,System.String,BackEnd.Param)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * UserRank_U235ob_m4FB08B2703DC0DCFFFF2B3C057FF142076F6421A (UserRank_tAB59585C0BC8A148AA75414A91B708384C0D9311 * __this, String_t* p0, String_t* p1, String_t* p2, Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * p3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Param_Add_TisParam_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012_m98D5965E18D17D9DCC461CCB63E6653D79B328C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Param_Add_TisString_t_mA43977E2A85768DEEC385BB28C689B3E1D6E8DF5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_GetInstance_mD1BB89E4B6805577C9F3482B1B92E19D5692D157_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_t58079C538BBE6FF5A8EDB2E01965914D6AD7C481_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8940E1FEA4EBF3CA20C44768AA93531C62B71B4A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB0FDF5B3CEAD25B0E53D7B901D18C15D944CD942);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB4054C6E4E11B87959DDCCED1FDA757609E47F49);
+		s_Il2CppMethodInitialized = true;
+	}
+	Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * V_0 = NULL;
+	{
+		Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * L_0 = (Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 *)il2cpp_codegen_object_new(Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012_il2cpp_TypeInfo_var);
+		Param__ctor_mD39113C8EDF157A210C40DD7D97294CCC89C3B7D(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * L_1 = V_0;
+		String_t* L_2 = p1;
+		NullCheck(L_1);
+		Param_Add_TisString_t_mA43977E2A85768DEEC385BB28C689B3E1D6E8DF5(L_1, _stringLiteralB4054C6E4E11B87959DDCCED1FDA757609E47F49, L_2, /*hidden argument*/Param_Add_TisString_t_mA43977E2A85768DEEC385BB28C689B3E1D6E8DF5_RuntimeMethod_var);
+		Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * L_3 = V_0;
+		Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * L_4 = p3;
+		NullCheck(L_3);
+		Param_Add_TisParam_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012_m98D5965E18D17D9DCC461CCB63E6653D79B328C0(L_3, _stringLiteral8940E1FEA4EBF3CA20C44768AA93531C62B71B4A, L_4, /*hidden argument*/Param_Add_TisParam_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012_m98D5965E18D17D9DCC461CCB63E6653D79B328C0_RuntimeMethod_var);
+		Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * L_5 = V_0;
+		String_t* L_6 = p2;
+		NullCheck(L_5);
+		Param_Add_TisString_t_mA43977E2A85768DEEC385BB28C689B3E1D6E8DF5(L_5, _stringLiteralB0FDF5B3CEAD25B0E53D7B901D18C15D944CD942, L_6, /*hidden argument*/Param_Add_TisString_t_mA43977E2A85768DEEC385BB28C689B3E1D6E8DF5_RuntimeMethod_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Singleton_1_t58079C538BBE6FF5A8EDB2E01965914D6AD7C481_il2cpp_TypeInfo_var);
+		UnionRank_tC054E7C61F5F5F13A2C3A7C88E014B0220D442DC * L_7;
+		L_7 = Singleton_1_get_GetInstance_mD1BB89E4B6805577C9F3482B1B92E19D5692D157(/*hidden argument*/Singleton_1_get_GetInstance_mD1BB89E4B6805577C9F3482B1B92E19D5692D157_RuntimeMethod_var);
+		String_t* L_8 = p0;
+		IL2CPP_RUNTIME_CLASS_INIT(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_il2cpp_TypeInfo_var);
+		String_t* L_9 = ((U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_StaticFields*)il2cpp_codegen_static_fields_for(U23bsb_t301410A4C57750288151D7BBCCA2B3E59090F423_il2cpp_TypeInfo_var))->get_U23qob_102();
+		Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * L_10 = V_0;
+		NullCheck(L_7);
+		Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * L_11;
+		L_11 = UnionRank_U23jpb_mA191F288E333C3E335F189C6008A2AB432B20776(L_7, L_8, L_9, L_10, /*hidden argument*/NULL);
+		return L_11;
+	}
+}
+// BackEnd.BackendReturnObject BackEnd.Game.Rank.UserRank::UpdateUserScore(System.String,System.String,System.String,BackEnd.Param)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * UserRank_UpdateUserScore_mC30F5C9F0FF5E1B176223FBA9A489E617246E4B1 (UserRank_tAB59585C0BC8A148AA75414A91B708384C0D9311 * __this, String_t* ___rankUuid0, String_t* ___tableName1, String_t* ___rowIndate2, Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * ___param3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_get_Result_m8DF64FCABD50BE9635BB44AA525CE62E595F61B4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___rankUuid0;
+		String_t* L_1 = ___tableName1;
+		String_t* L_2 = ___rowIndate2;
+		Param_t3CFDF4B41C3044DE752F52F3CE0E4ECE0AC4C012 * L_3 = ___param3;
+		Task_1_t76D6F49FA57C6111C7CEF52B50760D6CCE957D3B * L_4;
+		L_4 = UserRank_U235ob_m4FB08B2703DC0DCFFFF2B3C057FF142076F6421A(__this, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * L_5;
+		L_5 = Task_1_get_Result_m8DF64FCABD50BE9635BB44AA525CE62E595F61B4(L_4, /*hidden argument*/Task_1_get_Result_m8DF64FCABD50BE9635BB44AA525CE62E595F61B4_RuntimeMethod_var);
+		return L_5;
 	}
 }
 #ifdef __clang__
@@ -39102,14 +44128,14 @@ IL_0056:
 		Type_t * L_23 = V_1;
 		NullCheck(L_23);
 		TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* L_24;
-		L_24 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(102 /* System.Type[] System.Type::GetGenericArguments() */, L_23);
+		L_24 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(101 /* System.Type[] System.Type::GetGenericArguments() */, L_23);
 		NullCheck(L_24);
 		int32_t L_25 = 0;
 		Type_t * L_26 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
 		Type_t * L_27 = V_1;
 		NullCheck(L_27);
 		TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* L_28;
-		L_28 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(102 /* System.Type[] System.Type::GetGenericArguments() */, L_27);
+		L_28 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(101 /* System.Type[] System.Type::GetGenericArguments() */, L_27);
 		NullCheck(L_28);
 		int32_t L_29 = 1;
 		Type_t * L_30 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
@@ -39120,7 +44146,7 @@ IL_0056:
 		L_32 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_31, /*hidden argument*/NULL);
 		NullCheck(L_26);
 		bool L_33;
-		L_33 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_26, L_32);
+		L_33 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_26, L_32);
 		if (!L_33)
 		{
 			goto IL_00a5;
@@ -39134,7 +44160,7 @@ IL_0056:
 		L_36 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_35, /*hidden argument*/NULL);
 		NullCheck(L_34);
 		bool L_37;
-		L_37 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_34, L_36);
+		L_37 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_34, L_36);
 		if (!L_37)
 		{
 			goto IL_00a5;
@@ -39821,7 +44847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U23h4_U23g4_m4C37D6607602F231D7947A4F7E1
 		L_14 = VirtFuncInvoker0< Type_t * >::Invoke(9 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_13);
 		NullCheck(L_11);
 		bool L_15;
-		L_15 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_11, L_14);
+		L_15 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_11, L_14);
 		return L_15;
 	}
 
@@ -41564,6 +46590,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TcpClientJoinArgs_set_Channe
 		return;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BackendReturnObject_U237b_m0CF0ACE6189F7E1CFABF32A1E208BDCF35E3A844_inline (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, String_t* p0, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = p0;
+		__this->set_U23Yb_1(L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BackendReturnObject_U238b_m37B4B9A1661F692B8CFEB7367BFEFC7EA0794CC8_inline (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, String_t* p0, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = p0;
+		__this->set_U23Zb_2(L_0);
+		return;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6 * StringComparer_get_Ordinal_mF3B6370BEBD77351DB5218C867DCD669C47B8812_inline (const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
@@ -41618,22 +46660,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpContent_tD8845E4F14BA310E60D3
 	{
 		HttpContent_tD8845E4F14BA310E60D340FB2673D36103A802C6 * L_0 = __this->get_U3CContentU3Ek__BackingField_5();
 		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BackendReturnObject_U238b_m37B4B9A1661F692B8CFEB7367BFEFC7EA0794CC8_inline (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, String_t* p0, const RuntimeMethod* method)
-{
-	{
-		String_t* L_0 = p0;
-		__this->set_U23Zb_2(L_0);
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BackendReturnObject_U237b_m0CF0ACE6189F7E1CFABF32A1E208BDCF35E3A844_inline (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, String_t* p0, const RuntimeMethod* method)
-{
-	{
-		String_t* L_0 = p0;
-		__this->set_U23Yb_1(L_0);
-		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* BackendReturnObject_GetMessage_mDEC2BA83C4B3DB3B6ACCD3ECC8CB31563EDA035F_inline (BackendReturnObject_tC12BEAFFFCF04B9706EBF6E4AF9896AF330F082C * __this, const RuntimeMethod* method)

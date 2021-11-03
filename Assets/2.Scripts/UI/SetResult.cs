@@ -29,10 +29,7 @@ public class SetResult : MonoBehaviour
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
         data = GameObject.Find("DataManager").GetComponent<DataManager>();        
 
-        //데이터 업데이트
-        data.RankUpdate(score, stage);
-        data.coinUpdate(player.coin);
-        data.expUpdate((int)score / 100);
+        //데이터 업데이트        
         setText();
     }
 
@@ -49,7 +46,9 @@ public class SetResult : MonoBehaviour
             newScore.SetActive(false);
         if (!isNewStage)
             newStage.SetActive(false);
-
+        data.RankUpdate(score, stage);
+        data.coinUpdate(player.coin);
+        data.expUpdate((int)score / 1000);
         //text 초기화
         highestStageText.text = stage.ToString();
         highestScoreText.text = score.ToString();
@@ -57,6 +56,6 @@ public class SetResult : MonoBehaviour
         scoreText.text = player.score.ToString();
         coinText.text = player.coin.ToString();
         textlevel.text = data.getLevel().ToString();
-        textexp.text = data.getExp().ToString();
+        textexp.text = data.getExp().ToString() + " / " + data.getNextExp().ToString();        
     }
 }

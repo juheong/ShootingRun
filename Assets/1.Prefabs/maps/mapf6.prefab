@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7568819021807439352}
   - component: {fileID: 3979902008337634110}
   - component: {fileID: 7354821173790410884}
-  - component: {fileID: -5755750560756630455}
   m_Layer: 0
   m_Name: mapf6
   m_TagString: Untagged
@@ -27,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5663434798114582271}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 243.2, y: -0.1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 0.1, z: 20}
   m_Children:
   - {fileID: 8360361334613447766}
@@ -269,24 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d765360f138e3cb4a95c8fdd9a7f0f57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyDistance: 15
---- !u!114 &-5755750560756630455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5663434798114582271}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19c12b9029b1f7a48a284aff8c8d442b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 10
-  BendX: 0.1
-  BendY: 0.1
-  materials:
-  - {fileID: 2100000, guid: 89ccc2d18c944fa489a22fc2a7a7e40f, type: 2}
+  destroyDistance: 30
 --- !u!1001 &5136289553637330
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13654,11 +13636,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 425312, guid: ce4310faa471efc478e0232d3ed58cd0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.07
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 425312, guid: ce4310faa471efc478e0232d3ed58cd0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.04
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 425312, guid: ce4310faa471efc478e0232d3ed58cd0, type: 3}
       propertyPath: m_LocalScale.z

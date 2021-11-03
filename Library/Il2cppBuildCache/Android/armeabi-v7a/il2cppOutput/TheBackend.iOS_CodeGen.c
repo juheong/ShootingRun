@@ -20,7 +20,7 @@ static Il2CppMethodPointer s_methodPointers[1] =
 };
 static const int32_t s_InvokerIndices[1] = 
 {
-	7023,
+	5340,
 };
 extern const CustomAttributesCacheGenerator g_TheBackend_iOS_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_TheBackend_iOS_CodeGenModule;

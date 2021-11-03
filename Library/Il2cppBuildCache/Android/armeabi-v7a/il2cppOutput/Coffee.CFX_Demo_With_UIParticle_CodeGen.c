@@ -53,18 +53,18 @@ static Il2CppMethodPointer s_methodPointers[12] =
 };
 static const int32_t s_InvokerIndices[12] = 
 {
-	4697,
-	2984,
-	4697,
-	3804,
-	3861,
-	3823,
-	4697,
-	4697,
-	3328,
-	7023,
-	4697,
-	2984,
+	3416,
+	2147,
+	3416,
+	2780,
+	2827,
+	2795,
+	3416,
+	3416,
+	2422,
+	5340,
+	3416,
+	2147,
 };
 extern const CustomAttributesCacheGenerator g_Coffee_CFX_Demo_With_UIParticle_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Coffee_CFX_Demo_With_UIParticle_CodeGenModule;

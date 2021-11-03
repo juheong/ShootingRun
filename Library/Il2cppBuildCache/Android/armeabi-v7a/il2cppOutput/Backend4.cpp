@@ -23200,7 +23200,7 @@ IL_011b:
 		L_59 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_58, /*hidden argument*/NULL);
 		NullCheck(L_57);
 		bool L_60;
-		L_60 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_57, L_59);
+		L_60 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_57, L_59);
 		if (!L_60)
 		{
 			goto IL_0143;
@@ -24737,7 +24737,7 @@ IL_012d:
 		Type_t * L_54 = V_6;
 		NullCheck(L_53);
 		bool L_55;
-		L_55 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_53, L_54);
+		L_55 = VirtFuncInvoker1< bool, Type_t * >::Invoke(112 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_53, L_54);
 		if (L_55)
 		{
 			goto IL_0160;

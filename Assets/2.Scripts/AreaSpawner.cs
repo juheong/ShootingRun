@@ -20,6 +20,7 @@ public class AreaSpawner : MonoBehaviour
     [SerializeField]
     private bool isBoss = false;
     public GameObject SkillsIndicator;
+    Rigidbody rigid;
 
     //public TextMeshProUGUI text;
     public PanelController panelController;
@@ -124,15 +125,15 @@ public class AreaSpawner : MonoBehaviour
                 loc = Random.Range(0, 3);       //토네이도 위치를 위한 랜덤변수
                 if (loc == 0)       //좌측
                 {
-                    StartCoroutine(Tornado(-1f, 1f, playerTransform.position.z));
+                    StartCoroutine(Tornado(-1f, 0, playerTransform.position.z));
                 }
                 else if (loc == 1)        //중간
                 {
-                    StartCoroutine(Tornado(0f, 1f, playerTransform.position.z));
+                    StartCoroutine(Tornado(0f, 0, playerTransform.position.z));
                 }
                 else           //우측
                 {
-                    StartCoroutine(Tornado(1f, 1f, playerTransform.position.z));
+                    StartCoroutine(Tornado(1f, 0, playerTransform.position.z));
                 }
             }
         }
@@ -175,18 +176,16 @@ public class AreaSpawner : MonoBehaviour
     }
 
     IEnumerator Tornado(float x, float y, float z)
-    {
-        z += 15f;
-        Vector3 Indi_position = new Vector3(x, y, z);
+    {        
+        Vector3 Indi_position = new Vector3(x, y+0.2f, z+50f);
         GameObject skill_indicator = Instantiate(SkillsIndicator, Indi_position, transform.rotation);
         skill_indicator.transform.LookAt(Player.transform);
-
         Quaternion indirot = skill_indicator.transform.rotation * Quaternion.Euler(new Vector3(0,90,0));
-        Destroy(skill_indicator, 1.5f);
+        Destroy(skill_indicator, 2f);
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2f);
 
-        Vector3 enem_transform = new Vector3(x, y, z + 50f);    //이벤트 좌표값
+        Vector3 enem_transform = new Vector3(x, y, z + 70f);    //이벤트 좌표값
         Enemy tornado = Instantiate(events[0], enem_transform, indirot);   //rotation
         Destroy(tornado, 4f);
 

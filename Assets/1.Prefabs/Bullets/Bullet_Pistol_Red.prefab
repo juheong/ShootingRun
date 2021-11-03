@@ -14644,7 +14644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
-  explosionPrefab: {fileID: 1107041067620042, guid: 987350d53ec090545b8610fad613384f,
+  explosionPrefab: {fileID: 1107041067620042, guid: 9ea25227912dbcc45b3c4f376e98240e,
     type: 3}
   brange: 0
 --- !u!1 &1277840756753770

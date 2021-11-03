@@ -15,6 +15,8 @@ public class MenuCharacter : MonoBehaviour
 	private GameObject[] Z_weapons;
 	[SerializeField]
 	private GameObject[] P_weapons;
+	[SerializeField]
+	private GameObject[] R_weapons;
 	public void Change(string name)
     {
 		int i = 0;
@@ -47,6 +49,11 @@ public class MenuCharacter : MonoBehaviour
 		if (P_weapons[i].activeSelf == false)
 		{
 			P_weapons[i].SetActive(true);
+
+		}
+		if (R_weapons[i].activeSelf == false)
+		{
+			R_weapons[i].SetActive(true);
 
 		}
 	}
@@ -82,6 +89,11 @@ public class MenuCharacter : MonoBehaviour
 		if (P_weapons[i].activeSelf == true)
 		{
 			P_weapons[i].SetActive(false);
+
+		}
+		if (R_weapons[i].activeSelf == true)
+		{
+			R_weapons[i].SetActive(false);
 
 		}
 	}

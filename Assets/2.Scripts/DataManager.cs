@@ -752,6 +752,11 @@ public class DataManager : MonoBehaviour
         return player.current_exp;
     }
 
+    public int getNextExp()
+    {
+        return player.next_exp;
+    }
+
     public int getHighScore()
     {
         return player.highScore;
