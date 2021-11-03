@@ -118,8 +118,8 @@ public class Player : MonoBehaviour
                 }
                 else
                 {
-                    transform.position += Vector3.forward * moveSpeed * Time.deltaTime;
                     Attack();
+                    transform.position += Vector3.forward * moveSpeed * Time.deltaTime;                    
 
                 }
             }
@@ -179,7 +179,7 @@ public class Player : MonoBehaviour
         {
             yield return new WaitForSeconds(3.2f);
             playerAnimator.OnScene();
-            yield return new WaitForSeconds(2.5f);
+            yield return new WaitForSeconds(3f);
             sceneCamera.SetActive(false);
             mainCamera.SetActive(true);
             uiObject.SetActive(true);
@@ -366,8 +366,7 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         Time.timeScale = 0;
-        PanelController panelController = FindObjectOfType<PanelController>();
-        GameObject.Destroy(obj1);
+        PanelController panelController = FindObjectOfType<PanelController>();        
         panelController.OpenPanel(2);
 
     }

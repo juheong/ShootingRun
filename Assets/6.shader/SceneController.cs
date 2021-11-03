@@ -14,7 +14,7 @@ public class SceneController : MonoBehaviour
     {
         _BendX = BendX;
         BendX = 0f;
-        Invoke("Bending", 5.7f);
+        Invoke("Bending", 6.2f);
     }
 
     // Update is called once per frame
