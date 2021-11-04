@@ -20,7 +20,7 @@ public class UserInfoPanel : MonoBehaviour
 
         nickname.text = data.getName();
         level.text = data.getLevel().ToString();
-        highStage.text = data.getHighScore().ToString();
+        highStage.text = data.getHighStage().ToString();
         highScore.text = data.getHighScore().ToString();
         exp.text = data.player.current_exp.ToString() + " / " + data.player.next_exp.ToString();
 

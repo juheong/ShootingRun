@@ -93,33 +93,9 @@ public class AreaSpawner : MonoBehaviour
 
         else
         {
-            if (clear >= obsStart && clear <= obsEND)
+            if (clear < 55 && clear % 7 == 0)       // clear 조건에 따라 토네이도 이벤트 발생
             {
-                float X_coord = -1.5f;        //장애물 X좌표
-                for (int i = 0; i < 3; i++)
-                {
-                    isSpawn = Random.Range(0, 10);       //스폰 할 것 인지 말 것인지 (70%)
-                    if (isSpawn > 2)
-                        SpawnObstacle(O_len, X_coord);
-                    X_coord += 1.5f;
-                }
-            }
-            else if (clear <= 55 && clear >= 8)
-            {
-                float X_coord = -1.5f;        //몬스터 X좌표
-
-                for (int i = 0; i < 3; i++)
-                {
-                    isSpawn = Random.Range(0, 10);       //스폰 할 것 인지 말 것인지 (70%)
-                    if (isSpawn > 2)
-                        SpawnMonster(E_len, X_coord);
-                    X_coord += 1.5f;
-                }
-            }
-
-
-            if (clear < 55 && clear % 10 == 0)       // clear 조건에 따라 토네이도 이벤트 발생
-            {
+                Debug.Log("Torando");
                 int loc;
 
                 loc = Random.Range(0, 3);       //토네이도 위치를 위한 랜덤변수
@@ -136,6 +112,35 @@ public class AreaSpawner : MonoBehaviour
                     StartCoroutine(Tornado(1f, 0, playerTransform.position.z));
                 }
             }
+
+            if (clear >= obsStart && clear <= obsEND)
+            {
+                Debug.Log("not Torando");
+
+                float X_coord = -1.5f;        //장애물 X좌표
+                for (int i = 0; i < 3; i++)
+                {
+                    isSpawn = Random.Range(0, 10);       //스폰 할 것 인지 말 것인지 (70%)
+                    if (isSpawn > 2)
+                        SpawnObstacle(O_len, X_coord);
+                    X_coord += 1.5f;
+                }
+            }
+            else if (clear <= 55 && clear >= 8)
+            {
+                Debug.Log("not Torando");
+
+                float X_coord = -1.5f;        //몬스터 X좌표
+
+                for (int i = 0; i < 3; i++)
+                {
+                    isSpawn = Random.Range(0, 10);       //스폰 할 것 인지 말 것인지 (70%)
+                    if (isSpawn > 2)
+                        SpawnMonster(E_len, X_coord);
+                    X_coord += 1.5f;
+                }
+            }
+
         }
     }
 
@@ -172,7 +177,8 @@ public class AreaSpawner : MonoBehaviour
         
         Vector3 enem_transform = new Vector3(X_coord, obstacles[index].transform.position.y, playerTransform.position.z + 40 + Random.Range(-5.0f, 20.0f));    //장애물 좌표값
 
-        Instantiate(obstacles[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //장애물 생성
+        GameObject obstacle = Instantiate(obstacles[index], enem_transform, transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0)));    //장애물 생성
+        Destroy(obstacle, 4f);
     }
 
     IEnumerator Tornado(float x, float y, float z)

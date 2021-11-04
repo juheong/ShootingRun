@@ -301,7 +301,7 @@ public class Player : MonoBehaviour
         }        
         else if (other.tag == "Obstacle")
         {
-            StartCoroutine(OnDamage(20));
+            StartCoroutine(OnDamage((int)(20 * ( 1+ (stage*0.4f) ))));
             this.audioSource.Play();
 
         }
