@@ -50,20 +50,20 @@ public class Enemy : MonoBehaviour
             default:
                 break;
             case Type.Burrow:
-                maxHealth = (int)(30 *(1+(stage*0.2)));
+                maxHealth = (int)(30 *(1+(stage * 3.5f)));
                 attackTime = 0.3f;                
                 break;
             case Type.Sneak:
-                maxHealth = (int)(30 * (1 + (stage * 0.2)));
+                maxHealth = (int)(30 * (1 + (stage * 3.5f)));
                 attackTime = 0.5f;
                 break;
             case Type.Rush:
-                maxHealth = (int)(50 * (1 + (stage * 0.2)));
+                maxHealth = (int)(50 * (1 + (stage * 3.5f)));
                 attackTime = 0.3f;
                 break;
             case Type.Range:
                 attackTime = 0.3f;
-                maxHealth = (int)(30 * (1 + (stage * 0.2)));
+                maxHealth = (int)(30 * (1 + (stage * 3.5f)));
                 break;                     
         }
         curHealth = maxHealth;

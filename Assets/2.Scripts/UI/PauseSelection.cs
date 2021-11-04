@@ -23,9 +23,7 @@ public class PauseSelection : MonoBehaviour
     }
 
     public void ExitPause()
-    {
-        obj1 = GameObject.Find("DataManager");
-        Destroy(obj1);
+    {        
         Time.timeScale = 1;
         panelController.ExitPanel();
     }

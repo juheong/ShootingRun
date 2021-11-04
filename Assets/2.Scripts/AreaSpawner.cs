@@ -177,7 +177,7 @@ public class AreaSpawner : MonoBehaviour
 
     IEnumerator Tornado(float x, float y, float z)
     {        
-        Vector3 Indi_position = new Vector3(x, y+0.2f, z+50f);
+        Vector3 Indi_position = new Vector3(x, y+0.21f, z+50f);
         GameObject skill_indicator = Instantiate(SkillsIndicator, Indi_position, transform.rotation);
         skill_indicator.transform.LookAt(Player.transform);
         Quaternion indirot = skill_indicator.transform.rotation * Quaternion.Euler(new Vector3(0,90,0));
