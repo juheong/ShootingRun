@@ -22455,12 +22455,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserInfoPanel_OnEnable_m47FAE3182A5DC123
 		L_8 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)(&V_0), /*hidden argument*/NULL);
 		NullCheck(L_5);
 		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_5, L_8);
-		// highStage.text = data.getHighScore().ToString();
+		// highStage.text = data.getHighStage().ToString();
 		TextMeshProUGUI_tCC5BE8A76E6E9AF92521A462E8D81ACFBA7C85F1 * L_9 = __this->get_highStage_7();
 		DataManager_t01518B3D49E16D1E80F0C7C9F0533427905EC1E2 * L_10 = __this->get_data_9();
 		NullCheck(L_10);
 		int32_t L_11;
-		L_11 = DataManager_getHighScore_m8799F2CCC6AB6037462DCCF5894C80A88DFBC949(L_10, /*hidden argument*/NULL);
+		L_11 = DataManager_getHighStage_mFC2C9160EAC976E5F6ED6F05C863ED42D5D7F60A(L_10, /*hidden argument*/NULL);
 		V_0 = L_11;
 		String_t* L_12;
 		L_12 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)(&V_0), /*hidden argument*/NULL);
